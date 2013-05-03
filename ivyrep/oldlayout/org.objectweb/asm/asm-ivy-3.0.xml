@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="org.objectweb" module="asm" revision="3.0" status="release">
+    <license name="bsd" url="http://www.opensource.org/licenses/bsd-license.php"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="asm-all" type="jar"/>
+    <artifact name="asm-bin" type="distribution" ext="zip" conf="distribution"/>
+    <artifact name="asm-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>

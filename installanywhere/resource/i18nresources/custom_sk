@@ -1,0 +1,2008 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Dokončiť odinštalovanie.
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Úplne odstrániť všetky vlastnosti a komponenty $PRODUCT_NAME$ nainštalované programom InstallAnywhere. Súbory a zložky vytvorené po inštalácii ostanú nedotknuté.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Špecifické vlastnosti odinštalovania
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Vybrať špecifické vlastnosti $PRODUCT_NAME$ nainštalované programom InstallAnywhere k odinštalovaniu.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Vyberte jednu z volieb:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Voľby pre odstránenie inštalácie
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Odinštalovať
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Úplne odstrániť všetky vlastnosti a komponenty.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Vybrať špecifické vlastnosti nainštalované programom InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Vyberte jednu z volieb:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Voľby pre odstránenie inštalácie
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=ZADAJTE ČÍSLO POŽADOVANÉHO ÚDAJA ALEBO STLAČTE <ENTER> PRE PRIJATIE VÝCHODZEJ HODNOTY:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Na disku je teraz dostatok miesta k zahájeniu inštalácie.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=ale je k dispozícii iba XXX MB na:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=K tejto inštalácii je treba XXX MB voľného miesta na disku,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Ináč môžete túto inštaláciu zrušiť voľbou 'Zrušiť'.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Ak chcete pokračovať v inštalácii uvoľnite aspoň XXX MB.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Ak chcete pokračovať v inštalácii uvoľnite miesto na disku.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Ak chcete pokračovať v inštalácii klepnite prosím na 'Inštalovať'.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Pripravené na ďalší postup
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Nedostatočná kapacita disku
+
+# ................... =Warning!
+CheckDiskSpace.warning=Varovanie!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=STISKNITE <ENTER>, AK CHCETE ZNOVU KALKULOVAŤ KAPACITU DISKU,\u000A   LEBO ZAPÍŠTE "UKONČIŤ", ČÍM VYSTÚPITE Z INŠTALAČNÉHO PROGRAMU
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=K tejto inštalácii niet na disku dostatok miesta. \u000A Uvoľnite prosím miesto na disku a spustite tento inštalačný program znovu...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=AK CHCETE ZAHÁJIŤ INŠTALÁCIU, STISNITE KLÁVESU <ENTER>
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Varovanie!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=K tejto inštalácii je treba XXX MB voľného miesta na disku,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=ale je k dispozícii iba XXX MB na:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Ak chcete pokračovať v inštalácii uvoľnite aspoň XXX MB.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Ak chcete pokračovať v inštalácii uvoľnite miesto na disku.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Na disku je teraz dostatok miesta k zahájeniu inštalácie.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Nedostatočná kapacita disku
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Zvoľte prosím súbor.
+
+# ................. =Choose...
+ChooseFile.chooseStr=Zv&oliť...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=Z&voľte prosím súbor:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=O&bnoviť východiskový súbor
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Zvoliť súbor
+
+# .................... =in the folder
+ChooseFile.macInsideStr=v zložke
+
+# ................ =on the disk
+ChooseFile.macOnStr=na disku
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Zvoľte prosím zložku.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=Zv&oliť...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=Z&voľte prosím zložku:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=O&bnoviť východiskovú zložku
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Zvoliť zložku
+
+# .................. =on the disk
+ChooseFolder.macOnStr=na disku
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Chyba!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Ku zvolenej zložke nemáte povolenie na zápis. Zvoľte prosím inú zložku.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Zvoliť zložku
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Vybrať inštalačnú sadu
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Vybrať inštalačnú sadu
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Vybrať vlastnosti produktu
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Vyberte inštalačnú sadu pre inštaláciu týmto inštalačným programom.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=ZADAJTE ČÍSLO INŠTALAČNEJ SADY ALEBO STLAČTE <ENTER> PRE PRIJATIE VÝCHODZEJ HODNOTY\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Vyberte Vlastnosti, ktoré majú byť nainštalované inštalačným programom.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=ZVOĽTE ČIARKOU ODDELENÝ ZOZNAM ČÍSIEL, KTORÝ PREDSTAVUJE ŽIADÚCE VLASTNOSTI,\u000A KTORÉ MAJÚ BYŤ INŠTALOVANÉ
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Vybrať inštalačnú sadu
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Upraviť podľa užívateľa
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Chybné nastavenie vlastností produktu pre inštaláciu.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Zvoľte prosím Java VM pre použitie inštalovanou aplikáciou
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Zvoliť Java Virtual Machine
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Zadaná cesta nesmeruje k platnej Java Virtual Machine. Urobte prosím novú voľbu.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Zvoľte prosím Java VM pre použitie inštalovanou aplikáciou
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Zvoliť Java Virtual Machine
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=ZADAJTE ČÍSLO JAVA VM LEBO STISKNUTÍM KLÁVESY <ENTER> POTVRĎTE\u000A   AKTUÁLNU VOĽBU
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=ZADAJTE ABSOLÚTNU CESTU K SPUSTITEĽNÉMU PROGRAMU JAVA VM PODĽA VLASTNEJ VOĽBY\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=CESTA KU SPUSTITEĽNÉMU PROGRAMU JAVA JE:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Nemožno nainštalovať Java Virtual Machine ktorá tvorí súčasť tohoto inštalačného programu.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Inštalovať Java VM konkrétne pre túto aplikáciu
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Zvoliť Java VM ktorá je už na tomto systéme nainštalovaná
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=Zv&oliť iné...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Otvoriť
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Inštalovať Java VM konkrétne pre túto aplikáciu
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Prostredie Java Runtime
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Vyhľadáva sa v: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Zastav&iť vyhľadávanie
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=Hľadať ďalš&ie
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Vyhľadávanie je hotové.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Zvoliť Java VM ktorá je už na tomto systéme nainštalovaná
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Chyba!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Zvolená aplikácia nie je platná Java Virtual Machine.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Zvoliť Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Chyba: Neboli nájdené vhodné Java Virtual Machines.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Tento výrobok vyžaduje aby na vašom systéme bola už nainštalovaná Java Virtual Machine. Na adrese <http://java.sun.com> si môžete zaviesť virtual machine pre svoju platformu.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Zvoliť Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=Výber voliteľných funkcií SCM
+ChooseSCMFeaturesConsole.title=Výber voliteľných funkcií SCM
+ChooseSCMFeaturesConsole.instructions=Výber pokynov k funkciám SCM
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=AK CHCETE POKRAČOVAŤ STISNITE KLÁVESU <ENTER>
+
+# ................. =Y
+ConsoleUtils.yesChar=A
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=JE TO SPRÁVNE?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Jedna ze zadaných hodnôt je neplatná. Urobte prosím novú voľbu.
+
+#............... =back
+ConsoleUtils.back=späť
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Nezatrhávajte vlastnosti, ktoré chcete odinštalovať. Zatrhnuté vlastnosti zostanú nainštalované.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Zatrhnite vlastnosti, ktoré chcete odinštalovať. Nezatrhnuté vlastnosti ostanú nainštalované.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Vybrať vlastnosti produktu
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Vyberte Vlastnosti, ktoré majú byť nainštalované týmto inštalačným programom.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Nezatrhávajte vlastnosti, ktoré chcete odinštalovať. Zatrhnuté vlastnosti zostanú nainštalované.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Zatrhnite vlastnosti, ktoré chcete odinštalovať. Nezatrhnuté vlastnosti ostanú nainštalované.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Vybrať vlastnosti produktu
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=ZADAJTE ČIARKOU ODDELENÝ ZOZNAM ČÍSEL, KTORÝ PREDSTAVUJE VLASTNOSTI, KTORÉ CHCETE VYBRAŤ ALEBO ODSTRÁNIŤ. POPIS VLASTNOSTÍ ZOBRAZÍTE ZADANÍM '?<NUMBER>'. ZADANIE UKONČÍTE STLAČENÍM <RETURN>:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Inštalovať sadu
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Vybrať vlastnosti produktu
+
+#............................... =Description
+CustomizeBundlesPanel.description=Popis
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Celkové voľné miesto potrebné k inštalácii:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Vložte nové médiá
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Prosím vložte #NAME# alebo zvoľte "Prehliadat...", aby ste previedli manuálne umiestenie.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Nesprávny objem médií
+# .................... =Browse
+DiskNeededDialog.locate=Prehliadať
+
+# .................. =Cancel
+DiskNeededDialog.quit=Zrušiť
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Vložte nové médiá
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Prosím, vložte #NAME# alebo zvoľte cestu manuálne.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Prosím, vložte #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Disk sa očakáva v: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Prosím, vložte #NAME# alebo napíšte jeho umiestnenie.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=V poriadku, XXX je vložené.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Zvoľte cestu k inštalátori dát.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Zrušte a ukončite inštaláciu.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=ZVOĽTE VOĽBU
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=ZVOLTE CESTU KE ZLOŽKE 'INSTALLERDATA' NA DISKU
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Prostredia vášho systému sa zmenili. Aby tieto zmeny nadobudli platnosť musíte sa odhlásiť lebo reštartovať svoj systém.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Zmenilo sa systémové prostredie
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Ukončiť
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Inštalácia nie je hotová
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Inštalácia nie je hotová
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Ak zrušíte inštaláciu teraz, výrobok $PRODUCT_NAME$ nebude inštalovaný. Ak chcete pokračovať v inštalácii, klepnite na 'Obnoviť'. Ak chcete inštaláciu zrušiť, klepnite na 'ukončiť'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Ak zrušíte inštaláciu teraz, výrobok $PRODUCT_NAME$ nebude inštalovaný. Ak chcete pokračovať v inštalácii, klepnite na 'Obnoviť'. Ak chcete inštaláciu zrušiť, klepnite na 'ukončiť'.
+
+# .......... =Resume
+ExitDialog.ok=Obnoviť
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Zrušiť deinštaláciu.
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Zrušiť inštaláciu
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Áno pre všetko
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Nie pre všetko
+
+# ....................... =Yes
+FileAlreadyExists.yes=Áno
+
+# ....................... =No
+FileAlreadyExists.no=Nie
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Prepísať jestvujúci súbor?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Súbor s názvom \"XXX\" už jestvuje v \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Novší súbor s názvom \"XXX\" už jestvuje v \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Starší súbor s názvom \"XXX\" už jestvuje v \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Chcete prepísať jestvujúci súbor?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=Z&voľte prosím súbor/zložku:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Zvoliť
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Pridávajú sa súbory do zoznamu nižšie.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=Nájdené súbory sú uvedené nižšie.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Pridávajú sa zložky do zoznamu nižšie.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=Nájdené zložky sú uvedené dole.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Nájdené súbory odpovedajúce:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Nájdené zložky odpovedajúce:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Nájdené v:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=Zv&oliť iné...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Hľadá sa v:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Urobte prosím svoju vlastnú voľbu.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Vyhľadávajú sa súbory odpovedajúce:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Vyhľadávajú sa zložky odpovedajúce:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Vyhľadávanie
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Zvoliť
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Inštalačný program nenašiel zhodu pre:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Zvolené:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Zvoliť zložku
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Zrušiť
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Vytvoriť novú zložku
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Zložka:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Meno:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=JE TO SPRÁVNĚ?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=AK CHCETE POKRAČOVAŤ STISNITE KLÁVESU <ENTER>
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Chyba:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Čakajte prosím, prebieha konfigurácia $PRODUCT_NAME$ pre váš systém. Toto môže chvíli trvať...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Čakajte prosím
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Aby ste mohli pokračovať v inštalácii musíte zadať heslo.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=Za&dajte prosím heslo:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Zadajte heslo
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Chyba!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Zadané heslo je nesprávne. Skúste to prosím znova.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Zadajte heslo
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Aby ste mohli pokračovať musíte zadať heslo.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Aby ste mohli pokračovať v inštalácii musíte zadať heslo.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Zadané heslo je nesprávne. Skúste to prosím znova.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Zadajte prosím heslo:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Aby ste mohli pokračovať musíte zadať heslo.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Zadajte heslo
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=ZADAJTE ČÍSLA POŽADOVANÝCH HODNÔT VÝBERU, ODDELENÉ ČIARKOU
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=ZADAJTE ČÍSLA POŽADOVANÝCH HODNÔT VÝBERU, ODDELENÉ ČIARKOU, ALEBO STLAČTE <ENTER> PRE ZOBRAZENIE VÝCHODZÍCH HODNÔT
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=ZADAJTE ČÍSLO POŽADOVANÉHO ÚDAJA
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=ZADAJTE ČÍSLO POŽADOVANÉHO ÚDAJA ALEBO STLAČTE <ENTER> PRE PRIJATIE VÝCHODZEJ HODNOTY:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Momentálne nie je možné ukončiť inštalačný program.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Momentálne nie je možné vrátiť sa k predchádzajúcemu kroku.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Dôležité informácie
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Prečítajte si prosím než budete pokračovať:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=KONIEC DÔLEŽITÝCH INFORMÁCIÍ. AK CHCETE POKRAČOVAŤ STISNITE KLÁVESU <ENTER>
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Dôležité informácie
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Prečítajte si prosím než budete pokračovať:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Aplikácia
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Inštaluje aplikáciu.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Nápoveď
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Nainštaluje funkciu nápoveď.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Blahoželáme! $PRODUCT_NAME$ bol úspešne nainštalovaný do:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AStlačením "Vykonané" ukončíte inštalačný program.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Inštalácia je hotová
+InstallCompleteAction.stepTitle=Inštalácia je hotová
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=Inštalácia $PRODUCT_NAME$ je kompletná, ale v priebehu jej procesu došlo k niektorým chybám.\u000A    \u000A\u000APodrobnosti sú uvedené v zázname o inštalácii. Stlačením "Vykonané" ukončíte inštalačný program.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Inštalácia je hotová
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Inštalácia je hotová
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Blahoželáme vám. Výrobok $PRODUCT_NAME$ bol úspešne nainštalovaný do:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=AK CHCETE VYSTÚPIŤ Z INŠTALAČNÉHO PROGRAMU STISNITE KLÁVESU <ENTER>
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=Inštalácia $PRODUCT_NAME$ je kompletná, ale v priebehu jej procesu došlo k niektorým chybám.\u000A    \u000APodrobnosti sú uvedené v zázname o inštalácii.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=Inštalácia $PRODUCT_NAME$ je kompletná, ale v priebehu jej procesu došlo k niektorým chybám.\u000A    \u000APodrobnosti sú uvedené v zázname o inštalácii. Stlačením "Vykonané" ukončíte inštalačný program.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=AK CHCETE VYSTÚPIŤ Z INŠTALAČNÉHO PROGRAMU STISNITE KLÁVESU <ENTER>
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Inštalácia je hotová
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Zvoľte prosím cieľovú zložku pre túto inštaláciu.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Zvoliť Inštalačnú zložku
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=&Kde si prajete urobiť inštaláciu?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Zvoliť Inštalačnú zložku
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=ZADAJTE ABSOLÚTNU CESTU LEBO STISNUTÍM KLÁVESY <ENTER> POTVRĎTE VÝCHODISKOVÉ NASTAVENIE\u000A  
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=ZADAJTE ABSOLÚTNU CESTU, ZAPÍŠTE 'východisková' NA OBNOVENIE VÝCHODISKOVEJ ZLOŽKY\u000A LEBO STISNUTÍM KLÁVESY <ENTER> POTVRĎTE ZVOLENÚ ZLOŽKU
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Východisková Inštalačná zložka: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Zvolená Inštalačná zložka 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=INŠTALAČNÁ ZLOŽKA JE: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Zadaná cesta: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=odkazuje na súbor ktorý už jestvuje v cieľovom systéme. \u000ATento inštalačný program nemôže prepísať jestvujúci súbor novou zložkou. \u000AZvoľte prosím pre inštaláciu iné umiestenie.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Ku zvolenému cieľovému umiesteniu inštalácie nemáte povolení na zápis. \u000AZvoľte prosím iné umiestenie.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Kde si prajete urobiť inštaláciu?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Chyba!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Ku zvolenému cieľovému umiesteniu inštalácie nemáte povolení na zápis. \u000AZvoľte prosím iné umiestenie.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Zvoliť Inštalačnú zložku
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Cesta uvedená ako cieľová lokalita pre inštaláciu obsahuje jeden nebo viacero znakov, ktoré sú pre túto platformu neplatné.  \u000AZvoľte prosím inú lokalitu pre inštaláciu.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=Z&voliť...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=O&bnoviť východiskovú zložku
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=vnútri
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=vo zložke
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=na disku
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=inštalovať
+
+# ....................... =Introduction
+Installer.installLabels.00=Úvod
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Zvoliť Inštalačnú zložku
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Vybrať zložku $SHORTCUT_NAME$
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Súhrn informácií pred inštaláciou
+
+# ....................... =Installing...
+Installer.installLabels.04=Prebieha inštalácia...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Inštalácia je hotová
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Inštalačný program nemožno spustiť na tomto systéme.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Inštalačný program nemožno spustiť s vašou konfiguráciou. Teraz ukončí.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Režim užívateľského rozhrania inštalačného programu nie je podporovaný.
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Inštalačný program nemožno spustiť v tomto režime. Pokyny na spúšťanie tohoto inštalačného programu nájdete v dokumentácii dodávanej s inštalačným programom.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Chyba režimu UI inštalačného programu
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Odinštalovať $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Blahoželáme! $PRODUCT_NAME$ bol úspešne nainštalovaný do:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AStlačením "Vykonané" ukončíte inštalačný program.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=Inštalácia $PRODUCT_NAME$ je kompletná, ale v jej priebehu sa objavili nejaké varovania. Podrobnosti sú uvedené v zázname o inštalácii.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=Inštalácia $PRODUCT_NAME$ je kompletná, ale počas jej procesu vznikli nejaké chyby. Podrobnosti sú uvedené v zázname o inštalácii.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=Inštalácia $PRODUCT_NAME$ je kompletná, ale počas jej procesu vznikli závažné chyby. Podrobnosti sú uvedené v zázname o inštalácii.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Na dokončenie inštalácie je treba reštartovať systém.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage= Na dokončenie inštalácie je treba reštartovať systém.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Inštalácia je hotová
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Áno, reštartovať systém
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Nie, vykonám reštart systému sám/sama
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Prebieha inštalácia...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Inštalácia sa ruší...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Prebieha inštalácia...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Súhrn informácií pred inštaláciou
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Prezrite si prosím nasledujúce než budete pokračovať:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Súhrn informácií pred inštaláciou
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=AK CHCETE POKRAČOVAŤ, STISNITE KLÁVESU <ENTER>. AK SÚ UVEDENÉ INFORMÁCIE NESPRÁVNE, ZAPÍŠTE 'späť', ABY STE MOHLI VYKONAŤ PŘÍSLUŠNÉ ZMENY\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Meno výrobku:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Inštalačná zložka:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Zložka zástupcov:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Zložka odkazov:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Zložka Zástupca:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Užívateľsky definovaná zákaznícka inštalačná sada
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Inštalovať sadu
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Komponenty výrobku:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Inštalačná zložka Java VM:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Java VM na použitie inštalovaným výrobkom:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Informácie o kapacite disku (pre Cieľovú inštaláciu): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Vyžadované:
+
+# .................. =bytes
+InstallSummaryUI.byte=slabík(slabiky)
+
+# ....................... =Available:
+InstallSummaryUI.available=K dispozícii:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Táto voľba umožní užívateľskú úpravu vlastností, ktoré majú byť inštalované.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Podľa užívateľa
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Nainštalujú sa iba požadované aplikačné prvky. Táto možnosť sa odporúča iba pre užívateľov s obmedzenou kapacitou disku.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Minimálna
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=Nainštalujú sa najbežnejšie aplikačné prvky. Táto možnosť sa odporúča iba pre väčšinu užívateľov.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Typické
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere vás prevedie inštaláciou $PRODUCT_NAME$. \u000A\u000ANaliehavo odporúčame, aby ste ukončili všetky programy pred tým, než budete pokračovať s touto inštaláciou. \u000A\u000AKlepnite na 'Ďalší', aby ste mohli prejsť na nasledujúcu obrazovku. Ak chcete vykonať nejakú zmenu na predchádzajúcej obrazovke, klepnite na 'Predchádzajúca. \u000A\u000AInštaláciu môžete kedykoľvek zrušiť klepnutím na 'Zrušiť'.
+
+# .................. =Introduction
+IntroAction.stepTitle=Úvod
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere vás prevedie inštaláciou $PRODUCT_NAME$. \u000A\u000ANaliehavo odporúčame, aby ste ukončili všetky programy pred tým, než budete pokračovať s touto inštaláciou. \u000A\u000AReagujte na jednotlivé výzvy, aby ste mohli pokračovať s nasledujúcimi krokmi inštalácie. Ak chcete vykonať nejakú zmenu na predchádzajúcom úkone, zapíšte 'späť'. \u000A\u000AInštaláciu môžete kedykoľvek zrušiť zápisom "ukončiť".
+
+# ..................... =Introduction
+IntroActionConsole.title=Úvod
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Nie je možné otvoriť URL v internetovom prehliadači
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=Nie je možné otvoriť URL ($ACTION_URL$)  v internetovom prehliadači  Aby ste mohli vidieť tento URL, prosíme napíšte adresu, ktorá je znázornená hore na prehliadači internetu vášho výberu.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Licenčná dohoda
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=K inštalácii a používaniu $PRODUCT_NAME$ je treba prijať nasledujúcu Licenčnú dohodu:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Licenčná dohoda
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=K inštalácii a používaniu $PRODUCT_NAME$ je treba prijať nasledujúcu Licenčnú dohodu:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=PRIJÍMATE PODMIENKY TEJTO LICENČNEJ DOHODY?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Ukončiť
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Obnoviť
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Licenčná dohoda - varovanie
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Varovanie!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Ak neprijmete podmienky Licenčnej dohody, nebudete môcť pokračovať v inštalácii.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=N&EPRIJÍMAM podmienky tejto Licenčnej dohody
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Žiadny súbor k náhľadu nenájdený
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=P&rijímam podmienky tejto Licenčnej dohody
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Nebol zvolený žiadny súbor
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=PRIJATIE VYKONAJTE STLAČENÍM <ENTER>
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=ZADAJTE ČÍSLO POŽADOVANÉHO ÚDAJA ALEBO STLAČTE <ENTER> PRE PRIJATIE VÝCHODZEJ HODNOTY
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Zrušiť
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Podrobnosti...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere je teraz pripravený k inštalácii $PRODUCT_NAME$ do vášho systému v nasledujúcom umiestení:\u000A\u000A     $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=PRE INŠTALÁCIU STISNITE KLÁVESU <ENTER>
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Pripravené na inštaláciu
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere je takmer hotový. Čakajte prosím...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Prebieha čistenie...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Aby ste mohli pokračovať v inštalácii musíte zadať sériové číslo.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=Za&dajte prosím sériové číslo:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Zadajte sériové číslo
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Chyba!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Zadané sériové číslo je nesprávne. Skúste to prosím znova.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Zadajte sériové číslo
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Aby ste mohli pokračovať musíte zadať sériové číslo.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Aby ste mohli pokračovať v inštalácii musíte zadať sériové číslo.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Zadané sériové číslo je nesprávne. Skúste to prosím znova.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Zadajte prosím sériové číslo:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Aby ste mohli pokračovať musíte zadať sériové číslo.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Zadajte sériové číslo
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Zástupca
+
+#............... =Link
+ShortcutName.link=Odkaz
+
+#................... =Shortcut
+ShortcutName.shortcut=Zástupca
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Kde si prajete vytvoriť zástupcu?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Zvoľte zložku Zástupca
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Zvoľte zložku Odkaz
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Kde si prajete vytvoriť odkazy?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Kde si prajete vytvoriť grafické symboly výrobku?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Zvoliť Umiestenie zástupcu
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Spoločné skupiny
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Aktuálne užívateľské skupiny
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=v zložke
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=na disku
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Východisková: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Aktuálne: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Zvoliť iné umiestenie...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=ZADAJTE ČÍSLO VYŠŠIE UVEDENEJ MOŽNOSTI LEBO STISNUTÍM KLÁVESY <ENTER> POTVRĎTE VÝCHODISKOVÉ NASTAVENIE\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=ZADAJTE ČÍSLO VYŠŠIE UVEDENEJ MOŽNOSTI LEBO STISNUTÍM KLÁVESY <ENTER> POTVRĎTE\u000A AKTUÁLNU VOĽBU
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=ZADAJTE ABSOLÚTNU CESTU KU ZLOŽKE ZÁSTUPCOV\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=UMIESTENIE ZÁSTUPCU: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Zvoliť Umiestenie odkazu
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Kde si prajete vytvoriť odkazy?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Zvoliť Umiestenie zástupcu
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Kde si prajete vytvoriť grafické symboly výrobku?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Zvoliť Umiestenie zástupcu
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Kde si prajete vytvoriť zástupcu?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=V ponuke Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=V dokovacom zariadení
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Na Pracovnej ploche
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Nevytvárať zástupcu
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Iné:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Nevytvárať odkazy
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Nevytvárať grafické symboly
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Vo vašej domácej zložke
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Na Pracovnej ploche
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=V novej Programovej skupine:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=V jestvujúcej Programovej skupine:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=&V pruhu rýchleho spúšťania
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=V ponuke Štart
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Vytvoriť grafické symboly pre všetkých užívateľov
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Chyba!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Ku zvolenému cieľovému umiesteniu nemáte povolenie na zápis. Zvoľte prosím iné umiestenie.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=V ponu&ke Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=V &dokovacom zariadení
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=Na P&racovnej ploche
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=Na P&racovnej ploche
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Zvoliť...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Nevytvárať zástupcu
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=&Iné:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=N&evytvárať odkazy
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=N&evytvárať grafické symboly
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=V&o vašej domácej zložke
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=Na P&racovnej ploche
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=V nove&j Programovej skupine:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=V jes&tvujúcej Programovej skupine:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=V pon&uke Štart
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=V&ytvoriť grafické symboly pre všetkých užívateľov
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Zrušiť
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Podrobnosti...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Dátum:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Číslo licencie:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Verzia skríptu:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Verzia:
+
+# ............... =Done
+StepMaster.doneStr=&Hotovo
+
+# ............... =Cancel
+StepMaster.exitStr=&Zrušiť
+
+# ............... =Help
+StepMaster.helpStr=&Nápoveď
+
+# .................. =Install
+StepMaster.installStr=&inštalovať
+
+# ............... =Next
+StepMaster.nextStr=Ď&alší
+
+# ............... =Previous
+StepMaster.prevStr=&Predchádzajúci
+
+# ............... =Close
+StepMaster.closeStr=Zavrieť
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Všetky položky boli úspešne odinštalované.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Odinštalovanie je hotové
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Nasledujúce položky nemožno odstrániť:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Nemožno odstrániť
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Na dokončenie deinštalácie je treba reštartovať systém.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Na dokončenie deinštalácie je treba reštartovať systém.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Na dokončenie deinštalácie je tiež treba reštartovať systém.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Na dokončenie deinštalácie je tiež treba reštartovať systém.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Áno, reštartovať systém
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Nie, vykonám reštart systému sám/sama
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Všetky položky boli úspešne odinštalované.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Odinštalovanie je hotové
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Nasledujúce položky nemožno odstrániť:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Na dokončenie deinštalácie je treba reštartovať systém.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Na dokončenie deinštalácie je treba reštartovať systém.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Odinštalovanie je hotové
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Všetky položky boli úspešne odinštalované.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Niektoré položky nie je možné odstrániť.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Odinštalovanie nie je ukončené v dôsledku chyby.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Odinštalovať $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=Program odinštalovania InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Úvod
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Prebieha odinštalovanie...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Odinštalovanie je hotové
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Pripravuje sa na odinštalovanie... \u000A\u000A$PRODUCT_NAME$\u000A\u000AÚplné odstránenie všetkých vlastností nainštalovaných programom  InstallAnywhere. Neodstráni súbory a zložky vytvorené po inštalácii.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Odinštalovať $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Pripravuje sa na odinštalovanie... \u000A\u000A$PRODUCT_NAME$\u000A\u000AÚplné odstránenie všetkých vlastností nainštalovaných programom  InstallAnywhere. Neodstráni súbory a zložky vytvorené po inštalácii.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Odinštalovať $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Zrušiť
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Ukončiť
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Nápoveď
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Odinštalovať
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Úkon nebolo možno zrušiť pretože nebol podporovaný.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Prebieha čistenie...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Prirodzené balíčky...
+
+# ............... =Files...
+UninstallMgr.Files=Súbory...
+
+# ................. =Folders...
+UninstallMgr.Folders=Zložky...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Odkazy...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Zástupci...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Zástupci...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Tento produkt nemožno deinštalovať, pretože na tomto systéme už nie je príslušný program "Java virtual machine". Nainštalujte program "Java virtual machine" a skúste to znovu.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 zložka
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Pripravuje sa...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Softwarová databáza...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Register...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 zložky
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Nemožno vyčistiť
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Nie je možné odstrániť prirodzené balíčky
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Nemožno odstrániť súbor
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Nemožno odstrániť zložku
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Nie je možné odstrániť  Java VM
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Nemožno odstrániť odkaz
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Nemožno odstrániť zástupcu
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Nemožno odstrániť zástupcu
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Nemožno
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Nemožno odstrániť 1 súbor
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Nemožno odstrániť 2 súbory
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Nemožno odstrániť softwarovú databázu
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Nemožno odstrániť kľúč registra
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Je nutné reštartovať systém
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Spúšťanie programu pre deinštaláciu pred reštartom systému sa neodporúča. Kliknite na \"Zrušiť\" ak chcete vystúpiť z programu pre deinštaláciu lebo na \"Pokračovať\" ak chcete vykonať deinštaláciu.
+
+# ................ =Continue
+UninstallRestart.continue=Pokračovať
+
+# ................ =Cancel
+UninstallRestart.exit=Zrušiť
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Čakajte prosím zatiaľ čo odinštalačný program InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=odstráni nasledujúce vlastnosti...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Vykonávanie zákazníckeho kódu...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Vykonávanie...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Vykonávanie inštalačného skriptu...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Inštalovať spojovací modul
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Inštaluje sa spojovací modul
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Inštalácia prirodzeného balíčku
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=ukončiť
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=STLAČENÍM <ENTER> ZAHÁJITE ODINŠTALOVANIE, STLAČENÍM 'UKONČIŤ' UKONČÍTE DEINŠTALAČNÝ PROGRAM:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=STLAČENÍM <ENTER> UKONČÍTE DEINŠTALAČNÝ PROGRAM:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Kopírovať súbor
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Kopírovať zložku
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Vytvoriť väzbu
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Vytvoriť skratku
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Vytvoriť alias
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Vytvoriť zložku
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Vytvoriť LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Zmazať súbor
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Zmazať zložku
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Rozšíriť archív
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Inštalovať SpeedFolder
+
+InstallRPMPackage.visualname.self=Inštalovať Linux RPM
+InstallSolarisPackage.visualname.self=Inštalovať Solaris Package
+InstallHPUXPackage.visualname.self=Inštalovať HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Presunúť súbor
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Presunúť zložku
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Registrovať službu Windows
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Nastaviť systémové premenné prostredie
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Nastaviť register Windows
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Vykonať skript ANT
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Vykonať príkaz
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Vykonať zákaznícky kód
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Vykonať skript
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Spustiť cieľový súbor
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Nájsť komponent v evidencii
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Získať záznam z registra Windows
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Upraviť textový súbor
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Vykonať transformáciu XSL
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Výstupné informácie ladenia
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Výstup textu na konzolu
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Zobraziť dialógové okno
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Spustiť službu Windows
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Zastaviť službu Windows
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Prerušiť službu Windows
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Vyhľadať zložku pomocou prezerania
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Inštalovať spojovací modul
+Designer.Action.PowerUpdateClient.visualName=Inštalovať klienta PowerUpdate
+Designer.Action.PerformXSLTZip.visualName=Vykonať XSL Transform - In Archive
+Designer.Action.PerformXSLT.visualName=Vykonať transformáciu XSL
+Designer.Action.PerformXSLT.performingXSLtransform=Vykonanie XSL Transform:
+Designer.Action.MakeExecutable.visualName=Vytvorte LaunchAnywhere pre aplikáciu Java
+Designer.Action.InstallZipfile.visualName=Inštalovať Archív
+Designer.Action.CreateUninstaller.visualName=Vytvoriť Odinštalovanie
+Designer.Action.BOMAction.visualName=Inštalovať z Manifestu
+Designer.Action.ExpandArchive.visualName=Rozšíriť Archív
+Designer.Action.ExecuteScript.visualName=Uskutočniť súbor Zápis/Skupina
+Designer.Action.Exec.visualName=Vykonať príkaz
+Designer.Action.visualName=Spustiť cieľový súbor
+Designer.Action.AntRunner.visualName=Vykonať skript ANT
+Designer.Actions.ShowDialogAction.visualName=Zobraziť dialógové okno
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Kroky po odinštalovaní
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Kroky pred odinštalovaním
+
+Designer.Action.EvaluateDependenciesAction.visualName=Vyhodnotenie závislostí
+
+ActionGroup.visualName.self=Akčná skupina
+Designer.Action.UpdateServiceClient.visualName=Aktivovať oznámenia o aktualizáciách
+Designer.FolderConstants.programsDir64Name=Adresár programov 64-bitov)
+Designer.FolderConstants.programsDir32Name=Adresár programov (32-bitov)
+Designer.FolderConstants.system64Name=Systémový adresár 64-bitov)
+Designer.FolderConstants.system32Name=Systémový adresár (32-bitov)
+Designer.FolderConstants.variableMagicFolder=Variabilný program Magic Folder
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# URL pre načítanie us.jar je nesprávna.
+Installer.Actions.UpdateServiceClient.badUsJar=Knižnica #UPDATE_SERVICE# neobsahuje potrebnú triedu pre registráciu. Poskytnutý súbor jar nemusí byť správny.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=Trieda #UPDATE_SERVICE# neobsahuje potrebnú metódu pre registráciu.
+Installer.installLog.actionNotes=Poznámky k činnosti:
+Installer.installLog.installLogDetail=Inštalácia podrobnosti protokolu:
+Installer.installLog.installation=Inštalácia: 
+Installer.installLog.unsuccessful=Neúspešná.
+Installer.installLog.successful=Úspešná
+Installer.installLog.withErrors=s chybami.
+Installer.installLog.withwarnings=s upozorneniami.
+Installer.installLog.cancelled=Zrušená
+Installer.installLog.duringPostInstall=počas fázy po inštalácii
+Installer.installLog.duringInstall=počas inštalácie
+Installer.installLog.duringPreInstall=počas fázy pred inštaláciou
+Installer.installLog.cancelledBeforePreInstallation=INŠTALÁCIA BOLA ZRUŠENÁ POUŽÍVATEĽOM VO FÁZE PRED INŠTALÁCIOU
+Installer.installLog.cancelledDuringPreInstallation=INŠTALÁCIA BOLA ZRUŠENÁ POUŽÍVATEĽOM POČAS PREDBEŽNEJ INŠTALÁCIE
+Installer.installLog.cancelledDuringInstallation=INŠTALÁCIA BOLA ZRUŠENÁ POUŽÍVATEĽOM POČAS INŠTALÁCIE
+Installer.InstallLog.cancelledDuringPostInstallation=INŠTALÁCIA BOLA ZRUŠENÁ POUŽÍVATEĽOM PO INŠTALÁCII ALEBO POČAS FÁZY PO INŠTALÁCII
+Installer.installLog.successes=Úspechy
+Installer.installLog.warnings=Upozornenia
+Installer.installLog.nonFatalErrors=Nezávažné chyby
+Installer.installLog.fatalErrors=Závažné chyby
+Installer.installLog.details=Podrobnosti
+Installer.installLog.nothingWasInstalled=Nič nebolo nainštalované.
+Installer.installLog.none=Žiadne
+Installer.installLog.summary=Zhrnutie
+Installer.installLog.installedBy=Inštalované pomocou InstallAnywhere #BUILD_INFO#, prostredníctvom Macrovision
+Installer.installLog.status=Stav:
+Installer.installLog.additionalNotes=Dodatočné poznámky: 
+Installer.installLog.exceptionClass=Trieda chyby: 
+Installer.installLog.exceptionMessage=Odkaz na chybu: 
+Installer.installLog.exceptionStackTrace=Spätné vyhľadávanie chyby:
+Installer.installLog.successLevel.successful=ÚSPEŠNÉ
+Installer.installLog.successLevel.warning=UPOZORNENIE
+Installer.installLog.successLevel.error=CHYBA
+Installer.installLog.successLevel.fatalError=ZÁVAŽNÁ CHYBA
+Installer.installLog.successLevel.unsupported=NEPODPOROVANÁ ÚROVEŇ CHYBY
+Installer.installLog.successLevel.notice=POZNÁMKA
+Installer.installLog.action.description=Inštalačná činnosť:
+Installer.installLog.antRunner.description=Vykonať skript ANT
+Installer.installLog.antRunner.script=Skript: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Bez zvoleného cieľa
+Installer.installLog.asciiFileManipulator.newFile=Nový súbor
+Installer.installLog.copyDirectory.description=Adresár na kopírovanie:
+Installer.installLog.copyFile=Kopírovať súbor:
+Installer.installLog.copyFileAction.destination=Cieľ: 
+Installer.installLog.createShortcut.createShortcut=Vytvoriť skratku
+Installer.installLog.createShortcut.createAlias=Vytvoriť alias:
+Installer.installLog.createShortcut.createLink=Vytvoriť väzbu:
+Installer.installLog.deleteFileAction.source=Zdroj:
+Installer.installLog.editEnvironment.description=Nastaviť premennú prostredia:
+Installer.installLog.expandFile.description=Rozšíriť archív:
+Installer.installLog.getRegEntry.description=Uskutočniť zápis do registra:
+Installer.installLog.getRegEntry.key=Kľúč: 
+Installer.installLog.getRegEntry.value=Názov hodnoty: 
+Installer.installLog.installDirCont.description=Inštalovať SpeedFolder:
+Installer.installLog.installDirectory.description=Inštalovať adresár:
+Installer.installLog.installFile.description=Inštalovať súbor:
+Installer.installLog.installNTService.description=Registrovať NT službu:
+Installer.installLog.installUninstaller.description=Inštalovať program na odinštalovanie: 
+Installer.installLog.installUninstaller.note=(Inštalovať všetky súčasti programu na odinštalovanie)
+Installer.installLog.makeExecutable.description=Vytvoriť LaunchAnywhere
+Installer.installLog.makeExecutable.note=(Inštalovať všetky spustiteľné súčasti LaunchAnywhere Java)
+Installer.installLog.makeRegEntry.description=Uskutočniť zápis do registra:
+Installer.installLog.makeRegEntry.key=Kľúč:
+Installer.installLog.makeRegEntry.name=Názov hodnoty:
+Installer.installLog.makeRegEntry.data=Údaje o hodnote:
+Installer.installLog.speedRegistry.description=Zápisy do registra:
+Installer.installLog.subinstaller.description=Inštalovať spojovací modul:
+Installer.installLog.subuninstaller.description=Spustiť program na odinštalovanie:
+Installer.installLog.customAction.description=Zákaznícka činnosť:
+Installer.installLog.userInteractions=Interakcie používateľov
+Installer.installLog.installBegin=Začiatok inštalácie:
+Installer.installLog.installEnd=Koniec inštalácie:
+Installer.installLog.freeMemory=Voľná pamäť:
+Installer.installLog.totalMemory=Celková pamäť:
+Installer.installLog.commandLineArgs=Príkazový riadok argumentov:
+Installer.installLog.noArguments=Bez argumentov
+Designer.Action.HTMLPanelAction.visualName=Panel: Zobraz HTML
+HTMLPanelAction.title=HTML Panel
+Designer.Action.UninstallIsmpSoftware.visualName=Odinštalovať InstallShield Universal Software
+Installer.unexpectedChanges.message=Inštalátor našiel neočakávané zmeny v skripte inštalácie.
+﻿Installer.unexpectedChanges.title=Chyba
+Installer.unexpectedChanges.label=Nie je možné spustiť inštalátor.

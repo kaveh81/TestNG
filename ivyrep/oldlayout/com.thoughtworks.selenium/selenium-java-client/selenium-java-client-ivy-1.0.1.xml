@@ -1,0 +1,11 @@
+<ivy-module version="2.0">
+  <info organisation="com.thoughtworks.selenium" module="selenium-java-client" revision="1.0.1" status="release">
+		 <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>	
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+  <publications>
+    <artifact name="selenium-java-client" type="jar"/>
+  </publications>
+</ivy-module>

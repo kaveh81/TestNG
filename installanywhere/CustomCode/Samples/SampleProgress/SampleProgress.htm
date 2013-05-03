@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Custom Code</title>
+</head>
+<body bgcolor="white" lang="EN-US" link="blue" vlink="blue" style="">
+<p><span style="font-family: Arial;">This code is provided as is, without waranty of any kind. It is provided for use as sample code for our developers</span></p>
+
+<hr size="2" width="100%" align="center">
+<h3><span style="font-family: Arial;">Custom Code Action: SampleProgress</span></h3>
+<p><b>Classname:</b>  com.zerog.ia.plugins.progress.SampleProgress</p>
+<p><b>Description:</b>This class is an example of how to use the progress API.  It will show and increment the main progress bar from 0 to 100 percent.<o:p></o:p></span></p>
+<p><b><span style="font-family: Arial;">General Instructions:</span></b></p>
+<p><span style="font-family: Arial;">This help file explains how to set up
+and use the <span class="SpellE">SampleProgress</span> custom code action.<o:p></o:p></span></p>
+<p><span style="font-family: Arial;">To effectively use this action,
+add an "Execute Custom Code" action to the Pre-Install task in the Advanced Designer (NOTE: this class can also be utilized within the 
+Install task, as well as others). 
+</span><span style="font-family: Helvetica;"><span style="">&nbsp;&nbsp;</span>To properly see this sample in action, make sure that the 
+"Show please wait panel" flag for the custom action is enabled, whereas the "Show indeterminate dialog" flag is disabled.  Failure to do so will
+still result in progress processing, but not in the same manner (i.e. the progress bar will be continuously in motion, rather than progressing from 0
+to 100 percent).<span style="">&nbsp;
+</span></span><span style="font-family: Arial;"><o:p></o:p></span></p>
+<p><span style="font-family: Arial;">Once you have added this action to your project, select the JAR or ZIP file that contains the desired action.  To select the JAR or ZIP file, click the "Choose JAR or ZIP..." button, and select the SampleProgress.jar file in the "Choose Code Archive" dialog that appears.<br>
+<br>
+Next, specify the fully qualified main class in the "Class:" text
+field.<span style="">&nbsp; </span>In this case, you would enter "com.zerog.ia.plugins.progress.SampleProgress" (no quotes).<br>
+<span style="">&nbsp;</span><br>
+This class will show the main progress bar (in GUI mode) and will increment it from 0 to 100 percent.  It is 
+meant as a simple example of how to use the progress API.  This is helpful for showing progress
+during custom code action execution.<br>
+<span style="">&nbsp;</span><br>
+NOTE:  Actual behavior of the progress bar will differ based upon the context in which this action is utilized. For example, within a pre-install sequence,
+the action will own the entire progress processing, resulting in a progression from 0 - 100%.  The actual visual details will depend upon the settings of
+the custom action itself.  For example, the use of the "Show indeterminate dialog" flag will result in a constantly moving progress bar, rather than one which
+processes itself based upon the progress of the action. Within the context of the install sequence, on the other hand, the action will be a
+portion of the overall sequence, resulting in a progress progression factored based upon the relative size of this action versus others within the same
+install sequence (see the "estimated size" methods in the sample code for information).<br>
+</body>
+</html>

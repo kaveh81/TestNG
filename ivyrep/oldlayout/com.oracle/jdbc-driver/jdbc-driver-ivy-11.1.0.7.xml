@@ -1,0 +1,11 @@
+<ivy-module version="2.0">
+  <info organisation="com.oracle" module="jdbc-driver" revision="11.1.0.7" status="release">
+    <license name="Oracle Technology Network Development and Distribution" url="http://www.oracle.com/technology/software/popup-license/distribution-license.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+  </configurations>
+  <publications>
+    <artifact name="ojdbc6" type="jar"/>
+  </publications>
+</ivy-module>

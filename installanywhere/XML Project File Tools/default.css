@@ -1,0 +1,101 @@
+body,td,a,p,th {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 11px;
+	background-color: #ffffff;
+	color: #000000;
+	border-width: 1px; }
+
+a {
+	color: #2266FF;
+	text-decoration: none; }
+
+a:hover {	
+	text-decoration: underline; }
+
+a:visited {
+	color: #2266FF; }
+
+th {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	
+	border-style: solid;
+	border-width: 1px; 
+	border-color: black; }
+	
+h1 {
+	display: inline;
+	font-size: 20px;
+	color: #2266FF;
+	margin-bottom: .7em;  }
+	
+h2 {
+	display: inline;
+	font-size: 18px;
+	color: #4499FF;
+	margin-bottom: .3em;  }
+
+h3 {
+	display: inline;
+	font-size: 14px;
+	color: #4499FF;
+	margin-bottom: .3em; }
+
+h4 {
+	display: inline;
+	font-size: 12px;
+	color: #4499FF;
+	margin-bottom: .12em; }
+
+ul {
+	margin-top: .3em; 
+	margin-bottom: .3em; 
+	border-top: .3em; 
+	border-bottom: .3em; }
+
+
+table {
+	border-style: none;
+	border-width: 1px;
+	border-color: #bbbbbb; 
+	width: 540px; }
+	
+td {
+	text-align: left;
+	border-style: solid;
+	border-width: 1px; 
+	border-color: black; }
+
+.propname {
+	border-color: #bbbbbb;
+	background-color:#eeeeee; }
+	
+.proptype {
+	width: 100px;
+	background-color:#eeeeee; }
+	
+.propval {
+	font-family: "Courier New", Courier, mono, monospace;
+	font-size: 8pt;
+	border-width: 0px; }
+
+.refid {
+	color: #bbbbbb;
+	display: inline; }
+
+div {
+	display: block; }
+
+.uuid {
+	display: inline;
+	font-family: "Courier New", "Courier", monospace; }
+
+.warn {
+	text-decoration: underline;
+	font-weight: bold;
+	display: inline; }
+
+.copyright {
+	font-size: 7pt;
+	color: #bbbbbb; }

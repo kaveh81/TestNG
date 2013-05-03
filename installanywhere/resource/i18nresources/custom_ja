@@ -1,0 +1,2293 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=完全アンインストール
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=InstallAnywhere によってインストールされた $PRODUCT_NAME$ のすべての機能およびコンポーネントを完全に削除します。インストール後に作成されたファイルおよびフォルダには影響しません。
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=特定の機能のアンインストール
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=InstallAnywhere によってインストールされた特定の $PRODUCT_NAME$ 機能の中から、アンインストールするものを選択します。
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=以下のオプションの中からいずれか1つを選択してください。
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=アンインストールのオプション
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=アンインストール
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ......................  =すべての機能およびコンポーネントを完全に削除します。 
+AllOrFeaturesActionConsole.allDescription=すべての機能およびコンポーネントを完全に削除します。
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=InstallAnywhere によってインストールされた特定の機能を選択します。
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=以下のオプションの中からいずれか1つを選択してください。
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=アンインストールのオプション
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=選択する項目の番号を入力するか、デフォルトを使用する場合は <ENTER> キーを押してください。
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=インストールを続行するのに十分なディスク容量ができました。
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=次の場所には使用可能な容量が XXX MB だけしかありません:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=このインストールには、XXX MB の空きディスク容量が必要ですが、
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=また、[キャンセル] を選択すれば、このインストールをキャンセルできます。
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=インストールを続行するには、少なくとも XXX MB の容量を解放してください。
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=インストールを続行するには、空きディスク容量を増やしてください。
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=インストールを続行するには、[インストール] をクリックしてください。
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=準備完了
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=十分なディスク容量がありません
+
+# ................... =Warning!
+CheckDiskSpace.warning=警告!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=使用可能なディスク容量を再計算する場合は <ENTER> キーを押し、\u000Aインストーラを終了する場合は [終了] をクリックしてください。
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=このインストールを実行するのに十分なディスク容量がありません。\u000A空きディスク容量を増やしてから、このインストーラを再実行してください...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=インストールを開始するには <ENTER> キーを押してください。
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=警告!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=このインストールには、XXX MB の空きディスク容量が必要ですが、
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=次の場所には使用可能な容量が XXX MB だけしかありません:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=インストールを続行するには、少なくとも XXX MB の容量を解放してください。
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=インストールを続行するには、空きディスク容量を増やしてください。
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=インストールを続行するのに十分なディスク容量ができました。
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=十分なディスク容量がありません
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=ファイルを選択してください。
+
+# ................. =Choose...
+ChooseFile.chooseStr=選択... (&O)
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=ファイルを選択してください。 (&F)
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=デフォルトのファイルに戻す (&R)
+
+# ................. =Choose a File
+ChooseFile.stepTitle=ファイルを選択
+
+# .................... =in the folder
+ChooseFile.macInsideStr=、フォルダ名:
+
+# ................ =on the disk
+ChooseFile.macOnStr=、ディスク:
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=フォルダを選択してください。
+
+# ................... =Choose...
+ChooseFolder.chooseStr=選択... (&O)
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=フォルダを選択してください。 (&F)
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=デフォルトのフォルダに戻す (&R)
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=フォルダを選択
+
+# .................. =on the disk
+ChooseFolder.macOnStr=、ディスク:
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=エラー!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=選択したフォルダに対する書き込みアクセス許可がありません。別のフォルダを選択してください。
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=フォルダを選択
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=インストール セットを選択
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=インストール セットを選択
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=製品機能を選択
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=このインストーラでインストールするインストール セットを選択してください。
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=インストール セットの番号を入力するか、デフォルトを使用する場合は <ENTER> キーを押してください。\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=このインストーラでインストールする機能を選択してください。
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=インストールする機能の番号をカンマで区切って入力してください。\u000A
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=インストール セットを選択
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=カスタマイズ
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=インストールする製品機能を設定しているときにエラーが発生しました。
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=インストールされたアプリケーションが使用する Java VM を選択してください。
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Java VM を選択
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine.  Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=与えられたパスは有効な Java VM を指していません。もう一度選択してください。
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=インストールされたアプリケーションが使用する Java VM を選択してください。
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Java VM を選択
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=Java VM の番号を入力するか、または現在の選択項目を受け入れる場合は <ENTER> キーを押してください。\u000A
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=選択した JAVA VM の実行可能ファイルに対する絶対パスを入力してください。\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=Java 実行可能ファイルへのパス:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=このインストーラに含まれている Java VM をインストールできません。
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=このアプリケーション用に Java VM をインストール
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=このシステムにすでにインストールされている Java VM を選択
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=別の VM を選択... (&O)
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=開く
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=このアプリケーション用に Java VM をインストール
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java ランタイム環境
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=次の場所を検索中: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=検索中止 (&S)
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=他の検索 (&S)
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=検索が完了しました。
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=このシステムにすでにインストールされている Java VM を選択
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=エラー!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=選択したアプリケーションは有効な Java VMではありません。
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Java VM を選択
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=エラー:適切な Java VM が見つかりませんでした。
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system.  Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=この製品をインストールするには、お使いのシステムに Java VM がインストールされている必要があります。お使いのプラットフォーム用の VM をダウンロードするには、<http://java.sun.com> を参照してください。
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Java VM を選択
+
+ChooseSCMFeaturesConsole.visualName=オプションの SCM 機能を選択
+ChooseSCMFeaturesConsole.title=オプションの SCM 機能を選択
+ChooseSCMFeaturesConsole.instructions=SCM 機能の選択手順
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=続行するには <ENTER> キーを押します。
+
+# ................. =Y
+ConsoleUtils.yesChar=Y
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=正しいですか。
+
+# ...................... =One of the supplied values was not valid.  Please choose again.
+ConsoleUtils.invalidInput=指定した値の 1 つが有効ではありません。もう一度指定してください。
+
+#............... =back
+ConsoleUtils.back=戻る
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=アンインストールする機能のチェック ボックスをオフにしてください。オンになっている機能は、そのままインストールされます。
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=アンインストールする機能のチェック ボックスをオンにしてください。オフになっている機能は、そのままインストールされます。
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=製品機能を選択
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=このインストーラでインストールする機能を選択してください。
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=アンインストールする機能のチェック ボックスをオフにしてください。オンになっている機能は、そのままインストールされます。
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=アンインストールする機能のチェック ボックスをオンにしてください。オフになっている機能は、そのままインストールされます。
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=製品機能を選択
+
+# ......................  =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'.  PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=選択または選択解除する機能の番号を半角のカンマで区切って入力してください。機能の説明を表示するには、「?<番号>」と入力します。説明を読み終わったら <RETURN> を押してください。
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=インストール セット
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=製品機能を選択
+
+#............................... =Description
+CustomizeBundlesPanel.description=説明
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=kB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=インストールに必要な合計ディスク容量:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=新しいメディアを挿入
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=#NAME# を挿入するか、手動で検索する場合は [参照] を選択してください。
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=メディアのボリュームが不正です。
+# .................... =Browse
+DiskNeededDialog.locate=参照
+
+# .................. =Cancel
+DiskNeededDialog.quit=キャンセル
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=新しいメディアを挿入
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=#NAME# を挿入するか、手動でパスを指定してください。
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=#NAME# を挿入してください。
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=次の場所にディスクが必要です: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=#NAME# を挿入するか、その場所を入力してください。
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=XXX が挿入されました。
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=インストーラ データへのパスを選択してください。
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=インストールをキャンセルし、終了します。
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=選択項目を入力してください。
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=ディスク上の 'INSTALLERDATA' フォルダへのパスを入力してください。
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed.  You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=システム環境が変更されました。これらの変更を反映させるためには、ログアウトするか、システムを再起動する必要があります。
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=システム環境が変更されました。
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=終了
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=インストールは完了しませんでした。
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=アンインストールは完了しませんでした。
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed.  To continue with the installation, click 'Resume'.  To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=今インストールをキャンセルすると、$PRODUCT_NAME$ はインストールされません。インストールを続行するには、[再開] をクリックしてください。インストールをキャンセルするには、[終了] をクリックしてください。
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled.  To continue with the uninstall, click 'Resume'.  To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=今アンインストールをキャンセルすると、$PRODUCT_NAME$ はアンインストールされません。アンインストールを続行するには、[再開] をクリックしてください。アンインストールをキャンセルするには、[終了] をクリックしてください。
+
+# .......... =Resume
+ExitDialog.ok=再開
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=アンインストールをキャンセル
+
+# ............. =Cancel Installation
+ExitDialog.install.title=インストールをキャンセル
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=すべて上書き
+
+# ....................... =No to All
+FileAlreadyExists.noAll=すべて上書きしない
+
+# ....................... =Yes
+FileAlreadyExists.yes=はい
+
+# ....................... =No
+FileAlreadyExists.no=いいえ
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=既存のファイルを上書きしますか?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=\"XXX\" という名前のファイルは \"XXX\" にすでに存在します。
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=これより新しい \"XXX\" という名前のファイルが \"XXX\" にすでに存在します。
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=これより古い \"XXX\" という名前のファイルが \"XXX\" にすでに存在します。
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=既存のファイルを上書きしますか?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=ファイル/フォルダを選択してください。 (&F)
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=選択
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=下の一覧にファイルを追加しています。
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=見つかったファイルは以下のとおりです。
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=下の一覧にフォルダを追加しています。
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=見つかったフォルダは以下のとおりです。
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=次の文字列に一致するファイルが見つかりました:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=次の文字列に一致するフォルダが見つかりました:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=見つかった場所:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=その他を選択... (&O)
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=場所:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=自分の目的に合った選択を行ってください。
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=次の文字列に一致するファイルを検索中:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=次の文字列に一致するフォルダを検索中:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=検索中
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=選択
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=次の文字列に一致するものは見つかりませんでした:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=選択:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=フォルダを選択
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=キャンセル
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=新規フォルダを作成
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=フォルダ:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=名前:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=正しいですか。
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=続行するには <ENTER> キーを押します。
+
+# ............................ =Error:
+GenericConsoleStrings.exception=エラー:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system.  This may take a moment...
+GenericInstallPanel.message=しばらくお待ちください。お使いのシステム用に $PRODUCT_NAME$ を構成しています。しばらく時間がかかる場合があります...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=お待ちください
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=このインストールを続行するには、パスワードが必要です。
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=パスワードを入力してください: (&W)
+
+# .................. =Enter Password
+GetPassword.stepTitle=パスワードを入力
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=エラー!
+
+# ........................................ =The password you entered is incorrect.  Please try again.
+GetPasswordInstallPanel.errDialog.narrative=入力したパスワードが間違っています。もう一度試してみてください。
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=パスワードを入力
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=操作を続けるには、パスワードが必要です。
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=このインストールを続行するには、パスワードが必要です。
+
+# ................................... =The password you entered is incorrect.  Please try again.
+GetPasswordConsole.errDialog.narrative=入力したパスワードが間違っています。もう一度試してみてください。
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=パスワードを入力してください:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=操作を続けるには、パスワードが必要です。
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=パスワードを入力
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=目的の項目に対応する番号を半角のカンマで区切って入力してください。
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=選択項目の番号を半角のカンマで区切って入力するか、デフォルトを使用する場合は <ENTER> キーを押してください。
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=選択する項目の番号を入力してください。
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=選択する項目の番号を入力するか、デフォルトを使用する場合は <ENTER> キーを押してください。
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=この時点でインストーラを終了することはできません。
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=この時点で前の手順に戻ることはできません。
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=重要事項
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=操作を続ける前にお読みください。
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=重要事項完了。続行するには <ENTER> キーを押します。
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=重要事項
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=操作を続ける前にお読みください。
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=アプリ
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=アプリケーション機能をインストールします。
+
+# .......................... =Help
+InstallBundle.help.bundleName=ヘルプ
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=ヘルプ機能をインストールします。
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=おめでとうございます! $PRODUCT_NAME$ が次の場所にインストールされました。\u000A\u000A$USER_INSTALL_DIR$\u000A\u000A[完了] をクリックすると、インストーラが終了します。
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=インストール完了
+InstallCompleteAction.stepTitle=インストール完了
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details.  Press "Done" to quit the installer.
+InstallFailedAction.message=$PRODUCT_NAME$ のインストールは完了しましたが、インストール中にいくつかのエラーが発生しました。\u000A\u000A詳細については、インストール ログを参照してください。[完了] をクリックすると、インストーラが終了します。
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=インストール完了
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=インストール完了
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=おめでとうございます。 $PRODUCT_NAME$ が次の場所にインストールされました。\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=<ENTER> キーを押すと、インストーラが終了します。
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=$PRODUCT_NAME$ のインストールは完了しましたが、インストール中にいくつかのエラーが発生しました。\u000A詳細については、インストール ログを参照してください。
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=$PRODUCT_NAME$ のインストールは完了しましたが、インストール中にいくつかのエラーが発生しました。\u000A詳細については、インストール ログを参照してください。[完了] をクリックすると、インストーラが終了します。
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=<ENTER> キーを押すと、インストーラが終了します。
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=インストール完了
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=このインストールのインストール先フォルダを選択してください。
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=インストール フォルダを選択
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=インストール場所を指定してください。 (&W)
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=インストール フォルダを選択
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=絶対パスを入力するか、<ENTER> キーを押してデフォルトを受け入れてください。\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=絶対パスを入力するか、[デフォルト] をクリックしてデフォルトのフォルダに戻すか、\u000A<ENTER> キーを押して選択したフォルダを受け入れてください。
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=デフォルトのインストール フォルダ: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=選択したインストール フォルダ: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=インストール フォルダ: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=指定されたパス: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=はターゲット システム上にすでに存在するファイルを参照しています。\u000Aこのインストーラは、既存のファイルを新しいフォルダで上書きすることはできません。\u000A別のインストール場所を選択してください。
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=選択したインストール場所に対する書き込みアクセス許可がありません。\u000A別のインストール場所を選択してください。
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=インストール場所を指定してください。
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=エラー!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=選択したインストール場所に対する書き込みアクセス許可がありません。\u000A別のインストール場所を選択してください。
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=インストール フォルダを選択
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=インストール先として指定されたパスに、このプラットフォームでは使用できない 1 つまたは複数の無効な文字があります。\u000A別のインストール先を選択してください。
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=選択... (&O)
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=デフォルトのフォルダに戻す (&R)
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=、ドライブ:
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=、フォルダ名:
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=、ディスク:
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=インストール
+
+# ....................... =Introduction
+Installer.installLabels.00=開始画面
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=インストール フォルダを選択
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=$SHORTCUT_NAME$ フォルダを選択
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=インストール前の要約
+
+# ....................... =Installing...
+Installer.installLabels.04=インストール中...
+
+# ....................... =Install Complete
+Installer.installLabels.05=インストール完了
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=このシステムでインストーラを実行することはできません。
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=お使いの構成でこのインストーラを実行することはできません。インストーラを終了します。
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=インストーラ ユーザー インターフェイス モードはサポートされていません。
+
+# ....................................... =The installer cannot run in this mode.  Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=このモードでインストーラを実行することはできません。このインストーラの実行方法については、インストーラに付属のドキュメントをお読みください。
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=インストーラ UI モード エラー
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=$PRODUCT_NAME$ をアンインストール
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=おめでとうございます! $PRODUCT_NAME$ が次の場所にインストールされました:\u000A\u000A$USER_INSTALL_DIR$\u000A\u000A[完了] をクリックすると、インストーラが終了します。
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log for details.
+InstallFinishAction.installWarningMessage=$PRODUCT_NAME$ のインストールは終了しましたが、インストール中にいくつかの警告が発生しました。詳細については、インストール ログを参照してください。
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log for details.
+InstallFinishAction.installErrorMessage=$PRODUCT_NAME$ のインストールは終了しましたが、インストール中にいくつかのエラーが発生しました。詳細については、インストール ログを参照してください。
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log for details.
+InstallFinishAction.installFatalMessage=$PRODUCT_NAME$ のインストールは終了しましたが、インストール中にいくつかの重大なエラーが発生しました。詳細については、インストール ログを参照してください。
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=インストールを完了するには、システムを再起動してください。
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=インストールを完了するには、システムを再起動する必要があります。
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=インストール完了
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=システムを再起動する
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=後でシステムを再起動する
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=インストール中...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=インストールをキャンセルします...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=インストール中...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=インストール前の要約
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=操作を続ける前に、以下の内容を確認してください。
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=インストール前の要約
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE.  IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=続行するには <ENTER> キーを押してください。情報が間違っている場合は、[戻る] をクリックして変更を行ってください。\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=製品名:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=インストール フォルダ:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=ショートカット フォルダ:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=リンク フォルダ:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=エイリアス フォルダ:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=ユーザー定義のカスタム インストール セット
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=インストール セット
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=製品コンポーネント:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM のインストール フォルダ:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=インストールする製品が使用する Java VM:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=ディスク容量情報 (インストール先): 
+
+# ...................... =Required:
+InstallSummaryUI.required=必要なディスク容量:
+
+# .................. =bytes
+InstallSummaryUI.byte=バイト
+
+# ....................... =Available:
+InstallSummaryUI.available=使用可能なディスク容量:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=このオプションを選択すると、インストールする機能をカスタマイズできます。
+
+# ............................. =Custom
+InstallSet.custom.installSetName=カスタム
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed.  This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=必要なアプリケーション機能だけがインストールされます。このオプションは、ディスク容量に制限のあるユーザーにのみお勧めします。
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=最小
+
+# ........................... =The most common application features will be installed.  This option is recommended for most users.
+InstallSet.typical.description=一般的なアプリケーション機能がインストールされます。通常は、このオプションを選択してください。
+
+# .............................. =Typical
+InstallSet.typical.installSetName=標準
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere の指示に従って操作していくと、$PRODUCT_NAME$ を簡単にインストールできます。\u000A\u000Aこのインストールを続行する前に、すべてのプログラムを終了することをお勧めします。\u000A\u000A[次へ] ボタンをクリックすると、次の画面へ進みます。前の画面で指定した内容を変更する場合は、[戻る] ボタンをクリックしてください。\u000A\u000A[キャンセル] ボタンをクリックすると、いつでもインストールをキャンセルできます。
+
+# .................. =開始画面
+IntroAction.stepTitle=開始画面
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere の指示に従って操作していくと、$PRODUCT_NAME$ を簡単にインストールできます。\u000A\u000Aこのインストールを続行する前に、すべてのプログラムを終了することをお勧めします。\u000A\u000A各指示に従って操作すると、次のインストール手順へ進むことができます。前の手順で指定した内容を変更する場合は、[戻る] ボタンをクリックしてください。\u000A\u000A[終了] ボタンをクリックすると、いつでもインストールをキャンセルできます。
+
+# ..................... =Introduction
+IntroActionConsole.title=開始画面
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Web ブラウザで URL を開くことができません
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser.  To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=システムのデフォルト ブラウザを使って要求された URL ($ACTION_URL$) を開くことができませんでした。この URL を表示するには、任意の Web ブラウザを開き、そこに上記のアドレスを入力してください。
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=使用許諾契約
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=$PRODUCT_NAME$ をインストールして使用するには、以下の使用許諾契約に同意する必要があります。
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=使用許諾契約
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=$PRODUCT_NAME$ をインストールして使用するには、以下のライセンス契約に同意する必要があります:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=この使用許諾契約の条項に同意しますか。
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=終了
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=再開
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=使用許諾契約に関する警告
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=警告!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=使用許諾契約の条項に同意しなかった場合、このインストール操作を続行することはできません。
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=使用許諾契約の条項に同意しない (&T)
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=プレビューするファイルが見つかりませんでした。
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=使用許諾契約の条項に同意する (&A)
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=ファイルが選択されていません。
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=以下の内容を受け入れる場合は、<ENTER> キーを押してください。
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=選択する項目の番号を入力するか、デフォルトを使用する場合は <ENTER> キーを押してください。
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=キャンセル
+
+# ........................... =Details...
+PromptUserConsole.option2Label=詳細...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=お使いのシステムに $PRODUCT_NAME$ をインストールする準備が整いました。インストール先:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=インストールするには <ENTER> キーを押してください。
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=インストール準備完了
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up.  Please wait...
+RemoveDialog.description=まもなく操作が完了します。お待ちください...
+
+# ............... =Cleaning up...
+RemoveDialog.title=削除中...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=このインストールを続行するには、シリアル番号が必要です。
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=シリアル番号を入力してください。 (&S)
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=シリアル番号を入力
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=エラー!
+
+# ......................................... =The serial number you entered is incorrect.  Please try again.
+SerialNumberInstallPanel.errDialog.narrative=入力したシリアル番号は正しくありません。もう一度試してみてください。
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=シリアル番号を入力
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=操作を続けるには、シリアル番号が必要です。
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=このインストールを続行するには、シリアル番号が必要です。
+
+# .......................................... =The serial number you entered is incorrect.  Please try again.
+SetSerialNumberConsole.errMessage.narrative=入力したシリアル番号は正しくありません。もう一度試してみてください。
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=シリアル番号を入力してください。
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=操作を続けるには、シリアル番号が必要です。
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=シリアル番号を入力
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=エイリアス
+
+#............... =Link
+ShortcutName.link=リンク
+
+#................... =Shortcut
+ShortcutName.shortcut=ショートカット
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=エイリアスの作成場所を指定してください。
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=エイリアス フォルダを選択
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=リンク フォルダを選択
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=リンクの作成場所を指定してください。
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=製品アイコンの作成場所を指定してください。
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=ショートカット フォルダを選択
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=共通グループ
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=現在のユーザーのグループ
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=、フォルダ名:
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=、ディスク:
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=デフォルト: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=現在: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=別の場所を選択...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=上のオプションの番号を入力するか、デフォルトを受け入れる場合は <ENTER> キーを押してください。\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=上のオプションの番号を入力するか、現在の選択項目を受け入れる場合は <ENTER> キーを\u000A押してください。
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=ショートカット ディレクトリへの絶対パスを入力してください。\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=ショートカット ディレクトリ: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=リンクの場所を選択
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=リンクの作成場所を指定してください。
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=ショートカットの場所を選択
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=製品アイコンの作成場所を指定してください。 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=エイリアスの場所を選択
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=エイリアスの作成場所を指定してください。
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Apple メニュー
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Dock
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=デスクトップ
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=エイリアスを作成しない
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=その他:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=リンクを作成しない
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=アイコンを作成しない
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=自分のホーム フォルダ
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=デスクトップ
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=新しいプログラム グループ:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=既存のプログラム グループ:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=クイック起動バー (&Q)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=[スタート] メニュー
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=すべてのユーザーにアイコンを作成
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=エラー!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=選択した場所に対する書き込みアクセス許可がありません。別のインストール場所を選択してください。
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=Apple メニュー (&A)
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=Dock (&K)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=デスクトップ (&D)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=デスクトップ (&D)
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=選択...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=エイリアスを作成しない
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=その他: (&O)
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=リンクを作成しない (&T)
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=アイコンを作成しない (&T)
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=自分のホーム フォルダ (&M)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=デスクトップ (&D)
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=新しいプログラム グループ: (&G)
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=既存のプログラム グループ: (&E)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=[スタート] メニュー (&S)
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=すべてのユーザーにアイコンを作成 (&A)
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=キャンセル
+
+# .......................... =Details...
+ShowDialogAction.button2Label=詳細...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=日付:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=ライセンス ID:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=スクリプト バージョン:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=バージョン:
+
+# ............... =Done
+StepMaster.doneStr=完了 (&D)
+
+# ............... =Cancel
+StepMaster.exitStr=キャンセル (&C)
+
+# ............... =Help
+StepMaster.helpStr=ヘルプ (&H)
+
+# .................. =Install
+StepMaster.installStr=インストール (&I)
+
+# ............... =Next
+StepMaster.nextStr=次へ (&N)
+
+# ............... =Previous
+StepMaster.prevStr=戻る (&P)
+
+# ............... =Close
+StepMaster.closeStr=閉じる
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=すべての項目が正常にアンインストールされました。
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=アンインストール完了
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=以下の項目は削除できませんでした:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=次の項目を削除できません:
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=アンインストールを完了するには、システムを再起動する必要があります。
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=アンインストールを完了するには、システムを再起動してください。
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=また、アンインストールを完了するには、システムを再起動する必要があります。
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=また、アンインストールを完了するには、システムを再起動してください。
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=システムを再起動する
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=後でシステムを再起動する
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=すべての項目が正常にアンインストールされました。
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=アンインストール完了
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=以下の項目は削除できませんでした:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=アンインストールを完了するには、システムを再起動する必要があります。
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=アンインストールを完了するには、システムを再起動してください。
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=アンインストール完了
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=すべての項目が正常にアンインストールされました。
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=一部の項目は削除できませんでした。
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=エラーが発生したため、アンインストール操作を完了できませんでした。
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=$PRODUCT_NAME$ をアンインストール
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere アンインストーラ
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=開始画面
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=アンインストール中...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=アンインストール完了
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere.  It will not remove files and folders created after the installation.
+UninstallIntroAction.message=今から次の製品をアンインストールします...\u000A\u000A$PRODUCT_NAME$\u000A\u000Aこの操作を行うと、InstallAnywhere によってインストールされたすべての機能が削除されます。インストール後に作成されたファイルやフォルダは削除されません。
+
+# ........... ==Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=$PRODUCT_NAME$ をアンインストール
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere.  It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=今から次の製品をアンインストールします...\u000A\u000A$PRODUCT_NAME$\u000A\u000Aこの操作を行うと、InstallAnywhere によってインストールされたすべての機能が削除されます。インストール後に作成されたファイルやフォルダは削除されません。
+
+# ........... ==Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=$PRODUCT_NAME$ をアンインストール
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=キャンセル
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=終了
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=ヘルプ
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=アンインストール (&U)
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=操作を元に戻せませんでした。この機能はサポートされていません。
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=削除中...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=ネイティブ パッケージ...
+
+# ............... =Files...
+UninstallMgr.Files=ファイル...
+
+# ................. =Folders...
+UninstallMgr.Folders=フォルダ...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=リンク...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=エイリアス...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=ショートカット...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=現在このシステムには適切な Java VM がないため、製品をアンインストールできませんでした。Java VM をインストールしてから、もう一度試してみてください。
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 個のフォルダ
+
+# ................... =Preparing...
+UninstallMgr.Preparing=準備中...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=ソフトウェア データベース...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=レジストリ...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 個のフォルダ
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=次の項目を削除できません:
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableNativePackages=ネイティブ パッケージを削除できません
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=次のファイルを削除できません:
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=次のディレクトリを削除できません:
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Java VM 機能を削除できません
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=次のリンクを削除できません:
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=次のエイリアスを削除できません:
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=次のショートカットを削除できません:
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=次の操作を実行できません:
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=1 個のファイルを削除できません
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=2 個のファイルを削除できません
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=次のソフトウェア データベースを削除できません:
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=次のレジストリ キーを削除できません:
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=システムを再起動する必要があります
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted.  Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=システムを再起動してからアンインストーラを実行することをお勧めします。アンインストーラを終了する場合は [キャンセル] をクリックし、このままアンインストールを続行する場合は [続行] をクリックしてください。
+
+# ................ =Continue
+UninstallRestart.continue=続行
+
+# ................ =Cancel
+UninstallRestart.exit=キャンセル
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=しばらくお待ちください。
+
+# ................ =removes the following features...
+UProgress.waitArr.1=次の機能を削除しています...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=カスタム コードを実行しています...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=実行中...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=インストール スクリプトを実行しています...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=マージ モジュールをインストール
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=マージ モジュールをインストールしています
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=ネイティブ パッケージをインストールしています
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=終了
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=<ENTER> キーを押すと、アンインストールが始まります。アンインストーラを終了する場合は、[終了] をクリックしてください。
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=アンインストーラを終了する場合は <ENTER> キーを押してください。
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=ファイルをコピー
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=フォルダをコピー
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=リンクを作成
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=ショートカットを作成
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=エイリアスを作成
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=フォルダを作成
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=LaunchAnywhere を作成
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=ファイルを削除
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=フォルダを削除
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=アーカイブを展開
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=SpeedFolder をインストール
+
+InstallRPMPackage.visualname.self=Linux RPM をインストール
+InstallSolarisPackage.visualname.self=Solaris パッケージをインストール
+InstallHPUXPackage.visualname.self=HP-UX depot をインストール
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=ファイルを移動
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=フォルダを移動
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Windows サービスを登録
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=システム環境変数を設定
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Windows レジストリを設定
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=ANT スクリプトを実行
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=コマンドを実行
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=カスタム コードを実行
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=スクリプトを実行
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=ターゲット ファイルを実行
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=レジストリ内のコンポーネントを検索
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Windows レジストリのエントリを取得
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=テキスト ファイルを変更
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=XSL 変換を実行
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=デバッグ情報を出力
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=コンソールにテキストを出力
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=メッセージ ダイアログを表示
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Windows サービスを開始
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Windows サービスを停止
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Windows サービスを一時停止
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=フォルダを参照
+
+Installer.Action.DumpDebugInfo.Modules.installAnywhereVariables=InstallAnywhere 変数
+Installer.Action.DumpDebugInfo.Modules.magicFolders=マジック フォルダ
+Installer.Action.DumpDebugInfo.Modules.javaProperties=Java プロパティ
+Installer.Action.DumpDebugInfo.Modules.visualTree=ビジュアル ツリー
+Installer.Action.DumpDebugInfo.Modules.componentTree=コンポーネント ツリー
+Installer.Action.DumpDebugInfo.Modules.preInstallActions=インストール前のアクション
+Installer.Action.DumpDebugInfo.Modules.postInstallActions=インストール後のアクション
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=アンインストール後のアクション
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=
+アンインストール前のアクション
+
+#These strings can be found in the different actions when they are first initialized
+Designer.Customizer.executingInstScript=インストール スクリプトを実行しています...
+Designer.Customizer.executingCustomCode=カスタム コードを実行しています...
+Designer.Customizer.restoreDefault=デフォルトに戻す
+Designer.Customizer.noFileSpecified=<ファイルが指定されていません>
+Designer.Customizer.noFolderSpecified=<フォルダが指定されていません>
+Designer.Customizer.noNameSpecified=<名前が指定されていません>
+Designer.Customizer.noScriptSpecified=<スクリプトが指定されていません>
+Designer.Customizer.noTargetSelected=<ターゲットが選択されていません>
+Designer.Customizer.noTitleSpecified=<タイトルが指定されていません>
+Designer.Customizer.noVariableSpecified=<変数が指定されていません>
+Designer.Customizer.property=プロパティ
+Designer.Customizer.value=値
+Designer.Customizer.variableName=変数名
+Designer.Customizer.comment=コメント:
+Designer.Customizer.commentBracket=<コメント>
+Designer.Customizer.defaultValue=デフォルト値
+Designer.Customizer.environmentVariable=環境変数:
+Designer.Customizer.label=ラベル
+Designer.Customizer.modifying=変更:
+
+#These strings can be found by adding  a Panel: Get User Input - Advanced
+Designer.Installer.GUIGroupData.textFieldNormal=テキストフィールド (標準)
+Designer.Installer.GUIGroupData.label=ラベル
+Designer.Installer.GUIGroupData.wrappingLabel=ラベルの折り返し
+Designer.Installer.GUIGroupData.checkbox=チェックボックス
+Designer.Installer.GUIGroupData.radioButton=ラジオ ボタン
+Designer.Installer.GUIGroupData.popupMenu=ポップアップ メニュー
+Designer.Installer.GUIGroupData.list=一覧
+Designer.Installer.GUIGroupData.directoryChooser=ディレクトリ選択機能
+Designer.Installer.GUIGroupData.fileChooser=ファイル選択機能
+Designer.Installer.GUIGroupData.textfieldShadowed=テキストフィールド (パスワード非表示)
+Designer.Installer.GUIGroupData.textField=テキストフィールド
+Designer.Installer.GUIGroupData.choice=選択
+Designer.Installer.GUIGroupData.defaultValue=デフォルト値
+Designer.Installer.GUIGroupData.resultsVariable=結果変数
+Designer.Installer.GUIGroupData.defaultSelectionValue=デフォルトの選択値
+Designer.Installer.GUIGroupData.resultsVariable=結果変数
+Designer.Installer.GUIGroupData.selected=選択
+Designer.Installer.GUIGroupData.notSelected=非選択
+Designer.Installer.GUIGroupData.variableBased=変数ベース
+
+Designer.Installer.GUIComponentData.enterIAVariable=InstallAnywhere 変数名を入力してください (例、$COMPONENT_SELECTION_VAR$)。インストール時にこの変数が \"true\" と評価されると、そのコンポーネントが選択されます。
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.UninstallAllOrFeaturesAction.visualName=パネル: アンインストールのタイプを選択
+Designer.Action.AllOrFeaturesActionConsole.visualName=パネル: アンインストールのタイプを選択
+Designer.Action.EvaluateDependenciesAction.visualName=依存関係を評価
+Designer.Action.CustomizeBundles.visualName=パネル: アンインストールする機能を選択
+Designer.Action.CustomizeBundlesConsole.visualName=コンソール: アンインストールする機能を選択
+Designer.Action.StubInstallerAction.visualName=ダイナミック Web インストール
+Designer.Action.UninstallFromRegistry.visualName=アンインストール
+Designer.Action.UninstallIntroAction.visualName=パネル: アンインストーラの開始画面
+Designer.Action.UninstallIntroActionConsole.visualName=コンソール: アンインストーラの開始画面
+Designer.Action.UninstallCompleteAction.visualName=パネル: アンインストール完了
+Designer.Action.UninstallCompleteActionConsole.visualName=コンソール: アンインストール完了
+Designer.Action.UCustomAction.visualName=カスタム コードを実行: アンインストール
+Designer.Action.Subinstaller.visualName=マージ モジュールをインストール
+Designer.Action.Subinstaller.installTime=(インストール時間):
+Designer.Action.Subinstaller.buildTime=(ビルド時間):
+Designer.Action.Subinstaller.noMergeModuleSpecified=<マージ モジュールが指定されていません>
+Designer.Action.SpeedRegistryEntry.visualName=Windows レジストリを設定 - 複数エントリ
+Designer.Action.SpeedRegistryEntry.registryEntries=レジストリ エントリ
+Designer.Action.ShortcutLocAction.visualNameMacOSX=パネル: エイリアス フォルダを選択
+Designer.Action.ShortcutLocAction.visualName=パネル: エイリアス、リンク、ショートカット フォルダを選択
+Designer.Action.ShortcutLocActionConsole.visualName=コンソール: リンク フォルダを選択
+Designer.Action.SetSerialNumber.visualName=パネル: シリアル番号を取得
+Designer.Action.SetSerialNumberConsole.visualName=コンソール: シリアル番号を取得
+Designer.Action.RebootAction.visualName=Windows を再起動
+Designer.Action.ReadyToInstallActionConsole.visualName=コンソール: インストール準備完了
+Designer.Action.RegistryFindAction.visualName=レジストリ内のコンポーネントを検索
+Designer.Action.PowerUpdateClient.visualName=PowerUpdate クライアントをインストール
+Designer.Action.PowerUpdateClient.powerUpdateClient=PowerUpdate クライアント
+Designer.Action.PrintToConsole.visualName=コンソールにテキストを出力
+Designer.Action.PrintToConsole.noTextSpecified=<テキストが指定されていません>
+Designer.Action.PromptUserConsole.visualName=コンソール: メッセージ コンソール 'ダイアログ' を表示
+Designer.Action.PromptUserConsole.enterTitleHere=<ここにタイトルを入力>
+Designer.Action.PromptUserConsole.enterMessageHere=<ここにメッセージを入力>
+Designer.Action.PromptUserConsole.optionLabel=<オプション ラベル>
+Designer.Action.PerformXSLTZip.visualName=XSL 変換を実行 - アーカイブ内
+Designer.Action.PerformXSLT.visualName=XSL 変換を実行
+Designer.Action.PerformXSLT.performingXSLtransform=XSL 変換を実行中:
+Designer.Action.NTServiceController.visualName=*Windows サービスを開始、停止、一時停止
+Designer.Action.NTServiceController.windowsService=Windows サービス:
+Designer.Action.NTServiceController.noServiceSpecified=<サービスが指定されていません>
+Designer.Action.NTServiceController.start=開始
+Designer.Action.NTServiceController.stop=停止
+Designer.Action.NTServiceController.pause=一時停止
+Designer.Action.MoveFileAction.moveFile=ファイルを移動:
+Designer.Action.MoveFileAction.movingFile=ファイルを移動中:
+Designer.Action.MoveFileAction.visualName=ファイルを移動アクション
+Designer.Action.MoveFolderAction.visualName=ファイルを移動アクション
+Designer.Action.MoveFolderAction.moveFolder=フォルダを移動:
+Designer.Action.MoveFolderAction.movingFolder=フォルダを移動中:
+Designer.Action.ModifyXMLFile.visualName=XML ファイルを変更
+Designer.Action.ModifyXMLFileZip.visualName=XML ファイルを変更 - アーカイブ内
+Designer.Action.MakeRegEntry.setWindowsRegistry=Windows レジストリを設定 - 単一エントリ: 
+Designer.Action.MakeRegEntry.registryEntry=レジストリ エントリ:
+Designer.Action.MakeRegEntry.visualName=Windows レジストリを設定 - 単一エントリ
+Designer.Action.MakeExecutable.visualName=Java アプリケーション用の LaunchAnywhere を作成
+Designer.Action.MakeExecutable.visualNameNotNamed=LaunchAnywhere を作成:<名前が指定されていません>
+Designer.Action.LaunchDefaultBrowser.opeinInBrowser=ブラウザで開く
+Designer.Action.LaunchDefaultBrowser.visualName=デフォルトのブラウザを起動
+Designer.Action.LaunchDefaultBrowser.noURLspecified=<URL が指定されていません>
+Designer.Action.JumpLabel.visualName=ジャンプ ラベルを追加
+Designer.Action.JumpLabel.emptyComment=<コメントが空です>
+Designer.Action.JumpLabel.emptyLabel=<ラベルが空です>
+Designer.Action.JumpLabel.jumpLabel=ジャンプ ラベル:
+Designer.Action.JumpAction.visualName=ターゲットにジャンプ
+Designer.Action.JumpAction.visualNameStatement=ジャンプ先: #TARGET_STATEMENTS#
+Designer.Action.JumpAction.targetsStatement=次へ: #NEXT# -- Prev: #PREV#
+Designer.Action.JumpAction.noJumpTargetsSelected=<ジャンプ ターゲットが選択されていません>
+Designer.Action.JumpAction.noJump=ジャンプなし
+Designer.Action.IntroAction.visualName=パネル: 開始画面
+Designer.Action.IntroAction.noMessageIndicated=<メッセージが示されていません>
+Designer.Action.IntroActionConsole.visualName=コンソール: 開始画面
+Designer.Action.InstallZipfile.visualName=アーカイブをインストール
+Designer.Action.CreateUninstaller.visualName=アンインストーラを作成
+Designer.Action.InstallSummary.visualName=パネル: インストール前の要約
+Designer.Action.InstallSummaryConsole.visualName=コンソール: インストール前の要約
+Designer.Action.InstallPanelAction.visualName=パネル: カスタム コード
+Designer.Action.InstallNTService.registerWindowsService=Windows サービスを登録:
+Designer.Action.InstallNTService.windowsService=Windows サービス: 
+Designer.Action.InstallNTService.visualName=Windows サービスを登録
+Designer.Action.InstallNTService.noServiceNameSpecified=<サービス名が指定されていません>
+Designer.Action.InstallFailed.visualName=パネル: インストールに失敗
+Designer.Action.InstallFailedConsole.visualName=コンソール: インストールに失敗
+Designer.Action.InstallDirectory.visualName_1=インストール フォルダ
+Designer.Action.InstallDirectory.visualName_2=フォルダを作成
+Designer.Action.InstallDirAction.visualName=パネル: インストール フォルダを選択
+Designer.Action.InstallDirActionConsole.visualName=コンソール: インストール フォルダを選択
+Designer.Action.InstallConsoleAction.visualName=コンソール: カスタム コード
+Designer.Action.InstallCompleteAction.visualName=パネル: インストール完了
+Designer.Action.InstallCompleteActionConsole.visualName=コンソール: インストール完了
+Designer.Action.InstallCompleteActionConsole.noTitleIndicated=<タイトルが示されていません>
+Designer.Action.LicenseAgrAction.visualName=パネル: 使用許諾契約
+Designer.Action.LicenseAgrActionConsole.visualName=コンソール: 使用許諾契約
+Designer.Action.ImportantNoteAction.visualName=パネル: 重要事項
+Designer.Action.ImportantNoteActionConsole.visualName=コンソール: 重要事項
+Designer.Action.GetUserInput.visualName=パネル: ユーザー入力を取得 - 詳細
+Designer.Action.GetUserInput.getUserInput=ユーザー入力を取得
+Designer.Action.GetUserInput.enterRequestedInfo=必要な情報を入力してください。
+Designer.Action.GetUserInputConsole.visualName=コンソール: ユーザー入力を取得
+Designer.Action.GetRegEntry.visualName=Windows レジストリのエントリを取得
+Designer.Action.GetRegEntry.gettingRegistryEntry=レジストリ エントリを取得中:
+Designer.Action.GetPassword.visualName=パネル: パスワードを取得
+Designer.Action.GetPasswordConsole.visualName=コンソール: パスワードを取得
+Designer.Action.BOMAction.visualName=manifest からインストール
+Designer.Action.InstallFinishAction.vsiualName=パネル: インストール完了
+Designer.Action.FindFileOrFolder.visualName=パネル: ファイル/フォルダを検索
+Designer.Action.FindFileOrFolder.noCriteriaSpecified=<条件が指定されていません>
+Designer.Action.ExpandArchive.visualName=アーカイブを展開
+Designer.Action.ExpandArchive.archive=アーカイブ:
+Designer.Action.ExpandArchive.noArchiveSpecified=<アーカイブが指定されていません>
+Designer.Action.ExecuteScript.visualName=スクリプト/バッチ ファイルを実行
+Designer.Action.Exec.visualName=コマンドを実行
+Designer.Action.Exec.noCommandSpecified=<コマンドが指定されていません>
+Designer.Action.visualName=ターゲット ファイルを実行
+Designer.Action.EditVariableTable.setIAVariableSingle=InstallAnywhere 変数を設定 - 単一変数:
+Designer.Action.EditVariableTable.iaVariable=InstallAnywhere 変数
+Designer.Action.EditVariableTable.visualName=InstallAnywhere 変数を設定 - 単一変数
+Designer.Action.EditMultipleVariables.setIAVariablesMultiple=InstallAnywhere 変数を設定 - 複数変数: 
+Designer.Action.EditMultipleVariables.iaVariables=InstallAnywhere 変数
+Designer.Action.EditMultipleVariables.visualName=InstallAnywhere 変数を設定 - 複数変数
+Designer.Action.EditEnvironment.visualName=システム環境変数を設定
+Designer.Action.EditEnvironment.setSystemEnvVariable=システム環境変数を設定: 
+Designer.Action.DumpDebugInfo.visualName=デバッグ情報を出力
+Designer.Action.DisplayScrollingMessage.visualName=パネル: メッセージをスクロール
+Designer.Action.DisplayMessage.visualName=パネル: メッセージを表示
+Designer.Action.DisplayMessageConsole.visualName=コンソール: メッセージを表示
+Designer.Action.DeleteFileAction.visualName=ファイルを削除アクション
+Designer.Action.DeleteFileAction.deletingFile=ファイルを削除中:
+Designer.Action.DeleteFileAction.deleteFile=ファイルを削除:
+Designer.Action.DeleteFolderAction.visualName=フォルダを削除アクション
+Designer.Action.DeleteFolderAction.deletingFolder=フォルダを削除中:
+Designer.Action.DeleteFolderAction.deleteFolder=フォルダを削除:
+Designer.Action.CustomCode.visualName=カスタム コードを実行
+Designer.Action.CustomCode.noCustomCodeClassSpecified=<カスタム コード クラスが指定されていません>
+Designer.Action.CreateShortcut.visualNameMacOSX=エイリアス、リンク、ショートカットを作成
+Designer.Action.CreateShortcut.visualNameOther=エイリアスを作成
+Designer.Action.CreateDialog.visualName=パネル: ユーザー入力を取得 - 簡易
+Designer.Action.CreateDialog.getUserInput=ユーザー入力を取得
+Designer.Action.CreateDialog.enterRequectedInfo=必要な情報を入力
+Designer.Action.AbstractFileOperations.visualName=ファイル操作要約
+Designer.Action.AbstractFileOperations.abstractFileOperation=ファイル操作要約
+Designer.Action.AbstractFileOperations.fileOp=ファイル操作
+Designer.Action.CopyFileAction.copyFile=ファイルをコピー:
+Designer.Action.CopyFileAction.copyingFile=ファイルをコピー中:
+Designer.Action.CopyFileAction.visualName=ファイルをコピー アクション
+Designer.Action.CopyFolderAction.copyFolder=フォルダをコピー:
+Designer.Action.CopyFolderAction.copyingFolder=フォルダをコピー中:
+Designer.Action.CopyFolderAction.visualName=フォルダをコピー アクション
+Designer.Action.Comment.visualName=コメント
+Designer.Action.Comment.emptyComment=<コメントが空です>
+Designer.Action.ChooseJavaVMAction.visualName=パネル: Java VM を選択
+Designer.Action.ChooseJavaVMActionConsole.visualName=コンソール: Java VM を選択
+Designer.Action.ChooseInstallSetActionConsole.visualName=コンソール: インストール セットを選択
+Designer.Action.ChooseInstallSetAction.visualName=パネル: インストール セットを選択
+Designer.Action.ChooseFile.visualName=パネル: ファイルを選択
+Designer.Action.ChooseFolder.visualName=パネル: フォルダを選択
+Designer.Action.ASCIIFileManipulatorZip.visualName=テキスト ファイルを変更 - アーカイブ内
+Designer.Action.ASCIIFileManipulator.visualName=テキスト ファイルを変更 - 単一ファイル
+Designer.Action.AntRunner.executingANTscript=ANT スクリプトを実行中
+Designer.Action.AntRunner.noBuildScript=<ビルド スクリプトがありません>
+Designer.Action.AntRunner.noBuildProperties=<ビルドのプロパティがありません>
+Designer.Action.AntRunner.visualName=ANT スクリプトを実行
+Designer.Actions.ShowDialogAction.visualName=メッセージ ダイアログを表示
+Designer.Actions.ShowDialogAction.messageDialog=メッセージ ダイアログ:
+Designer.Actions.ShowDialogAction.enterDialogTitleHere=<ここにダイアログ タイトルを入力>
+Designer.Actions.ShowDialogAction.enterDialogLabelHere=<ここにダイアログ ラベルを入力>
+Designer.Actions.ShowDialogAction.enterDialogMessageHere=<ここにダイアログ メッセージを入力>
+Designer.Actions.ShowDialogAction.enterButtonLabel=<ボタン ラベル>
+Designer.Actions.SpeedASCIIFileManipulator.visualName=テキスト ファイルを変更 - 複数ファイル
+Designer.Actions.InstallDirCont.visualName=SpeedFolder をインストール
+Designer.FolderConstants.destinationFolder=インストール先フォルダ
+Designer.FolderConstants.installDirName=ユーザー インストール フォルダ
+Designer.FolderConstants.programsDirName=プログラム フォルダ
+Designer.FolderConstants.programsDir64Name=プログラム フォルダ (64 ビット)
+Designer.FolderConstants.userShortcutsName.win32=ショートカット
+Designer.FolderConstants.userShortcutsName.mac=エイリアス
+Designer.FolderConstants.userShortcutsName.unix=リンク
+Designer.FolderConstants.systemName=システム フォルダ
+Designer.FolderConstants.system64Name=システム フォルダ (64 ビット)
+Designer.FolderConstants.desktopName=デスクトップ フォルダ
+Designer.FolderConstants.startupName=起動フォルダ
+Designer.FolderConstants.installDriveRootName=インストール ドライブ ルート
+Designer.FolderConstants.systemDriveRootName=システム ドライブ ルート
+Designer.FolderConstants.javaHomeName=Java ホーム
+Designer.FolderConstants.fontsName=フォント ディレクトリ
+Designer.FolderConstants.tempDirName=一時ディレクトリ
+Designer.FolderConstants.iaTempDirName=インストール一時ディレクトリ
+Designer.FolderConstants.win32WindowsName=Windows ディレクトリ
+Designer.FolderConstants.win32StartMenuName=[スタート] メニュー
+Designer.FolderConstants.win32ProgramsMenuName=[プログラム] メニュー
+Designer.FolderConstants.win32FavoritesName=お気に入り
+Designer.FolderConstants.win32RecentName=最近使った項目
+Designer.FolderConstants.win32SendToName=送信先
+Designer.FolderConstants.win32MethodName=Nethood
+Designer.FolderConstants.win32QuickLaunchName=クイック起動バー
+Designer.FolderConstants.win32ShellNewName=ShellNew
+Designer.FolderConstants.win32CommonStartMenuName=すべてのユーザーの [スタート] メニュー
+Designer.FolderConstants.win32CommonProgramsMenuName=すべてのユーザーの [プログラム] メニュー
+Designer.FolderConstants.win32CommonStartupName=すべてのユーザーの起動
+Designer.FolderConstants.win32CommonDesktopName=すべてのユーザーのデスクトップ
+Designer.FolderConstants.appleMenuItems=Apple メニュー項目
+Designer.FolderConstants.controlPanelsFolder=コントロール パネル フォルダ
+Designer.FolderConstants.extensionsFolder=機能拡張フォルダ
+Designer.FolderConstants.preferencesFolder=環境設定フォルダ
+Designer.FolderConstants.cleanUpStartupFolder=起動時に消去する項目フォルダ
+Designer.FolderConstants.dock=Dock
+Designer.FolderConstants.userApplicationsFolder=ユーザー アプリケーション
+Designer.FolderConstants.homeDirectory=ホーム ディレクトリ
+Designer.FolderConstants.doNotInstall=インストールしない
+Installer.StandardDialog.cancel=キャンセル
+Installer.StandardDialog.ok=OK
+Installer.StandardDialog.details=詳細
+Installer.ZGStandardDialog.alert=警告
+Installer.iGetUserInput.question=プロンプト
+Installer.iGetUserInput.textFields=テキスト フィールド
+Installer.GetUserInputConsole.singleChoice=単一選択
+Installer.GetUserInputConsole.multipleChoice=複数選択
+Installer.EntryAtom.setVariable=変数を設定
+
+Installer.JZGTextComponentUtil.undo=元に戻す
+Installer.JZGTextComponentUtil.copy=コピー
+Installer.JZGTextComponentUtil.cut=切り取り
+Installer.JZGTextComponentUtil.paste=貼り付け
+Installer.JZGTextComponentUtil.clear=クリア
+Installer.JZGTextComponentUtil.selectAll=すべて選択
+
+Installer.EntryAtom.enterVariableName=InstallAnywhere 変数名を入力してください (例、$COMPONENT_SELECTION_VAR$)。インストール時にこの変数が \"true\" と評価されると、そのコンポーネントが選択されます。
+Installer.variableNameForComponent=コンポーネント選択用の変数名
+Installer.InstallSet.untitled=<無題>
+Installer.InstallSet.untitledComment=<ここにインストール セットの説明を入力>
+Installer.InstallBundle.untitled=<無題>
+Installer.InstallBundle.untitledComment=<ここに製品機能の説明を入力 - この機能を目的のインストール セットに割り当てることを忘れないでください>
+Installer.InstallComponent.untitled=<無題>
+Installer.InstallComponent.untitledComment=<ここにインストール コンポーネントに関するコメントを入力 - このコンポーネントを目的の製品機能に割り当てることを忘れないでください>
+Installer.FileModicationCheck.compareFileModification=ファイル変更タイムスタンプを比較
+Installer.rule.visualName=ファイル/フォルダが存在するかどうかをチェック
+Installer.Customizer.ok=OK
+Installer.Customizer.cancel=キャンセル
+FileChooser.saveButtonText=保存
+FileChooser.openButtonText=開く
+FileChooser.cancelButtonText=キャンセル
+FileChooser.updateButtonText=アップデート
+FileChooser.helpButtonText=ヘルプ
+FileChooser.saveButtonToolTipText=保存
+FileChooser.openButtonToolTipText=開く
+FileChooser.cancelButtonToolTipText=キャンセル
+FileChooser.updateButtonToolTipText=アップデート
+FileChooser.helpButtonToolTipText=ヘルプ
+FileChooser.fileNameLabelText=ファイル名
+FileChooser.filesOfTypeLabelText=ファイルの種類
+ActionGroup.visualName.self=アクション グループ
+
+
+Designer.Action.UpdateServiceClient.visualName=アップデートの通知を有効
+Designer.FolderConstants.programsDir32Name=プログラム フォルダ (32 ビット)
+Designer.FolderConstants.system32Name=システム フォルダ (32 ビット)
+Designer.FolderConstants.variableMagicFolder=変数マジック フォルダ
+Installer.Actions.UpdateServiceClient.badClasspath=us.jar をロードするための #UPDATE_SERVICE# URLが間違っています。
+Installer.Actions.UpdateServiceClient.badUsJar=#UPDATE_SERVICE# ライブラリに、登録に必要なクラスが含まれていません。  指定された jar が間違っている可能性があります。
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=#UPDATE_SERVICE# クラスに、登録に必要なメソッドが含まれていません。
+Installer.installLog.actionNotes=アクション メモ:
+Installer.installLog.installLogDetail=インストール ログの詳細:
+Installer.installLog.installation=インストールの開始:
+Installer.installLog.unsuccessful=失敗。
+Installer.installLog.successful=成功
+Installer.installLog.withErrors=エラーあり。
+Installer.installLog.withwarnings=警告あり。
+Installer.installLog.cancelled=キャンセル済み
+Installer.installLog.duringPostInstall=[インストール後] の間
+Installer.installLog.duringInstall=インストール中
+Installer.installLog.duringPreInstall=[インストール前] 中
+Installer.installLog.cancelledBeforePreInstallation=インストールは、[インストール前] の前にユーザーによってキャンセルされました
+Installer.installLog.cancelledDuringPreInstallation=インストールは、[インストール前] 中にユーザーによってキャンセルされました
+Installer.installLog.cancelledDuringInstallation=インストールは、インストール中にユーザーによってキャンセルされました
+Installer.InstallLog.cancelledDuringPostInstallation=インストールは、インストールの後または [インストール後] 中にユーザーによってキャンセルされました
+Installer.installLog.successes=成功
+Installer.installLog.warnings=警告
+Installer.installLog.nonFatalErrors=非致命的エラー
+Installer.installLog.fatalErrors=致命的エラー
+Installer.installLog.details=詳細
+Installer.installLog.nothingWasInstalled=何もインストールされませんでした。
+Installer.installLog.none=なし
+Installer.installLog.summary=概要
+Installer.installLog.installedBy=マクロヴィジョンの InstallAnywhere #BUILD_INFO# によってインストール済み
+Installer.installLog.status=ステータス: 
+Installer.installLog.additionalNotes=追加メモ: 
+Installer.installLog.exceptionClass=例外クラス: 
+Installer.installLog.exceptionMessage=例外メッセージ: 
+Installer.installLog.exceptionStackTrace=例外スタック トレース:
+Installer.installLog.successLevel.successful=成功
+Installer.installLog.successLevel.warning=警告
+Installer.installLog.successLevel.error=エラー
+Installer.installLog.successLevel.fatalError=致命的エラー
+Installer.installLog.successLevel.unsupported=サポートされていないエラー レベル
+Installer.installLog.successLevel.notice=メモ
+Installer.installLog.action.description=インストール アクション:
+Installer.installLog.antRunner.description=ANT の実行スクリプト:
+Installer.installLog.antRunner.script=スクリプト: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=ターゲットが選択されていません
+Installer.installLog.asciiFileManipulator.newFile=新しいファイル 
+Installer.installLog.copyDirectory.description=ディレクトリをコピー:
+Installer.installLog.copyFile=ファイルをコピー:
+Installer.installLog.copyFileAction.destination=インストール先: 
+Installer.installLog.createShortcut.createShortcut=ショートカットを作成:
+Installer.installLog.createShortcut.createAlias=エイリアスを作成:
+Installer.installLog.createShortcut.createLink=リンクを作成:
+Installer.installLog.deleteFileAction.source=ソース:
+Installer.installLog.editEnvironment.description=環境変数を設定:
+Installer.installLog.expandFile.description=コマンドライン引数:
+Installer.installLog.getRegEntry.description=レジストリ エントリを取得:
+Installer.installLog.getRegEntry.key=キー: 
+Installer.installLog.getRegEntry.value=値名: 
+Installer.installLog.installDirCont.description=Speedfolder をインストール:
+Installer.installLog.installDirectory.description=インストール先のディレクトリ:
+Installer.installLog.installFile.description=ファイルをインストール:
+Installer.installLog.installNTService.description=NT サービスを登録:
+Installer.installLog.installUninstaller.description=アンインストーラをインストール:
+Installer.installLog.installUninstaller.note=(すべてのアンインストーラ コンポーネントをインストール)
+Installer.installLog.makeExecutable.description=LaunchAnywhere を作成:
+Installer.installLog.makeExecutable.note=(すべてのLaunchAnywhere Java 実行可能コンポーネントをインストール)
+Installer.installLog.makeRegEntry.description=レジストリ エントリを作成:
+Installer.installLog.makeRegEntry.key=キー:
+Installer.installLog.makeRegEntry.name=値名:
+Installer.installLog.makeRegEntry.data=値データ:
+Installer.installLog.speedRegistry.description=レジストリ エントリ:
+Installer.installLog.subinstaller.description=マージ モジュールをインストール:
+Installer.installLog.subuninstaller.description=アンインストーラを実行:
+Installer.installLog.customAction.description=カスタム アクション:
+Installer.installLog.userInteractions=ユーザー インタラクション
+Installer.installLog.installBegin=インストールの開始:
+Installer.installLog.installEnd=インストールの終了:
+Installer.installLog.freeMemory=空きメモリー:
+Installer.installLog.totalMemory=引数なし
+Installer.installLog.commandLineArgs=コマンドライン引数:
+Installer.installLog.noArguments=引数なし
+Designer.Action.HTMLPanelAction.visualName=パネル: HTML を表示
+﻿#....................=HTML Panel
+HTMLPanelAction.title=HTML パネル
+Designer.Action.UninstallIsmpSoftware.visualName=InstallShield Universal ソフトウェアをアンインストール
+﻿
+# Unexpected (hacked) changes to the install script at runtime
+Installer.unexpectedChanges.title=エラー
+Installer.unexpectedChanges.label=インストーラを起動できません。
+Installer.unexpectedChanges.message=インストール スクリプトに対する予期しない変更が見つかりました。

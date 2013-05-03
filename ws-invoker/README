@@ -1,0 +1,5 @@
+This directory contains scripts written by MIR3 to test and benchmark web services calls.
+
+Pretty much everything is based off of invoker.py, which is the module that actually handles
+sending web service calls and returning responses.  It also contains some handy utility
+methods that other calls can depend on.

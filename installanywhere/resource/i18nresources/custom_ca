@@ -1,0 +1,2011 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Desinstal·lació completa
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Eliminar completament totes les funcions i els components de $PRODUCT_NAME$ que va instal·lar InstallAnywhere. No es canviarán el arxius i les carpetes creats després de l'instal·lació.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Desinstal·lar funcions específiques
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Seleccioneu les funcions específiques de $PRODUCT_NAME$, instal·lades per InstallAnywhere, que es desinstalaran.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Seleccioneu una de les opcions següents:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Opcions de desinstal·lació
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Desinstal·lar
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Eliminar completament totes les funcions i els components.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Seleccioneu les funcions específiques instal·lades per InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Escolliu una de les opcions següents:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Opcions de desinstal·lació
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=INTRODUÏU EL NOMBRE QUE DESITGEU, O PREMEU <RETORN> PER ACCEPTAR EL VALOR PER DEFECTE:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Ara hi ha prou espai de disc per continuar l'instal·lació.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=però només hi han XXX MB disponibles a:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Aquesta instal·lació necessita XXX MB d'espai lliure al disc,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Altrament, podeu triar 'Cancel·lar' per cancel·lar aquesta instal·lació.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Buideu XXX MB com a mínim per continuar l'instal·lació.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Buideu espai de disc per continuar l'instal·lació.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Premeu 'Instal·lar' per continuar amb l'instal·lació.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=A punt per continuar
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=No hi ha prou espai de disc
+
+# ................... =Warning!
+CheckDiskSpace.warning=Advertència!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=PREMEU <RETORN> PER TORNAR A CALCULAR L'ESPAI DE DISC DISPONIBLE,\u000A O ESCRIVIU 'SORTIR' PER SORTIR DE L'INSTAL·LADOR
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=No hi ha prou espai de disc per dur a terme aquesta instal·lació. Buideu espai de disc i torneu a executar l'instal·lador...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=PREMEU <RETORN> PER INICIAR L'INSTAL·LACIÓ
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Advertència!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Aquesta instal·lació necessita XXX MB d'espai lliure al disc,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=però només hi han XXX MB disponibles a:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Buideu XXX MB com a mínim per continuar l'instal·lació.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Buideu espai de disc per continuar l'instal·lació.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Ara hi ha prou espai de disc per continuar l'instal·lació.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=No hi ha prou espai de disc
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Seleccioneu un arxiu.
+
+# ................. =Choose...
+ChooseFile.chooseStr=Se&leccionar...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=S&eleccioneu un arxiu:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=&Restablir arxiu predeterminat
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Seleccioneu un arxiu
+
+# .................... =in the folder
+ChooseFile.macInsideStr=a la carpeta
+
+# ................ =on the disk
+ChooseFile.macOnStr=al disc
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Seleccioneu una carpeta.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=Se&leccionar...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=S&eleccioneu una carpeta:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=&Restablir carpeta predeterminada
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Seleccioneu una carpeta
+
+# .................. =on the disk
+ChooseFolder.macOnStr=al disc
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Error!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=No teniu permís d'escriptura a la carpeta seleccionada. Seleccioneu una carpeta diferent.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Seleccioneu carpeta
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Seleccioneu el conjunt d'instal·lació
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Seleccioneu el conjunt d'instal·lació
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Seleccioneu les funcions del producte
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Seleccioneu quin conjunt instal·larà aquest instal·lador.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=INTRODUÏU EL NOMBRE DEL CONJUNT D'INSTAL·LACIÓ, O PREMEU <RETORN> PER ACCEPTAR EL VALOR PER DEFECTE\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Escolliu quines funcions instal·larà l'instal·lador.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=INTRODUÏU UNA LLISTA DE NÚMEROS SEPARATS PER COMES QUE REPRESENTI\u000A   LES FUNCIONS QUE CAL INSTAL·LAR
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Seleccioneu el conjunt d'instal·lació
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Personalitzar
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Error al establir les funcions del producte per a l'instal·lació.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Seleccioneu quina MV de Java farà servir l'aplicació instal·lada
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Seleccioneu la Máquina Virtual de Java
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=La ruta donada no apunta a una Máquina Virtual de Java vàlida. Seleccioneu de nou.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Seleccioneu quina MV de Java farà servir l'aplicació instal·lada
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Seleccioneu la Máquina Virtual de Java
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=INTRODUÏU EL NOMBRE DE LA MV DE JAVA, O PREMEU <RETORN> PER ACCEPTAR LA SELECCIÓ ACTUAL
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=INTRODUÏU LA RUTA ABSOLUTA A L'EXECUTABLE DE LA MV DE JAVA DE LA VOSTRA ELECCIÓ\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=LA RUTA A L'EXECUTABLE DE JAVA ÉS:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Impossible instal·lar la Màquina Virtual de Java inclosa amb aquest instal·lador.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Instal·lar una MV de Java específicament per aquesta aplicació
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Seleccioneu una MV de Java que ja estigui instal·lada en aquest sistema
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=Selecci&oneu una altra...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Obrir
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Instal·lar una MV de Java específicament per aquesta aplicació
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Entorn de temps d'execució de Java
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Cercant a: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Aturar c&erca
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=C&ercar altres
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Cerca acabada.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Seleccioneu una MV de Java que ja estigui instal·lada en aquest sistema
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Error!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=L'aplicació seleccionada no és una Màquina Virtual de Java vàlida.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Seleccioneu MV de Java
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Error: No s'ha pogut trobar una Màquina Virtual de Java adequada.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Aquest producte necessita que ja estigui instal·lada una Màquina Virtual de Java en el vostre sistema. Visiteu <http://java.sun.com> per descarregar una màquina virtual per a la vostra plataforma.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Seleccioneu MV de Java
+
+
+ChooseSCMFeaturesConsole.visualName=Seleccioneu les funcions opcionals de SCM
+ChooseSCMFeaturesConsole.title=Seleccioneu les funcions opcionals de SCM
+ChooseSCMFeaturesConsole.instructions=Instruccions sobre la selecció de funcions de SCM
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=PREMEU <RETORN> PER CONTINUAR
+
+# ................. =Y
+ConsoleUtils.yesChar=S
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=ÉS CORRECTE AIXÒ?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Un dels valors donats no era vàlid. Seleccioneu de nou.
+
+#............... =back
+ConsoleUtils.back=enrera
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Desmarqueu les funcions que desitgeu desinstal·lar. Las funcions seleccionades romandran instal·lades.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Seleccioneu les funcions que desitgeu desinstal·lar. Las funcions no seleccionades romandran instal·lades.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Seleccioneu les funcions del producte
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Escolliu quins components instal·larà aquest instal·lador.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Desmarqueu les funcions que desitgeu desinstal·lar. Les funcions seleccionades romandran instal·lades.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Seleccioneu les funcions que desitgeu desinstal·lar. Les funcions no seleccionades romandran instal·lades.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Seleccioneu les funcions del producte
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=INTRODUÏU UNA LLISTA DE NOMBRES, SEPARATS PER COMES, QUE REPRESENTIN LES FUNCIONS QUE DESITGEU SELECCIONAR O NO SELECCIONAR. PER VEURE LA DESCRIPCIÓ D'UNA FUNCIÓ, INTRODUÏU '?<NOMBRE>'. QUAN HAGUEU ACABAT, PREMEU <RETORN>:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Conjunt d'instal·lació
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Seleccioneu les funcions del producte
+
+#............................... =Description
+CustomizeBundlesPanel.description=Descripció
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Espai total necessari per l'instal·lació:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Inserteu suport nou
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Inserteu #NAME# o seleccioneu 'Navegar...' per trobar-lo manualment.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Volum de suport incorrecte
+# .................... =Browse
+DiskNeededDialog.locate=Navegar
+
+# .................. =Cancel
+DiskNeededDialog.quit=Cancel·lar
+
+# ...................... =OK
+DiskNeededDialog.continue=Acceptar
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Inserteu suport nou
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Inserteu #NAME# o seleccioneu manualment la seva ruta.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Inserteu #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=S'espera trobar un disc a: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Inserteu #NAME# o escriviu el seu emplaçament.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=S'ha insertat XXX.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Seleccioneu la ruta a les dades de l'instal·lador.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Cancel·lar i sortir de l'instal·lació.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=INTRODUIR OPCIÓ
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=INTRODUÏU LA RUTA A LA CARPETA 'INSTALLERDATA' DEL DISC
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=L'entorn del sistema ha canviat. Per a que els canvis tinguin efecte cal que sortiu del sistema o que el reinicieu.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=S'ha canviat l'entorn del sistema
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Sortir
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Instal·lació no acabada
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Instal·lació no acabada
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Si cancel·leu l'instal·lació ara, no s'instal·larà $PRODUCT_NAME$. Per continuar l'instal·lació, premeu 'Continuar'. Per cancel·lar l'instal·lació, premeu 'sortir'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Si cancel·leu l'instal·lació ara, no s'instal·larà $PRODUCT_NAME$. Per continuar l'instal·lació, premeu 'Continuar'. Per cancel·lar la desinstal·lació, premeu 'Sortir'.
+
+# .......... =Resume
+ExitDialog.ok=Continuar
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Cancel·lar desinstal·lació
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Cancel·lar instal·lació
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Sí a tot
+
+# ....................... =No to All
+FileAlreadyExists.noAll=No a tot
+
+# ....................... =Yes
+FileAlreadyExists.yes=Sí
+
+# ....................... =No
+FileAlreadyExists.no=No
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=¿Sobreescriure l'arxiu existent?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Un arxiu amb el nom \"XXX\" ja existeix a \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Un arxiu més nou amb el nom \"XXX\" ja existeix a \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Un arxiu més antic amb el nom \"XXX\" ja existeix a \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=¿Desitgeu sobreescriure l'arxiu existent?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=S&eleccioneu un arxiu/carpeta:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Seleccionar
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=S'estan afegint els arxius a la llista següent.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=A continuació s'enumeren els arxius trobats.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=S'estan afegint les carpetes a la llista següent.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=A continuació s'enumeren les carpetes trobades.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=S'han trobat arxius que concorden amb:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=S'han trobat carpetes que concorden amb:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Trobats a:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=Se&leccioneu una altra...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Buscant a:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Efectueu la vostra selecció.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Cercant arxius que concordin amb:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Cercant carpetes que concordin amb:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Cercant
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Seleccionar
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=L'instal·lador no ha pogut trobar una concordància per a:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Seleccionat:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Seleccioneu una carpeta
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Cancel·lar
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Crear una nova carpeta
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Carpeta:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Nom:
+
+# ..................... =OK
+FolderSelectDialog.okStr=Acceptar
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=ÉS CORRECTE AIXÒ?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=PREMEU <RETORN> PER CONTINUAR
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Error:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Espereu. S'està configurant $PRODUCT_NAME$ pel vostre sistema. Això trigarà uns moments...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Espereu
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=L'instal·lació necessita una contrasenya per continuar.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=&Introduïu la contrasenya:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Introduïu la contrasenya
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Error!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=La contrasenya introduïda és incorrecta. Proveu-ho de nou.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Introduïu la contrasenya
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=Acceptar
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Es necessita una contrasenya per continuar.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=L'instal·lació necessita una contrasenya per continuar.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=La contrasenya introduïda és incorrecta. Proveu-ho de nou.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Introduïu la contrasenya:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Es necessita una contrasenya per continuar.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Introduïu la contrasenya
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=INTRODUÏU UNA LLISTA DE NOMBRES, SEPARATS PER COMES, QUE REPRESENTI LES OPCIONS DESITJADES
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=INTRODUÏU UNA LLISTA DE NOMBRES, SEPARATS PER COMES, QUE REPRESENTIN LES FUNCIONS QUE DESITGEU SELECCIONAR, O PREMEU <RETORN> PER ACCEPTAR ELS VALORS PER DEFECTE
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=INTRODUÏU EL NOMBRE DE L'OPCIÓ QUE DESITGEU
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=INTRODUÏU EL NOMBRE QUE DESITGEU, O PREMEU <RETORN> PER ACCEPTAR EL VALOR PER DEFECTE:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=No podeu sortir de l'instal·lador en aquest moment.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=No podeu tornar al pas anterior en aquest moment.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Informació important
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Llegiu abans de continuar:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=S'HA VISUALITZAT LA INFORMACIÓ IMPORTANT. PREMEU <RETORN> PER CONTINUAR
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Informació important
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Llegiu abans de continuar:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Aplicació
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Això instal·la la funció de l'aplicació.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Ajuda
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Això instal·la la funció d'ajuda.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=S'ha instal·lat $PRODUCT_NAME$ satisfactòriament a:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000APremeu "Acabar" per sortir de l'instal·lador.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Instal·lació acabada
+InstallCompleteAction.stepTitle=Instal·lació acabada
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=L'instal·lació de $PRODUCT_NAME$ ha acabat, pero s'han produït alguns errors durant el procés.\n\nConsulteu el registre d'instal·lació per a més detalls. Premeu "Acabar" per sortir de l'instal·lador.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Instal·lació acabada
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Instal·lació acabada
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Felicitacions! S'ha instal·lat $PRODUCT_NAME$ satisfactòriament a: \u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=PREMEU <RETORN> PER SORTIR DE L'INSTAL·LADOR
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=L'instal·lació de $PRODUCT_NAME$ ha acabat, pero s'han produït alguns errors durant el procés.\u000A   Consulteu el registre d'instal·lació per a més detalls.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=L'instal·lació de $PRODUCT_NAME$ ha acabat, pero s'han produït alguns errors durant el procés.\u000A   Consulteu el registre d'instal·lació per a més detalls. Premeu "Acabar" per sortir de l'instal·lador.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=PREMEU <RETORN> PER SORTIR DE L'INSTAL·LADOR
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Instal·lació acabada
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Seleccioneu una carpeta de destinació per a aquesta instal·lació.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Seleccioneu la carpeta d'instal·lació
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=On desitgeu &instal·lar?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Seleccioneu la carpeta d'instal·lació
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=INTRODUÏU UNA RUTA ABSOLUTA, O PREMEU <RETORN> PER ACCEPTAR EL VALOR PER DEFECTE\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=INTRODUÏU UNA RUTA ABSOLUTA, ESCRIVIU 'defecte' PER RESTABLIR LA CARPETA PER DEFECTE\u000A O PREMEU <RETORN> PER ACCEPTAR LA CARPETA SELECCIONADA
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Carpeta d'instal·lació per defecte: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Carpeta d'instal·lació seleccionada: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=LA CARPETA D'INSTAL·LACIÓ ÉS: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=La ruta donada: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=[XXX] apunta a un arxiu ja existent en el sistema de destinació.\u000AL'instal·lador no pot sobrescriure un arxiu existent amb una carpeta nova.\u000ATrieu una posició d'instal·lació diferent.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=No teniu permís d'escriptura a la destinació d'instal·lació seleccionada. \u000ASeleccioneu una ubicació d'instal·lació diferent.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=On desitgeu instal·lar?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Error!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=No teniu permís d'escriptura a la destinació d'instal·lació seleccionada. \u000ASeleccioneu una ubicació d'instal·lació diferent.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Seleccioneu la carpeta d'instal·lació
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=La ruta especificada com a destinació d’instal•lació té un o més caràcters no vàlids en aquesta plataforma.  \u000ASeleccioneu una ubicació d'instal•lació diferent.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=Se&leccionar...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=&Restablir carpeta predeterminada
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=dins de
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=a la carpeta
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=al disc
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=instal·lar
+
+# ....................... =Introduction
+Installer.installLabels.00=Introducció
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Seleccioneu la carpeta d'instal·lació
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Seleccioneu la carpeta de $SHORTCUT_NAME$
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Resum previ a l'instal·lació
+
+# ....................... =Installing...
+Installer.installLabels.04=Instal·lant...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Instal·lació acabada
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=No es pot executar l'instal·lador en aquest sistema.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=No és possible executar l'instal·lador a la vostra configuració. Es sortirà.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Modalitat d'interfície d'usuari de l'instal·lador no admesa
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=No es pot executar l'instal·lador en aquesta modalitat. Per determinar com executar aquest instal·lador
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Error de modalitat de IU de l'instal·lador
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Desinstal·lar $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=S'ha instal·lat $PRODUCT_NAME$ satisfactòriament a:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000APremeu "Acabar" per sortir de l'instal·lador.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=L'instal·lació de $PRODUCT_NAME$ ha acabat, pero s'han produït algunes advertències durant el procés. Consulteu el registre d'instal·lació per a més detalls.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=L'instal·lació de $PRODUCT_NAME$ ha acabat, pero s'han produït alguns errors durant el procés. Consulteu el registre d'instal·lació per a més detalls.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=L'instal·lació de $PRODUCT_NAME$ ha acabat, pero s'han produït alguns errors greus durant el procés. Consulteu el registre d'instal·lació per a més detalls.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Per acabar l'instal·lació, és aconsellable que reinicieu el sistema.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Per acabar l'instal·lació, és necessari que reinicieu el sistema.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Instal·lació acabada
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Sí, reiniciar el sistema
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=No, reiniciaré el sistema manualment
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Instal·lant...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Cancel·lant l'instal·lació...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Instal·lant...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Resum previ a l'instal·lació
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Consulteu la informació següent abans de continuar:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Resum previ a l'instal·lació
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=PREMEU <RETORN> PER CONTINUAR. SI LA INFORMACIÓ ÉS INCORRECTA, ESCRIVIU "ENRERA" PER CANVIAR-LA\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Nom del producte:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Carpeta d'instal·lació:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Carpeta d'accés directe:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Carpeta d'enllaços:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Carpeta d'àlies:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Conjunt d'instal·lació personalitzat definit per l'usuari
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Conjunt d'instal·lació
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Components del producte:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Carpeta d'instal·lació de la MV de Java:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=MV de Java que farà servir el producte instal·lat:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Informació d'espai en disc (per la destinació de l'instal·lació): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Necessari:
+
+# .................. =bytes
+InstallSummaryUI.byte=bytes
+
+# ....................... =Available:
+InstallSummaryUI.available=Disponible:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Seleccioneu aquesta opció per personalitzar les funcions que s'instal·laran.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Personalitzat
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Només s'instal·laran les funcions necessàries de l'aplicació. Aquesta opció només està recomanada pels usuaris amb espai de disc limitat.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Mínima
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=S'instal·laràn les funcions més habituals de l'aplicació. Es recomana aquesta opció per a la majoria d'usuaris.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Típica
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere us guiarà per l'instal·lació de $PRODUCT_NAME$.\u000A\u000AEs recomana que sortiu de tots els programes abans de continuar amb aquesta instal·lació.\u000A\u000APremeu 'Següent' per continuar a la pantalla següent. Si voleu canviar quelcom d'una pantalla anterior, premeu 'Anterior'.\u000A\u000APodeu cancel·lar aquesta instal·lació en qualsevol moment prement 'Cancel·lar'.
+
+# .................. =Introduction
+IntroAction.stepTitle=Introducció
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere us guiarà per l'instal·lació de $PRODUCT_NAME$.\u000A\u000AEs recomana que sortiu de tots els programes abans de continuar amb aquesta instal·lació.\u000A\u000AContesteu cada pregunta per passar al pas següent de l'instal·lació. Si voleu canviar quelcom d'un pas anterior, escriviu 'anterior'.\u000A\u000APodeu cancel·lar aquesta instal·lació en qualsevol moment escrivint 'sortir'.
+
+# ..................... =Introduction
+IntroActionConsole.title=Introducció
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Impossible obrir el URL en el navegador de Web
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere no ha pogut obrir el URL sol·licitat ($ACTION_URL$) en el navegador de Web per defecte del sistema. Per veure aquest URL, escriviu l'adreça que es mostra anteriorment en el navegador de Web que preferiu.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Llicència
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=Per instal·lar i utilitzar $PRODUCT_NAME$ cal acceptar la llicència següent:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Llicència
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=Per instal·lar i utilitzar $PRODUCT_NAME$ cal acceptar la llicència següent:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ESTEU D'ACORD AMB ELS TERMES D'AQUESTA LLICÈNCIA?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Sortir
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Continuar
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Avís de llicència
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Advertència!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Si no accepteu els termes de la llicència, no podreu continuar l'instal·lació.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=&NO accepto els termes de la llicència
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=No s'ha trobat l'arxiu per la visualització preliminar
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=Acc&epto els termes de la llicència
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=No s'ha seleccionat cap arxiu
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=PREMEU <RETORN> PER ACCEPTAR ELS/LES SEGÜENTS
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=INTRODUÏU EL NOMBRE DE L'OPCIÓ QUE DESITGEU, O PREMEU <RETORN> PER ACCEPTAR EL VALOR PER DEFECTE
+
+# ........................... =OK
+PromptUserConsole.option0Label=Acceptar
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Cancel·lar
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Detalls...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere està llest per instal·lar $PRODUCT_NAME$ a l'ubicació següent del vostre sistema:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=PREMEU <RETORN> PER INSTAL·LAR
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=A punt d'instal·lar
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere està acabant. Espereu...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Finalitzant...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=L'instal·lació necessita un número de sèrie per continuar.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=&Introduïu el número de sèrie:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Introduïu el número de sèrie
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Error!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=El número de sèrie introduït és incorrecte. Proveu-ho de nou.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Introduïu el número de sèrie
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=Acceptar
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Es necessita un número de sèrie per continuar.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=L'instal·lació necessita un número de sèrie per continuar.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=El número de sèrie introduït és incorrecte. Proveu-ho de nou.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Introduïu el número de sèrie:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Es necessita un número de sèrie per continuar.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Introduïu el número de sèrie
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Àlies
+
+#............... =Link
+ShortcutName.link=Enllaç
+
+#................... =Shortcut
+ShortcutName.shortcut=Accés directe
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=On desitgeu crear els àlies?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Seleccioneu carpeta d'àlies
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Seleccioneu carpeta d'enllaç
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=On desitgeu crear els enllaços?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=On desitgeu crear les icones del producte?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Seleccioneu l'ubicació de l'accés directe
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Grups comuns
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Grups de l'usuari actual
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=a la carpeta
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=al disc
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Per defecte: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Actual: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Seleccioneu una altra ubicació...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=INTRODUÏU EL NOMBRE D'UNA DE LES OPCIONS ANTERIORS, O PREMEU <RETORN> PER ACCEPTAR EL VALOR PER DEFECTE\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=INTRODUÏU EL NOMBRE D'UNA DE LES OPCIONS ANTERIORS, O PREMEU <RETORN> PER ACCEPTAR LA SELECCIÓ ACTUAL
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=INTRODUÏU LA RUTA ABSOLUTA A LA CARPETA D'ACCÉS DIRECTE\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=L'UBICACIÓ DE L'ACCÉS DIRECTE ÉS: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Seleccioneu l'ubicació de l'enllaç
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=On desitgeu crear els enllaços?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Seleccioneu l'ubicació de l'accés directe
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=On desitgeu crear les icones del producte? 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Seleccioneu l'ubicació de l'àlies
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=On desitgeu crear els àlies?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Al menú Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Al Dock
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=A l'Escriptori
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=No crear àlies
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Altre:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=No crear enllaços
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=No crear icones
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=A la vostra carpeta d'inici
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=A l'Escriptori
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=En un nou grup de programes:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=En un grup de programes existent:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=A la Barra d'execució &ràpida
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=Al menú Inici
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Crear icones per a tots els usuaris
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Error!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=No teniu permís d'escriptura a la destinació seleccionada. Seleccioneu una ubicació d'instal·lació diferent.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=Al &menú Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=Al &Dock
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=A l'&Escriptori
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=A l'&Escriptori
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Seleccionar...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=No crear àlies
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=A&ltre:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=N&o crear enllaços
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=N&o crear icones
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=A la &vostra carpeta d'inici
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=A l'&Escriptori
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=En un no&u grup de programes:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=En un grup de programes e&xistent:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=Al menú &Inici
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Crear icones per a &tots els usuaris
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=Acceptar
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Cancel·lar
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Detalls...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Data:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=ID de llicència:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Versió de seqüència:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Versió:
+
+# ............... =Done
+StepMaster.doneStr=Aca&bar
+
+# ............... =Cancel
+StepMaster.exitStr=&Cancel·lar
+
+# ............... =Help
+StepMaster.helpStr=A&juda
+
+# .................. =Install
+StepMaster.installStr=&Instal·lar
+
+# ............... =Next
+StepMaster.nextStr=&Següent
+
+# ............... =Previous
+StepMaster.prevStr=&Anterior
+
+# ............... =Close
+StepMaster.closeStr=Tancar
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=S'han desinstal·lat tots els elements satisfactòriament.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Desinstal·lació acabada
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=No s'han pogut eliminar els elements següents:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Impossible eliminar
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Per acabar la desinstal·lació, és necessari que reinicieu el sistema.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Per acabar la desinstal·lació, és aconsellable que reinicieu el sistema.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Per acabar la desinstal·lació, també és necessari que reinicieu el sistema.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Per acabar la desinstal·lació, també és aconsellable que reinicieu el sistema.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Sí, reiniciar el sistema
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=No, reiniciaré el sistema manualment
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=S'han desinstal·lat tots els elements satisfactòriament.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Desinstal·lació acabada
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=No s'han pogut eliminar els elements següents:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Per acabar la desinstal·lació, és necessari que reinicieu el sistema.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Per acabar la desinstal·lació, és aconsellable que reinicieu el sistema.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Desinstal·lació acabada
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=S'han desinstal·lat tots els elements satisfactòriament.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=No s'han pogut eliminar alguns elements.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=No s'ha pogut acabar la desinstal·lació degut a un error.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Desinstal·lar $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=Desinstal·lador d'InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Introducció
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Desinstal·lant...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Desinstal·lació acabada
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=A punt de desinstal·lar...\u000A\u000A$PRODUCT_NAME$\u000A\u000AAixò eliminarà completament totes les funcions instal·lades per InstallAnywhere. No eliminarà els arxius i carpetes creats després de l'instal·lació.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Desinstal·lar $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=A punt de desinstal·lar...\u000A\u000A$PRODUCT_NAME$\u000A\u000AAixò eliminarà completament totes les funcions instal·lades per InstallAnywhere. No eliminarà els arxius i carpetes creats després de l'instal·lació.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Desinstal·lar $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Cancel·lar
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Sortir
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Ajuda
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Desinstal·lar
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=No s'ha pogut desfer una acció perque no estava admesa.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Finalitzant...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Paquets nadius...
+
+# ............... =Files...
+UninstallMgr.Files=Arxius...
+
+# ................. =Folders...
+UninstallMgr.Folders=Carpetes...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=MV de Java...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Enllaços...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Àlies...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Accesos directes...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=No s'ha pogut desinstal·lar el producte perque ja no existeix una màquina virtual de Java adequada en aquest sistema. Instal·leu una màquina virtual de Java i proveu-ho de nou.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 carpeta
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Preparant...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Base de dades de programari...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Registre...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 carpetes
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Impossible finalitzar
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Impossible eliminar els paquets nadius
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Impossible eliminar arxiu
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Impossible eliminar carpeta
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Impossible eliminar la funció de MV de Java
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Impossible eliminar enllaç
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Impossible eliminar àlies
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Impossible eliminar accés directe
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Impossible
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Impossible eliminar 1 arxiu
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Impossible eliminar 2 arxius
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Impossible eliminar base de dades de programari
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Impossible eliminar clau de registre
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=És necessari el reinici del sistema
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Es recomana que no executeu el desinstal·lador fins que hagueu reiniciat el sistema. Premeu \"Cancel·lar\" per sortir del desinstal·lador o \"Continuar\" per dur a terme la desinstal·lació de totes formes.
+
+# ................ =Continue
+UninstallRestart.continue=Continuar
+
+# ................ =Cancel
+UninstallRestart.exit=Cancel·lar
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Espereu mentre el desinstal·lador d'InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=elimina les funcions següents...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Executant codi personalitzat...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Executant...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Executant seqüència d'instal·lacio...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Instal·lar mòdul de fusió
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Instal·lant mòdul de fusió
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Instal·lant paquet nadiu
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=sortir
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=PREMEU <RETORN> PER INICIAR LA DESINSTAL·LACIÓ, O ESCRIVIU 'SORTIR' PER SORTIR DEL DESINSTAL·LADOR:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=PREMEU <RETORN> PER SORTIR DE L'INSTAL·LADOR:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Copiar arxiu
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Copiar carpeta
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Crear enllaç
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Crear accés directe
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Crear àlies
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Crear carpeta
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Crear LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Eliminar arxiu
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Eliminar carpeta
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Descomprimir paquet
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Instal·lar SpeedFolder
+
+InstallRPMPackage.visualname.self=Instal·lar RPM de Linux
+InstallSolarisPackage.visualname.self=Instal·lar paquet de Solaris
+InstallHPUXPackage.visualname.self=Instal·lar Depot de HP-UX
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Traslladar arxiu
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Traslladar carpeta
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Registrar servei de Windows
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Configurar variable d'entorn del sistema
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Configurar registre de Windows
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Executar seqüència ANT
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Executar seqüència
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Executar codi personalitzat
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Executar ordres
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Executar arxiu de destinació
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Buscar component al registre
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Obtenir entrada del registre de Windows
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Modificar arxiu de text
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Dur a terme transformació XSL
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Imprimir informació de depuració
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Imprimir text a la consola
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Mostrar quadre de diàleg de missatge
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Iniciar servei de Windows
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Aturar servei de Windows
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Pausar servei de Windows
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Explorar carpetes
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Instal·lar mòdul de fusió
+Designer.Action.PowerUpdateClient.visualName=Instal·lar client PowerUpdate
+Designer.Action.PerformXSLTZip.visualName=Dur a terme transformació XSL en paquet
+Designer.Action.PerformXSLT.visualName=Dur a terme transformació XSL
+Designer.Action.PerformXSLT.performingXSLtransform=Processant transformació XSL:
+Designer.Action.MakeExecutable.visualName=Crear aplicació LaunchAnywhere per Java
+Designer.Action.InstallZipfile.visualName=Instal·lar paquet
+Designer.Action.CreateUninstaller.visualName=Crear desinstal·lador
+Designer.Action.BOMAction.visualName=Instal·lar des de Manifest
+Designer.Action.ExpandArchive.visualName=Descomprimir paquet
+Designer.Action.ExecuteScript.visualName=Executar arxiu de seqüència/processament per lots
+Designer.Action.Exec.visualName=Executar ordre
+Designer.Action.visualName=Executar arxiu de destinació
+Designer.Action.AntRunner.visualName=Executar seqüència ANT
+Designer.Actions.ShowDialogAction.visualName=Mostrar quadre de diàleg de missatge
+
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Accions posteriors a la desinstal·lació
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Accions anteriors a la desinstal·lació
+
+Designer.Action.EvaluateDependenciesAction.visualName=Avaluar dependències
+
+ActionGroup.visualName.self=Grup d'accions
+
+Designer.Action.UpdateServiceClient.visualName=Activar notificacions d'actualització
+Designer.FolderConstants.programsDir64Name=Carpeta Programes (64 bits)
+Designer.FolderConstants.programsDir32Name=Carpeta Programes (32 bits)
+Designer.FolderConstants.system64Name=Carpeta Sistema (64 bits)
+Designer.FolderConstants.system32Name=Carpeta Sistema (32 bits)
+Designer.FolderConstants.variableMagicFolder=Carpeta màgica variable
+Installer.Actions.UpdateServiceClient.badClasspath=El URL #UPDATE_SERVICE# per carregar us.jar és incorrecte.
+Installer.Actions.UpdateServiceClient.badUsJar=La biblioteca #UPDATE_SERVICE# no conté la classe necessària pel registre. És possible que el fitxer jar proveït sigui incorrecte.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=La classe #UPDATE_SERVICE# no conté el mètode necessari pel registre.
+Installer.installLog.actionNotes=Notes d'acció:
+Installer.installLog.installLogDetail=Detalls del registre d'instal·lació:
+Installer.installLog.installation=Instal·lació:
+Installer.installLog.unsuccessful=No satisfactòria.
+Installer.installLog.successful=Satisfactòria
+Installer.installLog.withErrors=amb errors.
+Installer.installLog.withwarnings=amb advertències.
+Installer.installLog.cancelled=Cancel·lada
+Installer.installLog.duringPostInstall=durant la post-instal·lació
+Installer.installLog.duringInstall=durant la instal·lació
+Installer.installLog.duringPreInstall=durant la pre-instal·lació
+Installer.installLog.cancelledBeforePreInstallation=L'USUARI HA CANCEL·LAT LA INSTALACIÓ ABANS DE LA PRE-INSTAL·LACIÓ
+Installer.installLog.cancelledDuringPreInstallation=L'USUARI HA CANCEL·LAT LA INSTALACIÓ DURANT LA PRE-INSTAL·LACIÓ
+Installer.installLog.cancelledDuringInstallation=L'USUARI HA CANCEL·LAT LA INSTALACIÓ DURANT LA MATEIXA
+Installer.InstallLog.cancelledDuringPostInstallation=L'USUARI HA CANCEL·LAT LA INSTAL·LACIÓ DESPRÉS DE LA MATEIXA O DESPRÉS DE LA POST-INSTAL·LACIÓ
+Installer.installLog.successes=Operacions satisfactòries
+Installer.installLog.warnings=Advertències
+Installer.installLog.nonFatalErrors=ErrorsNoFatals
+Installer.installLog.fatalErrors=ErrorsFatals
+Installer.installLog.details=Detalls
+Installer.installLog.nothingWasInstalled=No s'ha instal·lat res.
+Installer.installLog.none=Cap
+Installer.installLog.summary=Resum
+Installer.installLog.installedBy=Instal·lat per InstallAnywhere #BUILD_INFO#, de Macrovision
+Installer.installLog.status=Estat:
+Installer.installLog.additionalNotes=Notes addicionals:
+Installer.installLog.exceptionClass=Classe d'excepció:
+Installer.installLog.exceptionMessage=Missatge d'excepció:
+Installer.installLog.exceptionStackTrace=Seguiment de pila de l'excepció:
+Installer.installLog.successLevel.successful=SATISFACTORI
+Installer.installLog.successLevel.warning=ADVERTÈNCIA
+Installer.installLog.successLevel.error=ERROR
+Installer.installLog.successLevel.fatalError=ERROR FATAL
+Installer.installLog.successLevel.unsupported=NIVELL D'ERROR NO ADMÉS
+Installer.installLog.successLevel.notice=NOTA
+Installer.installLog.action.description=Acció d'instal·lació:
+Installer.installLog.antRunner.description=Executar ordres ANT:
+Installer.installLog.antRunner.script=Ordres:
+Installer.installLog.asciiFileManipulator.noTargetChosen=No s'ha escollit cap destinació
+Installer.installLog.asciiFileManipulator.newFile=Nou fitxer
+Installer.installLog.copyDirectory.description=Copiar directori:
+Installer.installLog.copyFile=Copiar arxiu:
+Installer.installLog.copyFileAction.destination=Destinació:
+Installer.installLog.createShortcut.createShortcut=Crear accés directe:
+Installer.installLog.createShortcut.createAlias=Crear àlies:
+Installer.installLog.createShortcut.createLink=Crear enllaç:
+Installer.installLog.deleteFileAction.source=Origen:
+Installer.installLog.editEnvironment.description=Configurar variable d'entorn:
+Installer.installLog.expandFile.description=Descomprimir paquet:
+Installer.installLog.getRegEntry.description=Obtenir entrada del Registre:
+Installer.installLog.getRegEntry.key=Clau:
+Installer.installLog.getRegEntry.value=Nom del valor:
+Installer.installLog.installDirCont.description=Instal·lar Speedfolder:
+Installer.installLog.installDirectory.description=Instal·lar directori:
+Installer.installLog.installFile.description=Instal·lar fitxer:
+Installer.installLog.installNTService.description=Registrar servei de NT:
+Installer.installLog.installUninstaller.description=Instal·lar Desinstal·lador:
+Installer.installLog.installUninstaller.note=(Instal·lar tots els components del Desinstal·lador)
+Installer.installLog.makeExecutable.description=Crear LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(Instal·lar tots els components executables de Java de LaunchAnywhere)
+Installer.installLog.makeRegEntry.description=Crear entrada del Registre:
+Installer.installLog.makeRegEntry.key=Clau:
+Installer.installLog.makeRegEntry.name=Nom del valor:
+Installer.installLog.makeRegEntry.data=Dades del valor:
+Installer.installLog.speedRegistry.description=Entrades del Registre:
+Installer.installLog.subinstaller.description=Instal·lar mòdul de fusió:
+Installer.installLog.subuninstaller.description=Executar Desinstal·lador:
+Installer.installLog.customAction.description=Acció personalitzada:
+Installer.installLog.userInteractions=Interaccions amb l'usuari
+Installer.installLog.installBegin=Inici de la instal·lació:
+Installer.installLog.installEnd=Final de la instal·lació:
+Installer.installLog.freeMemory=Memòria lliure:
+Installer.installLog.totalMemory=Memòria total:
+Installer.installLog.commandLineArgs=Arguments de línia d'ordres:
+Installer.installLog.noArguments=Cap argument
+Designer.Action.HTMLPanelAction.visualName=Tauler: Mostrar HTML
+HTMLPanelAction.title=Tauler HTML
+Designer.Action.UninstallIsmpSoftware.visualName=Desinstal·lar el Software universal d'InstallShield
+Installer.unexpectedChanges.message=L'instal·lador ha trobat canvis inesperats en la seqüència d'instal·lació.
+﻿Installer.unexpectedChanges.title=Error
+Installer.unexpectedChanges.label=Impossible executar l'instal·lador.

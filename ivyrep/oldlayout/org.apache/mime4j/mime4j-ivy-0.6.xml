@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="mime4j" revision="0.6" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="apache-mime4j" type="jar"/>
+    <artifact name="apache-mime4j-bin" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="apache-mime4j-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>

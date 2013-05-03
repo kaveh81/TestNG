@@ -1,0 +1,18 @@
+<ivy-module version="2.0">
+  <info organisation="net.sourceforge.cobertura" module="cobertura" revision="1.9.4.1" status="release">
+    <license name="gpl2" url="http://www.gnu.org/licenses/gpl-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="cobertura" type="jar"/>
+    <artifact name="cobertura-bin" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="cobertura-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.objectweb" name="asm" rev="[3.0,)" conf="default->default"/>
+    <dependency org="org.apache" name="jakarta-oro" rev="[2.0.8,)" conf="default->default"/>
+  </dependencies>
+</ivy-module>

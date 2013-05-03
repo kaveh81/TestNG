@@ -1,0 +1,47 @@
+/*******************************************************************/
+/*                                                                 */
+/* color.css - definition of colors & graphics                     */
+/*                                                                 */
+/* Copyright © 2006 Macrovision Corporation                        */
+/*                                                                 */
+/*******************************************************************/
+
+												 
+BODY, P, A, UL, LI, LABEL, FILE, FIELDSET, LEGEND, OBJECT, TABLE, TD, FORM, INPUT, TEXTAREA, SELECT {
+	color: #333;
+	z-index: 1; 
+	font-family: 'Segoe UI', tahoma, sans-serif;
+    font-size: 12px;
+	line-height: 18px;
+}
+
+BODY {
+	margin: 10;
+	padding: 0;
+	width: 100%;
+	background: url("backBlue.jpg") no-repeat top left;
+}
+
+.hoverLink a {
+	color: #272F34;
+	border-bottom: 1px dashed #272F34;
+}
+
+.textField {
+	background-color: #D4DEEE;
+	scrollbar-3dlight-color: #eee;
+    scrollbar-arrow-color: #939AA2;
+    scrollbar-base-color: #eee;
+    scrollbar-darkshadow-color: #bbb;
+    scrollbar-face-color: #ddd;
+    scrollbar-highlight-color: #fff;
+    scrollbar-shadow-color: #9499A0;
+}
+
+A {
+	color: #333;
+}
+
+A:hover {
+	text-decoration: none;
+}

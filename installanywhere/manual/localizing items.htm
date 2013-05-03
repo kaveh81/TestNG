@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:26:02" />
+    <title>Localizing Items in the Installer</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1051182"> </a><h1 class="pHeading1">
+Localizing Items in the Installer
+</h1>
+<a name="wp1055109"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1051183"> </a><p class="pa_Body">
+See the list below to determine the correct properties to modify in the language resource files. This list does not include properties from many new actions. For a complete list, please contact Macrovision Support.</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1051186table1051184">
+  <caption><a name="wp1051186"> </a><p class="ptt_Table_Title">
+Language Resource Properties&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1052650"> </a><p class="ptch_Table_Cell_Heading">
+Property
+</p>
+</th>
+    <th><a name="wp1052652"> </a><p class="ptch_Table_Cell_Heading">
+Definition
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1051194"> </a><p class="ptck_Table_Cell_Key_Column">
+Installer.#.ProductName
+</p>
+</td>
+    <td><a name="wp1051196"> </a><p class="ptca_Table_Cell_Body">
+Name of product displayed on installer title bar.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051198"> </a><p class="ptck_Table_Cell_Key_Column">
+Installer.#.RulesFailedMessage
+</p>
+</td>
+    <td><a name="wp1051200"> </a><p class="ptca_Table_Cell_Body">
+Message displayed if specified rules keep the installer from running.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051202"> </a><p class="ptck_Table_Cell_Key_Column">
+Installer.#.ShortcutDestinationPathMacOS
+</p>
+</td>
+    <td><a name="wp1051204"> </a><p class="ptca_Table_Cell_Body">
+Path to where aliases are created during installation on Mac OS. (Relative to the end-user-selected alias folder chosen on the Choose Alias Location step.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051206"> </a><p class="ptck_Table_Cell_Key_Column">
+Installer.#.ShortcutDestinationPathWin32
+</p>
+</td>
+    <td><a name="wp1051208"> </a><p class="ptca_Table_Cell_Body">
+Path to where shortcuts are created during installation on Windows. (Relative to the end-user-selected shortcut folder chosen on the Choose Alias, Link, Shortcut Folder step.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051210"> </a><p class="ptck_Table_Cell_Key_Column">
+Installer.#.ShortcutDestinationPathSolaris
+</p>
+</td>
+    <td><a name="wp1051212"> </a><p class="ptca_Table_Cell_Body">
+Path to where links are created during installation on Unix. (Relative to the end-user-selected links folder chosen on the Choose Link Location step.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051214"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallSet.#.Description
+</p>
+</td>
+    <td><a name="wp1051216"> </a><p class="ptca_Table_Cell_Body">
+Description of one of the installer&#39;s features.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051218"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallSet.#.InstallSetName
+</p>
+</td>
+    <td><a name="wp1051220"> </a><p class="ptca_Table_Cell_Body">
+Name of one of the installer&#39;s features.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051222"> </a><p class="ptck_Table_Cell_Key_Column">
+Intro.#.DisplayText
+</p>
+</td>
+    <td><a name="wp1051224"> </a><p class="ptca_Table_Cell_Body">
+Text to display on the installer&#39;s Introduction step. Intro.#.Title Title to display on the installer&#39;s Introduction step.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051226"> </a><p class="ptck_Table_Cell_Key_Column">
+LicenseAgr.#.FileName
+</p>
+</td>
+    <td><a name="wp1051228"> </a><p class="ptca_Table_Cell_Body">
+Name of localized license agreement to be displayed as the installer is preparing itself. (NOTE:This is a filename only-not a fully qualified absolute pathname).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051230"> </a><p class="ptck_Table_Cell_Key_Column">
+LicenseAgr.#.Path
+</p>
+</td>
+    <td><a name="wp1051232"> </a><p class="ptca_Table_Cell_Body">
+Path name to localized license agreement to be displayed as the installer is preparing itself. (Note: This is only a pathname and does not include the filename itself.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051234"> </a><p class="ptck_Table_Cell_Key_Column">
+LicenseAgr.#.Title
+</p>
+</td>
+    <td><a name="wp1051236"> </a><p class="ptca_Table_Cell_Body">
+Title of License Agreement step in the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051238"> </a><p class="ptck_Table_Cell_Key_Column">
+MakeExecutable.#.DestinationName
+</p>
+</td>
+    <td><a name="wp1051240"> </a><p class="ptca_Table_Cell_Body">
+Name of the LaunchAnywhere Executable to be created on the destination computer. MakeRegEntry.#.Value to be written into the Win32 Registry.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051242"> </a><p class="ptck_Table_Cell_Key_Column">
+ShortcutLoc.#.MacOSTitle
+</p>
+</td>
+    <td><a name="wp1051244"> </a><p class="ptca_Table_Cell_Body">
+Title of Mac OS Choose Alias Location step in the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051246"> </a><p class="ptck_Table_Cell_Key_Column">
+ShortcutLoc.#.SolarisTitle
+</p>
+</td>
+    <td><a name="wp1051248"> </a><p class="ptca_Table_Cell_Body">
+Title of Unix Choose Alias, Link, Shortcut Folder step in the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051250"> </a><p class="ptck_Table_Cell_Key_Column">
+ShortcutLoc.#.Win32Title
+</p>
+</td>
+    <td><a name="wp1051252"> </a><p class="ptca_Table_Cell_Body">
+Title of Win32 Choose Alias, Link, Shortcut Folder step in the installer
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051254"> </a><p class="ptck_Table_Cell_Key_Column">
+Billboard.#.ImageName
+</p>
+</td>
+    <td><a name="wp1051256"> </a><p class="ptca_Table_Cell_Body">
+Name of billboard image file to be displayed as the installer is preparing itself. (Note: This is a filename only-not a fully qualified absolute pathname.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051258"> </a><p class="ptck_Table_Cell_Key_Column">
+Billboard.#.ImagePath
+</p>
+</td>
+    <td><a name="wp1051260"> </a><p class="ptca_Table_Cell_Body">
+Path name to billboard image to be displayed as the installer is preparing itself. (Note: This is only a pathname and does not include the filename itself.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051262"> </a><p class="ptck_Table_Cell_Key_Column">
+ChooseInstallSet.#.Title
+</p>
+</td>
+    <td><a name="wp1051264"> </a><p class="ptca_Table_Cell_Body">
+Title of Choose Feature step in the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051266"> </a><p class="ptck_Table_Cell_Key_Column">
+ChooseJavaVM.#.Title
+</p>
+</td>
+    <td><a name="wp1051268"> </a><p class="ptca_Table_Cell_Body">
+Title of Choose Java Virtual Machine step in the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051270"> </a><p class="ptck_Table_Cell_Key_Column">
+CreateShortcut.#.DestinationName
+</p>
+</td>
+    <td><a name="wp1051272"> </a><p class="ptca_Table_Cell_Body">
+Name of the shortcut/alias/link to be created on the destination computer. human.readable.language.name The name of the language represented by the data in this resource file (i.e., English, Espanol, etc.).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051274"> </a><p class="ptck_Table_Cell_Key_Column">
+ImportantNote.#.FileName
+</p>
+</td>
+    <td><a name="wp1051276"> </a><p class="ptca_Table_Cell_Body">
+Name of text file to be displayed on the Important Note step of the installer. (Note: This is a filename only-not a fully qualified absolute pathname.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051278"> </a><p class="ptck_Table_Cell_Key_Column">
+ImportantNote.#.Path
+</p>
+</td>
+    <td><a name="wp1051280"> </a><p class="ptca_Table_Cell_Body">
+Path name to text file to be displayed on the Important Note step of the installer. (Note: This is only a pathname and does not include the filename itself.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051282"> </a><p class="ptck_Table_Cell_Key_Column">
+ImportantNote.#.Title
+</p>
+</td>
+    <td><a name="wp1051284"> </a><p class="ptca_Table_Cell_Body">
+Title of Important Note step in installer
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051286"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallBundle.#.BundleName
+</p>
+</td>
+    <td><a name="wp1051288"> </a><p class="ptca_Table_Cell_Body">
+Name of component.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051290"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallBundle.#.Description
+</p>
+</td>
+    <td><a name="wp1051292"> </a><p class="ptca_Table_Cell_Body">
+Description text describing component.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051294"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallComplete.#.DisplayText
+</p>
+</td>
+    <td><a name="wp1051296"> </a><p class="ptca_Table_Cell_Body">
+Text to display on the Install Complete step of the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051298"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallComplete.#.Title
+</p>
+</td>
+    <td><a name="wp1051300"> </a><p class="ptca_Table_Cell_Body">
+Title of the Install Complete step in the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051302"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallDir.#.Title
+</p>
+</td>
+    <td><a name="wp1051304"> </a><p class="ptca_Table_Cell_Body">
+Title of the Choose Installation Directory step of the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1051306"> </a><p class="ptck_Table_Cell_Key_Column">
+Installer.#.InstallerName
+</p>
+</td>
+    <td><a name="wp1051308"> </a><p class="ptca_Table_Cell_Body">
+Name of the installer.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1051334"> </a><p class="pno_Note">
+The size of the install progress pane is 380x270 pixels. Installer dimensions may change slightly by platform to better display text and different fonts.
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

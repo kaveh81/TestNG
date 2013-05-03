@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="commons-io" revision="1.0" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="commons-io" type="jar"/>
+    <artifact name="commons-io-bin" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="commons-io-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>

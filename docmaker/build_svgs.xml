@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="build_svg" basedir=".">
+
+	<description> Create various documentation sets from source files. </description>
+
+	<!-- Load overrides, and build-tools -->
+	<property file="${user.home}/${ant.project.name}.properties" />
+	<property file="${user.home}/build-tools.properties" />
+	<property name="build-tools" location="${ant.file.build_svg}/.." />
+	<property file="${build-tools}/versions.properties" />
+
+	<!-- required properties, may be overriden above -->
+	<dirname property="working.dir"			file="${ant.file.build_svg}"/>
+	<property name="java.max.heapsize"		value="800m" />
+
+	<!-- The primary macro that users would probably invoke: convert all SVG's in a directory -->
+	<macrodef name="create-svgs">
+		<attribute name="input-dir"/>
+		<attribute name="output-dir"/>
+		<sequential>
+			<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+				<classpath>
+					<pathelement location="${build-tools}/${ant-contrib.jar}"/>
+				</classpath>
+			</taskdef>
+			<foreach target="-create-one-svg" param="input-svg-file">
+				<path>
+					<fileset dir="@{input-dir}">
+						<include name="*.svg"/>
+					</fileset>
+				</path>
+				<param name="output-dir" value="@{output-dir}"/>
+				<param name="input-dir" value="@{input-dir}"/>
+			</foreach>
+		</sequential>
+	</macrodef>
+
+	<target name="-check-one-svg" description="Helper to bridge between create-svgs and create-svg, with uptodate check">
+		<propertyregex property="base-name" input="${input-svg-file}" regexp=".*[/\\]([^/\\]*)\.svg" select="\1"/>
+		<uptodate property="src-svg-uptodate"
+			targetfile="${output-dir}/${base-name}.png"
+			srcfile="${input-svg-file}"/>
+	</target>
+
+	<target name="-create-one-svg" 
+		description="Helper to bridge between create-svgs and create-svg" 
+		depends="-check-one-svg"
+		unless="src-svg-uptodate">
+		<echo message="Processing file ${base-name}"/>
+		<create-svg 
+			input-svg-file="${input-svg-file}"
+			output-file="${output-dir}/${base-name}.png"
+			output-errors-file="${output-dir}/${base-name}.errors"
+			input-dir="${input-dir}"
+		/>
+	</target>
+
+	<macrodef name="create-svg">
+		<attribute name="input-svg-file" />
+		<attribute name="output-errors-file" />
+		<attribute name="output-file" />
+		<attribute name="input-dir" default="." />
+		<sequential>
+			<java dir="@{input-dir}"
+				output="@{output-errors-file}"
+				fork="true"
+				failonerror="true"
+				jar="${build-tools}/${batik-rasterizer.jar}"
+				maxmemory="${java.max.heapsize}"
+			>
+				<arg value="-m"/>
+				<arg value="image/png"/>
+				<arg value="-d"/>
+				<arg value="@{output-file}"/>
+				<arg value="@{input-svg-file}"/>
+			</java>
+			<!--<delete file="@{output-errors-file}"/>-->
+		</sequential>
+	</macrodef>
+</project>

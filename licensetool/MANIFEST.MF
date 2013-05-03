@@ -1,0 +1,2 @@
+RevisionNumber: 1.0
+Main-Class: com.mir3.licensetool.Main

@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="com.sun" module="javamail" revision="1.4" status="release">
+    <license name="proprietary" url="http://java.sun.com/products/javamail/javamail-1_4.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="mail" type="jar"/>
+    <artifact name="javamail" type="distribution" ext="zip" conf="distribution"/>
+  </publications>
+</ivy-module>

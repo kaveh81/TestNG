@@ -1,0 +1,2011 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Tee ohjelmanpoisto loppuun
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Poista kaikki $PRODUCT_NAME$ -ohjelman toiminnot ja komponentit, jotka InstallAnywhere on asentanut. Poisto ei vaikuta asennuksen jälkeen luotuihin tiedostoihin ja kansioihin.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Poista tiettyjen toimintojen asennus
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Valitse poistettaviksi ne $PRODUCT_NAME$ -ohjelman toiminnot, jotka InstallAnywhere on asentanut.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Valitse yksi seuraavista vaihtoehdoista:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Ohjelmanpoistovalinnat
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Ohjelmanpoisto
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Poista kaikki toiminnot ja komponentit.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Valitse ne toiminnot, jotka InstallAnywhere on asentanut.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Valitse jokin seuraavista vaihtoehdoista:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Ohjelmanpoistovalinnat
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=KIRJOITA VALINTAA ESITTÄVÄ NUMERO TAI HYVÄKSY OLETUSVALINTA PAINAMALLA <ENTER>:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Levytila riittää nyt asennuksen jatkamiseen.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=mutta vain XXX Mt käytettävissä kohteessa:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Tämä asennus vaatii XXX Mt vapaata levytilaa,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Muussa tapauksessa voit peruuttaa tämän asennuksen valitsemalla 'Peruuta'.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Vapauta ainakin XXX Mt jotta voisit jatkaa asennusta.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Vapauta jonkin verran levytilaa jotta voisit jatkaa asennusta.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Jatka asennusta napsauttamalla 'Asenna'.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Valmis jatkamaan
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Levytila ei riitä
+
+# ................... =Warning!
+CheckDiskSpace.warning=Varoitus!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=PAINA <ENTER> JÄLJELLÄ OLEVAN LEVYTILAN LASKEMISTA VARTEN, TAI LOPETA ASENNUSOHJELMA KIRJOITTAMALLA 'lopeta'
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Levytila ei riitä tälle asennukselle.\u000A   Vapauta jonkin verran levytilaa ja suorita tämä asennusohjelma uudelleen...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=ALOITA ASENNUS PAINAMALLA <ENTER>
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Varoitus!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Tämä asennus vaatii XXX Mt vapaata levytilaa,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=mutta vain XXX Mt käytettävissä kohteessa:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Vapauta ainakin XXX Mt jotta voisit jatkaa asennusta.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Vapauta jonkin verran levytilaa jotta voisit jatkaa asennusta.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Levytila riittää nyt asennuksen jatkamiseen.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Levytila ei riitä
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Valitse tiedosto.
+
+# ................. =Choose...
+ChooseFile.chooseStr=Va&litse...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=&Valitse tiedosto:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=P&alauta oletustiedosto
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Valitse tiedosto
+
+# .................... =in the folder
+ChooseFile.macInsideStr=kansiossa
+
+# ................ =on the disk
+ChooseFile.macOnStr=levylle
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Valitse kansio.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=Va&litse...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=&Valitse kansio:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=P&alauta oletuskansio
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Valitse kansio
+
+# .................. =on the disk
+ChooseFolder.macOnStr=levylle
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Virhe!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Sinulla ei ole kirjoitusoikeuksia valittuun kansioon. Valitse eri kansio.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Valitse kansio
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Valitse asennussarja
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Valitse asennussarja
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Valitse tuotteen toiminnot
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Valitse asennussarja, joka tämän asennusohjelman tulee asentaa.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=KIRJOITA ASENNETTAVAN SARJAN NUMERO TAI HYVÄKSY OLETUSVALINTA PAINAMALLA <ENTER>\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Valitse toiminnot, jotka asennusohjelman tulee asentaa.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=KIRJOITA PILKUIN EROTETTU LUETTELO NUMEROISTA, JOTKA ESITTÄVÄT\u000A   ASENNETTAVIA OMINAISUUKSIA
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Valitse asennussarja
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Mukauta
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Virhe asennettavien toimintojen asettamisessa.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Valitse Java VM jota asennettu sovellus käyttää
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Valitse Java Virtual Machine
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Annettu polku ei osoita kelpoisaan Java-virtuaalikoneeseen. Valitse uudelleen. Valitse uudelleen.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Valitse Java VM jota asennettu sovellus käyttää
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Valitse Java Virtual Machine
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=KIRJOITA JAVA VM:N NUMERO TAI HYVÄKSY NYKYINEN VALINTA PAINAMALLA <ENTER>
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=KIRJOITA HALUAMASI JAVA VM -OHJELMATIEDOSTON ABSOLUUTTINEN POLKU   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=JAVA-OHJELMATIEDOSTOLLA ON SEURAAVA POLKU:   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Ei voida asentaa tähän asennusohjelmaan sisältyvää Java-virtuaalikonetta.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Asenna Java VM erityisesti tätä sovellusta varten
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Valitse tähän järjestelmään jo asennettu Java VM
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=&Valitse toinen...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Avaa
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Asenna Java VM erityisesti tätä sovellusta varten
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Javan suorituksenaikainen ympäristö
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Etsintäpaikka: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Lope&ta etsintä
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=E&tsi muita
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Etsintä on valmis.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Valitse tähän järjestelmään jo asennettu Java VM
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Virhe!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Valittu sovellus ei ole kelpoisa Java-virtuaalikone.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Valitse Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Virhe: Sopivia Java-virtuaalikoneita ei löytynyt.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Tätä tuotetta varten vaaditaan Java-virtuaalikone joka on jo asennettu järjestelmään. Osoitteesta <http://java.sun.com> voit ladata virtuaalikoneen omaan käyttöympäristöösi.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Valitse Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=Valitse valinnaiset SCM-ominaisuudet
+ChooseSCMFeaturesConsole.title=Valitse valinnaiset SCM-ominaisuudet
+ChooseSCMFeaturesConsole.instructions=Valitse SCM-ominaisuuksien ohjeet
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=JATKA PAINAMALLA <ENTER>
+
+# ................. =Y
+ConsoleUtils.yesChar=K
+
+# ................ =N
+ConsoleUtils.noChar=E
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=ONKO TÄMÄ OIKEIN?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Jokin annetuista arvoista ei kelpaa. Valitse uudelleen.
+
+#............... =back
+ConsoleUtils.back=takaisin
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Poista rastitus ominaisuuksista, joiden asennus poistetaan. Rastitetut ominaisuudet pysyvät asennettuina.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Rastita ominaisuudet, joiden asennus poistetaan. Rastittamattomat ominaisuudet pysyvät asennettuina.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Valitse tuotteen toiminnot
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Valitse toiminnot, jotka tämä asennusohjelma asentaa.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Poista rastitus ominaisuuksista, joiden asennus poistetaan. Rastitetut ominaisuudet pysyvät asennettuina.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Rastita ominaisuudet, joiden asennus poistetaan. Rastittamattomat ominaisuudet pysyvät asennettuina.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Valitse tuotteen toiminnot
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=KIRJOITA PILKUIN EROTETTU LUETTELO NUMEROITA ESITTÄMÄÄN TOIMINTOJA, JOTKA HALUAT VALITA TAI POISTAA. JOS HALUAT NÄHDÄ TOIMINNON KUVAUKSEN, KIRJOITA '?<NUMERO>'. PAINA <ENTER> KUN OLET VALMIS:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Asennussarja
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Valitse tuotteen toiminnot
+
+#............................... =Description
+CustomizeBundlesPanel.description=Kuvaus
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Asennusta varten tarvittava tila yhteensä:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Aseta uusi levy
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Aseta #NAME# tai valitse 'Selaa...' ja etsi se manuaalisesti.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Väärä levy
+# .................... =Browse
+DiskNeededDialog.locate=Selaa
+
+# .................. =Cancel
+DiskNeededDialog.quit=Peruuta
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Aseta uusi levy
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Aseta #NAME# tai valitse sen polku manuaalisesti.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Aseta #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Levyä odotetaan osoitteessa: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Aseta #NAME# tai kirjoita sen sijainti.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=Valmis, XXX on asetettu.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Valitse asennustietojen hakupolku.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Peruuta ja lopeta asennus.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=ANNA VALINTA
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=ANNA POLKU 'INSTALLERDATA'-KANSIOON LEVYLLÄ
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Järjestelmäympäristöä on muutettu. Kirjaudu ulos järjestelmästä tai käynnistä se uudelleen jotta nämä muutokset tulisivat voimaan.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Järjestelmäympäristöä muutettu
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Lopeta
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Asennus ei ole valmis
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Asennus ei ole valmis
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Jos nyt peruutat asennuksen, $PRODUCT_NAME$ jää asentamatta. Jos haluat jatkaa asennusta, napsauta 'Jatka'. Jos haluat peruuttaa asennuksen, napsauta 'lopeta'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Jos nyt peruutat asennuksen, $PRODUCT_NAME$ jää asentamatta. Jos haluat jatkaa asennusta, napsauta 'Jatka'. Jos haluat peruuttaa asennuksen, napsauta 'lopeta'.
+
+# .......... =Resume
+ExitDialog.ok=Jatka
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Peruuta Ohjelmanpoisto
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Peruuta asennus
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Kaikkiin kyllä
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Kaikkiin ei
+
+# ....................... =Yes
+FileAlreadyExists.yes=Kyllä
+
+# ....................... =No
+FileAlreadyExists.no=Ei
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Kopioidaanko aiemman tiedoston yli?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Tiedosto nimeltä \"XXX\" on jo olemassa osoitteessa \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Uudempi tiedosto nimeltä \"XXX\" on jo olemassa osoitteessa \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Vanhempi tiedosto nimeltä \"XXX\" on jo olemassa osoitteessa \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Haluatko kopioida aiemman tiedoston yli?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=&Valitse tiedosto/kansio:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Valitse
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Tiedostoja lisätään alla olevaan luetteloon.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=Löydetyt tiedostot luetellaan alla.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Kansioita lisätään alla olevaan luetteloon.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=Löydetyt kansiot luetellaan alla.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Löytyneet tiedostot vastaavat seuraavia:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Löytyneet kansiot vastaavat seuraavia:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Löytöpaikka:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=Va&litse muu...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Tarkistetaan:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Tee oma valintasi.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Etsitään tiedostoja jotka vastaavat:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Etsitään kansioita jotka vastaavat:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Etsitään
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Valitse
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Asennusohjelma ei löydä vastaavuutta seuraavalle:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Valittu:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Valitse kansio
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Peruuta
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Luo uusi kansio
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Kansio:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Nimi:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=ONKO TÄMÄ OIKEIN?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=JATKA PAINAMALLA <ENTER>
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Virhe:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Odota hetki, $PRODUCT_NAME$ määritetään järjestelmääsi. Tämä voi kestää jonkin aikaa...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Odota hetki
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Asennuksen jatkamista varten vaaditaan salasana.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=&Anna salasana:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Anna salasana
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Virhe!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Antamasi salasana on väärä. Yritä uudelleen.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Anna salasana
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Jatkamiseen tarvitaan salasana.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Asennuksen jatkamista varten vaaditaan salasana.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Antamasi salasana on väärä. Yritä uudelleen.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Anna salasana:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Jatkamiseen tarvitaan salasana.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Anna salasana
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=KIRJOITA PILKUIN EROTETTU LUETTELO NUMEROISTA ESITTÄMÄÄN HALUTTUJA VALINTOJA
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=KIRJOITA PILKUIN EROTETTU LUETTELO NUMEROITA ESITTÄMÄÄN HALUTTUJA VALINTOJA, TAI HYVÄKSY OLETUSVALINTA PAINAMALLA <ENTER>
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=KIRJOITA HALUTTUA VALINTAA ESITTÄVÄ NUMERO
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=KIRJOITA VALINTAA ESITTÄVÄ NUMERO TAI HYVÄKSY OLETUSVALINTA PAINAMALLA <ENTER>:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Et voi nyt lopettaa asennusohjelmaa.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Et voi nyt siirtyä edelliseen vaiheeseen.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Tärkeitä tietoja
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Lue tämä ennen kuin jatkat:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=TÄRKEÄT TIEDOT NÄYTETTY. JATKA PAINAMALLA <ENTER>
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Tärkeitä tietoja
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Lue tämä ennen kuin jatkat:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Sovellus
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Tämä asentaa sovellustoiminnon.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Ohje
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Tämä asentaa aputoiminnon.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Onnittelumme! $PRODUCT_NAME$ on asennettu osoitteeseen:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ALopeta asennusohjelma painamalla "Valmis".
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Asennus on valmis
+InstallCompleteAction.stepTitle=Asennus on valmis
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=$PRODUCT_NAME$ on asennettu loppuun, mutta asennuksessa tapahtui joitakin virheitä.\u000A\u000AKatso tarkempia tietoja asennuslokista. Lopeta asennusohjelma painamalla "Valmis".
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Asennus on valmis
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Asennus on valmis
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Onnittelumme. $PRODUCT_NAME$ on asennettu kohteeseen:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=LOPETA ASENNUSOHJELMA PAINAMALLA <ENTER>
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=$PRODUCT_NAME$ on asennettu loppuun, mutta asennuksen aikana tapahtui joitakin virheitä.\u000A   Katso tarkempia tietoja asennuslokista.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=$PRODUCT_NAME$ on asennettu loppuun, mutta asennuksen aikana tapahtui joitakin virheitä.\u000A   Katso tarkempia tietoja asennuslokista. Lopeta asennusohjelma painamalla "Valmis".
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=LOPETA ASENNUSOHJELMA PAINAMALLA <ENTER>
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Asennus on valmis
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Valitse tämän asennuksen kohdekansio.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Valitse asennuskansio
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=&Minne haluat asentaa?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Valitse asennuskansio
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=ANNA ABSOLUUTTINEN POLKU TAI HYVÄKSY OLETUS PAINAMALLA <ENTER>   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=JOS HALUAT PALAUTTAA OLETUSKANSION, ANNA ABSOLUUTTINEN POLKU JA KIRJOITA 'oletus', TAI HYVÄKSY VALITTU KANSIO PAINAMALLA <ENTER>
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Asennuksen oletuskansio: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Valittu asennuskansio: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=ASENNUSHAKEMISTO ON: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Annettu polku: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=Osoittaa tiedostoa, joka on jo olemassa kohdejärjestelmässä.\u000ATämä asennusohjelma ei voi kirjoittaa aiemman tiedoston päälle uuteen kansioon.\u000AValitse eri sijainti asennukselle.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Sinulla ei ole kirjoitusoikeuksia valittuun asennuskohteeseen. \u000AValitse eri sijainti.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Minne haluat asentaa?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Virhe!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Sinulla ei ole kirjoitusoikeuksia valittuun asennuskohteeseen. \u000AValitse eri sijainti.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Valitse asennuskansio
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Asennuskohteeksi määritetyssä polussa on yksi tai useampia merkkejä, jotka eivät kelpaa tässä käyttöympäristössä. \u000AValitse eri sijainti asennusta varten.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=Va&litse...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=P&alauta oletuskansio
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=sisällä
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=kansiossa
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=levylle
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=asenna
+
+# ....................... =Introduction
+Installer.installLabels.00=Johdanto
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Valitse asennuskansio
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Valitse $SHORTCUT_NAME$ -kansio
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Yhteenveto ennen asennusta
+
+# ....................... =Installing...
+Installer.installLabels.04=Asennetaan...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Asennus on valmis
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Asennusohjelmaa ei voi suorittaa tässä järjestelmässä.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Asennusohjelmaa ei voida suorittaa tässä kokoonpanossa. Se lopetetaan nyt.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Asennusohjelman käyttäjäliittymätilaa ei tueta
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Asennusohjelmaa ei voi suorittaa tässä tilassa. Katso asennusohjelman dokumentaatiosta ohjeita tämän asennusohjelman suorittamisesta.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Asennusohjelman käyttöliittymätilan virhe
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Ohjelmanpoisto $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Onnittelumme! $PRODUCT_NAME$ on asennettu osoitteeseen:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ALopeta asennusohjelma painamalla "Valmis".
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=$PRODUCT_NAME$ on asennettu, mutta asennuksen aikana näytettiin joitakin varoituksia. Katso tarkempia tietoja asennuslokista.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=$PRODUCT_NAME$ on asennettu, mutta asennuksen aikana tapahtui joitakin virheitä. Katso tarkempia tietoja asennuslokista.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=$PRODUCT_NAME$ on asennettu, mutta asennuksen aikana tapahtui joitakin vakavia virheitä. Katso tarkempia tietoja asennuslokista.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Käynnistä järjestelmä uudelleen asennuksen suorittamiseksi loppuun.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Järjestelmä täytyy käynnistää uudelleen asennuksen suorittamiseksi loppuun.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Asennus on valmis
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Kyllä, käynnistä järjestelmä uudelleen
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Ei, käynnistän järjestelmän itse uudelleen
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Asennetaan...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Asennus peruutetaan...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Asennetaan...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Yhteenveto ennen asennusta
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Lue seuraava ennen kuin jatkat:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Yhteenveto ennen asennusta
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=JATKA PAINAMALLA <ENTER>. JOS TIEDOT OVAT VÄÄRIN, KIRJOITA 'takaisin' JA TEE MUUTOKSET\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Tuotteen nimi:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Asennushakemisto:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Pikakuvakekansio:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Linkkikansio:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Alias-kansio:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Käyttäjän määrittämä oma asennussarja
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Asennussarja
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Tuotteen komponentit:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM:n asennuskansio:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Java VM jota asennettu tuote käyttää:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Levytilatiedot (asennuskohteelle): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Vaaditaan:
+
+# .................. =bytes
+InstallSummaryUI.byte=tavua
+
+# ....................... =Available:
+InstallSummaryUI.available=Saatavilla:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Valitse tämä vaihtoehto, jos haluat itse valita asennettavat toiminnot.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Mukautettu
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Vain vaaditut sovelluksen ominaisuudet asennetaan. Tätä vaihtoehtoa suositellaan vain jos levyllä on vähän tilaa.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Minimi
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=Sovelluksen tavallisimmat ominaisuudet asennetaan. Tätä vaihtoehtoa suositellaan useimmille käyttäjille.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Tyypillinen
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere opastaa $PRODUCT_NAME$-tuotteen asennuksessa.\u000A\u000AKaikki avoimet ohjelmat on hyvä lopettaa ennen kuin tätä asennusta jatketaan.\u000A\u000AJatka seuraavaan näyttöön napsauttamalla 'Seuraava'. Jos haluat muuttaa jotain edellisestä näytöstä, napsauta 'Edellinen'.\u000A\u000AVoit peruuttaa tämän asennuksen milloin tahansa napsauttamalla 'Peruuta'.
+
+# .................. =Introduction
+IntroAction.stepTitle=Johdanto
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere opastaa $PRODUCT_NAME$-tuotteen asennuksessa.\u000A\u000AKaikki avoimet ohjelmat on hyvä lopettaa ennen kuin tätä asennusohjelmaa jatketaan.\u000A\u000AVastaa kuhunkin kehotteeseen voidaksesi jatkaa seuraavaan asennusvaiheeseen. Jos haluat muuttaa jotain edellisen vaiheen kohtaa, kirjoita 'takaisin'.\u000A\u000AVoit peruuttaa tämän asennuksen milloin tahansa kirjoittamalla 'lopeta'.
+
+# ..................... =Introduction
+IntroActionConsole.title=Johdanto
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=URL-osoite ei aukea www-selaimessa
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere ei voinut avata pyydettyä URL-osoitetta ($ACTION_URL$) järjestelmän oletusselaimessa. Näytä tämä URL kirjoittamalla edellä näytetty osoite haluttuun www-selaimeen.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Käyttöoikeussopimus
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=Jotta $PRODUCT_NAME$ voidaan asentaa ja sitä saadaan käyttää seuraava käyttöoikeussopimus täytyy hyväksyä:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Käyttöoikeussopimus
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=Jotta $PRODUCT_NAME$ voidaan asentaa ja sitä saadaan käyttää seuraava käyttöoikeussopimus täytyy hyväksyä:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=HYVÄKSYTKÖ TÄMÄN KÄYTTÖOIKEUSSOPIMUKSEN EHDOT?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Lopeta
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Jatka
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Käyttöoikeussopimuksen varoitus
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Varoitus!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Jos et hyväksy käyttöoikeussopimuksen ehtoja, et voi jatkaa tätä asennusta.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=E&N hyväksy käyttöoikeussopimuksen ehtoja
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Esikatseltavaa tiedostoa ei löytynyt
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=H&yväksyn käyttöoikeussopimuksen ehdot
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Tiedostoa ei ole valittu
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=HYVÄKSY SEURAAVAT PAINAMALLA <ENTER>
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=KIRJOITA HALUTTUA VALINTAA ESITTÄVÄ NUMERO TAI HYVÄKSY OLETUSVALINTA PAINAMALLA <ENTER>
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Peruuta
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Tiedot...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere on nyt valmis asentamaan tuotteen $PRODUCT_NAME$ järjestelmään käyttäen seuraavaa osoitetta:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=ALOITA ASENNUS PAINAMALLA <ENTER>
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Valmis asentamaan
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere viimeistelee asennusta. Odota hetki...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Siivotaan...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Asennuksen jatkamista varten vaaditaan sarjanumero.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=&Anna sarjanumero:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Anna sarjanumero
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Virhe!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Annettu sarjanumero on väärä. Yritä uudelleen.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Anna sarjanumero
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Jatkamista varten vaaditaan sarjanumero.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Asennuksen jatkamista varten vaaditaan sarjanumero.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Annettu sarjanumero on väärä. Yritä uudelleen.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Anna sarjanumero:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Jatkamista varten vaaditaan sarjanumero.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Anna sarjanumero
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Alias
+
+#............... =Link
+ShortcutName.link=Linkki
+
+#................... =Shortcut
+ShortcutName.shortcut=Pikakuvake
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Minne haluat luoda aliakset?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Valitse Alias-kansio
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Valitse linkkikansio
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Minne haluat luoda linkit?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Minne haluat luoda tuotekuvakkeet?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Valitse pikakuvakkeen sijaintipaikka
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Yhteiset ryhmät
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Nykyiset käyttäjäryhmät
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=kansiossa
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=levylle
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Oletus: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Nykyinen: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Valitse toinen sijaintipaikka...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=KIRJOITA YLLÄ OLEVAN VAIHTOEHDON NUMERO TAI HYVÄKSY OLETUS PAINAMALLA <ENTER>   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=KIRJOITA YLLÄ OLEVAN VAIHTOEHDON NUMERO TAI HYVÄKSY NYKYINEN VALINTA PAINAMALLA <ENTER>
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=KIRJOITA PIKAKUVAKEKANSION ABSOLUUTTINEN POLKU   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=PIKAKUVAKKEEN SIJAINTI ON: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Valitse linkin sijainti
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Minne haluat luoda linkit?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Valitse pikakuvakkeen sijaintipaikka
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Minne haluat luoda tuotekuvakkeet?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Valitse aliaksen sijainti
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Minne haluat luoda aliakset?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Omenavalikossa
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Dock-rivissä
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Työpöydälle
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Ei luoda aliaksia
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Muu:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Ei luoda linkkejä
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Ei luoda kuvakkeita
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Kotikansiossa
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Työpöydälle
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=Uuteen ohjelmaryhmään:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=Aiempaan ohjelmaryhmään:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=&Quick Launch -rivistä
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=Käynnistä-valikossa
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Luo kuvakkeet kaikille käyttäjille
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Virhe!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Sinulla ei ole kirjoitusoikeuksia valittuun kohteeseen. Valitse eri sijainti.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=Ome&navalikossa
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=&Dock-rivissä
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=&Työpöydälle
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=&Työpöydälle
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Valitse...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Ei luoda aliaksia
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=&Muu:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=Ei &luoda linkkejä
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=Ei &luoda kuvakkeita
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=&Kotikansiossa
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=&Työpöydälle
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=&Uuteen ohjelmaryhmään:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=&Aiempaan ohjelmaryhmään:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=Kä&ynnistä-valikossa
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Luo ku&vakkeet kaikille käyttäjille
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Peruuta
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Tiedot...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Pvm:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Käyttöoikeustunnus:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Komentosarjaversio:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Versio:
+
+# ............... =Done
+StepMaster.doneStr=&Valmis
+
+# ............... =Cancel
+StepMaster.exitStr=&Peruuta
+
+# ............... =Help
+StepMaster.helpStr=&Ohje
+
+# .................. =Install
+StepMaster.installStr=&asenna
+
+# ............... =Next
+StepMaster.nextStr=&Seuraava
+
+# ............... =Previous
+StepMaster.prevStr=&Edellinen
+
+# ............... =Close
+StepMaster.closeStr=Sulje
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Kaikkien nimikkeiden asennuksen poisto onnistui.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Asennus on poistettu
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Seuraavia nimikkeitä ei voitu poistaa:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Ei voida poistaa
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Järjestelmä täytyy käynnistää uudelleen asennuksen poiston suorittamiseksi loppuun.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Käynnistä järjestelmä uudelleen asennuksen poiston suorittamiseksi loppuun.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Järjestelmä täytyy käynnistää uudelleen myös asennuksen poiston suorittamiseksi loppuun.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Järjestelmä täytyy käynnistää uudelleen myös asennuksen poiston suorittamiseksi loppuun.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Kyllä, käynnistä järjestelmä uudelleen
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Ei, käynnistän järjestelmän itse uudelleen
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Kaikkien nimikkeiden asennuksen poisto onnistui.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Asennus on poistettu
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Seuraavia nimikkeitä ei voitu poistaa:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Järjestelmä täytyy käynnistää uudelleen asennuksen poiston suorittamiseksi loppuun.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Käynnistä järjestelmä uudelleen asennuksen poiston suorittamiseksi loppuun.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Asennus on poistettu
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Kaikkien nimikkeiden asennuksen poisto onnistui.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Joitakin nimikkeitä ei voitu poistaa.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Ohjelmanpoisto ei onnistunut virheen vuoksi.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Ohjelmanpoisto $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere-ohjelmanpoistaja
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Johdanto
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Poistetaan asennus...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Asennus on poistettu
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Aloitetaan asennuksen poisto...\u000A\u000A$PRODUCT_NAME$\u000A\u000ATämä poistaa kaikki toiminnot, jotka InstallAnywhere on asentanut. Se ei poista tiedostoja ja kansioita, jotka on luotu asennuksen jälkeen.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Ohjelmanpoisto $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Aloitetaan asennuksen poisto...\u000A\u000A$PRODUCT_NAME$\u000A\u000ATämä poistaa kaikki toiminnot, jotka InstallAnywhere on asentanut. Se ei poista tiedostoja ja kansioita, jotka on luotu asennuksen jälkeen.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Ohjelmanpoisto $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Peruuta
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Lopeta
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Ohje
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=O&hjelmanpoisto
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Toimintoa ei voitu peruuttaa koska sitä ei tuettu.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Siivotaan...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Alkuperäispakkaukset...
+
+# ............... =Files...
+UninstallMgr.Files=Tiedostot...
+
+# ................. =Folders...
+UninstallMgr.Folders=Kansiot...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Linkit...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Aliakset...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Pikakuvakkeet...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Tuotetta ei voitu poistaa, koska tässä järjestelmässä ei enää ole tarvittavaa Java-virtuaalikonetta. Asenna Java-virtuaalikone ja yritä uudelleen.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 kansiota
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Valmistellaan...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Ohjelmatietokanta...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Rekisteri...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 kansiota
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Siivousta ei voida tehdä
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Alkuperäispakkauksia ei voida poistaa
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Ei voida poistaa tiedostoa
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Ei voida poistaa kansiota
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Java VM -toiminnon poistaminen ei onnistu
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Ei voida poistaa linkkiä
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Ei voida poistaa aliasta
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Ei voida poistaa pikakuvaketta
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Ei voida
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Ei voida poistaa 1 tiedostoa
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Ei voida poistaa 2 tiedostoa
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Ei voida poistaa ohjelmatietokantaa
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Ei voida poistaa rekisteriavainta
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Järjestelmän uudelleenkäynnistys tarpeen
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Ohjelmanpoistajaa ei pidä suorittaa ennen kuin järjestelmä on käynnistetty uudelleen. Lopeta ohjelmanpoistaja osoittamalla Peruuta. tai valitse Jatka, jos haluat silti poistaa ohjelman.
+
+# ................ =Continue
+UninstallRestart.continue=Jatka
+
+# ................ =Cancel
+UninstallRestart.exit=Peruuta
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Odota hetki sillä aikaa kun InstallAnywhere-ohjelmanpoistaja
+
+# ................ =removes the following features...
+UProgress.waitArr.1=poistaa seuraavat toiminnot...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Suoritetaan erityiskoodia...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Suoritetaan...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Suoritetaan asennuksen komentosarja...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Asenna limitysmoduuli
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Asennetaan limitysmoduuli
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Asennetaan alkuperäispakkaus
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=lopeta
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=ALOITA ASENNUKSEN POISTO PAINAMALLA <ENTER> TAI LOPETA OHJELMANPOISTAJA PAINAMALLA 'LOPETA':
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=LOPETA OHJELMANPOISTAJA PAINAMALLA <ENTER>:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Kopioi tiedosto
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Kopioi kansio
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Luo linkki
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Luo pikakuvake
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Luo alias
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Luo kansio
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Luo LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Poista tiedosto
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Poista kansio
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Avaa pakkaustiedosto
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Asenna SpeedFolder
+
+InstallRPMPackage.visualname.self=Asenna Linux RPM
+InstallSolarisPackage.visualname.self=Asenna Solaris-pakkaus
+InstallHPUXPackage.visualname.self=Asenna HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Siirrä tiedosto
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Siirrä kansio
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Rekisteröi Windows-palvelu
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Aseta järjestelmäympäristön muuttuja
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Aseta Windows-rekisteri
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Suorita ANT-komentosarja
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Suorita komento
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Suorita erityiskoodi
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Suorita komentosarja
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Suorita kohdetiedosto
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Etsi komponentti rekisteristä
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Hae Windows-rekisteririvi
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Muuta tekstitiedosto
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Suorita XSL-muunnos
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Tulosta virhetiedot
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Tulosta teksti konsoliin
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Näytä viesti-ikkuna
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Käynnistä Windows-palvelu
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Lopeta Windows-palvelu
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Keskeytä Windows-palvelu
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Selaa kansioita
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Asenna limitysmoduuli
+Designer.Action.PowerUpdateClient.visualName=Asenna PowerUpdate-asiakas
+Designer.Action.PerformXSLTZip.visualName=Suorita XSL-muunnos - Pakkaustiedostoon
+Designer.Action.PerformXSLT.visualName=Suorita XSL-muunnos
+Designer.Action.PerformXSLT.performingXSLtransform=Suoritetaan XSL-muunnos:
+Designer.Action.MakeExecutable.visualName=Luo LaunchAnywhere Java-sovellukselle
+Designer.Action.InstallZipfile.visualName=Asenna pakkausohjelma
+Designer.Action.CreateUninstaller.visualName=Luo ohjelmanpoistaja
+Designer.Action.BOMAction.visualName=Asenna luettelosta
+Designer.Action.ExpandArchive.visualName=Avaa pakkaustiedosto
+Designer.Action.ExecuteScript.visualName=Suorita komentosarja/komentotiedosto
+Designer.Action.Exec.visualName=Suorita komento
+Designer.Action.visualName=Suorita kohdetiedosto
+Designer.Action.AntRunner.visualName=Suorita ANT-komentosarja
+Designer.Actions.ShowDialogAction.visualName=Näytä viesti-ikkuna
+
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Asennuksenpoiston jälkeisen toiminnot
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Asennuksenpoistoa edeltävät toiminnot
+
+Designer.Action.EvaluateDependenciesAction.visualName=Arvioi riippuvuudet
+
+ActionGroup.visualName.self=Toimintaryhmä
+
+Designer.Action.UpdateServiceClient.visualName=Ota käyttöön päivitysilmoitukset
+Designer.FolderConstants.programsDir64Name=Ohjelmat-kansio (64-bittinen)
+Designer.FolderConstants.programsDir32Name=Ohjelmat-kansio (32-bittinen)
+Designer.FolderConstants.system64Name=Järjestelmäkansio (64-bittinen)
+Designer.FolderConstants.system32Name=Järjestelmäkansio (32-bittinen)
+Designer.FolderConstants.variableMagicFolder=Muuttujan Magic-kansio
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# -URL us.jarin lataamiseksi on väärä
+Installer.Actions.UpdateServiceClient.badUsJar=#UPDATE_SERVICE# -kirjasto ei sisällä tarpeellista luokkaa rekisteröintiä varten. Annettu jar voi olla väärä
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=#UPDATE_SERVICE# -luokka ei sisällä tarpeellista menetelmää rekisteröintiä varten.
+Installer.installLog.actionNotes=Toimintohuomautukset:
+Installer.installLog.installLogDetail=Asennuslokin tiedot:
+Installer.installLog.installation=Asennus: 
+Installer.installLog.unsuccessful=Epäonnistui.
+Installer.installLog.successful=Onnistui
+Installer.installLog.withErrors=virheillä.
+Installer.installLog.withwarnings=varoituksilla.
+Installer.installLog.cancelled=Peruutettu
+Installer.installLog.duringPostInstall=jälkiasennuksen aikana
+Installer.installLog.duringInstall=asennuksen aikana
+Installer.installLog.duringPreInstall=esiasennuksen aikana
+Installer.installLog.cancelledBeforePreInstallation=KÄYTTÄJÄ PERUUTTI ASENNUKSEN ENNEN ESIASENNUSTA
+Installer.installLog.cancelledDuringPreInstallation=KÄYTTÄJÄ PERUUTTI ASENNUKSEN ESI-ASENNUKSEN AIKANA
+Installer.installLog.cancelledDuringInstallation=KÄYTTÄJÄ PERUUTTI ASENNUKSEN ASENNUKSEN AIKANA
+Installer.InstallLog.cancelledDuringPostInstallation=KÄYTTÄJÄ PERUUTTI ASENNUKSEN ASENNUKSEN JÄLKEEN TAI JÄLKIASENNUKSEN AIKANA
+Installer.installLog.successes=Onnistumiset
+Installer.installLog.warnings=Varoitukset
+Installer.installLog.nonFatalErrors=EiVakaviaVirheitä
+Installer.installLog.fatalErrors=VakavatVirheet
+Installer.installLog.details=Tiedot
+Installer.installLog.nothingWasInstalled=Mitään ei asennettu.
+Installer.installLog.none=Ei mitään
+Installer.installLog.summary=Yhteenveto
+Installer.installLog.installedBy=Asennus: InstallAnywhere #BUILD_INFO#, Macrovision
+Installer.installLog.status=Tila:
+Installer.installLog.additionalNotes=Lisähuomautukset:
+Installer.installLog.exceptionClass=Poikkeusluokka: 
+Installer.installLog.exceptionMessage=Poikkeusviesti: 
+Installer.installLog.exceptionStackTrace=Poikkeuksen pinon jäljitys:
+Installer.installLog.successLevel.successful=ONNISTUI
+Installer.installLog.successLevel.warning=VAROITUS
+Installer.installLog.successLevel.error=VIRHE
+Installer.installLog.successLevel.fatalError=VAKAVA VIRHE
+Installer.installLog.successLevel.unsupported=VIRHETASOA EI TUETA
+Installer.installLog.successLevel.notice=HUOMAUTUS
+Installer.installLog.action.description=Asennustoiminto:
+Installer.installLog.antRunner.description=Suorita ANT-komentosarja:
+Installer.installLog.antRunner.script=Komentosarja: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Ei valittua kohdetta
+Installer.installLog.asciiFileManipulator.newFile=Uusi tiedosto 
+Installer.installLog.copyDirectory.description=Kopioi hakemisto:
+Installer.installLog.copyFile=Kopioi tiedosto:
+Installer.installLog.copyFileAction.destination=Kohde: 
+Installer.installLog.createShortcut.createShortcut=Luo pikakuvake:
+Installer.installLog.createShortcut.createAlias=Luo alias:
+Installer.installLog.createShortcut.createLink=Luo linkki:
+Installer.installLog.deleteFileAction.source=Lähde:
+Installer.installLog.editEnvironment.description=Aseta ympäristömuuttuja:
+Installer.installLog.expandFile.description=Avaa pakkaustiedosto:
+Installer.installLog.getRegEntry.description=Hae rekisteririvi:
+Installer.installLog.getRegEntry.key=Avain: 
+Installer.installLog.getRegEntry.value=Arvon nimi:
+Installer.installLog.installDirCont.description=Asenna SpeedFolder:
+Installer.installLog.installDirectory.description=Asenna hakemisto:
+Installer.installLog.installFile.description=Asenna tiedosto:
+Installer.installLog.installNTService.description=Rekisteröi NT-palvelu:
+Installer.installLog.installUninstaller.description=Asenna ohjelmanpoistaja:
+Installer.installLog.installUninstaller.note=(Asenna kaikki ohjelmanpoistajan komponentit)
+Installer.installLog.makeExecutable.description=Luo LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(Asenna kaikki LaunchAnywhere Javan suoritettavat komponentit)
+Installer.installLog.makeRegEntry.description=Tee rekisteririvi:
+Installer.installLog.makeRegEntry.key=Avain: 
+Installer.installLog.makeRegEntry.name=Arvon nimi:
+Installer.installLog.makeRegEntry.data=Arvotiedot:
+Installer.installLog.speedRegistry.description=Rekisteririvit:
+Installer.installLog.subinstaller.description=Asenna limitysmoduuli:
+Installer.installLog.subuninstaller.description=Suorita ohjelmanpoistaja:
+Installer.installLog.customAction.description=Mukautettu toiminto:
+Installer.installLog.userInteractions=Käyttäjän toiminnot
+Installer.installLog.installBegin=Asennuksen alku:
+Installer.installLog.installEnd=Asennuksen loppu:
+Installer.installLog.freeMemory=Vapaata muistia:
+Installer.installLog.totalMemory=Muisti yhteensä:
+Installer.installLog.commandLineArgs=Komentorivin argumentit:
+Installer.installLog.noArguments=Ei argumentteja
+Designer.Action.HTMLPanelAction.visualName=Paneeli: Näytä HTML
+HTMLPanelAction.title=HTML-paneeli
+Designer.Action.UninstallIsmpSoftware.visualName=Poista InstallShield Universal -ohjelmiston asennus
+Installer.unexpectedChanges.message=Asennusohjelma löysi odottamattomia muutoksia asennuskomentosarjasta.
+﻿Installer.unexpectedChanges.title=Virhe
+Installer.unexpectedChanges.label=Asennusohjelmaa ei voitu käynnistää.

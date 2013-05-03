@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<project name="diagram-ant" default="all">
+
+	<description>
+		Creates a graph of the build.xml file in the current directory.
+
+		To use, change to the directory containing the ant build file of
+		interest, and run ant with this build file. For example, assuming
+		this file is located in /buildtools/diagram_ant, do the following:
+
+			ant -f /buildtools/diagram_ant/build.xml
+
+		This will create two files in the current directory:
+
+			ant_build_diagram.dot
+			ant_build_diagram.jpg
+
+		Open ant_build_diagram.jpg in a web browser or other viewer to see
+		the graph.
+	</description>
+
+	<!-- load properties from various (optional) locations to allow overriding -->
+
+	<dirname property="diagram-ant.basedir"              file="${ant.file.diagram-ant}" />
+
+	<property environment="env" />							<!-- environment settings -->
+	<property file="${user.home}/build-tools.properties" />	<!-- place local overrides in this file -->
+
+	<!-- global properties -->
+
+	<!-- Tools and processing properties -->
+	<property name="buildtools.dir"                      value="${diagram-ant.basedir}/.." />
+
+	<!-- assume current directory for both input and output files, but allow overrides -->
+
+	<property name="input.dir"                           value="${user.dir}" />
+	<property name="output.dir"                          value="${user.dir}" />
+
+	<!-- XSLT stylesheets -->
+
+	<property name="xml2dotScript"                       value="${diagram-ant.basedir}/ant2dot.xsl" />
+
+	<!-- GraphViz settings and properties -->
+
+	<property name="graphviz"                            value="${buildtools.dir}/graphviz/dot.exe" />
+
+	<property name="input.file"                          value="${input.dir}/build.xml" />
+
+	<property name="output.file.basename"                value="ant_build_diagram" />
+	<property name="graphviz.dot.file"                   value="${output.dir}/${output.file.basename}.dot" />
+	<property name="graphviz.output.file"                value="${output.dir}/${output.file.basename}.jpg" />
+	<property name="graphviz.output.file.format"         value="jpg" />
+
+	<!-- ================================================================ -->
+	<!-- Create java classpaths                                           -->
+	<!-- ================================================================ -->
+
+	<!-- classpath for XSLT processing -->
+
+	<path id="xslt.classpath">
+		<fileset dir="${buildtools.dir}/saxon">
+			<include name="saxon8.jar" />
+		</fileset>
+	</path>
+
+	<!-- ================================================================ -->
+	<!-- Macro (ant subroutine) definitions                               -->
+	<!-- ================================================================ -->
+
+	<!-- macro to run the XSLT processor using common settings -->
+	<macrodef name="execute-xslt">
+	  <attribute name="input-file" />
+	  <attribute name="xslt-stylesheet" />
+	  <attribute name="output-file" />
+	  <sequential>
+		  <xslt	in="@{input-file}"
+				out="@{output-file}"
+				style="@{xslt-stylesheet}"
+				classpathref="xslt.classpath"
+				processor="trax"
+		  />
+	  </sequential>
+	</macrodef>
+
+	<!-- ================================================================ -->
+	<!-- Start of build targets                                           -->
+	<!-- ================================================================ -->
+
+	<target name="all"
+			description="Do everything"
+			depends="creategraph"
+	/>
+
+	<!-- ================================================================ -->
+	<!-- Create dot file from organizations information                   -->
+	<!-- ================================================================ -->
+
+	<target name="create.graphviz.dot"
+	>
+		<echo message="Creating GraphViz dot file from ${input.file}" />
+		<execute-xslt
+			input-file="${input.file}"
+			output-file="${graphviz.dot.file}"
+			xslt-stylesheet="${xml2dotScript}"
+		/>
+	</target>
+
+	<!--
+	 * If you want to translate the DOT file to a graphic image,
+	 * you must set the property 'graphviz' to the path of the
+	 * executable to call to make it happen.  For example.
+	 *
+	 *     graphviz=C:/Program Files/ATT/Graphviz/bin/dot.exe
+	 *
+	 -->
+
+	<target name="-checkforgraphviz" unless="graphviz">
+		<echo message="Can not create graph." />
+		<echo message="You must set the 'graphviz' property to a GraphViz translator like 'dot' that" />
+		<echo message="can translate the file ${graphviz.dot.file} to ${graphviz.output.file}." />
+	</target>
+
+	<target name="creategraph"
+			description="Create a graphical representation of the build file"
+			depends="-checkforgraphviz,create.graphviz.dot"
+			if="graphviz"
+	>
+		<exec executable="${graphviz}">
+			<arg value="-v" />
+			<arg value="-T${graphviz.output.file.format}" />
+			<arg value="-o${graphviz.output.file}" />
+			<arg value="${graphviz.dot.file}" />
+		</exec>
+	</target>
+
+	<!-- ================================================================ -->
+	<!-- Clean up output, restore to initial state                        -->
+	<!-- ================================================================ -->
+
+	<target name="clean"
+			description="Clean out working files and results"
+	>
+		<!-- delete only the specific files created by this build -->
+		<delete file="${graphviz.output.file}" />
+		<delete file="${graphviz.dot.file}" />
+	</target>
+
+</project>
+

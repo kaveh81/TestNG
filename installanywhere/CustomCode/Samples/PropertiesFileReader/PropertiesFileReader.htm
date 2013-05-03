@@ -1,0 +1,1185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/TR/REC-html40"
+ xmlns:w="urn:schemas-microsoft-com:office:word"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+  <meta content="text/html; charset=us-ascii" http-equiv="Content-Type">
+  <meta content="Word.Document" name="ProgId">
+  <meta content="Microsoft Word 9" name="Generator">
+  <meta content="Microsoft Word 9" name="Originator">
+  <link href="./InstallJavaPluginReadme_files/filelist.xml"
+ rel="File-List">
+  <link href="./InstallJavaPluginReadme_files/editdata.mso"
+ rel="Edit-Time-Data">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+  <title>Custom Code</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Jake Warmerdam</o:Author>
+  <o:LastAuthor>Jake Warmerdam</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2000-08-04T01:03:00Z</o:Created>
+  <o:LastSaved>2000-08-04T01:05:00Z</o:LastSaved>
+  <o:Pages>2</o:Pages>
+  <o:Words>1050</o:Words>
+  <o:Characters>5987</o:Characters>
+  <o:Company>Zero G Software</o:Company>
+  <o:Lines>49</o:Lines>
+  <o:Paragraphs>11</o:Paragraphs>
+  <o:CharactersWithSpaces>7352</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+  <style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Font Definitions */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{font-family:Wingdings;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-font-charset:2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-generic-font-family:auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-font-pitch:variable;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Style Definitions */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{mso-style-parent:"";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	margin:0in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	margin-bottom:.0001pt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-pagination:widow-orphan;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	font-size:12.0pt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	font-family:"Times New Roman";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-fareast-font-family:"Times New Roman";}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{font-size:12.0pt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	font-family:"Times New Roman";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-fareast-font-family:"Times New Roman";}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@page Section1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{size:8.5in 11.0in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	margin:1.0in 1.25in 1.0in 1.25in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-header-margin:.5in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-footer-margin:.5in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-paper-source:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.Section1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{page:Section1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* List Definitions */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@list l0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{mso-list-id:647246328;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-list-type:hybrid;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-list-template-ids:1756251532 2007260402 450141548 -1256181428 -1597610656 1763496646 -1840595156 1906488106 -221585482 -546523848;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@list l0:level1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{mso-level-number-format:bullet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-level-text:\F0B7;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-level-tab-stop:.5in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-level-number-position:left;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	text-indent:-.25in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-ansi-font-size:10.0pt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	font-family:Symbol;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@list l1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{mso-list-id:1556886779;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-list-type:hybrid;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-list-template-ids:1773206432 -909068748 1575019542 -1472575382 -2127144472 1873736340 -1337830486 -177957550 136711868 -1670860958;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@list l1:level1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{mso-level-number-format:bullet;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-level-text:\F0B7;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-level-tab-stop:.5in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-level-number-position:left;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	text-indent:-.25in;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	mso-ansi-font-size:10.0pt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	font-family:Symbol;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ol
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{margin-bottom:0in;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{margin-bottom:0in;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </style><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+<body style="" vlink="blue" link="blue" lang="EN-US" bgcolor="white">
+<div class="Section1">
+<h4><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;">This folder contains code, documents, and
+information
+that is licensed under the terms of the Zero G Software Developer
+Network
+(DevNet) license agreement. By downloading, viewing, or otherwise using
+this
+code, you agree to the terms of that license agreement. See <a
+ href="http://www.ZeroG.com/devnet">http://www.ZeroG.com/support</a>
+for more
+information.</span></font></h4>
+<div style="text-align: center;" align="center" class="MsoNormal"><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">
+<hr align="center" width="100%" size="2"></span></font></div>
+<p><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;">This folder contains:</span></font></p>
+<ul type="disc">
+  <li style="" class="MsoNormal"><font
+ face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;">PropertiesFileReader.jar: </span></b><span
+ style="font-family: Arial;">compiled actions, and resources</span></font></li>
+  <li style="" class="MsoNormal"><span style="font-family: Arial;"><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">PropertiesFileReader.java:
+the source for this extenstion.</span></font></span><br>
+  </li>
+  <li style="" class="MsoNormal"><font
+ face="Helvetica, Arial, sans-serif">PropertiesFileReaderHelp.htm</font><font
+ face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;">: </span></b><span
+ style="font-family: Arial;">this file</span><br>
+    <br>
+    </font></li>
+</ul>
+<div style="text-align: center;" align="center" class="MsoNormal"><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">
+<hr align="center" width="100%" size="2"></span></font></div>
+<h3><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;">Custom Code Action: </span>PropertiesFileReader</font></h3>
+<p><font face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;">Classname: </span></b>com.zerog.ia.customcode.action.PropertiesFileReader</font></p>
+<p><font face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;">Description: </span></b>This action will
+allow
+you to turn properties from a properties file into InstallAnywhere
+variables.
+&nbsp;</font></p>
+<p><font face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;">Input InstallAnywhere Variables:</span></b></font></p>
+<p><font face="Helvetica, Arial, sans-serif">$PROPERTIES_FILE_LOCATION</font><font
+ face="Helvetica, Arial, sans-serif">$</font><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">:
+the location of the properties file</span></font><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">.</span><br>
+$SUBSTITUTE_VARIABLES$ </font><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;"></span></font><font
+ face="Helvetica, Arial, sans-serif">(optional)</font><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">:</span></font><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">(true/false)
+</span></font><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;">Set to true if you want to substitute IA
+variables
+found in values</span></font><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;"> [true by default].</span><br>
+$PROPERTIES_TO_IGNORE$ (optional):&nbsp;</font><font
+ face="Helvetica, Arial, sans-serif">comma separated list of properties
+in
+properties file to ignore. Example: USER_INSTALL_DIR,MY_PROP_1</font><br>
+<font face="Helvetica, Arial, sans-serif">$OVERRIDE_EXISTING_VARIABLES$
+(optional):
+</font><font face="Helvetica, Arial, sans-serif">(true/false) Set to
+true
+if you want to override existing variables with properties from
+properties
+file.</font><br>
+</p>
+<p><font face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;">Output InstallAnywhere Variables</span></b></font></p>
+<p><font face="Helvetica, Arial, sans-serif">N/A</font><font
+ face="Helvetica, Arial, sans-serif"><br>
+</font></p>
+<p><font face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;">General Instructions:</span></b></font></p>
+<p><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;">This README explains how to set up and
+take
+advantage of the&nbsp;<font face="Helvetica, Arial, sans-serif">PropertiesFileReader
+</font></span></font><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;">custom code action.<br>
+</span></font></p>
+<p><span style="font-family: Arial;"><b>For IA 5.5.1 and earlier
+versions of IA:<br>
+<br>
+</b></span><font face="Helvetica, Arial, sans-serif"><span
+ style="font-family: Arial;">To effectively use this action, you will
+want to add an "Execute Custom Code"
+action to anywhere in the IA Advanced designer. &nbsp;Remember that for
+the action
+to work correctly you need to add a "Set InstallAnywhere Variable"
+action
+before the "Execute Custom Code" action to set </span><span
+ style="font-family: Arial;"></span>the appropriate Input
+InstallAnywhere
+Variables.<br>
+<span style="font-family: Arial;"><br>
+Once you have added an "Execute Custom Code" action to your project,
+you will
+need to select the JAR or ZIP file that contains the desired action. To
+select
+the JAR or ZIP file, click on the "Choose JAR or ZIP..." button and
+select
+the </span></font><span style="font-family: Arial;"><span
+ style="font-family: Arial;"><span style="font-family: Arial;">PropertiesFileReader.jar</span></span><span
+ style="font-family: Arial;"> </span></span><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">file
+in the "Choose Code Archive" dialog the appears.<br>
+<br>
+Next you have to designate the "Class:" that is to be called for the
+custom
+code. In this case, you would enter&nbsp;<font
+ face="Helvetica, Arial, sans-serif"><b><span
+ style="font-family: Arial;"></span></b>"com.zerog.ia.customcode.action.PropertiesFileReader</font></span></font><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">"
+(no quotes).<br>
+</span></font></p>
+<p><span style="font-family: Arial;"><b>For IA 6.0:</b> <br>
+<br>
+To effectively use this action, you will want to add </span><span
+ style="font-family: Arial;"><span style="font-family: Arial;">PropertiesFileReader.jar</span></span><span
+ style="font-family: Arial;"> in [InstallAnywhere Folder]\plugins .
+Then, add the action located in the plugins tab to InstallAnywhere in
+the IA Advanced designer. <br>
+<br>
+Please see the user guide for more information on adding additional
+properties to the customcode.properties file found in
+PropertiesFileReader.jar. <br>
+</span></p>
+<p><span style="font-family: Arial;"></span><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">Thank
+you,<br>
+<br>
+Zero G Developer Technical Services.<br>
+</span></font></p>
+<div style="text-align: center;" align="center" class="MsoNormal"><font
+ face="Helvetica, Arial, sans-serif"><span style="font-family: Arial;">
+<hr align="center" width="100%" size="2"></span></font></div>
+<p><font face="Helvetica, Arial, sans-serif"><span
+ style="font-size: 7.5pt; font-family: Arial;">26 November 2003<br>
+</span></font></p>
+</div>
+<font face="Helvetica, Arial, sans-serif"><br>
+<br>
+<br>
+<br>
+</font><br>
+<br>
+<br>
+<br>
+</body>
+</html>

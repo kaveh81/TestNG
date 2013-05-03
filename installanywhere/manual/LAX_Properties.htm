@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:54" />
+    <title>LAX Properties</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1053351"> </a><h1 class="pHeading1">
+LAX Properties
+</h1>
+<a name="wp1059039"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1053353"> </a><p class="pa_Body">
+The properties that LaunchAnywhere can modify are defined as follows:</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1053356table1053354">
+  <caption><a name="wp1053356"> </a><p class="ptt_Table_Title">
+LAX Properties&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1056675"> </a><p class="ptch_Table_Cell_Heading">
+Property
+</p>
+</th>
+    <th><a name="wp1056677"> </a><p class="ptch_Table_Cell_Heading">
+Definition
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1053364"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.application.name
+</p>
+</td>
+    <td><a name="wp1053366"> </a><p class="ptca_Table_Cell_Body">
+The name of the application that the launcher executes.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053368"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.class.path
+</p>
+</td>
+    <td><a name="wp1053370"> </a><p class="ptca_Table_Cell_Body">
+The classpath for the application. By default, set to $IA_CLASSPATH$ (the classpath specified in the InstallAnywhere Designer environment.) When specifying the classpath, either forward or backward slashes (&#39;/&#39; or &#39;\&#39;) may be used as directory separators, and either colons or semicolons used for path separators - InstallAnywhere will substitute the proper characters based on the installation platform. Mac end-users should use slashes for directory separators and not colons, as InstallAnywhere will treat colons as path separators.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053372"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.command.line.args
+</p>
+</td>
+    <td><a name="wp1053374"> </a><p class="ptca_Table_Cell_Body">
+A list of arguments passed to the application&#39;s main method. These are specified exactly the same way as they would be on the command line. For example, if the application is invoked as &quot;java myApp arg1 arg2&quot;, set this property to &quot;arg1 arg2&quot;. Be sure to place quotes around any arguments that have spaces. When it is necessary to pass in an argument that is only known at install time (for instance, the installation directory), use an InstallAnywhere variable.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053376"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.java.compiler 
+</p>
+</td>
+    <td><a name="wp1053378"> </a><p class="ptca_Table_Cell_Body">
+(Runtime only&#151;cannot be set via &quot;Edit Properties...&quot;) The JIT compiler that is being used for execution of this application.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053380"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.main.method 
+</p>
+</td>
+    <td><a name="wp1053382"> </a><p class="ptca_Table_Cell_Body">
+The name of the application&#39;s starting method that this LaunchAnywhere Executable should invoke.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053384"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.mainclass 
+</p>
+</td>
+    <td><a name="wp1053386"> </a><p class="ptca_Table_Cell_Body">
+The class that gets launched by this LaunchAnywhere Executable. This class must contain a method with a name defined by the lax.main.method property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053388"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.current.vm 
+</p>
+</td>
+    <td><a name="wp1053390"> </a><p class="ptca_Table_Cell_Body">
+The path name of the VM executable currently being used by this application.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053392"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.env.&lt;lowercase&gt;
+</p>
+</td>
+    <td><a name="wp1053394"> </a><p class="ptca_Table_Cell_Body">
+[Windows and UNIX only]: Access any system environment variable (for example, access PATH via $lax.nl.env.PATH$) by specifying the property name as an all lower case string. These properties are resolved at application runtime, when LaunchAnywhere executes. You can also get access to system environment variables via InstallAnywhere variables.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053396"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.env.&lt;UPPERCASE&gt;
+</p>
+</td>
+    <td><a name="wp1053398"> </a><p class="ptca_Table_Cell_Body">
+[Windows and UNIX only]: Access any system environment variable (for example, access PATH via $lax.nl.env.PATH$) by specifying the property name as an all upper case string. These properties are resolved at application runtime, when LaunchAnywhere executes. You can also get access to system environment variables via LaunchAnywhere variables.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053400"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.env.exact_case 
+</p>
+</td>
+    <td><a name="wp1053402"> </a><p class="ptca_Table_Cell_Body">
+[Windows and UNIX only]: Access any system environment variable (for example, access Path via $lax.nl.env.exact_case.Path$) by specifying the property name as a string of the exact case as it is defined in the environment. Note that these properties are resolved at application runtime, when LaunchAnywhere executes. You can also get access to system environment variables via LaunchAnywhere variables.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053404"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.env.path 
+</p>
+</td>
+    <td><a name="wp1053406"> </a><p class="ptca_Table_Cell_Body">
+(Runtime only&#151;cannot be set via Edit Properties...) The system PATH for the computer this application is running on.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053408"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.compiler 
+</p>
+</td>
+    <td><a name="wp1053410"> </a><p class="ptca_Table_Cell_Body">
+This property defines the name of the JIT (Just-In-Time compiler) that your application should use. Setting this option to no value (i.e., blank) will use the default JIT. You can also specify the name of a specific JIT by defining it in this property. This property should be set to &quot;off&quot; if no JIT is to be used.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053412"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.launcher.main.<br />class
+</p>
+</td>
+    <td><a name="wp1053414"> </a><p class="ptca_Table_Cell_Body">
+The class that contains the main method called by LaunchAnywhere.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053416"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.launcher.main.<br />method
+</p>
+</td>
+    <td><a name="wp1053418"> </a><p class="ptca_Table_Cell_Body">
+The name of the main method called by LaunchAnywhere.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053420"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.additional 
+</p>
+</td>
+    <td><a name="wp1053422"> </a><p class="ptca_Table_Cell_Body">
+The value of this property will be written to the command line verbatim. Java VM properties or settings not directly supported by current LAX configuration properties can be included as part of the command line used to invoke Java.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053424"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.check.source 
+</p>
+</td>
+    <td><a name="wp1053426"> </a><p class="ptca_Table_Cell_Body">
+Set to on or off to tell the VM to verify bytecodes.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053428"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.debugging 
+</p>
+</td>
+    <td><a name="wp1053430"> </a><p class="ptca_Table_Cell_Body">
+Turns on debugging in the Virtual Machine so that an application can be debugged.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053432"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.garbage.<br />collection.background.thread
+</p>
+</td>
+    <td><a name="wp1053434"> </a><p class="ptca_Table_Cell_Body">
+Whether or not to have a low-priority background thread that does garbage collection. Set to on or off.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053436"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.garbage.<br />collection.extent
+</p>
+</td>
+    <td><a name="wp1053438"> </a><p class="ptca_Table_Cell_Body">
+Set to any of the following values:
+</p>
+<a name="wp1053439"> </a><p class="ptca_Table_Cell_Body">
+min: Garbage collect everything except classes.
+</p>
+<a name="wp1053440"> </a><p class="ptca_Table_Cell_Body">
+full: Garbage collect everything.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053442"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.java.heap. size.initial
+</p>
+</td>
+    <td><a name="wp1053444"> </a><p class="ptca_Table_Cell_Body">
+Defines the initial heap size for the installer that will be invoked. This number is always specified in bytes, not in kilobytes or megabytes, and is analogous to the VM parameter `-ms&#39; or `Xms&#39;. The default is 16777216 (16 MB).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053446"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.java.heap. size.max
+</p>
+</td>
+    <td><a name="wp1053448"> </a><p class="ptca_Table_Cell_Body">
+Defines the maximum heap size in bytes for the installer that will be invoked. This number is always specified in bytes, not in kilobytes or megabytes, and is analogous to the VM parameter `-mx&#39; or `Xmx&#39;. The default is 50331648 (48 MB).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053450"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.verbose 
+</p>
+</td>
+    <td><a name="wp1053452"> </a><p class="ptca_Table_Cell_Body">
+Set to any of the following values:
+</p>
+<a name="wp1053453"> </a><p class="ptca_Table_Cell_Body">
+gc: Output garbage collection messages.
+</p>
+<a name="wp1053454"> </a><p class="ptca_Table_Cell_Body">
+normal: Output all normal verbose messages.
+</p>
+<a name="wp1053455"> </a><p class="ptca_Table_Cell_Body">
+all: Output all normal and garbage collection messages.
+</p>
+<a name="wp1053456"> </a><p class="ptca_Table_Cell_Body">
+none: Do not output any verbose messages.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053458"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.java.option.verify.mode 
+</p>
+</td>
+    <td><a name="wp1053460"> </a><p class="ptca_Table_Cell_Body">
+Sets when Java will verify classes for security and errors. Values can be remote, all, or none.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053462"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.message.vm.not.loaded 
+</p>
+</td>
+    <td><a name="wp1053464"> </a><p class="ptca_Table_Cell_Body">
+The message to show the end-user in a dialog box if no VM can be found.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053466"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.valid.vm.list 
+</p>
+</td>
+    <td><a name="wp1053468"> </a><p class="ptca_Table_Cell_Body">
+The list of VMs that this LaunchAnywhere Executable will allow the Java application to be run against. The value for this property can be any space-delimited combination of the following:
+</p>
+<a name="wp1053469"> </a><p class="ptca_Table_Cell_Body">
+ALL (any VM)<br />JDK (any Java JDK)<br />JRE (any Java JRE)<br />J1 (any Java 1 VM)<br />J2 (any Java 2 VM)<br />JRE_J1 (any Java 1 JRE)<br />JDK_J1 (any Java 1 JDK)<br />JRE_J2 (any Java 2 JRE)<br />JDK_J2 (any Java 2 JDK)<br />MSJ (the Microsoft VM [jview])
+</p>
+<a name="wp1053470"> </a><p class="ptca_Table_Cell_Body">
+The value of this property will also override the value listed in lax.nl.current.vm if the VM listed in that property is not of a valid type. The order of the valid VM list specifies the precedence in which VMs found on the system should be chosen if a valid VM is not listed in lax.nl.current.vm.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053472"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.nl.win32.microsoftvm.min.<br />version
+</p>
+</td>
+    <td><a name="wp1053474"> </a><p class="ptca_Table_Cell_Body">
+The minimum version of the Microsoft VM that this LaunchAnywhere will find.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053476"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.resource.dir 
+</p>
+</td>
+    <td><a name="wp1053478"> </a><p class="ptca_Table_Cell_Body">
+The platform name in exact case.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053480"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.root.install.dir 
+</p>
+</td>
+    <td><a name="wp1053482"> </a><p class="ptca_Table_Cell_Body">
+The root directory of the entire installation (same as $USER_INSTALL_DIR$).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053485"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.stderr.redirect
+</p>
+</td>
+    <td><a name="wp1053487"> </a><p class="ptca_Table_Cell_Body">
+The location of your application&#39;s &quot;stderr&quot; output. Set to null to suppress, console to write to a console window, or any file name to output to a file. Note: If you are specifying a path name to a Windows file, make sure to use escaped backslashes (i.e., c:\\myfolder\\output.txt)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053491"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.stdout.redirect
+</p>
+</td>
+    <td><a name="wp1053493"> </a><p class="ptca_Table_Cell_Body">
+The location of your application&#39;s &quot;stdout&quot; output. Set to null to suppress, console to write to a console window, or any file name to output to a file. Note: If you are specifying a path name to a Windows file, make sure to use escaped backslashes (i.e., c:\\myfolder\\output.txt)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053496"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.user.dir 
+</p>
+</td>
+    <td><a name="wp1053498"> </a><p class="ptca_Table_Cell_Body">
+The end-user directory for your application (represented by &quot;.&quot;). You can also specify any arbitrary absolute or relative path. A relative path is relative to the launcher.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053500"> </a><p class="ptck_Table_Cell_Key_Column">
+lax.version 
+</p>
+</td>
+    <td><a name="wp1053502"> </a><p class="ptca_Table_Cell_Body">
+The version number of the LaunchAnywhere.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053504"> </a><p class="ptck_Table_Cell_Key_Column">
+LISTPROPS
+</p>
+</td>
+    <td><a name="wp1053506"> </a><p class="ptca_Table_Cell_Body">
+This property lists all system properties available to the Java application (it can take any value.) Stdout and stderr must be redirected to see the results of this output.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

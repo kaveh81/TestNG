@@ -1,0 +1,2012 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Ολοκλήρωση της Κατάργησης Εγκατάστασης
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Αφαιρέστε εντελώς όλα τα χαρακτηριστικά και στοιχεία του $PRODUCT_NAME$ που εγκαταστάθηκαν από το πρόγραμμα InstallAnywhere. Τα αρχεία και οι φάκελοι που δημιουργήθηκαν μετά από την εγκατάσταση δεν πρόκειται να επηρεαστούν.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Κατάργηση συγκεκριμένων χαρακτηριστικών
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Επιλέξτε τα συγκεκριμένα χαρακτηριστικά του $PRODUCT_NAME$ που εγκαταστάθηκαν από το πρόγραμμα InstallAnywhere που θέλετε να καταργηθούν.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Επιλέξτε μία από τις παρακάτω επιλογές:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Επιλογές κατάργησης εγκατάστασης
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Κατάργηση εγκατάστασης
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Ολική αφαίρεση όλων των χαρακτηριστικών και στοιχείων.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Επιλέξτε τα συγκεκριμένα χαρακτηριστικά που εγκαταστάθηκαν από το πρόγραμμα InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Επιλέξτε μία από τις παρακάτω επιλογές:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Επιλογές κατάργησης εγκατάστασης
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΕΠΙΛΟΓΗΣ ΣΑΣ, Ή ΠΑΤΗΣΤΕ ΤΟ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΠΡΟΕΠΙΛΟΓΗ.
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Τώρα υπάρχει αρκετός διαθέσιμος χώρος στο δίσκο για την εγκατάσταση.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=υπάρχουν μόνο ΧΧΧ ΜΒ διαθέσιμα στο:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Η εγκατάσταση απαιτεί XXX MB ελεύθερου χώρου στο δίσκο,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Αλλιώς μπορείτε να επιλέξετε 'Άκυρο' για να παραιτηθείτε από την εγκατάσταση.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Ελευθερώστε τουλάχιστον XXX MB γιαθ να συνεχίσετε την εγκατάσταση.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Ελευθερώστε μερικό χώρο για να συνεχίσετε με την εγκατάσταση.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Κάντε κλικ στο 'Εγκατάσταση' για να συνεχίσετε με την εγκατάσταση.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Έτοιμο για να προχωρήσω
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Λίγος χώρος στο δίσκο
+
+# ................... =Warning!
+CheckDiskSpace.warning=Προειδοποίηση!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΥΠΟΛΟΓΙΣΕΤΕ ΕΚ ΝΕΟΥ ΤΟ ΔΙΑΘΕΣΙΜΟ ΧΩΡΟ ΣΤΟ ΔΙΣΚΟ Ή ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ 'ΠΑΡΑΙΤΗΣΗ' ΓΙΑ ΝΑ ΠΑΡΑΙΤΗΘΕΙΤΕ ΑΠΟ ΤΟ ΠΡΟΓΡΑΜΜΑ ΕΓΚΑΤΑΣΤΑΣΗΣ
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Δεν υπάρχει αρκετός διαθέσιμος χώρος στο δίσκο για την εγκατάσταση. \u000A   Ελευθερώστε χώρο στο δίσκο και ξανατρέξτε την εγκατάσταση...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΞΕΚΙΝΉΣΕΤΕ ΤΗΝ ΕΓΚΑΤΆΣΤΑΣΗ
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Προειδοποίηση!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Η εγκατάσταση απαιτεί XXX MB ελεύθερου χώρου στο δίσκο,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=υπάρχουν μόνο ΧΧΧ ΜΒ διαθέσιμα στο:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Ελευθερώστε τουλάχιστον XXX MB γιαθ να συνεχίσετε την εγκατάσταση.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Ελευθερώστε μερικό χώρο για να συνεχίσετε με την εγκατάσταση.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Τώρα υπάρχει αρκετός διαθέσιμος χώρος στο δίσκο για την εγκατάσταση.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Λίγος χώρος στο δίσκο
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Επιλέξτε ένα αρχείο.
+
+# ................. =Choose...
+ChooseFile.chooseStr=Επιλογή... (&O)
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=Επιλέξτε ένα αρχείο: (&F)
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=Επαναφορά προεπιλεγμένου Αρχείου (&R)
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Επιλέξτε ένα αρχείου
+
+# .................... =in the folder
+ChooseFile.macInsideStr=στο φάκελο
+
+# ................ =on the disk
+ChooseFile.macOnStr=στο δίσκο
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Επιλέξτε ένα φάκελο.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=Επιλογή... (&O)
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=Επιλέξτε ένα Φάκελο: (&F)
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=Επαναφορά προεπιλεγμένου Φακέλου (&R)
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Επιλέξτε ένα φάκελο
+
+# .................. =on the disk
+ChooseFolder.macOnStr=στο δίσκο
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Σφάλμα!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Δεν έχετε δικαίωμα εγγραφής στον επιλεγμένο φάκελο. Επιλέξτε ένα διαφορετικό φάκελο.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Επιλέξτε Φάκελο
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Επιλογή Install Set
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Επιλογή Install Set
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Επιλογή χαρακτηριστικών του Προϊόντος"
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Επιλέξτε το Σετ Χαρακτηριστικών Εγκατάστασης που θέλετε να εγκατασταθούν από το πρόγραμμα εγκατάστασης.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΌ ΓΙΑ ΤΟ ΣΕΤ ΤΟΥ ΧΑΡΑΚΤΗΡΙΣΤΙΚΟΥ, Ή ΠΑΤΉΣΤΕ ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΟ ΠΡΟΕΠΙΛΕΓΜΕΝΟ\u000A    
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Επιλέξτε τα Χαρακτηριστικά που θέλετε να εγκατασταθούν από το πρόγραμμα εγκατάστασης.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES\u000A   TO BE INSTALLED
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Επιλογή Install Set
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Προσαρμογή
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Σφάλμα στη ρύθμιση των χαρακτηριστικών του προϊόντος για την εγκατάσταση.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Επιλέξτε ένα Java VM για χρήση με την εφαρμογή που έχει εγκατασταθεί
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Επιλέξτε ένα εικονικό υπολογιστή Java
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Η διαδρομή που πληκτρολογήσατε δεν προωθεί σε έγκυρο Εικονικό Υπολογιστή Java. Επιλέξτε πάλι.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Επιλέξτε ένα Java VM για χρήση με την εφαρμογή που έχει εγκατασταθεί
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Επιλέξτε ένα εικονικό υπολογιστή Java
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΟ ΓΙΑ ΤΟ JAVA VM, Ή ΠΑΤΉΣΤΕ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΤΡΕΧΟΥΣΑ ΕΠΙΛΟΓΗ
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΗΝ ΑΠΟΛΥΤΗ ΔΙΑΔΡΟΜΗ ΓΙΑ ΤΟ ΕΚΤΕΛΕΣΙΜΟ JAVA VM ΤΗΣ ΕΠΙΛΟΓΗΣ ΣΑΣ   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=ΔΙΑΔΡΟΜΗ ΣΤΟ ΕΚΤΕΛΕΣΙΜΟ ΑΡΧΕΙΟ JAVA ΕΙΝΑΙ:   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Αδύνατη η εγκατάσταση του Εικονικού Υπολογιστή Java που παρέχεται με το πρόγραμμα εγκατάστασης.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Εγκατάσταση Java VM ειδικά για αυτή την εφαρμογή
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Επιλέξτε ένα Java VM που έχει ήδη εγκατασταθεί στο σύστημα
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=Επιλέξτε άλλο... (&O)
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Ανοιχτή
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Εγκατάσταση Java VM ειδικά για αυτή την εφαρμογή
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Περιβάλλον Java Runtime
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Αναζήτηση σε: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Πάυση Αναζήτησης (&S)
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=Αναζήτηση για άλλα (&S)
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Η αναζήτηση ολοκληρώθηκε.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Επιλέξτε ένα Java VM που έχει ήδη εγκατασταθεί στο σύστημα
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Σφάλμα!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Η επιλεγμένη εφαρμογή δεν είναι έγκυρος Εικονικός Υπολογιστής Java.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Επιλέξτε Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Σφάλμα: Δε βρέθηκε κατάλληλος Εικονικός Υπολογιστής Java.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Το προϊόν αυτό απαιτεί να έχετε εγκαταστήσει ήδη έναν Εικονικό Υπολογιστή Java στο σύστημά σας. Παρακαλείστε να ανατρέξετε στο <http://java.sun.com>για να κατεβάσετε έναν εικονικό υπολογιστή για την πλατφόρμα σας.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Επιλέξτε Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=Επιλογή Προαιρετικών Χαρακτηριστικών SCM
+ChooseSCMFeaturesConsole.title=Επιλογή Προαιρετικών Χαρακτηριστικών SCM
+ChooseSCMFeaturesConsole.instructions=Επιλογή οδηγιών Χαρακτηριστικών SCM
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΣΥΝΕΧΙΣΕΤΕ
+
+# ................. =Y
+ConsoleUtils.yesChar=Ν
+
+# ................ =N
+ConsoleUtils.noChar=Ο
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=ΕΙΝΑΙ ΣΩΣΤΟ;
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Μία από τις αξίες που παρείχατε δεν είναι έγκυρες.. Επιλέξτε πάλι.
+
+#............... =back
+ConsoleUtils.back=πίσω
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Αποεπιλέξτε τα χαρακτηριστικά που θέλετε να καταργήσετε. Τα χαρακτηριστικά που παραμένουν επιλεγμένα θα παραμείνουν εγκατεστημένα.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Επιλέξτε τα χαρακτηριστικά που θέλετε να καταργήσετε. Τα χαρακτηριστικά που παραμένουν χωρίς να έχουν επιλεχθεί θα παραμείνουν εγκατεστημένα.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Επιλογή χαρακτηριστικών του Προϊόντος"
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Επιλέξτε τα Χαρακτηριστικά που θέλετε να εγκατασταθούν από το πρόγραμμα εγκατάστασης.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Αποεπιλέξτε τα χαρακτηριστικά που θέλετε να καταργήσετε. Τα χαρακτηριστικά που παραμένουν επιλεγμένα θα παραμείνουν εγκατεστημένα.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Επιλέξτε τα χαρακτηριστικά που θέλετε να καταργήσετε. Τα χαρακτηριστικά που παραμένουν χωρίς να έχουν επιλεχθεί θα παραμείνουν εγκατεστημένα.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Επιλογή χαρακτηριστικών του Προϊόντος"
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑΝ ΚΑΤΑΛΟΓΟ ΠΟΥ ΔΙΑΧΩΡΊΖΕΤΑΙ ΜΕ ΚΟΜΜΑΤΑ ΠΟΥ ΑΝΑΠΑΡΙΣΤΑ ΤΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΠΟΥ ΘΕΛΕΤΕ ΝΑ ΕΠΙΛΕΞΕΙ Ή ΝΑ ΚΑΤΑΡΓΗΣΕΤΕ. ΓΙΑ ΝΑ ΔΕΙΤΕ ΤΗΝ ΠΕΡΙΓΡΑΦΗ ΕΝΟΣ ΧΑΡΑΚΤΗΡΙΣΤΙΚΟΥ, ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ '?<NUMBER>'. ΠΑΤΗΣΤΕ <RETURN> ΟΤΑΝ ΤΕΛΕΙΩΣΕΤΕ
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Σετ Χαρακτηριστικού:
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Επιλογή χαρακτηριστικών του Προϊόντος"
+
+#............................... =Description
+CustomizeBundlesPanel.description=Περιγραφή
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Συνολικός χώρος που απαιτείται για την Εγκατάσταση:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Εγκαταστήστε Νέο Μέσο
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Πληκτρολογήστε #NAME# ή επιλέξτε 'Αναζήτηση...' για να εντοπίσετε με το χέρι.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Λάθος όγκος μέσου
+# .................... =Browse
+DiskNeededDialog.locate=Αναζήτηση
+
+# .................. =Cancel
+DiskNeededDialog.quit=Άκυρο
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Insert New Media
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Πληκτρολογήστε #NAME# ή επιλέξτε τη διαδρομή με το χέρι.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Πληκτρολογήστε  #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Αναμένεται να βρεθεί ο δίσκος σε: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Βάλτε #NAME# ή πληκτρολογήστε τη θέση του.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=OK, το XXX έχει τοποθετηθεί..
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Επιλέξτε τη διαδρομή για τα δεδομένα του εγκαταστάτη..
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Ακυρώστε και παραιτηθείτε από την εγκατάσταση.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΜΙΑ ΕΠΙΛΟΓΗ
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΗ ΔΙΑΔΡΟΜΗ ΓΙΑ ΤΟ ΦΑΚΕΛΟ 'INSTALLERDATA' ΣΤΟ ΔΙΣΚΟ
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Το περιβάλλον του συστήματός σας έχει αλλάξει. Θα χρειαστεί να αποσυνδεθείτε ή να επανεκκινήσετε το σύστημά σας για να ενεργοποιηθούν αυτές οι αλλαγές.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Το περιβάλλον του συστήματος έχει αλλάξει
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Παραίτηση
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Η εγκατάσταση δεν ολοκληρώθηκε
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Η εγκατάσταση δεν ολοκληρώθηκε
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Αν ακυρώσετε την εγκατάσταση τώρα, το $PRODUCT_NAME$ δεν πρόκειται να εγκατασταθεί. Για να συνεχίσετε την εγκατάσταση πατήστε το κουμπί 'Συνέχεια'. Για να ακυρώσετε την εγκατάσταση, κάντε κλικ στο 'Παραίτηση'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Αν ακυρώσετε την εγκατάσταση τώρα, το $PRODUCT_NAME$ δεν πρόκειται να εγκατασταθεί. Για να συνεχίσετε την εγκατάσταση πατήστε το κουμπί 'Συνέχεια'. Για να ακυρώσετε την εγκατάσταση, κάντε κλικ στο 'Παραίτηση'.
+
+# .......... =Resume
+ExitDialog.ok=Συνέχιση
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Ακύρωση κατάργησης εγκατάστασης
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Ακύρωση Εγκατάστασης
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Ναι σε όλα
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Όχι σε όλα
+
+# ....................... =Yes
+FileAlreadyExists.yes=Ναι
+
+# ....................... =No
+FileAlreadyExists.no=Όχι
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Αντικατάσταση υπάρχοντος αρχείου;
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Υπάρχει ήδη ένα αρχείο \"XXX\" στη θέση \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Υπάρχει ήδη ένα νεότερο αρχείο \"XXX\" στη θέση \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Υπάρχει ήδη ένα παλαιότερο αρχείο \"XXX\" στη θέση \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Να αντικατασταθεί το υπαρκτό αρχείο;
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=Επιλέξτε ένα Αρχείο/Φάκελο: (&F)
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Επιλογή
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Τα αρχεία προστίθενται στη λίστα παρακάτω
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=Τα αρχεία που βρέθηκαν αναγράφονται παρακάτω.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Οι φάκελοι προστίθενται στον παρακάτω κατάλογο.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=Οι Φάκελοι που βρέθηκαν αναγράφονται παρακάτω.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Βρέθηκαν Αρχεία που ταιριάζουν:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Βρέθηκαν Φάκελοι που ταιριάζουν:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Βρέθηκε στο:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=Επιλέξτε άλλο... (&O)
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Αναζήτηση σε:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Κάντε τη δική σας επιλογή.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Αναζήτηση για Αρχεία που ταιριάζουν:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Αναζήτηση για Φακέλους που ταιριάζουν:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Αναζήτηση
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Επιλογή
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Το πρόγραμμα εγκατάστασης δεν μπόρεσε να βρει ταίρι για:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Επιλεγμένο:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Επιλέξτε έναν φάκελο
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Άκυρο
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Δημιουργία Νέου Φακέλου
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Φάκελος:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Όνομα:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=ΕΙΝΑΙ ΣΩΣΤΟ;
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΣΥΝΕΧΙΣΕΤΕ
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Σφάλμα:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Περιμένετε, το $PRODUCT_NAME$ προετοιμάζεται για το σύστημά σας. Ίσως χρειαστούν μερικά λεπτά...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Περίμενε λίγο
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Η εγκατάσταση απαιτεί κωδικό πρόσβασης για να συνεχίσετε.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=Πληκτρολογήστε τον κωδικό πρόσβασης: (&W)
+
+# .................. =Enter Password
+GetPassword.stepTitle=Πληκτρολογήστε τον κωδικό ασφαλείας
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Σφάλμα!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Ο κωδικός πρόσβασης που πληκτρολογήσατε είναι λανθασμένος. Ξαναπροσπαθήστε.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Πληκτρολογήστε τον κωδικό ασφαλείας
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Απαιτείται ο κωδικός ασφαλείας για να συνεχίσετε
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Η εγκατάσταση απαιτεί κωδικό πρόσβασης για να συνεχίσετε.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Ο κωδικός πρόσβασης που πληκτρολογήσατε είναι λανθασμένος. Ξαναπροσπαθήστε.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Πληκτρολογήστε τον κωδικό πρόσβασης:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Απαιτείται ο κωδικός ασφαλείας για να συνεχίσετε
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Πληκτρολογήστε τον κωδικό ασφαλείας
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑΝ ΚΑΤΑΛΟΓΟ ΑΡΙΘΜΩΝ ΠΟΥ ΔΙΑΧΩΡΊΖΕΤΑΙ ΜΕ ΚΟΜΜΑΤΑ ΠΟΥ ΑΝΑΠΑΡΙΣΤΑ ΤΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΠΟΥ ΘΕΛΕΤΕ
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΕΝΑΝ ΚΑΤΑΛΟΓΟ ΠΟΥ ΔΙΑΧΩΡΊΖΕΤΑΙ ΜΕ ΚΟΜΜΑΤΑ ΠΟΥ ΑΝΑΠΑΡΙΣΤΑ ΤΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΠΟΥ ΘΕΛΕΤΕ ΝΑ ΕΠΙΛΕΞΕΤΕ Ή ΠΑΤΉΣΤΕ ΤΟ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΠΡΟΕΠΙΛΟΓΗ.
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΕΠΙΛΟΓΗΣ ΣΑΣ
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΕΠΙΛΟΓΗΣ ΣΑΣ, Ή ΠΑΤΗΣΤΕ ΤΟ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΠΡΟΕΠΙΛΟΓΗ.
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Δεν μπορείτε να παραιτηθείτε από το πρόγραμμα εγκατάστασης επί του παρόντος.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Δεν μπορείτε να επιστρέψετε στο προηγούμενο βήμα επί του παρόντος.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Σημαντικές Πληροφορίες
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Διαβάστε πριν συνεχίσετε:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=ΣΗΜΑΝΤΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ ΟΛΟΚΛΗΡΩΜΕΝΕΣ. ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΣΥΝΕΧΙΣΕΤΕ
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Σημαντικές Πληροφορίες
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Διαβάστε πριν συνεχίσετε:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Εφαρμογή
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Αυτό εγκαθιστά τα χαρακτηριστικά της εφαρμογής
+
+# .......................... =Help
+InstallBundle.help.bundleName=Βοήθεια
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Αυτό εγκαθιστά τα αρχεία βοήθειας.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Συγχαρητήρια! Το $PRODUCT_NAME$ εγκαταστάθηκε επιτυχώς στο \u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AΠατήστε "Τέλος" για να παραιτηθείτε από το πρόγραμμα εγκατάστασης.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Ολοκληρώθηκε η εγκατάσταση
+InstallCompleteAction.stepTitle=Ολοκληρώθηκε η εγκατάσταση
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=Η εγκατάσταση του $PRODUCT_NAME$ ολοκληρώθηκε, αλλά συνέβηκαν μερικά σφάλματα κατά την εγκατάσταση.\u000A \u000A\u000AΔείτε το ημερολόγιο εγκατάστασης για πληροφορίες. Πατήστε "Τέλος" για να παραιτηθείτε από το πρόγραμμα εγκατάστασης.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Ολοκληρώθηκε η εγκατάσταση
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Η εγκατάσταση ολοκηρώθηκε
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Συγχαρητήρια. $PRODUCT_NAME$ έχει εγκατασταθεί επιτυχώς στη θέση:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΠΑΡΑΙΤΗΘΕΙΤΕ ΑΠΟ ΤΟ ΠΡΟΓΡΑΜΜΑ ΕΓΚΑΤΑΣΤΑΣΗΣ
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=Η εγκατάσταση του $PRODUCT_NAME$ ολοκληρώθηκε, αλλά συνέβηκαν μερικά σφάλματα κατά την εγκατάσταση.\u000A \u000A   Δείτε το ημερολόγιο εγκατάστασης για πληροφορίες.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=Η εγκατάσταση του $PRODUCT_NAME$ ολοκληρώθηκε, αλλά συνέβηκαν μερικά σφάλματα κατά την εγκατάσταση.\u000A \u000A   Δείτε το ημερολόγιο εγκατάστασης για πληροφορίες. Πατήστε "Τέλος" για να παραιτηθείτε από το πρόγραμμα εγκατάστασης.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΠΑΡΑΙΤΗΘΕΙΤΕ ΑΠΟ ΤΟ ΠΡΟΓΡΑΜΜΑ ΕΓΚΑΤΑΣΤΑΣΗΣ
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Ολοκληρώθηκε η εγκατάσταση
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Επιλέξτε τον τελικό φάκελο για την εγκατάσταση.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Επιλέξτε το Φάκελο Εγκατάστασης
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=Πού θέλετε να κάνετε την εγκατάσταση; (&W)
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Επιλέξτε το Φάκελο Εγκατάστασης
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΜΙΑ ΑΠΟΛΥΤΗ ΔΙΑΔΡΟΜΗ Ή ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΟ ΠΡΟΕΠΙΛΕΓΜΕΝΟ   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΜΙΑ ΑΠΟΛΥΤΗ ΔΙΑΔΡΟΜΗ, ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ 'default' ΓΙΑ ΝΑ ΕΠΑΝΑΦΕΡΕΤΕ ΤΟΝ ΠΡΟΕΠΙΛΕΓΜΕΝΟ ΦΑΚΕΛΟ, Ή ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΟ ΠΡΟΕΠΙΛΕΓΜΕΝΟ ΦΑΚΕΛΟ
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Προεπιλεγμένος Φάκελος Εγκατάστασης: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Ο επιλεγμένος φάκελος εγκατάστασης 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=Ο ΦΑΚΕΛΟΣ ΕΓΚΑΤΑΣΤΑΣΗΣ ΕΙΝΑΙ: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Η διαδρομή που πληκτρολογήσατε: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=δείχνει προς ένα αρχείο που υπάρχει ήδη στο τελικό σύστημα. \u000AΤο παρόν πρόγραμμα εγκατάστασης δεν μπορεί να αντικαταστήσει το υπάρχον αρχείο με καινούργιο φάκελο. \u000AΕπιλέξτε μια άλλη τοποθεσία εγκατάστασης.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Δεν έχετε δικαίωμα εγγραφής στην επιλεγμένη θέση εγκατάστασης. \u000AΕπιλέξτε μία διαφορετική θέση για την εγκατάσταση.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Πού θέλετε να κάνετε την εγκατάσταση;
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Σφάλμα!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Δεν έχετε δικαίωμα εγγραφής στην επιλεγμένη θέση εγκατάστασης. \u000AΕπιλέξτε μία διαφορετική θέση για την εγκατάσταση.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Επιλέξτε το Φάκελο Εγκατάστασης
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Η διαδρομή που καθορίσατε ως τον προορισμό της εγκατάστασης περιέχει έναν ή και περισσότερους χαρακτήρες που δεν είναι έγκυρος για αυτή την πλατφόρμα. \u000A Επιλέξτε μία διαφορετική θέση για την εγκατάσταση.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=Επιλογή... (&O)
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=Επαναφορά προεπιλεγμένου Φακέλου (&R)
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=μέσα
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=στο φάκελο
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=στο δίσκο
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=εγκατάσταση
+
+# ....................... =Introduction
+Installer.installLabels.00=Εισαγωγή
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Επιλέξτε το Φάκελο Εγκατάστασης
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Επιλέξτε $SHORTCUT_NAME$ Φάκελο
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Περίληψη Προ - Εγκατάστασης
+
+# ....................... =Installing...
+Installer.installLabels.04=Εγκατάσταση...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Ολοκληρώθηκε η εγκατάσταση
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Το Πρόγραμμα Εγκατάστασης δεν μπορεί να λειτουργήσει στο σύστημα αυτό.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Το πρόγραμμα εγκατάστασης δεν θα εκτελεστεί με τις προδιαγραφές σας. Θα σταματήσει τώρα.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Δεν υποστηρίζεται η λειτουργία Αλληλεπίδρασης Χρήστη του Προγράμματος Εγκατάστασης
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Το Πρόγραμμα Εγκατάστασης δεν μπορεί να λειτουργήσει σε αυτή την κατάσταση. Παρακαλείστε να ανασκοπήσετε τα εγχειρίδια εγκατάστασης για να υπολογίσετε πώς να τρέξετε αυτό το Πρόγραμμα
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Σφάλμα Εγκατάστασης UI στο Πρόγραμμα Εγκατάστασης
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Κατάργηση εγκατάστασης $PRODUCT_NAME$ 
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Συγχαρητήρια! Το $PRODUCT_NAME$ εγκαταστάθηκε επιτυχώς στο \u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AΠατήστε "Τέλος" για να παραιτηθείτε από το πρόγραμμα εγκατάστασης.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=Η εγκατάσταση του $PRODUCT_NAME$ ολοκληρώθηκε, αλλά συνέβηκαν μερικές προειδοποιήσεις κατά την εγκατάσταση. Δείτε το ημερολόγιο εγκατάστασης για πληροφορίες.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=Η εγκατάσταση του $PRODUCT_NAME$ ολοκληρώθηκε, αλλά συνέβηκαν μερικά σφάλματα κατά την εγκατάσταση. Δείτε το ημερολόγιο εγκατάστασης για πληροφορίες.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=Η εγκατάσταση του $PRODUCT_NAME$ ολοκληρώθηκε, αλλά συνέβηκαν μερικά σοβαρά σφάλματα κατά την εγκατάσταση. Δείτε το ημερολόγιο εγκατάστασης για πληροφορίες.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Πρέπει να επανακινήσετε το σύστημα για να ολοκληρωθεί η εγκατάσταση.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Θα χρειαστεί να επανεκκινήσετε το σύστημα για να ολοκληρώσετε την εγκατάσταση.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Ολοκληρώθηκε η εγκατάσταση
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Ναι, θέλω να γίνει επανεκκίνηση του συστήματός μου
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Όχι θα επανακινήσω το σύστημά μου μόνος/η μου.
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Εγκατάσταση...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Ακύρωση εγκατάστασης...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Εγκατάσταση...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Περίληψη Προ - Εγκατάστασης
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Ανασκοπίστε τα ακόλουθα πριν προχωρήσετε:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Περίληψη Προ - Εγκατάστασης
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΣΥΝΕΧΙΣΕΤΕ  ΑΝ ΟΙ ΠΛΗΡΟΦΟΡΙΕΣ ΔΕΝ ΕΙΝΑΙ ΣΩΣΤΕΣ, ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ "BACK" [ΠΙΣΩ] ΓΙΑ ΝΑ ΚΑΝΕΤΕ ΤΙΣ ΑΛΛΑΓΕΣ \u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Όνομα προϊόντος:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Φάκελος Εγκατάστασης:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Φάκελος Συντομεύσεων:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Φάκελος Συνδέσμου:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Φάκελος Alias:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Χαρακτηριστικό Προσαρμοσμένης Εγκατάστασης που καθορίζεται από το χρήστη
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Σετ Χαρακτηριστικού:
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Στοιχεία Προϊόντων:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Φάκελος Εγκατάστασης Java VM:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Το Java VM πρόκειται να χρησιμοποιηθεί από το Εγκατεστημένο Πρόγραμμα:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Πληροφορίες για το χώρο δίσκου (για το τελικό σημείο εγκατάστασης): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Απαραίτητο:
+
+# .................. =bytes
+InstallSummaryUI.byte=bytes
+
+# ....................... =Available:
+InstallSummaryUI.available=Διαθέσιμο:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Επιλέξτε αυτή την επιλογή για να προσαρμόστε τα χαρακτηριστικά που θέλετε να εγκαταστήσετε.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Προσαρμογή
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Θα εγκατασταθούν μόνο τα απαραίτητα χαρακτηριστικά της εφαρμογής. Αυτή η επιλογή συνιστάται μόνο σε χρήστες με περιορισμένο χώρο δίσκου.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Ελάχιστη
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=Θα εγκατασταθούν τα πιο κοινά χαρακτηριστικά της εφαρμογής. Η επιλογή αυτή συνιστάται για τους περισσότερους χρήστες.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Τυπική
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=Το πρόγραμμα InstallAnywhere θα σας καθοδηγήσει στην εγκατάσταση του $PRODUCT_NAME$. \u000A\u000AΠροτείνεται να κλείσετε όλα τα προγράμματα πριν συνεχίσετε την εγκατάσταση. \u000A\u000AΚάντε κλικ στο 'Επόμενο' για να συνεχίσετε στην επόμενη οθόνη. Αν θελήσετε να αλλάξετε κάτι στην προηγούμενη οθόνη, κάντε κλικ στο 'Προηγούμενο'. \u000A\u000AΜπορείτε να ακυρώσετε αυτή την εγκατάσταση όποτε θέλετε κάνοντας κλικ στο πλήκτρο 'Cancel' [Ακύρωση].
+
+# .................. =Introduction
+IntroAction.stepTitle=Εισαγωγή
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=Το πρόγραμμα InstallAnywhere θα σας καθοδηγήσει στην εγκατάσταση του $PRODUCT_NAME$. \u000A\u000AΠροτείνεται να κλείσετε όλα τα προγράμματα πριν συνεχίσετε την εγκατάσταση. \u000A\u000AΑπαντήστε στην κάθε ερώτηση για να συνεχίσετε στο επόμενο βήμα της εγκατάστασης. Αν θέλετε να αλλάξετε κάτι στο προηγούμενο βήμα, πληκτρολογήστε 'πίσω'. \u000A\u000AΜπορείτε να ακυρώσετε αυτή την εγκατάσταση ανά πάσα στιγμή αφού πληκτρολογήσετε 'παραίτηση'.
+
+# ..................... =Introduction
+IntroActionConsole.title=Εισαγωγή
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Αδύνατον να ανοίξει το URL στον ανιχνευτή Web
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=Το πρόγραμμα InstallAnywhere δεν μπόρεσε να ανοίξει το URL ($ACTION_URL$) που ζητήθηκε στοω προεπιλεγμένο ερευνητή σας στο web (web browser). Για να δείτε αυτό το URL, παρακαλείστε να πληκτρολογήσετε τη διεύθυνση που παρουσιάζεται παραπάνω στον web browser της επιλογής σας.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Άδεια Χρήσης
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=Η Εγκατάσταση και Χρήση του $PRODUCT_NAME$ απαιτεί την αποδοχή της ακόλουθης Άδειας Χρήσης:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Άδεια Χρήσης
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=Η Εγκατάσταση και Χρήση του $PRODUCT_NAME$ απαιτεί την αποδοχή της ακόλουθης Άδειας Χρήσης:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ΑΠΟΔΕΧΕΣΤΕ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΑΔΕΙΑΣ;
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Παραίτηση
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Συνέχιση
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Προειδοποίηση Άδειας Χρήσης
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Προειδοποίηση!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Αν δεν αποδεχτείτε τους όρους της Άδειας Χρήσης, δε θα μπορέσετε να συνεχίσετε την εγκατάσταση.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=ΔΕΝ αποδέχομαι τους όρους της Άδειας Χρήσης (&T)
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Δε βρέθηκε αρχείο για προεπισκόπηση
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=Αποδέχομαι τους όρους της Άδειας Χρήσης (&A)
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Δεν επιλέχθηκε αρχείο
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΑ ΑΚΟΛΟΥΘΑ
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΟ ΤΗΣ ΕΠΙΛΟΓΗΣ ΣΑΣ, Ή ΠΑΤΗΣΤΕ ΤΟ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΠΡΟΕΠΙΛΟΓΗ.
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Άκυρο
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Λεπτομέρειες...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=Η εφαρμογή InstallAnywhere είναι έτοιμη να εγκαταστήσει το $PRODUCT_NAME$ στο σύστημά σας στην ακόλουθη θέση:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΕΓΚΑΤΑΣΤΗΣΕΤΕ
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Έτοιμο για Εγκατάσταση
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=Η εφαρμογή InstallAnywhere ολοκληρώνεται. Περιμένετε...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Καθαρισμός...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Η εγκατάσταση απαιτεί σειριακό αριθμό για να συνεχίσετε.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=Πληκτρολογήστε το Σειριακό Αριθμό: (&S)
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Πληκτρολογήστε το σειριακό αριθμό
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Σφάλμα!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=
+Ο σειριακός αριθμός που καταχωρήσατε δεν είναι σωστός.
+  Ξαναπροσπαθήστε.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Πληκτρολογήστε το σειριακό αριθμό
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Απαιτείται ο Σειριακός Αριθμός για να συνεχίσετε.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Η εγκατάσταση απαιτεί σειριακό αριθμό για να συνεχίσετε.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Ο σειριακός αριθμός που καταχωρήσατε δεν είναι σωστός. Ξαναπροσπαθήστε.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Πληκτρολογήστε το Σειριακό Αριθμό:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Απαιτείται ο Σειριακός Αριθμός για να συνεχίσετε.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Πληκτρολογήστε το σειριακό αριθμό
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Ψευδώνυμο
+
+#............... =Link
+ShortcutName.link=Σύνδεσμος
+
+#................... =Shortcut
+ShortcutName.shortcut=Πλήκτρο Συντόμευσης
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Πού θέλετε να δημιουργήσετε τη συντόμευση;
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Επιλογή Φακέλου Ψευδώνυμου
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Επιλογή Φακέλου Συνδέσμου
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Πού θέλετε να δημιουργήσετε τους συνδέσμους;
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Πού θέλετε να δημιουργήσετε εικονίδια προϊόντος;
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Επιλέξτε την τοποθεσία του πλήκτρου συντόμευσης
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Κοινές ομάδες
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Τρέχουσες ομάδες χρήστη
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=στο φάκελο
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=στο δίσκο
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Προεπιλεγμένο: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Τρέχον: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Επιλέξτε μια άλλη θέση...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΟ ΓΙΑ ΜΙΑ ΑΠΟ ΤΙΣ ΠΑΡΑΠΑΝΩ ΕΠΙΛΟΓΕΣ, Ή ΠΑΤΉΣΤΕ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΠΡΟΕΠΙΛΟΓΗ   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΟΝ ΑΡΙΘΜΟ ΓΙΑ ΜΙΑ ΑΠΟ ΤΙΣ ΠΑΡΑΠΑΝΩ ΕΠΙΛΟΓΕΣ, Ή ΠΑΤΉΣΤΕ <ENTER> ΓΙΑ ΝΑ ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΤΡΕΧΟΥΣΑ ΕΠΙΛΟΓΗ
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=ΠΛΗΚΤΡΟΛΟΓΗΣΤΕ ΤΗΝ ΑΠΟΛΥΤΗ ΔΙΑΔΡΟΜΗ ΣΤΟ ΦΑΚΕΛΟ ΣΥΝΤΟΜΕΥΣΗΣ   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=Η ΘΕΣΗ ΤΩΝ ΣΥΝΤΟΜΕΥΣΕΩΝ ΕΙΝΑΙ: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Επιλέξτε την τοποθεσία του συνδέσμου
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Πού θέλετε να δημιουργήσετε τους συνδέσμους;
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Επιλέξτε την τοποθεσία του πλήκτρου συντόμευσης
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Πού θέλετε να δημιουργήσετε εικονίδια προϊόντος;: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Επιλέξτε την τοποθεσία του Alias
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Πού θέλετε να δημιουργήσετε τη συντόμευση;
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Στο μενού Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Στην υποδοχή προσαρμογής
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Στην Επιφάνεια Εργασίας
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Μη δημιουργείτε aliases
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Άλλη:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Μη δημιουργείτε συνδέσμους
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Μη δημιουργείτε εικονίδια
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Στον αρχικό σας φάκελο
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Στην Επιφάνεια Εργασίας
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=Σε μία νέα Ομάδα Προγραμμάτων:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=Σε μία υπάρχουσα Ομάδα Προγράμματος:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=Στη Ράβδο Ταχείας Εκκίνησης (&Q)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=Στο μενού Εκκίνησης
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Δημιουργία εικονιδίων για όλους τους χρήστες 
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Σφάλμα!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Δεν έχετε δικαίωμα εγγραφής στην επιλεγμένη θέση. Επιλέξτε μία διαφορετική θέση για την εγκατάσταση.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=Στο μενού Apple (&A)
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=Στην υποδοχή προσαρμογής (&K)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=Στην Επιφάνεια Εργασίας (&D)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=Στην Επιφάνεια Εργασίας (&D)
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Επιλογή...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Μη δημιουργείτε aliases
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=Άλλη: (&O)
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=Μη δημιουργείτε συνδέσμους (&T)
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=Μη δημιουργείτε εικονίδια (&T)
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=Στον αρχικό σας φάκελο (&M)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=Στην Επιφάνεια Εργασίας (&D)
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=Σε μία νέα Ομάδα Προγραμμάτων: (&G)
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=Σε μία υπάρχουσα Ομάδα Προγράμματος: (&E)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=Στο μενού Εκκίνησης (&S)
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Δημιουργία εικονιδίων για όλους τους χρήστες (&A)
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Άκυρο
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Λεπτομέρειες...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Ημερομηνία
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Ταυτότητα άδειας.:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Έκδοση δέσμης ενεργειών :
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Έκδοση::
+
+# ............... =Done
+StepMaster.doneStr=Ολοκληρώθηκε (&D)
+
+# ............... =Cancel
+StepMaster.exitStr=Άκυρο (&C)
+
+# ............... =Help
+StepMaster.helpStr=Βοήθεια (&H)
+
+# .................. =Install
+StepMaster.installStr=Εγκατάσταση (&I)
+
+# ............... =Next
+StepMaster.nextStr=Επόμενο (&N)
+
+# ............... =Previous
+StepMaster.prevStr=Προηγούμενο (&P)
+
+# ............... =Close
+StepMaster.closeStr=Κλείσιμο
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Όλα τα αντικείμενα απεγκαταστήθηκαν επιτυχώς.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Η Κατάργηση Εγκατάστασης ολοκληρώθηκε
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Τα ακόλουθα στοιχεία δεν ήταν δυνατό να καταργηθούν
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Δεν ήταν δυνατή η αφαίρεση
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Θα χρειαστεί να επανεκκινήσετε το σύστημα για να ολοκληρώσετε την κατάργηση της εγκατάστασης.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Πρέπει να επανακινήσετε το σύστημα για να ολοκληρωθεί η κατάργηση της εγκατάστασης.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Θα χρειαστεί επίσης να επανεκκινήσετε το σύστημα για να ολοκληρώσετε την κατάργηση της εγκατάστασης.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Πρέπει επίσης να επανακινήσετε το σύστημα για να ολοκληρωθεί η κατάργηση της εγκατάστασης.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Ναι, θέλω να γίνει επανεκκίνηση του συστήματός μου
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Όχι θα επανακινήσω το σύστημά μου μόνος/η μου.
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Όλα τα αντικείμενα απεγκαταστήθηκαν επιτυχώς.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Η Κατάργηση Εγκατάστασης ολοκληρώθηκε
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Τα ακόλουθα στοιχεία δεν ήταν δυνατό να καταργηθούν
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Θα χρειαστεί να επανεκκινήσετε το σύστημα για να ολοκληρώσετε την κατάργηση της εγκατάστασης.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Πρέπει να επανακινήσετε το σύστημα για να ολοκληρωθεί η κατάργηση της εγκατάστασης.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Η Κατάργηση Εγκατάστασης ολοκληρώθηκε
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Όλα τα αντικείμενα απεγκαταστήθηκαν επιτυχώς.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Δεν ήταν δυνατή η αφαίρεση μεριών αντικειμένων.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Η κατάργηση εγκατάστασης δεν ολοκληρώθηκε λόγω κάποιου σφάλματος.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Κατάργηση εγκατάστασης $PRODUCT_NAME$ 
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=Πρόγραμμα κατάργησης εγκατάστασης InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Εισαγωγή
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Κατάργηση Εγκατάστασης...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Η Κατάργηση Εγκατάστασης ολοκληρώθηκε
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Πρόκειται να αρχίσει η κατάργηση της εγκατάστασης... \u000A\u000A$PRODUCT_NAME$\u000A\u000AΗ ενέργεια αυτή θα αφαιρέσει όλα τα χαρακτηριστικά που εγκατεστάθησαν από το InstallAnywhere. Δεν πρόκειται να αφαιρέσει αρχεία και φακέλους που δημιουργήθηκαν μετά από την εγκατάσταση.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Κατάργηση εγκατάστασης $PRODUCT_NAME$ 
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Πρόκειται να αρχίσει η κατάργηση της εγκατάστασης... \u000A\u000A$PRODUCT_NAME$\u000A\u000AΗ ενέργεια αυτή θα αφαιρέσει όλα τα χαρακτηριστικά που εγκατεστάθησαν από το InstallAnywhere. Δεν πρόκειται να αφαιρέσει αρχεία και φακέλους που δημιουργήθηκαν μετά από την εγκατάσταση.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Κατάργηση εγκατάστασης $PRODUCT_NAME$ 
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Άκυρο
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Παραίτηση
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Βοήθεια
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=Κατάργηση εγκατάστασης (&U)
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Κάποια πράξη δεν ήταν δυνατόν να αναιρεθεί επειδή δεν υποστηριζόταν.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Καθαρισμός...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Τοπικά πακέτα...
+
+# ............... =Files...
+UninstallMgr.Files=Αρχεία...
+
+# ................. =Folders...
+UninstallMgr.Folders=Φάκελοι...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Συνδεσμοι...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Ψευδόνυμα...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Συντομέυσεις...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Δεν είναι δυνατή η κατάργηση εγκατάστασης γιατι δυν υπάρχει πλέον κατάλληλη εικονική μηχανή Java στο σύστημα. Εγκαταστήστε την εικονική μηχανή Java και προσπαθήστε πάλι.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 φάκελος
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Προετοιμασία...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Βάση Δεδομένων Λογισμικού...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Μητρώο...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 φάκελοι
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Αδύνατος ο καθαρισμός
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Αδύνατη η κατάργηση των τοπικών πακέτων
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Αδύνατη η αφαίρεση του αρχείου.
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Δεν ήταν δυνατή η αφαίρεση του φακέλου
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Αδύνατη η αφαίρεση του χαρακτηριστικού Java VM
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Αδύνατη η αφαίρεση του συνδέσμου
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Αδύνατη η αφαίρεση του ψευδώνυμου
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Αδύνατη η αφαίρεση της συντόμευσης.
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Αδύνατο να
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Αδύνατη η αφαίρεση 1 αρχείου
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Αδύνατη η αφαίρεση 2 αρχείων
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Αδύνατη η κατάργηση της βάσης δεδομένων λογισμικού
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Αδύνατη η αφαίρεση του κλειδιού του μητρώου
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Απαιτείται επανεκκίνηση του συστήματος
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Δε συνιστάται να εκτελέσετε το πρόγραμμα κατάργησης εγκατάστασης πριν επανεκκινήσετε το σύστημα. Κάντε κλικ \"Cancel\" (Άκυρο) για να εξέλθετε από το πρόγραμμα κατάργησης εγκατάστασης ή \"Continue\" (Συνέχεια) για να καταργήσετε την εγκατάσταση.
+
+# ................ =Continue
+UninstallRestart.continue=Συνέχεια
+
+# ................ =Cancel
+UninstallRestart.exit=Άκυρο
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Περιμένετε ενώ το πρόγραμμα κατάργησης του InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=αφαιρεί τα ακόλουθα χαρακτηριστικά...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Εκτέλεση ειδικευμένου κώδικα...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Εκτέλεση...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Εκτέλεση Προγράμματος Εγκατάστασης...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Εγκατάσταση Μονάδας Σύμπτυξης
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Εγκατάσταση Μονάδας Σύμπτυξης
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Εγκατάσταση τοπικού πακέτου
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=παραίτηση
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΞΕΚΙΝΗΣΕΤΕ ΤΗΝ ΚΑΤΑΡΓΗΣΗ ΕΓΚΑΤΑΣΤΑΣΗΣ Ή 'ΠΑΡΑΙΤΗΣΗ ΓΙΑ ΝΑ ΠΑΡΑΙΤΗΘΕΙΤΕ ΑΠΟ ΤΟ ΠΡΟΓΡΑΜΜΑ ΚΑΤΑΡΓΗΣΗΣ ΕΓΚΑΤΑΣΤΑΣΗΣ.
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=ΠΑΤΗΣΤΕ <ENTER> ΓΙΑ ΝΑ ΠΑΡΑΙΤΗΘΕΙΤΕ ΑΠΟ ΤΟ ΠΡΟΓΡΑΜΜΑ ΚΑΤΑΡΓΗΣΗΣ ΕΓΚΑΤΑΣΤΑΣΗΣ
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Αντιγραφή αρχείου
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Αντιγραφή φακέλου
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Δημιουργία συνδέσμου
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Δημιουργία συντόμευσης
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Δημιουργία ψευδώνυμου
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Δημιουργία φακέλου
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Δημιουργία προγράμματος LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Διαγραφή αρχείου
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Διαγραφή φακέλου
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Επέκταση αρχειοθέτησης
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Εγκατάσταση προγράμματος SpeedFolder
+
+InstallRPMPackage.visualname.self=Εγκατάσταση Linux RPM
+InstallSolarisPackage.visualname.self=Εγκατάσταση Solaris Package
+InstallHPUXPackage.visualname.self=Εγκατάσταση Install HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Μετακίνηση αρχείου
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Μετακίνηση φακέλου
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Εγγραφή υπηρεσίας Windows
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Ρύθμιση Μεταβλητού Περιβάλλοντος Συστήματος
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Ρύθμιση Μητρώου Windows
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Εκτέλεση Οδηγίας ΑΝΤ
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Εκτέλεση Εντολής
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Εκτέλεση ειδικευμένου κώδικα
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Εκτέλεση Οδηγίας
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Εκτέλεση Τελικού Αρχείου
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Αναζήτηση στοιχείου στο μητρώο
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Αντιγραφή στοιχείου από το μητρώο των Windows
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Μετατροπή του αρχείου κειμένου
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Εκτέλεση μεταμόρφωσης XSL
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Εξαγωγή πληροφοριών εντοπισμού σφαλμάτων
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Εξαγωγή κειμένου προς Κονσόλα
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Παρουσίαση Διαλόγου Μηνυμάτων
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Εκκίνηση Υπηρεσίας Windows
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Παύση Υπηρεσίας Windows
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Διακοπή Υπηρεσίας Windows
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Αναζήτηση Φακέλου
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Εγκατάσταση Μονάδας Σύμπτυξης
+Designer.Action.PowerUpdateClient.visualName=Εγκατάσταση πελάτη PowerUpdate 
+Designer.Action.PerformXSLTZip.visualName=Εγκατάσταση XSL Transform - In Εγκατάσταση
+Designer.Action.PerformXSLT.visualName=Εκτέλεση μεταμόρφωσης XSL
+Designer.Action.PerformXSLT.performingXSLtransform=Εκτέλεση μεταμόρφωσης XSL
+Designer.Action.MakeExecutable.visualName=Δημιουργία LaunchAnywhere για Εφαρμογή Java 
+Designer.Action.InstallZipfile.visualName=Εγκατάσταση Αρχείου
+Designer.Action.CreateUninstaller.visualName=Δημιουργία προγράμματος κατάργησης εγκατάστασης
+Designer.Action.BOMAction.visualName=Εγκατάσταση από Manifest
+Designer.Action.ExpandArchive.visualName=Επέκταση αρχειοθέτησης
+Designer.Action.ExecuteScript.visualName=Εκτέλεση Script/Batch file
+Designer.Action.Exec.visualName=Εκτέλεση Εντολής
+Designer.Action.visualName=Εκτέλεση Τελικού Αρχείου
+Designer.Action.AntRunner.visualName=Εκτέλεση Οδηγίας ΑΝΤ
+Designer.Actions.ShowDialogAction.visualName=Παρουσίαση Διαλόγου Μηνυμάτων
+
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Ενέργειες που πρέπει να πραγματοποιήσετε μετά την κατάργηση της εγκατάστασης
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Ενέργειες που πρέπει να πραγματοποιήσετε πριν την κατάργηση της εγκατάστασης
+
+Designer.Action.EvaluateDependenciesAction.visualName=Ανάλυση των εξαρτήσεων
+
+ActionGroup.visualName.self=Ομάδα ενεργειών
+Designer.Action.UpdateServiceClient.visualName=Ενεργοποίηση ειδοποιήσεων ενημέρωσης
+Designer.FolderConstants.programsDir64Name=Φάκελος προγραμμάτων (64-bit)
+Designer.FolderConstants.programsDir32Name=Φάκελος προγραμμάτων (32-bit)
+Designer.FolderConstants.system64Name=Φάκελος συστήματος (64-bit)
+Designer.FolderConstants.system32Name=Φάκελος συστήματος (32-bit)
+Designer.FolderConstants.variableMagicFolder=Μεταβλητός Μαγικός Φάκελος
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# URL for φόρτωση us.jar είναι λανθασμένη.
+Installer.Actions.UpdateServiceClient.badUsJar=Η βιβλιοθήκη #UPDATE_SERVICE# δεν περιέχει την απαραίτητη κλάση για καταχώρηση. Το παρεχόμενο jar ενδέχεται να είναι λανθασμένο.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=Η κλάση #UPDATE_SERVICE# δεν περιέχει την απαραίτητη μέθοδο για καταχώριση.
+Installer.installLog.actionNotes=Σημειώσεις ενέργειας:
+Installer.installLog.installLogDetail=Λεπτομέρεια ημερολογίου εγκατάστασης:
+Installer.installLog.installation=Εγκατάσταση:
+Installer.installLog.unsuccessful=Ανεπιτυχής.
+Installer.installLog.successful=Επιτυχής
+Installer.installLog.withErrors=με σφάλματα.
+Installer.installLog.withwarnings=με προειδοποιήσεις.
+Installer.installLog.cancelled=Ακυρώθηκε
+Installer.installLog.duringPostInstall=κατά τη μετεγκατάσταση
+Installer.installLog.duringInstall=κατά την εγκατάσταση
+Installer.installLog.duringPreInstall=κατά την προεγκατάσταση
+Installer.installLog.cancelledBeforePreInstallation=Η ΕΓΚΑΤΑΣΤΑΣΗ ΑΚΥΡΩΘΗΚΕ ΑΠΟ ΤΟ ΧΡΗΣΤΗ ΠΡΙΝ ΤΗΝ ΠΡΟΕΓΚΑΤΑΣΤΑΣΗ
+Installer.installLog.cancelledDuringPreInstallation=Η ΕΓΚΑΤΑΣΤΑΣΗ ΑΚΥΡΩΘΗΚΕ ΑΠΟ ΤΟ ΧΡΗΣΤΗ ΚΑΤΑ ΤΗΝ ΠΡΟΕΓΚΑΤΑΣΤΑΣΗ
+Installer.installLog.cancelledDuringInstallation=Η ΕΓΚΑΤΑΣΤΑΣΗ ΑΚΥΡΩΘΗΚΕ ΑΠΟ ΤΟ ΧΡΗΣΤΗ ΚΑΤΑ ΤΗΝ ΕΓΚΑΤΑΣΤΑΣΗ
+Installer.InstallLog.cancelledDuringPostInstallation=Η ΕΓΚΑΤΑΣΤΑΣΗ ΑΚΥΡΩΘΗΚΕ ΑΠΟ ΤΟ ΧΡΗΣΤΗ ΜΕΤΑ ΤΗΝ ΕΓΚΑΤΑΣΤΑΣΗ Ή ΚΑΤΑ ΤΗ ΜΕΤΕΓΚΑΤΑΣΤΑΣΗ
+Installer.installLog.successes=Επιτυχίες
+Installer.installLog.warnings=Προειδοποιήσεις
+Installer.installLog.nonFatalErrors=Μη ανεπανόρθωτα σφάλματα
+Installer.installLog.fatalErrors=Ανεπανόρθωτα σφάλματα
+Installer.installLog.details=Λεπτομέρειες
+Installer.installLog.nothingWasInstalled=Τίποτα δεν εγκαταστάθηκε.
+Installer.installLog.none=Κανένα
+Installer.installLog.summary=Περίληψη
+Installer.installLog.installedBy=Εγκαταστάθηκε από το InstallAnywhere #BUILD_INFO#, από την Macrovision
+Installer.installLog.status=Κατάσταση:
+Installer.installLog.additionalNotes=Πρόσθετες σημειώσεις:
+Installer.installLog.exceptionClass=Κλάση εξαίρεσης:
+Installer.installLog.exceptionMessage=Μήνυμα εξαίρεσης:
+Installer.installLog.exceptionStackTrace=Ίχνος στοίβας εξαίρεσης:
+Installer.installLog.successLevel.successful=ΕΠΙΤΥΧΗΣ
+Installer.installLog.successLevel.warning=ΠΡΟΕΙΔΟΠΟΙΗΣΗ
+Installer.installLog.successLevel.error=ΣΦΑΛΜΑ
+Installer.installLog.successLevel.fatalError=ΑΝΕΠΑΝΟΡΘΩΤΟ ΣΦΑΛΜΑ
+Installer.installLog.successLevel.unsupported=ΜΗ ΥΠΟΣΤΗΡΙΖΟΜΕΝΟ ΕΠΙΠΕΔΟ ΣΦΑΛΜΑΤΟΣ
+Installer.installLog.successLevel.notice=ΣΗΜΕΙΩΣΗ
+Installer.installLog.action.description=Ενέργεια εγκατάστασης:
+Installer.installLog.antRunner.description=Εκτέλεση Οδηγίας ΑΝΤ:
+Installer.installLog.antRunner.script=Οδηγία:
+Installer.installLog.asciiFileManipulator.noTargetChosen=Μη επιλεγμένο τελικό σημείο
+Installer.installLog.asciiFileManipulator.newFile=Νέο αρχείο
+Installer.installLog.copyDirectory.description=Αντιγραφή καταλόγους:
+Installer.installLog.copyFile=Αντιγραφή αρχείου:
+Installer.installLog.copyFileAction.destination=Προορισμός:
+Installer.installLog.createShortcut.createShortcut=Δημιουργία συντόμευσης:
+Installer.installLog.createShortcut.createAlias=Δημιουργία ψευδώνυμου:
+Installer.installLog.createShortcut.createLink=Δημιουργία συνδέσμου:
+Installer.installLog.deleteFileAction.source=Προέλευση:
+Installer.installLog.editEnvironment.description=Ρύθμιση μεταβλητής περιβάλλοντος:
+Installer.installLog.expandFile.description=Επέκταση αρχειοθέτησης:
+Installer.installLog.getRegEntry.description=Αντιγραφή στοιχείου από το μητρώο:
+Installer.installLog.getRegEntry.key=Κλειδί:
+Installer.installLog.getRegEntry.value=Όνομα τιμής:
+Installer.installLog.installDirCont.description=Εγκατάσταση προγράμματος SpeedFolder:
+Installer.installLog.installDirectory.description=Εγκατάσταση καταλόγου:
+Installer.installLog.installFile.description=Εγκατάσταση αρχείου:
+Installer.installLog.installNTService.description=Εγγραφή υπηρεσίας ΝΤ:
+Installer.installLog.installUninstaller.description=Εγκατάσταση προγράμματος κατάργησης εγκατάστασης:
+Installer.installLog.installUninstaller.note=(Εγκατάσταση όλων των στοιχείων του προγράμματος κατάργησης εγκατάστασης)
+Installer.installLog.makeExecutable.description=Δημιουργία προγράμματος LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(Εγκατάσταση όλων των εκτελέσιμων στοιχείων Java του LaunchAnywhere)
+Installer.installLog.makeRegEntry.description=Δημιουργία στοιχείου από το μητρώο:
+Installer.installLog.makeRegEntry.key=Κλειδί:
+Installer.installLog.makeRegEntry.name=Όνομα τιμής:
+Installer.installLog.makeRegEntry.data=Δεδομένα τιμής:
+Installer.installLog.speedRegistry.description=Καταχωρίσεις μητρώου:
+Installer.installLog.subinstaller.description=Εγκατάσταση Μονάδας Σύμπτυξης:
+Installer.installLog.subuninstaller.description=Εκτέλεση προγράμματος κατάργησης εγκατάστασης:
+Installer.installLog.customAction.description=Προσαρμοσμένη ενέργεια:
+Installer.installLog.userInteractions=Αλληλεπιδράσεις χρήστη
+Installer.installLog.installBegin=Εκκίνηση εγκατάστασης:
+Installer.installLog.installEnd=Λήξη εγκατάστασης:
+Installer.installLog.freeMemory=Ελεύθερη μνήμη:
+Installer.installLog.totalMemory=Συνολική μνήμη:
+Installer.installLog.commandLineArgs=Ορίσματα γραμμής εντολών:
+Installer.installLog.noArguments=Κανένα όρισμα
+Designer.Action.HTMLPanelAction.visualName=Πίνακας: Απεικόνιση HTML
+HTMLPanelAction.title=Πίνακας HTML
+Designer.Action.UninstallIsmpSoftware.visualName=Κατάργηση λογισμικού InstallShield Universal
+Installer.unexpectedChanges.message=Ο εγκαταστάτης συνάντησε μη αναμενόμενες αλλαγές στην εγκατεστημένη δέσμη ενεργειών.
+﻿Installer.unexpectedChanges.title=Σφάλμα
+Installer.unexpectedChanges.label=Δεν είναι δυνατή η εκκίνηση του εγκαταστάτη.

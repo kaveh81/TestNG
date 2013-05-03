@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:50" />
+    <title>Console Actions</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1052180"> </a><h1 class="pHeading1">
+Console Actions
+</h1>
+<a name="wp1058334"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1055133"> </a><p class="pa_Body">
+Console Actions (commonly called Consoles) are the means for requesting installer end-user input when using a command line interface. When the end-user selects a console installation, console actions will be used instead of panel actions.</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1055136table1055134">
+  <caption><a name="wp1055136"> </a><p class="ptt_Table_Title">
+Console Actions&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1055274"> </a><p class="ptch_Table_Cell_Heading">
+Action
+</p>
+</th>
+    <th><a name="wp1055276"> </a><p class="ptch_Table_Cell_Heading">
+Editions
+</p>
+</th>
+    <th><a name="wp1055278"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1055148"> </a><p class="ptck_Table_Cell_Key_Column">
+Choose Features to Uninstall
+</p>
+</td>
+    <td><a name="wp1055150"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055152"> </a><p class="ptca_Table_Cell_Body">
+This console allows the end-user to select which features they want to uninstall.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055154"> </a><p class="ptck_Table_Cell_Key_Column">
+Choose Install Folder
+</p>
+</td>
+    <td><a name="wp1055156"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055158"> </a><p class="ptca_Table_Cell_Body">
+Chooses the primary installation location
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055160"> </a><p class="ptck_Table_Cell_Key_Column">
+Choose Install Sets
+</p>
+</td>
+    <td><a name="wp1055162"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055164"> </a><p class="ptca_Table_Cell_Body">
+This console allows developers to request that the end-user choose an install set, or features to install.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055166"> </a><p class="ptck_Table_Cell_Key_Column">
+Choose Java VM
+</p>
+</td>
+    <td><a name="wp1055168"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055170"> </a><p class="ptca_Table_Cell_Body">
+This console allows developers to have the end-user select the Java VM that will be used for any installed LaunchAnywhere Launchers. Developers can specify the type of VM that the end-user should select, and the panel will search the system for an appropriate VM.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055172"> </a><p class="ptck_Table_Cell_Key_Column">
+Choose Link Folder
+</p>
+</td>
+    <td><a name="wp1055174"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055176"> </a><p class="ptca_Table_Cell_Body">
+This console allows the user to determine where to install UNIX links
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055178"> </a><p class="ptck_Table_Cell_Key_Column">
+Choose Uninstall Type
+</p>
+</td>
+    <td><a name="wp1055180"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055182"> </a><p class="ptca_Table_Cell_Body">
+Allows the end-user to select whether to uninstall all or part of the application
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055184"> </a><p class="ptck_Table_Cell_Key_Column">
+Custom Code
+</p>
+</td>
+    <td><a name="wp1055186"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055188"> </a><p class="ptca_Table_Cell_Body">
+InstallAnywhere&#39;s Custom Code API allows developers to create custom consoles where necessary.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055190"> </a><p class="ptck_Table_Cell_Key_Column">
+Display Message
+</p>
+</td>
+    <td><a name="wp1055192"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055194"> </a><p class="ptca_Table_Cell_Body">
+The Display Message console allows developers to simply display a text message to the end-user during the installation.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055196"> </a><p class="ptck_Table_Cell_Key_Column">
+Get Password
+</p>
+</td>
+    <td><a name="wp1055198"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055200"> </a><p class="ptca_Table_Cell_Body">
+This console allows developers to request a password from the end-user.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055202"> </a><p class="ptck_Table_Cell_Key_Column">
+Get Serial Number
+</p>
+</td>
+    <td><a name="wp1055204"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055206"> </a><p class="ptca_Table_Cell_Body">
+This console allows end-users to generate a list of serial numbers as well as request them from the end-user
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055208"> </a><p class="ptck_Table_Cell_Key_Column">
+Get User Input
+</p>
+</td>
+    <td><a name="wp1055210"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055212"> </a><p class="ptca_Table_Cell_Body">
+This console allows developers to request input from the end-user.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055214"> </a><p class="ptck_Table_Cell_Key_Column">
+Install Complete
+</p>
+</td>
+    <td><a name="wp1055216"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055218"> </a><p class="ptca_Table_Cell_Body">
+This action displays information about the installation&#39;s status to the end-user. Available only after files have been installed.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055220"> </a><p class="ptck_Table_Cell_Key_Column">
+Install Failed
+</p>
+</td>
+    <td><a name="wp1055222"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055224"> </a><p class="ptca_Table_Cell_Body">
+This console should be displayed when a console installer has generated an error
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055226"> </a><p class="ptck_Table_Cell_Key_Column">
+License Agreement
+</p>
+</td>
+    <td><a name="wp1055228"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055230"> </a><p class="ptca_Table_Cell_Body">
+This console allows developers to display a license agreement to the end-user.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055232"> </a><p class="ptck_Table_Cell_Key_Column">
+Pre-Install Summary
+</p>
+</td>
+    <td><a name="wp1055234"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055236"> </a><p class="ptca_Table_Cell_Body">
+This console summarizes information collected and evaluated prior to the installation of files.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055238"> </a><p class="ptck_Table_Cell_Key_Column">
+Ready to Install
+</p>
+</td>
+    <td><a name="wp1055240"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055242"> </a><p class="ptca_Table_Cell_Body">
+This console alerts the end-user that the installer is about to install files
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055244"> </a><p class="ptck_Table_Cell_Key_Column">
+Show Message Console &#39;Dialog&#39;
+</p>
+</td>
+    <td><a name="wp1055246"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055248"> </a><p class="ptca_Table_Cell_Body">
+Displays a message &#39;dialog&#39; to the end-user
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055250"> </a><p class="ptck_Table_Cell_Key_Column">
+Uninstall Complete
+</p>
+</td>
+    <td><a name="wp1055252"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055254"> </a><p class="ptca_Table_Cell_Body">
+Displays information that the uninstaller has completed
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055256"> </a><p class="ptck_Table_Cell_Key_Column">
+Uninstaller Introduction
+</p>
+</td>
+    <td><a name="wp1055258"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055260"> </a><p class="ptca_Table_Cell_Body">
+This console offers an introduction to the installer
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

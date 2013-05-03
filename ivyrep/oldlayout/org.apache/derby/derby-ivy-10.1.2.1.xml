@@ -1,0 +1,16 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="derby" revision="10.1.2.1" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="derbytools" description="Also contains derbytools.jar" extends="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="derby" type="jar"/>
+    <artifact name="derbytools" type="jar" conf="derbytools"/>
+    <artifact name="derby-bin" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="derby-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>

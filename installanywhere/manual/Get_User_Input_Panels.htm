@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:50" />
+    <title>Get User Input Panels&#160;</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1052478"> </a><h1 class="pHeading1">
+Get User Input Panels&#160;
+</h1>
+<a name="wp1058379"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1052479"> </a><p class="pa_Body">
+These actions provide a non-programmatic way to show a simple Java dialog box that will allow your installer to interact with the end-user. A simple prompt guides the end-user through the selection or completion of various Java elements (textboxes, checkboxes, buttons, a pop up menu, or a list). The end-user-supplied input is returned and stored in an InstallAnywhere Variable that you are free to name. The values stored in the InstallAnywhere Variable can subsequently be used to customize the installation process, to apply rules to the installer (to enable only certain files in the installer to be installed, to have certain actions performed during installation), etc.
+</p>
+<a name="wp1052480"> </a><p class="pa_Body">
+Input Methods/Component Types: This specifies the manner in which end-user input will be accepted (the input widget or field) and the manner in which the labels will be displayed to the end-user. Input methods include Text Fields, Checkboxes, Radio Buttons, Pop-up Menus or a List.
+</p>
+<a name="wp1052481"> </a><p class="pa_Body">
+Configure: When you click Configure, a dialog box appears that prompts you to supply a label to appear in the panel. Labels may be literal values or values represented by InstallAnywhere Variables (which will resolve prior to the panel being displayed).
+</p>
+<a name="wp1052482"> </a><p class="pa_Body">
+Results Variable(s): The name of the InstallAnywhere variable that will store the results of the end-user&#39;s input. The default value for the Results Variable name is &quot;USER_INPUT_RESULTS&quot;. The variable name of the Results Variable also forms the base name of additional InstallAnywhere variables that will be used to store individual end-user input choices from the end-user input panel. The convention for the naming of the additional variables is to append an underscore and an integer number to the end of the base name. The number, starting at one (1), increases by one (1) for each additional variable that is needed to store data. The number of additional variables derived from the Results Variable base name depends upon the Input Method/Component Type that you have selected for the panel, the choices made by the end-user at install time, and the number of values listed in Defaults.
+</p>
+<a name="wp1052483"> </a><p class="pa_Body">
+Textboxes: The Results Variable is the base name for the values returned by the End-user Input panel. Entries in the textboxes will be returned in a comma-separated list surrounded by quotes and stored in the Results Variable. In addition, additional variables derived from the Results Variable will store the values in the individual textboxes. For example, if the Results Variable is $X$, and there are three textboxes populated with the following values when the end-user clicks Next during the install, Peter; Paul; and Mary, the following InstallAnywhere variables and values will exist:
+</p>
+<a name="wp1052484"> </a><p class="pa_Body">
+$X$=&quot;Peter&quot;,&quot;Paul&quot;,&quot;Mary&quot;
+</p>
+<a name="wp1052485"> </a><p class="pa_Body">
+$X_1$=Peter
+</p>
+<a name="wp1052486"> </a><p class="pa_Body">
+$X_2$=Paul
+</p>
+<a name="wp1052487"> </a><p class="pa_Body">
+$X_3$=Mary
+</p>
+<a name="wp1052488"> </a><p class="pa_Body">
+However, if only two values were inserted (Peter and Mary), the above example would appear in the following way:
+</p>
+<a name="wp1052489"> </a><p class="pa_Body">
+$X$=&quot;Peter&quot;,&quot;&quot;,&quot;Mary&quot;
+</p>
+<a name="wp1052490"> </a><p class="pa_Body">
+$X_1$=Peter
+</p>
+<a name="wp1052491"> </a><p class="pa_Body">
+$X_2$=
+</p>
+<a name="wp1052492"> </a><p class="pa_Body">
+$X_3$=Mary
+</p>
+<a name="wp1052493"> </a><p class="pa_Body">
+Check Boxes: The Results Variable is the base name for the values returned by the End-user Input panel. A comma-separated list containing the Value for choices from selected checkboxes (a blank entry in the comma-separated list will be included for check boxes that were not selected) will be returned and stored in the Results Variable. Additional variables derived from the Results Variable will store the values for each check box that was selected. For example, if the Results Variable is $X$, and there are three check boxes with the labels Paul, John, and George (from the Values for choices list) and Paul and George are selected when the end-user clicks Next during the install, the following InstallAnywhere variables and values will exist:
+</p>
+<a name="wp1052494"> </a><p class="pa_Body">
+$X$=&quot;Paul&quot;,&quot;&quot;,&quot;George&quot;
+</p>
+<a name="wp1052495"> </a><p class="pa_Body">
+$X_1$=Paul
+</p>
+<a name="wp1052496"> </a><p class="pa_Body">
+$X_2$=
+</p>
+<a name="wp1052497"> </a><p class="pa_Body">
+$X_3$=George
+</p>
+<a name="wp1052498"> </a><p class="pa_Body">
+List: The Results Variable is the base name for the values returned by the End-user Input panel. A comma-separated list containing the Value for choices from selected list entries (a blank entry in the comma-separated list will be included for check boxes that were not selected) will be returned and stored in the Results Variable. Additional variables derived from the Results Variable will store the values for each list entry that was selected. Lists behave somewhat differently than checkboxes. For example, if the Results Variable is $X$, and there are three list entries with the labels Paul, John, and George (from the Values for choices list) and Paul and George are selected when the end-user clicks Next during the install, the following InstallAnywhere variables and values will exist:
+</p>
+<a name="wp1052499"> </a><p class="pa_Body">
+$X$=&quot;Paul&quot;,&quot;&quot;,&quot;George&quot;
+</p>
+<a name="wp1052500"> </a><p class="pa_Body">
+$X_1$=Paul
+</p>
+<a name="wp1052501"> </a><p class="pa_Body">
+$X_2$=
+</p>
+<a name="wp1052502"> </a><p class="pa_Body">
+$X_3$=George
+</p>
+<a name="wp1052503"> </a><p class="pa_Body">
+Radio Buttons and Popup Menus: The Results Variable is the base name for the values returned by the Get User Input panel. A single value based both on the Value for choices value and what was selected will be returned and stored in the Results Variable. Additional variables are not derived from the Results Variable unless Defaults are specified. For example, if the Results Variable is $X$, and there are three radio buttons with the labels Michael, Matthew, and David (from the Values for choices: list) and Michael is selected when the end-user clicks Next during the install, the following InstallAnywhere variables and values will exist:
+</p>
+<a name="wp1052504"> </a><p class="pa_Body">
+ $X$=&quot;Michael&quot;,&quot;&quot;,&quot;&quot;
+</p>
+<a name="wp1052505"> </a><p class="pa_Body">
+Defaults: The effect of Defaults also differ by input method.
+</p>
+<a name="wp1052506"> </a><p class="pa_Body">
+If the Input Method is Text Fields, the values listed in Defaults will be set as the defaults for the textboxes. The first default item will be used for the first text box, the second item for the second text box, etc.
+</p>
+<a name="wp1052507"> </a><p class="pa_Body">
+If the Input Method is any other option (Check boxes, Radio Buttons, a Pop-up menu, or a List), you may choose the default to be either &quot;Selected&quot; or &quot;Not Selected,&quot; and &quot;Set Variable&quot;. Choosing Set Variable opens a dialog box requesting the name of an InstallAnywhere variable. If the variable resolves to true at the time of installation, the component will be selected.
+</p>
+<a name="wp1052508"> </a><p class="pa_Body">
+If there are more defaults listed than there are entries in Values for choices, these extra defaults will be stored in additional variables derived from the Results Variable base name. For example, if there are three items in Values for choices and there are four defaults, the fourth default would be stored in a variable with a _4 derivation. Extra default values will not affect the String returned in the base Results Variable.
+</p>
+<a name="wp1052509"> </a><p class="pa_Body">
+VAR_BOOLEAN_X Variable
+</p>
+<a name="wp1052510"> </a><p class="pa_Body">
+There is also a variable to correspond with the USER_INPUT_RESULTS_1, USER_INPUT_RESULTS_2, and USER_INPUT_RESULTS_3. If your installer requires localization, the values and characters that correspond with this user input panel may vary from language to language. The VAR_BOOLEAN variable deals with this by providing a positive (1) or negative (0) value if choices are selected. To use the example above:
+</p>
+<a name="wp1052511"> </a><p class="pa_Body">
+ $X$=&quot;Paul&quot;,&quot;&quot;,&quot;George&quot;
+</p>
+<a name="wp1052512"> </a><p class="pa_Body">
+ $X_1$=Paul
+</p>
+<a name="wp1052513"> </a><p class="pa_Body">
+ $X_2$=
+</p>
+<a name="wp1052514"> </a><p class="pa_Body">
+ $X_3$=George
+</p>
+<a name="wp1052515"> </a><p class="pa_Body">
+ $X_BOOLEAN_1$=1
+</p>
+<a name="wp1055440"> </a><p class="pa_Body">
+ $X_BOOLEAN_2$=0
+</p>
+<a name="wp1055441"> </a><p class="pa_Body">
+ $X_BOOLEAN_3$=1
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

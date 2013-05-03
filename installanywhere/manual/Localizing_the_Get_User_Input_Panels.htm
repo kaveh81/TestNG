@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:26:02" />
+    <title>Localizing the Get User Input Panels</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1050957"> </a><h1 class="pHeading1">
+Localizing the Get User Input Panels
+</h1>
+<a name="wp1055089"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1050958"> </a><p class="pa_Body">
+You can easily internationalize choices in the &quot;Get User Input Panels&quot; by editing a project&#39;s locale files.  Each choice or option in the Get User Input panel is localizable whether it is a label, text field, radio button, or checkbox.
+</p>
+<a name="wp1050959"> </a><p class="pa_Body">
+Here is an example using English and French:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1050960"> </a><div class="pSmartList1"><li>Create your project as you normally would. In this example, we&#39;ve added a User Input Panel that asks the question: &quot;Are you ready?&quot; This panel offers the user Radio Buttons with Yes, and No as possible choices.</li></div>
+<a name="wp1050961"> </a><div class="pSmartList1"><li>Build for all intended platforms and locales.</li></div>
+<a name="wp1050962"> </a><div class="pSmartList1"><li>Navigate to the [your project]locales directory.</li></div>
+<a name="wp1050963"> </a><div class="pSmartList1"><li>As we&#39;re customizing a French installer for this example, use a simple text editor (notepad.exe, SimpleText, VI, or emacs for example) to open the custom_fr and custom_en files.</li></div>
+<a name="wp1050964"> </a><div class="pSmartList1"><li>In the custom_en file, search for the text you would like to customize (the text string used in your User Input Panel, in this case - &quot;Are you ready?&quot; ) It will look something like this (though the ID may be different)</li></div>
+<a name="wp1052193"> </a><p class="pcol_Code_Under_List">
+# CreateDialog.c586fa408eaf.prompt=Are you ready?<br />
+CreateDialog.c586fa408eaf.prompt=Are you ready?<br />
+# CreateDialog.c586fa408eaf.title=Get User Input<br />
+CreateDialog.c586fa408eaf.title=Get User Input
+
+</p>
+<a name="wp1052203"> </a><p class="pal_Body_Under_List">
+If you want to change the Yes/No, just do a search for Yes or No in the custom_en.  You find something like this:
+</p>
+<a name="wp1052210"> </a><p class="pcol_Code_Under_List">
+# EntryAtom.c8ca91558eaf.label=Yes<br />
+# EntryAtom.c58723868eaf.label=No&#160;
+
+</p>
+<a name="wp1050965"> </a><div class="pSmartList1"><li>Find the matching entries in the custom_fr file.</li></div>
+<a name="wp1050966"> </a><div class="pSmartList1"><li>In the custom_fr file, make changes to the matching entries to reflect the customizations for this locale.<br />For Example:<br /><br /># CreateDialog.c586fa408eaf.prompt=Are you ready?<br />CreateDialog.c586fa408eaf.prompt= tes Vous prÍt?<br /><br /># CreateDialog.c586fa408eaf.title=Get User Input<br />CreateDialog.c586fa408eaf.title=Obligez L&#39;Utilisateur ¿ entrer<br /><br /># CreateDialog.ef23914cb8fd.ValidInputsAsCommaSeparatedString=yes,no<br />CreateDialog.ef23914cb8fd.ValidInputsAsCommaSeparatedString=oui,non<br /><br /># EntryAtom.c8ca91558eaf.label=Yes<br />EntryAtom.c8ca91558eaf.label=Oui<br /><br /># EntryAtom.c58723868eaf.label=No<br />EntryAtom.c58723868eaf.label=Non</li></div>
+<a name="wp1050967"> </a><div class="pSmartList1"><li>Rebuild your project. The proper entries should appear in the proper locale.</li></div>
+</ol></div>
+<a name="wp1050968"> </a><p class="pa_Body">
+The process is similar for the &quot;Get User Input - Advanced&quot; panels.  Here&#39;s the same example, but using the &quot;Get USer Input - Advanced&quot; panel.
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1050969"> </a><div class="pSmartList1"><li>Create your project as you normally would. In this example, we&#39;ve added a User Input Panel that asks the question: &quot;Are you ready?&quot; This panel offers the user Radio Buttons with Yes, and No as possible choices.</li></div>
+<a name="wp1050970"> </a><div class="pSmartList1"><li>Build for all intended platforms and locales.</li></div>
+<a name="wp1050971"> </a><div class="pSmartList1"><li>Navigate to the [your project]locales directory.</li></div>
+<a name="wp1050972"> </a><div class="pSmartList1"><li>As we&#39;re customizing a French installer for this example, use a simple text editor (notepad.exe, SimpleText, VI, or emacs for example) to open the custom_fr and custom_en files.</li></div>
+<a name="wp1050973"> </a><div class="pSmartList1"><li>In the custom_en file, search for the text you would like to customize (the text string used in your User Input Panel, in this case - &quot;Are you ready?&quot; ) It will look something like this (though the ID may be different):<br /><br /># GetUserInput.c8e4659f8f03.title=Get User Input<br />GetUserInput.c8e4659f8f03.title=Get User Input<br /><br /># GUIGroupData.c8e471658f03.caption=Are you ready?<br />GUIGroupData.c8e471658f03.caption=Are you ready?<br /><br />If you want to change the Yes/No, just do a search for Yes or No in the custom_en.  You find something like this:<br /><br /># GUIComponentData.c8e477e48f04.label=Yes<br />GUIComponentData.c8e477e48f04.label=Yes<br /><br /># GUIComponentData.c8e4c9558f04.label=No<br />GUIComponentData.c8e4c9558f04.label=No</li></div>
+<a name="wp1050974"> </a><div class="pSmartList1"><li>Find the matching entries in the custom_fr file.</li></div>
+<a name="wp1050975"> </a><div class="pSmartList1"><li>In the custom_fr file, make changes to the matching entries to reflect the customizations for this locale.<br />For Example:<br /><br /># GetUserInput.c8e4659f8f03.title=Get User Input<br />GetUserInput.c8e4659f8f03.title=Obligez L&#39;Utilisateur ¿ entrer<br /><br /># GUIGroupData.c8e471658f03.caption=Are you ready?<br />GUIGroupData.c8e471658f03.caption= tes Vous prÍt?<br /><br /># GUIComponentData.c8e477e48f04.label=Yes<br />GUIComponentData.c8e477e48f04.label=Oui<br /><br /># GUIComponentData.c8e4c9558f04.label=No<br />GUIComponentData.c8e4c9558f04.label=Non</li></div>
+<a name="wp1050976"> </a><div class="pSmartList1"><li>Rebuild your project. The proper entries should appear in the proper locale.</li></div>
+</ol></div>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

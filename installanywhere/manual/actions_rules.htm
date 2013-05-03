@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:50" />
+    <title>Actions and Rules</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1036926"> </a><h1 class="pHeading1">
+Actions and Rules
+</h1>
+<a name="wp1058314"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1051586"> </a><p class="pa_Body">
+InstallAnywhere actions represent operations that will be performed by the installer or uninstaller. Actions may be as simple as installing files or displaying a panel, or as sophisticated as executing custom code during the installation process.
+</p>
+<a name="wp1051587"> </a><p class="pa_Body">
+Actions may only be added while working in the Advanced Designer. Actions may be added to the tasks that represent real-time operations being accomplished by the installer: Pre-Install, Install, Post-Install, Pre-Uninstall, and Post-Uninstall. To add an action to an installer, click Add Action. The Add Action button is present wherever Actions are available. Clicking Add Action will display the Choose an Action dialog box.
+</p>
+<a name="wp1051589"> </a><p class="pa_Body">
+The Choose an Action dialog box only presents actions which are available for the task within which the developer is working. Add Action from within the Install task will not provide any actions that require user input. For the Install task the Choose an Action dialog box will have a tab for install tasks and one for general tasks. Actions under the General tab are available from all tasks. The Pre and Post-Install and Uninstall tasks have other actions listed under Panels, Consoles, and the Plug-ins tabs.
+</p>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1051591"> </a><p class="pno_Note">
+The Plug-ins tab appears when a custom code plug-in has been added.
+</p>
+<a name="wp1051592"> </a><p class="pa_Body">
+Actions are executed in the order that they appear in the task from top to bottom. Actions may be reordered either by use of the up and down arrows. The left and right arrows move actions out of or into folders.
+</p>
+<a name="wp1054319"> </a><p class="pa_Body">
+Once an action has been added, its customizer will appear in the bottom half of the Advanced Designer. Developers may customize this action by modifying the customizer. The Properties area enables developers to add file locations and variables to the action, as well as detail how developers would like the action to run. The Rules area enables developers to add specific rules to an action. Once an action has a rule added to it, its icon will be modified to display a small R on it, so developers will be able to see that there is a rule associated with it. This icon badge may help test or modify an installer if there are a long list of actions, some with rules and some without.
+</p>
+<a name="wp1051595"> </a><p class="pa_Body">
+Pre-Install/Uninstall actions are executed before Install actions which are executed before Post-Install/Uninstall actions. Pre-Install actions are generally actions that determine what to install on the target system, or even if the installation should occur. Actions added from the Install task define what will occur on the target system, like creating folders, expanding archives or moving files. Post-Install actions are generally actions that require files to be installed like showing the readme file, or launching the application that was just installed. Actions that occur within Pre-Install or Post-Install will not be uninstalled.
+</p>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1051598"> </a><p class="pno_Note">
+When an Action is executed in Pre-Install or Post-Install, it may be executed more than once if an end-user clicks Previous and then Next repeatedly. This could cause several errors for actions that modify files, such as Modify Text File &#151; Single File or Register Windows Service. For these types of actions, Macrovision recommends executing them during the actual installation (within the Install task) to prevent this type of error.
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

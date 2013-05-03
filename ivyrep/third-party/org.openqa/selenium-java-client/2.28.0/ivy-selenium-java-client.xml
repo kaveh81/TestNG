@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+	<info organisation="org.openqa" module="selenium-java-client" revision="2.28.0" status="release"/>
+
+	<configurations>
+		<conf name="compile" visibility="public" description="Compile dependencies"/>
+		<conf name="optional" visibility="public" extends="compile" description="Optional dependencies"/>
+		<conf name="provided" visibility="public" description="Provided dependencies"/>
+		<conf name="runtime" visibility="public" extends="compile" description="Runtime dependencies"/>
+	</configurations>
+
+	<publications>
+		<artifact name="selenium-java" ext="jar"/>
+		<artifact name="selenium-java-source" type="src" ext="jar"/>
+		<artifact name="license" type="license" ext="txt"/>
+	</publications>
+
+	<dependencies>
+		<dependency org="com.google.common" name="guava" rev="13.0.1" conf="runtime->runtime"/>
+		<dependency org="org.apache" name="commons-exec" rev="1.1" conf="runtime->runtime"/>
+		<dependency org="org.apache" name="httpclient" rev="4.2.2" conf="runtime->runtime"/>
+		<dependency org="com.gargoylesoftware" name="htmlunit" rev="2.9" conf="runtime->runtime"/>
+
+		<!-- Note that we don't really need Java Push notifications, but there is a compatible copy of the org.json.* classes in there.  I need the classes anyway, and I don't want to leave multiple copies around, and pulling the classes out of javapns seemed like too much work and I'm lazy, so there you go. - Mark -->
+		<dependency org="com.google.code" name="javapns" rev="2.1.1" conf="runtime->runtime"/>
+	</dependencies>
+
+</ivy-module>

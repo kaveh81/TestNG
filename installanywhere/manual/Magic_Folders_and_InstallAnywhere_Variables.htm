@@ -1,0 +1,648 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:54" />
+    <title>Magic Folders and Variables</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1053516"> </a><h1 class="pHeading1">
+Magic Folders and Variables
+</h1>
+<a name="wp1059044"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1053517"> </a><p class="pa_Body">
+Magic Folders represent a specific location, such as the user selected installation directory, the desktop, or the location for library files. At install time, the installer determines which operating system it is running on, and sets the magic folders to the correct absolute paths. Many Magic Folders are platform specific and many are predefined by InstallAnywhere to standard locations across InstallAnywhere supported platforms.
+</p>
+<a name="wp1053518"> </a><p class="pa_Body">
+Every Magic Folder has an associated InstallAnywhere variable. These variables are first initialized when the installer begins. Changing the value of a Magic Folder variable will change the destination to which the Magic Folders installs. Changing the value of the $USER_INSTALL_DIR$ through InstallAnywhere will change where the files will install.
+</p>
+<a name="wp1053519"> </a><p class="pa_Body">
+With three exceptions, these variables are initialized at install time and will not change except through using custom code or the Set InstallAnywhere Variable action. The exceptions are:
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1053520"> </a><div class="pSmartList1_Variant"><li value="">$USER_INSTALL_DIR$: This is initialized to the default value determined in the <b class="cBold">Platforms</b> task in the Advanced Designer. Its value can change at the <b class="cBold">Choose Install Folder</b> step, if the end-user selects a different folder. </li></div>   <a name="wp1053521"> </a><div class="pSmartList1_Variant"><li value="">$USER_SHORTCUTS$: This is initialized to the default value determined by the Platforms task in the Advanced Designer. Its value can change at the <b class="cBold">Create Alias, Link, Shortcut</b> install step if the end-user selects a different location. </li></div>   <a name="wp1053522"> </a><div class="pSmartList1_Variant"><li value="">$JAVA_HOME$: Installer without VM: Defaults to the value of the java property java.home. Its value can change at the Choose Java Virtual Machine step if the end-user selects a VM Installer with VM: Defaults to the value specified in the Project - Java Task. It can change when the $USER_INSTALL_DIR$ changes, or at the <b class="cBold">Choose Java Virtual Machine</b> step if the end&amp;ndash;user selects a VM already on their machine. </li></div> </ul></div>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1053523"> </a><p class="pno_Note">
+Variables cannot be set to themselves. For example to append /test to USER_MAGIC_FOLDER_1, the developer cannot set USER_MAGIC_FOLDER_1 = USER_MAGIC_FOLDER_1$/$test. InstallAnywhere does not allow either direct or indirect recursion with InstallAnywhere variables. This condition will cause an error.</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1053526table1053524">
+  <caption><a name="wp1053526"> </a><p class="ptt_Table_Title">
+Magic Folders&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1056699"> </a><p class="ptch_Table_Cell_Heading">
+Folder Name
+</p>
+</th>
+    <th><a name="wp1056701"> </a><p class="ptch_Table_Cell_Heading">
+InstallAnywhere Variable
+</p>
+</th>
+    <th><a name="wp1056703"> </a><p class="ptch_Table_Cell_Heading">
+Destination
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1053538"> </a><p class="ptck_Table_Cell_Key_Column">
+User Installation Directory
+</p>
+</td>
+    <td><a name="wp1053540"> </a><p class="ptca_Table_Cell_Body">
+$USER_INSTALL_DIR$
+</p>
+</td>
+    <td><a name="wp1053542"> </a><p class="ptca_Table_Cell_Body">
+The installation folder, as specified by the end-user. Developers can specify a default value for this variable in the Project Info screen in the Advanced Designer and choosing a location in the Default Install Folder area of the screen.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053544"> </a><p class="ptck_Table_Cell_Key_Column">
+Programs Folder
+</p>
+</td>
+    <td><a name="wp1053546"> </a><p class="ptca_Table_Cell_Body">
+$PROGRAMS_DIR$
+</p>
+</td>
+    <td><a name="wp1053548"> </a><p class="ptca_Table_Cell_Body">
+The default application directory on the destination system. (Program Files on Windows, in the Applications folder on Mac OS, and the logged-in-end-user&#39;s home account on Unix.) 
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053550"> </a><p class="ptck_Table_Cell_Key_Column">
+Shortcuts
+</p>
+</td>
+    <td><a name="wp1053552"> </a><p class="ptca_Table_Cell_Body">
+$USER_SHORTCUTS$
+</p>
+</td>
+    <td><a name="wp1053554"> </a><p class="ptca_Table_Cell_Body">
+The folder specified by the end-user as the shortcuts/links/aliases location. The value of this location can be changed by the end-user if the Choose Alias, Link, Shortcut Folder action is turned on in the installer. Developers can specify a default value for this variable on a per-platform basis by selecting the Platforms task in the Advanced Designer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053562"> </a><p class="ptck_Table_Cell_Key_Column">
+Desktop
+</p>
+</td>
+    <td><a name="wp1053564"> </a><p class="ptca_Table_Cell_Body">
+$DESKTOP$
+</p>
+</td>
+    <td><a name="wp1053566"> </a><p class="ptca_Table_Cell_Body">
+This variable represents the desktop on the target machine. This folder only resolves on Windows Linux, and Mac OS systems.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053568"> </a><p class="ptck_Table_Cell_Key_Column">
+Temp Directory
+</p>
+</td>
+    <td><a name="wp1053570"> </a><p class="ptca_Table_Cell_Body">
+$TEMP_DIR$
+</p>
+</td>
+    <td><a name="wp1053572"> </a><p class="ptca_Table_Cell_Body">
+This variable represents the temp directory on the target machine. When running the pure Java installer on Windows, $TEMP_DIR$ will resolve the user&#39;s home directory.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053574"> </a><p class="ptck_Table_Cell_Key_Column">
+Startup
+</p>
+</td>
+    <td><a name="wp1053576"> </a><p class="ptca_Table_Cell_Body">
+$STARTUP$
+</p>
+</td>
+    <td><a name="wp1053578"> </a><p class="ptca_Table_Cell_Body">
+The automatic startup folder for items that are launched automatically during operating system boot up. This folder only resolves on Windows and Mac OS systems.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053580"> </a><p class="ptck_Table_Cell_Key_Column">
+Installation Drive Root
+</p>
+</td>
+    <td><a name="wp1053582"> </a><p class="ptca_Table_Cell_Body">
+$INSTALL_DRIVE_ROOT$
+</p>
+</td>
+    <td><a name="wp1053584"> </a><p class="ptca_Table_Cell_Body">
+The root directory on the volume where the installation is taking place.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053586"> </a><p class="ptck_Table_Cell_Key_Column">
+Home Directory
+</p>
+</td>
+    <td><a name="wp1053588"> </a><p class="ptca_Table_Cell_Body">
+$USER_HOME$
+</p>
+</td>
+    <td><a name="wp1053590"> </a><p class="ptca_Table_Cell_Body">
+The home directory of the end-user running the installer. This variable works with all platforms except Mac OS. For users who have already included the variable $UNIX_USER_HOME$, this variable will continue to function with the same definition as $USER_HOME$.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056792"> </a><p class="ptck_Table_Cell_Key_Column">
+Programs Folder (64-bit)
+</p>
+</td>
+    <td><a name="wp1056794"> </a><p class="ptca_Table_Cell_Body">
+$PROGRAMS_DIR_64$
+</p>
+</td>
+    <td><a name="wp1056796"> </a><p class="ptca_Table_Cell_Body">
+The default 64-bit application directory on a 64-bit system.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056786"> </a><p class="ptck_Table_Cell_Key_Column">
+Programs Folder (32-bit)
+</p>
+</td>
+    <td><a name="wp1056788"> </a><p class="ptca_Table_Cell_Body">
+$PROGRAMS_DIR_32$
+</p>
+</td>
+    <td><a name="wp1056790"> </a><p class="ptca_Table_Cell_Body">
+The default 32-bit application directory on a system.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053592"> </a><p class="ptck_Table_Cell_Key_Column">
+System Drive Root
+</p>
+</td>
+    <td><a name="wp1053594"> </a><p class="ptca_Table_Cell_Body">
+$SYSTEM_DRIVE_ROOT$
+</p>
+</td>
+    <td><a name="wp1053596"> </a><p class="ptca_Table_Cell_Body">
+The root directory of the system drive.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053598"> </a><p class="ptck_Table_Cell_Key_Column">
+Java Home
+</p>
+</td>
+    <td><a name="wp1053600"> </a><p class="ptca_Table_Cell_Body">
+$JAVA_HOME$
+</p>
+</td>
+    <td><a name="wp1053602"> </a><p class="ptca_Table_Cell_Body">
+The home directory of the Java Virtual Machine to be used.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053604"> </a><p class="ptck_Table_Cell_Key_Column">
+Windows
+</p>
+</td>
+    <td><a name="wp1053606"> </a><p class="ptca_Table_Cell_Body">
+$WIN_WINDOWS$
+</p>
+</td>
+    <td><a name="wp1053608"> </a><p class="ptca_Table_Cell_Body">
+The Windows directory (Windows 95/98/Me/XP/NT/2000 computers only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056978"> </a><p class="ptck_Table_Cell_Key_Column">
+System
+</p>
+</td>
+    <td><a name="wp1056980"> </a><p class="ptca_Table_Cell_Body">
+$SYSTEM$
+</p>
+</td>
+    <td><a name="wp1056982"> </a><p class="ptca_Table_Cell_Body">
+This variable represents the System folder on the target machine.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056925"> </a><p class="ptck_Table_Cell_Key_Column">
+System Folder (64-bit)
+</p>
+</td>
+    <td><a name="wp1056927"> </a><p class="ptca_Table_Cell_Body">
+$SYSTEM_64$
+</p>
+</td>
+    <td><a name="wp1056929"> </a><p class="ptca_Table_Cell_Body">
+The default 64-bit System folder on a 64-bit system.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056931"> </a><p class="ptck_Table_Cell_Key_Column">
+System Folder (32-bit)
+</p>
+</td>
+    <td><a name="wp1056933"> </a><p class="ptca_Table_Cell_Body">
+$SYSTEM_32$
+</p>
+</td>
+    <td><a name="wp1056935"> </a><p class="ptca_Table_Cell_Body">
+The default 32-bit System folder on a system.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053610"> </a><p class="ptck_Table_Cell_Key_Column">
+Start Menu
+</p>
+</td>
+    <td><a name="wp1053612"> </a><p class="ptca_Table_Cell_Body">
+$WIN_START_MENU$
+</p>
+</td>
+    <td><a name="wp1053614"> </a><p class="ptca_Table_Cell_Body">
+The Windows Start menu directory (Windows 95/98/Me/XP/NT/2000 computers only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053616"> </a><p class="ptck_Table_Cell_Key_Column">
+Quick Launch Bar
+</p>
+</td>
+    <td><a name="wp1053618"> </a><p class="ptca_Table_Cell_Body">
+$WIN_QUICK_LAUNCH_BAR$
+</p>
+</td>
+    <td><a name="wp1053620"> </a><p class="ptca_Table_Cell_Body">
+The Quick Launch Bar on Windows. On Windows 2000 and XP, the location is relative to the UserProfile environment variable. On Windows 98 and Me it&#39;s relative to the Windows directory.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053622"> </a><p class="ptck_Table_Cell_Key_Column">
+Do Not Install
+</p>
+</td>
+    <td><a name="wp1053624"> </a><p class="ptca_Table_Cell_Body">
+$DO_NOT_INSTALL$
+</p>
+</td>
+    <td><a name="wp1053626"> </a><p class="ptca_Table_Cell_Body">
+Doesn&#39;t install the file on the target platform. Used for files (typically localized license agreements and graphics) used during installation but which don&#39;t need to remain on the target system.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053628"> </a><p class="ptck_Table_Cell_Key_Column">
+USER_<br />MAGIC_<br />FOLDER_#
+</p>
+</td>
+    <td><a name="wp1053630"> </a><p class="ptca_Table_Cell_Body">
+$USER_MAGIC_FOLDER_#$
+</p>
+</td>
+    <td><a name="wp1056970"> </a><p class="ptca_Table_Cell_Body">
+These variables are user-defined destination install Magic Folders. They install to whichever directories their variable name has been set. To set these variables, use the Set InstallAnywhere Variable action.<br />Note: For Unix, if the leading &quot;/&quot; is not included in the path before the Magic Folder location, the result is &lt;directory in which installer double-clicked&gt;/USER_MAGIC_FOLDER_#. This is because the operating system assumes that any path not preceded by a &quot;/&quot; is below the current directory.
+</p>
+<img style="margin-top: 10pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+
+<a name="wp1056955"> </a><p class="ptcno_Table_Cell_Note">
+Developer-defined Magic Folders are not available in the Standard edition of InstallAnywhere.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053634"> </a><p class="ptck_Table_Cell_Key_Column">
+Programs Menu
+</p>
+</td>
+    <td><a name="wp1053636"> </a><p class="ptca_Table_Cell_Body">
+$WIN_PROGRAMS_MENU$
+</p>
+</td>
+    <td><a name="wp1053638"> </a><p class="ptca_Table_Cell_Body">
+The Windows Programs menu (in the Start menu) (Windows 95/98/Me/XP/NT/2000 computers only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053640"> </a><p class="ptck_Table_Cell_Key_Column">
+All Users Start Menu
+</p>
+</td>
+    <td><a name="wp1053642"> </a><p class="ptca_Table_Cell_Body">
+$WIN_COMMON_<br />START_<br />MENU$
+</p>
+</td>
+    <td><a name="wp1053644"> </a><p class="ptca_Table_Cell_Body">
+The Windows All Users Start menu directory (Windows NT/2000 computers only). On Win 9x computers this resolves to the same value as $WIN_START_MENU$.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053646"> </a><p class="ptck_Table_Cell_Key_Column">
+All Users Programs<br />Menu
+</p>
+</td>
+    <td><a name="wp1053648"> </a><p class="ptca_Table_Cell_Body">
+$WIN_COMMON_PROGRAMS<br />_MENU$
+</p>
+</td>
+    <td><a name="wp1053650"> </a><p class="ptca_Table_Cell_Body">
+The Windows All Users Programs menu (in the Start menu) (Windows NT/2000/XP computers only). On Win 9x computers this resolves to the same value as $WIN_PROGRAMS_MENU$.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053652"> </a><p class="ptck_Table_Cell_Key_Column">
+All Users Startup
+</p>
+<a name="wp1053653"> </a><p class="ptck_Table_Cell_Key_Column">
+&#160;
+</p>
+</td>
+    <td><a name="wp1053655"> </a><p class="ptca_Table_Cell_Body">
+$WIN_COMMON_STARTUP$
+</p>
+<a name="wp1053656"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+    <td><a name="wp1053658"> </a><p class="ptca_Table_Cell_Body">
+The Windows All Users Startup folder (in the Start menu) (Windows NT/2000/XP computers only). On Win 9x computers this resolves to the same value as $STARTUP$.
+</p>
+<a name="wp1053659"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053661"> </a><p class="ptck_Table_Cell_Key_Column">
+All Users Desktop
+</p>
+<a name="wp1053662"> </a><p class="ptck_Table_Cell_Key_Column">
+&#160;
+</p>
+</td>
+    <td><a name="wp1053664"> </a><p class="ptca_Table_Cell_Body">
+$WIN_COMMON_DESKTOP$
+</p>
+<a name="wp1053665"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+    <td><a name="wp1053667"> </a><p class="ptca_Table_Cell_Body">
+The Windows Common Desktop folder (Windows NT/2000/XP computers only). On Win 9x computers this resolves to the same value as $DESKTOP$.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053669"> </a><p class="ptck_Table_Cell_Key_Column">
+Fonts
+</p>
+</td>
+    <td><a name="wp1053671"> </a><p class="ptca_Table_Cell_Body">
+$FONTS$
+</p>
+<a name="wp1053672"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+    <td><a name="wp1053674"> </a><p class="ptca_Table_Cell_Body">
+The Fonts directories (on both Windows and Mac OS computers only). $WIN_WINDOWS$\Fonts on Windows; $SYSTEM$:Fonts on Mac OS
+</p>
+<a name="wp1053675"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053677"> </a><p class="ptck_Table_Cell_Key_Column">
+Apple Menu Items
+</p>
+</td>
+    <td><a name="wp1053679"> </a><p class="ptca_Table_Cell_Body">
+$MAC_APPLE_MENU$
+</p>
+</td>
+    <td><a name="wp1053681"> </a><p class="ptca_Table_Cell_Body">
+The Apple Menu Items folder (Mac OS computers only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053683"> </a><p class="ptck_Table_Cell_Key_Column">
+Control Panels
+</p>
+</td>
+    <td><a name="wp1053685"> </a><p class="ptca_Table_Cell_Body">
+$MAC_CONTROL_PANELS$
+</p>
+<a name="wp1053686"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+    <td><a name="wp1053688"> </a><p class="ptca_Table_Cell_Body">
+The Control Panels folder (Mac OS computers only).
+</p>
+<a name="wp1053689"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053691"> </a><p class="ptck_Table_Cell_Key_Column">
+Extensions
+</p>
+</td>
+    <td><a name="wp1053693"> </a><p class="ptca_Table_Cell_Body">
+$MAC_EXTENSIONS$
+</p>
+</td>
+    <td><a name="wp1053695"> </a><p class="ptca_Table_Cell_Body">
+The Extensions folder (Mac OS computers only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053697"> </a><p class="ptck_Table_Cell_Key_Column">
+Preferences
+</p>
+</td>
+    <td><a name="wp1053699"> </a><p class="ptca_Table_Cell_Body">
+$MAC_PREFERENCES$
+</p>
+</td>
+    <td><a name="wp1053701"> </a><p class="ptca_Table_Cell_Body">
+The Preferences folder (Mac OS computers only). $SYSTEM$:Preferences
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053703"> </a><p class="ptck_Table_Cell_Key_Column">
+Clean-up at Startup
+</p>
+</td>
+    <td><a name="wp1053705"> </a><p class="ptca_Table_Cell_Body">
+$MAC_CHEWABLE$
+</p>
+</td>
+    <td><a name="wp1053707"> </a><p class="ptca_Table_Cell_Body">
+The Clean at Startup folder (Mac OS computers only). $SYSTEM_DRIVE_ROOT$:Cleanup At Startup
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053709"> </a><p class="ptck_Table_Cell_Key_Column">
+User Applications
+</p>
+</td>
+    <td><a name="wp1053711"> </a><p class="ptca_Table_Cell_Body">
+$MACX_USER_APPLICATIONS$
+</p>
+</td>
+    <td><a name="wp1053713"> </a><p class="ptca_Table_Cell_Body">
+The User Applications directory of the end-user running the installer (Mac OS X only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053715"> </a><p class="ptck_Table_Cell_Key_Column">
+The Dock
+</p>
+</td>
+    <td><a name="wp1053717"> </a><p class="ptca_Table_Cell_Body">
+$MACX_DOCK$
+</p>
+</td>
+    <td><a name="wp1053719"> </a><p class="ptca_Table_Cell_Body">
+The Mac OS X Dock - for Shortcuts only. Files cannot be installed to the Dock.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053721"> </a><p class="ptck_Table_Cell_Key_Column">
+/usr/local/bin
+</p>
+</td>
+    <td><a name="wp1053723"> </a><p class="ptca_Table_Cell_Body">
+$UNIX_USR_LOCAL_BIN$
+</p>
+</td>
+    <td><a name="wp1053725"> </a><p class="ptca_Table_Cell_Body">
+The /usr/local/bin directory (Unix computers only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053727"> </a><p class="ptck_Table_Cell_Key_Column">
+/opt
+</p>
+</td>
+    <td><a name="wp1053729"> </a><p class="ptca_Table_Cell_Body">
+$UNIX_OPT$
+</p>
+</td>
+    <td><a name="wp1053731"> </a><p class="ptca_Table_Cell_Body">
+The /opt directory (UNIX computers only).
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1053733"> </a><p class="ptck_Table_Cell_Key_Column">
+/usr/bin
+</p>
+</td>
+    <td><a name="wp1053735"> </a><p class="ptca_Table_Cell_Body">
+$UNIX_USR_BIN$
+</p>
+</td>
+    <td><a name="wp1053737"> </a><p class="ptca_Table_Cell_Body">
+The /usr/bin directory (Unix computers only).
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pno_Note">
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

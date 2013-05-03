@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="org.junit" module="cpsuite" revision="1.2.5" status="release">  
+    <license name="gpl2" url="http://www.gnu.org/licenses/gpl-2.0.html"/> 
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="cpsuite" type="jar"/>
+    <artifact name="cpsuite-src" type="distribution" ext="zip" conf="distribution"/>
+  </publications>  
+</ivy-module>

@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:38" />
+    <title>Advanced Tutorial - Using the Advanced Designer</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1049923"> </a><h1 class="pHeading1">
+Advanced Tutorial - Using the Advanced Designer
+</h1>
+<a name="wp1054667"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1049313"> </a><p class="pa_Body">
+This tutorial will rebuild the previous Office Suite Installer using the Advanced Designer. The Advanced Designer offers a much wider range of configuration over InstallAnywhere&#39;s many options than the Project Wizard.
+</p>
+<a name="wp1049930"> </a><h2 class="pHeading2">
+Create New Project
+</h2>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1050878"> </a><p class="pp_Procedure_Leading">
+To create a new project:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1049931"> </a><div class="pSmartList1"><li>Launch InstallAnywhere. On the first screen, the <b class="cUI_Element">Create New Project</b> option should already be selected.</li></div>
+<a name="wp1049933"> </a><div class="pSmartList1"><li>Select the Basic Project Template. This template should already be selected.</li></div>
+<a name="wp1049934"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Save As</b> to save and name the project. The Save New Project As dialog box appears. InstallAnywhere will use this name as the name of the product in the installer project.</li></div>
+<a name="wp1049937"> </a><div class="pSmartList1"><li>Select the <b class="cUI_Element">Advanced Designer</b> button. This selection will open the newly created project file in the InstallAnywhere Advanced Designer. Advanced Designer will open to the <b class="cUI_Element">Project | Info</b> task. This task sets the basic installer options such as the name of the product, the installer title, and the installer name. The installer name will be the name of the executable file InstallAnywhere creates. This tab also sets the location to build the installer and the settings for the generation of installation logs.</li></div>
+<a name="wp1050184"> </a><div class="pSmartList1"><li>Complete the<b class="cUI_Element"> Installer Title</b> and <b class="cUI_Element">Product Name</b> fields. For now,  skip the Installer UI, Organization, and Files tasks.</li></div>
+</ol></div>
+<a name="wp1049946"> </a><h2 class="pHeading2">
+Add Pre-Install Actions
+</h2>
+<a name="wp1049947"> </a><p class="pa_Body">
+Select the <b class="cUI_Element">Pre-Install</b> task. The <b class="cUI_Element">Pre-Install</b> task sets the panels and actions that occur prior to the installation of files. By default, a new InstallAnywhere project contains the following panels:
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1050202"> </a><div class="pSmartList1_Variant"><li value="">Introduction: This panel allows developers to introduce the product or installation process. </li></div>   <a name="wp1049953"> </a><div class="pSmartList1_Variant"><li value="">Choose Install Folder: This panel will allows end-user to choose the installation location for the product. </li></div>   <a name="wp1049955"> </a><div class="pSmartList1_Variant"><li value="">Choose Alias, Link Shortcut Folder: This panel allows end-user to specify the location for any Mac OS Aliases, Windows Shortcuts, and Unix Symlinks (used as shortcuts) that will be installed. </li></div>   <a name="wp1049958"> </a><div class="pSmartList1_Variant"><li value="">Pre-Install Summary: This panel provides end-user with a summary of various installation settings prior to the installation of files.  </li></div> </ul></div>
+<a name="wp1050217"> </a><p class="pa_Body">
+Actions in the <b class="cUI_Element">Pre-Install</b> task will occur in the order set in the task list. In a default project an <b class="cUI_Element">Introduction</b> Panel will be followed by a <b class="cUI_Element">Choose Install Folder</b> Panel, followed by a <b class="cUI_Element">Choose Alias, Link or Shortcut</b> Panel, and so on. The order of panels and actions can be manipulated using the Arrow buttons in the middle right of the Advanced Designer screen. 
+</p>
+<a name="wp1050250"> </a><p class="pa_Body">
+The behavior and content of panels can be modified by highlighting each panel. The dialog along the bottom half of the Advanced Designer will change to reflect the panel selected. In InstallAnywhere&#39;s vocabulary, this is known as a customizer, and is available for each action and panel in the installer.
+</p>
+<a name="wp1049969"> </a><h2 class="pHeading2">
+Define the Installation Tasks
+</h2>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1049970"> </a><p class="pp_Procedure_Leading">
+To define the installation tasks:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1050882"> </a><div class="pSmartList1"><li>Select the <b class="cUI_Element">Install</b> task from the far left side of the Advanced Designer. The <b class="cUI_Element">Install</b> task defines the files to install, the folder location to install those files and the order of the tasks that need to happen as the files are being installed.</li></div>
+<a name="wp1049973"> </a><p class="pal_Body_Under_List">
+By default, the InstallAnywhere <b class="cUI_Element">Install</b> task has a folder called Uninstall $PRODUCT_NAME$, which contains any InstallAnywhere uninstaller actions, and a comment action with instructions pertaining to the uninstaller. 
+</p>
+<a name="wp1050344"> </a><p class="pal_Body_Under_List">
+Actions (including, but not limited to, the installation of files) in the Install task list occur in order with actions at the top of the installation occurring first. Leave the Uninstaller creation in its default place in the installation (although the folder structure can be changed). For organizational purposes, it is generally best to have the uninstaller creation action first.
+</p>
+<img style="margin-top: 6pt;" hspace="11" alt="Tip" src="images/A_tip.gif" />
+<p class="alertrelative">Tip</p>
+<a name="wp1049978"> </a><p class="ptir_Tip_Relative">
+The Advanced Designer implements a Drag-and-Drop interface in many tabs and tasks. In the Install Task, actions and files can be moved by selecting and dragging them. A dark underline appears in the location where the file or action will be placed.
+</p>
+<a name="wp1050287"> </a><p class="pal_Body_Under_List">
+Since the advanced tutorial mainly replicates the tasks for the Office Suite installer from the Project Wizard, those same files will be added.
+</p>
+<a name="wp1049986"> </a><div class="pSmartList1"><li>Use the File Chooser to browse to the Office Suite Source Files folder found in the InstallAnywhere Installation Directory. The folder can also be drag and dropped into the Install task.</li></div>
+<a name="wp1050303"> </a><div class="pSmartList1"><li>Add the OfficeSuite2000 folder and its contents. After adding the files, the files will be displayed in the file installation tree in the Advanced Designer window.</li></div>
+<a name="wp1049991"> </a><p class="pal_Body_Under_List">
+File trees may be expanded or contracted within the InstallAnywhere Advanced Designer <b class="cUI_Element">Install</b> Task by clicking on the &quot;+&quot; or &quot;-&quot; boxes at the apex of the tree branches. Objects may be moved up and down or into and out of subfolders in the file tree by highlighting the object, and using the right, left, up, and down arrows found in the middle right of the <b class="cUI_Element">Install</b> task screen.
+</p>
+</ol></div>
+<a name="wp1049997"> </a><h2 class="pHeading2">
+Add a LaunchAnywhere Executable to the Install Task
+</h2>
+<a name="wp1049998"> </a><p class="pa_Body">
+A LaunchAnywhere Executable (LAX) is a unique native executable, created by InstallAnywhere, that is used to launch a Java application. While the InstallAnywhere Wizard specifically asks to select a main class and automatically creates a single launcher, the Advanced Designer allows developers to add as many launchers as they would like. There are two ways to add a LaunchAnywhere Launcher to an InstallAnywhere Project file. The Create LaunchAnywhere for Java Application option may be selected from the AddAction palette, or can be added by clicking the Add Launcher button on the middle control bar in the Advanced Designer.
+</p>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1050886"> </a><p class="pp_Procedure_Leading">
+To add a LaunchAnywhere executable:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1050007"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Add Launcher</b>.</li></div>
+<a name="wp1050008"> </a><div class="pSmartList1"><li>Highlight the <b class="cUI_Element">User Install Folder</b> in the Advanced Designer, and click the <b class="cUI_Element">Add Launcher</b> button.</li></div>
+<a name="wp1050010"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">OK</b>. When adding a launcher, InstallAnywhere will automatically introspect into the added files (including introspecting into JAR and or ZIP files) to find class files with Main Methods specified. </li></div>
+<a name="wp1050394"> </a><div class="pSmartList1"><li>Choose the com.acme.OfficeSuite as main class for the application. Since OfficeSuite is a simple project, com.acme.OfficeSuite is the only class.</li></div>
+<a name="wp1050016"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">OK</b> to continue.</li></div>
+<img style="margin-top: 6pt;" alt="Note" hspace="11" src="images/A_note.gif" />
+<p class="alertrelative">Note</p>
+<a name="wp1050410"> </a><p class="pnor_Note_Relative">
+The Add Launcher button has not only added the launcher to the file structure, but also created a Shortcut, Link, or Alias action in the Shortcuts&#39; Destination Folder Magic Folder. This location is variable and will be specified by the Choose Alias, Link, and Shortcut panel in the pre-install section.
+</p>
+<a name="wp1050420"> </a><div class="pSmartList1"><li>Customize the launcher.</li></div>
+<a name="wp1050404"> </a><p class="pal_Body_Under_List">
+The appearance the launcher will have as a shortcut can now be customized. Highlight the launcher. The customizer along the lower portion of the Advanced Designer screen will change to reflect the options for the Create LaunchAnywhere for Java Application action. 
+</p>
+<a name="wp1050530"> </a><p class="pal_Body_Under_List">
+In the lower middle right of the customizer (below the arguments field) are a set of buttons that control the icon associated with the launcher. The default icon is a teal tile with a coffee cup, and a rocket ship icon.
+</p>
+<a name="wp1050028"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Change</b> to alter the icon.</li></div>
+<a name="wp1050447"> </a><div class="pSmartList1"><li>In the Choose Icon dialog, click <b class="cUI_Element">Choose GIF File</b>.</li></div>
+<a name="wp1050450"> </a><div class="pSmartList1"><li>Select a GIF or JPG file to use as an icon. For this tutorial, use the OfficeSuiteIcon in the Images and Docs folder within the OfficeSuiteSourceFiles folder.</li></div>
+<img style="margin-top: 6pt;" alt="Note" hspace="11" src="images/A_note.gif" />
+<p class="alertrelative">Note</p>
+<a name="wp1050033"> </a><p class="pnor_Note_Relative">
+Interlaced GIF files cannot be used with InstallAnywhere. The conversion process does not support these files and their use can result in blank icons. For Mac OS X, provide an ICNS file (created with iconbuilder - part of the Mac OS X Developer Tools). InstallAnywhere maintains a general classpath that is used to create launchers for the Java Application.
+</p>
+<a name="wp1050040"> </a><div class="pSmartList1"><li>In the InstallAnywhere Advanced Designer, click the <b class="cUI_Element">Set Classpath</b> button. A blue CP icon will appear on folders and archives that the process has added to the classpath.</li></div>
+<a name="wp1050536"> </a><div class="pSmartList1"><li>Select the <b class="cUI_Element">Project | Java</b> tab along the left side of the Advanced Designer window to view the Classpath as determined by the Set Classpath action.</li></div>
+</ol></div>
+<a name="wp1050045"> </a><p class="pa_Body">
+Since Office Suite is a simple product, we&#39;ll have only the main &quot;OfficeSuite2000&quot; folder (which contains loose class files). If our example project contained JAR or ZIP files containing classes, they would also have been added. If a file is added mistakenly on the Classpath, it can be removed at this point or by highlighting that file in the installation tree and un-checking the In Classpath option box in the Customizer for that file.
+</p>
+<a name="wp1050050"> </a><h2 class="pHeading2">
+Add Post-Install Actions
+</h2>
+<a name="wp1050051"> </a><p class="pa_Body">
+The <b class="cUI_Element">Post-Install</b> Task list specifies actions and panels to occur after the installation of files. Like Pre-Install, the Post-Install step is ordered with the top actions occurring first. By default, InstallAnywhere has added two actions to the InstallAnywhere project. These actions are:
+</p>
+<a name="wp1050055"> </a><h3 class="pHeading3">
+Panel: Install Complete
+</h3>
+<a name="wp1050563"> </a><p class="pa_Body">
+This panel appears when the installation has completed successfully. This action is determined by the status of the $INSTALL_SUCCESS$ variable. This panel will display only if the $INSTALL_SUCCESS$ does not contain any error condition.
+</p>
+<a name="wp1050570"> </a><h3 class="pHeading3">
+Restart Windows
+</h3>
+<a name="wp1050576"> </a><p class="pa_Body">
+This action restarts a Windows system if the installer determines that it is necessary. 
+</p>
+<a name="wp1050650"> </a><p class="pa_Body">
+InstallAnywhere installations are controlled primarily by InstallAnywhere Rules. As an example of an InstallAnywhere Rule, highlight the Restart Windows action in the Office Suite Project. In the customizer in the lower portion of the screen, select the Rules tab. 
+</p>
+<a name="wp1050660"> </a><p class="pa_Body">
+The InstallAnywhere Rules customizer will appear in the lower portion of the Advanced Designer. The rules set on the Restart Windows action are simple rules set to compare InstallAnywhere Variables. InstallAnywhere Rules are Boolean and allow the file, panel, or action to be installed, displayed, or run only if the rule resolves to True.
+</p>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1050890"> </a><p class="pp_Procedure_Leading">
+To add post-install actions:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1050068"> </a><div class="pSmartList1"><li>Click the <b class="cUI_Element">Add Action</b> button to open the Action Palette. The Action Palette is divided by tabs that vary based on the task that is active at the time the palette is called.</li></div>
+<a name="wp1050600"> </a><div class="pSmartList1"><li>Select <b class="cUI_Element">Execute Target File</b> found under the <b class="cUI_Element">General</b> tab. The <b class="cUI_Element">Execute Target File</b> action is used to execute files that are included as part of the installation, and consequently it is available only in the Install, and Post-install portion of the installation. (The Execute Target File is not available in &quot;Pre-Install&quot; because files cannot be executed that are not installed yet!)</li></div>
+<a name="wp1050611"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Add</b>, or double click on the action to add it. The Palette will remain open so additional actions could be added.</li></div>
+<a name="wp1050616"> </a><div class="pSmartList1"><li>Add a name for the action in the customizer in the lower portion of the screen, add a name for the action. Naming the action will help identify the action when looking at the visual tree.</li></div>
+<a name="wp1050623"> </a><div class="pSmartList1"><li>To select the target, click the <b class="cUI_Element">Choose Target</b> button. The Choose an Action dialog represents the file installation tree specified in the Install task. File(s) can be executed in this stage. To execute the just installed office suite application, choose the launcher for that application.</li></div>
+</ol></div>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1050086"> </a><p class="pno_Note">
+Choose the actual Office Suite Launcher, and not the shortcut (which should share the same Icon). Shortcuts, especially on Windows and Mac OS systems, are pointers and are not inherently executable. InstallAnywhere will not execute a shortcut. By using the Command Line field modifications can be made to the command line used to execute the file, such as adding a handler, or an argument to the execution. 
+</p>
+<a name="wp1050693"> </a><p class="pnop_Note_Paragraph">
+Do not remove or modify the $EXECUTE_FILE_TARGET$ entry, as this represents the file to execute. To specify a handler, prepend an executable path, to specify an argument, append a file path. These paths MUST be absolute, however the paths can include InstallAnywhere variables.
+</p>
+<a name="wp1050095"> </a><p class="pa_Body">
+The user experience for this action can be tailored by using the Options Fields:
+</p>
+<a name="wp1050708"> </a><p class="pa_Body">
+The option to suspend the installation until the process is complete. This is particularly useful in cases where a later step in the installation is dependant on the execution. There is also a sub-task that allows developers to specify an indeterminate progress bar with a message. This task can be used if the execution may take some time (for example, an execute that installs another product, or configures a database or other application).
+</p>
+<a name="wp1050102"> </a><p class="pa_Body">
+The Show Please Wait panel option will display a message panel to the user while the execution is occurring. 
+</p>
+<a name="wp1050739"> </a><p class="pa_Body">
+The Suppress First Window option allows developers to suppress the first window on Microsoft Windows platforms. This option is particularly useful in suppressing the appearance of the cmd.exe window when executing batch files, or command line executables.
+</p>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1050108"> </a><p class="pno_Note">
+If the execute action panel was added at a location other than the bottom of the Post-Install task, move it now. Either utilize the up and down arrows, or drag the action to the bottom of the task list.
+</p>
+<a name="wp1050111"> </a><h2 class="pHeading2">
+Build Installer
+</h2>
+<a name="wp1051394"> </a><p class="pa_Body">
+The InstallAnywhere Build Task allows the options that will be used to build the installer(s) to be set. In this task platforms for the build can be set, configuration options for bundled virtual machines, and platform optimization and installer type.
+</p>
+<img style="margin-top: 16pt;" hspace="8" alt="Tip" src="images/A_tip.gif" />
+<p class="alert">Tip</p>
+<a name="wp1051395"> </a><p class="pti_Tip">
+For early testing, build only for the development platform. Each additional platform adds to the time required to build, cycling through run-rebuild-run-rebuild stages. A faster build will makes the development process easier.
+</p>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1050762"> </a><p class="pp_Procedure_Leading">
+To build the installer:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1050894"> </a><div class="pSmartList1"><li>On the <b class="cUI_Element">Build Targets</b> tab in the <b class="cUI_Element">Build</b> task, select the platform(s). Selecting <b class="cUI_Element">With VM</b>, will &quot;bundle&quot; the installer with a VM. With VM is only selectable for platforms which have a VM pack. VM packs should be placed in the [InstallAnywhere]/resource /installer_vms folder, and InstallAnywhere should be restarted to refresh the available VM packs.</li></div>
+<a name="wp1050123"> </a><p class="pal_Body_Under_List">
+The <b class="cUI_Element">Build</b> task also includes the <b class="cUI_Element">Distribution</b> and <b class="cUI_Element">Build Log</b> tabs. The <b class="cUI_Element">Distribution</b> tab allows developers to set options for the type of installers to build, and the optimization options for each installer. As the installer being built in this tutorial doesn&#39;t contain any platform specific files, it will not need to be optimized at this point. However, if the installer did include platform specific files, these files would be optimized based on the application of the Check Platform rules. The Build Log tab displays the XML log of previous builds.
+</p>
+<a name="wp1050131"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Build Project</b> to build the office suite installer. The Build information dialog will appear. </li></div>
+<a name="wp1050797"> </a><div class="pSmartList1"><li>Click the blue arrow on the lower left of that dialog to see the build details console. When the build is complete, there will be a notification (in this case, the Build should take a minute or less).</li></div>
+</ol></div>
+<a name="wp1050136"> </a><h2 class="pHeading2">
+Testing
+</h2>
+<a name="wp1050137"> </a><p class="pa_Body">
+After the Build process is complete, try the installer by selecting either the <b class="cUI_Element">Try Web Install</b> or <b class="cUI_Element">Try Installer</b> button. In this case, use the <b class="cUI_Element">Try Web Install</b> button to launch our browser and the InstallAnywhere Web Install Page generated by the build process.
+</p>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1050898"> </a><p class="pp_Procedure_Leading">
+To test the installer:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1050140"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Try Web Install</b>. The Web Install Page will load, and should request a security access.</li></div>
+<a name="wp1050825"> </a><div class="pSmartList1"><li>Grant this access to allow the Web Install Applet to run the InstallAnywhere installer. The web installer can now be launched with just one click.</li></div>
+<a name="wp1050830"> </a><div class="pSmartList1"><li>Click the <b class="cUI_Element">Start Installer for Windows</b> button below the image. The applet will check for sufficient disk space, &quot;download&quot; the installer, and execute the installer.</li></div>
+<a name="wp1050837"> </a><div class="pSmartList1"><li>Run the installer. After the <b class="cUI_Element">Install Complete</b> Panel, the installer should launch Office Suite. The Office Suite Icon can now be selected from the Windows Start Menu to run the installed product.</li></div>
+</ol></div>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

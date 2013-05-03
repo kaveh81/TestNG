@@ -1,0 +1,2010 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=全部卸载
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=全部移除 InstallAnywhere 程序安装的 $PRODUCT_NAME$ 的所有功能和组件。安装后创建的文件和文件夹将不受影响。
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=卸载特定功能
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=选取 InstallAnywhere 程序安装的 $PRODUCT_NAME$ 的特定功能，以便将其卸载。
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=请选择下列其中一个选项：
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=卸载选项
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=卸载
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=全部移除所有功能和组件。
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=选取 InstallAnywhere 程序安装的特定功能。
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=请选择下列其中一个选项：
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=卸载选项
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=针对您的选择输入相应的号码，或按一下 <ENTER> 接受默认值：
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=磁盘可用空间不足，无法进行安装。
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=但此处可用的存储量只有 XXX MB：
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=本次安装需要 XXX MB 的闲置磁盘空间，
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=否则可选取「取消」按钮，以取消本次安装。
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=请至少释放出 XXX MB 的自由空间，以便继续安装。
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=请释放出一些磁盘空间以便继续安装。
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=请单击「安装」按钮继续安装。
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=准备就绪，可以继续
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=磁盘可用空间不足
+
+# ................... =Warning!
+CheckDiskSpace.warning=警告！
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=按一下 <ENTER> 键重新计算可用的磁盘空间，或键入"QUIT"（退出），以退出安装程序
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=磁盘可用空间不足，无法进行安装。请释放一些磁盘空间，然后重新运行安装程序...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=按一下 <ENTER> 键开始安装
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=警告！
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=本次安装需要 XXX MB 的闲置磁盘空间，
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=但此处可用的存储量只有 XXX MB：
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=请至少释放出 XXX MB 的自由空间，以便继续安装。
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=请释放出一些磁盘空间以便继续安装。
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=磁盘可用空间不足，无法进行安装。
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=磁盘可用空间不足
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=请选择一个文件。
+
+# ................. =Choose...
+ChooseFile.chooseStr=选择... (&O)
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=请选择一个文件: (&F)
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=恢复默认文件 (&R)
+
+# ................. =Choose a File
+ChooseFile.stepTitle=选择一个文件
+
+# .................... =in the folder
+ChooseFile.macInsideStr=在文件夹中
+
+# ................ =on the disk
+ChooseFile.macOnStr=在磁盘上
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=请选择一个文件夹。
+
+# ................... =Choose...
+ChooseFolder.chooseStr=选择... (&O)
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=请选择一个文件夹: (&F)
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=恢复默认文件夹 (&R)
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=选择一个文件夹
+
+# .................. =on the disk
+ChooseFolder.macOnStr=在磁盘上
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=错误！
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=对于所选文件夹，您不具备写权限，不能写入。请选择一个不同的文件夹。
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=选择文件夹
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=选择安装集
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=选择安装集
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=选择产品功能
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=请选取将由本安装程序安装的"安装集"。
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=针对所选"安装集"输入相应的号码，或按一下 <ENTER> 接受默认值\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=请选取将由本安装程序安装的"功能"。
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=输入几个号码，中间用逗点分开，以代表需安装的\u000A 功能
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=选择安装集
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=定制
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=设置准备安装的产品功能时出错。
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=请选择一个 Java VM，以便安装的应用程序使用
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=选择 Java 虚拟机
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=提供的路径没有指向有效的 Java 虚拟机。请重新选择。
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=请选择一个 Java VM，以便安装的应用程序使用
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=选择 Java 虚拟机
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=输入 JAVA VM 的号码，或按一下 <ENTER> 键接受当前的选择
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=输入所选 JAVA VM 可执行文件的绝对路径   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=该 JAVA 可执行文件的路径为:   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=无法安装本安装程序提供的 Java 虚拟机。
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=专为此应用程序安装 Java VM
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=选择一个已在本系统上安装的 Java VM（虚拟机）
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=选择另一个位置... (&O)
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=打开
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=专为此应用程序安装 Java VM
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java 运行时环境
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=搜索: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=停止搜索 (&S)
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=搜索其它项 (&S)
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=搜索完毕。
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=选择一个已在本系统上安装的 Java VM（虚拟机）
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=错误！
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=所选应用程序并非为有效的 Java 虚拟机。
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=选择 Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=错误:找不到合适的 Java 虚拟机。
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=本产品要求您的系统上必须安装有 Java 虚拟机。请访问：http://java.sun.com，为您使用的平台下载一个虚拟机。
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=选择 Java VM
+
+ChooseSCMFeaturesConsole.visualName=选择 SCM 功能（任选项）
+ChooseSCMFeaturesConsole.title=选择 SCM 功能（任选项）
+ChooseSCMFeaturesConsole.instructions=选择 SCM 功能 - 说明
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=请按 <ENTER> 键继续
+
+# ................. =Y
+ConsoleUtils.yesChar=是
+
+# ................ =N
+ConsoleUtils.noChar=否
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=是否正确？
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=提供的数值中，有一个数值无效。请重新选择。
+
+#............... =back
+ConsoleUtils.back=返回
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=对于需卸载的功能，请取消这些功能的复选标记。有复选标记的功能将保持安装状态。
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=对于需卸载的功能，以复选标记选取之。没有复选标记的功能将保持安装状态。
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=选择产品功能
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=请选取将由本安装程序安装的"功能"。
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=对于需卸载的功能，请取消这些功能的复选标记。有复选标记的功能将保持安装状态。
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=对于需卸载的功能，以复选标记选取之。没有复选标记的功能将保持安装状态。
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=选择产品功能
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=输入几个号码，中间用逗点分开，以代表您想选择或取消其选中状态的功能。若需查看某功能的说明，请输入 '?<号码>'。完成后按一下 <RETURN> 键。
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=安装集
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=选择产品功能
+
+#............................... =Description
+CustomizeBundlesPanel.description=说明
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=安装所需的总磁盘空间:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=插入新媒体
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=请插入 #NAME# 或选取"浏览..."以通过手动方式查找。
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=媒体卷标不对
+# .................... =Browse
+DiskNeededDialog.locate=浏览
+
+# .................. =Cancel
+DiskNeededDialog.quit=取消
+
+# ...................... =OK
+DiskNeededDialog.continue=确定
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=插入新媒体
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=请插入 #NAME# 或以手动方式选择该媒体的路径。
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=请插入 #NAME#。
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=磁盘位置： 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=请插入 #NAME# 或键入其位置。
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=好，XXX 已插入。
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=请选择安装程序（数据）的路径。
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=取消并退出安装。
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=输入选择
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=输入磁盘上 'INSTALLERDATA' 文件夹的路径
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=系统环境已变化。您需要退出系统或重新启动系统，以使这些变更生效。
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=系统环境已变化
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=退出
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=尚未完成安装
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=尚未完成安装
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=如果您现在取消安装，系统将不安装 $PRODUCT_NAME$。若需继续安装，请单击「继续执行」。若需取消安装，请单击「退出」按钮。
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=如果您现在取消安装，系统将不安装 $PRODUCT_NAME$。若需继续安装，请单击「继续执行」。若需取消安装，请单击「退出」按钮。
+
+# .......... =Resume
+ExitDialog.ok=继续执行
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=取消卸载
+
+# ............. =Cancel Installation
+ExitDialog.install.title=取消安装
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=皆是
+
+# ....................... =No to All
+FileAlreadyExists.noAll=皆否
+
+# ....................... =Yes
+FileAlreadyExists.yes=是
+
+# ....................... =No
+FileAlreadyExists.no=否
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=是否覆盖现有文件？
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=名为 \"XXX\" 的文件已存在，其位置位于 \"XXX\"。
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=名为 \"XXX\" 的新文件已存在，其位置位于 \"XXX\"。
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=名为 \"XXX\" 的旧文件已存在，其位置位于 \"XXX\"。
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=是否覆盖现有的文件？
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=请选择一个文件/文件夹: (&F)
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=选择
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=正在向下面的列表中添加文件。
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=找到的文件列示如下。
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=正在向下面的列表中添加文件。
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=找到的文件夹列示如下。
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=找到匹配文件:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=找到匹配文件夹:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=位于:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=选择其它链接位置... (&O)
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=查找位置:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=请自行选择。
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=搜索与下列匹配的文件:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=搜索与下列匹配的文件夹:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=正在搜索
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=选择
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=安装程序找不到与下列匹配的项目:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=所选项目:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=选择一个文件夹
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=取消
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=创建新文件夹
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=文件夹:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=名称:
+
+# ..................... =OK
+FolderSelectDialog.okStr=确定
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=是否正确？
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=请按 <ENTER> 键继续
+
+# ............................ =Error:
+GenericConsoleStrings.exception=错误:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=请稍候，安装程序目前正在为您的系统配置 $PRODUCT_NAME$。这可能需要几分钟的时间...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=请稍候
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=本次安装需输入口令才能继续。
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=请输入口令: (&W)
+
+# .................. =Enter Password
+GetPassword.stepTitle=输入口令
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=错误！
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=您输入的口令不正确。请重新输入。
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=输入口令
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=确定
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=须有口令才能继续。
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=本次安装需输入口令才能继续。
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=您输入的口令不正确。请重新输入。
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=请输入口令:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=须有口令才能继续。
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=输入口令
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=输入几个号码，中间用逗点分开，以代表您想要的选项
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=输入几个号码，中间用逗点分开，以代表您需要的选择，或按一下 <ENTER> 接受默认值
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=输入所需选项的号码
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=针对您的选择输入相应的号码，或按一下 <ENTER> 接受默认值：
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=目前不能退出安装程序。
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=目前不能转回到上一步。
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=用户须知
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=继续安装前，请阅读:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=用户须知全文完。请按 <ENTER> 键继续
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=用户须知
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=继续安装前，请阅读:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=应用程序
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=此项操作用于安装应用功能。
+
+# .......................... =Help
+InstallBundle.help.bundleName=帮助
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=此项操作用于安装"帮助"功能。
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=恭喜！$PRODUCT_NAME$ 已成功地安装到：\u000A\u000A$USER_INSTALL_DIR$\u000A\u000A单击 "完成" 以退出安装程序。
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=安装完毕
+InstallCompleteAction.stepTitle=安装完毕
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=$PRODUCT_NAME$ 已安装完毕，但在安装期间出现了一些错误。\u000A\u000A详情请见安装记录文件。单击 "完成" 以退出安装程序。
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=安装完毕
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=安装完毕
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=向您祝贺！$PRODUCT_NAME$ 已成功地安装到: \u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=按一下 <ENTER> 键退出安装程序
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=$PRODUCT_NAME$ 安装完毕，但安装期间出现了一些错误。\u000A有关详细情况，请见安装记录文件。
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=$PRODUCT_NAME$ 安装完毕，但安装期间出现了一些错误。\u000A有关详细情况，请见安装记录文件。单击 "完成" 以退出安装程序。
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=按一下 <ENTER> 键退出安装程序
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=安装完毕
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=请为本次安装选择一个目的文件夹。
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=选择安装文件夹
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=您想在哪一位置安装？ (&W)
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=选择安装文件夹
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=输入一绝对路径，或按一下 <ENTER> 键接受默认路径   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=输入绝对路径，或键入"default"（默认值）以恢复默认文件夹，或按一下 <ENTER> 键接受已选的文件夹
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=默认安装文件夹: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=所选安装文件夹: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=安装文件夹为: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=提供的路径为: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=指向的文件已存在于目标系统。\u000A本安装程序无法用新文件夹覆写已存在的文件。\u000A请另选一个安装位置。
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=对于所选安装目的地，您不具备写权限，不能写入。\u000A请选择一个不同的位置。
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=您想在哪一位置安装？
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=错误！
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=对于所选安装目的地，您不具备写权限，不能写入。\u000A请选择一个不同的位置。
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=选择安装文件夹
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=在此平台中，被指定为安装目的地的路径中有一个或多个无效字符。\u000A请选择一个不同的安装位置
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=选择... (&O)
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=恢复默认文件夹 (&R)
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=里面
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=在文件夹中
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=在磁盘上
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=安装
+
+# ....................... =Introduction
+Installer.installLabels.00=簡介
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=选择安装文件夹
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=选取 $SHORTCUT_NAME$ 文件夹
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=预安装摘要
+
+# ....................... =Installing...
+Installer.installLabels.04=正在安装...
+
+# ....................... =Install Complete
+Installer.installLabels.05=安装完毕
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=此安裝程序不能在該系統上執行
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=安装程序不能在您提供的配置上运行。因此现将退出。
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=不支持該安裝程序用户界面模式
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=本安裝程序無法在此模式下執行。請閱讀安裝程序說明檔，以確定執行本安裝程序的方法。
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=安裝程序 UI 模式出錯
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=卸载 $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=恭喜！$PRODUCT_NAME$ 已成功地安装到：\u000A\u000A$USER_INSTALL_DIR$\u000A\u000A单击 "完成" 以退出安装程序。
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage="$PRODUCT_NAME$ 安装完毕，但安装期间出现了一些警告讯息。有关详细情况，请见安装记录文件。
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage="$PRODUCT_NAME$ 安装完毕，但安装期间出现了一些错误。有关详细情况，请见安装记录文件。
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage="$PRODUCT_NAME$ 安装完毕，但安装期间出现了一些严重错误。有关详细情况，请见安装记录文件。
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=请重新启动系统，以完成本次安装。
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=必须重新启动系统，以完成本次安装。
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=安装完毕
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=重新启动系统
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=由我自己重新启动系统
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=正在安装...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=正在取消安装...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=正在安装...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=预安装摘要
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=继续安装前，请先审核下列:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=预安装摘要
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=按一下 <ENTER> 键继续。如果所列信息有误，请键入"BACK"（返回），然后进行更改   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=产品名:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=安装文件夹:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=快捷文件夹:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=链接文件夹:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=别名文件夹:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=用户自定义的安装集
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=安装集
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=产品组件:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM 安装文件夹:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=安装产品需用的 Java VM:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=磁盘空间信息（安装目标的）: 
+
+# ...................... =Required:
+InstallSummaryUI.required=所需空间：
+
+# .................. =bytes
+InstallSummaryUI.byte=字节
+
+# ....................... =Available:
+InstallSummaryUI.available=可用空间:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=若需挑选需安装的功能，请选取此选项。
+
+# ............................. =Custom
+InstallSet.custom.installSetName=自定义
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=只安装需要的应用程序功能。此选项只适用于磁盘可用空间有限的用户。
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=最低限度安装
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=系统将安装最常用的应用程序功能。建议大多数用户采用此选项。
+
+# .............................. =Typical
+InstallSet.typical.installSetName=典型安装
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere 将指导您完成 $PRODUCT_NAME$ 的安装。\u000A\u000A建议您在继续本次安装前，退出所有程序。\u000A\u000A单击"下一步"按钮转到下一屏幕。若需回到前一屏幕做更改，可单击"上一步"按钮。\u000A\u000A若需取消本次安装，可随时单击"取消"按钮。
+
+# .................. =Introduction
+IntroAction.stepTitle=簡介
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere 将指导您完成 $PRODUCT_NAME$ 的安装。\u000A\u000A建议您在继续本次安装前，退出所有程序。\u000A\u000A请对每一提示给予回应，以此进入下一步。若需回到前一屏幕做更改，可键入"back"。\u000A\u000A若需取消本次安装，可随时键入"quit"。
+
+# ..................... =Introduction
+IntroActionConsole.title=簡介
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=无法在 Web 浏览器中打开 URL
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere 无法在所用系统的默认浏览器中打开您请求的 URL ($ACTION_URL$)。若需查看此 URL，请键入地址，您应依照所选浏览器中显示的地址进行输入。
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=许可协议
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=安装和使用 $PRODUCT_NAME$ 产品之前，您须接受下列许可协议:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=许可协议
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=安装和使用 $PRODUCT_NAME$ 产品之前，您须接受下列许可协议:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=是否接受此许可协议条款？
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=退出
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=继续执行
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=许可协议警告
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=警告！
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=如果不接受许可协议条款，则不能继续安装。
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=本人不接受许可协议条款 (&T)
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=找不到可预览的文件
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=本人接受许可协议条款 (&A)
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=未选择文件
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=按一下 <ENTER> 以接受下列
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=针对您的选择输入相应的号码，或按一下 <ENTER> 接受默认值
+
+# ........................... =OK
+PromptUserConsole.option0Label=确定
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=取消
+
+# ........................... =Details...
+PromptUserConsole.option2Label=详细资料...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere 已准备完毕，可在系统的下列位置安装 $PRODUCT_NAME$ : \u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=按一下 <ENTER> 键进行安装
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=准备就绪，可以安装
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere 正在结束安装过程。请稍候...
+
+# ............... =Cleaning up...
+RemoveDialog.title=正在清除...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=本次安装需输入序号才能继续。
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=请输入序号: (&S)
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=输入序号
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=错误！
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=您输入的序号有误。请重新输入。
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=输入序号
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=确定
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=需输入序号，然后才能继续。
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=本次安装需输入序号才能继续。
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=您输入的序号有误。请重新输入。
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=请输入序号:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=需输入序号，然后才能继续。
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=输入序号
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=别名
+
+#............... =Link
+ShortcutName.link=链接
+
+#................... =Shortcut
+ShortcutName.shortcut=快捷键
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=您想在哪一位置创建别名？
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=选择别名文件夹
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=选择链接文件夹
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=您想在哪一位置创建链接？
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=您想在哪一位置创建产品图标？
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=选择捷径文件夹
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=公用组
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=当前用户组
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=在文件夹中
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=在磁盘上
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=默认位置: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=当前位置: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=另选一个位置...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=输入上述选项的号码，或按一下 <ENTER> 键接受默认位置   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=输入上述选项的号码，或按一下 <ENTER> 键接受当前的选择
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=输入快捷目录的绝对路径   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=捷径目录为: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=选择链接位置
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=您想在哪一位置创建链接？
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=选择捷径位置
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=您想在哪一位置创建产品图标？： 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=选择别名位置
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=您想在哪一位置创建别名？
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=在 Apple 菜单中
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=在屏幕底栏（Dock）中
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=在桌面上
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=不创建别名
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=其它:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=不创建链接
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=不创建图标
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=在您的主文件夹中
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=在桌面上
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=在新程序组:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=在现有程序组:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=在快速启动条中 (&Q)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=在「开始」菜单中
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=为所有用户创建图标
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=错误！
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=对于所选目的地，您不具备写权限，不能写入。请选择一个不同的位置。
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=在 Apple 菜单中 (&A) 
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=在屏幕底栏（Dock）中 (&K)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=在桌面上 (&D)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=在桌面上 (&D)
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=选择...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=不创建别名
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=其它: (&O)
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=不创建链接 (&T)
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=不创建图标 (&T)
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=在您的主文件夹中 (&M)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=在桌面上 (&D)
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=在新程序组: (&G)
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=在现有程序组: (&E)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=在「开始」菜单中 (&S)
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=为所有用户创建图标 (&A)
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=确定
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=取消
+
+# .......................... =Details...
+ShowDialogAction.button2Label=详细资料...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=日期:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=许可证 ID：
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=脚本版本：
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=版本：
+
+# ............... =Done
+StepMaster.doneStr=完成 (&D)
+
+# ............... =Cancel
+StepMaster.exitStr=取消 (&C)
+
+# ............... =Help
+StepMaster.helpStr=帮助 (&H)
+
+# .................. =Install
+StepMaster.installStr=安装 (&I)
+
+# ............... =Next
+StepMaster.nextStr=下一步 (&N)
+
+# ............... =Previous
+StepMaster.prevStr=上一步 (&P)
+
+# ............... =Close
+StepMaster.closeStr=关闭
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=所有项目均已成功卸载。
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=卸载完毕
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=无法删除下列项目:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=无法删除
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=必须重新启动系统，以完成本次卸载。
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=请重新启动系统，以完成本次卸载。
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=您还需重新启动系统，以完成本次卸载。
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=您还应重新启动系统，以完成本次卸载。
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=重新启动系统
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=由我自己重新启动系统
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=所有项目均已成功卸载。
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=卸载完毕
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=无法删除下列项目:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=必须重新启动系统，以完成本次卸载。
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=请重新启动系统，以完成本次卸载。
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=卸载完毕
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=所有项目均已成功卸载。
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=有些项目无法删除。
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=因出现错误而无法完成卸载。
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=卸载 $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere 卸载程序
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=簡介
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=正在卸载...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=卸载完毕
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=准备卸载...\u000A\u000A$PRODUCT_NAME$\u000A\u000A此举将删除 InstallAnywhere 在系统上安装的功能。但不会删除安装后创建的文件和文件夹。
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=卸载 $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=准备卸载...\u000A\u000A$PRODUCT_NAME$\u000A\u000A此举将删除 InstallAnywhere 在系统上安装的功能。但不会删除安装后创建的文件和文件夹。
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=卸载 $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=取消
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=退出
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=帮助
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=卸载 (&U)
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=有一操作项因不受支持而无法还原。
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=正在清除...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=本机软件...
+
+# ............... =Files...
+UninstallMgr.Files=文件...
+
+# ................. =Folders...
+UninstallMgr.Folders=文件夹...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=链接...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=别名...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=捷径...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=无法卸载产品，因为此系统上的 Java 虚拟机已不能使用。请安装 Java 虚拟机，然后重试。
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 个文件夹
+
+# ................... =Preparing...
+UninstallMgr.Preparing=正在准备...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=软件数据库...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=注册目录...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 个文件夹
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=无法清除
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=无法删除本机软件
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=无法删除文件
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=无法删除文件夹
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=无法删除 Java VM 功能
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=无法删除链接
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=无法删除别名
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=无法删除捷径
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=无法
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=有 1 个文件无法删除
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=有 2 个文件无法删除
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=无法删除软件数据库
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=无法删除注册表项
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=需要重新启动系统
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=在没有重新启动系统前，建议您不要运行卸载程序。若需退出卸载程序，单击\"取消\"，如果一定要卸载，可单击\"继续\"。
+
+# ................ =Continue
+UninstallRestart.continue=继续
+
+# ................ =Cancel
+UninstallRestart.exit=取消
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=请稍候，InstallAnywhere 的卸载程序
+
+# ................ =removes the following features...
+UProgress.waitArr.1=删除下列功能 ...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=正在执行自定义码...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=正在执行...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=正在执行安装脚本...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=安装"合并模块"
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=正在安装"合并模块"
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=正在安装本机软件
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=退出
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=按一下 <ENTER> 键开始卸载，或按一下"退出"按钮退出卸载程序：
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=按一下 <ENTER> 键退出卸载程序：
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=复制文件
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=复制文件夹
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=创建链接
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=创建捷径
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=创建别名
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=创建文件夹
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=创建 LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=删除文件
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=删除文件夹
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=展开压缩文件
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=安装 SpeedFolder
+
+InstallRPMPackage.visualname.self=安装 Linux RPM
+InstallSolarisPackage.visualname.self=安装 Solaris 软件
+InstallHPUXPackage.visualname.self=安装 HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=移动文件
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=移动文件夹
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=注册 Windows Service
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=设置系统环境变量参数
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=设置 Windows 注册目录
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=执行 ANT 脚本
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=执行命令
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=执行自定义码
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=执行脚本
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=执行目标文件
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=在注册目录中查找组件
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=取得 Windows 注册目录表项
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=修改文本文件
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=进行 XSL 转换
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=输出调试信息
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=将文本输出至控制台
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=显示讯息对话框
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=启用 Windows Service
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=停用 Windows Service
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=暂停 Windows Service
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=浏览文件夹
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=安装"合并模块"
+Designer.Action.PowerUpdateClient.visualName=安装 PowerUpdate 客户程序
+Designer.Action.PerformXSLTZip.visualName=进行 XSL 转换 - 在压缩文件中
+Designer.Action.PerformXSLT.visualName=进行 XSL 转换
+Designer.Action.PerformXSLT.performingXSLtransform=正在进行 XSL 转换：
+Designer.Action.MakeExecutable.visualName=创建适用于 Java 应用程序的 LaunchAnywhere
+Designer.Action.InstallZipfile.visualName=安装用压缩文件
+Designer.Action.CreateUninstaller.visualName=创建卸载程序
+Designer.Action.BOMAction.visualName=从 Manifest 安装
+Designer.Action.ExpandArchive.visualName=展开压缩文件
+Designer.Action.ExecuteScript.visualName=执行脚本/批文件
+Designer.Action.Exec.visualName=执行命令
+Designer.Action.visualName=执行目标文件
+Designer.Action.AntRunner.visualName=执行 ANT 脚本
+Designer.Actions.ShowDialogAction.visualName=显示讯息对话框
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=卸载后的操作
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=
+卸载前的操作
+
+Designer.Action.EvaluateDependenciesAction.visualName=评估从属设备
+
+ActionGroup.visualName.self=操作组
+
+Designer.Action.UpdateServiceClient.visualName=启用更新通知
+Designer.FolderConstants.programsDir64Name=程序文件夹 (64 位)
+Designer.FolderConstants.programsDir32Name=程序文件夹 (32 位)
+Designer.FolderConstants.system64Name=系统文件夹 (64 位)
+Designer.FolderConstants.system32Name=系统文件夹 (32 位)
+Designer.FolderConstants.variableMagicFolder=Variable Magic 文件夹
+Installer.Actions.UpdateServiceClient.badClasspath=下载 us.jar 使用的 #UPDATE_SERVICE# URL 不正确。
+Installer.Actions.UpdateServiceClient.badUsJar=#UPDATE_SERVICE# 程序库中没有注册所需的类。提供的 jar 可能不正确。
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=#UPDATE_SERVICE# 类中没有注册所需的方法。
+Installer.installLog.actionNotes=操作注释﹕
+Installer.installLog.installLogDetail=安装程序日志详细资料﹕
+Installer.installLog.installation=安装﹕
+Installer.installLog.unsuccessful=不成功。
+Installer.installLog.successful=成功。
+Installer.installLog.withErrors=有错误。
+Installer.installLog.withwarnings=有警告。
+Installer.installLog.cancelled=已被取消
+Installer.installLog.duringPostInstall=安装后期期间
+Installer.installLog.duringInstall=安装期间
+Installer.installLog.duringPreInstall=预安装期间
+Installer.installLog.cancelledBeforePreInstallation=用户在预安装之前取消了安装
+Installer.installLog.cancelledDuringPreInstallation=用户在预安装期间取消了安装
+Installer.installLog.cancelledDuringInstallation=用户在安装期间取消了安装
+Installer.InstallLog.cancelledDuringPostInstallation=用户在安装后或安装后期取消了安装
+Installer.installLog.successes=成功
+Installer.installLog.warnings=警告
+Installer.installLog.nonFatalErrors=无严重错误
+Installer.installLog.fatalErrors=严重错误
+Installer.installLog.details=详细资料
+Installer.installLog.nothingWasInstalled=什么都没安装。
+Installer.installLog.none=无
+Installer.installLog.summary=摘要
+Installer.installLog.installedBy=由 Macrovision 提供的 InstallAnywhere #BUILD_INFO# 安装
+Installer.installLog.status=状态﹕
+Installer.installLog.additionalNotes=其它注释﹕
+Installer.installLog.exceptionClass=异常情况类﹕
+Installer.installLog.exceptionMessage=异常情况讯息﹕
+Installer.installLog.exceptionStackTrace=异常情况栈跟踪﹕
+Installer.installLog.successLevel.successful=成功
+Installer.installLog.successLevel.warning=警告
+Installer.installLog.successLevel.error=错误
+Installer.installLog.successLevel.fatalError=严重错误
+Installer.installLog.successLevel.unsupported=不支持的错误级别
+Installer.installLog.successLevel.notice=注释
+Installer.installLog.action.description=安装操作﹕
+Installer.installLog.antRunner.description=执行 ANT 脚本﹕
+Installer.installLog.antRunner.script=脚本﹕
+Installer.installLog.asciiFileManipulator.noTargetChosen=未选择目标
+Installer.installLog.asciiFileManipulator.newFile=新文件
+Installer.installLog.copyDirectory.description=复制目录﹕
+Installer.installLog.copyFile=复制文件﹕
+Installer.installLog.copyFileAction.destination=目的地﹕
+Installer.installLog.createShortcut.createShortcut=创建快捷键﹕
+Installer.installLog.createShortcut.createAlias=创建别名﹕
+Installer.installLog.createShortcut.createLink=创建链接﹕
+Installer.installLog.deleteFileAction.source=源﹕
+Installer.installLog.editEnvironment.description=设定环境变数﹕
+Installer.installLog.expandFile.description=展开存档文件﹕
+Installer.installLog.getRegEntry.description=获得注册表项﹕
+Installer.installLog.getRegEntry.key=按键﹕
+Installer.installLog.getRegEntry.value=值名称﹕
+Installer.installLog.installDirCont.description=安装 Speedfolder﹕
+Installer.installLog.installDirectory.description=安装目录﹕
+Installer.installLog.installFile.description=安装文件﹕
+Installer.installLog.installNTService.description=注册 NT 服务﹕
+Installer.installLog.installUninstaller.description=安装卸载程序﹕
+Installer.installLog.installUninstaller.note=(安装卸载程序的所有组件)
+Installer.installLog.makeExecutable.description=创建 LaunchAnywhere﹕
+Installer.installLog.makeExecutable.note=(安装 LaunchAnywhere 程序的所有可执行的 Java 组件)
+Installer.installLog.makeRegEntry.description=创建注册表项﹕
+Installer.installLog.makeRegEntry.key=按键﹕
+Installer.installLog.makeRegEntry.name=值名称﹕
+Installer.installLog.makeRegEntry.data=值数据﹕
+Installer.installLog.speedRegistry.description=注册表项﹕
+Installer.installLog.subinstaller.description=安装 Merge Module﹕
+Installer.installLog.subuninstaller.description=执行卸载程序﹕
+Installer.installLog.customAction.description=自定义操作﹕
+Installer.installLog.userInteractions=用户交互项
+Installer.installLog.installBegin=安装开始﹕
+Installer.installLog.installEnd=安装结束﹕
+Installer.installLog.freeMemory=可用内存﹕
+Installer.installLog.totalMemory=内存总量﹕
+Installer.installLog.commandLineArgs=命令行参数﹕
+Installer.installLog.noArguments=无参数
+Designer.Action.HTMLPanelAction.visualName=面板﹕显示 HTML
+HTMLPanelAction.title=HTML 面板
+Designer.Action.UninstallIsmpSoftware.visualName=卸载 InstallShield Universal 软件
+Installer.unexpectedChanges.message=安装程序发现安装脚本有意外的变更。
+﻿Installer.unexpectedChanges.title=错误
+Installer.unexpectedChanges.label=无法启动安装程序。

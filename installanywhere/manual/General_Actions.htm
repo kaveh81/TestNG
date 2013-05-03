@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:50" />
+    <title>General Actions</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1054690"> </a><h1 class="pHeading1">
+General Actions
+</h1>
+<a name="wp1058324"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1054856"> </a><p class="pa_Body">
+The following table lists the general actions available in InstallAnywhere.</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1054859table1054857">
+  <caption><a name="wp1054859"> </a><p class="ptt_Table_Title">
+General Actions&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1054865"> </a><p class="ptch_Table_Cell_Heading">
+Action
+</p>
+</th>
+    <th><a name="wp1054867"> </a><p class="ptch_Table_Cell_Heading">
+Editions
+</p>
+</th>
+    <th><a name="wp1054869"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1054871"> </a><p class="ptck_Table_Cell_Key_Column">
+Add Comment
+</p>
+</td>
+    <td><a name="wp1054873"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054875"> </a><p class="ptca_Table_Cell_Body">
+The Add Comment action is designed to allow developers to add a simple comment to the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054877"> </a><p class="ptck_Table_Cell_Key_Column">
+Add Jump Label
+</p>
+</td>
+    <td><a name="wp1054879"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054881"> </a><p class="ptca_Table_Cell_Body">
+Use this action to branch off the installation conditionally. By applying InstallAnywhere rules, developers may jump the end-user to a later or earlier part of the installation, depending on the specifics of their system or install. Use this action in conjunction with the Jump to Target action. (Available during the install sequence, but not within the files.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054883"> </a><p class="ptck_Table_Cell_Key_Column">
+Execute ANT Script
+</p>
+</td>
+    <td><a name="wp1054885"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054887"> </a><p class="ptca_Table_Cell_Body">
+Execute Ant Script allows developers to execute scripts designed for the Apache Jakarta Project&#39;s Ant application. If this action is selected, ANT will be bundled with the application. This action should only be used by developers familiar with ANT. For more information, go to <span style="text-decoration: underline" class="cHyperlink"><a href="http://ant.apache.org/" target="_window">http://ant.apache.org/</a></span>
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054890"> </a><p class="ptck_Table_Cell_Key_Column">
+Execute Command
+</p>
+</td>
+    <td><a name="wp1054892"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054894"> </a><p class="ptca_Table_Cell_Body">
+Execute Command allows developers to execute a command as they would at any Command Line Interpreter. This action is useful for executing applications that are already installed on the system. The command line is entered just as it would be in the system&#39;s command line.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054896"> </a><p class="ptck_Table_Cell_Key_Column">
+Execute Custom Code
+</p>
+</td>
+    <td><a name="wp1054898"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054900"> </a><p class="ptca_Table_Cell_Body">
+Execute Custom Code is designed to allow developers to extend the functionality of InstallAnywhere. InstallAnywhere&#39;s API is purely Java based and allows developers to do nearly anything that is possible in Java. Execute Custom Code action represents the non-interactive interface for this API. For more information, see <a href="javascript:WWHClickedPopup('InstallAnywhere_8_0', 'custom_code.htm');" onMouseOver="WWHShowPopup('InstallAnywhere_8_0', 'custom_code.htm', (document.all||document.getElementById||document.layers)?event:null);" onMouseOut="WWHHidePopup();"><span class="cHyperlink">Custom Code</span></a>.
+</p>
+<img style="margin-top: 10pt;" alt="Tip" hspace="8" src="images/A_tip.gif" />
+
+<a name="wp1057796"> </a><p class="ptcti_Table_Cell_Tip">
+You can show progress while an action installs using the <b class="cUI_Element">Execute Custom Code</b> customizer. See the sample in the CustomCode/Samples/SampleProgress folder included in the InstallAnywhere installation directory. Click <b class="cUI_Element">Open Javadocs</b> on the customizer for more information about the classes and APIs in this sample.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054903"> </a><p class="ptck_Table_Cell_Key_Column">
+Execute Script/Batch File
+</p>
+</td>
+    <td><a name="wp1054905"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054907"> </a><p class="ptca_Table_Cell_Body">
+This action allows developers to enter the text to a script or batch file which will them be executed from within the installation.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054909"> </a><p class="ptck_Table_Cell_Key_Column">
+Execute Target File
+</p>
+</td>
+    <td><a name="wp1054911"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054913"> </a><p class="ptca_Table_Cell_Body">
+Launches any executable or opens a document that is included in the installer. If the target is a document that has the appropriate application associations set up, then the document will be opened in the correct application. (Available only during the installation of files and after files have been installed.)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054915"> </a><p class="ptck_Table_Cell_Key_Column">
+Find Component in Registry
+</p>
+</td>
+    <td><a name="wp1054917"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054919"> </a><p class="ptca_Table_Cell_Body">
+Find if a component exists on a system through the cross-platform registry, as well as discover existing component versions, their location, and if there are multiple instances of a particular component on the destination system.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054921"> </a><p class="ptck_Table_Cell_Key_Column">
+Get Windows Registry Entry
+</p>
+</td>
+    <td><a name="wp1054923"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054925"> </a><p class="ptca_Table_Cell_Body">
+InstallAnywhere allows developers access to information stored in the Windows Registry through this action. This action allows developers to retrieve the value, or check the existence of a key/value and store that information in InstallAnywhere variables to be used in the installation.
+</p>
+<img style="margin-top: 10pt;" alt="Tip" hspace="8" src="images/A_tip.gif" />
+
+<a name="wp1055801"> </a><p class="ptcti_Table_Cell_Tip">
+If you are targeting 64-bit systems, click the <b class="cUI_Element">Access Specific Registries View (64-bit systems)</b> check box. Then select whether you want this action to reference the 64-bit or 32-bit portion of the registry.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054927"> </a><p class="ptck_Table_Cell_Key_Column">
+Jump to Target
+</p>
+</td>
+    <td><a name="wp1054929"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054931"> </a><p class="ptca_Table_Cell_Body">
+Related to the &quot;Add Jump Label&quot; action seen earlier, this action allows developers to jump over or back to a specific point in an installation. When controlled by InstallAnywhere rules, this action gives developers a conditional method of moving non-linearly through an install.(Available during the Files and sequence tasks)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054933"> </a><p class="ptck_Table_Cell_Key_Column">
+Launch Default Browser
+</p>
+</td>
+    <td><a name="wp1054935"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054937"> </a><p class="ptca_Table_Cell_Body">
+This action allows developers to launch the users default web browsers with the arguments developers specify. It can open a URL or a file on the system. (Available during the sequence tasks)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054939"> </a><p class="ptck_Table_Cell_Key_Column">
+Modify Text File - In Archive
+</p>
+</td>
+    <td><a name="wp1054941"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054943"> </a><p class="ptca_Table_Cell_Body">
+The three modify text file actions are designed in to allow developers to alter text files on the installation system. These actions can be used to manage configuration files, or in the case of the &quot;Multiple Files&quot; option, change the line ending of a large number of files.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054945"> </a><p class="ptck_Table_Cell_Key_Column">
+Modify Text File - Multiple Files
+</p>
+</td>
+    <td><a name="wp1054947"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054949"> </a><p class="ptca_Table_Cell_Body">
+This action allows developers to alter text files on the installation system. These can be used to manage configuration files, or in the case of the &quot;Multiple Files&quot; option, change the line ending of a large number of files.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054951"> </a><p class="ptck_Table_Cell_Key_Column">
+Modify Text File - Single File
+</p>
+</td>
+    <td><a name="wp1054953"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054955"> </a><p class="ptca_Table_Cell_Body">
+See Modify Text File.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054957"> </a><p class="ptck_Table_Cell_Key_Column">
+Output Debug Information
+</p>
+</td>
+    <td><a name="wp1054959"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054961"> </a><p class="ptca_Table_Cell_Body">
+InstallAnywhere has comprehensive debugging built into the installer. By running in &quot;Debug Mode&quot; developers can diagnose many issues with installers. This action allows developers to output specific information to either the console, or a file. Developers can output the entire contents of the InstallAnywhere variable manager, the install tree, Java Properties, and other information related to the installation.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054963"> </a><p class="ptck_Table_Cell_Key_Column">
+Output Text to Console
+</p>
+</td>
+    <td><a name="wp1054965"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054967"> </a><p class="ptca_Table_Cell_Body">
+This action outputs the text specified to the debug console. This is useful for measuring the progress of a non-interactive installer in silent or console mode, or the progress of a non-interactive portion of the installation.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054969"> </a><p class="ptck_Table_Cell_Key_Column">
+Perform XSL Transform
+</p>
+</td>
+    <td><a name="wp1054971"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054973"> </a><p class="ptca_Table_Cell_Body">
+This action allows developers to specify an XSLT and target for an Extensible Stylesheet Language transform. Predefined XSL Transforms can be found in the <br />&lt;InstallAnywhere&gt;\resource\extras\presets directory.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054975"> </a><p class="ptck_Table_Cell_Key_Column">
+Perform XSL Transform - In Archive
+</p>
+</td>
+    <td><a name="wp1054977"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1054979"> </a><p class="ptca_Table_Cell_Body">
+The Perform XSL Transform - In Archive action works the same as the Perform XSL Transform, but does so for files in an archive. This action is useful for configuring web applications in WAR, EAR, and JAR files.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054981"> </a><p class="ptck_Table_Cell_Key_Column">
+Restart Windows
+</p>
+</td>
+    <td><a name="wp1054983"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054985"> </a><p class="ptca_Table_Cell_Body">
+This action will restart a Windows system. The system will reboot <b class="cBold">AS SOON AS THIS ACTION IS REACHED</b>, so it should be used carefully and only in conjunction with rules.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054987"> </a><p class="ptck_Table_Cell_Key_Column">
+Set InstallAnywhere Variable - Multiple Variables
+</p>
+</td>
+    <td><a name="wp1054989"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054991"> </a><p class="ptca_Table_Cell_Body">
+The root of ANY InstallAnywhere installation, these actions allow developers to specify values for, and or create InstallAnywhere Variables. This action is used throughout the installation, and can be used to control nearly any aspect of the installation.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054993"> </a><p class="ptck_Table_Cell_Key_Column">
+Set InstallAnywhere Variable - Single Variable
+</p>
+</td>
+    <td><a name="wp1054995"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1054997"> </a><p class="ptca_Table_Cell_Body">
+Set a single Windows registry keys, data, and values on the end-user&#39;s system.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055749"> </a><p class="ptck_Table_Cell_Key_Column">
+Set Windows Registry - Multiple Entries
+</p>
+</td>
+    <td><a name="wp1055751"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055753"> </a><p class="ptca_Table_Cell_Body">
+Set multiple Windows registry keys, data, and values on the end-user&#39;s system.
+</p>
+<img style="margin-top: 10pt;" alt="Tip" hspace="8" src="images/A_tip.gif" />
+
+<a name="wp1055808"> </a><p class="ptcti_Table_Cell_Tip">
+If you are targeting 64-bit systems, click the <b class="cUI_Element">Access Specific Registries View (64-bit systems)</b> check box. Then select whether you want this action to reference the 64-bit or 32-bit portion of the registry.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055755"> </a><p class="ptck_Table_Cell_Key_Column">
+Set Windows Registry - Single Entry
+</p>
+</td>
+    <td><a name="wp1055757"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1055759"> </a><p class="ptca_Table_Cell_Body">
+Set an individual Windows registry key, data, and value on the end-user&#39;s system.
+</p>
+<img style="margin-top: 10pt;" alt="Tip" hspace="8" src="images/A_tip.gif" />
+
+<a name="wp1055816"> </a><p class="ptcti_Table_Cell_Tip">
+If you are targeting 64-bit systems, click the <b class="cUI_Element">Access Specific Registries View (64-bit systems)</b> check box. Then select whether you want this action to reference the 64-bit or 32-bit portion of the registry.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054999"> </a><p class="ptck_Table_Cell_Key_Column">
+Show Message Dialog
+</p>
+</td>
+    <td><a name="wp1055001"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055003"> </a><p class="ptca_Table_Cell_Body">
+This action creates a modal dialog that requests end-user input. The message dialog box will appear over the currently displayed panel, and can be used to force the end-user to return to the previous panel, exit the installer, or input information. When controlled by rules, it can be used as a data verification tool.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055005"> </a><p class="ptck_Table_Cell_Key_Column">
+Start, Stop, Pause Windows Service
+</p>
+</td>
+    <td><a name="wp1055007"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055009"> </a><p class="ptca_Table_Cell_Body">
+If the application is interacting with a Windows Service, the installer may need to manage that service. This action, when the installer is run with sufficient privileges, allows the installer to stop, start, or pause registered windows services.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

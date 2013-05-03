@@ -1,0 +1,2009 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Teljes eltávolítás
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Teljesen eltávolítja a $PRODUCT_NAME$ minden olyan funkcióját és komponensét, amelyeket az InstallAnywhere telepített. Nem hat ki a telepítés után létrehozott fájlokra és mappákra.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Specifikus funkciók eltávolítása
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Válassza ki a $PRODUCT_NAME$ azon specifikus funkcióit, amelyeket az InstallAnywhere telepített, és amelyeket most el kíván távolítani.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Kérjük, válassza ki az alábbi lehetőségek egyikét:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Eltávolítási opciók
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Eltávolítás
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Teljesen eltávolít minden funkciót és komponenst.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Válassza ki azokat a specifikus funkciókat, amelyeket az InstallAnywhere telepített.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Kérjük, válassza ki az alábbi lehetőségek egyikét:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Eltávolítási opciók
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=ADJA MEG VÁLASZTÁSÁNAK SZÁMÁT, VAGY NYOMJA MEG AZ <ENTER>-T AZ ALAPÉRTELMEZETT ELFOGADÁSÁHOZ.
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=A telepítés folytatásához nincsen elegendő hely a lemezen.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=de csak XXX MB áll rendelkezésre itt:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Ennek a telepítésnek XXX MB szabad lemezterületre van szüksége,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Egyébként választhatja a "Mégse"-t a telepítés megszakításához.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=A telepítés folytatásához kérjük, szabadítson fel legalább XXX MB-t.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=A telepítés folytatásához kérjük, szabadítson fel valamennyi helyet a lemezen.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Kérjük, kattintson a "Telepítés"-re a telepítés folytatásához.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Továbbhaladásra kész
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Nincs elegendő lemezterület
+
+# ................... =Warning!
+CheckDiskSpace.warning=Figyelmeztetés!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=NYOMJA MEG AZ <ENTER>-T A RENDELKEZÉSRE ÁLLÓ LEMEZTERÜLET ISMÉTELT KISZÁMÍTÁSÁHOZ, VAGY GÉPELJE BE A "kilép"-ET A TELEPÍTŐBŐL VALÓ KILÉPÉSHEZ
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Ennek a telepítésnek a végrehajtásához nincsen elegendő lemezterület. \u000A   Kérjük, szabadítson fel valamennyi lemezterületet, majd futtassa újra ezt a telepítőt...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=A TELEPÍTÉS MEGKEZDÉSÉHEZ NYOMJA MEG AZ <ENTER>-T
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Figyelmeztetés!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Ennek a telepítésnek XXX MB szabad lemezterületre van szüksége,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=de csak XXX MB áll rendelkezésre itt:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=A telepítés folytatásához kérjük, szabadítson fel legalább XXX MB-t.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=A telepítés folytatásához kérjük, szabadítson fel valamennyi helyet a lemezen.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=A telepítés folytatásához nincsen elegendő hely a lemezen.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Nincs elegendő lemezterület.
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Kérjük válasszon fájlt.
+
+# ................. =Choose...
+ChooseFile.chooseStr=&Választás...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=&Kérjük válasszon fájlt.
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=&Alapértelmezett fájl visszaállítása:
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Válasszon fájlt
+
+# .................... =in the folder
+ChooseFile.macInsideStr=a mappában
+
+# ................ =on the disk
+ChooseFile.macOnStr=a lemezen
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Kérjük, válasszon mappát.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=&Választás...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=&Kérjük, válasszon mappát.
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=&Alapértelmezett mappa visszaállítása:
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Válasszon mappát
+
+# .................. =on the disk
+ChooseFolder.macOnStr=a lemezen
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Hiba!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Ön nem rendelkezik írás-engedéllyel a kiválasztott mappára. Kérjük, válasszon más mappát.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Válasszon mappát
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Válasszon telepítőkészletet
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Válasszon telepítőkészletet
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Válasszon termékfunkciókat
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Kérjük, válassza ki a telepítő által telepítendő telepítőkészletet.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=ADJA MEG A TELEPÍTŐKÉSZLET SZÁMÁT VAGY NYOMJA MEG AZ <ENTER>-T AZ ALAPÉRTELMEZETT ELFOGADÁSÁHOZ\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Kérjük, válassza ki a telepítő által telepítendő funkciókat.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=ADJA MEG A TELEPÍTENDŐ\u000A FUNKCIÓKAT KÉPVISELŐ SZÁMOK VESSZŐVEL ELVÁLASZTOTT LISTÁJÁT
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Válasszon telepítőkészletet
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Testre szabás
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=A telepítendő termékfunkciók beállításakor hiba történt.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Kérjük, válassza ki a telepített alkalmazás által használandó Java VM-t.
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Válasszon Java virtuális gépet..
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=A megadott útvonal nem mutat érvényes Java virtuális géphez. Kérjük, válasszon újra.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Kérjük, válassza ki a telepített alkalmazás által használandó Java VM-t.
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Válasszon Java virtuális gépet.
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=ADJA MEG A JAVA VM SZÁMÁT VAGY NYOMJA MEG AZ <ENTER>-T AZ AKTUÁLIS VÁLASZTÁS ELFOGADÁSÁHOZ.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=ADJA MEG AZ ÚTVONALAT A VÁLASZTOTT FUTTATHATÓ JAVA VM-HEZ\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=A FUTTATHATÓ JAVÁHOZ VEZETŐ ÚTVONAL:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=A telepítőhöz mellékelt Java Virtual Machine telepítése nem lehetséges.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Java VM telepítése specifikusan ehhez az alkalmazáshoz
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Válasszon egy a rendszeren már telepített Java VM-et
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=&Válasszon másikat...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Megnyitás
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Java VM telepítése specifikusan ehhez az alkalmazáshoz
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java futásidő-környezet
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Keresés itt: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=&Keresés leállítása
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=Többi &keresése
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Keresés kész.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Válasszon egy a rendszeren már telepített Java VM-et
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Hiba!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=A választott alkalmazás nem érvényes Java virtuális gép.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Válasszon Java VM-t
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Hiba: Nem találhatók megfelelő Java virtuális gépek.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Ez a termék megkívánja, hogy a Java virtuális gép már telepítve legyen a rendszeren. Kérjük, keresse fel a <http://java.sun.com> címet.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Válasszon Java VM-t.
+
+
+ChooseSCMFeaturesConsole.visualName=Opcionális SCM funkciók kiválasztása
+ChooseSCMFeaturesConsole.title=Opcionális SCM funkciók kiválasztása
+ChooseSCMFeaturesConsole.instructions=SCM funkciók utasításainak kiválasztása
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=A FOLYTATÁSHOZ NYOMJA MEG AZ <ENTER>-T.
+
+# ................. =Y
+ConsoleUtils.yesChar=I
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=HELYES EZ?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=A megadott értékek egyike érvénytelen volt. Kérjük, válasszon újra.
+
+#............... =back
+ConsoleUtils.back=vissza
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Szüntesse meg azon funkciók kijelölését, amelyeket el szeretne távolítani. A kijelölt funkciók telepítve maradnak.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Jelölje ki azon funkciókat, amelyeket el szeretne távolítani. A ki nem jelölt funkciók telepítve maradnak.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Válasszon termékfunkciókat.
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Kérjük, válassza ki a telepítõ által telepítendő funkciókat.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Szüntesse meg azon funkciók kijelölését, amelyeket el szeretne távolítani. A kijelölt funkciók telepítve maradnak.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions= Jelölje ki azon funkciókat, amelyeket el szeretne távolítani. A ki nem jelölt funkciók telepítve maradnak.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Válasszon termékfunkciókat.
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=ADJA MEG A FUNKCIÓKAT KÉPVISELŐ SZÁMOK VESSZŐVEL ELVÁLASZTOTT LISTÁJÁT AZOKRA A FUNKCIÓKRA VONATKOZÓAN, AMELYEKET KI KÍVÁN VÁLASZTANI, ILL. AMELYEK KIVÁLASZTÁSÁT MEG KÍVÁNJA SZÜNTETNI. A FUNKCIÓK LEÍRÁSÁNAK MEGTEKINTÉSÉHEZ ÍRJA BE: "?<SZÁM>". NYOMJA LE A <RETURN>-T, HA KÉSZEN VAN:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Telepítőkészlet
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Válasszon termékfunkciókat.
+
+#............................... =Description
+CustomizeBundlesPanel.description=Leírás
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=A telepítéshez szükséges teljes lemezterület:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Helyezzen be új adathordozót
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Kérjük, helyezze be #NAME#-t vagy manuális megkereséséhez válassza a "Tallózás..."-t.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Helytelen adathordozó-kötet
+# .................... =Browse
+DiskNeededDialog.locate=Tallózás
+
+# .................. =Cancel
+DiskNeededDialog.quit=Mégse
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title= Helyezzen be új adathordozót 
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions= Kérjük, helyezze be #NAME#-t vagy válassza ki manuálisan a hozzá vezető utat.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse= Kérjük, helyezze be #NAME#-t.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Lemez várható itt: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk= Kérjük, helyezze be #NAME#-t vagy gépelje be a helyét.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=OK, XXX behelyezése megtörtént.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Válasszon útvonalat a telepítő adatai számára.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Megszakítás és kilépés a telepítésből.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=ÍRJA BE A VÁLASZTÁST
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=ÍRJA BE A LEMEZEN LÉVŐ "INSTALLERDATA" MAPPÁHOZ VEZETŐ ÚTVONALAT 
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=A rendszerkörnyezet megváltozott. A változtatások életbe léptetéséhez ki kell lépnie vagy újra kell indítania a rendszert.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Rendszerkörnyezet megváltozott.
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Kilép
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=A telepítés nincsen kész.
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=A telepítés nincsen kész
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Ha most megszakítja a telepítést, a(z) $PRODUCT_NAME$ termék nem kerül telepítésre. A telepítés folytatásához kattintson a "Folytatás"-ra. A telepítés megszakításához kattintson a "kilép"-re.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Ha most megszakítja a telepítést, a(z) $PRODUCT_NAME$ termék nem kerül telepítésre. A telepítés folytatásához kattintson a "Folytatás"-ra. A telepítés megszakításához kattintson a "kilép"-re.
+
+# .......... =Resume
+ExitDialog.ok=Folytatás
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Eltávolítás megszakítása
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Telepítés megszakítása
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Mindre Igen
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Mindre Nem
+
+# ....................... =Yes
+FileAlreadyExists.yes=Igen
+
+# ....................... =No
+FileAlreadyExists.no=Nem
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Meglévő fájl felülírása?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=\"XXX\" nevű fájl már létezik \"XXX\"-nél.
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=\"XXX\" nevű újabb fájl már létezik \"XXX\"-nél.
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=\"XXX\" nevű régebbi fájl már létezik \"XXX\"-nél.
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Felülírja a meglévő fájlt?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=&Kérjük válasszon fájlt/mappát.
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Választás
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Fájlok hozzáadása az alábbi listához folyamatban van.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=A talált fájlok felsorolása alább.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Mappák hozzáadása az alábbi listához folyamatban van.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=A talált mappák felsorolása alább.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Ennek megfelelő fájlok találhatók:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Ennek megfelelő mappák találhatók:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Ebben található:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=&Válasszon másikat...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Keresés itt:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Kérjük válasszon.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Megfelelő fájlok keresése:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Megfelelő mappák keresése:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Keresés
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Kiválasztás
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=A telepítő nem talált ennek megfelelőt:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Kiválasztva
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Válasszon mappát
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Mégse
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Új mappa létrehozása
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Mappa:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Név:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=HELYES EZ?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=A FOLYTATÁSHOZ NYOMJA MEG AZ <ENTER>-T
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Hiba:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Kis türelmet, a(z) $PRODUCT_NAME$ rendszerre konfigurálása folyamatban. Ez eltarthat néhány percig...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Kis türelmet
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Ennek a telepítésnek a folytatásához jelszó szükséges.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=&Kérjük, adja meg a jelszót.
+
+# .................. =Enter Password
+GetPassword.stepTitle=Adja meg a jelszót.
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Hiba!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=A megadott jelszó helytelen. Kérjük, próbálkozzon újra.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Adja meg a jelszót.
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=A folytatáshoz jelszó szükséges.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Ennek a telepítésnek a folytatásához jelszó szükséges.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=A megadott jelszó helytelen. Kérjük, próbálkozzon újra.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Kérjük, adja meg a jelszót.
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=A folytatáshoz jelszó szükséges.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Adja meg a jelszót.
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=ADJA MEG A KÍVÁNT VÁLASZTÁSOKAT KÉPVISELŐ SZÁMOK VESSZŐVEL ELVÁLASZTOTT LISTÁJÁT.
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=ADJA MEG A KÍVÁNT VÁLASZTÁSOKAT KÉPVISELŐ SZÁMOK VESSZŐVEL ELVÁLASZTOTT LISTÁJÁT, VAGY NYOMJA MEG AZ <ENTER>-T AZ ALAPÉRTELMEZETT ELFOGADÁSÁHOZ.
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=ADJA MEG A KÍVÁNT VÁLASZTÁS SZÁMÁT.
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=ADJA MEG VÁLASZTÁSÁNAK SZÁMÁT, VAGY NYOMJA MEG AZ <ENTER>-T AZ ALAPÉRTELMEZETT ELFOGADÁSÁHOZ.
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Most nem léphet ki a telepítőből.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Most nem mehet vissza az előző lépésre.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Fontos információ
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=A folytatás előtt kérjük, olvassa el:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=A FONTOS INFORMÁCIÓ TELJES. A FOLYTATÁSHOZ NYOMJA MEG AZ <ENTER>-T.
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Fontos információ
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=A folytatás előtt kérjük, olvassa el:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Alkalmazás
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Ez telepíti az alkalmazás funkciót.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Súgó
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Ez telepíti a súgó funkciót.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Gratulálunk! $PRODUCT_NAME$ telepítése sikeresen megtörtént az alábbi mappába:\u000A\u000A      $USER_INSTALL_DIR$\u000A\u000AA telepítőből való kilépéshez kattintson a "Kész"-re.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=A telepítés kész.
+InstallCompleteAction.stepTitle=A telepítés kész.
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=A $PRODUCT_NAME$ telepítése készen van, de a telepítés során hibák történtek. \u000A\u000AKérjük, a részleteket nézze meg a telepítési naplóban. A telepítőből való kilépéshez kattintson a "Kész"-re.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=A telepítés kész.
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=A telepítés készen van.
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Gratulálunk. A(z)$PRODUCT_NAME$ telepítése sikeresen megtörtént az alábbi mappába:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=A TELEPÍTŐBŐL VALÓ KILÉPÉSHEZ NYOMJA MEG AZ <ENTER>-T.
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=A $PRODUCT_NAME$ telepítése készen van, de a telepítés során hibák történtek. \u000A   Kérjük, a részleteket nézze meg a telepítési naplóban.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=A $PRODUCT_NAME$ telepítése készen van, de a telepítés során hibák történtek. \u000A   Kérjük, a részleteket nézze meg a telepítési naplóban. A telepítőből való kilépéshez kattintson a "Kész"-re.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=A TELEPÍTŐBŐL VALÓ KILÉPÉSHEZ NYOMJA MEG AZ <ENTER>-T.
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=A telepítés kész.
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Kérjük, válasszon célmappát a telepítéshez.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Válasszon telepítőmappát.
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=Ho&vá szeretne telepíteni?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Válasszon telepítőmappát.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=ADJON MEG EGY ABSZOLÚT ÚTVONALAT, VAGY NYOMJA MEG AZ <ENTER>-T AZ ALAPÉRTELMEZETT ELFOGADÁSÁRA\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=ADJON MEG EGY ABSZOLÚT ÚTVONALAT, GÉPELJE BE "alapértelmezett" AZ ALAPÉRTELMEZETT MAPPA VISSZAÁLLÍTÁSÁHOZ, VAGY NYOMJA MEG AZ <ENTER>-T A VÁLASZTOTT MAPPA ELFOGADÁSÁHOZ.
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Az alapértelmezett telepítőmappa: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=A választott telepítőmappa: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=A TELEPÍTŐMAPPA: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=A megadott útvonal: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=olyan fájlra mutat, amely már létezik a célrendszerben. \u000AEz a telepítő nem írhat felül létező fájlt új mappával. \u000AKérjük, válasszon egy másik helyet a telepítésre.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Ön nem rendelkezik írás-engedéllyel a telepítéshez kiválasztott célra. \u000AKérjük, válasszon más helyet.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Hová szeretne telepíteni?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Hiba!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Ön nem rendelkezik írás-engedéllyel a telepítéshez kiválasztott célra. \u000AKérjük, válasszon más helyet.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Válasszon telepítőmappát.
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=A telepítési célként kijelölt útvonal egy vagy több ezen a platformon érvénytelen karaktert tartalmaz.  \u000AVálasszon egy másik útvonalat a telepítéshez.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=Vá&lasztás...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=&Alapértelmezett mappa visszaállítása:
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=belül
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=a mappában
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=a lemezen
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=telepítés
+
+# ....................... =Introduction
+Installer.installLabels.00=Bevezetés
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Válasszon telepítőmappát.
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Válasszon $SHORTCUT_NAME$ mappát.
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Telepítés előtti összefoglaló
+
+# ....................... =Installing...
+Installer.installLabels.04=Telepítés folyamatban...
+
+# ....................... =Install Complete
+Installer.installLabels.05=A telepítés kész.
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=A telepítő nem futhat ezen a rendszeren.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=A telepítő nem futhat az Ön konfigurációjában. Most kilép.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=A telepítő felhasználói interfész módja nem támogatott.
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=A telepítő nem futhat ebben a módban. Kérjük, nézze meg a telepítési dokumentációt a telepítő futtatására vonatkozó információkért. KKk
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Telepítő UI-mód hiba
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Eltávolítás $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Gratulálunk! $PRODUCT_NAME$ telepítése sikeresen megtörtént az alábbi mappába:\u000A\u000A      $USER_INSTALL_DIR$\u000A\u000AA telepítőből való kilépéshez kattintson a "Kész"-re.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=A $PRODUCT_NAME$ telepítése készen van, de a telepítés során figyelmeztetések történtek. Kérjük, a részleteket nézze meg a telepítési naplóban.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=A $PRODUCT_NAME$ telepítése készen van, de a telepítés során hibák történtek. Kérjük, a részleteket nézze meg a telepítési naplóban.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=A $PRODUCT_NAME$ telepítése készen van, de a telepítés során súlyos hibák történtek. Kérjük, a részleteket nézze meg a telepítési naplóban.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=A telepítés kész.
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Igen, indítsa újra a rendszert.
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Nem, én indítom majd újra a rendszert.
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Telepítés folyamatban...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Telepítés megszakítása folyamatban...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Telepítés folyamatban...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Telepítés előtti összefoglaló
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=A folytatás előtt kérjük, tekintse át:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Telepítés előtti összefoglaló
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=A FOLYTATÁSHOZ NYOMJA MEG AZ <ENTER>-T. HA EZ AZ INFORMÁCIÓ HELYTELEN, A VÁLTOZTATÁSHOZ GÉPELJE BE A "vissza"-T\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Terméknév:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Telepítőmappa:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Parancsikon-mappa:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Link mappa:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Álruha mappa:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=A felhasználó által meghatározott egyedi telepítőkészlet
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Telepítőkészlet
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Termékösszetevők:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM telepítőmappa:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=A telepített termék által használandó Java VM:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Lemezhely információ (a telepítés célja számára): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Szükséges:
+
+# .................. =bytes
+InstallSummaryUI.byte=bájt
+
+# ....................... =Available:
+InstallSummaryUI.available=Rendelkezésre áll:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Válassza ezt az opciót a telepítendő funkciók tetszés szerinti kiválasztásához.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Egyedi
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Csak a szükséges alkalmazási funkciók kerülnek telepítésre. Ez az opció csak a korlátozott lemezterülettel rendelkező felhasználóknak ajánlott.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Minimális
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=A legszokásosabb alkalmazási funkciók kerülnek telepítésre. Ez az opció ajánlott a felhasználók többségének.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Szokásos
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere átvezeti majd a(z) $PRODUCT_NAME$ telepítésének folyamatán. \u000A\u000AHatározottan ajánljuk, hogy lépjen ki minden programból, mielőtt folytatná a telepítést. \u000A\u000AKattintson a "Tovább"-ra a következő képernyőre lépéshez. Ha meg kíván valamit változtatni az előző képernyőn, kattintson az "Előző"-re. \u000A\u000AEzt a telepítést bármikor megszakíthatja a "Mégse"-re kattintással.
+
+# .................. =Introduction
+IntroAction.stepTitle=Bevezetés
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere átvezeti majd a(z) $PRODUCT_NAME$ telepítésének folyamatán. \u000A\u000AHatározottan ajánljuk, hogy lépjen ki minden programból, mielőtt folytatná a telepítést. \u000A\u000AVálaszoljon az egyes utasításkérésekre, hogy tovább lépjen a telepítés következő lépésére. Ha meg kíván változtatni valamit az előző lépésben, gépelje be "vissza". \u000A\u000AEzt a telepítést bármikor megszakíthatja a "kilép" begépelésével.
+
+# ..................... =Introduction
+IntroActionConsole.title=Bevezetés
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=A webböngészőben nem lehet az URL-t megnyitni.
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=Az InstallAnywhere-nek nem sikerült a kívánt URL ($ACTION_URL$) megnyitása a rendszeren lévő alapértelmezett böngészővel. Ezen URL megtekintéséhez kérjük, gépelje be a fenti címet a választása szerinti böngészőbe.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Licencegyezmény
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=A telepítés és a(z) $PRODUCT_NAME$ használata megkívánja, hogy elfogadja az alábbi licencegyezmény feltételeit:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Licencegyezmény
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=A telepítés és a(z) $PRODUCT_NAME$ használata megkívánja, hogy elfogadja az alábbi licencegyezmény feltételeit:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ELFOGADJA A LICENCEGYEZMÉNY FELTÉTELEIT?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Kilép
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Folytatás
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Licencegyezmény-figyelmeztetés
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Figyelmeztetés!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Ha nem fogadja el a licencegyezmény feltételeit, nem kap engedélyt a telepítés folytatására.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=NEM &fogadom el a licencegyezmény feltételeit
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Nincs megtekintendő fájl
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=Elf&ogadom a licencegyezmény feltételeit
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Nincs kiválasztott fájl
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=AZ ALÁBBIAK ELFOGADÁSÁHOZ NYOMJA MEG AZ <ENTER>-T.
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=ADJA MEG A KÍVÁNT VÁLASZTÁS SZÁMÁT, VAGY NYOMJA MEG AZ <ENTER>-T AZ ALAPÉRTELMEZETT ELFOGADÁSÁHOZ.
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Mégse
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Részletek...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere készen áll arra hogy a(z) $PRODUCT_NAME$-t a rendszerre telepítse az alábbi helyre:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=A TELEPÍTÉSHEZ NYOMJA MEG AZ <ENTER>-T
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Telepítésre kész.
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere hamarosan készen lesz. Kis türelmet...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Befejezés...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Ennek a telepítésnek a folytatásához sorozatszám szükséges.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=&Kérjük, adja meg a sorozatszámot:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Adja meg a sorozatszámot
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Hiba!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=A megadott sorozatszám helytelen. Kérjük próbálkozzon újra.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Adja meg a sorozatszámot.
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=A folytatáshoz sorozatszám szükséges.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Ennek a telepítésnek a folytatásához sorozatszám szükséges.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=A megadott sorozatszám helytelen. Kérjük próbálkozzon újra.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Kérjük, adja meg a sorozatszámot:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=A folytatáshoz sorozatszám szükséges.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Adja meg a sorozatszámot.
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Álruha
+
+#............... =Link
+ShortcutName.link=Link
+
+#................... =Shortcut
+ShortcutName.shortcut=Parancsikon
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Hol szeretne álruhákat létrehozni?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Válasszon álruha mappát.
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Válasszon link mappát.
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Hol szeretne linkeket létrehozni?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Hol szeretne termékikonokat létrehozni?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Válasszon helyet a parancsikonnak.
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Közös csoportok
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Aktuális felhasználói csoportok
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=a mappában
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=a lemezen
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Alapértelmezett: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Aktuális: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Válasszon másik helyet...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=ADJA MEG AZ EGYIK FENTI BEÁLLÍTÁS SZÁMÁT, VAGY NYOMJA MEG AZ <ENTER>-T AZ ALAPÉRTELMEZETT ELFOGADÁSÁHOZ.   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=ADJA MEG AZ EGYIK FENTI BEÁLLÍTÁS SZÁMÁT, VAGY NYOMJA MEG AZ <ENTER>-T AZ AKTUÁLIS VÁLASZTÁS ELFOGADÁSÁHOZ.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=ADJA MEG AZ ABSZOLÚT ÚTVONALAT A VÁLASZTOTT PARANCSIKON MAPPÁHOZ.   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=PARANCSIKON HELYE: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Válasszon helyet a linknek.
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Hol szeretne linkeket létrehozni?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Válasszon helyet a parancsikonnak.
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Hol szeretne termékikonokat létrehozni? 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Válasszon álruha helyet.
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Hol szeretne álruhákat létrehozni?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Az Apple menüben
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=A dock-ban
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Az asztalon
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Ne hozzon létre álruhát
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Egyéb:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Ne hozzon létre linket
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Ne hozzon létre ikont
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Saját mappájában
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Az asztalon
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=Új programcsoportban:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=Meglévő programcsoportban:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=A &Gyorsindítás soron
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=A Start menüben
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Ikonok létrehozása minden felhasználó számára
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Hiba!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Ön nem rendelkezik írás-engedéllyel a kiválasztott célra. Kérjük, válasszon más helyet.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=&Az Apple menüben
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=A &dock-ban
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=A&z asztalon
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=A&z asztalon
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Választás...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Ne hozzon létre álruhát
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=Eg&yéb:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=Ne h&ozzon létre linket
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=Ne h&ozzon létre ikont
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=Sa&ját mappájában
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=A&z asztalon
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=Új p&rogramcsoportban:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=Meg&lévő programcsoportban:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=A Start me&nüben
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=&Ikonok létrehozása minden felhasználó számára
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Mégse
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Részletek...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Dátum:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Licenc ID:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Parancsfájl-verzió:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Verzió:
+
+# ............... =Done
+StepMaster.doneStr=&Kész
+
+# ............... =Cancel
+StepMaster.exitStr=&Mégse
+
+# ............... =Help
+StepMaster.helpStr=&Súgó
+
+# .................. =Install
+StepMaster.installStr=&Telepítés
+
+# ............... =Next
+StepMaster.nextStr=&Tovább
+
+# ............... =Previous
+StepMaster.prevStr=&Előző
+
+# ............... =Close
+StepMaster.closeStr=Bezárás
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Minden tétel sikeresen eltávolításra került.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Eltávolítás kész.
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Az alábbi tételeket nem lehet eltávolítani:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Az eltávolítás nem lehetséges
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Igen, indítsa újra a rendszert
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Nem, én indítom majd újra a rendszert
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Minden tétel sikeresen eltávolításra került.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Eltávolítás kész
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Az alábbi tételeket nem lehet eltávolítani:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=A telepítés befejezéséhez újra kell indítania a rendszert.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Eltávolítás kész
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Minden tétel sikeresen eltávolításra került.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Egyes tételeket nem lehetett eltávolítani.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Az eltávolítás hiba miatt nem mehetett végbe.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Eltávolítás $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere Eltávolító
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Bevezetés
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Eltávolítás...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Eltávolítás kész
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Eltávolítás indulóban... \u000A\u000A$PRODUCT_NAME$\u000A\u000AEz teljesen eltávolítja az InstallAnywhere által telepített valamennyi összetevőt. Nem távolítja el a telepítés után létrehozott fájlokat és mappákat.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Eltávolítás $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Eltávolítás indulóban... \u000A\u000A$PRODUCT_NAME$\u000A\u000AEz teljesen eltávolítja az InstallAnywhere által telepített valamennyi összetevőt. Nem távolítja el a telepítés után létrehozott fájlokat és mappákat.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Eltávolítás $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Mégse
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Kilép
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Súgó
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Eltávolítás
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Egy művelet nem volt visszavonható, mert az nem volt támogatva.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Befejezés...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Natív csomagok...
+
+# ............... =Files...
+UninstallMgr.Files=Fájlok...
+
+# ................. =Folders...
+UninstallMgr.Folders=Mappák...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Linkek...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Álruhák...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Parancsikonok...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=A terméket nem lehetett eltávolítani, mert már nincs megfelelő Java virtuális gép a rendszeren. Kérjük, telepítse a Java virtuális gépet, majd próbálkozzon újra.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 mappa
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Előkészítés...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Szoftver-adatbázis...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Rendszerleíró adatbázis...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 mappa
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Befejezés nem lehetséges
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Natív csomagok eltávolítása sikertelen 
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=A fájl eltávolítása nem lehetséges
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=A mappa eltávolítása nem lehetséges
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=A Java VM funkció eltávolítása nem lehetséges
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=A link eltávolítása nem lehetséges
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Az álruha eltávolítása nem lehetséges
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=A parancsikon eltávolítása nem lehetséges
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Nem lehetséges
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=1 fájl eltávolítása nem lehetséges
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=2 fájl eltávolítása nem lehetséges
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=A szoftver adatbázis eltávolítása nem lehetséges
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=A rendszerleíró-adatbázis kulcsának eltávolítása nem lehetséges
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Rendszer-újraindítás szükséges
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Nem ajánlatos az eltávolítót futtatni, amíg nem indította újra a rendszert. Kattintson a  \"Mégse\"-re az eltávolítóból való kilépéshez, vagy a \"Folytatás\"-ra, ha az eltávolítást mindenképpen folytatja.
+
+# ................ =Continue
+UninstallRestart.continue=Folytatás
+
+# ................ =Cancel
+UninstallRestart.exit=Mégse
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Kis türelmet amíg az InstallAnywhere eltávolítója
+
+# ................ =removes the following features...
+UProgress.waitArr.1=eltávolítja az alábbi funkciókat...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Egyedi kód végrehajtása...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Végrehajtás folyamatban...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Telepítési parancsfájl végrehajtása folyamatban...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Egyesítő modul telepítése
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Egyesítő modul telepítése
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Natív csomag telepítése folyamatban.
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=kilépés
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=NYOMJA MEG AZ <ENTER>-T AZ ELTÁVOLÍTÁS MEGKEZDÉSÉHEZ , VAGY A "KILÉPÉS"-T AZ ELTÁVOLÍTÓBÓL VALÓ KILÉPÉSHEZ.
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=AZ ELTÁVOLÍTÓBÓL VALÓ KILÉPÉSHEZ NYOMJA MEG AZ <ENTER>-T:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Fájl másolása
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Mappa másolása
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Kapocs létrehozása
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Parancsikon létrehozása
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Álruha létrehozása
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Mappa létrehozása
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=LaunchAnywhere létrehozása
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Fájl törlése
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Mappa törlése
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Archívum kibontása
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=SpeedFolder telepítése
+
+InstallRPMPackage.visualname.self=Linux RPM telepítése
+InstallSolarisPackage.visualname.self=Solaris csomag telepítése
+InstallHPUXPackage.visualname.self=HP-UX Depot telepítése
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Fájl áthelyezése
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Mappa áthelyezése
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Windows szolgáltatás regisztrálása
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Rendszerkörnyezet-változó beállítása
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Windows rendszerleíró adatbázis beállítása
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=ANT parancsfájl végrehajtása
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Parancs végrehajtása
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Egyedi kód végrehajtása...
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Parancsfájl végrehajtása
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Célfájl végrehajtása
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Komponens keresése a rendszerleíró adatbázisban
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Windows rendszerleíró adatbázis-bejegyzés lekérése
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Szövegfájl módosítása
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=XSL transzformáció végrehajtása
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Kimeneti hibakeresési információ
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Konzolra kimenő szöveg
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Üzenet párbeszédpanel megjelenítése
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Windows szolgáltatás indítása
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Windows szolgáltatás leállítása
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Windows szolgáltatás szüneteltetése
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Tallózás mappához
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Egyesítő modul telepítése
+Designer.Action.PowerUpdateClient.visualName=PowerUpdate kliens telepítése
+Designer.Action.PerformXSLTZip.visualName= XSL-transzformáció végrehajtása - archívumban
+Designer.Action.PerformXSLT.visualName=XSL transzformáció végrehajtása
+Designer.Action.PerformXSLT.performingXSLtransform=XSL-transzformáció végrehajtása:
+Designer.Action.MakeExecutable.visualName=LaunchAnywhere létrehozása Java alkalmazáshoz
+Designer.Action.InstallZipfile.visualName=Archívum telepítése
+Designer.Action.CreateUninstaller.visualName=Eltávolító létrehozása
+Designer.Action.BOMAction.visualName=Telepítés Manifest-ből
+Designer.Action.ExpandArchive.visualName=Archívum kibontása
+Designer.Action.ExecuteScript.visualName=Parancs-/kötegfájl végrehajtása
+Designer.Action.Exec.visualName=Parancs végrehajtása
+Designer.Action.visualName=Célfájl végrehajtása
+Designer.Action.AntRunner.visualName=ANT parancsfájl végrehajtása
+Designer.Actions.ShowDialogAction.visualName=Üzenet párbeszédpanel megjelenítése
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Telepítés utáni műveletek
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Telepítés előtti műveletek
+
+Designer.Action.EvaluateDependenciesAction.visualName=Dependenciák értékelése
+
+ActionGroup.visualName.self=Műveletcsoport
+
+Designer.Action.UpdateServiceClient.visualName=Frissítési szolgáltatással együtt
+Designer.FolderConstants.programsDir64Name=Programok mappa (64 bit)
+Designer.FolderConstants.programsDir32Name=Programok mappa (32 bit)
+Designer.FolderConstants.system64Name=Rendszer mappa (64 bit)
+Designer.FolderConstants.system32Name=Rendszer mappa (32 bit)
+Designer.FolderConstants.variableMagicFolder=Változó varázsmappa
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# Az URL helytelen az us.jar betöltéséhez.
+Installer.Actions.UpdateServiceClient.badUsJar=Az #UPDATE_SERVICE# könyvtár nem tartalmazza a szükséges osztályokat a regisztrációhoz.  A megadott jar esetleg helytelen.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=Az #UPDATE_SERVICE# osztály nem tartalmazza a szükséges módszert a regisztrációhoz.
+Installer.installLog.actionNotes=Műveleti megjegyzések:
+Installer.installLog.installLogDetail=Telepítési napló részletek:
+Installer.installLog.installation=Telepítés: 
+Installer.installLog.unsuccessful=Sikertelen.
+Installer.installLog.successful=Sikerült
+Installer.installLog.withErrors=hibákkal.
+Installer.installLog.withwarnings=figyelmeztetésekkel.
+Installer.installLog.cancelled=Törölve
+Installer.installLog.duringPostInstall=telepítés után
+Installer.installLog.duringInstall=telepítés alatt
+Installer.installLog.duringPreInstall=telepítés előtt
+Installer.installLog.cancelledBeforePreInstallation=A FELHASZNÁLÓ TÖRÖLTE A TELEPÍTÉST A TELEPÍTÉS ELKEZDÉSE ELŐTT
+Installer.installLog.cancelledDuringPreInstallation=A FELHASZNÁLÓ TÖRÖLTE A TELEPÍTÉST A TELEPÍTÉS ELKEZDÉSE ALATT
+Installer.installLog.cancelledDuringInstallation=A FELHASZNÁLÓ TÖRÖLTE A TELEPÍTÉST A TELEPÍTÉS ALATT
+Installer.InstallLog.cancelledDuringPostInstallation=A FELHASZNÁLÓ TÖRÖLTE A TELEPÍTÉST A TELEPÍTÉS UTÁN VAGY A TELEPÍTÉST KÖVETŐEN
+Installer.installLog.successes=Sikerek
+Installer.installLog.warnings=Figyelmeztetések
+Installer.installLog.nonFatalErrors=Nem súlyos hibák
+Installer.installLog.fatalErrors=Súlyos hibák
+Installer.installLog.details=Részletek
+Installer.installLog.nothingWasInstalled=Semmi sincs telepítve.
+Installer.installLog.none=Nincs
+Installer.installLog.summary=Összefoglalás
+Installer.installLog.installedBy=Telepítette az InstallAnywhere #BUILD_INFO#, a Macrovision programja
+Installer.installLog.status=Állapot:
+Installer.installLog.additionalNotes=További megjegyzések: 
+Installer.installLog.exceptionClass=Kivételi kategória: 
+Installer.installLog.exceptionMessage=Kivételi üzenet: 
+Installer.installLog.exceptionStackTrace=Kivételi veremtár nyomkövetés:
+Installer.installLog.successLevel.successful=SIKERÜLT
+Installer.installLog.successLevel.warning=FIGYELMEZTETÉS
+Installer.installLog.successLevel.error=HIBA
+Installer.installLog.successLevel.fatalError=SÚLYOS HIBA
+Installer.installLog.successLevel.unsupported=NEM TÁMOGATOTT HIBA SZINT
+Installer.installLog.successLevel.notice=MEGJEGYZÉS
+Installer.installLog.action.description=Telepítési művelet:
+Installer.installLog.antRunner.description=ANT parancsfájl végrehajtása:
+Installer.installLog.antRunner.script=Parancsfájl: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Cél nincs kiválasztva
+Installer.installLog.asciiFileManipulator.newFile=Új fájl 
+Installer.installLog.copyDirectory.description=Könyvtár másolása:
+Installer.installLog.copyFile=Fájl másolása:
+Installer.installLog.copyFileAction.destination=Cél: 
+Installer.installLog.createShortcut.createShortcut=Parancsikon létrehozása:
+Installer.installLog.createShortcut.createAlias=Fedőnév létrehozása:
+Installer.installLog.createShortcut.createLink=Csatolás létrehozása:
+Installer.installLog.deleteFileAction.source=Forrás:
+Installer.installLog.editEnvironment.description=Környezeti változó beállítása:
+Installer.installLog.expandFile.description=Archívum kiterjesztése:
+Installer.installLog.getRegEntry.description=Rendszerleíró bejegyzés olvasása:
+Installer.installLog.getRegEntry.key=Kulcs: 
+Installer.installLog.getRegEntry.value=Érték név: 
+Installer.installLog.installDirCont.description=Speedfolder telepítése:
+Installer.installLog.installDirectory.description=Könyvtár telepítése:
+Installer.installLog.installFile.description=Fájl telepítése:
+Installer.installLog.installNTService.description=NT szolgáltatás regisztrálása:
+Installer.installLog.installUninstaller.description=Eltávolító telepítése:
+Installer.installLog.installUninstaller.note=(Minden eltávolítóprogram összetevőt telepít)
+Installer.installLog.makeExecutable.description=LaunchAnywhere létrehozása:
+Installer.installLog.makeExecutable.note=(Minden LaunchAnywhere Java végrehajtható összetevőt telepít)
+Installer.installLog.makeRegEntry.description=Rendszerleíró bejegyzés létrehozása:
+Installer.installLog.makeRegEntry.key=Kulcs:
+Installer.installLog.makeRegEntry.name=Érték név:
+Installer.installLog.makeRegEntry.data=Érték adat:
+Installer.installLog.speedRegistry.description=Rendszerleíró bejegyzések:
+Installer.installLog.subinstaller.description=Egyesítő modul telepítése:
+Installer.installLog.subuninstaller.description=Eltávolító végrehajtása:
+Installer.installLog.customAction.description=Egyedi művelet:
+Installer.installLog.userInteractions=Felhasználói tevékenységek
+Installer.installLog.installBegin=Telepítés kezdete:
+Installer.installLog.installEnd=Telepítés vége:
+Installer.installLog.freeMemory=Szabad memória:
+Installer.installLog.totalMemory=Összes memória:
+Installer.installLog.commandLineArgs=Parancssor paraméterek:
+Installer.installLog.noArguments=Nincs paraméter
+HTMLPanelAction.title=HTML panel
+Designer.Action.UninstallIsmpSoftware.visualName=InstallShield univerzális szoftver eltávolítása
+Designer.Action.HTMLPanelAction.visualName=Panel:  HTML megjelenítése
+Installer.unexpectedChanges.message=A telepítő váratlan változásokat talált a telepítő programozásában.
+﻿Installer.unexpectedChanges.title=Hiba
+Installer.unexpectedChanges.label=A telepítő indítása nem lehetséges.

@@ -1,0 +1,2009 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=전체 설치 제거
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=InstallAnywhere로 설치한 $PRODUCT_NAME$의 모든 기능과 구성 요소를 완전히 제거합니다. 설치 후에 작성된 파일과 폴더는 제거되지 않습니다.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=특정 기능 설치 제거
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=InstallAnywhere로 설치한 $PRODUCT_NAME$의 일부 기능 중 설치 제거할 기능을 선택하십시오.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=다음 옵션 중 하나를 선택하십시오:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=설치 제거 옵션
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=설치 제거
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=모든 기능과 구성 요소를 완전히 제거하십시오.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=InstallAnywhere로 설치한 기능을 선택하십시오.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=다음 중 한 옵션을 선택합니다:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=설치 제거 옵션
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=선택할 번호를 입력하거나  <엔터> 키를 눌러 기본값을 사용하십시오:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=이제 설치를 실행할 디스크 공간이 충분합니다.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=다음 위치에 XXX MB만 사용할 수 있음:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=설치를 계속하려면 XXX MB의 디스크 공간이 필요합니다,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=아니면, '취소'를 선택하여 설치를 취소합니다.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=설치를 계속하려면 최소한 XXX MB의 공간을 비우십시오.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=설치를 계속하기 위해 약간의 디스크 공간을 비우십시오.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed='설치'를 눌러 설치를 계속합니다.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=진행 준비
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=디스크 공간 부족
+
+# ................... =Warning!
+CheckDiskSpace.warning=경고!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=<ENTER> 키를 눌러 사용 가능한 디스크 공간을 다시 계산하거나 '종료'를 입력하여 설치 프로그램을 종료합니다
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=설치를 실행할 디스크 공간이 부족합니다. \u000A   디스크 공간을 일부 확보한 다음 설치 프로그램을 재실행하십시오...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=<ENTER> 키를 눌러 설치를 시작합니다
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=경고!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=설치를 계속하려면 XXX MB의 디스크 공간이 필요합니다,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=다음 위치에 XXX MB만 사용할 수 있음:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=설치를 계속하려면 최소한 XXX MB의 공간을 비우십시오.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=설치를 계속하기 위해 약간의 디스크 공간을 비우십시오.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=이제 설치를 실행할 디스크 공간이 충분합니다.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=디스크 공간 부족
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=파일을 선택하십시오.
+
+# ................. =Choose...
+ChooseFile.chooseStr=선택하십시오... (&O)
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=파일을 선택하십시오: (&F)
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=기본 파일 복원 (&R)
+
+# ................. =Choose a File
+ChooseFile.stepTitle=파일을 선택하십시오
+
+# .................... =in the folder
+ChooseFile.macInsideStr=폴더
+
+# ................ =on the disk
+ChooseFile.macOnStr=디스크에
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=폴더를 선택하십시오.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=선택하십시오... (&O)
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=폴더를 선택하십시오: (&F)
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=기본 폴더 복원 (&R)
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=폴더를 선택하십시오
+
+# .................. =on the disk
+ChooseFolder.macOnStr=디스크에
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=오류!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=선택한 폴더에 대한 쓰기 권한이 없습니다. 다른 폴더를 선택하십시오.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=폴더를 선택하십시오
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=설치 세트를 선택합니다.
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=설치 세트를 선택합니다.
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=제품 기능을 선택하십시오.
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=설치 프로그램으로 설치할 설치 세트를 선택하십시오.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=설치 세트 번호를 입력하거나 <엔터> 키를 눌러 기본값을 사용하십시오.\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=설치 프로그램으로 설치할 기능을 선택하십시오.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=쉼표로 구분된 번호 목록으로 설치될 기능\u000A   을 나타내는 번호를 입력하십시오
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=설치 세트를 선택합니다.
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=사용자 정의
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=설치에 대한 오류 설정 제품 기능
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=설치된 응용 프로그램에 사용할 Java VM을 선택하십시오
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Java Virtual Machine을 선택하십시오
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=입력한 경로가 유효한 Java Virtual Machine을 가리키지 않습니다. 다시 선택하십시오.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=설치된 응용 프로그램에 사용할 Java VM을 선택하십시오
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Java Virtual Machine을 선택하십시오
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=JAVA VM에 대한 번호를 입력하거나 <ENTER> 키를 눌러 현재 선택값을 사용합니다
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=선택한 JAVA VM 실행 파일에 대한 절대 경로를 입력하십시오   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=JAVA 실행 파일 경로는:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=이 설치 프로그램에 포함된 Java Virtual Machine을 설치할 수 없습니다.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=이 응용 프로그램에 특별히 사용할 Java VM을 설치합니다
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=시스템에 이미 설치된 Java VM을 선택하십시오
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=다른 항목을 선택하십시오... (&O)
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=열기
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=이 응용 프로그램에 특별히 사용할 Java VM을 설치합니다
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java Runtime 환경
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=찾은 위치: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=검색 중단 (&S)
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=다른 파일 검색 (&S)
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=검색 완료.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=시스템에 이미 설치된 Java VM을 선택하십시오
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=오류!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=선택한 응용 프로그램은 유효한 Java Virtual Machine이 아닙니다.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Java VM을 선택하십시오
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=오류: 오류: 적합한 Java Virtual Machines을 찾을 수 없습니다.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=이 제품은 Java Virtual Machine이 시스템에 먼저 설치되어 있어야 사용이 가능합니다. http://java.sun.com를 참고하여 플랫폼에 맞는 VM을 다운로드하십시오.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Java VM을 선택하십시오
+
+
+ChooseSCMFeaturesConsole.visualName=선택적 SCM 기능 선택
+ChooseSCMFeaturesConsole.title=선택적 SCM 기능 선택
+ChooseSCMFeaturesConsole.instructions=SCM 기능 선택 지침
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=<ENTER> 키를 눌러 계속
+
+# ................. =Y
+ConsoleUtils.yesChar=Y
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=맞습니까?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=입력한 값 중 하나가 적합하지 않습니다. 다시 선택하십시오.
+
+#............... =back
+ConsoleUtils.back=뒤로
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=설치 제거하기 원하는 기능의 체크 표시를 제거하십시오. 체크 표시된 기능은 설치됩니다.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=설치 제거하기 원하는 기능에 체크 표시하십시오. 체크 표시되지 않은 기능은 설치됩니다.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=제품 기능을 선택하십시오.
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=설치 프로그램이 설치할 기능을 선택하십시오.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=설치 제거하기 원하는 기능의 체크 표시를 제거하십시오. 체크 표시된 기능은 설치됩니다.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=설치 제거하기 원하는 기능에 체크 표시하십시오. 체크 표시되지 않은 기능은 설치됩니다.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=제품 기능을 선택하십시오.
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=쉼표로 구분된 번호 목록으로 선택 또는 선택 해제할 기능을 나타내는 번호를 입력하십시오. 기능에 대한 설명은  '?<번호>'를 입력합니다. 모두 마쳤으면 <리턴> 키를 누릅니다:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=설치 세트
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=제품 기능을 선택하십시오.
+
+#............................... =Description
+CustomizeBundlesPanel.description=설명
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=설치에 필요한 전체 공간:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=새 미디어를 삽입하십시오
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=#NAME#을(를) 삽입하거나 '찾아보기...'를 선택하여 수동으로 찾아보십시오.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=잘못된 미디어 볼륨
+# .................... =Browse
+DiskNeededDialog.locate=찾아보기
+
+# .................. =Cancel
+DiskNeededDialog.quit=취소
+
+# ...................... =OK
+DiskNeededDialog.continue=확인
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=새 미디어를 삽입하십시오
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=#NAME#을(를) 삽입하거나 수동으로 경로를 선택하십시오.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=#NAME#을(를) 삽입하십시오.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=예상 디스크 위치: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=#NAME#을(를) 삽입하거나 해당 위치를 입력하십시오.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=됐습니다. XXX가 삽입되었습니다.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=설치 프로그램 데이터로의 경로를 선택하십시오.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=설치를 취소하고 종료하십시오.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=선택한 것을 입력하십시오
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=디스크 상의 'INSTALLERDATA' 폴더에 경로를 입력하십시오
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=시스템 환경이 변경되었습니다. 변경 내용을 적용하려면 로그 아웃하거나 시스템을 재시작해야 합니다.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=시스템 환경 변경
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=종료
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=설치가 완료되지 않음
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=설치가 완료되지 않음
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=지금 설치를 취소하면 $PRODUCT_NAME$이(가) 설치되지 않습니다. 설치를 계속하려면 '재시작'을 누릅니다. 설치를 취소하려면 '종료'를 누릅니다.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=지금 설치를 취소하면 $PRODUCT_NAME$이(가) 설치되지 않습니다. 설치 제거를 계속하려면 '재시작'을 누릅니다. 설치를 취소하려면 '종료'를 누릅니다.
+
+# .......... =Resume
+ExitDialog.ok=재시작
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=제거 설치 취소
+
+# ............. =Cancel Installation
+ExitDialog.install.title=설치 취소
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=모두 예
+
+# ....................... =No to All
+FileAlreadyExists.noAll=모두 아니오
+
+# ....................... =Yes
+FileAlreadyExists.yes=예
+
+# ....................... =No
+FileAlreadyExists.no=아니오
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=기존 파일을 덮어쓸까요?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage="XXX\" 라고 불리는 파일이 이미\"XXX\"에\있습니다.
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage="XXX\"라고 불리는 보다 새로운 파일이 이미\"XXX\"에\있습니다.
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage="XXX\" 라고 불리는 보다 오래된 파일이 이미\"XXX\"에\있습니다.
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=기존 파일을 덮어 쓰시겠습니까?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=파일/폴더를 선택하십시오: (&F)
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=선택
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=아래 목록에 파일이 추가되었습니다.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=검색된 파일이 아래에 나열됩니다.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=아래 목록에 폴더가 추가되었습니다.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=검색된 파일이 아래에 나열됩니다.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=일치하는 파일 찾음:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=일치하는 폴더 찾음:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=찾은 위치:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=다른 항목을 선택하십시오... (&O)
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=찾기:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=사용자 자신에 맞게 선택하십시오.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=일치하는 파일 검색 중:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=일치하는 폴더 검색 중:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=검색 중
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=선택
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=설치 프로그램이 일치하는 내용을 찾을 수 없습니다:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=선택됨:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=폴더 선택
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=취소
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=새 폴더를 만듭니다
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=폴더:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=이름:
+
+# ..................... =OK
+FolderSelectDialog.okStr=확인
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=맞습니까?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=<ENTER> 키를 눌러 계속
+
+# ............................ =Error:
+GenericConsoleStrings.exception=오류:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=기다려 주십시오. $PRODUCT_NAME$이(가) 시스템을 구성하고 있습니다. 시간이 좀 걸릴 수 있습니다...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=기다려 주십시오
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=설치를 계속하려면 비밀 번호가 필요합니다.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=비밀 번호를 입력하십시오: (&W)
+
+# .................. =Enter Password
+GetPassword.stepTitle=비밀번호를 입력하십시오
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=오류!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=입력한 비밀 번호가 정확하지 않습니다. 다시 입력하십시오.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=비밀번호를 입력하십시오
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=확인
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=계속하려면 비밀 번호가 필요합니다.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=설치를 계속하려면 비밀 번호가 필요합니다.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=입력한 비밀 번호가 정확하지 않습니다. 다시 입력하십시오.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=비밀 번호를 입력하십시오:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=계속하려면 비밀 번호가 필요합니다.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=비밀번호를 입력하십시오
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=원하는 선택을 나타내는 번호를 쉼표로 구분된 번호 목록으로 입력하십시오
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=원하는 선택을 나타내는 번호를 쉼표로 구분된 번호 목록으로 입력하거나 <엔터> 키를 눌러 기본값을 사용하십시오.
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=선택할 번호를 입력하십시오.
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=선택할 번호를 입력하거나  <엔터> 키를 눌러 기본값을 사용하십시오:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=지금은 설치 프로그램을 종료할 수 없습니다.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=지금은 이전 단계로 이동할 수 없습니다.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=중요한 정보
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=계속하기 전에 읽어 주십시오:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=중요한 정보 끝. <ENTER> 키를 눌러 계속
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=중요한 정보
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=계속하기 전에 읽어 주십시오:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=응용 프로그램
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=응용 프로그램 기능을 설치합니다.
+
+# .......................... =Help
+InstallBundle.help.bundleName=도움말
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=도움말 기능을 설치합니다.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=축하합니다! $PRODUCT_NAME$ (은)는 다음 위치에 성공적으로 설치되었습니다:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000A"완료"를 눌러 설치 프로그램을 종료합니다.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=설치 완료
+InstallCompleteAction.stepTitle=설치 완료
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=$PRODUCT_NAME$ 설치가 완료되었으나, 설치 도중 오류가 발생했습니다. \u000A\u000A자세한 내용을 원하면, 설치 로그를 보십시오. "완료"를 눌러 설치 프로그램을 종료합니다.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=설치 완료
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=설치 완료
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=축하합니다. $PRODUCT_NAME$이(가) 다음 위치에 성공적으로 설치되었습니다:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=<ENTER> 키를 눌러 설치 프로그램을 종료합니다
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=$PRODUCT_NAME$ 설치가 완료되었으나, 설치 도중 오류가 발생했습니다. \u000A   자세한 내용을 원하면, 설치 로그를 보십시오.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=$PRODUCT_NAME$ 설치가 완료되었으나, 설치 도중 오류가 발생했습니다. \u000A   자세한 내용을 원하면, 설치 로그를 보십시오. "완료"를 눌러 설치 프로그램을 종료합니다.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=<ENTER> 키를 눌러 설치 프로그램을 종료합니다
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=설치 완료
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=이 설치에 사용할 대상 폴더를 선택하십시오.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=설치 폴더를 선택하십시오
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=어디에 설치할까요? (&W)
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=설치 폴더를 선택하십시오
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=절대 경로를 입력하거나 <ENTER> 키를 눌러 기본값을 사용합니다   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=절대 경로를 입력하거나, '기본값'을 입력하여 기본값 폴더를 복원하거나, <ENTER> 키를 눌러 선택한 폴더를 사용합니다
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=기본값 설치 폴더: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=선택한 설치 폴더: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=설치 폴더: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=입력된 경로: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=이(가) 대상 시스템에 있는 파일을 지정하고 있습니다. \u000A설치 프로그램은 새 폴더로 기존 파일을 덮어 쓸 수 없습니다. \u000A다른 설치 위치를 선택하십시오.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=선택한 설치 위치에 대한 쓰기 권한이 없습니다. \u000A다른 위치를 선택하십시오.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=어디에 설치할까요?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=오류!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=선택한 설치 위치에 대한 쓰기 권한이 없습니다. \u000A다른 위치를 선택하십시오.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=설치 폴더를 선택하십시오
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=설치 대상으로 지정한 경로에 이 플랫폼에서 올바르지 않은 하나 이상의 문자가 있습니다. \u000A다른 설치 위치를 선택하십시오.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=선택하십시오... (&O)
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=기본 폴더 복원 (&R)
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=안에
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=폴더
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=디스크에
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=설치
+
+# ....................... =Introduction
+Installer.installLabels.00=소개
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=설치 폴더를 선택하십시오
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=$SHORTCUT_NAME$ 폴더를 선택하십시오.
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=사전 설치 요약
+
+# ....................... =Installing...
+Installer.installLabels.04=설치 중...
+
+# ....................... =Install Complete
+Installer.installLabels.05=설치 완료
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=이 시스템에서 설치 프로그램을 실행할 수 없습니다.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=설치 프로그램을 설정된 구성에서 실행할 수 없습니다. 종료합니다.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=설치 프로그램 사용자 인터페이스 모드가 지원되지 않습니다.
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=이 모드에서 설치 프로그램을 실행할 수 없습니다. 이 설치 프로그램을 실행하는 방법은 설치 프로그램 설명서를 참고하십시오.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=설치 프로그램 UI 모드 오류
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=$PRODUCT_NAME$을(를) 설치 제거 하십시오
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=축하합니다! $PRODUCT_NAME$ (은)는 다음 위치에 성공적으로 설치되었습니다:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000A"완료"를 눌러 설치 프로그램을 종료합니다.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=$PRODUCT_NAME$의 설치는 완료되었으나, 설치 도중 경고가 발생했습니다. 자세한 내용을 원하면, 설치 로그를 보십시오.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=$PRODUCT_NAME$의 설치는 완료되었으나, 설치 도중 오류가 발생했습니다. 자세한 내용을 원하면, 설치 로그를 보십시오.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=$PRODUCT_NAME$의 설치는 완료되었으나, 설치 도중 치명적인 오류가 발생했습니다. 자세한 내용을 원하면, 설치 로그를 보십시오.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=설치를 완료하려면 시스템을 다시 시작해야 합니다.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=설치를 완료하려면 시스템을 다시 시작해야 할 필요가 있습니다.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=설치 완료
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=예, 시스템을 다시 시작하십시오
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=아니오, 나중에 시스템을 다시 시작하겠습니다
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=설치 중...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=설치 취소 중...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=설치 중...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=사전 설치 요약
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=계속하기 전에 다음 사항을 검토해 주십시오:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=사전 설치 요약
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=<ENTER> 키를 눌러 계속합니다. 정보가 정확하지 않으면 '뒤로'를 입력하여 변경합니다   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=제품 이름:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=설치 폴더:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=폴더 바로 가기:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=링크 폴더:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=앨리어스 폴더:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=사용자 정의된 맞춤 설치 세트
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=설치 세트
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=제품 구성 요소:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM 설치 폴더:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=설치된 제품에 사용할 Java VM:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=(설치 대상 시스템에 대한) 디스크 용량 정보: 
+
+# ...................... =Required:
+InstallSummaryUI.required=필요:
+
+# .................. =bytes
+InstallSummaryUI.byte=바이트
+
+# ....................... =Available:
+InstallSummaryUI.available=사용 가능한 공간:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=이 옵션을 선택하여 설치할 기능을 사용자 정의하십시오.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=사용자 정의
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=필요한 응용 프로그램 기능만 설치됩니다. 이 옵션은 제한된 디스크 용량의 사용자에게만 권장됩니다.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=최소
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=가장 일반적인 응용 프로그램 기능이 설치됩니다. 이 옵션은 대부분의 사용자에게 권장됩니다.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=일반
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere가 $PRODUCT_NAME$의 설치를 안내해 줍니다. \u000A\u000A이 설치를 계속하기 전에 모든 프로그램을 반드시 종료할 것을 권장합니다. \u000A\u000A'다음'을 눌러 다음 화면으로 넘어갑니다. 이전 화면에서 어떤 사항을 변경하기 원하면 '이전' 버튼을 누르십시오. \u000A\u000A'취소' 버튼을 눌러 언제라도 이 설치를 취소할 수 있습니다.
+
+# .................. =Introduction
+IntroAction.stepTitle=소개
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere가 $PRODUCT_NAME$의 설치를 안내해 줍니다. \u000A\u000A이 설치를 계속하기 전에 모든 프로그램을 반드시 종료할 것을 권장합니다. \u000A\u000A설치 중에 각각의 물음에 대답하여 다음 단계로 넘어갑니다. 이전 단계의 어떤 것을 변경하기 원하면 '뒤로'를 입력합니다. \u000A\u000A'종료'를 입력하여 언제라도 설치를 취소할 수 있습니다.
+
+# ..................... =Introduction
+IntroActionConsole.title=소개
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=웹 브라우저에서 URL을 열 수 없습니다.
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere가 사용자 시스템에 기본 설정된 웹 브라우저에서 요청된 URL ($ACTION_URL$)을 열 수 없습니다. 이 URL을 보려면 사용자가 선택한 웹 브라우저 윗부분에 있는 주소를 입력하십시오.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=사용권 계약
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=$PRODUCT_NAME$을(를) 설치 및 사용하려면 다음 사용권 계약에 동의해야 합니다:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=사용권 계약
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=$PRODUCT_NAME$을(를) 설치 및 사용하려면 다음 사용권 계약에 동의해야 합니다:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=본 사용권 계약에 동의하십니까?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=종료
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=재시작
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=사용권 계약 경고
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=경고!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=사용권 계약에 동의하지 않으면 설치를 계속할 수 없습니다.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=사용권 계약에 동의하지 않습니다 (&T)
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=미리 볼 파일 없음
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=사용권 계약에 동의합니다 (&A)
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=파일 선택 안됨
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=<엔터> 키를 입력하여 다음을 확인하십시오.
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=원하는 선택 번호를 입력하거나 <엔터> 키를 눌러 기본값을 사용하십시오.
+
+# ........................... =OK
+PromptUserConsole.option0Label=확인
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=취소
+
+# ........................... =Details...
+PromptUserConsole.option2Label=자세히...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere가 $PRODUCT_NAME$을(를) 시스템의 다음 위치에 설치 준비 중입니다:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=<ENTER> 키를 눌러 설치합니다
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=설치 준비
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere가 종료 중입니다. 기다려 주십시오...
+
+# ............... =Cleaning up...
+RemoveDialog.title=정리 중...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=설치를 계속하려면 시리얼 번호가 필요합니다.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=시리얼 번호를 입력하십시오: (&B)
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=시리얼 번호를 입력하십시오
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=오류!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=입력한 시리얼 번호가 정확하지 않습니다. 다시 입력하십시오.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=시리얼 번호를 입력하십시오
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=확인
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=계속하려면 시리얼 번호가 필요합니다.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=설치를 계속하려면 시리얼 번호가 필요합니다.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=입력한 시리얼 번호가 정확하지 않습니다. 다시 입력하십시오.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=시리얼 번호를 입력하십시오:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=계속하려면 시리얼 번호가 필요합니다.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=시리얼 번호를 입력하십시오
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=별칭
+
+#............... =Link
+ShortcutName.link=링크
+
+#................... =Shortcut
+ShortcutName.shortcut=바로 가기
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=앨리어스를 어디에 만들까요?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=별칭 폴더를 선택합니다.
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=링크 폴더를 선택합니다.
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=링크를 어디에 만들까요?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=제품 아이콘을 어디에 만들까요?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=바로 가기 위치를 선택하십시오
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=일반 그룹
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=현재 사용자 그룹
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=폴더
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=디스크에
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=기본값: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=현재: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=다른 위치를 선택하십시오...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=위 옵션에 대한 번호를 입력하거나 <ENTER> 키를 눌러 기본값을 사용합니다   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=위 옵션에 대한 번호를 입력하거나 <ENTER> 키를 눌러 현재 선택값을 사용합니다
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=폴더 바로 가기에 대한 절대 경로를 입력하십시오   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=바로 가기 위치는: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=링크 위치를 선택하십시오
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=링크를 어디에 만들까요?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=바로 가기 위치를 선택하십시오
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=제품 아이콘을 어디에 만들까요?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=앨리어스 위치를 선택하십시오
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=앨리어스를 어디에 만들까요?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Apple 메뉴
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Dock에서
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=바탕 화면에
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=앨리어스 만들지 말기
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=기타:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=링크 만들지 말기
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=아이콘 만들지 말기
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=사용자 홈 폴더
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=바탕 화면에
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=새 프로그램 그룹:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=기존의 프로그램 그룹:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=빠른 실행 표시줄에서 (&Q)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=시작 메뉴
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=모든 사용자가 사용할 아이콘을 만듭니다 
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=오류!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=선택한 위치에 대한 쓰기 권한이 없습니다. 다른 위치를 선택하십시오.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=Apple 메뉴 (&A)
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=Dock에서 (&K)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=바탕 화면에 (&D)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=바탕 화면에 (&D)
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=선택하십시오...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=앨리어스 만들지 말기
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=기타: (&O)
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=링크 만들지 말기 (&T)
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=아이콘 만들지 말기 (&T)
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=사용자 홈 폴더 (&M)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=바탕 화면에 (&D)
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=새 프로그램 그룹: (&G)
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=기존의 프로그램 그룹: (&E)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=시작 메뉴 (&S)
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=모든 사용자가 사용할 아이콘을 만듭니다 (&A)
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=확인
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=취소
+
+# .......................... =Details...
+ShowDialogAction.button2Label=자세히...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=날짜:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=사용권 ID:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=스크립트 버전:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=버전:
+
+# ............... =Done
+StepMaster.doneStr=완료 (&D)
+
+# ............... =Cancel
+StepMaster.exitStr=취소 (&C)
+
+# ............... =Help
+StepMaster.helpStr=도움말 (&H)
+
+# .................. =Install
+StepMaster.installStr=설치 (&I)
+
+# ............... =Next
+StepMaster.nextStr=다음 (&N)
+
+# ............... =Previous
+StepMaster.prevStr=이전 (&P)
+
+# ............... =Close
+StepMaster.closeStr=닫기
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=모든 항목이 성공적으로 설치 제거되었습니다.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=설치 제거 완료
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=다음 항목은 제거될 수 없습니다:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=제거할 수 없습니다
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=설치 제거를 완료하려면 시스템을 다시 시작해야 할 필요가 있습니다.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=설치 제거를 완료하려면 시스템을 다시 시작해야 합니다.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=또한 설치 제거를 완료하려면 시스템을 다시 시작해야 할 필요가 있습니다.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=또한 설치 제거를 완료하려면 시스템을 다시 시작해야 합니다.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=예, 시스템을 다시 시작하십시오
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=아니오, 나중에 시스템을 다시 시작하겠습니다
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=모든 항목이 성공적으로 설치 제거되었습니다.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=설치 제거 완료
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=다음 항목은 제거될 수 없습니다:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=설치 제거를 완료하려면 시스템을 다시 시작해야 할 필요가 있습니다.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=설치 제거를 완료하려면 시스템을 다시 시작해야 합니다.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=설치 제거 완료
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=모든 항목이 성공적으로 설치 제거되었습니다.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=일부 항목은 제거될 수 없었습니다.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=오류 때문에 설치 제거를 완료할 수 없습니다.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=$PRODUCT_NAME$을(를) 설치 제거하십시오
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere 설치 제거 프로그램
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=소개
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=설치 제거 중...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=설치 제거 완료
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=설치 제거 중... \u000A\u000A$PRODUCT_NAME$\u000A\u000AInstallAnywhere로 설치한 모든 기능이 완전히 제거됩니다. 설치 후에 작성된 파일과 폴더는 제거되지 않습니다.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=$PRODUCT_NAME$을(를) 설치 제거하십시오
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=설치 제거 중... \u000A\u000A$PRODUCT_NAME$\u000A\u000AInstallAnywhere로 설치한 모든 기능이 완전히 제거됩니다. 설치 후에 작성된 파일과 폴더는 제거되지 않습니다.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=$PRODUCT_NAME$을(를) 설치 제거하십시오
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=취소
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=종료
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=도움말
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=설치 제거 (&U)
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=작업이 지원되지 않기 때문에 완료할 수 없습니다.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=정리 중...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=원래 패키지...
+
+# ............... =Files...
+UninstallMgr.Files=파일...
+
+# ................. =Folders...
+UninstallMgr.Folders=폴더...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=링크...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=앨리어스...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=바로 가기...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=이 시스템에 더 이상 합당한 Java 가상 기계가 없기 때문에 제품이 설치 제거될 수 없었습니다. Java 가상 기계를 설치하고 다시 시도해 보십시오. 
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 폴더
+
+# ................... =Preparing...
+UninstallMgr.Preparing=준비 중...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=소프트웨어 데이터베이스...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=레지스트리...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 폴더
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=정리할 수 없음
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=원래 패키지를 제거할 수 없음
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=파일을 제거할 수 없습니다
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=폴더를 제거할 수 없습니다
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Java VM 기능을 제거할 수 없습니다.
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=링크를 제거할 수 없습니다
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=앨리어스를 제거할 수 없습니다
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=바로 가기를 제거할 수 없습니다
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=할 수 없음
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=1 파일을 제거할 수 없습니다
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=2 파일을 제거할 수 없습니다
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=소프트웨어 데이터베이스를 제거할 수 없습니다
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=레지스트리 키를 제거할 수 없습니다
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=시스템 재시작 요구됨
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=시스템이 다시 시작될 때까지 설치 제거기를 실행하지 않을 것을 권장합니다. 설치 제거기를 그만 두려면 \"취소\"에 클릭을 하거나 그래도 설치 제거를 하려면 \"계속\"에 클릭을 하십시오.
+
+# ................ =Continue
+UninstallRestart.continue=계속
+
+# ................ =Cancel
+UninstallRestart.exit=취소
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=InstallAnywhere 설치 제거 프로그램이 작업하는 동안 기다려 주십시오
+
+# ................ =removes the following features...
+UProgress.waitArr.1=다음 기능이 제거됩니다...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=사용자 정의 코드 실행 중...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=실행 중...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=설치 스크립트 실행 중...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=머지 모듈 설치
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=머지 모듈 설치 중
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=원래 패키지 설치 중
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=종료
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=<엔터> 키를 눌러 설치 제거를 시작하거나 '종료'를 눌러 설치 제거 프로그램을 종료합니다:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=<엔터> 키를 눌러 설치 제거 프로그램을 종료합니다:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=파일 복사
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=폴더 복사
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=링크 작성
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=단축키 작성
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=별칭 작성
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=폴더 작성
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=LaunchAnywhere 작성
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=파일 삭제
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=폴더 삭제
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=아카이브 확장
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=SpeedFolder 설치
+
+InstallRPMPackage.visualname.self=Linux RPM 설치
+InstallSolarisPackage.visualname.self=Solaris 패키지 설치
+InstallHPUXPackage.visualname.self=HP-UX Depot 설치
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=파일 이동
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=폴더 이동
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Windows 서비스 등록
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=시스템 환경 변수 설정
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Windows 레지스트리 설정
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=ANT 스크립트 실행
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=명령 실행
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=사용자 정의 코드 실행
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=스크립트 실행
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=대상 파일 실행
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=레지스트리에서 구성 요소 찾기
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Windows 레지스트리 항목 얻기
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=텍스트 파일 변경
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=XSL 변형 실행
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=출력 디버그 정보
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=콘솔에 출력 텍스트
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=메시지 대화 상자 표시
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Windows 서비스 시작
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Windows 서비스 중지
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Windows 서비스 잠시 멈춤
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=폴더 찾아 보기
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=머지 모듈 설치
+Designer.Action.PowerUpdateClient.visualName=PowerUpdate Client 설치
+Designer.Action.PerformXSLTZip.visualName=XSL 변형 실행 - 아카이브에서
+Designer.Action.PerformXSLT.visualName=XSL 변형 실행
+Designer.Action.PerformXSLT.performingXSLtransform=XSL 변형 실행 중:
+Designer.Action.MakeExecutable.visualName=Java 응용 프로그램을 위한 LaunchAnywhere 만들기
+Designer.Action.InstallZipfile.visualName=저장 설치
+Designer.Action.CreateUninstaller.visualName=설치 제거기 만들기
+Designer.Action.BOMAction.visualName=Manifest에서 설치
+Designer.Action.ExpandArchive.visualName=아카이브 확장
+Designer.Action.ExecuteScript.visualName=스크립트/배치 파일 실행
+Designer.Action.Exec.visualName=명령 실행
+Designer.Action.visualName=대상 파일 실행
+Designer.Action.AntRunner.visualName=ANT 스크립트 실행
+Designer.Actions.ShowDialogAction.visualName=메시지 대화 상자 표시
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=제거 후 조치
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=제거 전 조치
+
+Designer.Action.EvaluateDependenciesAction.visualName=종속성 평가
+
+ActionGroup.visualName.self=조치 그룹
+
+Designer.Action.UpdateServiceClient.visualName=업데이트 알림 사용
+Designer.FolderConstants.programsDir64Name=프로그램 폴더 (64비트)
+Designer.FolderConstants.programsDir32Name=프로그램 폴더 (32비트)
+Designer.FolderConstants.system64Name=시스템 폴더 (64비트)
+Designer.FolderConstants.system32Name=시스템 폴더 (32비트)
+Designer.FolderConstants.variableMagicFolder=가변 Magic Folder
+Installer.Actions.UpdateServiceClient.badClasspath=us.jar을 로드하기 위한  #UPDATE_SERVICE# URL이 올바르지 않습니다.
+Installer.Actions.UpdateServiceClient.badUsJar=#UPDATE_SERVICE# 라이브러리에 등록을 위해 필요한 클래스가 들어 있지 않습니다. 제공된 jar이 올바르지 않을 수도 있습니다.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=#UPDATE_SERVICE# 클래스에 등록을 위해 필요한 메서드가 들어 있지 않습니다.
+Installer.installLog.actionNotes=작업 참고:
+Installer.installLog.installLogDetail=설치 로그 정보:
+Installer.installLog.installation=설치: 
+Installer.installLog.unsuccessful=실패
+Installer.installLog.successful=성공
+Installer.installLog.withErrors=(오류 포함)
+Installer.installLog.withwarnings=(경고 포함)
+Installer.installLog.cancelled=취소됨
+Installer.installLog.duringPostInstall=(설치 후 작업 중)
+Installer.installLog.duringInstall=(설치 중)
+Installer.installLog.duringPreInstall=(설치 전 작업 중)
+Installer.installLog.cancelledBeforePreInstallation=설치 전 작업 전에 사용자가 설치를 취소했습니다
+Installer.installLog.cancelledDuringPreInstallation=설치 전 작업 중에 사용자가 설치를 취소했습니다
+Installer.installLog.cancelledDuringInstallation=설치 중에 사용자가 설치를 취소했습니다
+Installer.InstallLog.cancelledDuringPostInstallation=설치 후 또는 설치 후 작업 중에 사용자가 설치를 취소했습니다
+Installer.installLog.successes=성공
+Installer.installLog.warnings=경고
+Installer.installLog.nonFatalErrors=치명적이지 않은 오류
+Installer.installLog.fatalErrors=치명적 오류
+Installer.installLog.details=자세히
+Installer.installLog.nothingWasInstalled=아무 것도 설치되지 않았습니다.
+Installer.installLog.none=없음
+Installer.installLog.summary=요약
+Installer.installLog.installedBy=Macrovision의 InstallAnywhere #BUILD_INFO#(으)로 설치
+Installer.installLog.status=상태: 
+Installer.installLog.additionalNotes=추가 참고: 
+Installer.installLog.exceptionClass=예외 클래스: 
+Installer.installLog.exceptionMessage=예외 메시지: 
+Installer.installLog.exceptionStackTrace=예외 스택 추적:
+Installer.installLog.successLevel.successful=성공
+Installer.installLog.successLevel.warning=경고
+Installer.installLog.successLevel.error=오류
+Installer.installLog.successLevel.fatalError=치명적 오류
+Installer.installLog.successLevel.unsupported=지원되지 않는 오류 수준
+Installer.installLog.successLevel.notice=참고
+Installer.installLog.action.description=설치 작업:
+Installer.installLog.antRunner.description=ANT 스크립트 실행:
+Installer.installLog.antRunner.script=스크립트: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=선택한 대상 없음
+Installer.installLog.asciiFileManipulator.newFile=새 파일 
+Installer.installLog.copyDirectory.description=디렉터리 복사:
+Installer.installLog.copyFile=파일 복사:
+Installer.installLog.copyFileAction.destination=대상: 
+Installer.installLog.createShortcut.createShortcut=바로 가기 만들기:
+Installer.installLog.createShortcut.createAlias=별칭 만들기:
+Installer.installLog.createShortcut.createLink=링크 만들기:
+Installer.installLog.deleteFileAction.source=원본:
+Installer.installLog.editEnvironment.description=환경 변수 설정:
+Installer.installLog.expandFile.description=아카이브 확장:
+Installer.installLog.getRegEntry.description=레지스트리 항목 얻기:
+Installer.installLog.getRegEntry.key=키: 
+Installer.installLog.getRegEntry.value=값 이름: 
+Installer.installLog.installDirCont.description=Speedfolder 설치:
+Installer.installLog.installDirectory.description=디렉터리 설치:
+Installer.installLog.installFile.description=파일 설치:
+Installer.installLog.installNTService.description=NT 서비스 등록:
+Installer.installLog.installUninstaller.description=설치 제거 프로그램 설치:
+Installer.installLog.installUninstaller.note=(모든 설치 제거 프로그램 구성 요소 설치)
+Installer.installLog.makeExecutable.description=LaunchAnywhere 만들기:
+Installer.installLog.makeExecutable.note=(모든 LaunchAnywhere Java 실행 파일 구성 요소 설치)
+Installer.installLog.makeRegEntry.description=레지스트리 항목 만들기:
+Installer.installLog.makeRegEntry.key=키:
+Installer.installLog.makeRegEntry.name=값 이름:
+Installer.installLog.makeRegEntry.data=값 데이터:
+Installer.installLog.speedRegistry.description=레지스트리 항목:
+Installer.installLog.subinstaller.description=머지 모듈 설치:
+Installer.installLog.subuninstaller.description=설치 제거 프로그램 실행:
+Installer.installLog.customAction.description=사용자 지정 조치:
+Installer.installLog.userInteractions=사용자 상호 작용
+Installer.installLog.installBegin=설치 시작:
+Installer.installLog.installEnd=설치 종료:
+Installer.installLog.freeMemory=사용 가능 메모리:
+Installer.installLog.totalMemory=총 메모리:
+Installer.installLog.commandLineArgs=명령줄 인수:
+Installer.installLog.noArguments=인수 없음
+Designer.Action.HTMLPanelAction.visualName=창: HTML 표시
+HTMLPanelAction.title=HTML 창
+Designer.Action.UninstallIsmpSoftware.visualName=InstallShield Universal Software 설치 제거
+Installer.unexpectedChanges.message=설치 관리자가 설치 스크립트에서 예상치 못한 변경 사항을 발견했습니다.
+﻿Installer.unexpectedChanges.title=오류
+Installer.unexpectedChanges.label=설치 관리자를 시작할 수 없습니다.

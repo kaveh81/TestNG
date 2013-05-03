@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:44" />
+    <title>Defining Installer Exit Codes</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1054624"> </a><h1 class="pHeading1">
+Defining Installer Exit Codes
+</h1>
+<a name="wp1072348"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1054789"> </a><p class="pa_Body">
+By default, an installation process returns zero (0) to the environment if it was successful and a nonzero value if it was not. The possible exit codes returned during an installation and their definitions are listed below.</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1054792table1054790">
+  <caption><a name="wp1054792"> </a><p class="ptt_Table_Title">
+Installer Exit Codes&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1054796"> </a><p class="ptch_Table_Cell_Heading">
+Code
+</p>
+</th>
+    <th><a name="wp1054798"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1055198"> </a><p class="ptck_Table_Cell_Key_Column">
+0
+</p>
+</td>
+    <td><a name="wp1055200"> </a><p class="ptca_Table_Cell_Body">
+Success: The installation completed successfully without any warnings or errors.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055293"> </a><p class="ptck_Table_Cell_Key_Column">
+1
+</p>
+</td>
+    <td><a name="wp1055300"> </a><p class="ptca_Table_Cell_Body">
+The installation completed successfully, but one or more of the actions from the installation sequence caused a warning or a non-fatal error.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055304"> </a><p class="ptck_Table_Cell_Key_Column">
+-1
+</p>
+</td>
+    <td><a name="wp1055311"> </a><p class="ptca_Table_Cell_Body">
+One or more of the actions from the installation sequence caused a fatal error.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054800"> </a><p class="ptck_Table_Cell_Key_Column">
+1000
+</p>
+</td>
+    <td><a name="wp1054802"> </a><p class="ptca_Table_Cell_Body">
+The installation was cancelled by the user.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054804"> </a><p class="ptck_Table_Cell_Key_Column">
+1001
+</p>
+</td>
+    <td><a name="wp1054806"> </a><p class="ptca_Table_Cell_Body">
+The installation includes an invalid command line option.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054808"> </a><p class="ptck_Table_Cell_Key_Column">
+2000
+</p>
+</td>
+    <td><a name="wp1054810"> </a><p class="ptca_Table_Cell_Body">
+Unhandled error.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054812"> </a><p class="ptck_Table_Cell_Key_Column">
+2001
+</p>
+</td>
+    <td><a name="wp1054814"> </a><p class="ptca_Table_Cell_Body">
+The installation failed the authorization check, may indicate an expired version.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054816"> </a><p class="ptck_Table_Cell_Key_Column">
+2002
+</p>
+</td>
+    <td><a name="wp1054818"> </a><p class="ptca_Table_Cell_Body">
+The installation failed a rules check. A rule placed on the installer itself failed.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054820"> </a><p class="ptck_Table_Cell_Key_Column">
+2003
+</p>
+</td>
+    <td><a name="wp1054822"> </a><p class="ptca_Table_Cell_Body">
+An unresolved dependency in silent mode caused the installer to exit.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054824"> </a><p class="ptck_Table_Cell_Key_Column">
+2004
+</p>
+</td>
+    <td><a name="wp1054826"> </a><p class="ptca_Table_Cell_Body">
+The installation failed because not enough disk space was detected during the execution of the Install action.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054828"> </a><p class="ptck_Table_Cell_Key_Column">
+2005
+</p>
+</td>
+    <td><a name="wp1054830"> </a><p class="ptca_Table_Cell_Body">
+The installation failed while trying to install on a Windows 64-bit system, but installation did not include support for Windows 64-bit systems.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054832"> </a><p class="ptck_Table_Cell_Key_Column">
+2006
+</p>
+</td>
+    <td><a name="wp1054834"> </a><p class="ptca_Table_Cell_Body">
+The installation failed because it was launched in a UI mode that is not supported by this installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054836"> </a><p class="ptck_Table_Cell_Key_Column">
+3000
+</p>
+</td>
+    <td><a name="wp1054991"> </a><p class="ptca_Table_Cell_Body">
+Unhandled error specific to a launcher.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054840"> </a><p class="ptck_Table_Cell_Key_Column">
+3001
+</p>
+</td>
+    <td><a name="wp1055067"> </a><p class="ptca_Table_Cell_Body">
+The installation failed due to an error specific to the lax.main.class property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054844"> </a><p class="ptck_Table_Cell_Key_Column">
+3002
+</p>
+</td>
+    <td><a name="wp1055073"> </a><p class="ptca_Table_Cell_Body">
+The installation failed due to an error specific to the lax.main.method property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054848"> </a><p class="ptck_Table_Cell_Key_Column">
+3003
+</p>
+</td>
+    <td><a name="wp1055079"> </a><p class="ptca_Table_Cell_Body">
+The installation was unable to access the method specified in the lax.main.method property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054852"> </a><p class="ptck_Table_Cell_Key_Column">
+3004
+</p>
+</td>
+    <td><a name="wp1054854"> </a><p class="ptca_Table_Cell_Body">
+The installation failed due to an exception error caused by the lax.main.method property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054856"> </a><p class="ptck_Table_Cell_Key_Column">
+3005
+</p>
+</td>
+    <td><a name="wp1055107"> </a><p class="ptca_Table_Cell_Body">
+The installation failed because no value was assigned to the lax.application.name property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054860"> </a><p class="ptck_Table_Cell_Key_Column">
+3006
+</p>
+</td>
+    <td><a name="wp1054862"> </a><p class="ptca_Table_Cell_Body">
+The installation was unable to access the value assigned to the lax.nl.java.launcher.main.class property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054864"> </a><p class="ptck_Table_Cell_Key_Column">
+3007
+</p>
+</td>
+    <td><a name="wp1055125"> </a><p class="ptca_Table_Cell_Body">
+The installation failed due to an error specific to the lax.nl.java.launcher.main.class property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055137"> </a><p class="ptck_Table_Cell_Key_Column">
+3008
+</p>
+</td>
+    <td><a name="wp1055141"> </a><p class="ptca_Table_Cell_Body">
+The installation failed due to an error specific to the lax.nl.java.launcher.main.method property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054868"> </a><p class="ptck_Table_Cell_Key_Column">
+3009
+</p>
+</td>
+    <td><a name="wp1055327"> </a><p class="ptca_Table_Cell_Body">
+The installation was unable to access the method specified in the lax.nl.launcher.java.main.method property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054872"> </a><p class="ptck_Table_Cell_Key_Column">
+4000
+</p>
+</td>
+    <td><a name="wp1054874"> </a><p class="ptca_Table_Cell_Body">
+A Java executable could not be found at the directory specified by the java.home system property.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054876"> </a><p class="ptck_Table_Cell_Key_Column">
+4001
+</p>
+</td>
+    <td><a name="wp1054878"> </a><p class="ptca_Table_Cell_Body">
+An incorrect path to the installer jar caused the relauncher to launch incorrectly.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

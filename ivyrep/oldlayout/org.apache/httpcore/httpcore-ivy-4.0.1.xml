@@ -1,0 +1,15 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="httpcore" revision="4.0.1" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="httpcore" type="jar"/>
+    <artifact name="httpcore-src" type="src" ext="jar"/>
+    <artifact name="httpcomponents-core-bin" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="httpcomponents-core-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>

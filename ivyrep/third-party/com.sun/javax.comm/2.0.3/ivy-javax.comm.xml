@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+	<info organisation="com.sun" module="javax.comm" revision="2.0.3" status="release"/>
+
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+
+	<publications>
+		<artifact name="javax.comm" ext="jar"/>
+		<!-- <artifact name="com.springsource.org.jfree.chart-sources" type="src" ext="jar"/> -->
+		<artifact name="license" type="license" ext="txt"/>
+	</publications>
+</ivy-module>

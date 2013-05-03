@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="org.hamcrest" module="hamcrest" revision="1.2" status="release">
+    <license name="bsd" url="http://code.google.com/p/hamcrest/source/browse/trunk/hamcrest-java/LICENSE.txt"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="hamcrest-core" type="jar"/>
+    <artifact name="hamcrest" type="distribution" ext="zip" conf="distribution"/>
+  </publications>
+</ivy-module>

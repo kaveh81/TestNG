@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:57" />
+    <title>Plug-ins</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1054260"> </a><h1 class="pHeading1">
+Plug-ins
+</h1>
+<a name="wp1056274"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1053848"> </a><p class="pa_Body">
+Developers can register custom code as plug-ins with the InstallAnywhere Advanced Designer. This feature allows <span style="text-decoration: underline" class="cHyperlink"><a href="javascript:WWHClickedPopup('InstallAnywhere_8_0', 'Packaging_Custom_Code_as_a_Plug_in_.htm#wp1053864');" onMouseOver="WWHShowPopup('InstallAnywhere_8_0', 'Packaging_Custom_Code_as_a_Plug_in_.htm#wp1053864', (document.all||document.getElementById||document.layers)?event:null);" onMouseOut="WWHHidePopup();">properly packaged</a></span> custom code to be integrated into the design environment, where it will appear in the action palette under the plug-ins tab. Plug-ins are stored within the &lt;InstallAnywhere&gt;/plugins folder. The advantages of packaging custom code are:
+</p>
+<a name="wp1053851"> </a><p class="pa_Body">
+The developer can add them as regular actions without having to specify the JAR and class.
+</p>
+<a name="wp1053853"> </a><p class="pa_Body">
+Custom code usually utilizes InstallAnywhere Variables for parameters and return values. If a developer wants to execute custom code multiple times in a project, it often means the global scope of InstallAnywhere variables forces the developer to be very careful with their parameters and return values. Plug-ins have a local scope for parameters.
+</p>
+<a name="wp1053855"> </a><p class="pa_Body">
+Plug-ins are easily portable across development teams.
+</p>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1053856"> </a><p class="pno_Note">
+ Macrovision is interested in distributing plug-ins developed by our developers. If you have written a plug-in that you think would be useful to other developers, and you would like to share it, please contact the Macrovision Support team.
+</p>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1053864"> </a><p class="pp_Procedure_Leading">
+To package a custom code as a plug-in:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1053865"> </a><div class="pSmartList1"><li>Package the custom code and all of its resources in a JAR (just like for regular custom code).</li></div>
+<a name="wp1053866"> </a><div class="pSmartList1"><li>Create a properties file called customCode.properties. In this properties file will be specified all of the information InstallAnywhere needs to integrate the plug-in with the Advanced Designer. Place the properties file in the JAR with no stored path information (at the root level of the JAR).<br />The properties file MUST contain the following properties:</li></div>
+<div class="pSmartList2Variant"><ul class="pSmartList2Variant">
+<a name="wp1053868"> </a><div class="pSmartList2Variant"><li>plugin.main.class=&lt;classname&gt;: this is the class that implements the proper member of the InstallAnywhere API for a custom code action, panel or console (such as a class that implements com.zerog.ia.api.pub.CustomCodeAction)</li></div>
+<a name="wp1054212"> </a><div class="pSmartList2Variant"><li>plugin.name=&lt;plug-in name&gt;: this is the name the plug-in will be displayed as in the plug-in tab of the InstallAnywhere Advanced Designer&#39;s action palette</li></div>
+<a name="wp1054215"> </a><div class="pSmartList2Variant"><li>plugin.type=&lt;action | panel | console&gt;: whether action, panel or console. This property helps InstallAnywhere determine when the plug-in can be used, and which icon to use to represent it in the Advanced Designer.</li></div>
+</ul></div>
+</ol></div>
+<a name="wp1053873"> </a><p class="pa_Body">
+The following properties MAY also be used:
+</p>
+<div class="pSmartList2Variant"><ul class="pSmartList2Variant">
+<a name="wp1053874"> </a><div class="pSmartList2Variant"><li>property.&lt;propertname&gt;=&lt;propertydefault&gt;: This property tells the plug-in to populate the action&#39;s customizer with a property named the &lt;propertyname&gt; and set to the default value of &lt;propertydefault</li></div>
+<a name="wp1054221"> </a><div class="pSmartList2Variant"><li>plugin.icon.path=&lt;relative path to .png or .jpg file in JAR&gt;: This property sets a custom 32x32 icon for the custom code plug-in in the Advanced Designer</li></div>
+<a name="wp1054224"> </a><div class="pSmartList2Variant"><li>plugin.available=&lt;preinstall | install | postinstall | preuinstall | postunintall&gt;: This property is a comma separated value list to tell the Advanced Designer for which tasks to make the plug-in available. </li></div>
+</ul></div>
+<a name="wp1053879"> </a><p class="pa_Body">
+The following is an example of a properties file for a plug-in:
+</p>
+<a name="wp1053880"> </a><p class="pco_Code">
+plugin.main.class=com.zerog.ia.customcode.util.fileutils.ExtractToFile<br />
+plugin.name=Extract to File<br />
+plugin.type=action<br />
+plugin.icon.path=myicon.gif<br />
+plugin.available=preinstall,install,postinstall<br />
+property.ExtractToFile_Source=path/to/file/in.zip<br />
+property.ExtractToFile_Destination=$USER_INSTALL_DIR$$/$myfile.txt
+
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1053881"> </a><div class="pSmartList1"><li>Additionally, plug-ins can offer help to InstallAnywhere users on how to properly use the plug-in. Help is displayed in HTML, and is launched by the user pressing a button on the plug-ins customizer. The button only appears if a help file is provided in the plug-in. To utilize installer help:</li></div>
+<div class="pSmartList2"><ol type="a" class="pSmartList2">
+<a name="wp1053882"> </a><div class="pSmartList2"><li>Create a file called help.htm.</li></div>
+<a name="wp1054236"> </a><div class="pSmartList2"><li>Package it in the plug-in JAR (without stored path information).</li></div>
+</ol></div>
+<a name="wp1053884"> </a><div class="pSmartList1"><li>Place the properly packaged unsigned JAR (with the custom code, its resources and the properties file) in the &lt;InstallAnywhere&gt;/plugins directory</li></div>
+<a name="wp1054230"> </a><div class="pSmartList1"><li>Launch InstallAnywhere. The plug-in will now be visible in the InstallAnywhere action palette.</li></div>
+</ol></div>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

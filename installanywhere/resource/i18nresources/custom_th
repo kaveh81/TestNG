@@ -1,0 +1,2024 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesPanel.uninstallAllTitle=ถอนการติดตั้งทั้งหมด
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesPanel.uninstallAllDescription=ถอนการติดตั้งคุณสมบัติและองค์ประกอบทั้งหมดของ $PRODUCT_NAME$ ที่ได้รับการติดตั้งโดย InstallAnywhere  จะไม่มีผลกระทบต่อแฟ้มและโฟลเดอร์ที่สร้างขึ้นหลังการติดตั้ง
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesPanel.uninstallFeaturesTitle=ถอนการติดตั้งคุณสมบัติโดยเฉพาะ
+
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesPanel.uninstallFeaturesDescription=เลือกคุณสมบัติโดยเฉพาะของ $PRODUCT_NAME$ ที่ต้องการถอนการติดตั้งซึ่งได้รับการติดตั้งโดย InstallAnywhere ไปแล้ว
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesPanel.instructions=กรุณาเลือกตัวเลือกหนึ่งจากรายการต่อไปนี้:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesPanel.stepTitle=ตัวเลือกการถอนการติดตั้ง
+
+# ...................... =Uninstall
+UninstallAllOrFeatuesPanel.panelTitle=ถอนการติดตั้ง
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesConsole.uninstalls.all.title=ถอนคุณสมบัติและองค์ประกอบทั้งหมดออก
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesConsole.uninstalls.features.title=เลือกคุณสมบัติโดยเฉพาะที่ได้รับการติดตั้งโดย InstallAnywhere ไปแล้ว
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesConsole.instructions=กรุณาเลือกตัวเลือกหนึ่งจากรายการต่อไปนี้:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesConsole.consoleTitle=ตัวเลือกการถอนการติดตั้ง
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesConsole.line.message=ใส่หมายเลขสำหรับตัวเลือกของคุณ หรือกด <ENTER> เพื่อยอมรับค่าปริยาย
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=ขณะนี้ มีเนื้อที่ในดิสก์พอที่จะดำเนินการติดตั้งต่อไปได้
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=แต่มีเนื้อที่เหลือเพียง XXX MB เท่านั้น ที่:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=ต้องใช้เนื้อที่ในดิสก์จำนวน XXX MB สำหรับการติดตั้งนี้
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=หรือ ท่านสามารถเลือก 'ยกเลิก' เพื่อยกเลิกการติดตั้งนี้
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=กรุณาเพิ่มเนื้อที่ในดิสก์อย่างน้อย XXX MB เพื่อให้สามารถดำเนินการติดตั้งต่อไปได้
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=กรุณาเพิ่มเนื้อที่ในดิสก์ เพื่อให้สามารถดำเนินการติดตั้งต่อไปได้
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=กรุณาคลิก 'ติดตั้ง' เพื่อดำเนินการติดตั้งต่อไป
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=พร้อมที่จะดำเนินการต่อแล้ว
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=เนื้อที่ในดิสก์ไม่พอ
+
+# ................... =Warning!
+CheckDiskSpace.warning=คำเตือน!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=กด <ENTER> เพื่อคำนวณเนื้อที่ว่างในดิสก์อีกครั้ง หรือพิมพ์คำว่า 'หยุด' เพื่อออกจากโปรแกรมการติดตั้ง
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=มีเนื้อที่ในดิสก์ไม่พอที่จะทำการติดตั้งนี้ กรุณาเพิ่มเนื้อที่ในดิสก์ และเริ่มโปรแกรมการติดตั้งอีกครั้ง...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=กด <ENTER> เพื่อเริ่มการติดตั้ง
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=คำเตือน!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=ต้องใช้เนื้อที่ในดิสก์จำนวน XXX MB สำหรับการติดตั้งนี้
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=แต่มีเนื้อที่เหลือเพียง XXX MB เท่านั้น ที่:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=กรุณาเพิ่มเนื้อที่ในดิสก์อย่างน้อย XXX MB เพื่อให้สามารถดำเนินการติดตั้งต่อไปได้
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=กรุณาเพิ่มเนื้อที่ในดิสก์ เพื่อให้สามารถดำเนินการติดตั้งต่อไปได้
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=ขณะนี้ มีเนื้อที่ในดิสก์พอที่จะดำเนินการติดตั้งต่อไปได้
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=เนื้อที่ในดิสก์ไม่พอ
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=กรุณาเลือกแฟ้ม
+
+# ................. =Choose...
+ChooseFile.chooseStr=เลือก... (&O)
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=กรุณาเลือกแฟ้ม: (&F)
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=เรียกแฟ้มโดยปริยายกลับคืนมา (&R)
+
+# ................. =Choose a File
+ChooseFile.stepTitle=เลือกแฟ้ม
+
+# .................... =in the folder
+ChooseFile.macInsideStr=ในโฟลเดอร์
+
+# ................ =on the disk
+ChooseFile.macOnStr=ในดิสก์
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=กรุณาเลือกโฟลเดอร์
+
+# ................... =Choose...
+ChooseFolder.chooseStr=เลือก... (&O)
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=กรุณาเลือกโฟลเดอร์: (&F)
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=เรียกโฟลเดอร์โดยปริยายกลับคืนมา (&R)
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=เลือกโฟลเดอร์
+
+# .................. =on the disk
+ChooseFolder.macOnStr=ในดิสก์
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=ข้อผิดพลาด!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=ท่านไม่ได้รับอนุญาตให้เขียนในโฟลเดอร์ที่เลือก กรุณาเลือกโฟลเดอร์อื่น
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=เลือกโฟลเดอร์
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=เลือกองค์ประกอบของผลิตภัณฑ์
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=เลือกชุดการติดตั้ง
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=เลือกคุณสมบัติผลิตภัณฑ์
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=กรุณาเลือกชุดการติดตั้งที่จะติดตั้งด้วยโปรแกรมการติดตั้งนี้
+
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=ใส่หมายเลขสำหรับชุดการติดตั้ง หรือกด <ENTER> เพื่อยอมรับค่าปริยาย   
+
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=กรุณาเลือกคุณสมบัติที่ต้องการติดตั้งโดยโปรแกรมการติดตั้งนี้
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=ใส่รายการของหมายเลขที่แทนคุณสมบัติโดยใช้เครื่องหมายจุลภาคคั่นหมายเลขแต่ละชุด\u000a  ที่จะติดตั้ง
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=เลือกชุดการติดตั้ง
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=กำหนดเอง
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=ความผิดพลาดในการตั้งคุณสมบัติของผลิตภัณฑ์สำหรับการติดตั้ง
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=กรุณาเลือก Java VM สำหรับใช้โดยโปรแกรมประยุกต์ที่ติดตั้ง
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=เลือกโปรแกรมเลียนแบบ Java
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=ทางเดินสารบบที่ให้ ไม่ได้นำไปสู่โปรแกรมเลียนแบบ Java ที่ถูกต้อง กรุณาเลือกใหม่
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=กรุณาเลือก Java VM สำหรับใช้โดยโปรแกรมประยุกต์ที่ติดตั้ง
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=เลือกโปรแกรมเลียนแบบ Java
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=ใส่หมายเลขสำหรับ JAVA VM หรือกด <ENTER> เพื่อยอมรับตัวเลือกในปัจจุบัน
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=ใส่ทางเดินสารบบสัมบูรณ์ถึงแฟ้มกระทำการ JAVA VM ที่ท่านต้องการ   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=ทางเดินสารบบถึงโปรแกรมการดำเนินการของ JAVA คือ:   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=ไม่สามารถติดตั้งโปรแกรมเลียนแบบ Java ที่มีมากับโปรแกรมการติดตั้งนี้ได้
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=ติดตั้ง Java VM เฉพาะสำหรับโปรแกรมประยุกต์โปรแกรมนี้
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=เลือก Java VM ที่ติดตั้งอยู่แล้วในระบบนี้
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=เลือกอีกแห่งหนึ่ง... (&O)
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=เปิด
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=ติดตั้ง Java VM เฉพาะสำหรับโปรแกรมประยุกต์โปรแกรมนี้
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java Runtime Environment
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=กำลังค้นหาใน:
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=หยุดการค้นหา (&S)
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=ค้นหาอย่างอื่น (&S)
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=การค้นหาเสร็จสิ้นลง
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=เลือก Java VM ที่ติดตั้งอยู่แล้วในระบบนี้
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=ข้อผิดพลาด!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=โปรแกรมที่เลือกไม่ใช่โปรแกรมเลียนแบบ Java ที่ถูกต้อง
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=เลือก Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=ข้อผิดพลาด:ไม่พบโปรแกรมเลียนแบบ Java ที่เหมาะสม
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=ผลิตภัณฑ์นี้ต้องใช้โปรแกรมเลียนแบบ Java ที่ติดตั้งอยู่ในระบบของท่านแล้ว กรุณาอ่าน <http://java.sun.com> เพื่อดาวน์โหลดโปรแกรมเลียนแบบสำหรับแพลตฟอร์มของท่าน
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=เลือก Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=เลือกคุณลักษณะเสริม SCM 
+ChooseSCMFeaturesConsole.title=เลือกคุณลักษณะเสริม SCM 
+ChooseSCMFeaturesConsole.instructions=เลือกคำแนะนำสำหรับคุณลักษณะ SCM 
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=กด <ENTER> เพื่อดำเนินการต่อไป
+
+# ................. =Y
+ConsoleUtils.yesChar=Y
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=ข้อมูลนี้ถูกต้องหรือไม่
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=หนึ่งในค่าที่ใส่เข้ามาไม่ถูกต้อง กรุณาเลือกใหม่
+
+#............... =back
+ConsoleUtils.back=ย้อนกลับ
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=ลบเครื่องหมายออกจากกล่องคุณสมบัติที่ท่านต้องการถอนการติดตั้ง จะเก็บคุณสมบัติที่มีเครื่องหมายกาอยู่ในกล่องเอาไว้
+ 
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=กาเครื่องหมายในกล่องคุณสมบัติที่ท่านต้องการถอนการติดตั้ง จะเก็บคุณสมบัติที่ไม่มีเครื่องหมายกาอยู่ในกล่องเอาไว้
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=เลือกคุณสมบัติของผลิตภัณฑ์
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=กรุณาเลือกคุณสมบัติที่ต้องการติดตั้งโดยโปรแกรมนี้
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uninstallInstructions=เลือกคุณสมบัติโดยเฉพาะของ $PRODUCT_NAME$ ที่ต้องการถอนการติดตั้งซึ่งได้รับการติดตั้งโดย InstallAnywhere ไปแล้ว
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=กาเครื่องหมายในกล่องคุณสมบัติที่ท่านต้องการถอนการติดตั้ง จะเก็บคุณสมบัติที่ไม่มีเครื่องหมายกาอยู่ในกล่องเอาไว้
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.consoleTitle=เลือกคุณสมบัติผลิตภัณฑ์
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=ใส่รายการของหมายเลขที่แทนคุณสมบัติต่างๆ ที่ท่านต้องการเลือกหรือไม่เลือกโดยใช้เครื่องหมายจุลภาคคั่นระหว่างหมายเลขแต่ละชุด ใส่ '?<NUMBER>' เมื่อเสร็จแล้ว กด <RETURN>: 
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=ชุดคุณสมบัติ:
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.stepTitle=เลือกคุณสมบัติผลิตภัณฑ์
+
+#............................... =Description
+CustomizeBundlesPanel.description=รายละเอียด
+
+#......................................... =Description
+CustomizeBundlesPanel.uninstallInstructions=เลือกคุณสมบัติโดยเฉพาะของ $PRODUCT_NAME$ ที่ต้องการถอนการติดตั้งซึ่งได้รับการติดตั้งโดย InstallAnywhere ไปแล้ว
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=เนื้อที่ที่ต้องใช้ในการติดตั้ง:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=ใส่สื่อใหม่
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=กรุณาใส่ #NAME# หรือเลือก 'เรียกดู...' เพื่อหาด้วยตนเอง
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=อุปกรณ์สื่อไม่ถูกต้อง
+# .................... =Browse
+DiskNeededDialog.locate=เรียกดู
+
+# .................. =Cancel
+DiskNeededDialog.quit=ยกเลิก
+
+# ...................... =OK
+DiskNeededDialog.continue=ตกลง
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=ใส่สื่อใหม่
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=กรุณาใส่ #NAME# หรือเลือกเส้นทางถึงสื่อนั้นเอง
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=กรุณาใส่ #NAME#
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=ใส่ดิสก์ที่: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=กรุณาใส่ #NAME# หรือพิมพ์ที่ตั้งของสื่อนั้น
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=ได้ใส่ XXX แล้ว
+
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=เลือกเส้นทางสู่ installer data
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=ยกเลิกและออกจากการติดตั้ง
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=ใส่ตัวเลือก
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=ใส่เส้นทางสู่โฟลเดอร์ 'INSTALLERDATA' ที่อยู่ในดิสก์
+
+
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=สภาพแวดล้อมของระบบของท่านได้เปลี่ยนแปลงไปแล้ว ท่านจะต้องออกจากระบบหรือรีบูตระบบของท่าน เพื่อให้การเปลี่ยนแปลงเหล่านี้เกิดผล
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=สภาพแวดล้อมของระบบเปลี่ยนแปลงไป
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=หยุด
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=การติดตั้งไม่เสร็จสมบูรณ์
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=การติดตั้งไม่เสร็จสมบูรณ์
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=หากท่านยกเลิกการติดตั้งเดี๋ยวนี้ จะไม่มีการติดตั้ง $PRODUCT_NAME$ หากต้องการดำเนินการติดตั้งต่อไป คลิก 'กลับสู่การดำเนินการ' หากต้องการยกเลิกการติดตั้ง คลิก 'หยุด'
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=หากท่านยกเลิกการติดตั้งเดี๋ยวนี้ จะไม่มีการติดตั้ง $PRODUCT_NAME$ หากต้องการดำเนินการติดตั้งต่อไป คลิก 'กลับสู่การดำเนินการ' หากต้องการยกเลิกการติดตั้ง คลิก 'หยุด'
+
+# .......... =Resume
+ExitDialog.ok=กลับสู่การดำเนินการ
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=ยกเลิกการถอนการติดตั้ง
+# ............. =Cancel Installation
+ExitDialog.install.title=ยกเลิกการติดตั้ง
+
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=ใช่ทั้งหมด
+
+# ....................... =No to All
+FileAlreadyExists.noAll=ไม่ทั้งหมด
+
+# ....................... =Yes
+FileAlreadyExists.yes=ใช่
+
+# ....................... =No
+FileAlreadyExists.no=ไม่
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=เขียนทับแฟ้มที่มีอยู่หรือไม่
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=มีแฟ้มชื่อ \"XXX\" อยู่แล้วที่ \"XXX\"
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=มีแฟ้มที่ใหม่กว่าชื่อ \"XXX\" อยู่แล้วที่ \"XXX\"
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=มีแฟ้มที่เก่ากว่าชื่อ \"XXX\" อยู่แล้วที่ \"XXX\"
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=ท่านต้องการเขียนทับแฟ้มที่มีอยู่หรือไม่
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=กรุณาเลือกแฟ้ม/โฟลเดอร์: (&B)
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=เลือก
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=กำลังเพิ่มแฟ้มในรายการข้างล่าง
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=รายการด้านล่างคือชื่อแฟ้มที่พบ
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=กำลังเพิ่มโฟลเดอร์ในรายการข้างล่าง
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=รายการด้านล่างคือโฟลเดอร์ที่พบ
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=พบแฟ้มที่ตรงกันกับ:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=พบโฟลเดอร์ที่ตรงกันกับ:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=พบใน:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=เลือกแห่งอื่น... (&O)
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=ค้นหาใน:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=กรุณาเลือกทางเลือกที่ท่านต้องการ
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=กำลังค้นหาแฟ้มที่ตรงกันกับ:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=กำลังค้นหาโฟลเดอร์ที่ตรงกันกับ:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=กำลังค้นหา
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=เลือก
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=โปรแกรมการติดตั้งไม่สามารถค้นหาสิ่งที่ตรงกันกับ:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=ที่เลือก:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=เลือกโฟลเดอร์
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=ยกเลิก
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=สร้างโฟลเดอร์ใหม่
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=โฟลเดอร์:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=ชื่อ:
+
+# ..................... =OK
+FolderSelectDialog.okStr=ตกลง
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=ข้อมูลนี้ถูกต้องหรือไม่
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=กด <ENTER> เพื่อดำเนินการต่อไป
+
+# ............................ =Error:
+GenericConsoleStrings.exception=ข้อผิดพลาด:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=กรุณารอสักครู่ กำลังจัดโครงแบบของ $PRODUCT_NAME$ สำหรับระบบของท่านอยู่ อาจใช้เวลาสักครู่...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=กรุณารอสักครู่
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=ต้องใส่รหัสผ่านจึงจะดำเนินการติดตั้งต่อไปได้
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=กรุณาใส่รหัสผ่าน: (&W)
+
+# .................. =Enter Password
+GetPassword.stepTitle=ใส่รหัสผ่าน
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=ข้อผิดพลาด!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=รหัสผ่านที่ท่านใส่ไม่ถูกต้อง กรุณาลองใหม่
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=ใส่รหัสผ่าน
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=ตกลง
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=ต้องใส่รหัสผ่านก่อน จึงจะดำเนินการต่อไปได้
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=ต้องใส่รหัสผ่านจึงจะดำเนินการติดตั้งต่อไปได้
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=รหัสผ่านที่ท่านใส่ไม่ถูกต้อง กรุณาลองใหม่
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=กรุณาใส่รหัสผ่าน:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=ต้องใส่รหัสผ่านก่อน จึงจะดำเนินการต่อไปได้
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=ใส่รหัสผ่าน
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=ใส่รายการของหมายเลขโดยใช้เครื่องหมายจุลภาคคั่นหมายเลขแต่ละชุดที่แทนสิ่งที่ต้องการ
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=ใส่รายการของหมายเลขที่แทนตัวเลือกที่ต้องการโดยใช้เครื่องหมายจุลภาคคั่นระหว่างหมายเลขแต่ละชุด หรือกด <ENTER> เพื่อยอมรับค่าปริยาย
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=ใส่หมายเลขของตัวเลือกที่ต้องการ
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=ใส่หมายเลขสำหรับตัวเลือกของคุณ หรือกด <ENTER> เพื่อยอมรับค่าปริยาย
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=ท่านไม่สามารถหยุดการติดตั้งได้ในขณะนี้
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=ท่านไม่สามารถย้อนกลับไปขั้นตอนที่แล้วได้ในขณะนี้
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=ข้อมูลสำคัญ
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=กรุณาอ่านก่อนที่จะดำเนินการต่อไป:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=จบข้อมูลสำคัญกด <ENTER> เพื่อดำเนินการต่อ
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=ข้อมูลสำคัญ
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=กรุณาอ่านก่อนที่จะดำเนินการต่อไป:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=โปรแกรมประยุกต์
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=นี่เป็นการติดตั้งคุณสมบัติโปรแกรมประยุกต์
+
+# .......................... =Help
+
+InstallBundle.help.bundleName=วิธีใช้
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=นี่เป็นการติดตั้งคุณสมบัติความช่วยเหลือ
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=ขอแสดงความยินดีด้วย! ได้ทำการติดตั้ง $PRODUCT_NAME$ เป็นผลสำเร็จแล้วใน:\u000a\u000a    $USER_INSTALL_DIR$\u000a\u000aด "เสร็จ" เพื่อออกจากโปรแกรมการติดตั้ง
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=ติดตั้งเสร็จ
+InstallCompleteAction.stepTitle=ติดตั้งเสร็จ
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=การติดตั้ง $PRODUCT_NAME$ เสร็จแล้ว แต่มีความผิดพลาดบางอย่างเกิดขึ้นในระหว่างการติดตั้ง\u000a\u000aรุณาอ่านรายละเอียดในบันทึกการติดตั้ง กด "เสร็จ" เพื่อออกจากโปรแกรมการติดตั้ง
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=ติดตั้งเสร็จ
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=การติดตั้งเสร็จสมบูรณ์
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=ขอแสดงความยินดีด้วย$PRODUCT_NAME$ ได้รับการติดตั้งอย่างประสบความสำเร็จแล้วใน:  $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=กด <ENTER> เพื่อออกจากโปรแกรมการติดตั้ง
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=การติดตั้ง $PRODUCT_NAME$ เสร็จแล้ว แต่มีความผิดพลาดบางอย่างเกิดขึ้นในระหว่างการติดตั้ง\u000a  กรุณาอ่านรายละเอียดในบันทึกเกี่ยวกับการติดตั้ง
+
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=การติดตั้ง $PRODUCT_NAME$ เสร็จแล้ว แต่มีความผิดพลาดบางอย่างเกิดขึ้นในระหว่างการติดตั้ง\u000a  กรุณาอ่านรายละเอียดในบันทึกการติดตั้ง กด "เสร็จ" เพื่อออกจากโปรแกรมการติดตั้ง
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=กด <ENTER> เพื่อออกจากโปรแกรมการติดตั้ง
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=ติดตั้งเสร็จ
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=กรุณาเลือกโฟลเดอร์ปลายทางสำหรับการติดตั้งนี้
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=เลือกโฟลเดอร์สำหรับการติดตั้ง
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=ท่านต้องการติดตั้งไว้ที่ใด (&W)
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=เลือกโฟลเดอร์สำหรับการติดตั้ง
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=ใส่ทางเดินสารบบสัมบูรณ์ หรือกด <ENTER> เพื่อยอมรับค่าโดยปริยาย   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=ใส่ทางเดินสารบบสัมบูรณ์ พิมพ์คำว่า 'ค่าโดยปริยาย' เพื่อเรียกโฟลเดอร์โดยปริยายกลับคืนมา หรือกด <ENTER> เพื่อยอมรับโฟลเดอร์ที่เลือก
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=โฟลเดอร์โดยปริยายสำหรับการติดตั้ง:
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=โฟลเดอร์ที่เลือกสำหรับการติดตั้ง:
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=โฟลเดอร์สำหรับการติดตั้งคือ:
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=ทางเดินสารบบที่ให้:
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=[XXX] ชี้ไปที่แฟ้มที่มีอยู่แล้วในระบบเป้าหมายโปรแกรมการติดตั้งโปรแกรมนี้ไม่สามารถเขียนโฟลเดอร์ใหม่ทับแฟ้มที่มีอยู่ได้กรุณาเลือกสถานที่ตั้งอีกแห่งหนึ่ง
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=ท่านไม่ได้รับอนุญาตให้เขียนในปลายทางการติดตั้งที่เลือก กรุณาเลือกสถานที่ตั้งอื่นสำหรับการติดตั้ง
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=ท่านต้องการติดตั้งไว้ที่ใด
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=ข้อผิดพลาด!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=ท่านไม่ได้รับอนุญาตให้เขียนในปลายทางการติดตั้งที่เลือก กรุณาเลือกสถานที่ตั้งอื่นสำหรับการติดตั้ง
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=เลือกโฟลเดอร์สำหรับการติดตั้ง
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=เส้นทางที่ระบุให้เป็นปลายทางสำหรับการติดตั้งมีอักขระหนึ่งตัวหรือมากกว่าที่ใช้ไม่ได้ในแพลตฟอร์มนี้  \u000Aโปรดเลือกที่ตั้งอื่นสำหรับการติดตั้ง
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=เลือก... (&O)
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=เรียกโฟลเดอร์โดยปริยายกลับคืนมา (&R)
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=ข้างใน
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=ในโฟลเดอร์
+
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=ในดิสก์
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=ติดตั้ง
+
+# ....................... =Introduction
+Installer.installLabels.00=บทนำ
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=เลือกโฟลเดอร์สำหรับการติดตั้ง
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=เลือกโฟลเดอร์ $SHORTCUT_NAME$
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=สรุปก่อนการติดตั้ง
+
+# ....................... =Installing...
+Installer.installLabels.04=กำลังติดตั้ง...
+
+# ....................... =Install Complete
+Installer.installLabels.05=ติดตั้งเสร็จ
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=ไม่สามารถใช้โปรแกรมการติดตั้งบนระบบนี้ได้
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=โปรแกรมการติดตั้งไม่สามารถทำงานกับการจัดโครงแบบของท่านได้ โปรแกรมจะยุติลงเดี๋ยวนี้
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=ไม่สนับสนุนโหมดส่วนต่อประสานกับผู้ใช้ของโปรแกรมการติดตั้ง
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=ไม่สามารถใช้โปรแกรมการติดตั้งในโหมดนี้ได้  กรุณาอ่านเอกสารของโปรแกรมการติดตั้งเพื่ออ่านวิธีใช้โปรแกรมการติดตั้งนี้
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=ความผิดพลาดเกี่ยวกับโหมดส่วนต่อประสานกับผู้ใช้
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=ขอแสดงความยินดีด้วย! $PRODUCT_NAME$ ได้รับการติดตั้งเป็นผลสำเร็จแล้วใน:\u000a\u000a   $USER_INSTALL_DIR$\u000a\u000aด "เสร็จแล้ว" เพื่อออกจากโปรแกรมการติดตั้ง
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=การติดตั้ง $PRODUCT_NAME$ เสร็จลงแล้ว แต่มีคำเตือนเกิดขึ้นในระหว่างการติดตั้ง กรุณาอ่านรายละเอียดในบันทึกการติดตั้ง
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=การติดตั้ง $PRODUCT_NAME$ เสร็จลงแล้ว แต่มีความผิดพลาดบางอย่างเกิดขึ้นในระหว่างการติดตั้ง กรุณาอ่านรายละเอียดในบันทึกการติดตั้ง
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=การติดตั้ง $PRODUCT_NAME$ เสร็จลงแล้ว แต่มีความผิดพลาดรุนแรงบางอย่างเกิดขึ้นในระหว่างการติดตั้ง กรุณาอ่านรายละเอียดในบันทึกการติดตั้ง
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=ท่านควรเริ่มระบบใหม่ เพื่อให้การติดตั้งเสร็จสมบูรณ์
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=ท่านจำเป็นต้องเริ่มระบบใหม่ เพื่อให้การติดตั้งเสร็จสมบูรณ์
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=เสร็จการติดตั้ง
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=เริ่มระบบของฉันใหม่
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=ฉันจะเริ่มระบบใหม่ด้วยตนเอง
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=กำลังติดตั้ง...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=กำลังยกเลิกการติดตั้ง...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=กำลังติดตั้ง...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=สรุปก่อนการติดตั้ง
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=กรุณาทบทวนข้อมูลต่อไปนี้ก่อนที่จะดำเนินการต่อไป:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=สรุปก่อนการติดตั้ง
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=กด <ENTER> เพื่อดำเนินการต่อไป หากข้อมูลนี้ไม่ถูกต้อง ให้พิมพ์คำว่า 'ย้อนกลับ' เพื่อทำการเปลี่ยนแปลง   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=ชื่อผลิตภัณฑ์:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=โฟลเดอร์สำหรับการติดตั้ง:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=โฟลเดอร์ทางลัด:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=โฟลเดอร์สำหรับตัวเชื่อมโยง:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=โฟลเดอร์นามแฝง:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=ชุดการติดตั้งที่ผู้ใช้กำหนดเอง
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=ชุดการติดตั้ง
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=องค์ประกอบของผลิตภัณฑ์:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=โฟลเดอร์การติดตั้ง Java VM:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=ผลิตภัณฑ์ที่ติดตั้งจะใช้ Java VM:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=ข้อมูลเกี่ยวกับเนื้อที่ในดิสก์ (สำหรับเป้าหมายการติดตั้ง):
+
+# ...................... =Required:
+InstallSummaryUI.required=ต้องมี:
+
+# .................. =bytes
+InstallSummaryUI.byte=ไบต์
+
+# ....................... =Available:
+InstallSummaryUI.available=ที่มีอยู่:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=เลือกตัวเลือกนี้เพื่อปรับคุณสมบัติต่างๆ ที่ต้องการติดตั้งให้เป็นไปตามความต้องการของคุณโดยเฉพาะ
+
+# ............................. =Custom
+
+InstallSet.custom.installSetName=กำหนดเอง
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=จะติดตั้งเฉพาะคุณสมบัติที่จำเป็นของโปรแกรมเท่านั้น ขอแนะนำให้ใช้ทางเลือกนี้สำหรับผู้ใช้ที่มีเนื้อที่ในดิสก์จำกัดเท่านั้น
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=น้อยที่สุด
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=จะติดตั้งคุณสมบัติโดยทั่วไปของโปรแกรมประยุกต์ ขอแนะนำทางเลือกนี้สำหรับผู้ใช้ส่วนใหญ่
+
+# .............................. =Typical
+InstallSet.typical.installSetName=โดยปกติ
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere จะให้คำแนะนำแก่ท่านตลอดการติดตั้ง $PRODUCT_NAME$ ขอแนะนำให้ท่านปิดโปรแกรมทุกโปรแกรม ก่อนที่จะดำเนินการติดตั้งต่อไป คลิก 'ต่อไป' เพื่อดำเนินการต่อไปยังจอภาพถัดไปหากท่านต้องการเปลี่ยนบางอย่างในจอภาพที่แล้ว คลิก 'ก่อนหน้านี้' ท่านสามารถยกเลิกการติดตั้งนี้ได้ทุกเมื่อ โดยการคลิกที่ 'ยกเลิก'
+
+# .................. =Introduction
+IntroAction.stepTitle=บทนำ
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere จะให้คำแนะนำแก่ท่านตลอดการติดตั้ง $PRODUCT_NAME$ ขอแนะนำให้ท่านปิดโปรแกรมทุกโปรแกรม ก่อนที่จะดำเนินการติดตั้งต่อไป ตอบคำถามแต่ละข้อเพื่อดำเนินการติดตั้งในขั้นต่อไป หากท่านต้องการเปลี่ยนแปลงบางอย่างในขั้นตอนที่แล้ว พิมพ์คำว่า 'ย้อนกลับ' ท่านสามารถยกเลิกการติดตั้งนี้ได้ทุกเมื่อ โดยการพิมพ์คำว่า 'หยุด'
+
+# ..................... =Introduction
+IntroActionConsole.title=บทนำ
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=ไม่สามารถเปิด URL ในโปรแกรมค้นผ่านเว็บได้
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=ข้อตกลงสำหรับการอนุญาต
+
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=ต้องยอมรับเงื่อนไขของข้อตกลงการอนุญาตต่อไปนี้ก่อน จึงจะสามารถติดตั้งและใช้ $PRODUCT_NAME$ ได้:
+
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=ข้อตกลงสำหรับการอนุญาต
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=ต้องยอมรับเงื่อนไขของข้อตกลงการอนุญาตต่อไปนี้ก่อน จึงจะสามารถติดตั้งและใช้ $PRODUCT_NAME$ ได้:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ท่านยอมรับเงื่อนไขของข้อตกลงการอนุญาตนี้หรือไม่
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=หยุด
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=กลับสู่การดำเนินการ
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=คำเตือนเกี่ยวกับข้อตกลงสำหรับการอนุญาต
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=คำเตือน!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=หากท่านไม่ยอมรับเงื่อนไขของข้อตกลงการอนุญาตนี้ ท่านจะไม่สามารถดำเนินการติดตั้งต่อไปได้
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=ข้าพเจ้าไม่ยอมรับเงื่อนไขของข้อตกลงการอนุญาตนี้ (&T)
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=ไม่พบแฟ้มที่จะให้ดูก่อน
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=ข้าพเจ้ายอมรับเงื่อนไขของข้อตกลงการอนุญาตนี้ (&A)
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=ไม่ได้เลือกแฟ้มใด
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=กด <ENTER> เพื่อยอมรับสิ่งต่อไปนี้
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=ใส่หมายเลขของตัวเลือกที่ต้องการ หรือกด <ENTER> เพื่อยอมรับค่าปริยาย
+
+# ........................... =OK
+PromptUserConsole.option0Label=ตกลง
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=ยกเลิก
+
+# ........................... =Details...
+PromptUserConsole.option2Label=รายละเอียด...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=ขณะนี้ InstallAnywhere พร้อมแล้วที่จะติดตั้ง $PRODUCT_NAME$ ในระบบของท่าน ในสถานที่ตั้งที่:  $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=กด <ENTER> เพื่อทำการติดตั้ง
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=พร้อมที่จะดำเนินการติดตั้งแล้ว
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere กำลังจะเสร็จสิ้นลง กรุณารอสักครู่...
+
+# ............... =Cleaning up...
+RemoveDialog.title=กำลังจะเสร็จ...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=ต้องใส่หมายเลขประจำผลิตภัณฑ์จึงจะดำเนินการติดตั้งต่อไปได้
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=กรุณาใส่หมายเลขประจำผลิตภัณฑ์: (&S)
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=ใส่หมายเลขประจำผลิตภัณฑ์
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=ข้อผิดพลาด!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=หมายเลขประจำผลิตภัณฑ์ที่ท่านใส่ไม่ถูกต้อง กรุณาลองใหม่
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=ใส่หมายเลขประจำผลิตภัณฑ์
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=ตกลง
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=ต้องใส่หมายเลขประจำผลิตภัณฑ์ก่อนจึงจะดำเนินการต่อไปได้
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=ต้องใส่หมายเลขประจำผลิตภัณฑ์จึงจะดำเนินการติดตั้งต่อไปได้
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=หมายเลขประจำผลิตภัณฑ์ที่ท่านใส่ไม่ถูกต้อง กรุณาลองใหม่
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=กรุณาใส่หมายเลขประจำผลิตภัณฑ์:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=ต้องใส่หมายเลขประจำผลิตภัณฑ์ก่อนจึงจะดำเนินการต่อไปได้
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=ใส่หมายเลขประจำผลิตภัณฑ์
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=นามแฝง
+
+#............... =Link
+ShortcutName.link=ตัวเชื่อมโยง
+
+#................... =Shortcut
+ShortcutName.shortcut=ทางลัด
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=ท่านต้องการสร้างนามแฝงไว้ที่ใด
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=เลือกโฟลเดอร์นามแฝง
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=เลือกโฟลเดอร์ตัวเชื่อมโยง
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=ท่านต้องการสร้างตัวเชื่อมโยงไว้ที่ใด
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=ท่านต้องการสร้างไอคอนผลิตภัณฑ์ไว้ที่ใด
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=เลือกสถานที่ตั้งสำหรับทางลัด
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=กลุ่มสามัญ
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=กลุ่มของผู้ใช้ปัจจุบัน
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=ในโฟลเดอร์
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=ในดิสก์
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=ค่าโดยปริยาย:
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=ปัจจุบัน:
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=เลือกสถานที่ตั้งอีกแห่งหนึ่ง...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=ใส่หมายเลขของทางเลือกข้างต้น หรือกด <ENTER> เพื่อยอมรับค่าโดยปริยาย   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=ใส่หมายเลขของทางเลือกข้างต้น หรือกด <ENTER> เพื่อยอมรับตัวเลือกในปัจจุบัน
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=ใส่ทางเดินสารบบสัมบูรณ์ถึงโฟลเดอร์ทางลัด   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=สถานที่ตั้งสำหรับทางลัดคือ:
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=เลือกสถานที่ตั้งสำหรับตัวเชื่อมโยง
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=ท่านต้องการสร้างตัวเชื่อมโยงไว้ที่ใด
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=เลือกสถานที่ตั้งสำหรับทางลัด
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=ท่านต้องการสร้างไอคอนผลิตภัณฑ์ไว้ที่ใด:
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=เลือกสถานที่ตั้งสำหรับนามแฝง
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=ท่านต้องการสร้างนามแฝงไว้ที่ใด
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=ในเมนู Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=ใน Dock
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=บนพื้นจอภาพ
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=อย่าสร้างนามแฝง
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=อื่นๆ:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=อย่าสร้างตัวเชื่อมโยง
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=อย่าสร้างไอคอน
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=ในโฟลเดอร์เริ่มต้นของท่าน
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=บนพื้นจอภาพ
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=ในกลุ่มโปรแกรมใหม่:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=ในกลุ่มโปรแกรมที่มีอยู่:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=ในแถบเริ่มอย่างเร็ว (&Q)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=ในเมนู Start
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=สร้างไอคอนสำหรับผู้ใช้ทุกคน
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=ข้อผิดพลาด!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=ท่านไม่ได้รับอนุญาตให้เขียนในปลายทางที่เลือก กรุณาเลือกสถานที่ตั้งอื่น
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=ในเมนู Apple (&A)
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=ใน Dock (&K)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=บนพื้นจอภาพ (&D)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=บนพื้นจอภาพ (&D)
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=เลือก...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=อย่าสร้างนามแฝง
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=อื่นๆ: (&O)
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=อย่าสร้างตัวเชื่อมโยง (&T)
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=อย่าสร้างไอคอน (&T)
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=ในโฟลเดอร์เริ่มต้นของท่าน (&M)
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=บนพื้นจอภาพ (&D)
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=ในกลุ่มโปรแกรมใหม่: (&G)
+
+# ..................................... =In an existing Program Group:
+
+ShortcutLocActionPanel.WinUI.progGroupCb=ในกลุ่มโปรแกรมที่มีอยู่: (&E)
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=ในเมนู Start (&S)
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=สร้างไอคอนสำหรับผู้ใช้ทุกคน (&A)
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=ตกลง
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=ยกเลิก
+
+# .......................... =Details...
+ShowDialogAction.button2Label=รายละเอียด...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=วันที่:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=License ID:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Script Version:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Version:
+
+# ............... =Done
+StepMaster.doneStr=เสร็จ (&D)
+
+# ............... =Cancel
+StepMaster.exitStr=ยกเลิก (&C)
+
+# ............... =Help
+StepMaster.helpStr=วิธีใช้ (&H)
+
+# .................. =Install
+StepMaster.installStr=ติดตั้ง (&I)
+
+# ............... =Next
+StepMaster.nextStr=ต่อไป (&N)
+
+# ............... =Previous
+StepMaster.prevStr=ก่อนหน้านี้ (&P)
+
+# ............... =Close
+StepMaster.closeStr=ปิด
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=รายการทั้งหมดได้รับการถอนการติดตั้งอย่างประสบความสำเร็จแล้ว
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=การถอนการติดตั้งเสร็จสิ้นลง
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=ไม่สามารถลบรายการต่อไปนี้ได้:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=ไม่สามารถกำจัด
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=ท่านจำเป็นต้องเริ่มระบบใหม่ เพื่อให้การถอนการติดตั้งเสร็จสมบูรณ์
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=ท่านควรเริ่มระบบใหม่เพื่อให้การถอนการติดตั้งเสร็จสมบูรณ์
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=ท่านยังต้องเริ่มระบบใหม่ด้วยเพื่อให้การถอนการติดตั้งเสร็จสมบูรณ์
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=ท่านยังควรต้องเริ่มระบบใหม่ด้วยเพื่อให้การถอนการติดตั้งเสร็จสมบูรณ์
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=ใช่ เริ่มระบบใหม่
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=ไม่ ฉันจะเริ่มระบบใหม่ด้วยตัวเอง
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=ถอนการติดตั้งรายการทั้งหมดเป็นผลสำเร็จแล้ว
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=เสร็จการถอนการติดตั้ง
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=ไม่สามารถลบรายการต่างๆ ต่อไปนี้ออกได้:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=ท่านต้องเริ่มระบบใหม่เพื่อให้การถอนการติดตั้งเสร็จสมบูรณ์
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=ท่านควรเริ่มระบบใหม่เพื่อให้การถอนการติดตั้งเสร็จสมบูรณ์
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=เสร็จการถอนการติดตั้ง
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=ถอนการติดตั้งรายการทั้งหมดเป็นผลสำเร็จแล้ว
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=ไม่สามารถลบรายการบางรายการออกได้
+
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=ไม่สามารถถอนการติดตั้งได้เสร็จ เนื่องจากเกิดความผิดพลาดขึ้น
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=ถอนการติดตั้ง $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=โปรแกรมถอนการติดตั้งของ InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=บทนำ
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=กำลังถอนการติดตั้ง...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=การถอนการติดตั้งเสร็จสิ้นลง
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=กำลังจะถอนการติดตั้ง...
+PRODUCT_NAME$
+ดยจะลบคุณสมบัติต่างๆ ที่ได้รับการติดตั้งโดย InstallAnywhere ออก แต่จะไม่ลบแฟ้มและโฟลเดอร์ที่สร้างขึ้นหลังการติดตั้ง
+
+# ........... ==Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=ถอนการติดตั้ง $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=กำลังจะถอนการติดตั้ง...
+PRODUCT_NAME$
+ดยจะลบคุณสมบัติต่างๆ ที่ได้รับการติดตั้งโดย InstallAnywhere ออก  แต่จะไม่ลบแฟ้มและโฟลเดอร์ที่สร้างขึ้นหลังการติดตั้ง
+
+# ........... ==Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=ถอนการติดตั้ง $PRODUCT_NAME$
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=ยกเลิก
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=หยุด
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=วิธีใช้
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=ถอนการติดตั้ง (&U)
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=ไม่สามารถยกเลิกการกระทำที่ทำไปแล้วได้เพราะไม่ได้สนับสนุนการกระทำนั้น
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=กำลังจะเสร็จ...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=โปรแกรมสำเร็จพื้นฐาน...
+
+# ............... =Files...
+UninstallMgr.Files=แฟ้ม...
+
+# ................. =Folders...
+UninstallMgr.Folders=โฟลเดอร์...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=ตัวเชื่อมโยง...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=นามแฝง...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=ทางลัด...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=ไม่สามารถถอนการติดตั้งผลิตภัณฑ์นี้ได้ เนื่องจากไม่มีโปรแกรมเลียนแบบ Java ที่เหมาะสมในระบบนี้ กรุณาติดตั้งโปรแกรมเลียนแบบ Java และลองใหม่
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 โฟลเดอร์
+
+# ................... =Preparing...
+UninstallMgr.Preparing=กำลังจัดเตรียม...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=ฐานข้อมูลของซอฟต์แวร์...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=เรจิสทรี...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 โฟลเดอร์
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=ไม่สามารถทำให้เสร็จได้
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableNativePackages=ไม่สามารถลบโปรแกรมสำเร็จพื้นฐานออกได้
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=ไม่สามารถกำจัดแฟ้ม
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=ไม่สามารถกำจัดโฟลเดอร์
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=ไม่สามารถลบคุณสมบัติ Java VM
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=ไม่สามารถกำจัดตัวเชื่อมโยง
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=ไม่สามารถกำจัดนามแฝง
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=ไม่สามารถกำจัดทางลัด
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=ไม่สามารถ
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=ไม่สามารถกำจัดแฟ้ม 1 แฟ้ม
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=ไม่สามารถกำจัดแฟ้ม 2 แฟ้ม
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=ไม่สามารถกำจัดฐานข้อมูลของซอฟต์แวร์
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=ไม่สามารถกำจัดข้อมูลระบุเรจิสทรี
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=จำเป็นต้องเริ่มระบบใหม่
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=ไม่ขอแนะนำให้ท่านใช้โปรแกรมถอนการติดตั้ง จนกว่าจะเริ่มระบบใหม่ คลิก \"ยกเลิก\" เพื่อออกจากโปรแกรมถอนการติดตั้ง หรือ \"ดำเนินการต่อ\" เพื่อถอนการติดตั้งไม่ว่าอย่างไรก็ตาม
+
+# ................ =Continue
+UninstallRestart.continue=ดำเนินการต่อ
+
+# ................ =Cancel
+UninstallRestart.exit=ยกเลิก
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=กรุณารอสักครู่ ในขณะที่โปรแกรมถอนการติดตั้งของ InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=ลบคุณสมบัติต่างๆ ต่อไปนี้...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=กำลังกระทำการรหัสที่ปรับเองโดยเฉพาะ...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=กำลังกระทำการ...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=กำลังกระทำการสคริปต์การติดตั้ง...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=ติดตั้งโมดูลการผสาน
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=กำลังติดตั้งโมดูลการผสาน
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=กำลังติดตั้งโปรแกรมสำเร็จพื้นฐาน
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=ยุติ
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=กด <ENTER> เพื่อเริ่มการถอนการติดตั้ง หรือ 'ยุติ' เพื่อออกจากโปรแกรมการถอนการติดตั้ง:
+
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=กด <ENTER> เพื่อออกจากโปรแกรมการถอนการติดตั้ง:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=คัดลอกแฟ้ม
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=คัดลอกโฟลเดอร์
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=สร้างตัวเชื่อมโยง
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=สร้างทางลัด
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=สร้างนามแฝง
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=สร้างโฟลเดอร์
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=สร้าง LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=ลบแฟ้ม
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=ลบโฟลเดอร์
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=ขยายแฟ้มที่บีบอัด
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=ติดตั้ง SpeedFolder
+
+InstallRPMPackage.visualname.self=Install Linux RPM
+InstallSolarisPackage.visualname.self=Install Solaris Package
+InstallHPUXPackage.visualname.self=Install HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=ย้ายแฟ้ม
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=ย้ายโฟลเดอร์
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=ลงทะเบียนบริการของ Windows
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=ตั้งตัวแปรสภาพแวดล้อมของระบบ
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=ตั้งรีจิสทรีของ Windows
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=ดำเนินการสคริปต์ ANT
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=ดำเนินการคำสั่ง
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=ดำเนินการรหัสที่ปรับเองโดยเฉพาะ
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=ดำเนินการสคริปต์
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=ดำเนินการแฟ้มเป้าหมาย
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=หาองค์ประกอบในรีจิสทรี
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=ไปเอาข้อมูลในรีจิสทรีของ Windows
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=แก้ไขแฟ้มข้อความ
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=ดำเนินการแปลง XSL
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=แสดงข้อมูลเกี่ยวกับการแก้จุดบกพร่อง
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=แสดงข้อความที่จอภาพ
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=แสดงข้อความโต้ตอบ
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=เริ่มบริการของ Windows
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=หยุดบริการของ Windows
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=หยุดบริการของ Windows ไว้ชั่วคราว
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=ค้นหาโฟลเดอร์
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=ติดตั้ง Merge Module
+Designer.Action.PowerUpdateClient.visualName=ติดตั้ง PowerUpdate Client
+Designer.Action.PerformXSLTZip.visualName=ดำเนินการแปลงรูป XSL - ในแฟ้มที่บีบอัด
+Designer.Action.PerformXSLT.visualName=ดำเนินการแปลงรูป XSL
+Designer.Action.PerformXSLT.performingXSLtransform=กำลังดำเนินการแปลงรูป XSL:
+Designer.Action.MakeExecutable.visualName=สร้าง LaunchAnywhere สำหรับโปรแกรมประยุกต์ Java
+Designer.Action.InstallZipfile.visualName=ติดตั้งแฟ้มที่บีบอัด
+Designer.Action.CreateUninstaller.visualName=สร้าง Uninstaller
+Designer.Action.BOMAction.visualName=ติดตั้งจาก Manifest
+Designer.Action.ExpandArchive.visualName=ขยายแฟ้มที่บีบอัด
+Designer.Action.ExecuteScript.visualName=กระทำการสคริปต์/กลุ่มชุดคำสั่ง
+Designer.Action.Exec.visualName=กระทำการคำสั่ง
+Designer.Action.visualName=กระทำการแฟ้มเป้าหมาย
+Designer.Action.AntRunner.visualName=กระทำการสคริปต์ ANT
+Designer.Actions.ShowDialogAction.visualName=แสดงกรอบโต้ตอบข้อความ
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=การดำเนินการหลังการถอนการติดตั้ง
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=การดำเนินการก่อนการถอนการติดตั้ง
+
+Designer.Action.EvaluateDependenciesAction.visualName=ประเมินการพึ่งพา
+
+ActionGroup.visualName.self=กลุ่มการดำเนินการ
+
+
+Designer.Action.UpdateServiceClient.visualName=สั่งให้แจ้งให้ทราบเมื่อมีอัพเดต
+Designer.FolderConstants.programsDir64Name=โฟลเดอร์โปรแกรม (64 บิต)
+Designer.FolderConstants.programsDir32Name=โฟลเดอร์โปรแกรม (32 บิต)
+Designer.FolderConstants.system64Name=โฟลเดอร์ระบบ (64 บิต)
+Designer.FolderConstants.system32Name=โฟลเดอร์ระบบ (32 บิต)
+Designer.FolderConstants.variableMagicFolder=โฟลเดอร์มหัศจรรย์ที่แปรผันได้
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# URL สำหรับการโหลด us.jar ไม่ถูกต้อง
+Installer.Actions.UpdateServiceClient.badUsJar=คลัง #UPDATE_SERVICE# ไม่มีระดับที่จำเป็นสำหรับการลงทะเบียน  jar ที่ให้อาจไม่ถูกต้อง
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=ระดับ #UPDATE_SERVICE# ไม่มีวิธีที่จำเป็นสำหรับการลงทะเบียน
+Installer.installLog.actionNotes=หมายเหตุการดำเนินการ:
+Installer.installLog.installLogDetail=รายละเอียดการลงบันทึกการติดตั้ง:
+Installer.installLog.installation=การติดตั้ง: 
+Installer.installLog.unsuccessful=ไม่เป็นผลสำเร็จ
+Installer.installLog.successful=เป็นผลสำเร็จ
+Installer.installLog.withErrors=มีข้อผิดพลาด
+Installer.installLog.withwarnings=มีคำเตือน
+Installer.installLog.cancelled=ถูกยกเลิก
+Installer.installLog.duringPostInstall=ในระหว่างหลังการติดตั้ง
+Installer.installLog.duringInstall=ในระหว่างการติดตั้ง
+Installer.installLog.duringPreInstall=ในระหว่างก่อนการติดตั้ง
+Installer.installLog.cancelledBeforePreInstallation=ผู้ใช้ยกเลิกการติดตั้งก่อนเริ่มขั้นตอนก่อนการติดตั้ง
+Installer.installLog.cancelledDuringPreInstallation=ผู้ใช้ยกเลิกการติดตั้งในระหว่างขั้นตอนก่อนการติดตั้ง
+Installer.installLog.cancelledDuringInstallation=ผู้ใช้ยกเลิกการติดตั้งในระหว่างขั้นตอนการติดตั้ง
+Installer.InstallLog.cancelledDuringPostInstallation=ผู้ใช้ยกเลิกการติดตั้งหลังจากการติดตั้งหรือในระหว่างขั้นตอนหลังการติดตั้ง
+Installer.installLog.successes=ความสำเร็จ
+Installer.installLog.warnings=คำเตือน
+Installer.installLog.nonFatalErrors=ข้อผิดพลาดที่ไม่รุนแรง
+Installer.installLog.fatalErrors=ข้อผิดพลาดที่รุนแรง
+Installer.installLog.details=รายละเอียด
+Installer.installLog.nothingWasInstalled=ไม่ได้ติดตั้งอะไรเลย
+Installer.installLog.none=ไม่มี
+Installer.installLog.summary=สรุป
+Installer.installLog.installedBy=ติดตั้งโดย InstallAnywhere #BUILD_INFO# โดย Macrovision
+Installer.installLog.status=สถานะ:
+Installer.installLog.additionalNotes=หมายเหตุเพิ่มเติม: 
+Installer.installLog.exceptionClass=ระดับการยกเว้น: 
+Installer.installLog.exceptionMessage=ข้อความการยกเว้น: 
+Installer.installLog.exceptionStackTrace=การติดตามกลุ่มข้อยกเว้น:
+Installer.installLog.successLevel.successful=เป็นผลสำเร็จ
+Installer.installLog.successLevel.warning=คำเตือน
+Installer.installLog.successLevel.error=ข้อผิดพลาด
+Installer.installLog.successLevel.fatalError=ข้อผิดพลาดที่รุนแรง
+Installer.installLog.successLevel.unsupported=ระดับข้อผิดพลาดที่ไม่รองรับ
+Installer.installLog.successLevel.notice=หมายเหตุ
+Installer.installLog.action.description=การดำเนินการติดตั้ง:
+Installer.installLog.antRunner.description=กระทำการสคริปต์ ANT:
+Installer.installLog.antRunner.script=สคริปต์: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=ไม่ได้เลือกเป้าหมาย
+Installer.installLog.asciiFileManipulator.newFile=แฟ้มใหม่ 
+Installer.installLog.copyDirectory.description=คัดลอกสารบบ:
+Installer.installLog.copyFile=คัดลอกแฟ้ม:
+Installer.installLog.copyFileAction.destination=ปลายทาง: 
+Installer.installLog.createShortcut.createShortcut=สร้างทางลัด:
+Installer.installLog.createShortcut.createAlias=สร้างสมนาม:
+Installer.installLog.createShortcut.createLink=สร้างลิงก์:
+Installer.installLog.deleteFileAction.source=ต้นทาง:
+Installer.installLog.editEnvironment.description=ตั้งตัวแปรสภาพแวดล้อม:
+Installer.installLog.expandFile.description=ขยายแฟ้มเก็บถาวร:
+Installer.installLog.getRegEntry.description=ขอข้อมูลเรจิสตรี:
+Installer.installLog.getRegEntry.key=คีย์: 
+Installer.installLog.getRegEntry.value=ชื่อค่า: 
+Installer.installLog.installDirCont.description=ติดตั้ง Speedfolder:
+Installer.installLog.installDirectory.description=ติดตั้งสารบบ:
+Installer.installLog.installFile.description=ติดตั้งแฟ้ม:
+Installer.installLog.installNTService.description=ลงทะเบียนบริการ NT:
+Installer.installLog.installUninstaller.description=ติดตั้ง Uninstaller:
+Installer.installLog.installUninstaller.note=(ติดตั้งส่วนประกอบทั้งหมดของ Uninstaller)
+Installer.installLog.makeExecutable.description=สร้าง LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(ติดตั้งส่วนประกอบ Java ที่กระทำการได้ทั้งหมดของ LaunchAnywhere)
+Installer.installLog.makeRegEntry.description=ป้อนข้อมูลเรจิสตรี:
+Installer.installLog.makeRegEntry.key=คีย์:
+Installer.installLog.makeRegEntry.name=ชื่อค่า:
+Installer.installLog.makeRegEntry.data=ข้อมูลค่า:
+Installer.installLog.speedRegistry.description=ข้อมูลเรจิสตรี:
+Installer.installLog.subinstaller.description=ติดตั้ง Merge Module:
+Installer.installLog.subuninstaller.description=กระทำการ Uninstaller:
+Installer.installLog.customAction.description=การดำเนินการพิเศษโดยเฉพาะ:
+Installer.installLog.userInteractions=การโต้ตอบกับผู้ใช้
+Installer.installLog.installBegin=การติดตั้งเริ่มขึ้น:
+Installer.installLog.installEnd=การติดตั้งสิ้นสุดลง:
+Installer.installLog.freeMemory=หน่วยความจำว่าง:
+Installer.installLog.totalMemory=หน่วยความจำทั้งหมด:
+Installer.installLog.commandLineArgs=อาร์กิวเมนต์บรรทัดคำสั่ง:
+Installer.installLog.noArguments=ไม่มีอาร์กิวเมนต์
+Designer.Action.HTMLPanelAction.visualName=แผง: แสดง HTML
+HTMLPanelAction.title=แผง HTML
+Designer.Action.UninstallIsmpSoftware.visualName=ถอนการติดตั้งซอฟต์แวร์ InstallShield Universal
+Installer.unexpectedChanges.message=โปรแกรมติดตั้งพบการเปลี่ยนแปลงที่ไม่ได้คาดไว้ในสคริปต์การติดตั้ง
+﻿Installer.unexpectedChanges.title=ข้อผิดพลาด
+Installer.unexpectedChanges.label=ไม่สามารถเรียกให้เปิดโปรแกรมติดตั้งได้

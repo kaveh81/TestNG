@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+	<info organisation="org.jfree" module="jfree.chart" revision="1.0.12" status="release">
+             <license name="GNU LESSER GENERAL PUBLIC LICENSE" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+        </info>
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+
+	<publications>
+		<artifact name="jfree.chart" ext="jar"/>
+		<!-- <artifact name="com.springsource.org.jfree.chart-sources" type="src" ext="jar"/> -->
+		<artifact name="license" type="license" ext="txt"/>
+	</publications>
+
+	<dependencies>
+		<dependency org="javax.servlet" name="com.springsource.javax.servlet" rev="2.5.0" conf="default->runtime"/>
+		<dependency org="org.jfree" name="jfree" rev="1.0.15" conf="default->default"/>
+	</dependencies>
+
+</ivy-module>

@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="com.sun" module="glassfish-libs" revision="2.1.1-b31g" status="release">
+    <license name="cddl-1.0.1" url="https://glassfish.dev.java.net/public/CDDLv1.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="appserv-rt" type="jar"/>
+    <artifact name="javaee" type="jar"/>
+    <artifact name="glassfish-installer-linux" type="distribution" ext="jar" conf="distribution"/>
+  </publications>
+</ivy-module>

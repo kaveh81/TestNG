@@ -1,0 +1,189 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+
+body { background-color: #FFFFFF font: 10pt/12pt verdana,arial,helvetica,sans-serif; color: #000000 }
+
+ul { font: 10pt/12pt verdana,arial,helvetica,sans-serif; color: #000000 }
+
+
+p
+   { color: #000000; font-size: 10pt; line-height: 12pt; font-family: verdana,arial,helvetica,sans-serif; margin-top: 0pt; margin-bottom: 6pt; font-weight: regular; }
+
+
+A:link { color: #333333 }
+
+A:hover { color: #000000 }
+
+A:active { color: #666666 } 
+
+A:visited { color: #666666 }
+
+.title { font: bold 14pt/18pt verdana,arial,helvetica,sans-serif; color: #000000 }
+
+.subTitle
+   { color: #000000; font-size: 12pt; line-height: 14pt; font-family: verdana,arial,helvetica,sans-serif; font-weight: bold; margin-top: 12pt; margin-bottom: 6pt }
+
+.sectionTitle
+   { color: #000000; font-size: 11pt; line-height: 12pt; font-family: verdana,arial,helvetica,sans-serif; font-weight: bold; margin-top: 12pt; margin-bottom: 0pt }
+
+.listTitle { font: 10pt/14pt verdana, arial, helvetica, sans-serif; color: #000000 } 
+
+.mouseType { font: 8pt/10pt verdana, arial, helvetica, sans-serif; color: #999999 } 
+
+  </style>
+<title>Macrovision - InstallAnywhere 8 リリース ノート</title>
+</head>
+
+<body leftmargin="8" topmargin-"8">
+<p class="sectionTitle">リリース ノート</p>
+<p class="title">InstallAnywhere 8.0.1</p>
+
+<p>2007 年 4 月 17 日</p>
+
+<p class="subTitle">目次</p> 
+  
+  <ul>
+<li><a href="#one">概要</a></li>
+	<li><a href="#two">システム要件</a></li>
+	<li><a href="#three">新機能</a></li>
+	<li><a href="#four">バグの修正</a></li>
+<li><a href="#five">情報</a></li>
+	<li><a href="#six">既知の問題</a></li>
+  </ul>
+
+
+<a name="one"></a>
+<p class="subTitle">概要</p>
+<p>InstallAnywhere は、世界中のマルチプラットフォーム インストール開発者によって使用されているソリューションです。そのパワフルながらも使いやすい機能のおかげで、プロフェッショナルなマルチプラットフォームのインストーラを短時間で作成できます。InstallAnywhere には Standard 版と Enterprise 版があり、それぞれのユーザーのニーズに合わせて選ぶことができます。InstallAnywhere を使用すると、以下のことが可能です。
+<ul>
+<li>複数のプラットフォームおよび複数の言語に対応した 1 つのインストーラ プロジェクトを作成できます。</li>
+<li>任意のクライアントまたはサーバー プラットフォームにソフトウェアを展開できます。</li>
+<li>プロジェクト ウィザードを使ってマルチプラットフォームのインストーラを短時間で構築できます。</li> 
+<li>ソフトウェアの展開を簡単にするために、必要なプラットフォーム固有の機能をすべて含めることができます。</li></ul></p>
+
+<a name="two"></a>
+<p class="subTitle">システム要件</p>
+
+<p class="sectionTitle">InstallAnywhere を実行するシステム (オーサリング環境)</p>
+<ul>
+<li>使用可能な 128 MB の RAM </li>
+<li>最低 8 ビットの表示色 (256色)</li>
+<li>1024 x 768 以上の解像度 </li>
+</ul>
+
+<p>InstallAnywhere は、以下に示すオペレーティング システムで実行できます。お使いのオペレーティング システムが最新バージョンであり、最新のパッチとサービス パックで完全に更新されていることを確認してください。
+<ul>
+<li>Windows Server 2003、XP、2000、NT</li>
+<li>Mac OS X、Mac OS X Server</li> 
+<li>Solaris/SPARC</li> 
+<li>Linux/Intel:Red Hat、SuSE</li> 
+<li>HP-UX</li> 
+<li>AIX 5.2 以降</li>
+</ul></p>
+<p><b>メモ:</b>ローカライズされた他言語の InstallAnywhere Eenterprise 版 (英語、フランス語、ドイツ語、および日本語の開発者用) は、Windowsプラットフォームでのみ使用できます。任意のプラットフォームまたは言語 (29 言語)のインストーラを、任意のプラットフォームで構築できます。</p>
+
+<p class="sectionTitle"><B>ターゲット システム (インストーラ環境)</B></p>
+<ul>
+<li>使用可能な 64 MB の RAM </li>
+<li>最低 8 ビットの表示色 (256色)</li> 
+<li>640 X 480以上の画面解像度</li></ul> 
+
+<p>インストーラは、以下のオペレーティング システムの任意のバージョンで実行できます。ただし、Java をサポートしているものに限ります。
+<ul>
+<li>Windows Server XP、2003 (Itanium 2、x86、AMD-64)</li> 
+<li>Windows Vista、2000、NT、Me、98</li>
+<li>Linux/Intel:Red Hat、Red Hat Enterprise Server、UnitedLinux、TurboLinux、SUSE、その他</li>
+<li>PowerPC、AMD-64、および Itanium 2 対応の Linux</li>
+<li>Mac OS X (PPCとIntel) </li>
+<li>Solaris SPARC、AMD-64、Intel</li> 
+<li>HP-UX (Itanium 2 と PA-RISC) </li>
+<li>Tru64、FreeBSD </li>
+<li>AIX </li>
+<li>z/OS</li>
+<li>NetWare</li> 
+<li>その他の Unix プラットホーム </li>
+</ul></p>
+
+<p><b>メモ:</b> ベータ版または早期アクセス版リリースでは、InstallAnywhere のインストーラを使用できません。</p>
+
+<p class="sectionTitle"><B>サポートされている Java VM</B>
+<ul>
+<li>Sun:1.3.x、1.4.x、1.5.x、1.6.x</li>
+<li>IBM:1.3.x、1.4.x、1.5.x</li>
+<li>Apple:1.3.x、1.4.x、1.5.x</li>
+<li>HP:1.3.x、1.4.x、1.5.x</li></ul></p>
+
+<p>InstallAnywhere のインストーラには、すべてのプラットホームに対してデフォルトで Java 1.5 がバンドルされます。インストーラに Java VM をバンドルすることで、ターゲット システムがインストーラとアプリケーションの両方の最低要件を満たすようにすることができます。これらのバンドル可能な VM パックをダウンロードするには、「<a href="http://www.macrovision.com/downloads/flexnet_installshield/installanywhere/VM_packs.shtml">InstallAnywhere Downloads (InstallAnywhere ダウンロード)</a>」をご覧ください。</p>
+
+<p><b>メモ:</b> ベータ版または初期にリリースされた Java では、InstallAnywhere のインストーラを使用できません。</p>
+
+<a name="three"></a>
+<p class="subTitle">新機能</font></p>
+
+<p>InstallAnywhere は、マルチプラットフォーム インストーラをビルドするために開発者が必要とする機能を提供してきました。InstallAnywhere 8.0.1 のインストーラは、Windows Vista システムや Sun 1.6.x JVM でもサポートされています。 </p>
+
+<!-- <p class="sectionTitle">応答ファイルを自動的に生成および記録</p> <p>InstallAnywhere 8 では、サイレント インストール中に使用される応答ファイルを自動的に生成できます。デフォルトでは、これらの応答ファイルが記録されます。</p> -->
+
+	</UL></p>	
+	<a name="four"></a>
+<p class="subTitle">バグの修正</p>
+	  
+<p>	  InstallAnywhere 8.0.0 のリリース以降、以下の修正および強化が行われました。</p>
+
+<p><ul>
+
+<LI>IOA-000030413: Windows Vista で「システム環境変数を設定」クションが機能するようになりました。</LI>
+<LI>IOA-000027560: HP-UX 用の CD-ROM 配布と Web インストーラの両方をビルドするプロジェクトが失敗しなくなりました。</LI>
+<LI>IOA-000057176: インストール スクリプトのセキュリティ上の弱点がこの修正プログラムで強化されました。</LI>
+<LI>IOA-000029919: 「システム環境変数を設定」クションに関連する GUI 問題が解決されました。</LI>
+<LI>IOA-000029119: Windows Vista システムで、$WIN_COMMON_DESKTOP$ がショートカットに対して正しく解決されるようになりました。</LI>
+<LI>IOC-000057327: MagicFolders に追加された規則が再びランタイムで機能するようになりました。</LI>
+<LI>IOA-000027741: コンソールに、「モニタが起動する前に Command.run(): プロセスが完了しました」という旨のデバッグ メッセージが表示されなくなりました。</LI>
+<LI>IOC-000058165: 唯一のプラットフォームとして Windows Vista に対して [プラットフォームのチェック] 規則を使用するインストーラが、Windows Vista のコンピュータに正しくインストールされるようになりました。</LI>
+
+</ul></P>
+
+
+<a name="five"></a>
+<p class="subTitle">情報</p>
+
+<p class="sectionTitle"><B>フィードバックを送信する</B></p>
+<p>お客様からのフィードバックは、お客様のニーズに応える機能を InstallAnywhere に搭載していく上で非常に重要な役割を果たします。InstallAnywhere 8.0.1 の機能の多くは、お客様、つまり InstallAnywhere 開発者から弊社のエンジニア チームまたはサポート チームに提供されたフィードバックや提案が基になっています。フィードバックを送信するには、<a href="http://www.macrovision.com/feedback/index.shtml">Product Feedback (製品のフィードバック)</a>にアクセスしてください。</p>
+
+<p class="sectionTitle"><b>InstallAnywhere を開く</b></p>
+<p>InstallAnywhere を実行しているオペレーティング システム応じて、以下の手順で操作してください。
+<ul>
+
+<li><b>Windows で InstallAnywhere を開く場合:</b><br> Windows の [スタート] メニューから [<strong>プログラム</strong>]、[<strong>Macrovision</strong>] の順にポイントし、[<strong>InstallAnywhere 8 Enterprise</strong>] または [<strong>InstallAnywhere 8 Standard</strong>] をクリックします。<em>InstallAnywhere.exe</em> をダブルクリックしても開くことができます。このファイルは、デフォルトで <i>C:\Program Files\Macrovision\InstallAnywhere 8 Enterprise</i> または <i>C:\Program Files\Macrovision\InstallAnywhere 8 Standard にあります。</i></li>
+
+<li><b>Mac で InstallAnywhere を開く場合:</b><br> <em>Applications/Macrovision/InstallAnywhere 8 Enterprise</em> フォルダ内または <em>Applications/Macrovision/InstallAnywhere 8 Standard</em> フォルダ内で <em>InstallAnywhere</em> をダブルクリックします。デフォルトでドックに作成される InstallAnywhere エイリアスをダブルクリックしても開くことができます。</li>
+
+<li><b>Solaris、Linux、HP-UX、AIX などの UNIX で InstallAnywhere を開く場合:</b><br> <em>Macrovision/InstallAnywhere_8_Enterprise</em> フォルダまたは <em>Macrovision/InstallAnywhere_8_Standard</em> フォルダから「<em>InstallAnywhere</em>」と入力します。デフォルトでホーム フォルダにインストールされる InstallAnywhere シンボリック リンクを実行してもかまいません。</li></ul></p>
+
+<p class="sectionTitle"><b>InstallAnywhere をアンインストールする</b></p>
+<p>InstallAnywhere を実行しているオペレーティング システム応じて、以下の手順で操作してください。
+<ul>
+
+<li><b>Windows から InstallAnywhere をアンインストールする場合:</b><br> <em>Uninstall</em> ショートカットをダブルクリックします。このショートカットは、デフォルトで <i>C:\Program Files\Macrovision\InstallAnywhere 8 Enterprise</i> または <i>C:\Program Files\Macrovision\InstallAnywhere 8 Standard</i> にあります。</li>
+
+<li><b>Mac から InstallAnywhere をアンインストールする場合:</b><br> <em>Applications/Macrovision/InstallAnywhere 8 Enterprise</em> フォルダ内または <em>Applications/Macrovision/InstallAnywhere 8 Standard</em> フォルダ内で [<em>アンインストール</em>] をダブルクリックします。</li>
+
+<li><b>Solaris、Linux、HP-UX、AIX などの UNIX から InstallAnywhere をアンインストールする場合:</b><br> <em>Macrovision/InstallAnywhere_8_Enterprise</em> フォルダまたは <em>Macrovision/InstallAnywhere_8_Standard</em> フォルダから「<em>Uninstall</em>」と入力します。</li></ul></p>
+
+
+<a name="six"></a>
+<p class="subTitle">既知の問題</p>
+
+<p>既知の問題の一覧については、知識ベースの記事 <a href="http://support.installshield.com/kb/view.asp?articleid=Q112324" target="_blank">Q112324</a> を参照してください。</p><br>
+
+
+
+<p class="mouseType">Copyright 2002-2007 Macrovision Europe Ltd. and/or Macrovision Corporation.</font></p>
+<br>
+</body>
+</html>
+
+

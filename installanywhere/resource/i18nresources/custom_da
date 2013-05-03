@@ -1,0 +1,2010 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Fuldfør afinstallation
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Fjern fuldstændig alle funktioner og komponenter fra $PRODUCT_NAME$, som blev installeret af InstallAnywhere. Filer og mapper, som blev oprettet efter installationen, vil ikke være påvirket.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Afinstaller specifikke funktioner
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Vælg specifikke funktioner fra $PRODUCT_NAME$, der blev installeret af InstallAnywhere, som nu skal afinstalleres.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Vælg en af følgende valgmuligheder:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Afinstaller valgmuligheder
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Afinstaller
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Fjern fuldstændig alle funktioner og komponenter.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Vælg specifikke funktioner, der blev installeret af InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Vælg en af følgende valgmuligheder:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Afinstaller valgmuligheder
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=INDTAST TALLET FOR DIT VALG, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE STANDARDEN:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Der er ikke nok diskplads til at fortsætte med installationen.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=men der er kun XXX MB til rådighed på:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Denne installation kræver XXX MB ledig diskplads,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Ellers kan du vælge 'Annuller' for at annullere denne installation.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Frigør mindst XXX MB for at fortsætte med installationen.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Frigør noget diskplads for at fortsætte med installationen.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Klik venligst på 'Installer' for at fortsætte med installationen.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Klar til at fortsætte
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Ikke nok diskplads
+
+# ................... =Warning!
+CheckDiskSpace.warning=Advarsel!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=TRYK PÅ <ENTER> FOR AT UDREGNE DEN DISPONIBLE DISKPLADS IGEN,\u000A    ELLER INDTAST 'AFSLUT' FOR AT AFSLUTTE INSTALLATIONSPROGRAMMET
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Der er ikke nok diskplads til at udføre denne installation.\u000A   Frigør noget diskplads og kør dette installationsprogram igen...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=TRYK PÅ <ENTER> FOR AT BEGYNDE INSTALLATION
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Advarsel!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Denne installation kræver XXX MB ledig diskplads,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=men der er kun XXX MB til rådighed på:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Frigør mindst XXX MB for at fortsætte med installationen.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Frigør noget diskplads for at fortsætte med installationen.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Der er ikke nok diskplads til at fortsætte med installationen.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Ikke nok diskplads
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Vælg venligst en fil.
+
+# ................. =Choose...
+ChooseFile.chooseStr=Væ&lg...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=&Vælg venligst en fil:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=&Gendan standardfil
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Vælg en fil
+
+# .................... =in the folder
+ChooseFile.macInsideStr=i mappen
+
+# ................ =on the disk
+ChooseFile.macOnStr=på disken
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Vælg venligst en mappe.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=Væ&lg...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=&Vælg venligst en mappe:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=&Gendan standardmappe
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Vælg en mappe
+
+# .................. =on the disk
+ChooseFolder.macOnStr=på disken
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Fejl!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Du har ikke skrivetilladelse til den valgte mappe. Vælg venligst en anden mappe.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Vælg mappe
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Vælg installationssæt
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Vælg installationssæt
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Vælg produktfunktioner
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Vælg det installationssæt, som skal installeres af dette installationsprogram.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=INDTAST TALLET FOR INSTALLATIONSSÆTTET, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE STANDARDEN\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Vælg de funktioner, som skal installeres af installationsprogrammet.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=INDTAST EN KOMMAADSKILT LISTE MED TAL, DER REPRÆSENTERER DE FUNKTIONER,\u000A   SOM SKAL INSTALLERES
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Vælg installationssæt
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Brugerdefiner
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Fejl under indstilling af produktfunktioner til installation.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Vælg venligst en Java VM til brug af det installerede program
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Vælg Java virtuel maskine
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Den angivne sti henviser ikke til en gyldig Java virtuel maskine. Vælg venligst igen.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Vælg venligst en Java VM til brug af det installerede program
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Vælg Java virtuel maskine
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=INDTAST TALLET FOR JAVA VM, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE\u000A   DET AKTUELLE VALG
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=INDTAST DEN ABSOLUTTE STI TIL DEN JAVA VM EKSEKVERBARE FIL SOM DU VÆLGER\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=STI TIL DEN JAVA EKSEKVERBARE FIL ER:   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Kan ikke installere den Java virtuelle maskine som er inkluderet med dette installationsprogram.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Installer en Java VM specifikt til dette program
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Vælg en Java VM som allerede er installeret på dette system
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=&Vælg en anden...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Åbn
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Installer en Java VM specifikt til dette program
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java kørselsmiljø
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Søger i: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=&Stands søgning
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=&Søg efter andre
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Søgning fuldført.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Vælg en Java VM som allerede er installeret på dette system
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Fejl!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Det valgte program er ikke en gyldig Java virtuel maskine.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Vælg Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Fejl: En egnet Java vituel maskine blev ikke fundet.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Dette produkt kræver at der allerede er installeret en Java virtuel maskine på systemet. Se venligst <http://java.sun.com> for at downloade en virtuel maskine til din platform.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Vælg Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=Vælg ekstra SCM-funktioner
+ChooseSCMFeaturesConsole.title=Vælg ekstra SCM-funktioner
+ChooseSCMFeaturesConsole.instructions=Vælg SCM-funktioner - Instruktioner
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=TRYK PÅ <ENTER> FOR AT FORTSÆTTE
+
+# ................. =Y
+ConsoleUtils.yesChar=J
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=ER DETTE KORREKT?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=En af af de angivne værdier er ikke gyldig. Vælg venligst igen.
+
+#............... =back
+ConsoleUtils.back=tilbage
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Fjern afkrydsningen fra funktioner, som du vil afinstallere. Afkrydsede funktioner vil forblive installeret.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Afkryds funktioner, som du vil afinstallere. Uafkrydsede funktioner vil forblive installeret.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Vælg produktfunktioner
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Vælg de funktioner, som skal installeres af dette installationsprogram.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Fjern afkrydsningen fra de funktioner, som du vil afinstallere. Afkrydsede funktioner vil forblive installeret.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Afkryds de funktioner, som du vil afinstallere. Uafkrydsede funktioner vil forblive installeret.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Vælg produktfunktioner
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=INDTAST EN KOMMAADSKILT LISTE MED TAL, DER REPRÆSENTERER DE FUNKTIONER, SOM DU GERNE VIL VÆLGE ELLER FRAVÆLGE. INDTAST '?<NUMMER>', HVIS DU VIL SE EN FUNKTIONSBESKRIVELSE. TRYK PÅ <RETURN>, NÅR DU ER FÆRDIG:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Installationssæt
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Vælg produktfunktioner
+
+#............................... =Description
+CustomizeBundlesPanel.description=Beskrivelse
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Nødvendig plads i alt til installation:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Indsæt nyt medie
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Indsæt #NAME# eller vælg 'Gennemse...' for at finde det manuelt.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Forkert medieenhed
+# .................... =Browse
+DiskNeededDialog.locate=Gennemse
+
+# .................. =Cancel
+DiskNeededDialog.quit=Annuller
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Indsæt nyt medie
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Indsæt #NAME# eller vælg sti til det manuelt.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Indsæt #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Disk forventes ved: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Indsæt #NAME# eller indtast dets placering.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=OK, XXX er blevet indsat.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Vælg sti til installationsprogramdata.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Annuller og afslut installationen.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=INDTAST VALG
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=INDTAST STI TIL MAPPEN 'INSTALLERDATA' PÅ DISK
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Dit systemmiljø er ændret. Du er nødt til at logge af eller genstarte dit system for at disse ændringer kan træde i kraft.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Systemmiljø ændret
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Afslut
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Installation ikke fuldført
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Installation ikke fuldført
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Hvis du annullerer installationen nu, vil $PRODUCT_NAME$ ikke blive installeret. Klik på 'Genoptag' for at fortsætte installationen. Klik på 'afslut' for at annullere installationen.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Hvis du annullerer installationen nu, vil $PRODUCT_NAME$ ikke blive installeret. Klik på 'Genoptag' for at fortsætte installationen. Klik på 'afslut' for at annullere installationen.
+
+# .......... =Resume
+ExitDialog.ok=Genoptag
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Annuller afinstallation
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Annuller installation
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Ja til alle
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Nej til alle
+
+# ....................... =Yes
+FileAlreadyExists.yes=Ja   
+
+# ....................... =No
+FileAlreadyExists.no=Nej
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Overskriv eksisterende fil?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Der findes allerede en fil ved navn \"XXX\" i \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Der findes allerede en nyere fil ved navn \"XXX\" i \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Der findes allerede en ældre fil ved navn \"XXX\" i \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Ønsker du at overskrive den eksisterende fil?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=&Vælg venligst en fil/mappe:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Vælg
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Filer føjes til listen herunder.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=De fundne filer er listet herunder.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Mapper føjes til listen herunder.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=De fundne mapper er listet herunder.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Fundne ens filer:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Fundne ens mapper:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Fundet i:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=Væ&lg en anden...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Leder i:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Foretag dit eget valg.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Søger efter ens filer:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Søger efter ens mapper:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Søger
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Vælg
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Installationsprogrammet kunne en finde en mage til:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Valgte:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Vælg en mappe
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Annuller
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Opret en ny mappe
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Mappe:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Navn:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=ER DETTE KORREKT?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=TRYK PÅ <ENTER> FOR AT FORTSÆTTE
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Fejl:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Vent venligst, $PRODUCT_NAME$ konfigureres til dit system. Det varer et øjeblik...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Vent venligst
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Denne installation kræver en adgangskode for at fortsætte.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=&Indtast venligst adgangskoden:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Indtast adgangskode
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Fejl!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Den indtastede adgangskode er forkert. Prøv venlist igen.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Indtast adgangskode
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Det er nødvendigt med adgangskode for at fortsætte.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Denne installation kræver en adgangskode for at fortsætte.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Den indtastede adgangskode er forkert. Prøv venlist igen.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Indtast venligst adgangskoden:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Det er nødvendigt med adgangskode for at fortsætte.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Indtast adgangskode
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=INDTAST EN KOMMAADSKILT LISTE MED TAL, DER REPRÆSENTERER DE ØNSKEDE VALG
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=INDTAST EN KOMMAADSKILT LISTE MED TAL, DER REPRÆSENTERER DE ØNSKEDE VALG, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE STANDARDEN
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=INDTAST TALLET PÅ DET ØNSKEDE VALG
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=INDTAST TALLET FOR DIT VALG, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE STANDARDEN:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Du kan ikke afslutte installationsprogrammet på dette tidspunkt.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Du kan ikke gå til det forrige trin på dette tidspunkt.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Vigtige oplysninger
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Læs venligst før du fortsætter:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=VIGTIGE OPLYSNINGER SLUT. TRYK PÅ <ENTER> FOR AT FORTSÆTTE
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Vigtige oplysninger
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Læs venligst før du fortsætter:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Program
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Dette installerer programfunktionen.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Hjælp
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Dette installerer hjælpefunktionen.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Til lykke! $PRODUCT_NAME$ er blevet installeret i:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AKlik på "Færdig" for at afslutte installationsprogrammet.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Installation fuldført
+InstallCompleteAction.stepTitle=Installation fuldført
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=Installationen af $PRODUCT_NAME$ er fuldført, men der opstod nogle fejl under installationen.\u000A\u000ASe installationsloggen for at få detaljer. Klik på "Færdig" for at afslutte installationsprogrammet.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Installation fuldført
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Installation fuldført
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Til lykke. $PRODUCT_NAME$ er blevet installeret på:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=TRYK PÅ <ENTER> FOR AT AFSLUTTE INSTALLATIONSPROGRAMMET
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=Installationen af $PRODUCT_NAME$ er fuldført, men der opstod nogle fejl under installationen.\u000A   Se installationsloggen for at få flere oplysninger.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=Installationen af $PRODUCT_NAME$ er fuldført, men der opstod nogle fejl under installationen.\u000A   Se installationsloggen for at få flere oplysninger. Klik på "Færdig" for at afslutte installationsprogrammet.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=TRYK PÅ <ENTER> FOR AT AFSLUTTE INSTALLATIONSPROGRAMMET
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Installation fuldført
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Vælg venligst en destinationsmappe til denne installation.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Vælg installationsmappe
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=H&vor vil du gerne installere?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Vælg installationsmappe
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=INDTAST EN ABSOLUT STI, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE STANDARDEN\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=INDTAST EN ABSOLUT STI, INDTAST 'standard' FOR AT GENDANNE STANDARDMAPPEN,\u000A    ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE DEN VALGTE MAPPE
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Standardinstallationsmappe: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Valgt installationsmappe: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=INSTALLATIONSMAPPEN ER: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Den angivne sti: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=henviser til en fil, der allerede findes på destinationssystemet.\u000ADette installationsprogram kan ikke overskrive en eksisterende fil med en ny mappe.\u000AVælg en anden installationsplacering.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Du har ikke skrivetilladelse til den valgte installationsdestination. \u000AVælg venligst en anden placering.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Hvor vil du gerne installere?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Fejl!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Du har ikke skrivetilladelse til den valgte installationsdestination. \u000AVælg venligst en anden placering.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Vælg installationsmappe
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Den specificerede sti til installationsdestinationen har et eller flere tegn, der er ugyldige på denne platform. \u000AVælg venligst en anden placering til installationen.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=Væ&lg...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=&Gendan standardmappe
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=indeni
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=i mappen
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=på disken
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=installer
+
+# ....................... =Introduction
+Installer.installLabels.00=Introduktion
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Vælg installationsmappe
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Vælg $SHORTCUT_NAME$ mappe
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Præinstallationsoversigt
+
+# ....................... =Installing...
+Installer.installLabels.04=Installerer...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Installation fuldført
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Installationsprogrammet kan ikke køres på dette system.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Installationsprogrammet kan ikke køre på konfigurationen. Det vil afslutte nu.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Tilstanden på installationsprogrammets brugergrænseflade understøttes ikke
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Installationsprogrammet kan ikke køre i denne tilstand. Gennemse dokumentationen til installationsprogrammet for at få oplysninger om.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Fejl i tilstand til installationsprogrammets brugergrænseflade
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Afinstaller $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Til lykke! $PRODUCT_NAME$ er blevet installeret i:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AKlik på "Færdig" for at afslutte installationsprogrammet.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=Installationen af $PRODUCT_NAME$ er færdig, men der opstod nogle advarsler under installationen. Se installationsloggen for at få flere oplysninger.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=Installationen af $PRODUCT_NAME$ er færdig, men der opstod nogle fejl under installationen. Se installationsloggen for at få flere oplysninger.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=Installationen af $PRODUCT_NAME$ er færdig, men der opstod nogle alvorlige fejl under installationen. Se installationsloggen for at få flere oplysninger.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Du bør genstarte systemet for at fuldføre installationen.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Du er nødt til at genstarte systemet for at fuldføre installationen.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Installation fuldført
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Ja, genstart systemet
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Nej, jeg genstarter selv systemet
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Installerer...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Annullerer installation...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Installerer...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Præinstallationsoversigt
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Læs venligst følgende før du fortsætter:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Præinstallationsoversigt
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=TRYK PÅ <ENTER> FOR AT FORTSÆTTE. HVIS OPLYSNINGERNE ER FORKERTE, INDTASTER DU "tilbage" FOR AT FORETAGE ÆNDRINGER\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Produktnavn:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Installationsmappe:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Genvejsmappe:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Kædemappe:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Henvisningsmappe:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Brugerdefineret specielt installationssæt
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Installationssæt
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Produktkomponenter:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM installationsmappe:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Java VM som skal bruges af installeret produkt:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Oplysninger om diskplads (for installationsdestination): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Nødvendig:
+
+# .................. =bytes
+InstallSummaryUI.byte=byte
+
+# ....................... =Available:
+InstallSummaryUI.available=Disponibel:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Vælg denne indstilling for at brugerdefinere de funktioner, der skal installeres.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Brugerdefineret
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Kun de påkrævede programfunktioner vil blive installeret. Denne indstilling anbefales kun til brugere som har begrænset diskplads.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Minimal
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=De mest almindelige programfunktioner vil blive installeret. Denne indstilling anbefales til de fleste brugere.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Almindelig
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere vil lede dig igennem installationen af $PRODUCT_NAME$.\u000A\u000ADet anbefales på det kraftigeste, at du afslutter alle programmer, før du fortsætter med denne installation.\u000A\u000AKlik på knappen 'Næste' for at fortsætte til næste skærmbillede. Hvis du ønsker at ændre noget på et tidligere skærmbillede, klikker du på knappen 'Forrige'.\u000A\u000ADu kan når som helst annullere denne installation ved at klikke på knappen 'Annuller'.
+
+# .................. =Introduction
+IntroAction.stepTitle=Introduktion
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere vil lede dig igennem installationen af $PRODUCT_NAME$.\u000A\u000ADet anbefales på det kraftigeste, at du afslutter alle programmer, før du fortsætter med denne installation.\u000A\u000ABesvar hver prompt for at fortsætte til næste trin i installationen. Hvis du ønsker at ændre noget på et tidligere trin, indtaster du 'tilbage'.\u000A\u000ADu kan når som helst annullere denne installation ved at indtaste 'afslut'.
+
+# ..................... =Introduction
+IntroActionConsole.title=Introduktion
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Kan ikke åbne URL i webbrowser
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere kunne ikke åbne den anmodede URL ($ACTION_URL$) i systemets standardwebbrowser. Hvis du vil se denne URL, indtaster du den ovenfor viste adresse i din valgte webbrowser.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Licensaftale
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=Installation og brug af $PRODUCT_NAME$ kræver accept af følgende licensaftale:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Licensaftale
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=Installation og brug af $PRODUCT_NAME$ kræver accept af følgende licensaftale:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ACCEPTERER DU BETINGELSERNE I DENNE LICENSAFTALE?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Afslut
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Genoptag
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Licensaftale - advarsel
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Advarsel!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Hvis du ikke accepterer betingelserne i licensaftalen, er det ikke tilladt at fortsætte med denne installation.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=Jeg accepterer &IKKE betingelserne i licensaftalen
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Ingen fil fundet til gennemsyn
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=&Jeg accepterer betingelserne i licensaftalen
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Ingen valgt fil
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=TRYK PÅ <ENTER> FOR AT ACCEPTERE FØLGENDE
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=INDTAST TALLET FOR DET ØNSKEDE VALG, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE STANDARDEN
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Annuller
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Detaljer...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere er nu klar til at installere $PRODUCT_NAME$ på dit system på følgende placering:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=TRYK PÅ <ENTER> FOR AT INSTALLERE
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Klar til installation
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere er ved at være færdig. Vent venligst...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Rydder op...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Denne installation kræver et serienummer for at fortsætte.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=&Indtast venligst serienummeret:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Indtast serienummer
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Fejl!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Det indtastede serienummer er forkert. Prøv venlist igen.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Indtast serienummer
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Serienummer er påkrævet for at fortsætte.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Denne installation kræver et serienummer for at fortsætte.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Det indtastede serienummer er forkert. Prøv venlist igen.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Indtast venligst serienummeret:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Serienummer er påkrævet for at fortsætte.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Indtast serienummer
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Henvisning
+
+#............... =Link
+ShortcutName.link=Kæde
+
+#................... =Shortcut
+ShortcutName.shortcut=Genvej
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Hvor vil du gerne oprette henvisninger?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Vælg henvisningsmappe
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Vælg kædemappe
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Hvor vil du gerne oprette kæder?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Hvor vil du gerne oprette produktikoner?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Vælg genvejsplacering
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Fælles grupper
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Aktuelle brugers grupper
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=i mappen
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=på disken
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Standard: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Aktuel: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Vælg en anden placering...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=INDTAST TALLET FOR ET VALG OVENFOR, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE STANDARDEN\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=INDTAST TALLET FOR ET VALG OVENFOR, ELLER TRYK PÅ <ENTER> FOR AT ACCEPTERE DET\u000A    AKTUELLE VALG
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=INDTAST DEN ABSOLUTTE STI TIL GENVEJSMAPPEN\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=GENVEJSPLACERING ER: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Vælg kædeplacering
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Hvor vil du gerne oprette kæder?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Vælg genvejsplacering
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Hvor vil du gerne oprette produktikoner?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Vælg en henvisningsplacering
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Hvor vil du gerne oprette henvisninger?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=På Apple-menuen
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=I dock
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=På skrivebordet
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Opret ikke henvisninger
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Anden:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Opret ikke kæder
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Opret ikke ikoner
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=I hjemmemappen
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=På skrivebordet
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=I en ny programgruppe:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=I en eksisterende programgruppe:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=På &Lynstart-linien
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=På meneun Start
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Opret ikoner til alle brugere
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Fejl!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Du har ikke skrivetilladelse til den valgte destination. Vælg venligst en anden placering.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=På &Apple-menuen
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=I &dock
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=På &skrivebordet
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=På &skrivebordet
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Vælg...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Opret ikke henvisninger
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=And&en:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=&Opret ikke kæder
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=&Opret ikke ikoner
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=I h&jemmemappen
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=På &skrivebordet
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=I en n&y programgruppe:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=I en e&ksisterende programgruppe:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=På &meneun Start
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Op&ret ikoner til alle brugere
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Annuller
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Detaljer...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Dato:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Licens-ID:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Makroversion:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Version:
+
+# ............... =Done
+StepMaster.doneStr=Fæ&rdig
+
+# ............... =Cancel
+StepMaster.exitStr=&Annuller
+
+# ............... =Help
+StepMaster.helpStr=&Hjælp
+
+# .................. =Install
+StepMaster.installStr=&installer
+
+# ............... =Next
+StepMaster.nextStr=&Næste
+
+# ............... =Previous
+StepMaster.prevStr=&Forrige
+
+# ............... =Close
+StepMaster.closeStr=Luk
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Alle elementer er afinstalleret.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Afinstallering fuldført
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Følgende elementer kunne ikke fjernes:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Kan ikke fjerne
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Du er nødt til at genstarte systemet for at fuldføre afinstallationen.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Du bør genstarte systemet for at fuldføre afinstallationen.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Du er også nødt til at genstarte systemet for at fuldføre afinstallationen.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Du bør også genstarte systemet for at fuldføre afinstallationen.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Ja, genstart systemet
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Nej, jeg genstarter selv systemet
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Alle elementer er afinstalleret.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Afinstallering fuldført
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Følgende elementer kunne ikke fjernes:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Du er nødt til at genstarte systemet for at fuldføre afinstallationen.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Du bør genstarte systemet for at fuldføre afinstallationen.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Afinstallering fuldført
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Alle elementer er afinstalleret.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Visse elementer kunne ikke fjernes.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Afinstalleringen kunne ikke fuldføres pga. en fejl.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Afinstaller $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=Afinstalleringsprogram til InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Introduktion
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Afinstallerer...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Afinstallering fuldført
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Er ved at skulle afinstallere...\u000A\u000A$PRODUCT_NAME$\u000A\u000ADette vil fuldstændig fjerne alle funktioner, der er installeret af InstallAnywhere. Det vil ikke fjerne filer og mapper, som er oprettet efter installationen.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Afinstaller $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Er ved at skulle afinstallere...\u000A\u000A$PRODUCT_NAME$\u000A\u000ADette vil fuldstændig fjerne alle funktioner, der er installeret af InstallAnywhere. Det vil ikke fjerne filer og mapper, som er oprettet efter installationen.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Afinstaller $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Annuller
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Afslut
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Hjælp
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=A&finstaller
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=En handling kunne ikke fortrydes fordi den ikke understøttes.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Rydder op...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Producentspecifikke pakker...
+
+# ............... =Files...
+UninstallMgr.Files=Filer...
+
+# ................. =Folders...
+UninstallMgr.Folders=Mapper...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Kæder...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Henvisninger...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Genveje...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Produktet kunne ikke afinstalleres, fordi der ikke længere en nogen egnet Java virtuel maskine på dette system. Installer en Java virtuel maskine og prøv igen.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 mappe
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Forbereder...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Softwaredatabase...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Registrering...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 mapper
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Kan ikke rydde
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Kan ikke fjerne producentspecifikke pakker
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Kan ikke fjerne fil
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Kan ikke fjerne mappe
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Kan ikke fjerne Java VM-funktion
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Kan ikke fjerne kæde
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Kan ikke fjerne henvisning
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Kan ikke fjerne genvej
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Kan ikke
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Kan ikke fjerne 1 fil
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Kan ikke fjerne 2 filer
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Kan ikke fjerne softwaredatabase
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Kan ikke fjerne registreringsnøgle
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Systemgenstart påkrævet
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Det anbefales ikke, at du kører afinstallationen, før systemet er genstartet. Klik på \"Annuller\" for at afslutte afinstallationen, eller \"Fortsæt\" for alligevel at afinstallere.
+
+# ................ =Continue
+UninstallRestart.continue=Fortsæt
+
+# ................ =Cancel
+UninstallRestart.exit=Annuller
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Vent venligst mens InstallAnywheres afinstalleringsprogram
+
+# ................ =removes the following features...
+UProgress.waitArr.1=fjerner følgende funktioner...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Eksekverer brugerdefineret kode...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Eksekverer...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Eksekverer installationsmakro...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Installer flettemodul
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Installerer flettemodul
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Installerer producentspecifik pakke
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=slut
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=TRYK PÅ <ENTER> FOR AT BEGYNDE AFINSTALLATIONEN, ELLER 'SLUT' FOR AT AFSLUTTE AFINSTALLATIONSPROGRAMMET:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=TRYK PÅ <ENTER> FOR AT AFSLUTTE AFINSTALLATIONSPROGRAMMET:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Kopiér fil
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Kopiér mappe
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Opret kæde
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Opret genvej
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Opret henvisning
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Opret mappe
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Opret LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Slet fil
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Slet mappe
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Udvid arkiv
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Installér SpeedFolder
+
+InstallRPMPackage.visualname.self=Installer Linux RPM
+InstallSolarisPackage.visualname.self=Installer Solaris-pakke
+InstallHPUXPackage.visualname.self=Installer HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Flyt fil
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Flyt mappe
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Registrer Windows-tjeneste
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Indstil systemmiljøvariabel
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Indstil Windows-registreringsdatabase
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Eksekver ANT-makro
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Eksekver kommando
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Eksekver brugerdefineret kode
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Eksekver makro
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Eksekver destinationsfil
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Find komponent i registreringsdatabase
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Hent fortegnelse i Windows-registreringsdatabase
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Modificer tekstfil
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Udfør XSL-transformation
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Udlæs fejlfindingsoplysninger
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Udlæs tekst til konsol
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Vis meddelelsesdialog
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Start Windows-tjeneste
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Stop Windows-tjeneste
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Afbryd Windows-tjeneste
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Find mappe
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Installer flettemodul
+Designer.Action.PowerUpdateClient.visualName=Installer PowerUpdate-klient
+Designer.Action.PerformXSLTZip.visualName=Udfør XSL-transformation - I arkiv
+Designer.Action.PerformXSLT.visualName=Udfør XSL-transformation
+Designer.Action.PerformXSLT.performingXSLtransform=Udfører XSL-transformation:
+Designer.Action.MakeExecutable.visualName=Opret LaunchAnywhere for Java-program
+Designer.Action.InstallZipfile.visualName=Installer arkiv
+Designer.Action.CreateUninstaller.visualName=Opret afinstalleringsprogram
+Designer.Action.BOMAction.visualName=Installer fra Manifest
+Designer.Action.ExpandArchive.visualName=Udvid arkiv
+Designer.Action.ExecuteScript.visualName=Eksekver makro/batchfil
+Designer.Action.Exec.visualName=Eksekver kommando
+Designer.Action.visualName=Eksekver destinationsfil
+Designer.Action.AntRunner.visualName=Eksekver ANT-makro
+Designer.Actions.ShowDialogAction.visualName=Vis meddelelsesdialog
+
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Handlinger efter afinstallation
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Handlinger før afinstallation
+
+Designer.Action.EvaluateDependenciesAction.visualName=Vurdér afhængigheder
+
+ActionGroup.visualName.self=Handlingsgruppe
+Designer.Action.UpdateServiceClient.visualName=Aktivér underrettelser om opdatering
+Designer.FolderConstants.programsDir64Name=Programmappe (64-bit)
+Designer.FolderConstants.programsDir32Name=Programmappe (32-bit)
+Designer.FolderConstants.system64Name=Systemmappe (64-bit)
+Designer.FolderConstants.system32Name=Systemmappe (32-bit)
+Designer.FolderConstants.variableMagicFolder=Variable Magic-mappe
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# URL til indlæsning af us.JAR er forkert.
+Installer.Actions.UpdateServiceClient.badUsJar=Biblioteket #UPDATE_SERVICE# indeholder ikke den nødvendige klasse til registrering. Den forsynede JAR er måske forkert.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=Klassen #UPDATE_SERVICE# indeholder ikke den nødvendige metode til registrering.
+Installer.installLog.actionNotes=Handlingsnotater:
+Installer.installLog.installLogDetail=Logdetaljer for installation:
+Installer.installLog.installation=Installation: 
+Installer.installLog.unsuccessful=Mislykket.
+Installer.installLog.successful=Vellykket
+Installer.installLog.withErrors=med fejl.
+Installer.installLog.withwarnings=med advarsler.
+Installer.installLog.cancelled=Annulleret
+Installer.installLog.duringPostInstall=under efterinstallation
+Installer.installLog.duringInstall=under installation
+Installer.installLog.duringPreInstall=under præinstallation
+Installer.installLog.cancelledBeforePreInstallation=INSTALLATION BLEV ANNULLERET AF BRUGER FØR PRÆINSTALLATION
+Installer.installLog.cancelledDuringPreInstallation=INSTALLATION BLEV ANNULLERET AF BRUGER UNDER PRÆINSTALLATION
+Installer.installLog.cancelledDuringInstallation=INSTALLATION BLEV ANNULLERET AF BRUGER UNDER INSTALLATION
+Installer.InstallLog.cancelledDuringPostInstallation=INSTALLATION BLEV ANNULLERET AF BRUGER EFTER INSTALLATION ELLER UNDER EFTERINSTALLATION
+Installer.installLog.successes=Successer
+Installer.installLog.warnings=Advarsler
+Installer.installLog.nonFatalErrors=IkkeFataleFejl
+Installer.installLog.fatalErrors=FataleFejl
+Installer.installLog.details=Detaljer
+Installer.installLog.nothingWasInstalled=Intet blev installeret.
+Installer.installLog.none=Ingen
+Installer.installLog.summary=Oversigt
+Installer.installLog.installedBy=Installeret af InstallAnywhere #BUILD_INFO#, af Macrovision
+Installer.installLog.status=Status:
+Installer.installLog.additionalNotes=Yderligere notater:
+Installer.installLog.exceptionClass=Undtagelsesklasse: 
+Installer.installLog.exceptionMessage=Undtagelsesmeddelelse: 
+Installer.installLog.exceptionStackTrace=Undtagelses stack trace:
+Installer.installLog.successLevel.successful=VELLYKKET
+Installer.installLog.successLevel.warning=ADVARSEL
+Installer.installLog.successLevel.error=FEJL
+Installer.installLog.successLevel.fatalError=FATAL FEJL
+Installer.installLog.successLevel.unsupported=IKKE UNDERSTØTTET FEJLNIVEAU
+Installer.installLog.successLevel.notice=NOTAT
+Installer.installLog.action.description=Installationshandling:
+Installer.installLog.antRunner.description=Eksekver ANT-script:
+Installer.installLog.antRunner.script=Script: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Intet mål valgt
+Installer.installLog.asciiFileManipulator.newFile=Ny fil 
+Installer.installLog.copyDirectory.description=Kopiér bibliotek:
+Installer.installLog.copyFile=Kopiér fil:
+Installer.installLog.copyFileAction.destination=Destination: 
+Installer.installLog.createShortcut.createShortcut=Opret genvej:
+Installer.installLog.createShortcut.createAlias=Opret alias:
+Installer.installLog.createShortcut.createLink=Opret link:
+Installer.installLog.deleteFileAction.source=Kilde:
+Installer.installLog.editEnvironment.description=Indstil miljøvariabel:
+Installer.installLog.expandFile.description=Udvid arkiv:
+Installer.installLog.getRegEntry.description=Hent fortegnelse i registreringsdatabase:
+Installer.installLog.getRegEntry.key=Nøgle: 
+Installer.installLog.getRegEntry.value=Værdinavn:
+Installer.installLog.installDirCont.description=Installér Speedfolder:
+Installer.installLog.installDirectory.description=Installationsbibliotek:
+Installer.installLog.installFile.description=Installationsfil:
+Installer.installLog.installNTService.description=Registrer NT-tjeneste:
+Installer.installLog.installUninstaller.description=Installér afinstallationsprogram:
+Installer.installLog.installUninstaller.note=(Installér alle komponenter til afinstallationsprogram)
+Installer.installLog.makeExecutable.description=Opret LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(Installér alle Java-eksekverbare komponenter til LaunchAnywhere)
+Installer.installLog.makeRegEntry.description=Opret fortegnelse i registreringsdatabase:
+Installer.installLog.makeRegEntry.key=Nøgle: 
+Installer.installLog.makeRegEntry.name=Værdinavn:
+Installer.installLog.makeRegEntry.data=Værdidata:
+Installer.installLog.speedRegistry.description=Fortegnelser i registreringsdatabase:
+Installer.installLog.subinstaller.description=Installer flettemodul:
+Installer.installLog.subuninstaller.description=Eksekver afinstallationsprogram:
+Installer.installLog.customAction.description=Brugerdefineret handling:
+Installer.installLog.userInteractions=Brugerinteraktioner
+Installer.installLog.installBegin=Installation begynder:
+Installer.installLog.installEnd=Installation slutter:
+Installer.installLog.freeMemory=Ledig hukommelse:
+Installer.installLog.totalMemory=Hukommelse i alt:
+Installer.installLog.commandLineArgs=Kommandoliniearg:
+Installer.installLog.noArguments=Ingen argumenter
+Designer.Action.HTMLPanelAction.visualName=Panel: Vis HTML
+HTMLPanelAction.title=HTML-panel
+Designer.Action.UninstallIsmpSoftware.visualName=Afinstaller InstallShield Universal Software
+Installer.unexpectedChanges.message=Installationsprogrammet fandt uventede ændringer i installationsscript.
+﻿Installer.unexpectedChanges.title=Fejl
+Installer.unexpectedChanges.label=Kan ikke starte installationsprogram.

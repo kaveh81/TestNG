@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:50" />
+    <title>Rules</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1055442"> </a><h1 class="pHeading1">
+Rules
+</h1>
+<a name="wp1058384"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1052526"> </a><p class="pa_Body">
+Rules can be configured and attached to nearly any element of the installer: an Action, Component, Feature, or the entire installer itself. Rules return either a true or false value depending on the state of the computer running the installer. For example, a <b class="cBold">Check Platform</b> rule can be set to evaluate to true only if the installer is being run on Solaris. This rule can then be attached to a Solaris-specific binary file that has no business being installed on a Windows or Mac OS X platform.
+</p>
+<a name="wp1055484"> </a><p class="pa_Body">
+Rules can be evaluated on an and/or basis. <b class="cBold">And</b> evaluates all rules associated with an action evaluated. For rules to be conditional to each other depending on their return value, choose <b class="cBold">Or</b>. Be sure to place the rules in the correct order if this is the case. When a rule is attached to an action, it executes before the action does. Therefore, checking return values on an action must be done with another action that occurs afterward.</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1055490table1055485">
+  <caption><a name="wp1055490"> </a><p class="ptt_Table_Title">
+Rules&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1055496"> </a><p class="ptch_Table_Cell_Heading">
+Rule
+</p>
+</th>
+    <th><a name="wp1055498"> </a><p class="ptch_Table_Cell_Heading">
+Editions
+</p>
+</th>
+    <th><a name="wp1055500"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1055502"> </a><p class="ptck_Table_Cell_Key_Column">
+Check File/Folder Attributes
+</p>
+</td>
+    <td><a name="wp1055504"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055506"> </a><p class="ptca_Table_Cell_Body">
+This rule allows developers to check the attributes of a file or directory that already exists on the target system. The rule allows developers to check if the object exists, whether it is a file or a folder/directory and whether it readable and/or writable.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055508"> </a><p class="ptck_Table_Cell_Key_Column">
+Check if File/Folder Exists
+</p>
+</td>
+    <td><a name="wp1055510"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1055512"> </a><p class="ptca_Table_Cell_Body">
+This rule is designed to be applies to individual file/folder install actions. It will check to see if the file or folder to which it is attached already exists in the specified install location. Developers can choose to install either if it does, or does not exist at that location.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055514"> </a><p class="ptck_Table_Cell_Key_Column">
+Check Platform
+</p>
+</td>
+    <td><a name="wp1055516"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1055518"> </a><p class="ptca_Table_Cell_Body">
+The check platform rule allows developers to specify action or files to be run/installed only on specific platforms. The platform is determined by the Java virtual machine, and reported to the installer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055778"> </a><p class="ptck_Table_Cell_Key_Column">
+Check System Architecture
+</p>
+</td>
+    <td><a name="wp1055780"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1055787"> </a><p class="ptca_Table_Cell_Body">
+The check system architecture rule allows developers to specify action or files to be run/installed only on specific system architecture (32-bit or 64-bit). The system architecture is normally determined by the Java virtual machine, and reported to the installer, but in some cases may be specified in a registry action.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055520"> </a><p class="ptck_Table_Cell_Key_Column">
+Check User-Chosen Language
+</p>
+</td>
+    <td><a name="wp1055522"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1055524"> </a><p class="ptca_Table_Cell_Body">
+Developers can use Check End-user Chosen Language to make installation decision based on the locale chosen by the end-user at installation time.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055526"> </a><p class="ptck_Table_Cell_Key_Column">
+Compare File Modification Timestamp
+</p>
+</td>
+    <td><a name="wp1055528"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055530"> </a><p class="ptca_Table_Cell_Body">
+This rule allows developers to compare the timestamp of an existing target file in order to make an overwrite decision.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055532"> </a><p class="ptck_Table_Cell_Key_Column">
+Compare InstallAnywhere Variables
+</p>
+</td>
+    <td><a name="wp1055534"> </a><p class="ptca_Table_Cell_Body">
+E S
+</p>
+</td>
+    <td><a name="wp1055536"> </a><p class="ptca_Table_Cell_Body">
+This rule allows developers to make a simple string comparison of any InstallAnywhere variable. Developers can check if a variable equals, does not equal, contains, or does not contain a value.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055538"> </a><p class="ptck_Table_Cell_Key_Column">
+Evaluate Custom Rule
+</p>
+</td>
+    <td><a name="wp1055540"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055542"> </a><p class="ptca_Table_Cell_Body">
+Custom Rules are rules built using the specifications outlined in the InstallAnywhere API and can be tailored to fit the needs of the installation.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055544"> </a><p class="ptck_Table_Cell_Key_Column">
+Match Regular Expression
+</p>
+</td>
+    <td><a name="wp1055546"> </a><p class="ptca_Table_Cell_Body">
+E
+</p>
+</td>
+    <td><a name="wp1055548"> </a><p class="ptca_Table_Cell_Body">
+The Match Regular Expression rule allows developers to compare a string, or InstallAnywhere Variable to a regular expression of the developers choosing. Regular Expressions (regexp) are an industry standard method of expressing a variable string. Developers can find considerable information on regular expressions, including archives of use full expressions, and web applications that can be used to verify the validity of the expression on the World Wide Web.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

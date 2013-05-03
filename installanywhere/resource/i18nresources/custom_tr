@@ -1,0 +1,2008 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Tamamını Bellekten Çıkartma
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=InstallAnywhere tarafından yüklenen $PRODUCT_NAME$ programının bütün özelliklerini ve bileşenlerini bellekten çıkartma. Yüklemeden sonra oluşturulan dosya ve klasörler etkilenmeyecektir.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Belli Özellikleri Bellekten Çıkartma
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=InstallAnywhere tarafından yüklenen $PRODUCT_NAME$ programının belli özelliklerini bellekten çıkartmak için seçin.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Lütfen aşağıdakilerden birini seçin:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Bellekten Çıkartma Seçenekleri
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Bellekten Çıkart
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Tüm özellik ve bileşenleri tamamen çıkart.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=InstallAnywhere tarafından yüklenen belli özellikleri seçin.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Lütfen aşağıdakilerden birini seçin:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Bellekten Çıkartma Seçenekleri
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=SEÇİMİNİZİN NUMARASINI GİRİN YA DA VARSAYILANI KABUL ETMEK İÇİN <ENTER> TUŞUNA BASIN:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Yükleme işlemine devam etmeye yeterli disk alanı şimdi var.
+
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=fakat belirtilende yalnızca XXX MB yer var:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Bu yükleme işlemi XXX MB boş disk alanı gerektirir,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Yoksa, bu yükleme işlemini iptal etmek için 'İptal'e tıklayabilirsiniz.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Yükleme işlemine devam etmek için en az XXX MB serbest bırakın.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Yükleme işlemine devam etmek için lütfen biraz disk alanı boşaltın.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Yükleme işlemine devam etmek için 'Yükle'ye tıklayın.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Devam Etmeye Hazır
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Yeterli Disk Alanı Yok
+
+# ................... =Warning!
+CheckDiskSpace.warning=Uyarı!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=KULLANILABİLİR DİSK ALANINI YENİDEN HESAPLAMAK İÇİN <ENTER>'A BASIN YA DA YÜKLEYİCİDEN ÇIKMAK İÇİN 'çık' YAZIN
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Bu yüklemeyi yapmaya yeterli disk alanı yok. \u000A   Lütfen biraz disk alanı boşaltıp yükleyici yeniden çalıştırın...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=YÜKLEMEYE BAŞLAMAK İÇİN <ENTER>'A BASIN
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Uyarı!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Bu yükleme işlemi XXX MB boş disk alanı gerektirir,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=fakat belirtilende yalnızca XXX MB yer var:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Yükleme işlemine devam etmek için en az XXX MB serbest bırakın.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Yükleme işlemine devam etmek için lütfen biraz disk alanı boşaltın.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Yükleme işlemine devam etmeye yeterli disk alanı şimdi var.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Yeterli Disk Alanı Yok
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Lütfen bir dosya seçin.
+
+# ................. =Choose...
+ChooseFile.chooseStr=S&eçin...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=&Lütfen bir Dosya Seçin:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=&Varsayılan Dosyayı Yinele
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Bir Dosya Seçin
+
+# .................... =in the folder
+ChooseFile.macInsideStr=klasörde
+
+# ................ =on the disk
+ChooseFile.macOnStr=diskte
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Lütfen bir klasör seçin.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=S&eçin...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=&Lütfen bir Klasör Seçin:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=&Varsayılan Klasörü Yinele
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Bir Klasör Seçin
+
+# .................. =on the disk
+ChooseFolder.macOnStr=diskte
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Hata!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Seçilen klasöre yazma izniniz yok. Lütfen başka bir yer seçin.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Klasör Seçin
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Yükleme Grubu Seçin
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Yükleme Grubu Seçin
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Ürün Özelliklerini Seçin
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Lütfen bu yükleyici program tarafından yüklenecek Yükleme Grubunu seçin.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=YÜKLEME GRUBU İÇİN NUMARAYI GİRİN YA DA VARSAYILANI KABUL ETMEK İÇİN <ENTER>'A BASIN\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Lütfen yükleyici program tarafından yüklenecek Özellikleri seçin.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=YÜKLENECEK ÖZELLİKLERİ\u000A SİMGELEYEN VE VİRGÜLLE AYRILAN NUMARA LİSTESİ GİRİN
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Yükleme Grubu Seçin
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Özelleştir
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Yüklenecek ürün özelliklerini programlama hatası.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Lütfen Yüklenmiş Uygulama Tarafından Kullanılacak Bir Java VM Seçin
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Java Benzetme Programını (VM) Seçin
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Verilen yol geçerli bir Java Benzetici Programa gitmiyor. Lütfen yeniden seçin.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Lütfen Yüklenmiş Uygulama Tarafından Kullanılacak Bir Java VM Seçin
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Java Benzetme Programını (VM) Seçin
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=JAVA VM İÇİN NUMARAYI GİRİN YA DA SEÇİLMİŞ OLANI KABUL ETMEK İÇİN <ENTER>'A BASIN
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=İSTEDİĞİNİZ ÇALIŞTIRILABİLİR JAVA VM'YE TAM YOLU GİRİN\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=ÇALIŞTIRILABİLİR JAVA PROGRAMININ YOLU:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Bu yükleyici ile birlikte gelen Java Benzetici Programı yükleyemedi.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Özellikle bu uygulama programına uygun bir Java VM yükle
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Sisteminize daha önce yüklenmiş bir Java VM (Benzetici Program) seçin
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=&Başka Seçin...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Aç
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Özellikle bu uygulama programına uygun bir Java VM yükle
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java Çalıştırma Süresi Ortamı
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Aranan Yer: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Aramayı &Durdur
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=&Diğerlerini Ara
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Arama tamamlandı.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Sisteminize daha önce yüklenmiş bir Java VM (Benzetici Program) seçin
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Hata!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Seçilen uygulama geçerli bir Java Benzetici Program değil.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Java VM Seçin
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Hata: Uygun bir Java Benzetme Programı bulunamadı.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Bu ürün sisteminizde yüklenmi bir Java Benzetici Program olmasını gerektirir. Lütfen platformunuza uygun bir benzetici programı indirmek için <http://java.sun.com> adresine gidin.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Java VM Seçin
+
+
+ChooseSCMFeaturesConsole.visualName=İsteğe Bağlı SCM Özelliklerini Seçin
+ChooseSCMFeaturesConsole.title=İsteğe Bağlı SCM Özelliklerini Seçin
+ChooseSCMFeaturesConsole.instructions=SCM Özelliklerini Seçin işlem bilgileri
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=DEVAM ETMEK İÇİN <ENTER>'A BASIN
+
+# ................. =Y
+ConsoleUtils.yesChar=E
+
+# ................ =N
+ConsoleUtils.noChar=H
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=BU DOĞRU MU?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Verilen değerlerden bir tanesi geçerli değildi. Lütfen yeniden seçin.
+
+#............... =back
+ConsoleUtils.back=geri
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Bellekten çıkartmak istediğiniz özelliklerin onay işaretini kaldırın. İşaretli özellikler sistemde yüklenmiş kalacaktır.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Bellekten çıkarmak istediğiniz özelliklere onay işareti koyun. İşaretlenmemiş özellikler sistemde yüklü kalacaktır.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Ürün Özelliklerini Seçin
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Lütfen bu yükleyici program tarafından yüklenecek Özellikleri seçin.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Bellekten çıkartmak istediğiniz özelliklerin onay işaretini kaldırın. İşaretli özellikler sistemde yüklenmiş kalacaktır.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Bellekten çıkartmak istediğiniz özelliklere onay işareti koyun. İşaretlenmemiş özellikler sistemde yüklü kalacaktır.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Ürün Özelliklerini Seçin
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=SEÇMEK YA DA SEÇİMDEN ÇIKARTMAK İSTEDİĞİNİZ ÖZELLİKLERİ SİMGELEYEN VE VİRGÜLLE AYRILAN NUMARALARI GİRİN. HERHANGİ BİR ÖZELLİĞİN TANIMI İÇİN, '?<NUMARA>' YAZIN. İŞİNİZ BİTTİĞİNDE <RETURN> (ENTER) TUŞUNA BASIN.
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Yüklenecek Grup
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Ürün Özelliklerini Seçin
+
+#............................... =Description
+CustomizeBundlesPanel.description=Tanım
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Yükleme İçin Gerekli Toplam Alan:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Yeni Medyayı Koyun
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Lütfen #NAME# adlı medyayı koyun ya da bulunduğu yeri kendiniz bulmak için 'Gözat...' düğmesine tıklayın.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Yanlış Medya Hacmi
+# .................... =Browse
+DiskNeededDialog.locate=Gözat
+
+# .................. =Cancel
+DiskNeededDialog.quit=İptal
+
+# ...................... =OK
+DiskNeededDialog.continue=Tamam
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Yeni Medyayı Koyun
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Lütfen #NAME# adlı medyayı koyun ya da kendiniz bulunduğu yere giden yolu seçin.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Lütfen #NAME# adlı medyayı koyun.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Diskin beklendiği yer: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Lütfen #NAME# adlı medyayı koyun ya da kendiniz bulunduğu yeri yazın.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=Tamam, XXX konuldu.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Yükleyici verilere giden yolu seçin.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=İptal et ve yükleme işlemini bırak.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=SEÇİMİ GİRİN
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=DİSKTEKİ 'INSTALLERDATA' KLASÖRÜNE GİDEN YOLU GİRİN
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Sistem ortamı değişti. Bu değişikliklerin etkili olabilmesi için oturumu kapatmanız ya da sisteminizi yeniden başlatmanız gerek.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Sistem Ortamı Değişti
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Çık
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Yükleme Tamamlanmadı
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Yükleme Tamamlanmadı
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Yüklemeyi ºimdi iptal ederseniz, $PRODUCT_NAME$ yüklenmeyecek. Yükleme işlemine devam etmek için, 'Devam'a tıklayın. Yüklemeyi iptal etmek için, 'çık'a tıklayın.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Yüklemeyi ºimdi iptal ederseniz, $PRODUCT_NAME$ yüklenmeyecek. Yükleme işlemine devam etmek için, 'Devam'a tıklayın. Yüklemeyi iptal etmek için, 'çık'a tıklayın.
+
+# .......... =Resume
+ExitDialog.ok=Devam
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Bellekten Çıkartmayı Durdur
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Yüklemeyi Durdur
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Tümüne Evet
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Tümüne Hayır
+
+# ....................... =Yes
+FileAlreadyExists.yes=Evet
+
+# ....................... =No
+FileAlreadyExists.no=Hayır
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Varolan Dosyanın Yerine mi Yazılsın?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=\"XXX\" adlı bir dosya \"XXX\" klasöründe zaten var.
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=\"XXX\" adlı daha yeni bir dosya \"XXX\" klasöründe zaten var.
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=\"XXX\" adlı daha eski bir dosya \"XXX\" klasöründe zaten var.
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Bu önceden varolan dosyanın yerine yenisinin yazılmasını mı istiyorsunuz
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=&Lütfen bir Dosya/Klasör seçin:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Seç
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Dosyalar Aşağıdaki Listeye Ekleniyor.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=Bulunan Dosyalar Aşağıda Listelenmiştir.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Klasörler Aşağıdaki Listeye Ekleniyor.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=Bulunan Klasörler Aşağıda Listelenmiştir.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Belirtilene Uyan Dosyalar Bulundu:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Belirtilene Uyan Klasörler Bulundu:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Bulunan Yer:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=&Diğerini Seçin...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Bakılan Yer:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Lütfen kendi seçiminizi yapın.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Belirtilene Uyan Dosyalar Aranıyor:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Belirtilene Uyan Klsörler Aranıyor:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Arıyor
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Seç
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Yükleyici Belirtilene Uyan Bulamadı:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Seçilen:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Bir Klasör Seçin
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=İptal
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Yeni Klasör Yarat
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Klasör:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Ad:
+
+# ..................... =OK
+FolderSelectDialog.okStr=Tamam
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=BU DOĞRU MU?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=DEVAM ETMEK İÇİN <ENTER>'A BASIN
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Hata:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Lütfen bekleyin, $PRODUCT_NAME$ yazılımı sisteminiz çin yapılandırılıyor. Bu birkaç dakika alabilir...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Lütfen Bekleyin
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Bu yükleme işlemine devam etmek için parola gereklidir.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=&Lütfen Parolayı Girin:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Parolayı Girin
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Hata!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Girdiğiniz parola yanlış. Lütfen yeniden deneyin.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Parolayı Girin
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=Tamam
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Devam etmek için parola gereklidir.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Bu yükleme işlemine devam etmek için parola gereklidir.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Girdiğiniz parola yanlış. Lütfen yeniden deneyin.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Lütfen Parolayı Girin:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Devam etmek için parola gereklidir.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Parolayı Girin
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=İSTEDİĞİNİZ SEÇENEKLERİ SİMGELEYEN VE VİRGÜLLE AYRILAN NUMARALARI GİRİN
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=İSTEDİĞİNİZ SEÇENEKLERİ SİMGELEYEN VE VİRGÜLLE AYRILAN NUMARALARI GİRİN YA DA VARSAYILANI KABUL ETMEK İÇİN <ENTER> TUŞUNA BASIN.
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=SEÇİMİNİZİN NUMARASINI GİRİN
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=SEÇİMİNİZİN NUMARASINI GİRİN YA DA VARSAYILANI KABUL ETMEK İÇİN <ENTER> TUŞUNA BASIN:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Bu aşamada yükleyiciden çıkamazsınız.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Bu aşamada bir önceki adıma dönemezsiniz.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Önemli Bilgi
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Devam Etmeden Önce Lütfen Okuyun:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=ÖNEMLİ BİLGİ TAMAM. DEVAM ETMEK İÇİN <ENTER>'A BASIN
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Önemli Bilgi
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Devam Etmeden Önce Lütfen Okuyun:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Uygulama Programı
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Bu işlem, uygulama özelliğini yükler.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Yardım
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Bu işlem, yardım özelliğini yükler.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Tebrikler! $PRODUCT_NAME$ belirtilen yere başarıyla yüklendi:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AYükleyiciden çıkmak için "Tamamlandı" düğmesine basın.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Yükleme Tamamlandı
+InstallCompleteAction.stepTitle=Yükleme Tamamlandı
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=$PRODUCT_NAME$ programının yüklenmesi tamamlandı, fakat yükleme sırasında bazı hatalar oluştu.\u000A \u000A\u000ALütfen ayrıntılar için yükleme günlüğüne bakın. Yükleyiciden çıkmak için "Tamamlandı"ya (ya da Tamam/Bitti) tıklayın.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Yükleme Tamamlandı
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Yükleme Tamamlandı
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Tebrikler. $PRODUCT_NAME$ belirtilen yere başarıyla yüklendi:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=YÜKLEYİCİDEN ÇIKMAK İÇİN <ENTER>'A BASIN
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=$PRODUCT_NAME$ programının yüklenmesi tamamlandı, fakat yükleme sırasında bazı hatalar oluştu.\u000A \u000A   Lütfen ayrıntılar için yükleme günlüğüne bakın.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=$PRODUCT_NAME$ programının yüklenmesi tamamlandı, fakat yükleme sırasında bazı hatalar oluştu.\u000A \u000A   Lütfen ayrıntılar için yükleme günlüğüne bakın. Yükleyiciden çıkmak için "Tamamlandı"ya (ya da Tamam/Bitti) tıklayın.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=YÜKLEYİCİDEN ÇIKMAK İÇİN <ENTER>'A BASIN
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Yükleme Tamamlandı
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Lütfen bu yükleme için bir hedef klasör seçin.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Yükleme Klasörü Seçin
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=Ne&reye Yüklemek İstersiniz?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Yükleme Klasörü Seçin
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=TAM YOLU GİRİN YA DA VARSAYILANI KABUL ETMEK İÇİN <ENTER>'A BASIN\u000A    
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=TAM YOLU GİRİN, VARSAYILAN KLASÖRÜ YİNELEMEK İSTERSENİZ 'varsayılan'a, SEÇTİĞİNİZ KLASÖRÜ KABUL ETMEK İSTERSENİZ <ENTER>'A BASIN
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Varsayılan Yükleme Klasörü: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Seçilen Yükleme Klasörü: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=YÜKLEME KLASÖRÜ: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Verilen yol: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=hedef sistemde zaten varolan bir dosyayı gösteriyor. \u000ABu yükleyici önceden varolan bir dosyayı yeni bir klasörle değiştiremez. \u000ALütfen başka bir yükleme yeri seçin.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Yükleme için seçilen hedef yere yazma izniniz yok. \u000ALütfen başka bir yer seçin.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Nereye Yüklemek İstersiniz?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Hata!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Yükleme için seçilen hedef yere yazma izniniz yok. \u000ALütfen başka bir yer seçin.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Yükleme Klasörü Seçin
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Yükleme hedefi olarak belirlenen yolda, bu platformda geçersiz bir veya daha fazla karakter var.  \u000ALütfen yükleme için başka bir yer seçin.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=S&eçin...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=&Varsayılan Klasörü Yinele
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=içinde
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=klasörde
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=diskte
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=yükle
+
+# ....................... =Introduction
+Installer.installLabels.00=Giriş
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Yükleme Klasörü Seçin
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=$SHORTCUT_NAME$ Klasörünü Seç
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Yükleme-Öncesi Özeti
+
+# ....................... =Installing...
+Installer.installLabels.04=Yüklüyor...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Yükleme Tamamlandı
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Yükleyici Bu Sistemde Çalışamaz.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Yükleyici sizin yapılandırmanızla çalışamaz. Program şimdi kapanacak.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Yükleyici Kullanıcı Arabirim Modu Desteklenmiyor
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Yükleyici bu modda çalışamaz. Bu yükleyicinin nasıl çalıştırılacağını saptamak için lütfen çalıştırıcının belgelerine bakın.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Yükleyici UI Modu Hatası
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Bellekten Çıkart $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Tebrikler! $PRODUCT_NAME$ belirtilen yere başarıyla yüklendi:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AYükleyiciden çıkmak için "Tamamlandı" düğmesine basın.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=$PRODUCT_NAME$ ürününün yüklenmesi tamamlandı, fakat yükleme sırasında bazı uyarılar oluştu. Lütfen ayrıntılar için yükleme günlüğüne bakın.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=$PRODUCT_NAME$ ürününün yüklenmesi tamamlandı, fakat yükleme sırasında bazı hatalar oluştu. Lütfen ayrıntılar için yükleme günlüğüne bakın.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=$PRODUCT_NAME$ ürününün yüklenmesi tamamlandı, fakat yükleme sırasında bazı ciddi hatalar oluştu. Lütfen ayrıntılar için yükleme günlüğüne bakın.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Yüklemeyi tamamlamak için sistemi yeniden başlatmalısınız.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Yüklemeyi tamamlamak için sistemi yeniden başlatmanız gereklidir.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Yükleme Tamamlandı
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Evet, sistemimi yeniden başlat
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Hayır, sistemimi kendim başlatacağım
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Yüklüyor...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Yükleme durduruluyor...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Yüklüyor...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Yükleme-Öncesi Özeti
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Devam Etmeden Önce Lütfen Aşağıdakileri Gözden Geçirin:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Yükleme-Öncesi Özeti
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=DEVAM ETMEK İÇİN <ENTER>'A BASIN. BİLGİ DOĞRU DEĞİLSE, DEĞİŞİKLİKLERİ YAPMAK İÇİN 'geri' yazın\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Ürün Adı:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Yükleme Klasörü:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Kısayol Klasörü:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Bağlantı Klasörü:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Diğer Ad Klasörü:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Kullanıcı Tanımlı Özel Yükleme Grubu
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Yüklenecek Grup
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Ürün Bileşenleri:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM Yükleme Klasörü:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Java VM'nin Kullanılacağı Önceden Yüklenmiş Ürün:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Disk Yer Bilgisi (Hedeflenen Yükleme Yeri İçin): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Gereken:
+
+# .................. =bytes
+InstallSummaryUI.byte=bayt
+
+# ....................... =Available:
+InstallSummaryUI.available=Kullanılabilir:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Yüklenecek özellikleri özelleştirmek için lütfen bu seçeneği seçin.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Özel
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Yalnızca gerekli uygulama özellikleri yüklenecek. Bu seçenek yalnızca kısıtlı disk alanı olan kullanıcılar için önerilir.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Minimum
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=En yaygın uygulama özellikleri yüklenecek. Bu seçenek çoğu kullanıcı için önerilir.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Tipik
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere $PRODUCT_NAME$ yazılımının yüklenmesinde size kılavuzluk edecek. \u000A\u000ABu yükleme işlemine devam etmeden önce tüm programları kapatmanız önerilir. \u000A\u000ABir sonraki ekrana geçmek için 'Sonraki'ne tıklayın. Bir önceki ekranda değiştirmek istediğiniz birşey varsa, 'Önceki'ne tıklayın. \u000A\u000ABir önceki ekranda değiştirmek istediğiniz birşey varsa, 'İptal'e tıklayın.
+
+# .................. =Introduction
+IntroAction.stepTitle=Giriş
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere $PRODUCT_NAME$ yazılımının yüklenmesinde size kılavuzluk edecek. \u000A\u000ABu yükleme işlemine devam etmeden önce tüm programları kapatmanız önerilir. \u000A\u000AYükleme işlemindeki bir sonraki adıma geçmek için her isteme karşılık verin. Bir önceki adımda değiştirmek istediğiniz birşey varsa, 'geri'ye tıklayın. \u000A\u000Aİstediğiniz anda 'çık'a basarak bu yüklme işlemini durdurabilirsiniz.
+
+# ..................... =Introduction
+IntroActionConsole.title=Giriş
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Web Gezdirici programında URL açılamadı.
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere, sisteminizin varsayılan web gezdirici programında istenilen URL ($ACTION_URL$) adresini açamadı. Bu URL adresine gitmek için, yukarıda gösterilen adresi istediğiniz web gezdirici programın adres alanına yazın.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Lisans Anlaşması
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=$PRODUCT_NAME$ Yazılımının Yüklenmesi ve Kullanımı Aşağıdaki Lisans Anlaşmasının Kabulünü Gerektirir:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Lisans Anlaşması
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=$PRODUCT_NAME$ Yazılımının Yüklenmesi ve Kullanımı Aşağıdaki Lisans Anlaşmasının Kabulünü Gerektirir:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=BU LİSANS ANLAŞMASININ KOŞULLARINI KABUL EDİYOR MUSUNUZ?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Çık
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Devam
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Lisans Anlaşması Uyarısı
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Uyarı!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Lisans Anlaşmasının koşullarını kabul etmezseniz, bu yükleme işlemine devam etmenize izin verilmeyecek.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=L&isans Anlaşmasının koşullarını kabul ETMİYORUM
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Önizleme yapılacak dosya bulunamadı
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=&Lisans Anlaşmasının koşullarını kabul ediyorum
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Dosya Seçilmedi
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=AŞAĞIDAKİLERİ KABUL ETMEK İÇİN <ENTER>'A BASIN
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=SEÇİMİNİZİN NUMARASINI GİRİN YA DA VARSAYILANI KABUL ETMEK İÇİN <ENTER> TUŞUNA BASIN
+
+# ........................... =OK
+PromptUserConsole.option0Label=Tamam
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=İptal
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Ayrintilar...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere şimdi $PRODUCT_NAME$ programını belirtilen yere yüklemeye hazır:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=YÜKLEMEK İÇİN <ENTER>'A BASIN
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Yüklemeye Hazır
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere işlemleri bitiriyor. Lütfen bekleyin...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Temizleniyor...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Bu yükleme işlemine devam etmek için bir seri numara gereklidir.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=&Lütfen Seri Numarayı Girin:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Seri Numarayı Girin
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Hata!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Girdiğiniz seri numarası yanlış. Lütfen yeniden deneyin.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Seri Numarayı Girin
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=Tamam
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Devam etmek için Seri Numara gereklidir.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Bu yükleme işlemine devam etmek için bir seri numara gereklidir.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Girdiğiniz seri numarası yanlış. Lütfen yeniden deneyin.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Lütfen Seri Numarayı Girin:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Devam etmek için Seri Numara gereklidir.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Seri Numarayı Girin
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Diğer Ad
+
+#............... =Link
+ShortcutName.link=Bağlantı
+
+#................... =Shortcut
+ShortcutName.shortcut=Kısayol
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Diğer adları nerede yaratmak istersiniz?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Diğer Ad Klasörü Seçin
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Bağlantı Klasörü Seçin
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Bağlantıları nerede yaratmak istersiniz?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Ürün simgelerini nerede yaratmak istersiniz?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Kısayol Yeri Seçin
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Ortak Gruplar
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Şimdiki Kullanıcının Grupları
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=klasörde
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=diskte
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Varsayılan: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Şimdiki: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Başka bir yer seçin...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=YUKARIDAKİ BİR SEÇENEĞİN NUMARASINI GİRİN YA DA VARSAYILANI KABUL ETMEK İÇİN <ENTER>'A BASIN   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=YUKARIDAKİ BİR SEÇENEĞİN NUMARASINI GİRİN YA DA SEÇİLMİŞ OLANI KABUL ETMEK İÇİN <ENTER>'A BASIN
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=KISAYOL KLASÖRÜNE TAM YOLU GİRİN   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=KISAYOL YERİ: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Bağlantı Yeri Seçin
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Bağlantıları nerede yaratmak istersiniz?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Kısayol Yeri Seçin
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Ürün simgelerini nerede yaratmak istersiniz?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Diğer Adın Yerini Seçin
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Diğer adları nerede yaratmak istersiniz?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Elma Menüsünde
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Çubukta
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Masaüstünde
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Diğer adlar yaratma
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Diğer:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Bağlantılar yaratma
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Simgeler yaratma
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Ana klasörünüzde
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Masaüstünde
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=Yeni bir Program Grubu içinde:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=Önceden varolan bir Program Grubu içinde:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=Ça&buk Başlatma Çubuğunda
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=Başlat Menüsünde
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Tüm kullanıcılar için simgeler yarat
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Hata!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Seçilen hedef yere yazma izniniz yok. Lütfen başka bir yer seçin.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=&Elma Menüsünde
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=Ç&ubukta
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=&Masaüstünde
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=&Masaüstünde
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Seçin...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Diğer adlar yaratma
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=&Diğer:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=B&ağlantılar yaratma
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=S&imgeler yaratma
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=Ana &klasörünüzde
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=&Masaüstünde
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=Yeni bi&r Program Grubu içinde:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=Önceden &varolan bir Program Grubu içinde:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=Baş&lat Menüsünde
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=&Tüm Kullanıcılar İçin Simgeler Yarat
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=Tamam
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=İptal
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Ayrintilar...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Tarih:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Lisans Tanım No:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Komut Dosyası Sürümü:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Sürüm:
+
+# ............... =Done
+StepMaster.doneStr=&Bitti
+
+# ............... =Cancel
+StepMaster.exitStr=İ&ptal
+
+# ............... =Help
+StepMaster.helpStr=&Yardım
+
+# .................. =Install
+StepMaster.installStr=Yü&kle
+
+# ............... =Next
+StepMaster.nextStr=&Sonraki
+
+# ............... =Previous
+StepMaster.prevStr=Ö&nceki
+
+# ............... =Close
+StepMaster.closeStr=Kapat
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Tüm öğeler başarıyla bellekten çıkartıldı.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Bellekten Çıkartma Tamamlandı
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Aşağıdaki unsurlar çıkartılamadı:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Çıkartılamadı
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Bellekten çıkartma işlemini tamamlamak için sistemi yeniden başlatmanız gereklidir.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Bellekten çıkartma işlemini tamamlamak için sistemi yeniden başlatmalısınız.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Bellekten çıkartma işlemini tamamlamak için ayrıca sistemi yeniden başlatmanız da gereklidir.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Bellekten çıkartma işlemini tamamlamak için ayrıca sistemi yeniden başlatmalısınız.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Evet, sistemimi yeniden başlat
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Hayır, sistemimi kendim başlatacağım
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Tüm öğeler başarıyla bellekten çıkartıldı.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Bellekten Çıkartma Tamamlandı
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Aşağıdaki unsurlar çıkartılamadı:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Bellekten çıkartma işlemini tamamlamak için sistemi yeniden başlatmanız gereklidir.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Bellekten çıkartma işlemini tamamlamak için sistemi yeniden başlatmalısınız.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Bellekten Çıkartma Tamamlandı
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Tüm öğeler başarıyla bellekten çıkartıldı.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Bazı unsurlar çıkartılamadı.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Bellekten çıkartma işlemi bir hata nedeniyle tamamlanamadı.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Bellekten Çıkart $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere Bellekten Çıkartıcı
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Giriş
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Bellekten çıkartılıyor...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Bellekten Çıkartma Tamamlandı
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Bellekten çıkartılmak üzere... \u000A\u000A$PRODUCT_NAME$\u000A\u000ABu işlem InstallAnywhere programının yüklediği tüm özellikleri tamamen bellekten çıkaracaktır. Yüklemeden sonra yaratılmış olan dosya ve klasörleri bırakacaktır.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Bellekten Çıkart $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Bellekten çıkartılmak üzere... \u000A\u000A$PRODUCT_NAME$\u000A\u000ABu işlem InstallAnywhere programının yüklediği tüm özellikleri tamamen bellekten çıkaracaktır. Yüklemeden sonra yaratılmış olan dosya ve klasörleri bırakacaktır.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Bellekten Çıkart $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=İptal
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Çık
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Yardım
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Bellekten Çıkart
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Yapılan bir işlem geri alınamadı çünkü desteklenmiyor.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Temizleniyor...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Yerleşik Paketler...
+
+# ............... =Files...
+UninstallMgr.Files=Dosyalar...
+
+# ................. =Folders...
+UninstallMgr.Folders=Klasörler...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Bağlantılar...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Diğer Adlar...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Kısayollar...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Ürün bellekten çıkartılamadı, çünkü bu sistemde artık uygun bir Java sanal makinesi yok. Lütfen bir Java sanal makinesi yükleyip yeniden deneyin.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 klasör
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Hazırlanıyor..
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Yazılım Veritabanı...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Kayıt...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 klasör
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Temizleyemedi
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Yerleşik paketleri çıkartamadı
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Dosyayı çıkartamadı
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Klasörü çıkartamadı
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Java VM özelliği çıkartamadı
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Bağlantıyı çıkartamadı
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Diğer adı çıkartamadı
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Kısayolu çıkartamadı
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Yapılamadı
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=1 dosyayı çıkartamadı
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=2 dosyayı çıkartamadı
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Yazılım veritabanını çıkartamadı
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Kayıt anahtarını çıkartamadı
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Sistemin Yeniden Başlatılması Gerekli
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Sistem yeniden başlatılmadan bellekten çıkartıcıyı çalıştırmanız önerilmez. Bellekten çıkartıcıyı durdurmak için \"İptal\" tuşuna ya da ne olursa olsun bellekten çıkartma işlemine devam etmek için \"Devam\" tuşuna tıklayın.
+
+# ................ =Continue
+UninstallRestart.continue=Devam
+
+# ................ =Cancel
+UninstallRestart.exit=İptal
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Lütfen InstallAnywhere'in bellekten çıkartıcısının işlemleri yapmasını bekleyin
+
+# ................ =removes the following features...
+UProgress.waitArr.1=şu bileşenleri çıkartır...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Kisiye Özel Kod Çalistiriliyor...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Çalistiriliyor...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Yükleme Komut Dosyasi Çalistiriliyor...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Birleştirme Birimini Yükle
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Birleştirme Birimi Yükleniyor
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Yerleşik Paket Yükleniyor
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=çık
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=BELLEKTEN ÇIKARTMA İŞLEMİNİ BAŞLATMAK İÇİN <ENTER>'A YA DA BELLEKTEN ÇIKARTICIDAN ÇIKMAK İÇİN 'ÇIK'A BASIN.
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=BELLEKTEN ÇIKARTICIDAN ÇIKMAK İÇİN <ENTER>'A BASIN:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Dosyayı kopyala
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Klasörü kopyala
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Bağlantı oluştur
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Kısayol oluştur
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Başka ad oluştur
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Klasör oluştur
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=LaunchAnywhere oluştur
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Dosyayı sil
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Klasörü sil
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Sıkıştırılmış dosyayı aç
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=SpeedFolder yükle
+
+InstallRPMPackage.visualname.self=Linux RPM'yi yükle
+InstallSolarisPackage.visualname.self=Solaris Paketini yükle
+InstallHPUXPackage.visualname.self=HP-UX Depot'u yükle
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Dosyayı taşı
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Klasörü taşı
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Windows Hizmetini Kaydet
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Sistem Ortamı Değişkenini Programla
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Windows Kayıt'ı Programla
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=ANT Komut Dosyasını Çalıştır
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Komutu Çalıştır
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Kişiye Özel Kodu Çalıştır
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Komut Dosyasını Çalıştır
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Hedef Dosyayı Çalıştır
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Kayıtta Bileşeni Bul
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Windows Kayıt Girdisini Getir
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Metin Dosyasını Değiştir
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=XSL Dönüşümü Yap
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Hata Ayıklama Bilgisi Çıkar
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Metni Konsola Çıkar
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Mesaj İletişim Kutusunu Göster
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Windows Hizmetini Başlat
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Windows Hizmetini Durdur
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Windows Hizmetini Duraksat
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Klasöre Git
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Birleştirme Birimini Yükle
+Designer.Action.PowerUpdateClient.visualName=PowerUpdate İstemcisini Yükle
+Designer.Action.PerformXSLTZip.visualName=XSL Dönüşümü Yap - Arşivde
+Designer.Action.PerformXSLT.visualName=XSL Dönüşümü Yap
+Designer.Action.PerformXSLT.performingXSLtransform=XSL Dönüşümü Yapılıyor
+Designer.Action.MakeExecutable.visualName=Java Uygulaması İçin LaunchAnywhere Oluştur
+Designer.Action.InstallZipfile.visualName=Arşivi Yükle
+Designer.Action.CreateUninstaller.visualName=Bellekten Çıkartıcı Oluştur
+Designer.Action.BOMAction.visualName=Manifest'ten Yükle
+Designer.Action.ExpandArchive.visualName=Arşivi Genişlet
+Designer.Action.ExecuteScript.visualName=Komut/Grup dosyasını çalıştır
+Designer.Action.Exec.visualName=Komutu Çalıştır
+Designer.Action.visualName=Hedef Dosyayı Çalıştır
+Designer.Action.AntRunner.visualName=ANT Komut Dosyasını Çalıştır
+Designer.Actions.ShowDialogAction.visualName=Mesaj İletişim Kutusunu Göster
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Sistemden Çıkarma Sonrası İşlemler
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Sistemden Çıkarma Öncesi İşlemler
+
+Designer.Action.EvaluateDependenciesAction.visualName=Bağımlılıkları Değerlendir
+
+ActionGroup.visualName.self=İşlem Grubu
+Designer.Action.UpdateServiceClient.visualName=Güncelleştirme Bildirimlerini Etkinleştir
+Designer.FolderConstants.programsDir64Name=Program Klasörü (64 bit)
+Designer.FolderConstants.programsDir32Name=Program Klasörü (32 bit)
+Designer.FolderConstants.system64Name=Sistem Klasörü (64 bit)
+Designer.FolderConstants.system32Name=Sistem Klasörü (32 bit)
+Designer.FolderConstants.variableMagicFolder=Değişken Sihir Klasörü
+Installer.Actions.UpdateServiceClient.badClasspath=us.jar dosyasını yüklemek için kullanılan #UPDATE_SERVICE# URL adresi hatalı.
+Installer.Actions.UpdateServiceClient.badUsJar=#UPDATE_SERVICE# kitaplığı, kayıt için gerekli sınıfı içermiyor. Sağlanan jar dosyası hatalı olabilir.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=#UPDATE_SERVICE# sınıfı, kayıt için gerekli yöntemi içermiyor.
+Installer.installLog.actionNotes=Eylem Notları:
+Installer.installLog.installLogDetail=Yükleme Tutanağı Ayrıntısı:
+Installer.installLog.installation=Yükleme:
+Installer.installLog.unsuccessful=Başarısız.
+Installer.installLog.successful=Başarılı - 
+Installer.installLog.withErrors=hatalar var.
+Installer.installLog.withwarnings=uyarılar var.
+Installer.installLog.cancelled=İptal Edildi -
+Installer.installLog.duringPostInstall=yükleme sonrası sırasında
+Installer.installLog.duringInstall=yükleme sırasında
+Installer.installLog.duringPreInstall=yükleme öncesi sırasında
+Installer.installLog.cancelledBeforePreInstallation=YÜKLEME, KULLANICI TARAFINDAN YÜKLEME ÖNCESİ İPTAL EDİLDİ
+Installer.installLog.cancelledDuringPreInstallation=YÜKLEME, KULLANICI TARAFINDAN YÜKLEME ÖNCESİ SIRASINDA İPTAL EDİLDİ
+Installer.installLog.cancelledDuringInstallation=YÜKLEME, KULLANICI TARAFINDAN YÜKLEME SIRASINDA İPTAL EDİLDİ
+Installer.InstallLog.cancelledDuringPostInstallation=YÜKLEME, KULLANICI TARAFINDAN YÜKLEME SONRASI VEYA YÜKLEMEDEN SONRA İPTAL EDİLDİ
+Installer.installLog.successes=Başarılar
+Installer.installLog.warnings=Uyarılar
+Installer.installLog.nonFatalErrors=ÖnemliOlmayanHatalar
+Installer.installLog.fatalErrors=ÖnemliHatalar
+Installer.installLog.details=Ayrıntılar
+Installer.installLog.nothingWasInstalled=Hiçbir şey yüklenmedi.
+Installer.installLog.none=Hiç
+Installer.installLog.summary=Özet
+Installer.installLog.installedBy=Macrovision tarafından sağlanan InstallAnywhere #BUILD_INFO# ile yüklendi
+Installer.installLog.status=Durum:
+Installer.installLog.additionalNotes=Ek Notlar:
+Installer.installLog.exceptionClass=Özel Durum Sınıfı:
+Installer.installLog.exceptionMessage=Özel Durum İletisi:
+Installer.installLog.exceptionStackTrace=Özel Durum Yığın İzi:
+Installer.installLog.successLevel.successful=BAŞARILI 
+Installer.installLog.successLevel.warning=UYARI
+Installer.installLog.successLevel.error=HATA
+Installer.installLog.successLevel.fatalError=ÖNEMLİ HATA
+Installer.installLog.successLevel.unsupported=DESTEKLENMEYEN HATA DÜZEYİ
+Installer.installLog.successLevel.notice=NOT
+Installer.installLog.action.description=Yükleme Eylemi:
+Installer.installLog.antRunner.description=ANT Komut Dosyasını Çalıştır
+Installer.installLog.antRunner.script=Komut Dosyası:
+Installer.installLog.asciiFileManipulator.noTargetChosen=Hiçbir Hedef Seçilmedi
+Installer.installLog.asciiFileManipulator.newFile=Yeni Dosya
+Installer.installLog.copyDirectory.description=Dizin Kopyala:
+Installer.installLog.copyFile=Dosya Kopyala:
+Installer.installLog.copyFileAction.destination=Hedef:
+Installer.installLog.createShortcut.createShortcut=Kısayol Oluştur:
+Installer.installLog.createShortcut.createAlias=Başka Ad Oluştur:
+Installer.installLog.createShortcut.createLink=Bağlantı Oluştur:
+Installer.installLog.deleteFileAction.source=Kaynak:
+Installer.installLog.editEnvironment.description=Ortam Değişkenini Programla:
+Installer.installLog.expandFile.description=Sıkıştırılmış Dosyayı Aç:
+Installer.installLog.getRegEntry.description=Kayıt Girdisini Getir:
+Installer.installLog.getRegEntry.key=Anahtar:
+Installer.installLog.getRegEntry.value=Değer Adı:
+Installer.installLog.installDirCont.description=SpeedFolder Yükle:
+Installer.installLog.installDirectory.description=Dizin Yükle:
+Installer.installLog.installFile.description=Dosya Yükle:
+Installer.installLog.installNTService.description=NT Hizmetini Kaydet:
+Installer.installLog.installUninstaller.description=Bellekten Çıkartıcıyı Yükle:
+Installer.installLog.installUninstaller.note=(Tüm Bellekten Çıkartıcı Bileşenlerini Yükle)
+Installer.installLog.makeExecutable.description=LaunchAnywhere Oluştur:
+Installer.installLog.makeExecutable.note=(Tüm LaunchAnywhere Java Çalıştırılabilir Dosyalarını Yükle)
+Installer.installLog.makeRegEntry.description=Kayıt Girdisi Yap:
+Installer.installLog.makeRegEntry.key=Anahtar:
+Installer.installLog.makeRegEntry.name=Değer Adı:
+Installer.installLog.makeRegEntry.data=Değer Verileri:
+Installer.installLog.speedRegistry.description=Kayıt Girişleri:
+Installer.installLog.subinstaller.description=Birleştirme Birimini Yükle:
+Installer.installLog.subuninstaller.description=Bellekten Çıkartıcıyı Çalıştır:
+Installer.installLog.customAction.description=Özel Eylem:
+Installer.installLog.userInteractions=Kullanıcı Etkileşimleri
+Installer.installLog.installBegin=Yükleme Başladı:
+Installer.installLog.installEnd=Yükleme Sona Erdi:
+Installer.installLog.freeMemory=Boş Bellek:
+Installer.installLog.totalMemory=Toplam Bellek:
+Installer.installLog.commandLineArgs=Komut Satırı Değişkenleri:
+Installer.installLog.noArguments=Değişken Yok
+Designer.Action.HTMLPanelAction.visualName=Pano: HTML Görüntüle
+HTMLPanelAction.title=HTML Panosu
+Designer.Action.UninstallIsmpSoftware.visualName=InstallShield Universal Yazılımını Bellekten Çıkart
+Installer.unexpectedChanges.message=Kurulum programı, kurulum kod dosyasında beklenmedik değişiklikler saptadı.
+﻿Installer.unexpectedChanges.title=Hata
+Installer.unexpectedChanges.label=Kurulum programı başlatılamadı.

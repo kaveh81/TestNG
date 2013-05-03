@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+	<info organisation="net.sourceforge.cssparser" module="com.springsource.com.steadystate.css" revision="0.9.5" status="release" publication="20090408100619"/>
+
+	<configurations>
+		<conf name="compile" visibility="public" description="Compile dependencies"/>
+		<conf name="optional" visibility="public" extends="compile" description="Optional dependencies"/>
+		<conf name="provided" visibility="public" description="Provided dependencies"/>
+		<conf name="runtime" visibility="public" extends="compile" description="Runtime dependencies"/>
+	</configurations>
+
+	<publications>
+		<artifact name="com.springsource.com.steadystate.css"/>
+		<artifact name="com.springsource.com.steadystate.css-sources" type="src" ext="jar"/>
+		<artifact name="license" type="license" ext="txt"/>
+	</publications>
+
+	<dependencies>
+		<dependency org="org.w3.sac" name="com.springsource.org.w3c.css.sac" rev="1.3.0" conf="compile->runtime"/>
+	</dependencies>
+
+</ivy-module>

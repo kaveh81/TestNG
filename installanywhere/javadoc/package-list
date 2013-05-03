@@ -1,0 +1,13 @@
+com.installshield.boot
+com.installshield.qjml
+com.installshield.util
+com.installshield.util.process
+com.installshield.wizard.platform.win32
+com.installshield.wizard.platform.win32.win32service
+com.installshield.wizard.service
+com.installshield.wizard.service.file
+com.installshield.wizard.service.security
+com.installshield.wizard.service.system
+com.zerog.awt
+com.zerog.ia.api.pub
+com.zerog.interfaces.util

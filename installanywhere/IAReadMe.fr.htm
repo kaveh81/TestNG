@@ -1,0 +1,189 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+
+body { background-color: #FFFFFF font: 10pt/12pt verdana,arial,helvetica,sans-serif; color: #000000 }
+
+ul { font: 10pt/12pt verdana,arial,helvetica,sans-serif; color: #000000 }
+
+
+p
+   { color: #000000; font-size: 10pt; line-height: 12pt; font-family: verdana,arial,helvetica,sans-serif; margin-top: 0pt; margin-bottom: 6pt; font-weight: regular; }
+
+
+A:link { color: #333333 }
+
+A:hover { color: #000000 }
+
+A:active { color: #666666 } 
+
+A:visited { color: #666666 }
+
+.title { font: bold 14pt/18pt arial,helvetica,sans-serif; color: #000000 }
+
+.subTitle
+   { color: #000000; font-size: 12pt; line-height: 14pt; font-family: arial,helvetica,sans-serif; font-weight: bold; margin-top: 12pt; margin-bottom: 6pt }
+
+.sectionTitle
+   { color: #000000; font-size: 11pt; line-height: 12pt; font-family: arial,helvetica,sans-serif; font-weight: bold; margin-top: 12pt; margin-bottom: 0pt }
+
+.listTitle { font: 10pt/14pt verdana, arial, helvetica, sans-serif; color: #000000 } 
+
+.mouseType { font: 8pt/10pt verdana, arial, helvetica, sans-serif; color: #999999 } 
+
+  </style>
+  <title>Macrovision InstallAnywhere 8 – Notes de version</title>
+</head>
+
+<body leftmargin="8" topmargin-"8">
+<p class="sectionTitle">NOTES DE VERSION</p>
+<p class="title">InstallAnywhere 8.0.1</p>
+
+<p>17 avril 2007</p>
+
+  <p class="subTitle">Sommaire</p> 
+  
+  <ul>
+    <li><a href="#one">Introduction</a></li>
+	<li><a href="#two">Environnement minimum requis</a></li>
+	<li><a href="#three">Nouvelles fonctions</a></li>
+	<li><a href="#four">Corrections et améliorations</a></li>
+        <li><a href="#five">Généralités</a></li>
+	<li><a href="#six">Problèmes connus</a></li>
+  </ul>
+
+
+<a name="one"></a>
+<p class="subTitle">Introduction</p>
+<p>InstallAnywhere est la solution de choix adoptée par les développeurs d’installations multiplate-forme du monde entier. Combinaison exclusive d’ergonomie et de puissance, InstallAnywhere permet de créer très rapidement des installations multiplate-forme. Pour mieux répondre à vos besoins, InstallAnywhere existe en versions Standard Edition et Enterprise Edition. Avec InstallAnywhere, vous pouvez envisager les tâches suivantes :
+<ul>
+<li>Créer un projet d’installateur supportant plusieurs plates-formes et plusieurs langues.</li>
+<li>Déployer des logiciels sur toute plate-forme client ou serveur.</li>
+<li>En suivant les conseils de l’Assistant de projet, builder un installateur multiplate-forme en quelques minutes.</li> 
+<li>Exécuter les fonctionnalités des plates-formes cibles dont vous avez besoin pour simplifier le déploiement des logiciels.</li></ul></p>
+
+<a name="two"></a>
+<p class="subTitle">Environnement minimum requis</p>
+
+<p class="sectionTitle">Systèmes disposant d’InstallAnywhere (Authoring Environment)</p>
+<ul>
+<li>128 Mo de RAM </li>
+<li>Affichage 8 bits (256 couleurs)</li>
+<li>Résolution 1024 x 768 </li>
+</ul>
+
+<p>InstallAnywhere supporte les versions les plus récentes des systèmes d’exploitation mentionnés ci-après (avec application éventuelle des mises à jour, des correctifs/patchs et des Service Packs les plus récents) :
+<ul>
+<li>Windows Server 2003, XP, 2000, NT</li>
+<li>Mac OS X, Mac OS X Server</li> 
+<li>Solaris/Sparc</li> 
+<li>Linux/Intel (Red Hat, SuSE)</li> 
+<li>HP-UX</li> 
+<li>AIX (5.2 ou version ultérieure)</li>
+</ul></p>
+<p><b>Remarque – </b>La version anglaise et les versions localisées (français, allemand, japonais) d’InstallAnywhere Enterprise Edition sont disponibles uniquement sur la plate-forme Windows. Les installateurs peuvent être buildés sur la plate-forme de votre choix – quelles que soient la plate-forme et la langue cibles. InstallAnywhere Enterprise Edition permet de builder des installateurs dans 29 langues.</p>
+
+<p class="sectionTitle"><B>Systèmes cibles de l’installateur (Installer Environment)</B></p>
+<ul>
+<li>64 Mo de RAM </li>
+<li>Affichage 8 bits (256 couleurs)</li> 
+<li>Résolution d’écran 640 x 480</li></ul> 
+
+<p>Les installateurs peuvent être exécutés sur  toutes les versions des systèmes d’exploitation ci-dessous (support de Java obligatoire) :
+<ul>
+<li>Windows Server XP, 2003 (processeurs Itanium 2, x86, AMD-64 ou équivalent)</li> 
+<li>Windows Vista, 2000, NT, Me, 98</li>
+<li>Linux/Intel (Red Hat, Red Hat Enterprise Server, UnitedLinux, TurboLinux, SuSE, etc.)</li>
+<li>Linux (processeurs PowerPC, AMD-64, Itanium 2 ou équivalent)</li>
+<li>Mac OS X (processeurs PowerPC, Intel ou équivalent) </li>
+<li>Solaris Sparc, AMD-64, Intel</li> 
+<li>HP-UX (processeurs Itanium 2, PA-RISC ou équivalent) </li>
+<li>Tru64, FreeBSD </li>
+<li>AIX </li>
+<li>z/OS</li>
+<li>NetWare</li> 
+<li>Autres plates-formes UNIX </li>
+</ul></p>
+
+<p><b>Remarque –</b> Les installateurs InstallAnywhere ne sont pas supportés par les versions bêta ni par les préversions (« access release »).</p>
+
+<p class="sectionTitle"><B>VM Java supportées</B>
+<ul>
+<li>Sun : 1.3.x, 1.4.x, 1.5.x, 1.6.x</li>
+<li>IBM : 1.3.x, 1.4.x, 1.5.x</li>
+<li>Apple : 1.3.x, 1.4.x, 1.5.x</li>
+<li>HP : 1.3.x, 1.4.x, 1.5.x</li></ul></p>
+
+<p>Par défaut, l’installateur InstallAnywhere est associé à Java 1.5 sur toutes les plates-formes. Toute VM Java peut être intégrée à un installateur (« bundled ») pour garantir que le système cible répondra aux exigences minimales des installateurs et de vos applications. Pour télécharger les Packs VM disponibles, consultez la page Web <a href="http://www.macrovision.com/downloads/flexnet_installshield/installanywhere/VM_packs.shtml">InstallAnywhere Downloads</a>.</p>
+
+<p><b>Remarque –</b> Les installateurs InstallAnywhere ne sont pas supportés par les versions bêta ni par les préversions (« access release ») de Java.</p>
+
+<a name="three"></a>
+<p class="subTitle">Nouvelles fonctions</font></p>
+
+<p>Les nouvelles fonctionnalités d’InstallAnywhere permettent aux développeurs de builder des installations multiplate-forme de qualité. Les installateurs InstallAnywhere 8.0.1 sont supportés par Windows Vista et par les JVM Sun 1.6.x. </p>
+
+<!-- <p class="sectionTitle">Génération automatique (et sauvegarde) des fichiers de réponse</p> <p>Avec InstallAnywhere 8, vous pouvez demander la génération automatique des fichiers de réponse utilisés pendant les installations en mode Silencieux (par défaut, ces fichiers de réponse sont sauvegardés).</p> -->
+
+	</UL></p>	
+	<a name="four"></a>
+      <p class="subTitle">Corrections et améliorations</p>
+	  
+<p>	  Les corrections et améliorations suivantes ont été apportées depuis la version 8.0.0 d’InstallAnywhere.</p>
+
+<p><ul>
+
+<LI>IOA-000030413: L’action « Set System Environment Variable / Définir une variable d’environnement système » est supportée par Windows Vista.</LI>
+<LI>IOA-000027560: Cette nouvelle version permet de développer des projets pour HP-UX qui buildent des installateurs Web et des distributions sur CD.</LI>
+<LI>IOA-000057176: Amélioration de la sécurité du script d’installation.</LI>
+<LI>IOA-000029919: Un problème d’interface (GUI) qui empêchait l’action « Set Environment Variable / Définir une variable d’environnement » a été résolu.</LI>
+<LI>IOA-000029119: Dans cette nouvelle version, la variable $WIN_COMMON_DESKTOP$ prend la valeur correcte pour les raccourcis Windows Vista.</LI>
+<LI>IOC-000057327: Les règles ajoutées dans les Magic Folders fonctionnent correctement au runtime.</LI>
+<LI>IOA-000027741: Le message de débogage « Command.run(): process completed before monitors could start / Le processus Command.run(): se termine avant le démarrage des moniteurs » ne s’affiche plus sur la console.</LI>
+<LI>IOC-000058165: Les installateurs qui appliquent la règle « Check Platform / Vérifier la plate-forme » avec Windows Vista comme seule plate-forme cible s’installent correctement sous Windows Vista.</LI>
+
+</ul></P>
+
+
+<a name="five"></a>
+<p class="subTitle">Généralités</p>
+
+<p class="sectionTitle"><B>Vos commentaires...</B></p>
+<p>Vos commentaires sont essentiels pour nous aider à proposer dans InstallAnywhere des fonctions qui répondent à vos besoins.  Une grande partie des fonctions d’InstallAnywhere 8 sont directement issues des commentaires et des suggestions dont vous, les membres de la communauté des développeurs InstallAnywhere, avez fait part à nos équipes techniques. Pour nous envoyer des commentaires ou des suggestions, utilisez la page <a href="http://www.macrovision.com/feedback/index.shtml">Product Feedback</a>.</p>
+
+<p class="sectionTitle"><b>Lancer InstallAnywhere</b></p>
+<p>Suivez les instructions correspondant au système d’exploitation sous lequel vous exécutez InstallAnywhere.
+<ul>
+
+<li><b>Pour lancer InstallAnywhere sous Windows :</b><br> Dans le menu Démarrer, choisissez <strong>Programmes</strong>*<strong>Macrovision</strong>, puis <strong>InstallAnywhere 8 Enterprise</strong> ou <strong>InstallAnywhere 8 Standard</strong>. Vous pouvez également double-cliquer sur le fichier <em>InstallAnywhere.exe</em>, (par défaut, dans <i>C:\Program Files\Macrovision\InstallAnywhere 8 Enterprise</i> ou dans <i>C:\Program Files\Macrovision\InstallAnywhere 8 Standard</i>).</li>
+
+<li><b>Pour lancer InstallAnywhere sous Mac :</b><br> Double-cliquez sur <em>InstallAnywhere</em> (dossier <em>Applications/Macrovision/InstallAnywhere 8 Enterprise</em> ou <em>Applications/Macrovision/InstallAnywhere 8 Standard</em>). Vous pouvez également double-cliquer sur l’alias InstallAnywhere (créé par défaut dans le Dock).</li>
+
+<li><b>Pour lancer InstallAnywhere sous UNIX (dont Solaris, Linux, HP-UX, AIX) :</b><br> Entrez <em>InstallAnywhere</em> au niveau du dossier <em>Macrovision/InstallAnywhere_8_Enterprise</em> ou <em>Macrovision/InstallAnywhere_8_Standard</em>. Vous pouvez également exécuter le lien symbolique « InstallAnywhere » (installé par défaut dans le dossier racine).</li></ul></p>
+
+<p class="sectionTitle"><b>Désinstaller InstallAnywhere</b></p>
+<p>Suivez les instructions correspondant au système d’exploitation sous lequel vous exécutez InstallAnywhere.
+<ul>
+
+<li><b>Pour désinstaller InstallAnywhere sous Windows :</b><br> Double-cliquez sur le raccourci <em>Uninstall/Désinstaller</em> (par défaut, dans <i>C:\Program Files\Macrovision\InstallAnywhere 8 Enterprise</i> ou dans <i>C:\Program Files\Macrovision\InstallAnywhere 8 Standard</i>).</li>
+
+<li><b>Pour désinstaller InstallAnywhere sous Mac :</b><br> Double-cliquez sur <em>Uninstall/Désinstaller</em> (dossier <em>Applications/Macrovision/InstallAnywhere 8 Enterprise</em> ou <em>Applications/Macrovision/InstallAnywhere 8 Standard</em>).</li>
+
+<li><b>Pour désinstaller InstallAnywhere sous UNIX (dont Solaris, Linux, HP-UX et AIX) :</b><br> Entrez <em>Uninstall</em> au niveau du dossier <em>Macrovision/InstallAnywhere_8_Enterprise</em> ou <em>Macrovision/InstallAnywhere_8_Standard</em>.</li></ul></p>
+
+
+<a name="six"></a>
+<p class="subTitle">Problèmes connus</p>
+
+<p>Pour plus de détails sur les problèmes connus, visitez notre Base de connaissances (Knowledge Base) et consultez l’article suivant : <a href="http://support.installshield.com/kb/view.asp?articleid=Q112324" target="_blank">Q112324</a>.</p><br>
+
+
+
+<p class="mouseType">Copyright 2002-2007 Macrovision Europe Ltd. et/ou Macrovision Corporation.</p>
+<br>
+</body>
+</html>
+
+

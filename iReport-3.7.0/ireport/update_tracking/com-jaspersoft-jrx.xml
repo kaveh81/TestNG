@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module codename="com.jaspersoft.jrx">
+    <module_version install_time="1260375221440" last="true" origin="installer" specification_version="1.0">
+        <file crc="2265221736" name="config/Modules/com-jaspersoft-jrx.xml"/>
+        <file crc="636472330" name="modules/com-jaspersoft-jrx.jar"/>
+        <file crc="1339893558" name="modules/ext/jasperreports-extensions-3.5.3.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,2010 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Volledig verwijderen
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Verwijder alle functies en componenten van $PRODUCT_NAME$ die door InstallAnywhere werden geïnstalleerd volledig. Dit heeft geen invloed op bestanden en mappen die na de installatie werden gemaakt.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Specifieke opties verwijderen
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Kies specifieke functies van $PRODUCT_NAME$ die geïnstalleerd werden door InstallAnywhere die verwijderd dienen te worden.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Kies een van de volgende opties:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Verwijderingsopties
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Installatie ongedaan maken
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Verwijder alle functies en componenten volledig.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Kies specifieke functies die geïnstalleerd werden door InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Kies een van de volgende opties:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Verwijderingsopties
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=VOER HET NUMMER VAN UW KEUZE IN OF DRUK OP <ENTER> OM DE STANDAARDWAARDE TE ACCEPTEREN:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Er is niet genoeg ruimte op de schijf om verder te gaan met de installatie.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=maar er is slechts XXX Mb beschikbaar op:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Deze installatie vereist XXX Mb vrije ruimte op de schijf,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Anders kunt u Annuleren kiezen om deze installatie te annuleren.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Maak minstens XXX Mb vrij om door te gaan met de installatie.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Maak wat schijfruimte vrij om door te gaan met de installatie.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Klik op Installeren om door te gaan met de installatie.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Klaar om verder te gaan
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Niet genoeg schijfruimte
+
+# ................... =Warning!
+CheckDiskSpace.warning=Waarschuwing!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=DRUK OP <ENTER> OM DE BESCHIKBARE SCHIJFRUIMTE OPNIEUW TE BEREKENEN OF TYP 'afsluiten' OM HET INSTALLATIEPROGRAMMA AF TE SLUITEN
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Er is niet genoeg ruimte op de schijf om deze installatie uit te voeren. \u000A   Probeer wat schijfruimte vrij te maken en start dit installatieprogramma opnieuw...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=DRUK OP <ENTER> OM MET DE INSTALLATIE TE BEGINNEN
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Waarschuwing!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Deze installatie vereist XXX Mb vrije ruimte op de schijf,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=maar er is slechts XXX Mb beschikbaar op:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Maak minstens XXX Mb vrij om door te gaan met de installatie.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Maak wat schijfruimte vrij om door te gaan met de installatie.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Er is niet genoeg ruimte op de schijf om verder te gaan met de installatie.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Niet genoeg schijfruimte
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Kies een bestand.
+
+# ................. =Choose...
+ChooseFile.chooseStr=K&iezen...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=&Kies een bestand:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=&Standaardbestand herstellen
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Kies een bestand
+
+# .................... =in the folder
+ChooseFile.macInsideStr=in de map
+
+# ................ =on the disk
+ChooseFile.macOnStr=op de schijf
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Kies een map.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=K&iezen...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=&Kies een map:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=&Standaardmap herstellen
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Kies een map
+
+# .................. =on the disk
+ChooseFolder.macOnStr=op de schijf
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Fout!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=U hebt geen toestemming om naar de gekozen map te schrijven. Kies een andere map.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Kies een map
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Installatieset kiezen
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Installatieset kiezen
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Kies productfuncties
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Kies de installatieset die u door dit installatieprogramma wilt laten installeren.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=VOER HET NUMMER VAN DE GEWENSTE INSTALLATIESET IN OF DRUK OP <ENTER> OM DE STANDAARDWAARDE TE ACCEPTEREN\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Kies de functies die u door het installatieprogramma wilt laten installeren.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=VOER EEN DOOR KOMMA'S GESCHEIDEN LIJST MET NUMMERS IN DIE DE FUNCTIES\u000A   VOORSTELLEN DIE GEÏNSTALLEERD DIENEN TE WORDEN
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Installatieset kiezen
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Aanpassen
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Fout bij het instellen van de productfuncties voor de installatie.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Kies een Java VM voor de geïnstalleerde toepassing
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Kies een Java Virtual Machine
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Het aangegeven pad wijst niet naar een geldige Java Virtual Machine. Kies opnieuw.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Kies een Java VM voor de geïnstalleerde toepassing
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Kies een Java Virtual Machine
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=VOER HET NUMMER VOOR DE JAVA VM IN OF DRUK OP <ENTER> OM DE HUIDIGE SELECTIE TE ACCEPTEREN
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=VOER HET ABSOLUTE PAD NAAR HET DOOR U GEWENSTE UITVOERBARE BESTAND VAN JAVA VM IN\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=PAD NAAR UITVOERBAAR JAVABESTAND IS:   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Kan de Java Virtual Machine die bij dit installatieprogramma is ingesloten niet installeren.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Installeer een Java VM specifiek voor deze toepassing
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Kies een Java VM die al op dit systeem is geïnstalleerd
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=&Kies een andere...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Openen
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Installeer een Java VM specifiek voor deze toepassing
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java runtime-omgeving
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Bezig met zoeken in: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Stoppen met &zoeken
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=&Zoeken naar andere
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Zoeken voltooid.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Kies een Java VM die al op dit systeem is geïnstalleerd
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Fout!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=De geselecteerde toepassing is geen geldige Java Virtual Machine.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Kies een Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Fout: Er werden geen geschikte Java Virtual Machines aangetroffen.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Dit product vereist dat er al een Java Virtual Machine op uw systeem geïnstalleerd is. Ga naar <http://java.sun.com> om een virtual machine voor uw platform te downloaden.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Kies een Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=Optionele SCM-functies kiezen
+ChooseSCMFeaturesConsole.title=Optionele SCM-functies kiezen
+ChooseSCMFeaturesConsole.instructions=Instructies voor het kiezen van optionele SCM-functies
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=DRUK OP <ENTER> OM DOOR TE GAAN
+
+# ................. =Y
+ConsoleUtils.yesChar=J
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=IS DIT JUIST?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Eén van de geleverde waarden was niet geldig. Kies opnieuw.
+
+#............... =back
+ConsoleUtils.back=vorige
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Schakel de functies die u wilt verwijderen UIT. De ingeschakelde functies blijven geïnstalleerd.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Schakel de functies die u wilt verwijderen IN. De uitgeschakelde functies blijven geïnstalleerd.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Kies productfuncties
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Kies de functies die u door dit installatieprogramma wilt laten installeren.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Schakel de functies die u wilt verwijderen UIT. De ingeschakelde functies blijven geïnstalleerd.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Schakel de functies die u wilt verwijderen IN. De uitgeschakelde functies blijven geïnstalleerd.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Kies productfuncties
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=VOER EEN DOOR KOMMA'S GESCHEIDEN LIJST VAN NUMMERS IN DIE DE FUNCTIES VOORSTELLEN DIE U WILT SELECTEREN OF WAARVAN U DE SELECTIE ONGEDAAN WILT MAKEN. TYP '?<NUMBER>' OM EEN BESCHRIJVING VAN EEN FUNCTIE TE BEKIJKEN. DRUK OP <RETURN> WANNEER U KLAAR BENT:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Installatieset
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Kies productfuncties
+
+#............................... =Description
+CustomizeBundlesPanel.description=Beschrijving
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Totale ruimte vereist voor het installeren:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Plaats een nieuwe schijf
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Plaats #NAME# of selecteer Bladeren... om deze handmatig te vinden.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Onjuist mediavolume
+# .................... =Browse
+DiskNeededDialog.locate=Bladeren
+
+# .................. =Cancel
+DiskNeededDialog.quit=Annuleren
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Plaats een nieuwe schijf
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Plaats #NAME# of kies het pad handmatig.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Plaats #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Schijf wordt verwacht op: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Plaats #NAME# of voer de locatie ervan in.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=OK, XXX is geplaatst.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Kies het pad naar de installatiegegevens.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Annuleren en de installatie afsluiten.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=KEUZE OPGEVEN
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=VOER HET PAD IN NAAR DE MAP 'INSTALLERDATA' OP DE SCHIJF
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Uw systeemomgeving is gewijzigd. U dient uit te loggen of uw systeem opnieuw te starten voordat deze veranderingen van kracht worden.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Systeemomgeving gewijzigd
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Afsluiten
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Installatie niet voltooid
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Installatie niet voltooid
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Als u de installatie nu annuleert, wordt $PRODUCT_NAME$ niet geïnstalleerd. Als u wilt doorgaan met de installatie, klikt u op 'Doorgaan'. Als u de installatie wilt annuleren, klikt u op 'afsluiten'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Als u de installatie nu annuleert, wordt $PRODUCT_NAME$ niet geïnstalleerd. Als u wilt doorgaan met de installatie, klikt u op 'Doorgaan'. Als u de installatie wilt annuleren, klikt u op 'afsluiten'.
+
+# .......... =Resume
+ExitDialog.ok=Doorgaan
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Verwijderen annuleren
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Annuleer de installatie
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Ja op alles
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Nee op alles
+
+# ....................... =Yes
+FileAlreadyExists.yes=Ja
+
+# ....................... =No
+FileAlreadyExists.no=Nee
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Bestaand bestand overschrijven?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Er bestaat al een bestand met de naam \"XXX\" op \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Er bestaat al een nieuwer bestand met de naam \"XXX\" op \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Er bestaat al een ouder bestand met de naam \"XXX\" op \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Wilt u het bestaande bestand overschrijven?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=&Kies een bestand/map:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Kiezen
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Er worden bestanden aan de onderstaande lijst toegevoegd.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=De gevonden bestanden staan hieronder vermeld.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Er worden mappen aan de onderstaande lijst toegevoegd.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=De gevonden mappen staan hieronder vermeld.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Er werden overeenkomende bestanden aangetroffen:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Er werden overeenkomende mappen aangetroffen:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Gevonden in:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=K&ies een andere...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Bezig met kijken in:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Maak uw eigen selectie.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Bezig met zoeken naar bestanden die overeenkomen met:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Bezig met zoeken naar mappen die overeenkomen met:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Bezig met zoeken
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Selecteren
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Het installatieprogramma kon geen overeenkomst vinden voor:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Geselecteerd:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Selecteer een map
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Annuleren
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Maak een nieuwe map
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Map:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Naam:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=IS DIT JUIST?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=DRUK OP <ENTER> OM DOOR TE GAAN
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Fout:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Een ogenblik geduld, $PRODUCT_NAME$ wordt momenteel geconfigureerd voor uw systeem. Dit kan even duren...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Een ogenblik geduld
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Deze installatie vereist een wachtwoord om door te gaan.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=Vo&er het wachtwoord in:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Geef een wachtwoord op
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Fout!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Het wachtwoord dat u hebt ingevoerd is onjuist. Probeer nogmaals.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Geef een wachtwoord op
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Wachtwoord is vereist om door te gaan.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Deze installatie vereist een wachtwoord om door te gaan.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Het wachtwoord dat u hebt ingevoerd is onjuist. Probeer nogmaals.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Voer het wachtwoord in:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Wachtwoord is vereist om door te gaan.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Geef een wachtwoord op
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=VOER EEN DOOR KOMMA'S GESCHEIDEN LIJST VAN NUMMERS IN DIE DE GEWENSTE OPTIES VOORSTELLEN
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=VOER EEN DOOR KOMMA'S GESCHEIDEN LIJST VAN NUMMERS IN DIE DE GEWENSTE OPTIES VOORSTELLEN OF DRUK OP <ENTER> OM DE  STANDAARDWAARDE TE ACCEPTEREN.
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=VOER HET NUMMER VAN DE GEWENSTE KEUZE IN
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=VOER HET NUMMER VAN UW KEUZE IN OF DRUK OP <ENTER> OM DE STANDAARDWAARDE TE ACCEPTEREN:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=U kunt het installatieprogramma nu niet afsluiten.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=U kunt nu niet naar de vorige stap gaan.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Belangrijke informatie
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Dit a.u.b. lezen voordat u doorgaat:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=BELANGRIJKE INFORMATIE VOLTOOID. DRUK OP <ENTER> OM DOOR TE GAAN
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Belangrijke informatie
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Dit a.u.b. lezen voordat u doorgaat:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Toepassing
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Hierdoor wordt de applicatiefunctie geïnstalleerd.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Help
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Hierdoor wordt de helpfunctie geïnstalleerd.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Gefeliciteerd! $PRODUCT_NAME$ is geïnstalleerd op:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ADruk op "Gereed" om het installatieprogramma af te sluiten.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Installatie voltooid
+InstallCompleteAction.stepTitle=Installatie voltooid
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=De installatie van $PRODUCT_NAME$ is voltooid maar er zijn enkele fouten opgetreden tijdens de installatie. \u000A\u000AZie het installatielogbestand voor details. Druk op "Gereed" om het installatieprogramma af te sluiten.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Installatie voltooid
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Installatie voltooid
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Gefeliciteerd. $PRODUCT_NAME$ is geïnstalleerd in:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=DRUK OP <ENTER> OM HET INSTALLATIEPROGRAMMA AF TE SLUITEN
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=De installatie van $PRODUCT_NAME$ is voltooid maar er zijn enkele fouten opgetreden tijdens de installatie. \u000A   Zie het installatielogbestand voor details.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=De installatie van $PRODUCT_NAME$ is voltooid maar er zijn enkele fouten opgetreden tijdens de installatie. \u000A   Zie het installatielogbestand voor details. Druk op "Gereed" om het installatieprogramma af te sluiten.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=DRUK OP <ENTER> OM HET INSTALLATIEPROGRAMMA AF TE SLUITEN
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Installatie voltooid
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Kies een doelmap voor deze installatie.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Kies een installatiemap
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=&Waar wilt u installeren?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Kies een installatiemap
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=VOER EEN ABSOLUUT PAD IN OF DRUK OP <ENTER> OM DE STANDAARD TE ACCEPTEREN\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=VOER EEN ABSOLUUT PAD IN, TYP 'standaard' OM DE STANDAARDMAP TE HERSTELLEN OF DRUK OP <ENTER> OM DE GEKOZEN MAP TE ACCEPTEREN
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Standaard installatiemap: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Gekozen installatiemap: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=INSTALLATIEMAP IS: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Het aangegeven pad: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=wijst naar een bestand dat al bestaat op het doelsysteem. \u000ADit installatieprogramma kan een bestaand bestand niet overschrijven met een nieuwe map. \u000AKies een andere installatielocatie.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=U hebt geen toestemming om naar de gekozen installatiebestemming te schrijven. \u000AKies een andere locatie.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Waar wilt u installeren?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Fout!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=U hebt geen toestemming om naar de gekozen installatiebestemming te schrijven. \u000AKies een andere locatie.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Kies een installatiemap
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Het pad dat is opgegeven als de installatiebestemming heeft een of meer tekens die ongeldig zijn op dit platform.  \u000AKies een andere locatie voor de installatie.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=K&iezen...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=&Standaardmap herstellen
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=in
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=in de map
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=op de schijf
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=installeren
+
+# ....................... =Introduction
+Installer.installLabels.00=Introductie
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Kies een installatiemap
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Kies de map $SHORTCUT_NAME$
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Pre-installatie overzicht
+
+# ....................... =Installing...
+Installer.installLabels.04=Bezig met installeren...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Installatie voltooid
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Het installatieprogramma kan niet op dit systeem worden gedraaid.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Het installatieprogramma kan niet op uw configuratie worden gedraaid. Het wordt nu afgesloten.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Gebruikersinterfacemodus van installatieprogramma niet ondersteund
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Het installatieprogramma kan niet in deze modus draaien. Raadpleeg de documentatie van het installatieprogramma om te bepalen hoe dit gedraaid dient te worden.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Fout in gebruikersinterfacemodus van installatieprogramma
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Installatie van $PRODUCT_NAME$ ongedaan maken
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Gefeliciteerd! $PRODUCT_NAME$ is geïnstalleerd op:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ADruk op "Gereed" om het installatieprogramma af te sluiten.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=De installatie van $PRODUCT_NAME$ is voltooid maar er zijn enkele waarschuwingen opgetreden tijdens de installatie. Zie het installatielogbestand voor details.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=De installatie van $PRODUCT_NAME$ is voltooid maar er zijn enkele fouten opgetreden tijdens de installatie. Zie het installatielogbestand voor details.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=De installatie van $PRODUCT_NAME$ is voltooid maar er zijn enkele ernstige fouten opgetreden tijdens de installatie. Zie het installatielogbestand voor details.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=U dient het systeem opnieuw op te starten om de installatie te voltooien.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=U moet het systeem opnieuw opstarten om de installatie te voltooien.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Installatie voltooid
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Ja, start het systeem opnieuw op
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Nee, ik start het systeem zelf op
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Bezig met installeren...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Bezig met annuleren van installatie...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Bezig met installeren...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Pre-installatie overzicht
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Lees het volgende door voordat u doorgaat:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Pre-installatie overzicht
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=DRUK OP <ENTER> OM DOOR TE GAAN. ALS DE INFORMATIE ONJUIST IS, TYPT U 'terug' OM WIJZIGINGEN TE MAKEN\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Naam van het product:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Installatiemap:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Snelkoppelingsmap:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Koppelingsmap:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Aliasmap:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Door gebruiker gedefinieerde installatieset
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Installatieset
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Productonderdelen:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java VM installatiemap:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Java VM die gebruikt dient te worden door het geïnstalleerde product:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Informatie over schijfruimte (voor installatiedoel): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Vereist:
+
+# .................. =bytes
+InstallSummaryUI.byte=bytes
+
+# ....................... =Available:
+InstallSummaryUI.available=Beschikbaar:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Kies deze optie om de te installeren functies aan te passen.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Aangepast
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Alleen de vereiste functies van de toepassing worden geïnstalleerd. Deze optie wordt alleen aangeraden voor gebruikers met beperkte schijfruimte.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Minimaal
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=De meest gebruikelijke functies van de toepassing worden geïnstalleerd. Deze optie wordt aanbevolen voor de meeste gebruikers.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Standaard
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere voert u door de installatie van $PRODUCT_NAME$. \u000A\u000AKlik op Volgende om naar het volgende scherm te gaan. Als u iets op het vorige scherm wilt veranderen, klikt u op 'Vorige'. \u000A\u000AU kunt de installatie op elk moment annuleren door op Annuleren te klikken.
+
+# .................. =Introduction
+IntroAction.stepTitle=Introductie
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere voert u door de installatie van $PRODUCT_NAME$. InstallAnywhere voert u door de installatie van $PRODUCT_NAME$. \u000A\u000AReageer op elke prompt om naar de volgende stap in de installatie te gaan. Als u iets in een vorige stap wilt wijzigen, typt u 'terug'. \u000A\u000AU kunt deze installatie op elk moment annuleren door 'afsluiten' te typen.
+
+# ..................... =Introduction
+IntroActionConsole.title=Introductie
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Kan de URL niet openen in de webbrowser
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere kan de aangevraagde URL ($ACTION_URL$) niet openen in de standaardwebbrowser van uw systeem. Typ het bovenstaande adres in de gewenste webbrowser om naar deze URL te gaan.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Licentieovereenkomst
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=Installatie en gebruik van $PRODUCT_NAME$ vereist aanvaarding van de volgende licentieovereenkomst:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Licentieovereenkomst
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=Installatie en gebruik van $PRODUCT_NAME$ vereist aanvaarding van de volgende licentieovereenkomst:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ACCEPTEERT U DE VOORWAARDEN VAN DEZE LICENTIEOVEREENKOMST?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Afsluiten
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Doorgaan
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Licentieovereenkomst waarschuwing
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Waarschuwing!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Als u de voorwaarden van de licentieovereenkomst niet accepteert, mag u niet doorgaan met deze installatie.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=I&k accepteer de voorwaarden van de licentieovereenkomst NIET
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Geen bestand gevonden om weer te geven
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=&Ik accepteer de voorwaarden van de licentieovereenkomst
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Geen bestand geselecteerd
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=DRUK OP <ENTER> OM HET VOLGENDE TE ACCEPTEREN
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=VOER HET NUMMER VAN DE GEWENSTE KEUZE IN OF DRUK OP <ENTER> OM DE STANDAARDWAARDE TE ACCEPTEREN
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Annuleren
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Details...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere is nu gereed om $PRODUCT_NAME$ op uw systeem te installeren op de volgende locatie:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=DRUK OP <ENTER> OM TE INSTALLEREN
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Klaar om te installeren
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere is bijna klaar. Een ogenblik geduld...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Bezig met schoonmaken...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Deze installatie vereist een serienummer om door te gaan.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=Vo&er het serienummer in:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Geef een serienummer op
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Fout!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Het serienummer dat u hebt ingevoerd is onjuist. Probeer nogmaals.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Geef een serienummer op
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Er is een serienummer vereist om door te gaan.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Deze installatie vereist een serienummer om door te gaan.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Het serienummer dat u hebt ingevoerd is onjuist. Probeer nogmaals.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Voer het serienummer in:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Er is een serienummer vereist om door te gaan.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Geef een serienummer op
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Alias
+
+#............... =Link
+ShortcutName.link=Koppeling
+
+#................... =Shortcut
+ShortcutName.shortcut=Snelkoppeling
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Waar wilt u de aliassen maken?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Kies map voor alias
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Kies map voor koppeling
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Waar wilt u de koppelingen maken?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Waar wilt u de productpictogrammen maken?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Kies een snelkoppelingslocatie
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Algemene groepen
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Huidige gebruikersgroepen
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=in de map
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=op de schijf
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Standaard: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Huidig: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Kies een andere locatie...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=VOER HET NUMMER VAN EEN BOVENSTAANDE OPTIE IN OF DRUK OP <ENTER> OM DE STANDAARD TE ACCEPTEREN\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=VOER HET NUMMER VAN EEN BOVENSTAANDE OPTIE IN OF DRUK OP <ENTER> OM DE HUIDIGE SELECTIE TE ACCEPTEREN
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=VOER HET ABSOLUTE PAD NAAR DE SNELKOPPELINGSMAP IN\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=SNELKOPPELINGSLOCATIE IS: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Kies een koppelingslocatie
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Waar wilt u de koppelingen maken?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Kies een snelkoppelingslocatie
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Waar wilt u de productpictogrammen maken?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Kies een aliaslocatie
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Waar wilt u de aliassen maken?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=In het menu Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=In het Dock
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Op het bureaublad
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Geen aliassen maken
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Overige:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Geen koppelingen maken
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Geen pictogrammen maken
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=In uw homemap
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Op het bureaublad
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=In een nieuwe programmagroep:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=In een bestaande programmagroep:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=In de balk &Snelstarten
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=In het menu Start
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Maak pictogrammen voor alle gebruikers
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Fout!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=U hebt geen toestemming om naar de gekozen bestemming te schrijven. Kies een andere locatie.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=In het menu A&pple
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=In het &Dock
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=Op het &bureaublad
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=Op het &bureaublad
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Kiezen...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Geen aliassen maken
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=Ove&rige:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=&Geen koppelingen maken
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=&Geen pictogrammen maken
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=In &uw homemap
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=Op het &bureaublad
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=&In een nieuwe programmagroep:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=In &een bestaande programmagroep:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=In het &menu Start
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Maa&k pictogrammen voor alle gebruikers
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Annuleren
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Details...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Datum:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Licentie-ID:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Versie van script:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Versie:
+
+# ............... =Done
+StepMaster.doneStr=&Gereed
+
+# ............... =Cancel
+StepMaster.exitStr=&Annuleren
+
+# ............... =Help
+StepMaster.helpStr=&Help
+
+# .................. =Install
+StepMaster.installStr=&installeren
+
+# ............... =Next
+StepMaster.nextStr=&Volgende
+
+# ............... =Previous
+StepMaster.prevStr=V&orige
+
+# ............... =Close
+StepMaster.closeStr=Sluiten
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=De installatie van alle items werd ongedaan gemaakt.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=De installatie is ongedaan gemaakt
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=De volgende items konden niet worden verwijderd:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Kan niet verwijderen
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=U moet het systeem opnieuw opstarten om het verwijderen te voltooien.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=U dient het systeem opnieuw op te starten om het verwijderen te voltooien.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=U moet het systeem tevens opnieuw opstarten om het verwijderen te voltooien.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=U dient het systeem tevens opnieuw op te starten om het verwijderen te voltooien.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Ja, start het systeem opnieuw op
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Nee, ik start het systeem zelf op
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=De installatie van alle items werd ongedaan gemaakt.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=De installatie is ongedaan gemaakt
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=De volgende items konden niet worden verwijderd:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=U moet het systeem opnieuw opstarten om het verwijderen te voltooien.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=U dient het systeem opnieuw op te starten om het verwijderen te voltooien.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=De installatie is ongedaan gemaakt
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=De installatie van alle items werd ongedaan gemaakt.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Enkele items konden niet verwijderd worden.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Het ongedaan maken van de installatie kon niet worden voltooid vanwege een fout.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Installatie van $PRODUCT_NAME$ ongedaan maken
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere verwijderingsprogramma
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Introductie
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Bezig met verwijderen...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=De installatie is ongedaan gemaakt
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Gereed voor het ongedaan maken van de installatie... \u000A\u000A$PRODUCT_NAME$\u000A\u000AHierdoor worden alle functies die door InstallAnywhere werden geïnstalleerd volledig verwijderd. Er worden geen bestanden en mappen verwijderd die na de installatie werden gemaakt.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Installatie van $PRODUCT_NAME$ ongedaan maken
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Gereed voor het ongedaan maken van de installatie... \u000A\u000A$PRODUCT_NAME$\u000A\u000AHierdoor worden alle functies die door InstallAnywhere werden geïnstalleerd volledig verwijderd. Er worden geen bestanden en mappen verwijderd die na de installatie werden gemaakt.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Installatie van $PRODUCT_NAME$ ongedaan maken
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Annuleren
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Afsluiten
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Help
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Verwijderen
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Een actie kon niet ongedaan worden gemaakt omdat deze niet ondersteund werd.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Bezig met schoonmaken...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Pakketten in native Java...
+
+# ............... =Files...
+UninstallMgr.Files=Bestanden...
+
+# ................. =Folders...
+UninstallMgr.Folders=Mappen...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Koppelingen...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Aliassen...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Snelkoppelingen...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Het product kan niet worden verwijderd omdat er zich geen geschikte Java virtuele machine meer op dit systeem bevindt. Installeer een Java virtuele machine en probeer het opnieuw.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 map
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Bezig met voorbereiden...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Software-database...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Register...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 mappen
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Kan niet schoonmaken
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Kan pakketten in native Java niet verwijderen
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Kan bestand niet verwijderen
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Kan map niet verwijderen
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Kan de Java VM-functie niet verwijderen
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Kan koppeling niet verwijderen
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Kan alias niet verwijderen
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Kan snelkoppeling niet verwijderen
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Kan niet
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Kan 1 bestand niet verwijderen
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Kan 2 bestanden niet verwijderen
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Kan software-database niet verwijderen
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Kan registersleutel niet verwijderen
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Opnieuw starten van het systeem vereist
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Het wordt niet aanbevolen om het verwijderingsprogramma uit te voeren tenzij het systeem opnieuw wordt opgestart.,  Klik op Annuleren om het verwijderingsprogramma af te sluiten of op Doorgaan om het programma toch te verwijderen.
+
+# ................ =Continue
+UninstallRestart.continue=Doorgaan
+
+# ................ =Cancel
+UninstallRestart.exit=Annuleren
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Een ogenblik geduld terwijl het verwijderingsprogramma van InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=de volgende functies verwijdert...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Bezig met uitvoeren van aangepaste code...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Bezig met uitvoeren...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Bezig met uitvoeren van het installatiescript...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Samenvoegingsmodule installeren
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Bezig met installeren van samenvoegingsmodule
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Bezig met installeren van pakket in native Java
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=afsluiten
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=DRUK OP <ENTER> OM TE BEGINNEN MET HET VERWIJDEREN OF OP 'AFSLUITEN' OM HET VERWIJDERINGSPROGRAMMA AF TE SLUITEN:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=DRUK OP <ENTER> OM HET VERWIJDERINGSPROGRAMMA AF TE SLUITEN:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Bestand kopiëren
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Map kopiëren
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Koppeling maken
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Snelkoppeling maken
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Alias maken
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Map maken
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=LaunchAnywhere maken
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Bestand verwijderen
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Map verwijderen
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Archief uitbreiden
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=SpeedFolder installeren
+
+InstallRPMPackage.visualname.self=Linux RPM installeren
+InstallSolarisPackage.visualname.self=Solaris-pakket installeren
+InstallHPUXPackage.visualname.self=HP-UX Depot installeren
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Bestand verplaatsen
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Map verplaatsen
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Windows-service registreren
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Systeemomgevingsvariabele instellen
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Windows-register instellen
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=ANT-script uitvoeren
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Opdracht uitvoeren
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Aangepaste code uitvoeren
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Script uitvoeren
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Doelbestand uitvoeren
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Naar component in register zoeken
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Invoer uit Windows-register ophalen
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Tekstbestand wijzigen
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=XSL-transformatie uitvoeren
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Uitvoer foutopsporingsinformatie
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Uitvoertekst naar console
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Berichtdialoogvenster tonen
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Windows-service starten
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Windows-service stoppen
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Windows-service pauzeren
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Zoeken naar map
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Samenvoegingsmodule installeren
+Designer.Action.PowerUpdateClient.visualName=PowerUpdate Client installeren
+Designer.Action.PerformXSLTZip.visualName=XSL-transformatie uitvoeren - in archief
+Designer.Action.PerformXSLT.visualName=XSL-transformatie uitvoeren
+Designer.Action.PerformXSLT.performingXSLtransform=XSL-transformatie uitvoeren:
+Designer.Action.MakeExecutable.visualName=LaunchAnywhere maken voor Java-toepassing
+Designer.Action.InstallZipfile.visualName=Archief installeren
+Designer.Action.CreateUninstaller.visualName=Verwijderingsprogramma maken
+Designer.Action.BOMAction.visualName=Installeren vanuit manifest
+Designer.Action.ExpandArchive.visualName=Archief uitbreiden
+Designer.Action.ExecuteScript.visualName=Script/batchbestand uitvoeren
+Designer.Action.Exec.visualName=Opdracht uitvoeren
+Designer.Action.visualName=Doelbestand uitvoeren
+Designer.Action.AntRunner.visualName=ANT-script uitvoeren
+Designer.Actions.ShowDialogAction.visualName=Berichtdialoogvenster tonen
+
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Bewerkingen na het verwijderen van de installatie
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Bewerkingen voor het installeren van bewerkingen
+
+Designer.Action.EvaluateDependenciesAction.visualName=Afhankelijkheden evalueren
+
+ActionGroup.visualName.self=Actiegroep
+Designer.Action.UpdateServiceClient.visualName=Update-waarschuwingen inschakelen
+Designer.FolderConstants.programsDir64Name=Programma's-map (64-bits)
+Designer.FolderConstants.programsDir32Name=Programma's-map (32-bits)
+Designer.FolderConstants.system64Name=Systeem-map (64-bits)
+Designer.FolderConstants.system32Name=Systeem-map (32-bits)
+Designer.FolderConstants.variableMagicFolder=Variabele Magic-map
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# URL voor het laden van us.jar is niet juist.
+Installer.Actions.UpdateServiceClient.badUsJar=De bibliotheek #UPDATE_SERVICE# beschikt niet over de juiste klasse voor registratie.  De voorziene jar is wellicht niet juist.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=De klasse #UPDATE_SERVICE# beschikt niet over de juiste methode voor registratie.
+Installer.installLog.actionNotes=Opmerkingen:
+Installer.installLog.installLogDetail=Detail installatielogboek:
+Installer.installLog.installation=Installatie: 
+Installer.installLog.unsuccessful=Mislukt.
+Installer.installLog.successful=Gelukt
+Installer.installLog.withErrors=met fouten.
+Installer.installLog.withwarnings=met waarschuwingen.
+Installer.installLog.cancelled=Geannuleerd
+Installer.installLog.duringPostInstall=tijdens na-installatie
+Installer.installLog.duringInstall=tijdens installatie
+Installer.installLog.duringPreInstall=tijdens pré-installatie
+Installer.installLog.cancelledBeforePreInstallation=INSTALLATIE GEANNULEERD DOOR GEBRUIKER VÓÓR PRÉ-INSTALLATIE
+Installer.installLog.cancelledDuringPreInstallation=INSTALLATIE GEANNULEERD DOOR GEBRUIKER TIJDENS PRÉ-INSTALLATIE
+Installer.installLog.cancelledDuringInstallation=INSTALLATIE GEANNULEERD DOOR GEBRUIKER TIJDENS INSTALLATIE
+Installer.InstallLog.cancelledDuringPostInstallation=INSTALLATIE GEANNULEERD DOOR GEBRUIKER NA INSTALLATIE OF TIJDENS NA-INSTALLATIE
+Installer.installLog.successes=Successen
+Installer.installLog.warnings=Waarschuwingen
+Installer.installLog.nonFatalErrors=NietFataleFouten
+Installer.installLog.fatalErrors=FataleFouten
+Installer.installLog.details=Details
+Installer.installLog.nothingWasInstalled=Er is niets geïnstalleerd.
+Installer.installLog.none=Geen
+Installer.installLog.summary=Samenvatting
+Installer.installLog.installedBy=Geïnstalleerd door InstallAnywhere #BUILD_INFO#, van Macrovision
+Installer.installLog.status=Status:
+Installer.installLog.additionalNotes=Verdere opmerkingen: 
+Installer.installLog.exceptionClass=Uitzonderingsklasse: 
+Installer.installLog.exceptionMessage=Uitzonderingsbericht: 
+Installer.installLog.exceptionStackTrace=Exception Stack Trace:
+Installer.installLog.successLevel.successful=GELUKT
+Installer.installLog.successLevel.warning=WAARSCHUWING
+Installer.installLog.successLevel.error=FOUT
+Installer.installLog.successLevel.fatalError=FATALE FOUT
+Installer.installLog.successLevel.unsupported=NIET-ONDERSTEUND FOUTNIVEAU
+Installer.installLog.successLevel.notice=OPMERKING
+Installer.installLog.action.description=Installatieactie:
+Installer.installLog.antRunner.description=ANT-script uitvoeren:
+Installer.installLog.antRunner.script=Script: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Geen doel gekozen
+Installer.installLog.asciiFileManipulator.newFile=Nieuw bestand 
+Installer.installLog.copyDirectory.description=Kopieerdirectory:
+Installer.installLog.copyFile=Kopieerbestand:
+Installer.installLog.copyFileAction.destination=Bestemming: 
+Installer.installLog.createShortcut.createShortcut=Snelkoppeling maken:
+Installer.installLog.createShortcut.createAlias=Alias maken:
+Installer.installLog.createShortcut.createLink=Koppeling maken:
+Installer.installLog.deleteFileAction.source=Bron:
+Installer.installLog.editEnvironment.description=Omgevingsvariabele instellen:
+Installer.installLog.expandFile.description=Archief uitbreiden:
+Installer.installLog.getRegEntry.description=Registerinvoer ophalen:
+Installer.installLog.getRegEntry.key=Register-key: 
+Installer.installLog.getRegEntry.value=Naam waarde: 
+Installer.installLog.installDirCont.description=SpeedFolder installeren:
+Installer.installLog.installDirectory.description=Installatiedirectory:
+Installer.installLog.installFile.description=Installatiebestand:
+Installer.installLog.installNTService.description=NT-service registreren:
+Installer.installLog.installUninstaller.description=Uninstaller installeren:
+Installer.installLog.installUninstaller.note=(Alle Uninstaller-onderdelen installeren)
+Installer.installLog.makeExecutable.description=LaunchAnywhere maken:
+Installer.installLog.makeExecutable.note=(Alle Java uitvoerbare onderdelen van LaunchAnywhere installeren)
+Installer.installLog.makeRegEntry.description=Registerinvoer maken:
+Installer.installLog.makeRegEntry.key=Register-key:
+Installer.installLog.makeRegEntry.name=Naam waarde:
+Installer.installLog.makeRegEntry.data=Waardegegevens:
+Installer.installLog.speedRegistry.description=Registerinvoeritems:
+Installer.installLog.subinstaller.description=Samenvoegingsmodule installeren:
+Installer.installLog.subuninstaller.description=Uninstaller uitvoeren:
+Installer.installLog.customAction.description=Aangepaste actie:
+Installer.installLog.userInteractions=Gebruikersinteracties
+Installer.installLog.installBegin=Installatiebegin:
+Installer.installLog.installEnd=Installatieëind:
+Installer.installLog.freeMemory=Vrij geheugen:
+Installer.installLog.totalMemory=Totaal geheugen:
+Installer.installLog.commandLineArgs=Commandoregelargumenten:
+Installer.installLog.noArguments=Geen argumenten
+Designer.Action.HTMLPanelAction.visualName=Paneel: HTML weergeven
+HTMLPanelAction.title=HTML-paneel
+Designer.Action.UninstallIsmpSoftware.visualName=InstallShield Universal Software deïnstalleren
+Installer.unexpectedChanges.message=Installatieprogramma heeft onverwachte wijzigingen gevonden in het installatiescript.
+﻿Installer.unexpectedChanges.title=Fout
+Installer.unexpectedChanges.label=Kan installatieprogramma niet starten.

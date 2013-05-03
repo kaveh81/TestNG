@@ -1,0 +1,999 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+<WebWorksHelpIX version="4.0">
+ <g t="A" o="002">
+  <i t="Add Comment">
+   <j l="136" />
+  </i>
+  <i t="Add Files">
+   <j l="60" />
+   <j l="118" />
+   <j l="118" />
+  </i>
+  <i t="Add Jump Label">
+   <j l="136" />
+  </i>
+  <i t="Advanced Designer">
+   <j l="18" />
+   <j l="151" />
+   <j l="159" />
+   <j l="159#wp1053864" />
+   <j l="159#wp1053864" />
+   <j l="159#wp1053864" />
+   <j l="159#wp1053864" />
+   <j l="159#wp1053864" />
+  </i>
+  <i t="Advertised Variables">
+   <j l="166" />
+  </i>
+  <i t="ANT">
+   <j l="136" />
+   <j l="177" />
+   <j l="177" />
+   <j l="177" />
+   <j l="177" />
+  </i>
+  <i t="ANT Build Integration">
+   <j l="177" />
+  </i>
+  <i t="Assign Files to Components">
+   <j l="77" />
+  </i>
+  <i t="Authoring Environments">
+   <j l="16" />
+  </i>
+  <i t="automatic updates">
+   <j l="72" />
+   <j l="113#wp1050741" />
+  </i>
+  <i t="Automatically Set Classpath">
+   <j l="120" />
+  </i>
+ </g>
+ <g t="B" o="002">
+  <i t="Background Images">
+   <j l="27" />
+   <i t="Installer Mode">
+    <j l="20" />
+   </i>
+  </i>
+  <i t="Best Practices for Components">
+   <i t="Components">
+    <j l="75" />
+   </i>
+  </i>
+  <i t="Billboards">
+   <j l="51" />
+  </i>
+  <i t="Build">
+   <j l="67" />
+   <j l="67" />
+   <j l="70" />
+   <j l="70" />
+   <j l="111" />
+   <j l="121" />
+   <j l="177" />
+   <j l="183" />
+  </i>
+  <i t="Bundling Java Runtime Environments">
+   <j l="72" />
+  </i>
+ </g>
+ <g t="C" o="002">
+  <i t="CD-ROM">
+   <j l="19" />
+   <j l="69#wp1053202" />
+   <j l="69#wp1053215" />
+   <j l="69#wp1053215" />
+   <j l="69#wp1053215" />
+  </i>
+  <i t="Choose Alias  Link  Shortcut">
+   <j l="137" />
+  </i>
+  <i t="Choose Features to Uninstall">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Choose File">
+   <j l="137" />
+  </i>
+  <i t="Choose Folder">
+   <j l="137" />
+  </i>
+  <i t="Choose Install Folder">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Choose Install Set">
+   <j l="137" />
+  </i>
+  <i t="Choose Java VM">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Choose Link Folder">
+   <j l="138" />
+  </i>
+  <i t="Choose Main">
+   <j l="119" />
+   <j l="119" />
+  </i>
+  <i t="Choose Uninstall Type">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Classpath">
+   <j l="17" />
+   <j l="64" />
+   <j l="64" />
+   <j l="139" />
+  </i>
+  <i t="Clean Components">
+   <j l="78" />
+  </i>
+  <i t="ClearCase">
+   <j l="89" />
+  </i>
+  <i t="Component">
+   <j l="42" />
+   <j l="81" />
+  </i>
+  <i t="Components">
+   <j l="21" />
+   <j l="21" />
+   <j l="23" />
+   <j l="24" />
+   <j l="56" />
+   <j l="61" />
+   <j l="63" />
+   <j l="63" />
+   <j l="74" />
+   <j l="75" />
+   <j l="75" />
+   <j l="76" />
+   <j l="77" />
+   <j l="81" />
+  </i>
+  <i t="Config">
+   <j l="47" />
+   <j l="47" />
+   <j l="104" />
+  </i>
+  <i t="Console Actions">
+   <i t="Actions">
+    <j l="138" />
+    <j l="138" />
+   </i>
+  </i>
+  <i t="Console Installers">
+   <j l="170" />
+  </i>
+  <i t="Copy File">
+   <j l="135" />
+  </i>
+  <i t="Copy Folder">
+   <j l="135" />
+  </i>
+  <i t="Create Folder">
+   <j l="135" />
+  </i>
+  <i t="Create LaunchAnywhere for Java Apps">
+   <j l="135" />
+  </i>
+  <i t="Create Launcher">
+   <j l="73" />
+  </i>
+  <i t="Create Uninstaller">
+   <j l="135" />
+  </i>
+  <i t="Creating Launchers for Java Applications">
+   <j l="73" />
+  </i>
+  <i t="Custom Code">
+   <j l="136" />
+   <j l="137" />
+   <j l="138" />
+   <j l="156" />
+   <j l="156" />
+   <j l="156" />
+   <j l="156" />
+   <j l="157" />
+   <j l="157" />
+   <j l="157" />
+   <j l="158" />
+   <j l="161" />
+   <j l="184" />
+  </i>
+  <i t="Customizer">
+   <i t="Common Properties">
+    <j l="139" />
+   </i>
+  </i>
+  <i t="CVS">
+   <j l="89" />
+  </i>
+ </g>
+ <g t="D" o="002">
+  <i t="Debug">
+   <j l="104" />
+   <j l="111" />
+   <j l="111" />
+   <j l="112" />
+   <j l="112" />
+   <j l="136" />
+   <j l="136" />
+   <j l="157" />
+  </i>
+  <i t="Debugging">
+   <j l="106" />
+   <j l="107" />
+   <j l="108" />
+   <j l="109" />
+   <j l="110" />
+   <j l="113" />
+  </i>
+  <i t="Delete File">
+   <j l="135" />
+  </i>
+  <i t="Delete Folder">
+   <j l="135" />
+  </i>
+  <i t="Digital certificates">
+   <j l="84" />
+  </i>
+  <i t="Disk Space Check">
+   <j l="137" />
+  </i>
+  <i t="Display Message">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Distribution">
+   <j l="69" />
+   <j l="69" />
+  </i>
+  <i t="Dock">
+   <i t="Mac OS X">
+    <j l="173" />
+   </i>
+  </i>
+  <i t="DVD">
+   <j l="69#wp1053202" />
+   <j l="69#wp1053202" />
+  </i>
+ </g>
+ <g t="E" o="002">
+  <i t="Enterprise Edition">
+   <j l="26" />
+   <j l="113" />
+   <j l="116" />
+  </i>
+  <i t="Execute ANT Script">
+   <j l="136" />
+  </i>
+  <i t="Execute Command">
+   <j l="136" />
+  </i>
+  <i t="Execute Script/Batch File">
+   <j l="136" />
+  </i>
+  <i t="Execute Target File">
+   <j l="83" />
+   <j l="136" />
+  </i>
+  <i t="Exit Codes">
+   <j l="176" />
+  </i>
+  <i t="Expand Archive">
+   <j l="135" />
+  </i>
+ </g>
+ <g t="F" o="002">
+  <i t="Features">
+   <j l="21" />
+   <j l="23" />
+   <j l="55" />
+   <j l="81" />
+   <j l="81" />
+  </i>
+  <i t="Files">
+   <j l="59" />
+  </i>
+  <i t="Find Component in Registry">
+   <j l="79" />
+   <j l="136" />
+  </i>
+  <i t="Find File/Folder">
+   <j l="137" />
+  </i>
+ </g>
+ <g t="G" o="002">
+  <i t="Get Password">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Get Serial Number">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Get User Input">
+   <j l="138" />
+  </i>
+  <i t="Get User Input - Advanced">
+   <j l="137" />
+  </i>
+  <i t="Get User input - Simple">
+   <j l="137" />
+  </i>
+  <i t="Get Windows Registry Entry">
+   <j l="136" />
+  </i>
+ </g>
+ <g t="H" o="002">
+  <i t="help">
+   <i t="Help Library conventions">
+    <j l="3" />
+   </i>
+   <i t="Knowledge Base articles">
+    <j l="7#wp1049799" />
+   </i>
+   <i t="Online Communities">
+    <j l="7#wp1049834" />
+   </i>
+   <i t="Support Web site">
+    <j l="7#wp1049812" />
+   </i>
+   <i t="using">
+    <j l="2" />
+   </i>
+  </i>
+  <i t="Help">
+   <j l="143" />
+  </i>
+ </g>
+ <g t="I" o="002">
+  <i t="Image Settings">
+   <j l="140" />
+   <j l="141" />
+  </i>
+  <i t="Important Note">
+   <j l="137" />
+  </i>
+  <i t="Install Actions">
+   <j l="135" />
+  </i>
+  <i t="Install Archive">
+   <j l="135" />
+  </i>
+  <i t="Install Complete">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Install Failed">
+   <j l="138" />
+  </i>
+  <i t="Install File">
+   <j l="135" />
+  </i>
+  <i t="Install from Manifest">
+   <j l="135" />
+  </i>
+  <i t="Install HP-UX Depot">
+   <j l="135" />
+  </i>
+  <i t="Install Linux RPM">
+   <j l="135" />
+  </i>
+  <i t="Install Merge Module">
+   <j l="135" />
+   <j l="135" />
+   <j l="166" />
+  </i>
+  <i t="Install PowerUpdate Client">
+   <j l="135" />
+  </i>
+  <i t="Install Set">
+   <j l="54" />
+   <j l="137" />
+  </i>
+  <i t="Install Sets">
+   <j l="21" />
+   <j l="21" />
+   <j l="22" />
+   <j l="23" />
+   <j l="54" />
+   <j l="54" />
+   <j l="138" />
+  </i>
+  <i t="Install Solaris Package">
+   <j l="135" />
+  </i>
+  <i t="Install SpeedFolder">
+   <j l="135" />
+  </i>
+  <i t="InstallAnywhere Variable">
+   <i t="checking value of">
+    <j l="152" />
+   </i>
+  </i>
+  <i t="InstallAnywhere Variables">
+   <j l="34" />
+   <j l="112" />
+   <j l="148" />
+   <j l="150" />
+   <j l="150" />
+   <j l="151" />
+   <j l="154" />
+   <j l="156" />
+   <j l="156" />
+   <j l="156" />
+   <j l="156" />
+   <j l="159" />
+  </i>
+  <i t="Installation Success">
+   <j l="102" />
+  </i>
+  <i t="Installer Panel Additions">
+   <j l="140" />
+   <j l="142" />
+   <j l="142" />
+  </i>
+  <i t="Installer UI">
+   <j l="49" />
+   <j l="140" />
+   <j l="140" />
+  </i>
+ </g>
+ <g t="J" o="002">
+  <i t="Jump to Target">
+   <j l="136" />
+  </i>
+ </g>
+ <g t="K" o="002">
+  <i t="Knowledge Base articles">
+   <i t="help">
+    <j l="7#wp1049799" />
+   </i>
+  </i>
+ </g>
+ <g t="L" o="002">
+  <i t="Label Settings">
+   <j l="140" />
+   <j l="142" />
+   <j l="142" />
+  </i>
+  <i t="Language Codes">
+   <j l="187" />
+  </i>
+  <i t="Launch Default Browser">
+   <j l="136" />
+  </i>
+  <i t="LaunchAnywhere">
+   <j l="31" />
+   <j l="31" />
+   <j l="65" />
+   <j l="72" />
+   <j l="73" />
+   <j l="73" />
+   <j l="73" />
+   <j l="103" />
+   <j l="110" />
+   <j l="145" />
+   <j l="145" />
+   <j l="150" />
+   <j l="151" />
+   <j l="153" />
+  </i>
+  <i t="LaunchAnywhere executables">
+   <j l="110" />
+  </i>
+  <i t="LAX">
+   <i t="LaunchAnywhere executable">
+    <j l="73" />
+    <j l="73" />
+    <j l="110" />
+    <j l="153" />
+   </i>
+  </i>
+  <i t="legal information">
+   <j l="1" />
+  </i>
+  <i t="License Agreement">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="List of Installer Steps">
+   <j l="140" />
+  </i>
+  <i t="locales">
+   <j l="26" />
+   <j l="26" />
+   <j l="26" />
+   <j l="45" />
+   <j l="45" />
+   <j l="111" />
+   <j l="158" />
+   <j l="158" />
+   <j l="158" />
+   <j l="158" />
+   <j l="182" />
+   <j l="183" />
+  </i>
+  <i t="Localizable Elements">
+   <j l="188" />
+  </i>
+  <i t="Localization">
+   <j l="26" />
+   <j l="180" />
+   <j l="181" />
+  </i>
+  <i t="Localizing">
+   <i t="Best Practices for">
+    <j l="186" />
+   </i>
+  </i>
+ </g>
+ <g t="M" o="002">
+  <i t="Mac OS X">
+   <j l="31" />
+   <j l="173" />
+   <i t="debugging">
+    <j l="108" />
+   </i>
+   <i t="troubleshooting">
+    <j l="108" />
+   </i>
+  </i>
+  <i t="Mac OS X Installer">
+   <j l="108" />
+  </i>
+  <i t="Macrovision">
+   <j l="4" />
+   <i t="Consulting Services">
+    <j l="6#wp1049758" />
+   </i>
+   <i t="contacting">
+    <j l="8" />
+   </i>
+   <i t="products">
+    <j l="5" />
+   </i>
+   <i t="Professional Services">
+    <j l="6" />
+   </i>
+   <i t="Support Web site">
+    <j l="7#wp1049812" />
+   </i>
+   <i t="Technical Support">
+    <j l="7" />
+   </i>
+   <i t="Training">
+    <j l="6#wp1049742" />
+   </i>
+  </i>
+  <i t="Magic Folders">
+   <j l="32" />
+   <j l="32" />
+   <j l="154" />
+   <j l="154" />
+   <j l="173" />
+  </i>
+  <i t="Manifest File Format">
+   <j l="146" />
+  </i>
+  <i t="Manifest Files">
+   <j l="146" />
+  </i>
+  <i t="Merge Modules">
+   <j l="35" />
+   <j l="166" />
+   <j l="166" />
+  </i>
+  <i t="Minimizing Size of Installers">
+   <j l="82" />
+  </i>
+  <i t="Modify Text File - In Archive">
+   <j l="136" />
+  </i>
+  <i t="Modify Text File - Multiple Files">
+   <j l="136" />
+  </i>
+  <i t="Modify Text File - Single File">
+   <j l="136" />
+  </i>
+  <i t="Move File">
+   <j l="135" />
+  </i>
+  <i t="Move Folder">
+   <j l="135" />
+  </i>
+ </g>
+ <g t="O" o="002">
+  <i t="Online Communities">
+   <i t="help">
+    <j l="7#wp1049834" />
+   </i>
+  </i>
+  <i t="Optimizing Unix Installers">
+   <j l="82" />
+  </i>
+  <i t="Organization">
+   <j l="21" />
+   <j l="53" />
+   <j l="76" />
+   <j l="81" />
+  </i>
+  <i t="Output Debug Information">
+   <j l="136" />
+  </i>
+  <i t="Output Text to Console">
+   <j l="136" />
+  </i>
+ </g>
+ <g t="P" o="002">
+  <i t="Panel Actions">
+   <i t="Actions">
+    <j l="137" />
+    <j l="140" />
+    <j l="140" />
+   </i>
+  </i>
+  <i t="Perforce">
+   <j l="89" />
+  </i>
+  <i t="Perform XSL Transform">
+   <j l="136" />
+  </i>
+  <i t="Perform XSL Transform - In Archive">
+   <j l="136" />
+  </i>
+  <i t="Platform">
+   <j l="69#wp1053190" />
+   <j l="148" />
+   <j l="154" />
+   <j l="174" />
+  </i>
+  <i t="Platforms">
+   <j l="44" />
+  </i>
+  <i t="Plug-ins">
+   <j l="159" />
+   <j l="159" />
+  </i>
+  <i t="Post-Uninstall">
+   <j l="30" />
+  </i>
+  <i t="Pre-Install">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Pre-Install Summary">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Pre-Uninstall">
+   <j l="30" />
+  </i>
+  <i t="Professional Services">
+   <i t="Macrovision">
+    <j l="6" />
+   </i>
+  </i>
+  <i t="Project">
+   <j l="17" />
+   <j l="38" />
+   <j l="41" />
+   <j l="42" />
+   <j l="46" />
+   <j l="47" />
+   <j l="104" />
+   <j l="116" />
+   <j l="116" />
+   <j l="116" />
+   <j l="176" />
+   <j l="177" />
+   <j l="177" />
+   <i t="task">
+    <j l="40" />
+   </i>
+  </i>
+  <i t="Project File">
+   <j l="38" />
+  </i>
+  <i t="Project Wizard">
+   <j l="17" />
+   <j l="17" />
+   <j l="120" />
+  </i>
+  <i t="Pure Java Installer">
+   <j l="109" />
+  </i>
+ </g>
+ <g t="R" o="002">
+  <i t="Ready to Install">
+   <j l="138" />
+  </i>
+  <i t="Register Windows Service">
+   <j l="135" />
+  </i>
+  <i t="Registration">
+   <j l="131" />
+  </i>
+  <i t="Response Files">
+   <j l="169" />
+  </i>
+  <i t="Restart Windows">
+   <j l="136" />
+  </i>
+  <i t="Rules">
+   <j l="29" />
+   <j l="29" />
+   <j l="46" />
+   <j l="46" />
+   <j l="54" />
+   <j l="55" />
+   <j l="56" />
+   <j l="60" />
+   <j l="148" />
+   <j l="148" />
+  </i>
+ </g>
+ <g t="S" o="002">
+  <i t="SCM">
+   <j l="89" />
+  </i>
+  <i t="Scrolling Message">
+   <j l="137" />
+  </i>
+  <i t="Set Classpath">
+   <j l="120" />
+  </i>
+  <i t="Set InstallAnywhere Variable - Multiple Variables">
+   <j l="136" />
+  </i>
+  <i t="Set InstallAnywhere Variable - Single Variable">
+   <j l="136" />
+  </i>
+  <i t="Set System Environment Variable">
+   <j l="135" />
+  </i>
+  <i t="Set Windows Registry - Multiple Entries">
+   <j l="135" />
+  </i>
+  <i t="Set Windows Registry - Single Entry">
+   <j l="135" />
+  </i>
+  <i t="Show Message Console 'Dialog'">
+   <j l="138" />
+  </i>
+  <i t="Show Message Dialog">
+   <j l="136" />
+  </i>
+  <i t="signcode">
+   <j l="84" />
+  </i>
+  <i t="Signing">
+   <j l="84" />
+  </i>
+  <i t="Silent Installers">
+   <j l="169" />
+  </i>
+  <i t="Source Path">
+   <j l="87" />
+   <j l="87" />
+   <j l="87" />
+  </i>
+  <i t="Source Paths">
+   <j l="85" />
+   <j l="85" />
+   <j l="86" />
+   <j l="87" />
+   <j l="128" />
+  </i>
+  <i t="SpeedFolders">
+   <j l="33" />
+   <j l="135" />
+  </i>
+  <i t="Splash Screen">
+   <j l="27" />
+  </i>
+  <i t="Standard Edition">
+   <j l="26" />
+   <j l="154" />
+  </i>
+  <i t="Start  Stop  Pause Windows Service">
+   <j l="136" />
+  </i>
+  <i t="stderr">
+   <j l="73" />
+   <j l="104" />
+   <j l="104" />
+   <j l="106" />
+   <j l="110" />
+   <j l="139" />
+   <j l="153" />
+   <j l="153" />
+   <j l="153" />
+  </i>
+  <i t="stdout">
+   <j l="73" />
+   <j l="104" />
+   <j l="104" />
+   <j l="106" />
+   <j l="110" />
+   <j l="139" />
+   <j l="153" />
+   <j l="153" />
+  </i>
+ </g>
+ <g t="T" o="002">
+  <i t="task">
+   <i t="Billboards">
+    <j l="51" />
+   </i>
+   <i t="Build">
+    <j l="67" />
+   </i>
+   <i t="Build Log">
+    <j l="70" />
+    <j l="70#wp1051331" />
+   </i>
+   <i t="Build Targets">
+    <j l="68" />
+   </i>
+   <i t="Config">
+    <j l="47" />
+   </i>
+   <i t="Description">
+    <j l="42" />
+   </i>
+   <i t="Distribution">
+    <j l="69" />
+   </i>
+   <i t="File Settings">
+    <j l="43" />
+   </i>
+   <i t="Help">
+    <j l="52" />
+   </i>
+   <i t="Info">
+    <j l="41" />
+   </i>
+   <i t="Installer UI">
+    <j l="49" />
+   </i>
+   <i t="Java">
+    <j l="48" />
+   </i>
+   <i t="Locales">
+    <j l="45" />
+   </i>
+   <i t="Modules">
+    <j l="69#wp1053234" />
+   </i>
+   <i t="Organization">
+    <j l="53" />
+   </i>
+   <i t="Platforms">
+    <j l="44" />
+   </i>
+   <i t="Project">
+    <j l="40" />
+   </i>
+   <i t="Rules">
+    <j l="46" />
+   </i>
+  </i>
+  <i t="Team Development">
+   <j l="85" />
+  </i>
+  <i t="Technical Support">
+   <i t="Macrovision">
+    <j l="7" />
+   </i>
+  </i>
+  <i t="Templates">
+   <j l="37" />
+   <j l="157" />
+   <j l="167" />
+   <j l="167" />
+  </i>
+  <i t="Timestamp">
+   <j l="148" />
+  </i>
+  <i t="training">
+   <i t="Macrovision">
+    <j l="6#wp1049742" />
+   </i>
+  </i>
+  <i t="Troubleshooting Installers">
+   <j l="103" />
+  </i>
+  <i t="Try Installer">
+   <j l="122" />
+  </i>
+ </g>
+ <g t="U" o="002">
+  <i t="Uninstall Complete">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Uninstaller">
+   <j l="30" />
+   <j l="135" />
+   <j l="137" />
+   <j l="138" />
+   <j l="140" />
+   <j l="164" />
+   <i t="Custom Code">
+    <j l="161" />
+   </i>
+   <i t="Features">
+    <j l="163" />
+   </i>
+   <i t="InstallAnywhere Variables">
+    <j l="162" />
+   </i>
+  </i>
+  <i t="Uninstaller Introduction">
+   <j l="137" />
+   <j l="138" />
+  </i>
+  <i t="Unix">
+   <j l="172" />
+   <i t="debugging">
+    <j l="107" />
+   </i>
+  </i>
+  <i t="update service">
+   <j l="72" />
+   <j l="113#wp1050741" />
+  </i>
+  <i t="updates">
+   <j l="72" />
+   <j l="113#wp1050741" />
+  </i>
+ </g>
+ <g t="V" o="002">
+  <i t="Visual Tree">
+   <j l="60" />
+   <j l="60" />
+   <j l="60" />
+   <j l="60" />
+   <j l="61" />
+   <j l="62" />
+   <j l="146" />
+  </i>
+ </g>
+ <g t="W" o="002">
+  <i t="Web Installers">
+   <j l="19" />
+   <j l="69#wp1053190" />
+  </i>
+  <i t="Win32 installer">
+   <j l="106" />
+  </i>
+  <i t="Windows">
+   <j l="31" />
+  </i>
+  <i t="Windows Console">
+   <j l="73" />
+  </i>
+  <i t="Windows NT">
+   <j l="106" />
+   <i t="troubleshooting">
+    <j l="106" />
+   </i>
+  </i>
+  <i t="Wizard">
+   <j l="17" />
+   <j l="119" />
+   <j l="132" />
+  </i>
+ </g>
+ <g t="Symbols" o="003">
+  <i t="$INSTALL_STATUS$">
+   <j l="102" />
+  </i>
+ </g>
+</WebWorksHelpIX>

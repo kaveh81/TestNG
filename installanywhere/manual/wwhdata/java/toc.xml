@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+<WebWorksHelpTOC version="4.0">
+ <i t="InstallAnywhere 8.0" l="0">
+  <i t="Legal Information" l="1" />
+  <i t="Using Help" l="2">
+   <i t="Documentation Conventions" l="3" />
+  </i>
+ </i>
+ <i t="Welcome to Macrovision" l="4">
+  <i t="Macrovision Solutions" l="5" />
+  <i t="Macrovision Professional Services" l="6" />
+  <i t="Technical Support Resources" l="7" />
+  <i t="Contacting Macrovision Corporation" l="8" />
+ </i>
+ <i t="Getting Started" l="9">
+  <i t="Introductory Tutorial - Building an Installer" l="10" />
+  <i t="Advanced Tutorial - Using the Advanced Designer" l="11" />
+  <i t="Editions" l="12" />
+  <i t="Registration" l="13" />
+  <i t="Project Conversion" l="14" />
+ </i>
+ <i t="Key Concepts" l="15">
+  <i t="Authoring Environments" l="16">
+   <i t="Project Wizard" l="17" />
+   <i t="Advanced Designer" l="18" />
+  </i>
+  <i t="Installer Types" l="19" />
+  <i t="Installer Modes" l="20" />
+  <i t="Install Set, Feature, and Components" l="21">
+   <i t="Install Sets" l="22" />
+   <i t="Features" l="23" />
+   <i t="Components" l="24" />
+  </i>
+  <i t="Installer Interface GUI" l="25">
+   <i t="Localization" l="26" />
+   <i t="Look and Feel" l="27" />
+  </i>
+  <i t="Actions" l="28" />
+  <i t="Rules" l="29" />
+  <i t="Uninstaller" l="30" />
+  <i t="LaunchAnywhere" l="31" />
+  <i t="Magic Folders" l="32" />
+  <i t="SpeedFolders" l="33" />
+  <i t="InstallAnywhere Variables" l="34" />
+  <i t="Installer Sub-Projects: Merge Modules" l="35" />
+  <i t="Action Groups" l="36" />
+  <i t="Templates" l="37" />
+  <i t="Project File" l="38" />
+ </i>
+ <i t="Advanced Designer" l="39">
+  <i t="Project" l="40">
+   <i t="Info" l="41" />
+   <i t="Description" l="42" />
+   <i t="File Settings" l="43" />
+   <i t="Platforms" l="44" />
+   <i t="Locales" l="45" />
+   <i t="Rules" l="46" />
+   <i t="Config" l="47" />
+   <i t="Java" l="48" />
+  </i>
+  <i t="Installer UI" l="49">
+   <i t="Look &amp; Feel" l="50" />
+   <i t="Billboards" l="51" />
+   <i t="Help" l="52" />
+  </i>
+  <i t="Organization" l="53">
+   <i t="Install Sets" l="54" />
+   <i t="Features" l="55" />
+   <i t="Components" l="56" />
+   <i t="Modules" l="57" />
+   <i t="DIM References" l="58" />
+  </i>
+  <i t="Install" l="59">
+   <i t="Visual Tree" l="60" />
+   <i t="Assigning Files" l="61">
+    <i t="Assign to Product Features" l="62" />
+    <i t="Assign to Components" l="63" />
+   </i>
+   <i t="Set Classpath" l="64" />
+   <i t="Add Launcher" l="65" />
+  </i>
+  <i t="Pre and Post Install and Uninstall Tasks" l="66" />
+  <i t="Build" l="67">
+   <i t="Build Targets" l="68" />
+   <i t="Distribution" l="69" />
+   <i t="Build Log" l="70" />
+  </i>
+ </i>
+ <i t="Common Solutions" l="71">
+  <i t="Bundling Java Runtime Environments" l="72" />
+  <i t="Creating Launchers for Java Applications" l="73" />
+  <i t="Organizing Features and Components" l="74">
+   <i t="Best Practices for Components" l="75" />
+   <i t="Adding Components" l="76" />
+   <i t="Assigning Files to Components" l="77" />
+   <i t="Removing Empty Components" l="78" />
+   <i t="Integrating Components Already Installed on Target System" l="79" />
+   <i t="Adding Features" l="80" />
+   <i t="Assigning Components to Features" l="81" />
+  </i>
+  <i t="Improving Installation Performance" l="82" />
+  <i t="Launching Additional Installers" l="83" />
+  <i t="Digitally Signing Installers" l="84" />
+  <i t="Team Development" l="85">
+   <i t="How Source Paths Work" l="86" />
+   <i t="Adding Source Paths" l="87" />
+   <i t="Updating the Location of Files and Resources" l="88" />
+   <i t="Working with Source Control Management Software" l="89" />
+  </i>
+  <i t="Referencing Developer Installation Manifests (DIMs)" l="90">
+   <i t="Adding a DIM Reference" l="91" />
+   <i t="Customizing a DIM Reference" l="92" />
+   <i t="Removing a DIM Reference" l="93" />
+   <i t="Creating a Shortcut to a File within a DIM Reference" l="94" />
+  </i>
+  <i t="Using FLEXnet Connect" l="95">
+   <i t="Checking for InstallAnywhere Update Notifications" l="96" />
+   <i t="Installing InstallAnywhere Updates" l="97" />
+   <i t="Integrating FLEXnet Connect with Your Product" l="98">
+    <i t="Adding an Enable Update Notifications Action" l="99" />
+    <i t="Customizing an Enable Update Notifications Action" l="100" />
+    <i t="Removing an Enable Update Notifications Action" l="101" />
+   </i>
+  </i>
+  <i t="Determining a Successful Installation" l="102" />
+  <i t="Troubleshooting Installers" l="103">
+   <i t="During Installer Development" l="104" />
+   <i t="Post Development" l="105">
+    <i t="Debugging a Win32 installer" l="106" />
+    <i t="Debugging a Unix/Linux installer" l="107" />
+    <i t="Debugging a Mac OS X Installer" l="108" />
+    <i t="Debugging a Pure Java Installer" l="109" />
+    <i t="Debugging LaunchAnywhere Launched Executables" l="110" />
+    <i t="Reviewing Debug Information" l="111" />
+    <i t="Using Output Debug Information Actions" l="112" />
+    <i t="Debugging Using Display Message Panel" l="113" />
+    <i t="Defining Installer Exit Codes" l="114" />
+   </i>
+  </i>
+ </i>
+ <i t="Project Wizard" l="115">
+  <i t="New Project" l="116" />
+  <i t="Set Info" l="117" />
+  <i t="Add Files" l="118" />
+  <i t="Choose Main" l="119" />
+  <i t="Set Classpath" l="120" />
+  <i t="Build Installer" l="121" />
+  <i t="Try Installer" l="122" />
+ </i>
+ <i t="Menus" l="123">
+  <i t="File" l="124" />
+  <i t="Edit" l="125">
+   <i t="Preferences" l="126">
+    <i t="General Settings" l="127" />
+    <i t="Source Paths" l="128" />
+    <i t="Updates" l="129" />
+    <i t="Designer Colors" l="130" />
+    <i t="Registration" l="131" />
+   </i>
+  </i>
+  <i t="Wizard" l="132" />
+  <i t="Help" l="133" />
+ </i>
+ <i t="Actions and Rules" l="134">
+  <i t="Install Actions" l="135" />
+  <i t="General Actions" l="136" />
+  <i t="Panel Actions" l="137" />
+  <i t="Console Actions" l="138" />
+  <i t="Common Properties" l="139" />
+  <i t="Panel Action Settings" l="140">
+   <i t="Image Settings" l="141" />
+   <i t="Label Settings" l="142" />
+   <i t="Help" l="143" />
+  </i>
+  <i t="Additional Action Information" l="144">
+   <i t="LaunchAnywhere" l="145" />
+   <i t="Manifest Files" l="146" />
+   <i t="Get User Input Panels" l="147" />
+  </i>
+  <i t="Rules" l="148" />
+ </i>
+ <i t="Variables" l="149">
+  <i t="Setting InstallAnywhere Variables" l="150" />
+  <i t="Standard InstallAnywhere Variables" l="151" />
+  <i t="Checking the Value of a Variable" l="152" />
+  <i t="LAX Properties" l="153" />
+  <i t="Magic Folders and Variables" l="154" />
+ </i>
+ <i t="Custom Code" l="155">
+  <i t="Custom Code and Variables" l="156" />
+  <i t="Packaging and Executing Custom Code" l="157" />
+  <i t="Internationalizing Custom Code" l="158" />
+  <i t="Plug-ins" l="159" />
+ </i>
+ <i t="Uninstaller" l="160">
+  <i t="Custom Code" l="161" />
+  <i t="InstallAnywhere Variables" l="162" />
+  <i t="Feature Uninstall" l="163" />
+  <i t="Uninstaller for Merge Modules and Multiple Products" l="164" />
+ </i>
+ <i t="Merge Modules and Templates" l="165">
+  <i t="Merge Modules" l="166" />
+  <i t="Templates" l="167" />
+ </i>
+ <i t="Silent and Console Installers" l="168">
+  <i t="Silent Installers" l="169" />
+  <i t="Console Installers" l="170" />
+ </i>
+ <i t="Troubleshooting" l="171">
+  <i t="Unix" l="172" />
+  <i t="Mac OS X" l="173" />
+  <i t="z/OS and OS/390" l="174" />
+ </i>
+ <i t="Build Tools" l="175">
+  <i t="Exit Codes" l="176" />
+  <i t="ANT Build Integration" l="177" />
+ </i>
+ <i t="Localization" l="178">
+  <i t="Dynamic and Static Text" l="179" />
+  <i t="Localization and the Internationalized Designer" l="180" />
+  <i t="Specific Localization Concerns" l="181">
+   <i t="Localizing Resources" l="182" />
+   <i t="Localizing Custom installer Labels" l="183" />
+   <i t="Localizing Custom Code" l="184" />
+   <i t="Localizing the Get User Input Panels" l="185" />
+   <i t="Best Practices for Localizing" l="186" />
+  </i>
+  <i t="Language Codes" l="187" />
+  <i t="Localizable Elements" l="188">
+   <i t="Localizing Items in the Installer" l="189" />
+  </i>
+ </i>
+</WebWorksHelpTOC>

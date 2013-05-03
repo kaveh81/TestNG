@@ -1,0 +1,231 @@
+<html>
+<head>
+	<title>InstallAnywhere(r) 7 Project File Extras</title>
+	<link rel="stylesheet" href="default.css" type="text/css" />
+</head>
+
+<table width="500" border="0">
+
+<h1>InstallAnywhere&reg; 7 Project File Extras</h1><br />
+<br />
+The project file format in InstallAnywhere&reg; 7 is now based on XML.  Included in 
+this package are some tools for rendering the project file as a human-readable 
+summary and for modifying project files outside of the InstallAnywhere 
+designer application.<br />
+<br />
+The tools have been created according to the <a href="http://www.w3.org/TR/xslt">
+W3C XSLT 1.0 Recommendation</a>.  Please see <a href="http://www.w3.org/Style/XSL/">
+http://www.w3.org/Style/XSL/</a> for further information on XSLT.<br />
+<br />
+Also included is a schema document describing the InstallAnywhere 7 project file 
+format compatible with the 1 Dec 2003 <a href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/">
+XML Schema recommendation</a>. Please see 
+<a href="http://www.w3.org/XML/Schema">http://www.w3.org/XML/Schema</a> for
+further information on XML Schema.<br />
+<br />
+<h2>Contents</h2>
+<ol>
+	<li><h3><a href="#pi">Project information transform</a></h3>&nbsp;(ia_project_info.xsl)
+		<br /><br /></li>
+	
+	<li><h3><a href="#pc">Installer property change transform</a></h3>&nbsp;(ia_chg_prop.xsl)
+		<br /><br /></li>
+	
+	<li><h3><a href="#pf">Project file schema</a></h3>&nbsp;(ia_project.xsd)
+		<br /><br /></li>
+	
+	<li><h3><a href="#cz">Contacting Zero G</a></h3>
+		<br /><br /></li>
+	
+	<li><h3><a href="#r">Resources</a></h3></li>
+</ol>
+<hr /><br />
+<a name="pi"></a><h2>1. Project Information transform</h2>&nbsp;(ia_project_info.xsl)<br />
+<br />
+When applied to an InstallAnywhere 7 project file this transform
+produces an HTML project summary including
+<ul>
+    <li>a breakdown of the installation dependencies for Install Sets, Features 
+      and Components,</li>
+
+    <li>detailed information for each of these components,</li>
+    
+    <li>a listing of the installer properties that are modifiable with the 
+      ia_chg_prop.xsl transform (see <a href="#pc">next section</a>), and</li>
+
+    <li>the localization reference name for all of these objects (in square brackets).</li>
+</ul>
+<br />
+The stylesheet may be used from the command line with any compliant XSLT 
+processor such as SAXON, Xalan or MSXSL (see the &quot;<a href="#r">Resources</a>&quot;
+section below for hyperlinks).<br />
+<br />
+Alternately, some current web browsers support XSL transforms.  We have tested 
+Microsoft Internet Explorer (IE) 5.5, 6 and <a href="http://www.mozilla.org">
+Mozilla.org</a> Mozilla 1.0 rc2.<br />
+<br />
+To associate this transform with a project file, insert the following XML 
+processing instruction on the second line (after the &quot;&lt;?xml ...&quot; line):<br />
+<br />
+<pre>
+     &lt;?xml-stylesheet href=&quot;ia_project_info.xsl&quot; type=&quot;text/xsl&quot;?&gt;
+</pre>
+Inserting this processing instruction will not affect InstallAnywhere's ability to read the 
+file however it will not be retained after the project file is 
+saved.  Please see &quot;<a href="http://www.w3.org/TR/xml-stylesheet/">Associating Style
+Sheets with XML documents</a>&quot; for more information 
+on this processing instruction.<br />
+<br />
+Once this is accomplished, simply opening the project file in IE 5.5 will 
+display the transform.  For Mozilla to render the project, the project file's 
+extension must be changed to &quot;.xml&quot; or, you must register the &quot;.iap_xml&quot; 
+extension with Mozilla as the &quot;text/xml&quot; MIME type.  This is accomplished by 
+adding a &quot;helper application.&quot;<br />
+<br />
+To add a helper application to Mozilla 1.0:
+<ol>
+	<li>From the Mozilla menu, choose &quot;Edit->Preferences&quot;.  Then find
+	   &quot;Navigator->Helper Applications&quot; in the tree on the left of the window.<br /><br /></li>
+	
+	<li>Click &quot;New Type...&quot;<br /><br /></li>
+	
+	<li>Enter &quot;InstallAnywhere 5 Project File&quot; for the &quot;Description.&quot;<br /><br /></li>
+	
+	<li>Enter &quot;iap_xml&quot; for the &quot;File extension.&quot;  Don't enter the dot (&quot;.&quot;).<br /><br /></li>
+	
+	<li>Enter &quot;text/xml&quot; for the &quot;MIME type&quot;.<br /><br /></li>
+	
+	<li>For &quot;Application to use&quot; click the &quot;Choose...&quot; button and then select 
+	   &quot;mozilla.exe&quot; itself.  On Windows the default location is &quot;C:\Program 
+	   Files\mozilla.org\Mozilla\mozilla.exe&quot;, but it may have been installed in a 
+	   different location.<br /><br /></li>
+	
+	<li>Click &quot;OK.&quot;</li>
+</ol>
+Mozilla should now render the project info transform properly.<br />
+<br />
+If you have suggestions for changes or additions to this transform, please 
+follow the instructions below in &quot;<a href="#cz">Contacting Zero G</a>.&quot;<br />
+<br />
+<a name="pc"></a><h2>2. Installer Property change transform</h2>&nbsp;(ia_chg_prop.xsl)<br />
+<br />
+This XSLT transform is provided to enable you to change the properties of the 
+Installer &mdash; the output is not HTML, but a modified project file.<br />
+<br />
+Any installer properties that appear in the &quot;Installer
+Properties&quot; section of 
+the <a href="#pi">Project Info transform</a> may be changed.  The XSLT processor is invoked with 
+parameters which specify what is to be changed, and the desired new value.<br />
+<br />
+Example usage with Microsoft XML 4.0:<br />
+<pre>
+    C:\>msxsl ia_prod.xml ia_chg_prop.xsl -o ia_prod_new.xml
+        propName=productName propValue=&quot;New Product Name&quot;
+</pre>
+Example usage with SAXON:
+<pre>
+    % saxon -o ia_prod_new.xml ia_prod.xml ia_chg_prop.xsl 
+      propName=productName propValue=&quot;New Product Name&quot;
+</pre>
+This will change the &quot;productName&quot; property in the file ia_prod.xml to equal 
+&quot;New Product Name&quot; and store the results in ia_prod_new.xml which will 
+otherwise be identical to the input file.<br />
+<br />
+If you have suggestions for changes or additions to this transform, please 
+follow the instructions below in &quot;<a href="#cz">Contacting Zero G</a>.&quot;<br />
+<br />
+
+<a name="pf"></a><h2>3. Project File schema</h2>&nbsp;(ia_project.xsd)<br />
+<br />
+This is an experimental XML Schema for InstallAnywhere 7 project files.  It 
+may be used to validate project files modified with your own tools.<br />
+<br />
+This version of the schema is provided to gather comments on some of the 
+techniques that we are evaluating, and to be of temporary use to anyone who 
+has need for an experimental schema at this time.<br />
+<br />
+The schema is not strict: it is possible to create project files that will 
+validate against the schema but will not be compatible with InstallAnywhere. 
+However, the schema will reject gross violations.<br />
+<br />
+If you have suggestions for changes or additions to the schema, please follow 
+the instructions below in &quot;<a href="#cz">Contacting Zero G</a>.&quot;<br />
+<br />
+<a name="cz"></a><h2>4. Contacting Zero G</h2><br />
+<br />
+A discussion board has been created for these tools and the InstallAnywhere XML project file 
+format.  We look forward to receiving your comments on this work.<br />
+<br />
+
+Please post your comments, suggestions and errata to the &quot;XML Project File
+Feedback&quot; forum in the &quot;Announcements & Feedback&quot; section of the discussion
+board at <a href="http://community.zerog.com/">
+http://community.zerog.com/</a>.<br />
+<br />
+Please include in your post any relevant information, such as the version of 
+the schema that you are using, the version of the XSL processor or XML Schema
+validator in use, and any of your own relevant code.<br />
+<br />
+Again, we look forward to receiving your comments. Thank you!<br />
+<br />
+
+<a name="r"></a><h2>5. Resources</h2><br />
+<ul>
+	<li><h3>XSLT Processors</h3><br>
+		We have used all of the following tools successfully.
+		<ul>
+			<li><h4>Microsoft Internet Explorer 5.5</h4><br />
+			<a href="http://www.microsoft.com/ie">http://www.microsoft.com/ie</a></li>
+
+			<li><h4>Mozilla.org Mozilla 1.0 rc2</h4><br />
+			<a href="http://www.mozilla.org/">http://www.mozilla.org/</a></li>
+			
+			<li><h4>SAXON</h4><br />
+			<a href="http://saxon.sourceforge.net/">http://saxon.sourceforge.net/</a><br />
+			Saxon version <= 7.0 recommended.</li>
+			
+			<li><h4>Xalan</h4><br />
+			C++ version: <a href="http://xml.apache.org/xalan-c/index.html">http://xml.apache.org/xalan-c/index.html</a><br />
+			Java version: <a href="http://xml.apache.org/xalan-j/index.html">http://xml.apache.org/xalan-j/index.html</a></li>
+			
+			<li><h4>MSXML 4.0</h4>&nbsp;(includes msxsl.exe)<br />
+			<a href="http://msdn.microsoft.com/xml/">http://msdn.microsoft.com/xml/</a></li>
+		</ul>
+	</li>
+	<li><h3>XML Schema Validators</h3><br />
+		We have used the following validators successfully.
+		<ul>
+			<li><h4>XSV</h4>&nbsp;(XML Schema Validator)<br />
+			<a href="http://www.ltg.ed.ac.uk/~ht/xsv-status.html">http://www.ltg.ed.ac.uk/~ht/xsv-status.html</a></li>
+			
+			<li><h4>MSXML 4.0</h4><br />
+			<a href="http://msdn.microsoft.com/xml/">http://msdn.microsoft.com/xml/</a></li>
+		</ul>
+	</li>
+	<li><h3>Specifications and Recommendations</h3>
+		<ul>
+			<li><h4>XML</h4><br />
+			<a href="http://www.w3.org/XML/">http://www.w3.org/XML/</a></li>
+			
+			<li><h4>XSL</h4><br />
+			<a href="http://www.w3.org/Style/XSL/">http://www.w3.org/Style/XSL/</a></li>
+			
+			<li><h4>XML Schema</h4><br />
+			<a href="http://www.w3.org/XML/Schema">http://www.w3.org/XML/Schema</a></li>
+			
+			<li><h4>Associating Style Sheets with XML documents</h4><br />
+			<a href="http://www.w3.org/TR/xml-stylesheet/">http://www.w3.org/TR/xml-stylesheet/</a></li>
+		</ul>
+	</li>
+</ul>
+<br />
+<hr>
+Copyright &copy; 2005 Zero G Software, Inc.<br />
+InstallAnywhere&reg; is a registered trademark of Zero G
+Software, Inc., all rights reserved.<br />
+514 Bryant St., San Francisco, CA 94107, U.S.A.
+<hr>
+</pre>
+</table>
+</body>
+</html>

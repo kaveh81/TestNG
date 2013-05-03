@@ -1,0 +1,40 @@
+<ivy-module version="2.0">
+  <info organisation="org.geotools" module="geotools" revision="2.7-M1" status="release">
+    <license name="LGPL" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="testing"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="gt-api" type="jar"/>
+    <artifact name="gt-data" type="jar"/>
+    <artifact name="gt-jdbc" type="jar"/>
+    <artifact name="gt-jdbc-postgis" type="jar"/>
+    <artifact name="gt-main" type="jar"/>
+    <artifact name="gt-metadata" type="jar"/>
+    <artifact name="gt-postgis" type="jar"/>
+    <artifact name="gt-referencing" type="jar"/>
+    <artifact name="gt-render" type="jar"/>
+    <artifact name="gt-wms" type="jar"/>
+    <artifact name="gt-xml" type="jar"/>
+    <artifact name="gt-api-source" type="src" ext="jar"/>
+    <artifact name="gt-data-source" type="src" ext="jar"/>
+    <artifact name="gt-jdbc-source" type="src" ext="jar"/>
+    <artifact name="gt-jdbc-source" type="src" ext="jar"/>
+    <artifact name="gt-main-source" type="src" ext="jar"/>
+    <artifact name="gt-metadata-source" type="src" ext="jar"/>
+    <artifact name="gt-postgis-source" type="src" ext="jar"/>
+    <artifact name="gt-referencing-source" type="src" ext="jar"/>
+    <artifact name="gt-render-source" type="src" ext="jar"/>
+    <artifact name="gt-wms-source" type="src" ext="jar"/>
+    <artifact name="gt-xml-source" type="src" ext="jar"/>
+  </publications>
+
+  <dependencies>
+	<dependency org="javax.vecmath" name="vecmath" rev="1.3.1" conf="default->default" />
+	<dependency org="org.jdom" name="com.springsource.org.jdom" rev="1.0.0"  conf="default->runtime" />
+	<dependency org="jsr275" name="javaxmeasure" rev="1.0.0" conf="default->default"/>
+ </dependencies>
+</ivy-module>

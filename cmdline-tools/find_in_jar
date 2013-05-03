@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# This utility finds which jar(s) a class is defined in.
+# Example: find_in_jar com.mir3.version.Tahoe *.jar
+# It should work on UNIX systems, and should work on Windows 
+# if Cygwin is installed.
+
+target=$1
+shift
+for file in $@ ; do
+  #echo "Scanning $file ..."
+  jar tf $file | grep -q $target
+  if [ $? -eq 0 ] ; then
+    echo "Found in $file"
+  fi
+done

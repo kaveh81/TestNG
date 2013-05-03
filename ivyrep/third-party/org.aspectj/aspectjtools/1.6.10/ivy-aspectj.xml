@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+  <info organisation="org.aspectj" module="aspectjtools" revision="1.6.10" status="release" publication="201104271024"/>
+
+  <configurations>
+    <conf name="runtime" visibility="public" description="Runtime dependencies"/>
+  </configurations>
+
+  <publications>
+    <artifact name="aspectjtools" ext="jar"/>
+  </publications>
+
+</ivy-module>

@@ -1,0 +1,369 @@
+2009-12-09 Version 3.7.0 released
+_______________________________________________________________________________
+- Fixed Bug 0004452 Settings import fails to import
+- Updated to JasperReports 3.7.0
+- Support for the new custom property "net.sf.jasperreports.export.html.id" added at element level
+- Fixed Bug 0004435 Database Connection Resets
+- Fixed Bug 0004396 Option dialog - the topmost classpath item can't be moved
+- Fixed Bug 0004404 Dataset parameter can't be altered
+- Added a Warning message while adding a report using xmla-mdx query language on JasperServer (mdx must be used instead).
+
+2009-11-24 Version 3.6.2 released
+_______________________________________________________________________________
+- Fixed Bug 0004394 iReport 3.6.1 options throws NullPointerException
+- Fixed Bug 0004399 Reports using Xpath are failling in iReport 3.6.1 but working fine in 3.6.0
+- Fixed Bug 0004383 Connection closed after preview
+- Fixed Bug 0004428 "No query executer factory class registered" when opening report
+- Fixed Bug 0000839 Support for $P!{} parameters in SQL
+- New properties to control the chart Vertical Tick Labels
+- Several fixes for the TXT exporter
+- New feature to import settings from another iReport installation
+- Support for Keep Together property of groups
+- New settings import wizard
+- New Ignore Cell Background export option for XLS/XLSX
+- Full support for JasperReports 3.6.2
+- Support for OrderByExpression in the crosstab bucket
+- Support for the new group property "Footer position" and "KeepTogether"
+- Fixed the font extensions exporter
+- Fixed editable hyperlink target
+- Added support for cascading input control (available in Jasperserver Professional)
+- Fixed the import of custom iReport connections from XML
+- Fixed a problem setting the JasperReports properties leading in an error using XPath based reports
+
+2009-10-28 Version 3.6.1 released
+_______________________________________________________________________________
+- New command line option (-N) to disable the use of a network
+- New font combo box on the text toolbar
+- Moved to the NetBeans platform 6.5.1
+- Added the SubreportOpenerProvider interface to plug custom subreport opening logic
+- New XLS (Excel) datasource
+- New OpenDocument Spreadsheet exporter added (ODS)
+- New XLSX exporter
+- New TrueType font management
+- Wizard to import TrueType Fonts
+- Wizard to create JasperReports font extensions
+- Improved JasperReports properties internal management
+- Full support for JasperReports 3.6.1
+- Support for horizontal filling of the List components (printOrder property)
+- Support for the new isSummaryWithPageHeaderAndFooter property in the report properties
+- Fixed Bug 16524 Styles library not working.
+- Fixed bug 14773 JS Plug-in should handle creation of links to images in the repository already
+- Fixed bug 15629 Would like dialog to move style references to repo: as for images
+- Fixed bug 15960 Can not delete server entry from Repository Navigator
+- Fixed bug 15962 Incorrect visual crosstab formatting in iReport 3.5.0+
+- Fixed bug 16565 Chart Details UI - Percentage spelled incorrectly
+- Fixed bug 16566 Sort Options shows arrows in the wrong direction
+- Fixed bug 14473 weird behaviour - fields are all set to transparent
+- Fixed bug 14456 handling of resource bundles with JS plugin incomplete
+- Fixed bug 15915 groupFooter deleted by iReport / compatibility settings
+- Fixed bug 16470 iReport JasperServer plugin must allow a report unit to have no data source
+- Fixed bug 0004044: Crosstab "column total" header has drag-drop and display bug
+- Fixed bug 0004020 wrong barcode type added when using barcode4j Code128
+- Fixed bug 0004301 $X Clause Not Recognized in iReport 3.6.0
+- Fixed bug 0004044 Crosstab "column total" header has drag-drop and display bug
+- Fixed bug 0004045 iReport does not remember previously-used integer and collection prompt-for-value report parameters
+- Fixed bug 0000943 Make mouse wheel work in SQL edit dialog
+- Fixed bug 0003785 Right-click OPEN SUBREPORT does nothing
+- Fixed bug 0004342 New barcode4j Code128 barcode converts to Codabar
+- Fixed bug 0004349 "System" calculation type in a "return value" variable
+- Fixed bug 0003776 [Patches] Fix for problem when no language in a WizardFieldsProvider
+- Fixed bug 0003909: Property values (selectable) dont show on Mac OS X
+- Fixed bug 0003768: Unable to start iReport-NB from network share
+
+
+2009-09-02 Version 3.6.0 released
+_______________________________________________________________________________
+- Fixed bug 0003991 ClassPath Library for JasperReports netBeans plugin missing files.
+- Fixed bug 0004216 iReport 3.5.3 image height set to 0 causes exception
+- Fixed bug 0004270 "Code39(Extended)" vs. "Code39 (Extended)"
+- Fixed bug 0004196 Missing Expression ID for Barcode Component
+- Support for JasperReports 3.5.3
+- Fixed subreport wizard
+- Fixed bug 15662: "Transform in" should be "Transform to"
+
+2009-08-03 Version 3.5.3 released
+_______________________________________________________________________________
+- Modified ireport.exe to fix a problem when missing the user app data registry key
+- Feature Req 0000941: iReport should compile automatically all referenced sub reports
+- Feature Req 0004151: Support for the XHTML Exporter of JasperReports
+- Feature Req 0004147: Support for the .docx exporter of JasperReports
+- Feature Req 0000942: Add XML Preview in iReports
+- Feature Req 0003596: dialog to edit jasperreports.properties file
+- Fixed bug 0003671: Under Linux Acrobat cannot find preview pdf
+- Fixed bug 0004061: IReport supplies (OLD) JDBC Drivers that can't be replaced without building
+- Fixed bug 0004119: Cancel Meter Intervals Dialog removes All Intervals
+- Fixed bug 0004019: java.sql.Timestamp parameter contains wrong value
+- Fixed bug 0004021: iReport 3.5.2 compatibility save removes group footers
+- Fixed bug 0004121: default value of runToBottom property misrepresented in checkbox
+- Fixed bug 0004142: Report designer has no fields on a CSV source
+- Fixed bug 0004017: Bad encoding of characters with accents in JRXML
+- Fixed bug 0004104: HQLFieldsReader deals incorrectly with fields of primitive types
+- Fixed bug 0004078: iReport 3.5.1 or 3.5.2 freeze when trying to add multiple list components to a Frame
+- Improved expression editor
+- Fixed bug 14693  applying a style corrupts jrxml
+- Fixed bug 14817  Cannot create simple report
+- Fixed bug 14906 - CSV data source does not handle row separators as expected
+- Fixed bug renaming conditional styles
+- Added support for Ignore Width property for crosstabs
+- Added support for Label Item for Pie and Bar charts
+- Automatic opening of output files using OS features (for Win32 and MacOS)
+- Added edit with external text editor menu item
+- iReport is set as default txt, csv and xml viewer if a viewer application is not set in the properties
+- iReport tries now to automatically detect the system browser for HTML preview
+- Added new templates
+- Added a button to save a page as png (for template thumbnail porpuses) in the preview toolbar
+- Improved template wizard with ability to read jrxml properties to drive the template generation
+- New template chooser with integrated wizard
+- Fixed bug 14622 - [Case #8466] The separators setting for the CSV datasource is not retained after iReport is restarted
+- Fixed bug 14505 - Ship Vertica JDBC driver with iReport Pro
+- Fixed bug 15001 - [Case #9242] crosstab measure expression class incorrectly set in iReport
+- Fixed bug 14815 - [Case #9134] iR 3.5.2 - Compatibility Mode changes only after saving the report
+- Fixed bug 14616 - Property "Legend font" should be "Legend Font"
+- Fixed bug 14602 - [case #8859] Report Wizard does not suggest default Datasource
+
+2009-06-03 Version 3.5.2 released
+_______________________________________________________________________________
+- Fixed bug 3785: [Bugs iReport - NB] Right-click OPEN SUBREPORT does nothing
+- Fixed bug 964:  [Bugs iReport - NB] Barcode not work in netbeans plugin
+- Fixed bug 3781: [Bugs iReport - NB] Ad Hoc Available Fields missing field names
+- Fixed bug 3958: [Bugs iReport - NB] Timeseries chart and subdataset grouping
+- Fixed bug 3973: [Bugs iReport - NB] Exception thrown when trying to set a rectangle's pen property
+- Fixed bug 3974: [Bugs iReport - NB] Error when creating multi-axis chart
+- Fixed bug 3982: [Bugs iReport - NB] iReport 3.5.1 freezes during update
+- Fixed bug 3991: [Bugs iReport - NB] ClassPath Library for JasperReports netBeans plugin missing files.
+- Fixed bug 3937: [Bugs iReport - NB] Add group wizard creates mysterious header/footer combos
+- Fixed bug 3915: [Bugs iReport - NB] Repository Navigator retrieves username in properties box incorrectly
+- Added a Wait cursor while loading a jrxml
+- Subreport directory is persisted when using the subreport wizard
+- Added ability to copy and paste subdatasets
+- Inspector view filters for built-in variables and parameters
+- Added ability to see the styles in a jrtx file in the inspector view
+- Improved styles library
+- Fixed cell selection in Crosstab
+- Added iReport TXT exporter
+- Added support for pluggable exporters
+- Added XPath2 support (a special datasuorce for remote XML files)
+- New ability to generate jrxml compatible with old versions of JasperReports
+- Support for Barcode4J component
+- Updated to JasperReports 3.5.2
+- Support for Barbecue component
+- Support for sections (multiple bands) for detail, group headers and group footers
+- Added Remove Margins feature to remove the document margins when editing report to be used as subreports
+- Added Transform in feature to transform several elements in other elements
+- Removed confirmation dialog on element delete (added an option to activate it in the options panel)
+- Added the compile action (to compile a report without preview it) on the visual view toolbar and as menu item for the report inspector root node
+- Fixed undo operation for element gruops on move
+- Fixed bands size check
+- New auto stick-to-band feature (elements are moved in the most suitable band when moved with the mouse)
+- Added Maximize Band Height context menu action
+- Fixed band height constraints verifier (based on the JasperReports JRVerifier rules)
+- The background band is now shown on a different page in the designer window and at the end of the bands list 
+- Added mouse wheel support to vertically scroll the design view
+
+2009-05-04 Version 3.5.1 released
+_______________________________________________________________________________
+- Fixed bug 14367 Fields, parameters and variables missing in hyperlink anchor expression editor
+- Fixed bug 3811 [Bugs iReport - NB] Problem Menu-Visualizza-Report Designer
+- Fixed bug 3767 [Bugs iReport - NB] ReportQueryDialog expects JRDesignField instead of interface JRField
+- Improved multi selection (shift+click).
+- Fixed bug 3708 [Bugs iReport - NB] Control Click Shifts Fields (giulio)
+- Fixed bug 3790 [Bugs iReport - NB] Using arrows to move StaticText element actually moving other iReport controls
+- Fixed bug 3659 java.lang.IllegalArgumentException: Called DataObject.find on null
+- Fixed bug 3852 Report Unit creation using JRXML from repo 
+- Updated to JasperReports 3.5.1
+- Added support for the new List component of JasperReports
+- Fixed bug 3792 JRDataSource needs an empty constructor when used in iReport 
+- Fixed bug 3746  Unable to load images from a relative path when the relative path is from a location specified in the classpath
+- Fixed bug 3760  Hibernate version bundled in iReport-3.5 is ancient, doesn't support AnnotationConfiguration
+- Fixed bug 3692 BigDecimal Parameter Not Accepting User Entry
+- Fixed bug 3715 Incorrect Dialog Label for Subreport Parameters
+- Fixed bug 3716 Restart Required for Subreport Parameters
+- Fixed bug 3720 Subdataset fields retrieve in Termomether chart
+- Added bring to front and send to back context menu items for elements
+- Added group elements and ungroup elements context menu items for elements
+- Added format tools as context menu for elements
+- Added edit pattern context menu item for textfield elements
+- Added edit textfield expression context menu item for textfield elements
+- Changed cut and paset operation to select the pasted elements and shift them of 10 pixels
+
+2009-03-25 Version 3.5.0 released
+_______________________________________________________________________________
+- Ability to export a chart theme as jasperreports extension (jar)
+- New page format dialog
+- Support for Jrxml Java imports
+- Added JR Properties viewer in the options (for now read only)
+- Fixed bug 14199 Test button for Query Executer Mode Doesn't work
+- Fixed bug 14198 Field Provider Error
+- Fixed bug 14195 Using subdatasets in charts/crosstab
+- Fixed bug 14195 Unable to create a dummy group
+- Fixed bug 14193 Unable to change order style conditions
+- Added DnD support for conditional styles
+- Several chart theme editor bug fixeds and improvements
+- Copy and paste support for charts and crosstabs
+- Fixed a problem connecting to Mondrian (OLAP server)
+- New ability to open a file dragging it in the editor
+- New ability to open Jasper binary files (converting them in jrxmls)
+- Added support for opening file on command line
+- Fixed bug 3569  CSV Datasource setting saved incorrectly    
+- New option to disable crosstab cell auto-layout
+- New option to see only the element keys in the outline view
+- Added support to specify a compilation directory
+- Fixed bug 13841 Error when creating a domain report
+- Fixed bug 13842 iReport generates unrecognized file when using Report Wizard
+- Fixed bug 13557 Class not set for dataset
+- Fixed bug 13119 iReport should allow uploading NetBeans JDBC connections to JasperServer
+- Fixed bug 13128 Subreport not included
+- Fixed bug 13184 [Case #7768] missing bar chart orientation in 3.1.2
+- Fixed bug 13285 [Case #7746] jrxml config flaky - config value turns to null
+- Fixed bug 13309 [7767] special symbol causes iReport error
+- Fixed bug 13320 "ReportExecution" hyperlink type should be available in all hyperlinks in iReport
+- Fixed bug 13413 Opening Ad Hoc reports should give a warning in iReport
+- Fixed bug 13420 Regression: Subreport not added as a resource
+- Fixed bug 13425 Default evaluation time for a new chart should be "Report"
+- Fixed bug 13426 Thermometer and meter charts don't work
+- Fixed bug 13673 refresh issue wtih internationalized text and empty datasources
+- Fixed bug 13702 Can't delete scriptlets
+- Fixed bug 13703 It is possible to save invalid scriptlet references so a report cannot be reopened
+- Fixed bug 13749 Installer + iReport: CE version: JS Plugin Connect String has -pro in it
+- Fixed bug 13833 iReport Plugin- not able to link to existing input control
+- Fixed bug 13895 Report description should not be limited to 100 chars
+- Fixed bug 13920 [Case #8158] Class not set for database error when passing subdataset parameter
+- Fixed bug 13167 [Case #7750] Padding and Borders dialog not working properly
+- Fixed bug 13186 [Case #7749] text field tooltip incorrect
+- Fixed bug 12333 [Case #7100] Inapproriate error messages for ClassNotFoundExceptions
+- Fixed bug 8610  Enh: Admin User cannot move (or copy) a report to a different folder
+- Fixed bug 10987 iReport should take advantage of web services support of changing input control display types
+- Fixed bug 11812 [Case #6353] Need "always prompt" check box when using plugin in iReport
+- Fixed bug 12878 [Case #7489] Style library and Format Styles missing in 3.1.2
+- Fixed bug 12786 Refresh issue with frames
+- Fixed bug 13636 "Relodable" should be "Reloadable"
+- Fixed bug 12944 Print When Expressio should be Print When Expression
+- Fixed bug 13672 query executer drop down in report properties panel doesn't show new QEs
+- Fixed bug 13674 Minor typo in classpath dialog window
+- Added Page Number, Total Page Number, Page X of Y, Current date tools
+- Fixed bug 3552  Report wizard don't save file with a jrxml extension  
+- Fixed bug 3565 Styles - Vertical Alignment Property Bug
+- New styles library
+- Colored corners for element selection showing the element status (blue: primary selection,
+  gray: secondary selection, green: partial overlap, pink: total overlap)
+- New double click to fit the band height with the content
+- Added Remove horizontal and vertical space between elements
+- Added menu Format and several key accelerators
+- Added option to turn off magnetic attraction
+- Report preview set as "need refresh" when options are changed
+- Fixed locale selector dialog
+- Fixed JRCTX and JRTX designers close operation
+- Fixed a bug with TimeZone option setting
+
+2009-01-13 Version 3.1.4 released
+_______________________________________________________________________________
+- New Styles designer
+- New Chart Theme designer
+- New real time charts preview
+- Fixed bug 3400  "Close" keeps documents open in memory "Save all" then saves them
+- Fixed bug 3523  Column width property not updated when switching between portrait and landscape  
+- Fixed bug 3521  No way to set labelFormat and legendLabelFormat properties  
+- Fixed bug 3518  Wrong encoding of XML report file  
+- Fixed bug 3474  Crosstab Measure defined through wizard has always &quot;count&quot ; property  
+- Fixed bug 3473  Loading report with chart throws SAXParseException  
+- Fixed bug 3458  Crosstab data setting problem  
+- Fixed bug 3457  Greek Language Problems  
+- Fixed bug 3353  no way to change z-order of report elements  
+- Fixed bug 3352  no way to change order of groups  
+- Fixed bug 3346  &quot;Add Group&quot; Dialog iReport 3.1.2  
+- Fixed bug 3323  Subreport Parameterlist resets after cancel  
+- Fixed bug 3322  iReport-nb-3.1.2 cannot open Chart Data for multi-axis  
+- Fixed bug 3292  org.xml.sax.SAXParseExce ption : Invalid byte 1 of 1-byte UTF-8 sequence  
+- Fixed bug 3247  Invalid byte 1 of 1-byte UTF-8  
+- Fixed bug 3238  Save option disabled in xml editor  
+- Fixed bug 3237  switching to xml editor loses toolbuttons  
+- Fixed bug 3236  deleting filter does not remove &lt;filterExpression &gt;  
+- Fixed bug 3120  Chart data source being deleted  
+- Fixed bug 3105  Encoding changed using XML view and 3.1.0  
+ 
+
+
+2009-01-13 Version 3.1.3 released
+_______________________________________________________________________________
+- Fixed a problem with the subreport parameters
+- Improved support for custom components
+- Fixed "Import..." and "Export..." button in the editor dialog
+- Fixed some MacOS related bugs
+- Fixed crosstab buttons
+- New feature to reorder groups
+- Support for dataset groups
+- Configurable options for exporters
+- New reloadable option for classpath paths
+- Ability to add an element to a frame just dragging the element into it
+- Fixed element z-ordering and z-order display
+- Added scrollbars to the query text area.
+- Replaced filter expression dialog.
+- Fixed Import/export expression feature
+- Fixed textfield pattern dialog
+- Fixed Field Sorting
+- Fixed Crosstab Preorder checkbox
+
+2008-11-04 Version 3.1.2 released
+_______________________________________________________________________________
+
+- Support for JavaScript as report language
+- Support for virtualizers
+- Support for pdf508
+- New API to add custom tools to the palette
+- Improved JasperServer plugin (support for JasperServer 3.1)
+- Full i18n support
+- New bundled charts themes
+- Updated to JasperReports 3.1.2
+- Several bug fixes
+
+2008-09-17 Version 3.1.1 released
+_______________________________________________________________________________
+
+- Support to run the proper application viewer after exporting
+- Fixed some expressions issues
+- Added a new image file chooser for image elements
+- New wizard templates installation process
+- Support for resource bundles
+- Support for charts themes
+- Updated to JasperReports 3.1.1
+- Added hypelink top and parent targets
+- Fixed XML parsing
+
+2008-08-05 Version 3.1.0 released
+_______________________________________________________________________________
+
+- Fixed classpath extender
+- Fixed crosstab measure renaming
+- Fixed variable/param/field renaming
+- New error handler
+- Added the formatting tools window
+- Added hints component to the property dialog
+- Added elements properties and expression properties
+- Added hypelink top and parent targets
+- Fixed bug opening the hyperlink window
+
+2008-07-07 Version 0.9.2 released
+_______________________________________________________________________________
+
+- Support for JasperServer 3.0
+- Fixed Maven plugin compatibility (IDE)
+- Removed xalan (to avoid Mac users problems)
+- Updated to JasperServer 3.0
+- New toolbar in preview window
+
+
+2008-04-07 Version 0.9.1 released
+_______________________________________________________________________________
+- Support for crosstab
+- Support for borders and pens
+- Support for conditional styles
+- Several bug fixes
+- Upgraded to JasperReports 2.0.5
+- Fully compatible with NB 6.1
+
+
+2008-02-17 Version 0.9.0 released
+_______________________________________________________________________________
+
+
+For more information visit http://www.jasperforge.org/ireport

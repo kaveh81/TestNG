@@ -1,0 +1,2 @@
+#!/bin/bash
+svn mergeinfo --show-revs eligible http://zaphod/svn/acadia/trunk | cut -b 2- | while read changeset ; do svn log -c $changeset http://zaphod/svn/acadia/trunk; done 

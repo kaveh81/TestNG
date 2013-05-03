@@ -1,0 +1,24 @@
+<ivysettings>
+	<settings defaultResolver="spring"/>
+	<resolvers> 
+		<chain name="spring" returnFirst="true">
+			<filesystem name="from-spring-ebr"> <!-- Use existing packages from our local repository, to prevent unnecessary redownloading -->
+				<artifact pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/[artifact].[ext]" />
+				<ivy pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/ivy-[module].xml" />
+			</filesystem>
+			<url name="spring-release">
+				<ivy pattern="http://repository.springsource.com/ivy/bundles/release/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+				<artifact pattern="http://repository.springsource.com/ivy/bundles/release/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+			</url>
+			<url name="spring-external">
+				<ivy pattern="http://repository.springsource.com/ivy/bundles/external/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />
+				<artifact pattern="http://repository.springsource.com/ivy/bundles/external/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]" />	
+			</url>
+		</chain>
+		<filesystem name="from-spring-ebr">
+			<artifact pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/[artifact].[ext]" />
+			<ivy pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/ivy-[module].xml" />
+		</filesystem>
+	</resolvers>
+	<caches defaultCacheDir="${ivy.defaultCacheDir}"/>
+</ivysettings>

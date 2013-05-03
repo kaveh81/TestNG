@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="log4j" revision="1.2.16" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="log4j" type="jar"/>
+    <artifact name="log4j" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+
+</ivy-module>

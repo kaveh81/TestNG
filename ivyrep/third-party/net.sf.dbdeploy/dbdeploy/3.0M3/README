@@ -1,0 +1,3 @@
+Just merged the binary and source jars from the dbdeploy distribution together into one, because the way the -ant, -cli and -core
+jars were split up before didn't play nicely with the Eclipse source loading, which made it hard to find the sources for the DbDeploy
+classes.

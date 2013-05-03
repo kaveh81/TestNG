@@ -1,0 +1,17 @@
+Conventions for MIR3 Ivy Repository:
+
+All Ivy files must contain the license property.  License names are lower-cased.
+
+Organization names are derived from domain names, so the Organization name for Apache is org.apache,
+the organization name for Sun is com.sun, etc.
+
+The "default" configuration should contain only the binary jar and jars required at runtime.
+
+The "distribution" configuration should contain the complete distribution from the maintainer.  If
+the distribution is split into "src" and "bin" versions, as many are, the repository should contain both.
+The naming convention for distributions with src and bin versions is:
+	[artifact]-src-[revision].[ext]
+for example:
+	commons-codec-bin-1.3.tar.gz
+
+

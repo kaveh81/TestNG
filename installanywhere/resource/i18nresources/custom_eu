@@ -1,0 +1,2011 @@
+#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Amaitu desinstalazioa
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Guztiz kendu $PRODUCT_NAME$ -ren ezaugarri eta osagai guztiak InstalAnywhere-k instalatuak. 	 Instalazioaren ondoren sortutako fitxategi eta karpetak ez dira ukituak izango.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Desinstalatu ezaugarri zehatzak
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Hautatu $PRODUCT_NAME$ -ren ezaugarri zehatzak InstallAnywhere-k instalatuak orain desinstalatzeko.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Mesedez, ondoko aukeretatik hautatu bat:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Desinstalatzeko aukerak
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Desinstalatu
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Guztiz kendu ezaugarri eta osagai guztiak.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Hautatu ezaugarri zehatzak InstallAnywhere -k instalatuak.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Mesedez, ondoko aukeretatik hautatu bat:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Desinstalatzeko aukerak
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=SARTU NAHI DUZUN ZENBAKIA, EDO SAKATU <ENTER> LEHENETSIA ONARTZEKO:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Orain behar-beste leku dago diskoan instalazioarekin jarraitzeko.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=baina bakarrik XXX MB erabilgarri daude kokapen hauetan:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Instalazio honek XXX MB leku libre diskoan behar du,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Bestela, 'Kantzelatu' aukera dezakezu instalazio hau kanzelatzeko.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Mesedez libratu behintzat XXX MB instalazioarekin jarraitzeko.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Mesedez libratu zenbait leku diskoan instalazioarekin jarraitzeko.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Mesedez egin klik 'Instalatu'-n instalazioarekin jarraitzeko.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Jarraitzeko prest
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Diskoan lekurik nahikoarik ez
+
+# ................... =Warning!
+CheckDiskSpace.warning=Oharra!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=SAKATU <SARTU> DISKOAN ESKURAGARRI DAGOEN LEKUA BIRKALKULATZEKO, EDO IDATZI 'irten' INSTALATZAILETIK IRTETEKO
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Instalazioa egiteko ez dago behar-bezalako lekua diskoan. \u000A   Mesedez libratu zenbait leku diskoan eta instalatzaile hau berriro berrexekutatu...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=SAKATU <SARTU> INSTALAZIOA HASTEKO
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Oharra!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Instalazio honek XXX MB leku libre diskoan behar du,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=baina bakarrik XXX MB erabilgarri daude kokapen hauetan:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Mesedez libratu behintzat XXX MB instalazioarekin jarraitzeko.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Mesedez libratu zenbait leku diskoan instalazioarekin jarraitzeko.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Orain behar-beste leku dago diskoan instalazioarekin jarraitzeko.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Diskoan lekurik nahikoarik ez
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Mesedez aukeratu artxibo bat.
+
+# ................. =Choose...
+ChooseFile.chooseStr=A&ukeratu...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=&Mesedez aukeratu artxibo bat.
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=L&eheneratu lehenetsi artxiboa
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Artxibo bat aukeratu
+
+# .................... =in the folder
+ChooseFile.macInsideStr=karpetan
+
+# ................ =on the disk
+ChooseFile.macOnStr=diskoan
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Mesedez aukeratu karpeta bat.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=A&ukeratu...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=&Mesedez aukeratu Karpeta bat.
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=L&eheneratu lehenetsi karpeta
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Karpeta bat aukeratu
+
+# .................. =on the disk
+ChooseFolder.macOnStr=diskoan
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Errorea!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Ez duzu idazteko baimenik aukeratutako karpetara. Mesedez aukeratu beste karpeta bat.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Karpeta aukeratu
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Hautatu Instalazioaren multzoa
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Hautatu Instalazioaren multzoa
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Hautatu produktuaren ezaugarriak
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Mesedez, hautatu instalatzaile honek instalatu behar duen Instalazioaren multzoa.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=SARTU NAHI DUZUN INSTALAZIOAREN MULTZOAREN ZENBAKIA, EDO SAKATU <ENTER> LEHENETSIA ONARTZEKO\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Mesedez, hautatu instalatzaileak instalatu behar dituen ezaugarriak.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=SARTU ZENBAKI ZERRENDA BAT KOMAZ BANATUTA INSTALATU NAHI DITUZUN EGINBIDEAKK\u000A    ADIERAZTEN
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Hautatu Instalazioaren multzoa
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Pertsonalizatu
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Errore bat sortu zen produktuaren ezaugarriak instalatzeko orduan.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Mesedez aukeratu Java MB bat aplikazio instalatutak erabil dezan
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Aukeratu Java makina birtuala
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Emandako bideak ez du Java Makina Birtuala balioduna erakusten. Mesedez aukeratu berriro.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Mesedez aukeratu Java MB bat aplikazio instalatutak erabil dezan
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Aukeratu Java makina birtuala
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=SARTU JAVA MB-ren ZENBAKIA, EDO SAKATU <SARTU> UNEKO SELEKZIOA ONARTZEKO
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=SARTU BIDE OSOA JAVA MB-ra ZURE ESKUZ EXEKUTAGARRIA\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=JAVA EXEKUTAGARRI BIDEA DA:   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Instalatzaile honekin datorren Java Makina Birtuala instalatu ezina.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Instalatu Java MB bat aplikazio honentzako bereziki
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Aukeratu sistema honetan instalatuta dagoen Java MB
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=A&ukeratu beste kokapen bat...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Ireki
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Instalatu Java MB bat aplikazio honentzako bereziki
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Java Exekuzio-orduz Ingurunea
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Zeran Bilatzen: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=&Bilatzen utzi
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=&Beste batzuk bilatu
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Bilaketa amaituta.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Aukeratu sistema honetan instalatuta dagoen Java MB
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Errorea!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Aukeratuko aplikazioa ez da Java Makina Birtuala balioduna.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Aukeratu Java MB
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Errorea: Java Makina birtuala egokia ez zen aurkitu.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Produktu honek Java Makina Birtual bat behar du lehendik instalatuta zure sisteman. Mesedez begiratu <http://java.sun.com> makina birtuala zure plataformarako behera kargatzeko.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Aukeratu Java MB
+
+
+ChooseSCMFeaturesConsole.visualName=Hautatu aukerako SCM ezaugarriak
+ChooseSCMFeaturesConsole.title=Hautatu aukerako SCM ezaugarriak
+ChooseSCMFeaturesConsole.instructions=Hautatu SCM ezaugarrien jarraibideak
+
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=SAKATU <SARTU> JARRAITZEKO
+
+# ................. =Y
+ConsoleUtils.yesChar=B
+
+# ................ =N
+ConsoleUtils.noChar=E
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=HAU ONDO DAGO?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Emandako baloreetako bat baliogabea zen. Mesedez aukeratu berriro.
+
+#............... =back
+ConsoleUtils.back=atzera
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Desautatu instalatu nahi ez dituzun ezaugarriak. Ezaugarri hautatuak instalatu egingo dira.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Hautatu instalatu nahi ez dituzun ezaugarriak. Ezaugarri desautatuak instalatu egingo dira.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Hautatu produktuaren ezaugarriak
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Mesedez, hautatu instalatzaile honek instalatu behar dituen ezaugarriak.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Desautatu instalatu nahi ez dituzun ezaugarriak. Ezaugarri hautatuak instalatu egingo dira.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Hautatu instalatu nahi ez dituzun ezaugarriak. Ezaugarri desautatuak instalatu egingo dira.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Hautatu produktuaren ezaugarriak
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=SARTU ZENBAKI ZERRENDA BAT KOMAZ BANATUTA HAUTATU NAHI DUZUN EZAUGARRIAK ADIERAZTEN, EDO EZ HAUTATU. EZAUGARRI BATEN DESKRIBAPENA JAKITEKO, SARTU '?<NUMBER>'. SAKATU <RETURN> BEHIN AMAITUZ GERO:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Instalazioaren multzoa
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Hautatu produktuaren ezaugarriak
+
+#............................... =Description
+CustomizeBundlesPanel.description=Deskripzioa
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Lekua guztira Instalatzeko behar-bestea:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Sartu euskarri berria
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Mesedez, sartu #NAME# edo hautatu "Arakatu" eskuz aurkitzeko.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Euskarri bolumen okerra
+# .................... =Browse
+DiskNeededDialog.locate=Arakatu
+
+# .................. =Cancel
+DiskNeededDialog.quit=Kantzelatu
+
+# ...................... =OK
+DiskNeededDialog.continue=Ados
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Sartu euskarri berria
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Mesedez, sartu #NAME# edo hautatu harentzako bidea eskuz.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Mesedez, sartu #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Diskoa hurrengoan espero da: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Mesedez, sartu #NAME# edo idatzi bere kokapena.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=Ados, XXX sartu egin da.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Hautatu datuen instalatzailerako bidea.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Kantzelatu eta instalaziotik irten.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=SARTU AUKERA
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=SARTU 'INSTALLERDATA' KARPETARAKO BIDEA DISKOAN
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Zure sistemako ingurugiroa aldatu egin da. Zure sistema log irten edo berrabiarazi behar duzu aldaketa hauek eragina izan dezaten.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Sistemaren ingurugiroa aldatuta
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Irten
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Instalazioa ez amaituta
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Instalazioa ez amaituta
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Instalazioa orain kanzelatzen baduzu, $PRODUCT_NAME$ ez da instalatuko. Instalazioarekin jarraitzeko, egin klik 'Berrekin'-en. Instalazioa kanzelatzeko, egin klik 'irten'-en.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Instalazioa orain kanzelatzen baduzu, $PRODUCT_NAME$ ez da instalatuko. Instalazioarekin jarraitzeko, egin klik 'Berrekin'-en. Instalazioa kanzelatzeko, egin klik 'irten'-en.
+
+# .......... =Resume
+ExitDialog.ok=Laburpena
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Kantzelatu desinstalazioa
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Instalazioa Kantzelatu
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Guztiari bai
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Guztiari ez
+
+# ....................... =Yes
+FileAlreadyExists.yes=Bai
+
+# ....................... =No
+FileAlreadyExists.no=Ez
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Lehendik dagoen fitxategia gainidatzi?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=\"XXX\"-n \"XXX\" izeneko fitxategi bat badago.
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=\"XXX\"-n \"XXX\" izeneko fitxategi berriago bat badago.
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=\"XXX\"-n \"XXX\" izeneko fitxategi zaharrago bat badago.
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Lehendik dagoen fitxategia gainidatzi nahi al duzu?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=&Mesedez aukeratu Artxibo/Karpeta bat:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Aukeratu
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Artxiboak behean dagoen zerrendan gehitzen ari dira.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=Aurkitutako artxiboak ondoan daude zerrenda batean.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Karpetak behean dagoen zerrendan gehitzen ari dira.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=Aurkitutako karpetak ondoan daude zerrenda batean.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Bat datozen artxibo aurkitutak:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Bat datozen karpeta aurkitutak:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Non aurkituta:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=A&ukeratu beste kokapen bat...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Zeran begiratzen:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Mesedez zure hautapena egin.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Bat datozen artxiboak bilatzen:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Bat datozen karpetak bilatzen:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Bilatzen
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Aukeratu
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Instalatzaileak ezin zuen bat datorrena aurkitu:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Aukeratuta:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Karpeta bat aukeratu
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Kantzelatu
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Karpeta berria sortu
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Karpeta:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Izena:
+
+# ..................... =OK
+FolderSelectDialog.okStr=Ados
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=HAU ONDO DAGO?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=SAKATU <SARTU> JARRAITZEKO
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Errorea:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Itxaron mesedez, $PRODUCT_NAME$ zure sistemarako konfiguratzen ari da. Honek denbora apurka bat behar du...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Itxaron mesedez
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Instalazio honek pasahitz bat behar du jarraitzeko.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=&Mesedez sartu Pasahitza:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Sartu Pasahitza
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Errorea!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Sartu zenuen pasahitza baliogabea zen. Mesedez saiatu berriro.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Sartu Pasahitza
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=Ados
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Pasahitza behar da jarraitzeko.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Instalazio honek pasahitz bat behar du jarraitzeko.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Sartu zenuen pasahitza baliogabea zen. Mesedez saiatu berriro.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Mesedez sartu Pasahitza:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Pasahitza behar da jarraitzeko.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Sartu Pasahitza
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=SARTU ZENBAKI ZERRENDA BAT KOMAZ BANATUTA NAHI DITUZUNAK ADIERAZTEN
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=SARTU ZENBAKI ZERRENDA BAT KOMAZ BANATUTA NAHI DUZUN OPZIOAK ADIERAZTEN, EDO SAKATU <ENTER> LEHENETSIA ONARTZEKO
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=SARTU NAHI DUZUN AUKERAREN ZENBAKIA
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=SARTU NAHI DUZUN ZENBAKIA, EDO SAKATU <ENTER> LEHENETSIA ONARTZEKO:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Ezin duzu instalatzailetik irten momentu honetan.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Ezin duzu aurreko atalara joan momentu honetan.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Garrantzisko Informazioa
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Mesedez irakurri jarraitu baino lehen:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=GARRANTZISKO INFORMAZIO OSOA. SAKATU <SARTU> JARRAITZEKO
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Garrantzisko Informazioa
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Mesedez irakurri jarraitu baino lehen:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Aplikazioa
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Honek aplikazio ezaugarria instalatzen du.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Laguntza
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Honek laguntza ezaugarria instalatzen du.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Zorionak! $PRODUCT_NAME$: behar bezala instalatu egin da:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ASakatu "Done" instalatzailetik irteteko.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Instalazioa amaituta
+InstallCompleteAction.stepTitle=Instalazioa amaituta
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=$PRODUCT_NAME$ -ren instalazioa amaitu egin da, baina erroreak aurkitu ziren instalatzeko prozesuan. \u000A\u000A   Mesedez, kontsultatu instalazioaren log-a xehetasunak jakiteko. Sakatu "Done" instalatzailetik irteteko.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Instalazioa amaituta
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Instalazioa amaituta
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Zorionak. $PRODUCT_NAME$ arrakastaz instalatu egin da:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=SAKATU <SARTU> INSTALATZAILETIK IRTETEKO
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=$PRODUCT_NAME$ -ren instalazioa amaitu egin da, baina erroreak aurkitu ziren instalatzeko prozesuan. \u000A   Mesedez, kontsultatu instalazioaren log-a xehetasunak jakiteko.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=$PRODUCT_NAME$ -ren instalazioa amaitu egin da, baina erroreak aurkitu ziren instalatzeko prozesuan. \u000A   Mesedez, kontsultatu instalazioaren log-a xehetasunak jakiteko. Sakatu "Done" instalatzailetik irteteko.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=SAKATU <SARTU> INSTALATZAILETIK IRTETEKO
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Instalazioa amaituta
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Mesedez aukeratu helburuko karpeta bat instalazio honentzako.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Instalatzeko karpeta aukeratu
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=Non &gustatuko litzaizuke instalatzea?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Instalatzeko karpeta aukeratu
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=SARTU BIDE OSO BAT, EDO <SARTU> SAKATU LEHENETSIA ONARTZEKO\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=SARTU BIDE OSO BAT, IDATZI 'lehenetsia' LEHENETSIKO KARPETA LEHENERATZEKO, EDO <SARTU> SAKATU KARPETA AUKERATUTA ONARTZEKO
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Instalatzeko karpeta lehenetsia: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Instalatzeko karpeta aukeratuta: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=INSTALATZEKO KARPETA DA: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Emandako bidea: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=jasotzaile sisteman existitzen den artxibo bat erakusten du. \u000AInstalatzaile honek ezin du existitzen den artxibo bat artxibo berri batekin aldatu. \u000AMesedez aukera ezazu instalatzeko beste kokapen bat.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Ez duzu idazteko baimenik aukeratuko kokapenean instalatzeko. \u000AMesedez aukeratu beste kokapen bat.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Non gustatuko litzaizuke instalatzea?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Errorea!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Ez duzu idazteko baimenik aukeratuko kokapenean instalatzeko. \u000AMesedez aukeratu beste kokapen bat.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Instalatzeko karpeta aukeratu
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Instalaziorako helburua adierazitutako bideak plataforma honetan baliogabeak diren karaktere bat edo gehiago ditu.  \u000AMesedez hautatu beste lekuren bat instalazioa egiteko.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=A&ukeratu...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=L&eheneratu lehenetsi karpeta
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=barruan
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=karpetan
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=diskoan
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=instalatu
+
+# ....................... =Introduction
+Installer.installLabels.00=Sarrera
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Instalatzeko karpeta aukeratu
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Hautatu $SHORTCUT_NAME$ karpeta
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Instalazioaren aurreko laburpena
+
+# ....................... =Installing...
+Installer.installLabels.04=Instalatzen...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Instalazioa amaituta
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Instalatzailea ezin da sistema honetan exekutatu.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Instalatzailea ez dabil zure configurazioarekin. Orain itzaliko da.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Ez du onartzen Instalatzaile Erabiltzailearen Interfaze Modua
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Instalatzailea ez dabil modu honetan. Mesedez arretaz aztertu instalatzailearen dokumentazioa instalatzailea nola dabilen jakiteko.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Instalatzaile UI Modu Errorea
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Desinstalatu $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Zorionak! $PRODUCT_NAME$: behar bezala instalatu egin da:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ASakatu "Done" instalatzailetik irteteko.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage="$PRODUCT_NAME$ -ren instalazioa amaitu egin da, baina abisuak aurkitu ziren instalatzeko prozesuan. Mesedez, kontsultatu instalazioaren log-a xehetasunak jakiteko.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage="$PRODUCT_NAME$ -ren instalazioa amaitu egin da, baina erroreak aurkitu ziren instalatzeko prozesuan. Mesedez, kontsultatu instalazioaren log-a xehetasunak jakiteko.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage="$PRODUCT_NAME$ -ren instalazioa amaitu egin da, baina errore larriak aurkitu ziren instalatzeko prozesuan. Mesedez, kontsultatu instalazioaren log-a xehetasunak jakiteko.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Instalazioa egiteko, sistema berrabiarazi behar izango duzu.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Instalazioa egiteko, sistema berrabiarazi behar duzu.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Instalazioa amaituta
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Bai, sistema berrabiarazi
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Ez, neuk berrabiaraziko dut sistema
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Instalatzen...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Instalazioa kanzelatzen...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Instalatzen...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Instalazioaren aurreko laburpena
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Mesedez berrikusi datorrena jarraitu baino lehen:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Instalazioaren aurreko laburpena
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=SAKATU <SARTU> JARRAITZEKO. INFORMAZIOA ZUZENA EZ BADA, IDATZI 'atxera' ALDAKETAK EGITEKO\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Produktuaren izena:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Instalatzeko karpeta:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Lasterbide karpeta:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Esteka karpeta:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Alias karpeta:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Pertsonaren instalazio multzoa erabiltzailearen arabera
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Instalazioaren multzoa
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Produktuaren osagaiak:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Java MB Instalatzeko Karpeta:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Produktu instalatutak erabili behar duen Java MB:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Diskoaren lekuaz Informazioa (Helburuko Instalazioarako): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Behar da:
+
+# .................. =bytes
+InstallSummaryUI.byte=byteak
+
+# ....................... =Available:
+InstallSummaryUI.available=Erabilgarri:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Aukera hau hautatu instalatu behar diren ezaugarriak pertsonalizatzeko.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Pertsona
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Bakarrik instalatuko dira behar diren eginbide aplikazioak. Aukera hau gomendatzen da bakarrik diskoan leku mugatua daukaten erabiltzaileentzat.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Gutxienekoa
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=Aplikazioaren egibiderik arruntenak instalatuko dira. Aukera hau erabiltzaile gehienentzat gomendatzen da.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Tipikoa
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere eskuz eramango zaitu $PRODUCT_NAME$ instalatzeko unean. \u000A\u000AGomendatzen da programa guztietatik irtetea instalazio honekin jarraitu baino lehen. \u000A\u000AEgin klik 'Hurrengoa'-n hurrengo pantailara joateko. Zerbait aldatu nahi baduzu lehenengo pantailan, egin klik 'Lehenengo'-n. \u000A\u000AInstalazio hau Kantzelatu dezakezu nahi duzunean 'Kantzelatu'-n klik egiten.
+
+# .................. =Introduction
+IntroAction.stepTitle=Sarrera
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere eskuz eramango zaitu $PRODUCT_NAME$ instalatzeko unean. \u000A\u000AGomendatzen da programa guztietatik irtetea instalazio honekin jarraitu baino lehen. \u000A\u000AErantzun mezu bakoitzari instalazioaren hurrengo atala joateko. Zerbait aldatu nahi baduzu lehenengo atal batean, idatzi 'atxera'. \u000A\u000AInstalazio hau Kantzelatu dezakezu nahi duzunean 'irten'-en klik egiten.
+
+# ..................... =Introduction
+IntroActionConsole.title=Sarrera
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Ezin izan da URL zabaldu web arakatzailean
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere-k ezin izan du eskatutako URL-a zabaldu ($ACTION_URL$) zure sistemako lehenetsi web arakatzailean. URL hau ikusteko, mesedez idatzi gora agertzen den helbidea zure gustuko web arakatzailean.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Lizentzia Kontratua
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=$PRODUCT_NAME$ Instalatzeko eta Erabiltzeko hurrengo Lizentzia Kontratua onartu behar da:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Lizentzia Kontratua
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=$PRODUCT_NAME$ Instalatzeko eta Erabiltzeko hurrengo Lizentzia Kontratua onartu behar da:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ONARTZEN AL DITUZU LIZENTZIA KONTRATU HONEN BALDINTZAK?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Irten
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Laburpena
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Lizentzia Kontratuaren Abisua
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Oharra!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Lizentzia Kontratuaren baldintzak onartzen ez badituzu, ezin duzu instalazio honekin jarraitu.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=Liz&entzia Kontratuaren baldintzak EZ ditut onartzen
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Aurrebistarako artxiborik aurkiturik ez
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=Li&zentzia Kontratuaren baldintzak onartzen ditut
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Artxiborik aukeraturik ez
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=SAKATU <ENTER> HURRENGOA ONARTZEKO
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=SARTU NAHI DUZUN AUKERAREN ZENBAKIA, EDO SAKATU <ENTER> LEHENETSIA ONARTZEKO
+
+# ........................... =OK
+PromptUserConsole.option0Label=Ados
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Kantzelatu
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Xehetasunak...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere prest dago orain $PRODUCT_NAME$ zure sisteman instalatzeko hurrengo kokapean:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=SAKATU <SARTU> INSTALATZEKO
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Instalatzeko prest
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere amaitzear dago. Itxaron mesedez...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Garbitzen...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Instalazio honek serie-zenbaki bat behar du jarraitzeko.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=&Mesedez sartu Serie-zenbakia:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Sartu serie-zenbakia
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Errorea!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Sartu zenuen serie-zenbakia baliogabea zen. Mesedez saiatu berriro.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Sartu serie-zenbakia
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=Ados
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Serie-zenbakia behar da jarraitzeko.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Instalazio honek serie-zenbaki bat behar du jarraitzeko.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Sartu zenuen serie-zenbakia baliogabea zen. Mesedez saiatu berriro.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Mesedez sartu Serie-zenbakia:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Serie-zenbakia behar da jarraitzeko.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Sartu serie-zenbakia
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Aliasa
+
+#............... =Link
+ShortcutName.link=Esteka
+
+#................... =Shortcut
+ShortcutName.shortcut=Lasterbidea
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Non gustatuko litzaizkizuke alias-eak sortzea?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Hautatu karpetaren aliasa
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Hautatu estekaren karpeta
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Non gustatuko litzaizkizuke estekak sortzea?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Non gustatuko litzaizkizuke produktuaren sinboloak sortzea?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Aukeratu Lasterbidearen kokapena
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Talde komunak
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Uneko Erabiltzailearen taldeak
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=karpetan
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=diskoan
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Lehenetsia: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Uneko: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Aukeratu beste kokapen bat...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=SARTU LEHENENGO AUKERAREN ZENBAKIA, EDO SAKATU <SARTU> LEHENETSIA ONARTZEKO\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=SARTU LEHENENGO AUKERAREN ZENBAKIA, EDO SAKATU <SARTU> UNEKO SELEKZIOA ONARTZEKO
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=SARTU BIDE OSOA LASTERBIDE KARPETA-ra\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=LASTERBIDE KOKAPENA DA: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Aukeratu estekeen kokapena
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Non gustatuko litzaizkizuke estekak sortzea?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Aukeratu Lasterbidearen kokapena
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Non gustatuko litzaizkizuke produktuaren sinboloak sortzea?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Aukeratu alias kokapena
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Non gustatuko litzaizkizuke alias-eak sortzea?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Apple Menua-n
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Atrakean
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Mahaian
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Alias-ik ez sortu
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Beste bat:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Estekik ez sortu
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Ikonorik ez sortu
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Zure etxeko karpetan
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Mahaian
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=Programa talde berri batean:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=Lehendik dagoen Programa talde batean:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=Laster Abiara&zteko Barran
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=Hasi Menua-n
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Erabiltzile guztientzako ikonoak sortu
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Errorea!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Ez duzu idazteko baimenik aukeratutako kokapenera. Mesedez aukeratu beste kokapen bat.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=A&pple Menua-n
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=A&trakean
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=&Mahaian
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=&Mahaian
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Aukeratu...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Alias-ik ez sortu
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=&Beste bat:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=&Estekik ez sortu
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=&Ikonorik ez sortu
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=Zure et&xeko karpetan
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=&Mahaian
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=P&rograma talde berri batean:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=Lehen&dik dagoen Programa talde batean:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=Ha&si Menua-n
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Erabil&tzile guztientzako ikonoak sortu
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=Ados
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Kantzelatu
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Xehetasunak...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Data:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=ID  baimendua:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Script Bertsioa:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Bertsioa:
+
+# ............... =Done
+StepMaster.doneStr=A&maituta
+
+# ............... =Cancel
+StepMaster.exitStr=&Kantzelatu
+
+# ............... =Help
+StepMaster.helpStr=&Laguntza
+
+# .................. =Install
+StepMaster.installStr=&instalatu
+
+# ............... =Next
+StepMaster.nextStr=&Hurrengoa
+
+# ............... =Previous
+StepMaster.prevStr=&Aurrekoa
+
+# ............... =Close
+StepMaster.closeStr=Itxi
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Elementu guztiak arrakastaz desinstalatu egin dira.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Desinstalapena amaitu egin da
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Hurrengo artikuluak ezin izan ziren kendu:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Kendu ezina
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Desinstalazioa egiteko, sistema berrabiarazi behar duzu.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Desinstalazioa egiteko, sistema berrabiarazi behar izango duzu.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Desinstalazioa egiteko, sistema berrabiarazi behar duzu baita ere.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Desinstalazioa egiteko, sistema berrabiarazi behar izango duzu baita ere.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Bai, sistema berrabiarazi
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Ez, neuk berrabiaraziko dut sistema
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Elementu guztiak arrakastaz desinstalatu egin dira.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Desinstalapena amaitu egin da
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Hurrengo artikuluak ezin izan ziren kendu:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Desinstalazioa egiteko, sistema berrabiarazi behar duzu.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Desinstalazioa egiteko, sistema berrabiarazi behar izango duzu.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Desinstalapena amaitu egin da
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Elementu guztiak arrakastaz desinstalatu egin dira.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Elementu batzuk ezin izan dira kendu.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Desinstalazioa amaitzea ezinezkoa zen errore batengatik.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Desinstalatu $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=InstallAnywhere Desinstalatzailea
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Sarrera
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Desinstalatzen...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Desinstalapena amaitu egin da
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Desinstalatzear... \u000A\u000A$PRODUCT_NAME$\u000A\u000AHorrela, InstallAnywhere-k instalatutako ezaugarri guztiak behingoz desinstalatuko dira. Instalazioaren ondoren sortutako fitxategi eta karpetak ezin dira desinstalatuko.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Desinstalatu $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Desinstalatzear... \u000A\u000A$PRODUCT_NAME$\u000A\u000AHorrela, InstallAnywhere-k instalatutako ezaugarri guztiak behingoz desinstalatuko dira. Instalazioaren ondoren sortutako fitxategi eta karpetak ezin dira desinstalatuko.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Desinstalatu $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Kantzelatu
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Irten
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Laguntza
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Desinstalatu
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Akzio bat ezin izan zen desegindu oinarrituta ez zegoelako.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Garbitzen...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Bertako paketeak ...
+
+# ............... =Files...
+UninstallMgr.Files=Artxiboak...
+
+# ................. =Folders...
+UninstallMgr.Folders=Karpetak...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java MB...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Estekak...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Aliaseak...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Lasterbideak...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Ezin izan da produktua desinstalatu sistema honetan jadanik ez dagoelako Java makina birtualik. Java makina birtuala instalatu eta saiatu berriro.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=karpeta 1
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Prestatzen...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Software-n Datu-basea...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Erregistroa...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=karpeta 2
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Garbitu ezina
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Ezin izan dira bertako paketeak kendu.
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Artxiboa kendu ezina
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Karpeta kendu ezina
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Ezin izan da Java VM ezaugarria kendu
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Esteka kendu ezina
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Alias kendu ezina
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Lasterbidea kendu ezina
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Ezinezkoa
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Artxibo 1 kendu ezina
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Artxibo 2 kendu ezina
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Software-n datu-basea kendu ezina
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Erregistroaren tekla kendu ezina
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Sistemaren berrabiaraztea beharrezkoa
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Sistema barrabiarazi arte ez dugu gomendatzen desinstalatzailearen exekuzioa. Egin klik \"Cancel\" -n desinstalatzailetik irteteko edo \"Continue\" -n desinstalatzeko hala ere.
+
+# ................ =Continue
+UninstallRestart.continue=Jarraitu
+
+# ................ =Cancel
+UninstallRestart.exit=Kantzelatu
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Mesedez itxaron InstallAnywhere desinstalatzailearen bitartean
+
+# ................ =removes the following features...
+UProgress.waitArr.1=ondoko ezaugarriak kentzen ditu...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Pertsona kodea exekutatzen...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Exekutatzen...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Instalazioaren script-a exekutatzen...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Instalatu nahasketaren moduloa
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Nahasketaren moduloa instalatzen
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Bertako paketea instalatzen
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=irten
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=SAKATU <ENTER>  DESINSTALAZIOA HASTEKO, EDO 'QUIT' INSTALATZAILETIK IRTETEKO:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=SAKATU <ENTER> DESINSTALATZAILETIK IRTETEKO:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Fitxategia kopiatu
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Karpeta kopiatu
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Esteka sortu
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Lasterbidea sortu
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Aliasa sortu
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Karpeta sortu
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=LaunchAnywhere (edozein lekutara abiarazi) sortu
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Fitxategia ezabatu
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Karpeta ezabatu
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Fitxategia handiagotu
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=SpeedFolder (abiadura karpeta) instalatu
+
+InstallRPMPackage.visualname.self=Linux RPM instalatu
+InstallSolarisPackage.visualname.self=Solaris paketea instalatu
+InstallHPUXPackage.visualname.self=HP-UX Depot Instalatu
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Fitxategia mugitu
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Karpeta mugitu
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Windows zerbitzua erregistratu
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Ingurugiro sistemaren aldagarria doitu
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Windows registroa doitu
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=ANT script-a exekutatu
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Komandoa exekutatu
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Pertsona kodea exekutatu
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Script-a exekutatu
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Fitxategi helburua exekutatu
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Erregistroan osagai bilatu
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Windows erregistroaren sarrera lortu
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Testu-fitxategia aldatu
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=XSL aldaketa egin
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Arazketa irteeraren informazioa
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Testua konsolara atera
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Elkarrizketa mezua erakutsi
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Windows zerbitzua hasi
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Windows zerbitzua amaitu
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Windows zerbitzua gelditu
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Karpeta bilatu
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Instalatu nahasketaren moduloa
+Designer.Action.PowerUpdateClient.visualName=PowerUpdate bezeroa instalatu
+Designer.Action.PerformXSLTZip.visualName=XSL Transformazioa egin - Artxiboan
+Designer.Action.PerformXSLT.visualName=XSL aldaketa egin
+Designer.Action.PerformXSLT.performingXSLtransform=XSL Transformazioa egiten:
+Designer.Action.MakeExecutable.visualName=LaunchAnywhere sortu Java aplikazioarentzat
+Designer.Action.InstallZipfile.visualName=Instalatu Artxiboa
+Designer.Action.CreateUninstaller.visualName=Sortu Desinstalatzailea
+Designer.Action.BOMAction.visualName=Manifest-ik instalatu
+Designer.Action.ExpandArchive.visualName=Fitxategia handiagotu
+Designer.Action.ExecuteScript.visualName=Exekutatu Script/Batch fitxategia
+Designer.Action.Exec.visualName=Komandoa exekutatu
+Designer.Action.visualName=Fitxategi helburua exekutatu
+Designer.Action.AntRunner.visualName=ANT script-a exekutatu
+Designer.Actions.ShowDialogAction.visualName=Elkarrizketa mezua erakutsi
+
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Desinstalatzearen atzeko eginbideak
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Desinstalatzearen aurreko eginbideak
+
+Designer.Action.EvaluateDependenciesAction.visualName=Aztertu dependentziak
+
+ActionGroup.visualName.self=Eginbide taldea
+
+Designer.Action.UpdateServiceClient.visualName=Aktibatu eguneratu jakinarazpenak
+Designer.FolderConstants.programsDir64Name=Programen karpeta (64 bit)
+Designer.FolderConstants.programsDir32Name=Programen karpeta (32 bit)
+Designer.FolderConstants.system64Name=Sistemaren karpeta (64 bit)
+Designer.FolderConstants.system32Name=Sistemaren karpeta (32 bit)
+Designer.FolderConstants.variableMagicFolder=Karpeta magikoa eta aldagarria
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# us.jar kargatzeko URL baliogabea da.
+Installer.Actions.UpdateServiceClient.badUsJar=#UPDATE_SERVICE# liburutegiak ez dauka erregistratzeko behar den klasea. Emandako jar-ra baliogabea izan daiteke.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=#UPDATE_SERVICE# klaseak ez dauka behar den metodo guztia erregistratzeko.
+Installer.installLog.actionNotes=Akzio oharrak:
+Installer.installLog.installLogDetail=Instalatu logaren xehetasunak:
+Installer.installLog.installation=Instalazioa:
+Installer.installLog.unsuccessful=Gaizki egin da.
+Installer.installLog.successful=Behar bezala egin da
+Installer.installLog.withErrors=erroreduna.
+Installer.installLog.withwarnings=abisuekin.
+Installer.installLog.cancelled=Utzita
+Installer.installLog.duringPostInstall=ondorengo instalatzerakoan
+Installer.installLog.duringInstall=instalatzerakoan
+Installer.installLog.duringPreInstall=aurreko instalatzerakoan
+Installer.installLog.cancelledBeforePreInstallation=ERABILTZAILEAK INSTALAZIOA UTZI EGIN DU AURREKO INSTALAZIOA BAINO LEHEN.
+Installer.installLog.cancelledDuringPreInstallation=ERABILTZAILEAK INSTALAZIOA UTZI EGIN DU AURREKO INSTALATZERAKOAN.
+Installer.installLog.cancelledDuringInstallation=ERABILTZAILEAK INSTALAZIOA UTZI EGIN DU INSTALATZERAKOAN.
+Installer.InstallLog.cancelledDuringPostInstallation=ERABILTZAILEAK INSTALAZIOA UTZI DU INSTALAZIO AMAITU ETA GERO EDO ONDORENGO INSTALATZERAKOAN.
+Installer.installLog.successes=Lortu izanak
+Installer.installLog.warnings=Abisuak
+Installer.installLog.nonFatalErrors=Ezinbestekoezdirenerroreak
+Installer.installLog.fatalErrors=Ezinbestekoerroreak
+Installer.installLog.details=Xehetasunak
+Installer.installLog.nothingWasInstalled=Ez da ezer instalatu.
+Installer.installLog.none=Batere ez
+Installer.installLog.summary=Laburpena
+Installer.installLog.installedBy=InstallAnywhere #BUILD_INFO#-k engida, Macrovision-ena.
+Installer.installLog.status=Egoera:
+Installer.installLog.additionalNotes=Ohar gehiago:
+Installer.installLog.exceptionClass=Salbuespen klasea:
+Installer.installLog.exceptionMessage=Salbuespen mezua:
+Installer.installLog.exceptionStackTrace=Salbuespen pilaren aztarna:
+Installer.installLog.successLevel.successful=ONDO EGIN DA
+Installer.installLog.successLevel.warning=ABISUA
+Installer.installLog.successLevel.error=ERROREA
+Installer.installLog.successLevel.fatalError=EZINBESTEKO ERROREA
+Installer.installLog.successLevel.unsupported=ERRORE MAILA EZ ONARTUA
+Installer.installLog.successLevel.notice=OHARRA
+Installer.installLog.action.description=Instalatu Ekintza:
+Installer.installLog.antRunner.description=ANT script-a exekutatu:
+Installer.installLog.antRunner.script=Idazkera:
+Installer.installLog.asciiFileManipulator.noTargetChosen=Ez da helburua aukeratu
+Installer.installLog.asciiFileManipulator.newFile=Fitxategi berria
+Installer.installLog.copyDirectory.description=Kopiatu direktorioa:
+Installer.installLog.copyFile=Fitxategia kopiatu:
+Installer.installLog.copyFileAction.destination=Helburua:
+Installer.installLog.createShortcut.createShortcut=Sortu lasterbidea:
+Installer.installLog.createShortcut.createAlias=Aliasa sortu:
+Installer.installLog.createShortcut.createLink=Esteka sortu:
+Installer.installLog.deleteFileAction.source=Iturburua:
+Installer.installLog.editEnvironment.description=Ingurugiro aldagarria doitu:
+Installer.installLog.expandFile.description=Fitxategia handiagotu:
+Installer.installLog.getRegEntry.description=Lortu erregistroaren sarrera:
+Installer.installLog.getRegEntry.key=Gakoa:
+Installer.installLog.getRegEntry.value=Balio-izena:
+Installer.installLog.installDirCont.description=SpeedFolder (abiadura karpeta) instalatu:
+Installer.installLog.installDirectory.description=Instalatu direktorioa:
+Installer.installLog.installFile.description=Instalatu fitxategia:
+Installer.installLog.installNTService.description=Erregistratu NT Zerbitzua:
+Installer.installLog.installUninstaller.description=Instalatu Desinstalatzailea:
+Installer.installLog.installUninstaller.note=(Instalatu Desinstalatzailearen konponente guztiak)
+Installer.installLog.makeExecutable.description=LaunchAnywhere (edozein lekutara abiarazi) sortu:
+Installer.installLog.makeExecutable.note=(Instalatu LaunchAnywhere Java konponente exekutagarri guztiak)
+Installer.installLog.makeRegEntry.description=Egin erregistroaren sarrera:
+Installer.installLog.makeRegEntry.key=Gakoa:
+Installer.installLog.makeRegEntry.name=Balio-izena:
+Installer.installLog.makeRegEntry.data=Balio-datuak:
+Installer.installLog.speedRegistry.description=Erregistratu sarrerak:
+Installer.installLog.subinstaller.description=Instalatu nahasketaren moduloa:
+Installer.installLog.subuninstaller.description=Exekutatu desinstalatzailea:
+Installer.installLog.customAction.description=Bezeroaren ekintza:
+Installer.installLog.userInteractions=Erabiltzailearen interakzioak
+Installer.installLog.installBegin=Instalazioaren hasiera:
+Installer.installLog.installEnd=Instalazioaren amaiera:
+Installer.installLog.freeMemory=Memoria libre:
+Installer.installLog.totalMemory=Memoria guztira:
+Installer.installLog.commandLineArgs=Komando-lerroko Arg.:
+Installer.installLog.noArguments=Ez dago argumenturik
+Designer.Action.HTMLPanelAction.visualName=Panela: Bistaratu HTML
+HTMLPanelAction.title=HTML panela
+Designer.Action.UninstallIsmpSoftware.visualName=Desinstalatu InstallShield Software Unibertsala
+Installer.unexpectedChanges.message=Instalatzaileak ustekabeko aldaketak aurkitu zituen instalazio script-an.
+Installer.unexpectedChanges.title=Errorea
+Installer.unexpectedChanges.label=Ezin da instalatzailea abiarazi.

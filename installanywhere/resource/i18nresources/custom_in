@@ -1,0 +1,2009 @@
+#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Batal-Pasang Lengkap
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Menghapus tuntas semua fitur dan komponen $PRODUCT_NAME$ yang sebelumnya dipasang oleh InstallAnywhere. File dan folder yang dibuat setelah pemasangan tidak akan terpengaruh.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Batal-Pasang Fitur Khusus
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Pilih fitur khusus $PRODUCT_NAME$ yang sebelumnya dipasang dengan menggunakan InstallAnywhere dan akan dibatalkan pemasangannya.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Silakan pilih salah satu opsi berikut ini:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Opsi-opsi Batal-Pasang
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Batal-Pasang
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Hapus tuntas semua fitur dan komponen.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Pilih fitur khusus yang sebelumnya dipasang dengan menggunakan InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Silakan pilih salah satu opsi berikut ini:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Opsi-opsi Batal-Pasang
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=MASUKKAN ANGKA PILIHAN ANDA, ATAU TEKAN <ENTER> UNTUK MENERIMA DEFAULT:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Kini tersedia cukup ruang disk untuk melanjutkan pemasangan ini.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=tetapi hanya tersedia XXX MB pada:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Pemasangan ini memerlukan ruang disk kosong sebesar XXX MB,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Atau, Anda dapat memilih 'Batal' untuk membatalkan pemasangan ini.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Kosongkan minimal XXX MB untuk melanjutkan pemasangan ini.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Kosongkan sejumlah ruang disk untuk melanjutkan pemasangan ini.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Silakan klik 'Pasang' untuk melanjutkan pemasangan.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Siap Melanjutkan
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Ruang Disk Tidak Cukup
+
+# ................... =Warning!
+CheckDiskSpace.warning=Peringatan!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=TEKAN <ENTER> UNTUK MENGHITUNG-ULANG RUANG DISK YANG TERSEDIA, \u000A   ATAU KETIK 'BERHENTI' UNTUK KELUAR DARI PEMASANG
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Tidak cukup tersedia ruang disk untuk melakukan pemasangan ini. \u000A   Kosongkan sejumlah ruang disk dan jalankan kembali pemasang ini...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=TEKAN <ENTER> UNTUK MEMULAI PEMASANGAN
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Peringatan!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Pemasangan ini memerlukan ruang disk kosong sebesar XXX MB,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=tetapi hanya tersedia XXX MB pada:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Kosongkan minimal XXX MB untuk melanjutkan pemasangan ini.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Kosongkan sejumlah ruang disk untuk melanjutkan pemasangan ini.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Kini tersedia cukup ruang disk untuk melanjutkan pemasangan ini.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Ruang Disk Tidak Cukup
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Silakan pilih sebuah file.
+
+# ................. =Choose...
+ChooseFile.chooseStr=&Pilih...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=Si&lakan Pilih sebuah File:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=&Kembalikan File Default
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Pilih File
+
+# .................... =in the folder
+ChooseFile.macInsideStr=dalam folder tersebut
+
+# ................ =on the disk
+ChooseFile.macOnStr=pada disk
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Silakan pilih sebuah folder.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=&Pilih...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=Si&lakan Pilih sebuah Folder:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=&Kembalikan Folder Default
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Pilih Folder
+
+# .................. =on the disk
+ChooseFolder.macOnStr=pada disk
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Salah!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Anda tidak memiliki izin menulis pada folder terpilih tersebut. Silakan pilih folder lain.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Pilih Folder
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Pilih Set Pemasangan 
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Pilih Set Pemasangan 
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Pilih Fitur Produk
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Silakan pilih Set Pemasangan yang akan dipasang oleh pemasang ini.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=MASUKKAN ANGKA UNTUK SET PEMASANGAN, ATAU TEKAN <ENTER> UNTUK MENERIMA DEFAULT\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Silakan pilih Fitur-fitur untuk dipasang oleh pemasang.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=MASUKKAN DAFTAR ANGKA YANG MENUNJUKKAN FITUR-FITUR\u000A   YANG AKAN DIPASANG, GUNAKAN KOMA UNTUK MEMISAHKAN SETIAP ANGKA
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Pilih Set Pemasangan
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Ubah Sesuai Kebutuhan
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Ada kesalahan dalam menetapkan fitur produk untuk pemasangan.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Silakan Pilih Java VM untuk Digunakan oleh Aplikasi Terpasang
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Pilih  Java Virtual Machine
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Jalur yang disediakan tidak mengarah ke Java Virtual Machine yang valid. Silakan pilih lagi.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Silakan Pilih Java VM untuk digunakan oleh aplikasi terpasang
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Pilih  Java Virtual Machine
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=MASUKKAN ANGKA UNTUK MEMILIH JAVA VM, ATAU TEKAN <ENTER> UNTUK MENERIMA\u000A    PILIHAN SAAT INI
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=MASUKKAN JALUR ABSOLUT MENUJU JAVA VM EXECUTABLE PILIHAN ANDA\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=JALUR MENUJU JAVA EXECUTABLE ADALAH:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Tidak dapat memasang Java Virtual Machine yang terdapat dalam pemasang ini.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Pasang Java VM khusus untuk aplikasi ini
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Pilih  Java VM yang telah terpasang pada sistem ini
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=&Pilih  yang lain...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Buka
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Pasang Java VM khusus untuk aplikasi ini
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Lingkungan Java Runtime
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Sedang Mencari Dalam: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Stop Cari
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=C&ari Lainnya
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=pencarian selesai.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Pilih  Java VM yang telah terpasang pada sistem ini
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Salah!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Aplikasi terpilih bukan Java Virtual Machine yang valid.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Pilih  Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Salah: Tidak dapat menemukan Java Virtual Machine yang sesuai.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Produk ini mensyaratkan bahwa Java Virtual Machine telah terpasang pada sistem Anda. Kunjungi <http://java.sun.com> untuk men-download mesin virtual bagi platform Anda.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Pilih  Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=Pilih Fitur SCM Opsional
+ChooseSCMFeaturesConsole.title=Pilih Fitur SCM Opsional
+ChooseSCMFeaturesConsole.instructions=Petunjuk Pilih Fitur SCM
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=TEKAN <ENTER> UNTUK MELANJUTKAN
+
+# ................. =Y
+ConsoleUtils.yesChar=Y
+
+# ................ =N
+ConsoleUtils.noChar=T
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=BENARKAH INI?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Salah satu nilai yang diberikan tidak valid. Silakan pilih lagi.
+
+#............... =back
+ConsoleUtils.back=kembali
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Hapus tanda centang pada fitur-fitur yang akan dibatalkan pemasangannya. Fitur bertanda centang akan tetap terpasang.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Beri tanda centang pada fitur-fitur yang akan dibatalkan pemasangannya. Fitur tanpa tanda centang akan tetap terpasang.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Pilih Fitur Produk
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Silakan pilih Fitur-fitur yang akan dipasang oleh pemasang ini.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Hapus tanda centang pada fitur-fitur yang akan dibatalkan pemasangannya. Fitur bertanda centang akan tetap terpasang.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Beri tanda centang pada fitur-fitur yang akan dibatalkan pemasangannya. Fitur tanpa tanda centang akan tetap terpasang.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Pilih Fitur Produk
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=MASUKKAN DAFTAR ANGKA UNTUK FITUR-FITUR YANG AKAN DIPILIH ATAU DIBATALKAN PILIHANNYA, GUNAKAN KOMA UNTUK MEMISAHKAN SETIAP ANGKA. UNTUK MENAMPILKAN PENJELASAN SUATU FITUR, MASUKKAN  '?<NUMBER>'. TEKAN <RETURN> SETELAH ANDA SELESAI:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Set Pemasangan
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Pilih Fitur Produk
+
+#............................... =Description
+CustomizeBundlesPanel.description=Penjelasan
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=kB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Jumlah Ruang yang Diperlukan untuk Pemasangan:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Masukkan Media Baru
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Masukkan #NAME# atau Pilih 'Jelajah...' untuk mencari secara manual.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Volume Media Salah
+# .................... =Browse
+DiskNeededDialog.locate=Jelajah
+
+# .................. =Cancel
+DiskNeededDialog.quit=Batal
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Masukkan Media Baru
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Masukkan #NAME# atau pilih jalur menuju ke sana secara manual.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Masukkan #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Disk diharapkan berada pada: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Masukkan #NAME# atau ketikkan lokasinya.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=OK, XXX sudah dimasukkan.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Pilih jalur menuju data pemasang.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Batal dan keluar dari pemasangan.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=MASUKKAN PILIHAN 
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=MASUKKAN JALUR MENUJU FOLDER 'INSTALLERDATA' PADA DISK
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Lingkungan sistem Anda telah berubah. Anda perlu log out atau me-reboot sistem Anda agar perubahan-perubahan ini menjadi aktif.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Lingkungan Sistem Berubah
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Berhenti 
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Pemasangan Belum Lengkap
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Batal-Pasang Belum Lengkap
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Apabila Anda membatalkan pemasangan sekarang, $PRODUCT_NAME$ tidak akan dipasang. Untuk melanjutkan pemasangan, klik 'Lanjutkan'. Untuk membatalkan pemasangan, klik 'Berhenti'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Apabila Anda menghentikan batal-pasang sekarang, $PRODUCT_NAME$ tidak akan dibatalkan pemasangannya. Untuk melanjutkan batal-pasang, klik 'Lanjutkan'. Untuk menghentikan batal-pasang, klik 'Berhenti'.
+
+# .......... =Resume
+ExitDialog.ok=Lanjutkan
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Hentikan Batal-Pasang 
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Batalkan Pemasangan
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Ya untuk Semua
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Tidak untuk Semua
+
+# ....................... =Yes
+FileAlreadyExists.yes=Ya
+
+# ....................... =No
+FileAlreadyExists.no=Tidak
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Ganti File yang Ada?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=File bernama \"XXX\" sudah ada di \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=File lebih baru bernama \"XXX\" sudah ada di \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=File lama bernama \"XXX\" sudah ada di \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Anda ingin mengganti file yang sudah ada?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=Si&lakan Pilih sebuah File/Folder:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Pilih
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=File Sedang Ditambahkan ke Daftar Berikut.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=File yang Ditemukan tercantum dalam Daftar Berikut.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Folder sedang Ditambahkan ke Daftar Berikut.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=Folder yang Ditemukan tercantum dalam Daftar Berikut.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Ditemukan File yang Cocok:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Ditemukan Folder yang Cocok:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Ditemukan Dalam:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=&Pilih Lainnya...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Sedang Mencari Di:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Tetapkan pilihan Anda sendiri.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Sedang Mencari File yang Cocok:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Sedang Mencari Folder yang Cocok:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Sedang mencari
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Pilih
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Pemasang Tidak Berhasil Menemukan yang Cocok untuk:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Terpilih:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Pilih sebuah Folder
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Batal
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Buat Folder Baru
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Folder:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Nama:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=BENARKAH INI?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=TEKAN <ENTER> UNTUK MELANJUTKAN
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Salah:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Silakan tunggu, $PRODUCT_NAME$ sedang dikonfigurasikan untuk sistem Anda. Ini perlu waktu beberapa saat...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Silakan Tunggu
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Pemasangan ini memerlukan katasandi untuk melanjutkan.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=T&uliskan Katasandi:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Tuliskan Katasandi
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Salah!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Katasandi yang Anda masukkan tidak benar. Silakan coba lagi.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Tuliskan Katasandi
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Katasandi diperlukan untuk melanjutkan.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Pemasangan ini memerlukan katasandi untuk melanjutkan.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Katasandi yang Anda masukkan tidak benar. Silakan coba lagi.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Tuliskan Katasandi:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Katasandi diperlukan untuk melanjutkan.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Tuliskan Katasandi
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=MASUKKAN DAFTAR ANGKA UNTUK PILIHAN YANG DIINGINKAN, GUNAKAN KOMA UNTUK MEMISAHKAN SETIAP ANGKA
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=MASUKKAN DAFTAR ANGKA UNTUK PILIHAN YANG DIKEHENDAKI, GUNAKAN KOMA UNTUK MEMISAHKAN SETIAP ANGKA, ATAU TEKAN <ENTER> UNTUK MENERIMA DEFAULT.
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=MASUKKAN ANGKA UNTUK PILIHAN YANG DIKEHENDAKI
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=MASUKKAN ANGKA  PILIHAN ANDA, ATAU TEKAN <ENTER> UNTUK MENERIMA DEFAULT:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Pada langkah ini, Anda tidak dapat keluar dari pemasang.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Pada langkah ini, Anda tidak dapat kembali ke langkah sebelumnya.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Informasi Penting
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Bacalah Sebelum Melanjutkan:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=INFORMASI PENTING SELESAI. TEKAN <ENTER> UNTUK MELANJUTKAN
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Informasi Penting
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Bacalah Sebelum Melanjutkan:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Aplikasi
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Ini untuk memasang fitur aplikasi.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Bantuan
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Ini untuk memasang fitur bantuan.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Selamat! $PRODUCT_NAME$ sudah berhasil dipasang pada:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ATekan "Selesai" untuk keluar dari pemasang.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Pemasangan Lengkap
+InstallCompleteAction.stepTitle=Pemasangan Lengkap
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=Pemasangan $PRODUCT_NAME$ sudah lengkap, tetapi terjadi beberapa kesalahan selama pemasangan. \u000A\u000ASilakan lihat catatan pemasangan untuk rinciannya. Tekan "Selesai" untuk keluar dari pemasang.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Pemasangan Lengkap
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Pemasangan Lengkap 
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Selamat. $PRODUCT_NAME$ telah berhasil dipasang pada:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=TEKAN <ENTER> UNTUK KELUAR DARI PEMASANG
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=Pemasangan $PRODUCT_NAME$ sudah lengkap, tetapi terjadi beberapa kesalahan selama pemasangan. \u000A   Silakan lihat catatan pemasangan untuk rinciannya.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=Pemasangan $PRODUCT_NAME$ sudah lengkap, tetapi terjadi beberapa kesalahan selama pemasangan. \u000A   Silakan lihat catatan pemasangan untuk rinciannya. Tekan "Selesai" untuk keluar dari pemasang.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=TEKAN <ENTER> UNTUK KELUAR DARI PEMASANG
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Pemasangan Lengkap
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Silakan pilih folder tujuan untuk pemasangan ini.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Pilih Folder Pemasangan
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=Di &manakah Anda Ingin Memasang?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Pilih Folder Pemasangan
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=TULISKAN JALUR ABSOLUT, ATAU TEKAN <ENTER> UNTUK MENERIMA DEFAULT\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=TULISKAN JALUR ABSOLUT, KETIKKAN 'default' UNTUK MENGEMBALIKAN FOLDER DEFAULT, \u000A   ATAU TEKAN <ENTER> UNTUK MENERIMA FOLDER TERPILIH
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Folder Pemasangan Default: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Folder Pemasangan yang Terpilih: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=FOLDER PEMASANGAN ADALAH: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Jalur yang diberikan: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=menuju ke file yang telah ada pada sistem target. \u000APemasang ini tidak dapat menggantikan file yang sudah ada dengan folder baru. \u000ASilakan pilih lokasi pemasangan lain.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Anda tidak memiliki izin untuk menulis pada tujuan pemasangan terpilih. \u000ASilakan pilih lokasi pemasangan lain.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Di manakah Anda Ingin Memasang?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Salah!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Anda tidak memiliki izin untuk menulis pada tujuan pemasangan terpilih. \u000ASilakan pilih lokasi pemasangan lain.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Pilih Folder Pemasangan
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Jalur yang ditetapkan sebagai tujuan penginstalan memiliki satu karakter atau lebih yang tidak valid untuk platform ini. \u000A Pilihlah lokasi yang lain untuk penginstalan.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=&Pilih...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=&Kembalikan Folder Default
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=di dalam
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl= folder tersebut
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=pada disk
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=pasang
+
+# ....................... =Introduction
+Installer.installLabels.00=Pendahuluan
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Pilih Folder Pemasangan
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Pilih Folder $SHORTCUT_NAME$
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Ringkasan Pra-Pemasangan
+
+# ....................... =Installing...
+Installer.installLabels.04=Sedang memasang...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Pemasangan Selesai
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Pemasang Tidak Dapat Dijalankan Pada Sistem ini.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Pemasang tidak dapat dijalankan pada konfigurasi Anda. Kini pemasang akan ditutup.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Moda User Interface Pemasang Tidak Didukung
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Pemasang tidak dapat dijalankan dalam moda ini. Pelajari dokumentasi pemasang ini untuk mengetahui bagaimana menjalankan pemasang.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Kesalahan Mode UI Pemasang
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Batal-Pasang $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Selamat! $PRODUCT_NAME$ sudah berhasil dipasang pada:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000ATekan "Selesai" untuk keluar dari pemasang.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=Pemasangan $PRODUCT_NAME$ sudah selesai, namun ada beberapa peringatan.yang terjadi selama proses pemasangan. Silakan lihat catatan pemasangan untuk rinciannya.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=Pemasangan $PRODUCT_NAME$ sudah selesai, namun ada beberapa kesalahan.yang terjadi selama proses pemasangan. Silakan lihat catatan pemasangan untuk rinciannya.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=Pemasangan $PRODUCT_NAME$ sudah selesai, namun ada beberapa kesalahan serius yang terjadi selama proses pemasangan. Silakan lihat catatan pemasangan untuk rinciannya.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Anda harus me-restart sistem untuk menyelesaikan pemasangan.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Anda perlu me-restart sistem untuk menyelesaikan pemasangan.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Pemasangan Lengkap
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Ya, lakukan restart sistem.
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Tidak, saya akan melakukan sendiri restart sistem 
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Sedang memasang...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Sedang membatalkan pemasangan...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Sedang memasang...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Ringkasan Pra-Pemasangan
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Tinjaulah Hal Berikut Sebelum Melanjutkan:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Ringkasan Pra-Pemasangan
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=TEKAN <ENTER> UNTUK MELANJUTKAN. APABILA INFORMASI INI TIDAK BENAR, KETIKKAN "KEMBALI" UNTUK MELAKUKAN PERUBAHAN\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Nama Produk:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Folder Pemasangan:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Folder Pintasan:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Folder Link:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Folder Alias:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Set Pemasangan Sesuai Kehendak Pengguna
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Set Pemasangan
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Komponen  Produk:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Folder Pemasangan Java VM:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Java VM yang akan Dipakai oleh Produk Terpasang:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Informasi Ruang Disk (untuk Target Pemasangan): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Disyaratkan:
+
+# .................. =bytes
+InstallSummaryUI.byte=bytes
+
+# ....................... =Available:
+InstallSummaryUI.available=Tersedia:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Pilih opsi ini untuk memodifikasi fitur-fitur yang hendak dipasang sesuai dengan kebutuhan.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Sesuai Kebutuhan
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Hanya fitur-fitur aplikasi yang dibutuhkan yang akan dipasang. Pilihan ini hanya disarankan bagi pengguna yang mempunyai ruang disk terbatas.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Minimal
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=Fitur-fitur aplikasi yang paling umum akan dipasang. Pilihan ini disarankan bagi kebanyakan pengguna.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Biasa
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere akan membimbing Anda selama pemasangan $PRODUCT_NAME$. \u000A\u000ASangat dianjurkan agar Anda keluar dari semua program sebelum melanjutkan pemasangan ini. \u000A\u000AKlik tombol 'Berikutnya' untuk melanjutkan ke layar berikutnya. Apabila Anda ingin mengubah sesuatu pada layar sebelumnya, klik 'Sebelumnya'. \u000A\u000AAnda dapat membatalkan pemasangan ini pada setiap saat dengan mengklik 'Batal'.
+
+# .................. =Introduction
+IntroAction.stepTitle=Pendahuluan
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere akan membimbing Anda selama pemasangan $PRODUCT_NAME$. \u000A\u000ASangat dianjurkan agar Anda keluar dari semua program sebelum melanjutkan pemasangan ini. \u000A\u000ATanggapi setiap perintah untuk melanjutkan ke langkah berikutnya dalam pemasangan ini. Apabila Anda ingin mengubah sesuatu pada langkah sebelumnya, ketikkan 'kembali'. \u000A\u000AAnda dapat membatalkan pemasangan ini pada setiap saat dengan mengetikkan 'berhenti'.
+
+# ..................... =Introduction
+IntroActionConsole.title=Pendahuluan
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Tidak dapat membuka URL dalam Browser Web
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere tidak dapat membuka URL yang diminta ($ACTION_URL$) dalam penjelajah default web pada sistem Anda. Untuk menampilkan URL ini, ketikkan alamat yang tercantum di atas pada penjelajah web pilihan Anda.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Perjanjian Lisensi
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=Pemasangan dan Penggunaan $PRODUCT_NAME$ Mensyaratkan Penerimaan Perjanjian Lisensi Berikut ini:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Perjanjian Lisensi
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=Pemasangan dan penggunaan $PRODUCT_NAME$ mensyaratkan penerimaan Perjanjian Lisensi berikut ini:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=APAKAH ANDA MENERIMA PERSYARATAN DALAM PERJANJIAN LISENSI INI?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Berhenti
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Lanjutkan
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Peringatan Perjanjian Lisensi
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Peringatan!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Apabila Anda tidak bersedia menerima persyaratan dalam Perjanjian Lisensi, Anda tidak diperbolehkan melanjutkan pemasangan ini.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=Sa&ya TIDAK bersedia menerima persyaratan dalam Perjanjian Lisensi
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Tidak ada file yang ditemukan untuk ditinjau
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=S&aya menerima persyaratan dalam Perjanjian Lisensi
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Tidak ada File yang Dipilih
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=TEKAN <ENTER> UNTUK MENERIMA HAL BERIKUT
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=MASUKKAN ANGKA UNTUK PILIHAN YANG DIKEHENDAKI , ATAU TEKAN <ENTER> UNTUK MENERIMA DEFAULT
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Batal
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Rincian...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=InstallAnywhere kini siap untuk memasang $PRODUCT_NAME$ ke dalam sistem Anda pada lokasi ini:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=TEKAN <ENTER> UNTUK MEMASANG
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Siap Memasang
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere sedang melakukan penyelesaian akhir. Silakan tunggu...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Sedang membersihkan...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Pemasangan ini memerlukan nomor seri untuk melanjutkan.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=T&uliskan Nomor Seri:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Tuliskan Nomor Seri
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Salah!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Nomor seri yang Anda masukkan tidak benar. Silakan coba lagi.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Tuliskan Nomor Seri
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Nomor Seri diperlukan untuk melanjutkan.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Pemasangan ini memerlukan nomor seri untuk melanjutkan.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Nomor seri yang Anda masukkan tidak benar. Silakan coba lagi.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Tuliskan Nomor Seri:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Nomor Seri diperlukan untuk melanjutkan.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Tuliskan Nomor Seri
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Alias
+
+#............... =Link
+ShortcutName.link=Link
+
+#................... =Shortcut
+ShortcutName.shortcut=Pintasan
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Di manakah Anda ingin membuat alias?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Pilih Folder Alias
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Pilih Folder Link
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Di manakah Anda ingin membuat link?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Di manakah Anda ingin membuat ikon produk?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Pilih Folder Pintasan
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Kelompok Umum
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Kelompok Pengguna Saat Ini
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=dalam folder tersebut
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=pada disk
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Default: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Saat ini: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Pilih lokasi lain...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=MASUKKAN ANGKA DARI PILIHAN DI ATAS, ATAU TEKAN <ENTER> UNTUK MENERIMA DEFAULT\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=MASUKKAN ANGKA DARI PILIHAN DI ATAS, ATAU TEKAN <ENTER> UNTUK MENERIMA \u000A   PILIHAN SAAT INI
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=MASUKKAN JALUR ABSOLUT MENUJU KE DIREKTORI PINTASAN\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=DIREKTORI  PINTASAN IALAH: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Pilih Lokasi Link
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Di manakah Anda ingin membuat link?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Pilih Lokasi Pintasan
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Di manakah Anda ingin membuat ikon produk?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Pilih Lokasi Alias
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Di manakah Anda  ingin membuat alias?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=Dalam Menu Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Dalam Dock
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=Pada Desktop
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Jangan membuat alias
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Lainnya:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Jangan membuat link
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Jangan membuat ikon
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Dalam folder induk Anda
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=Pada Desktop
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=Dalam Kelompok Program baru:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=Dalam Kelompok Program yang telah ada:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=Dalam &Quick Launch Bar
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=Dalam Menu Start
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Buat ikon untuk semua pengguna
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Salah!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Anda tidak memiliki izin menulis pada tujuan terpilih ini. Silakan pilih lokasi pemasangan yang berbeda.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=Dalam Menu &Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=Dalam Doc&k
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=Pada &Desktop
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=Pada &Desktop
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Pilih...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Jangan membuat alias
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=&Lainnya:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=&Jangan membuat link
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=&Jangan membuat ikon
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=Dalam &folder induk Anda
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=Pada &Desktop
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=Dalam Kelompok &Program baru:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=Dalam Kelompok Program &yang telah ada:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=D&alam Menu Start
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Buat &Ikon untuk Semua Pengguna
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Batal
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Rincian...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Tanggal:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Identitas Lisensi:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Versi Skrip:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Versi:
+
+# ............... =Done
+StepMaster.doneStr=S&elesai
+
+# ............... =Cancel
+StepMaster.exitStr=Ba&tal
+
+# ............... =Help
+StepMaster.helpStr=Ba&ntuan
+
+# .................. =Install
+StepMaster.installStr=&Pasang
+
+# ............... =Next
+StepMaster.nextStr=&Berikutnya
+
+# ............... =Previous
+StepMaster.prevStr=&Sebelumnya
+
+# ............... =Close
+StepMaster.closeStr=Tutup
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Semua item telah berhasil dibatalkan pemasangannya.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Batal-Pasang Lengkap
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Hal-hal berikut ini tidak dapat dihapus:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Tidak dapat menghapus
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Anda perlu me-restart sistem untuk menyelesaikan pembatalan pemasangan.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Anda harus me-restart sistem untuk menyelesaikan pembatalan pemasangan.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Anda juga perlu me-restart sistem untuk menyelesaikan pembatalan pemasangan.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Anda juga harus me-restart sistem untuk menyelesaikan pembatalan pemasangan.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Ya, lakukan restart sistem.
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Tidak, saya akan melakukan sendiri restart sistem 
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Semua item telah berhasil dibatalkan pemasangannya.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Batal Pasang Lengkap
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Hal-hal berikut ini tidak dapat dihapus:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Anda perlu me-restart sistem untuk menyelesaikan pembatalan pemasangan.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Anda harus me-restart sistem untuk menyelesaikan pembatalan pemasangan.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Batal-Pasang Lengkap
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Semua item telah berhasil dibatalkan pemasangannya.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Beberapa item tidak dapat dihapus.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Pembatalan pemasangan tidak dapat diselesaikan karena terjadi kesalahan.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Batal-Pasang $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=Pembatal-Pemasangan InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Pendahuluan
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Sedang Batal-Pasang...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Batal-Pasang Lengkap
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Segera membatalkan pemasangan... \u000A\u000A$PRODUCT_NAME$\u000A\u000AIni akan sepenuhnya menghapus semua fitur yang dipasang oleh InstallAnywhere. Ini tidak akan menghapus file dan folder yang dibuat setelah pemasangan.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Batal-Pasang $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Segera membatalkan pemasangan... \u000A\u000A$PRODUCT_NAME$\u000A\u000AIni akan sepenuhnya menghapus semua fitur yang dipasang oleh InstallAnywhere. Ini tidak akan menghapus file dan folder yang dibuat setelah pemasangan.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Batal-Pasang $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Batal
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Berhenti
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Bantuan
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=Batal-&Pasang
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Ada tindakan yang tidak dapat dibatalkan karena tidak didukung.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Sedang membersihkan...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Paket Native...
+
+# ............... =Files...
+UninstallMgr.Files=File...
+
+# ................. =Folders...
+UninstallMgr.Folders=Folder...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Link...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Alias...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Pintasan...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Produk tidak dapat dibatalkan pemasangannya karena pada sistem ini tidak ada lagi Java virtual machine yang sesuai. Silakan pasang Java virtual machine, kemudian coba lagi.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 folder
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Sedang menyiapkan...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Pangkalan-data Perangkat Lunak...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Pendaftaran...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 folder
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Tidak dapat membersihkan
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Tidak dapat menghapus paket native
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Tidak dapat menghapus file
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Tidak dapat menghapus direktori
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Tidak dapat membuang fitur Java VM
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Tidak dapat menghapus link
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Tidak dapat menghapus alias
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Tidak dapat menghapus pintasan
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Tidak dapat
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Tidak dapat menghapus 1 file
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Tidak dapat menghapus 2 file
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Tidak dapat menghapus pangkalan-data perangkat lunak
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Tidak dapat menghapus kunci pendaftaran
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Diperlukan Restart Sistem
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Tidak disarankan untuk menjalankan pembatal-pemasangan jika sistem belum di-restart. Klik \"Batal\" untuk keluar dari pembatal-pemasangan, atau\"Lanjutkan\" untuk melanjutkan pembatalan pemasangan.
+
+# ................ =Continue
+UninstallRestart.continue=Lanjutkan
+
+# ................ =Cancel
+UninstallRestart.exit=Batal
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Silakan tunggu ketika pembatal-pemasangan InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=menghapus fitur-fitur berikut...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Melaksanakan Custom Code...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Melaksanakan...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Melaksanakan Skrip Pemasangan...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Pasang Merge Module
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Memasang Merge Module
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Memasang Paket Native
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=berhenti
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=TEKAN <ENTER> UNTUK MEMULAI BATAL-PASANG, ATAU 'BERHENTI' UNTUK KELUAR DARI PEMBATAL-PEMASANGAN:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=TEKAN <ENTER> UNTUK KELUAR DARI PEMBATAL-PEMASANGAN:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Salin file
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Salin folder
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Buat link
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Buat pintasan
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Buat alias
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Buat folder
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Buat LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Hapus file
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Hapus folder
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Perluas archive
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Pasang SpeedFolder
+
+InstallRPMPackage.visualname.self=Pasang Linux RPM
+InstallSolarisPackage.visualname.self=Pasang Paket Solaris 
+InstallHPUXPackage.visualname.self=Pasang HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Pindahkan file
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Pindahkan folder
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Daftarkan Windows Service
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Tetapkan System Environment Variable
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Tetapkan Windows Registry
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Laksanakan Skrip ANT
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Laksanakan Command
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Laksanakan Custom Code
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Laksanakan Skrip
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Laksanakan File Target
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Cari Komponen dalam Registry
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Dapatkan  Entri Windows Registry 
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Ubah File Teks
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Lakukan Transformasi XSL
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Informasi Output Debug
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Output Text ke Console
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Tampilkan  Dialog Pesan 
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Mulai Windows Service
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Hentikan Windows Service
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Hentikan Sementara Windows Service
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Menjelajah untuk mencari Folder
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Pasang Merge Module
+Designer.Action.PowerUpdateClient.visualName=Pasang PowerUpdate Client
+Designer.Action.PerformXSLTZip.visualName=Lakukan Transformasi XSL  - Dalam Archive
+Designer.Action.PerformXSLT.visualName=Lakukan Transformasi XSL
+Designer.Action.PerformXSLT.performingXSLtransform=Melakukan Transformasi XSL:
+Designer.Action.MakeExecutable.visualName=Buat LaunchAnywhere untuk Aplikasi Java 
+Designer.Action.InstallZipfile.visualName=Pasang Archive
+Designer.Action.CreateUninstaller.visualName=Buat Pembatal-Pemasangan 
+Designer.Action.BOMAction.visualName=Pasang dari Manifest
+Designer.Action.ExpandArchive.visualName=Perluas Archive
+Designer.Action.ExecuteScript.visualName=Jalankan file Script/Batch 
+Designer.Action.Exec.visualName=Laksanakan Command
+Designer.Action.visualName=Laksanakan File Target
+Designer.Action.AntRunner.visualName=Laksanakan Skrip ANT
+Designer.Actions.ShowDialogAction.visualName=Tampilkan  Dialog Pesan 
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Tindakan Pasca-Penghapusan Instalasi
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Tindakan Pra-Penghapusan Instalasi
+
+Designer.Action.EvaluateDependenciesAction.visualName=Evaluasi Ketergantungan
+
+ActionGroup.visualName.self=Grup Tindakan
+
+Designer.Action.UpdateServiceClient.visualName=Integrasikan dengan Layanan Pembaruan
+Designer.FolderConstants.programsDir64Name=Folder Program (64-bit)
+Designer.FolderConstants.programsDir32Name=Folder Program (32-bit)
+Designer.FolderConstants.system64Name=Folder Sistem (64-bit)
+Designer.FolderConstants.system32Name=Folder Sistem (32-bit)
+Designer.FolderConstants.variableMagicFolder=Folder Magis Variabel
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# URL untuk memuatkan us.jar tidak benar.
+Installer.Actions.UpdateServiceClient.badUsJar=Perpustakaan #UPDATE_SERVICE# tidak mengandung kelas yang diperlukan untuk registrasi.  Jar yang disediakan mungkin tidak benar.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=Kelas #UPDATE_SERVICE# tidak mengandung metode yang diperlukan untuk registrasi.
+Installer.installLog.actionNotes=Catatan Tindakan:
+Installer.installLog.installLogDetail=Rincian Log Penginstalan:
+Installer.installLog.installation=Penginstalan: 
+Installer.installLog.unsuccessful=Tidak berhasil.
+Installer.installLog.successful=Berhasil
+Installer.installLog.withErrors=dengan kesalahan.
+Installer.installLog.withwarnings=dengan peringatan.
+Installer.installLog.cancelled=Dibatakan
+Installer.installLog.duringPostInstall=sewaktu pasca-penginstalan
+Installer.installLog.duringInstall=sewaktu penginstalan
+Installer.installLog.duringPreInstall=sewaktu pra-penginstalan
+Installer.installLog.cancelledBeforePreInstallation=PENGINSTALAN DIBATALKAN OLEH PENGGUNA SEBELUM PRA-PENGINSTALAN
+Installer.installLog.cancelledDuringPreInstallation=PENGINSTALAN DIBATALKAN OLEH PENGGUNA SEWAKTU PRA-PENGINSTALAN
+Installer.installLog.cancelledDuringInstallation=PENGINSTALAN DIBATALKAN OLEH PENGGUNA SEWAKTU PENGINSTALAN
+Installer.InstallLog.cancelledDuringPostInstallation=PENGINSTALAN DIBATALKAN OLEH PENGGUNA SETELAH PENGINSTALAN ATAU SEWAKTU PASCA-PENGINSTALAN
+Installer.installLog.successes=Keberhasilan
+Installer.installLog.warnings=Peringatan
+Installer.installLog.nonFatalErrors=ErorNonFatal
+Installer.installLog.fatalErrors=ErorFatal
+Installer.installLog.details=Rincian
+Installer.installLog.nothingWasInstalled=Tidak ada yang diinstal.
+Installer.installLog.none=Tidak Ada
+Installer.installLog.summary=Ringkasan
+Installer.installLog.installedBy=Diinstal oleh InstallAnywhere #BUILD_INFO#, dari Macrovision
+Installer.installLog.status=Status: 
+Installer.installLog.additionalNotes=Catatan Tambahan: 
+Installer.installLog.exceptionClass=Golongan Pengecualian: 
+Installer.installLog.exceptionMessage=Pesan Pengecualian: 
+Installer.installLog.exceptionStackTrace=Penelusuran Tumpukan Pengecualian:
+Installer.installLog.successLevel.successful=BERHASIL
+Installer.installLog.successLevel.warning=PERINGATAN
+Installer.installLog.successLevel.error=EROR
+Installer.installLog.successLevel.fatalError=EROR FATAL
+Installer.installLog.successLevel.unsupported=LEVEL EROR TIDAK DIDUKUNG
+Installer.installLog.successLevel.notice=CATATAN
+Installer.installLog.action.description=Tindakan Penginstalan:
+Installer.installLog.antRunner.description=Laksanakan Skrip ANT:
+Installer.installLog.antRunner.script=Scrip: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Tidak Ada Target Yang Dipilih
+Installer.installLog.asciiFileManipulator.newFile=File Baru 
+Installer.installLog.copyDirectory.description=Direktori Salin:
+Installer.installLog.copyFile=Salin File:
+Installer.installLog.copyFileAction.destination=Tujuan: 
+Installer.installLog.createShortcut.createShortcut=Buat Pintasan:
+Installer.installLog.createShortcut.createAlias=Buat Alias:
+Installer.installLog.createShortcut.createLink=Buat Link:
+Installer.installLog.deleteFileAction.source=Sumber:
+Installer.installLog.editEnvironment.description=Tetapkan Variabel Lingkungan:
+Installer.installLog.expandFile.description=Perluas Arsip:
+Installer.installLog.getRegEntry.description=Dapatkan Entri Registry:
+Installer.installLog.getRegEntry.key=Kunci: 
+Installer.installLog.getRegEntry.value=Nama Nilai: 
+Installer.installLog.installDirCont.description=SpeedFolder Penginstalan:
+Installer.installLog.installDirectory.description=Direktori Penginstalan:
+Installer.installLog.installFile.description=File Penginstalan:
+Installer.installLog.installNTService.description=Daftarkan Layanan NT:
+Installer.installLog.installUninstaller.description=Instal Penghapus-Intalasi:
+Installer.installLog.installUninstaller.note=(Instal Semua Komponen Penghapus-Instalasi)
+Installer.installLog.makeExecutable.description=Buat LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(Instal Semua Komponen LaunchAnywhere yang Dapat Dijalankan Java)
+Installer.installLog.makeRegEntry.description=Buat Entri Registry:
+Installer.installLog.makeRegEntry.key=Kunci:
+Installer.installLog.makeRegEntry.name=Nama Nilai:
+Installer.installLog.makeRegEntry.data=Data Nilai:
+Installer.installLog.speedRegistry.description=Entri Registry:
+Installer.installLog.subinstaller.description=Instal Merge Module:
+Installer.installLog.subuninstaller.description=Jalankan Penghapus-Instalasi:
+Installer.installLog.customAction.description=Tindakan Kustom:
+Installer.installLog.userInteractions=Interaksi Pengguna
+Installer.installLog.installBegin=Penginstalan Dimulai:
+Installer.installLog.installEnd=Penginstalan Berakhir:
+Installer.installLog.freeMemory=Memori Bebas:
+Installer.installLog.totalMemory=Total Memori:
+Installer.installLog.commandLineArgs=Argumen Baris Perintah:
+Installer.installLog.noArguments=Tidak Ada Argumen
+Designer.Action.HTMLPanelAction.visualName=Panel: Tampilkan HTML
+Designer.Action.UninstallIsmpSoftware.visualName=Batalkan Pemasangan Perangkat Lunak Universal InstallShield
+HTMLPanelAction.title=Panel HTML
+Installer.unexpectedChanges.message=Installer menemukan perubahan yang tak diperkirakan dalam skrip penginstalan.
+﻿Installer.unexpectedChanges.title=Eror
+Installer.unexpectedChanges.label=Tidak dapat meluncurkan installer.

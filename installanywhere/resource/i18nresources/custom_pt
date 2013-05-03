@@ -1,0 +1,2008 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Desinstalação Concluída
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Remova completamente todas as propriedades e componentes do $PRODUCT_NAME$ instalados pelo InstallAnywhere. Os ficheiros e pastas criados após a instalação não serão afectados.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Desinstalar propriedades específicas
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Escolha, para desinstalar, recursos específicos do $PRODUCT_NAME$ instalados pelo InstallAnywhere.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Seleccione uma das seguintes opções:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Opções de desinstalação
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Desinstale
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Remova completamente todas propriedades e componentes.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Escolha recursos específicos instalados pelo InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Escolha uma das seguintes opções:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Opções de desinstalação
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=INTRODUZA O NÚMERO REFERENTE À SUA ESCOLHA OU PRIMA <ENTER> PARA ACEITAR A PREDEFINIÇÃO:
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Não existe espaço em disco suficiente para continuar a instalação.
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=mas só existem XXX MB disponíveis em:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Esta instalação necessita de XXX MB de espaço em disco livre,
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=Caso contrário, pode escolher 'Cancelar' para cancelar esta instalação.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Liberte pelo menos XXX MB para continuar a instalação.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Liberte algum espaço em disco para continuar a instalação.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Faça clique sobre 'Instalar' para continuar a instalação.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Pronto a Continuar
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Não Existe Espaço em Disco Suficiente
+
+# ................... =Warning!
+CheckDiskSpace.warning=Aviso!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=PRIMA <ENTER> PARA RECALCULAR O ESPAÇO EM DISCO DISPONÍVEL, OU DIGITE 'sair' PARA SAIR DO PROGRAMA DE INSTALAÇÃO
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Não existe espaço em disco suficiente para efectuar esta instalação. \u000A   Liberte algum espaço em disco e volte a executar este programa de instalação...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=PRIMA <ENTER> PARA INICIAR A INSTALAÇÃO
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Aviso!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Esta instalação necessita de XXX MB de espaço em disco livre,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=mas só existem XXX MB disponíveis em:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Liberte pelo menos XXX MB para continuar a instalação.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Liberte algum espaço em disco para continuar a instalação.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=Não existe espaço em disco suficiente para continuar a instalação.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Não Existe Espaço em Disco Suficiente
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Escolha um ficheiro.
+
+# ................. =Choose...
+ChooseFile.chooseStr=Esc&olha...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=&Escolha um Ficheiro:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=&Restaurar Ficheiro Predefinido
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Escolha um Ficheiro
+
+# .................... =in the folder
+ChooseFile.macInsideStr=na pasta
+
+# ................ =on the disk
+ChooseFile.macOnStr=no disco
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Escolha uma pasta.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=Esc&olha...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=&Escolha uma Pasta:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=&Restaura Pasta Predefinida
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Escolha uma Pasta
+
+# .................. =on the disk
+ChooseFolder.macOnStr=no disco
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Erro!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Não possui permissões escritas para a pasta escolhida. Escolha uma pasta diferente.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Escolha a Pasta
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Escolher parâmetro de instalação
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Escolher parâmetro de instalação
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Escolha Propriedades do Produto
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Escolha o parâmetro de instalação a ser instalado por este programa de instalação.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=INTRODUZA O NÚMERO PARA O PARÂMETRO DA INSTALAÇÃO, OU PRIMA <ENTER> PARA ACEITAR A PREDEFINIÇÃO\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Escolha as Propriedades a serem instaladas por este programa de instalação.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=INTRODUZA UMA LISTA DE NÚMEROS SEPARADOS POR VÍRGULAS REPRESENTANDO AS PROPRIEDADES\u000A A INSTALAR
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Escolher parâmetro de instalação
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Personalizar
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Erro ao definir as propriedades do produto para instalação.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Escolha uma MV Java para Utilização da Aplicação Instalada
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Escolha a Máquina Virtual Java
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=O caminho fornecido não indica uma Máquina Virtual Java válida. Escolha novamente.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Escolha uma MV Java para Utilização da Aplicação Instalada
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Escolha a Máquina Virtual Java
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=INTRODUZA O NÚMERO PARA A MV JAVA, OU PRIMA <ENTER> PARA ACEITAR A SELECÇÃO ACTUAL
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=INTRODUZA O CAMINHO DEFINITIVO PARA A MV JAVA EXECUTÁVEL À SUA ESCOLHA   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=O CAMINHO PARA JAVA EXECUTÁVEL É:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Impossível instalar a Máquina Virtual Java incluída neste programa de instalação.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Instale uma MV Java especificamente para esta aplicação
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Escolha uma MV Java já instalada neste sistema
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=&Escolha Outra...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Abrir
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Instale uma MV Java especificamente para esta aplicação
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Ambiente de Tempo de Execução do Java
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=A Procura Em: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Pa&rar a Procura
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=P&rocurar Outros
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Procura concluída.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Escolha uma MV Java já instalada neste sistema
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Erro!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=A aplicação seleccionada não é uma Máquina Virtual Java válida.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Escolha a MV Java
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Erro: Não foi possível encontrar Máquinas Virtuais Java adequadas.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Este produto requer que uma Máquina Virtual Java já esteja instalada no seu sistema. Consulte <http://java.sun.com> para transferir uma máquina virtual para a sua plataforma.
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Escolha a MV Java
+
+
+ChooseSCMFeaturesConsole.visualName=Escolher os recursos opcionais de SCM
+ChooseSCMFeaturesConsole.title=Escolher os recursos opcionais de SCM
+ChooseSCMFeaturesConsole.instructions=Escolher as instruções para os recursos de SCM
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=PRIMA <ENTER> PARA CONTINUAR
+
+# ................. =Y
+ConsoleUtils.yesChar=S
+
+# ................ =N
+ConsoleUtils.noChar=N
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=ESTÁ CORRECTO?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Um dos valores fornecidos não é válido. Escolha novamente.
+
+#............... =back
+ConsoleUtils.back=recuar
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Deselecione itens que voce deseja desinstalar. Itens selecionados se manterão instalados.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Selecione itens que voce deseja desinstalar. Itens deselecionados se manterão instalados.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Escolha Propriedades do Produto
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Escolha as Propriedades a serem instaladas por este programa de instalação.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Deselecione itens que voce deseja desinstalar. Itens selecionados se manterão instalados.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Selecione itens que voce deseja desinstalar. Itens não selecionados continuarão instalados.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Escolha Propriedades do Produto
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=INTRODUZA UMA LISTA DE NÚMEROS SEPARADOS POR VÍRGULAS, REPRESENTANDO AS PROPRIEDADES QUE GOSTARIA DE SELECCIONAR OU AQUELES CUJA SELECÇÃO GOSTARIA DE CANCELAR. PARA VER A DESCRIÇÃO DE UMA PROPRIEDADE, INTRODUZA '?<NÚMERO>'. PRIMA <RETURN> QUANDO TERMINAR:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Parâmetro de instalação
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Escolha Propriedades do Produto
+
+#............................... =Description
+CustomizeBundlesPanel.description=Descrição
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Espaço Total Necessário para a Instalação:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Introduza novo meio
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Introduza #NAME# ou Seleccione 'Procurar...'  para localizar manualmente.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Volume do meio incorrecto
+# .................... =Browse
+DiskNeededDialog.locate=Procurar
+
+# .................. =Cancel
+DiskNeededDialog.quit=Cancelar
+
+# ...................... =OK
+DiskNeededDialog.continue=OK
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Introduza novo meio
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Introduza o #NAME# ou escolha o caminho manualmente.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Introduza #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Disco esperado em: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Introduza o #NAME# ou digite a sua localização.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=OK, XXX foi introduzido.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Seleccione o caminho para os dados do programa de instalação.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Cancelar e sair da instalação.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=INTRODUZA A ESCOLHA 
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=INTRODUZA O CAMINHO PARA A PASTA 'INSTALLERDATA' NO DISCO
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=O ambiente do seu sistema mudou. Necessita de sair da sessão ou reinicializar o seu sistema para que estas alterações tenham efeito.
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Ambiente do Sistema Alterado
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Sair
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Instalação Não Concluída
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Desinstalação Não Concluída
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Se cancelar a instalação agora, o $PRODUCT_NAME$ não será instalado. Para continuar a instalação, faça clique sobre 'Continuar'. Para cancelar a instalação, faça clique sobre 'sair'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Se cancelar a desinstalação agora, o $PRODUCT_NAME$ não será instalado. Para continuar a desinstalação, faça clique sobre 'Continuar'. Para cancelar a desinstalação, faça clique sobre 'sair'.
+
+# .......... =Resume
+ExitDialog.ok=Continuar
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Cancelar a desinstalação
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Cancelar Instalação
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Sim para tudo
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Não para tudo
+
+# ....................... =Yes
+FileAlreadyExists.yes=Sim
+
+# ....................... =No
+FileAlreadyExists.no=Não
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Gravar sobre o ficheiro existente?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Um ficheiro chamado \"XXX\" já existe em \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Um ficheiro mais novo chamado \"XXX\" já existe em \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Um ficheiro mais antigo chamado \"XXX\" já existe em \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Quer gravar sobre o ficheiro existente?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=&Escolha um Ficheiro/Pasta:
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Escolher
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Estão a Ser Adicionados Ficheiros na Lista Abaixo.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=Os Ficheiros Encontrados estão Listados Abaixo.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Estão a Ser Adicionadas Pastas na Lista Abaixo.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=As Pastas Encontradas estão Listadas Abaixo.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Foram Encontrados Ficheiros Correspondentes:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Foram Encontradas Pastas Correspondentes:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Encontrado Em:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=Esc&olha Outra...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=A Procurar Em:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Faça a sua própria selecção.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=A Procurar Ficheiros Correspondentes:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=A Procurar Pastas Correspondentes:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=A procurar
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Seleccione
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=O Programa de Instalação Não Encontrou uma Correspondência para:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Seleccionado:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Seleccione uma Pasta
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Cancelar
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Crie uma Nova Pasta
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Pasta:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Nome:
+
+# ..................... =OK
+FolderSelectDialog.okStr=OK
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=ESTÁ CORRECTO?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=PRIMA <ENTER> PARA CONTINUAR
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Erro:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Espere, o $PRODUCT_NAME$ está a ser configurado para o seu sistema. Pode demorar um pouco...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Espere
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=É necessário uma palavra-passe para continuar a instalação.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=&Introduza a Palavra-passe:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Introduza a Palavra-passe
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Erro!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=A palavra-passe que introduziu está incorrecta. Tente novamente.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Introduza a Palavra-passe
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=OK
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=É necessária a Palavra-passe para continuar.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=É necessário uma palavra-passe para continuar a instalação.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=A palavra-passe que introduziu está incorrecta. Tente novamente.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Introduza a Palavra-passe:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=É necessária a Palavra-passe para continuar.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Introduza a Palavra-passe
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=INTRODUZA UMA LISTA DE NÚMEROS SEPARADOS POR VÍRGULAS, REPRESENTANDO AS OPÇÕES DESEJADAS
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=INTRODUZA UMA LISTA DE NÚMEROS SEPARADOS POR VÍRGULAS, REPRESENTANDO AS ESCOLHAS DESEJADAS OU PRIMA <ENTER> PARA ACEITAR A PREDEFINIÇÃO
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=INTRODUZA O NÚMERO REFERENTE À ESCOLHA DESEJADA
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=INTRODUZA O NÚMERO REFERENTE À SUA ESCOLHA OU PRIMA <ENTER> PARA ACEITAR A PREDEFINIÇÃO:
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Desta vez não pode sair do programa de instalação.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Desta vez não pode ir para o passo anterior.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Informação Importante
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Leia Antes de Continuar:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=INFORMAÇÃO IMPORTANTE TERMINADA. PRIMA <ENTER> PARA CONTINUAR
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Informação Importante
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Leia Antes de Continuar:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Aplicação
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Instala a propriedade da aplicação.
+
+# .......................... =Help
+InstallBundle.help.bundleName=Ajuda
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Instala a propriedade de ajuda.
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Parabéns! O $PRODUCT_NAME$ foi instalado com êxito em:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000APrima "Concluído" para sair do programa de instalação.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Instalação Concluída
+InstallCompleteAction.stepTitle=Instalação Concluída
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=A instalação do $PRODUCT_NAME$ foi concluída, mas ocorreram alguns erros durante a instalação. \u000A\u000AConsulte os detalhes no registo de instalação. Prima "Concluído" para sair do programa de instalação.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Instalação Concluída
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Instalação Concluída
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Parabéns. O $PRODUCT_NAME$ foi instalado com êxito para:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=PRIMA <ENTER> PARA SAIR DO PROGRAMA DE INSTALAÇÃO
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=A instalação do $PRODUCT_NAME$ foi concluída, mas ocorreram alguns erros durante a instalação. \u000A   Consulte os detalhes no registo de instalação.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=A instalação do $PRODUCT_NAME$ foi concluída, mas ocorreram alguns erros durante a instalação. \u000A   Consulte os detalhes no registo de instalação. Prima "Concluído" para sair do programa de instalação.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=PRIMA <ENTER> PARA SAIR DO PROGRAMA DE INSTALAÇÃO
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Instalação Concluída
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Escolha uma pasta de destino para esta instalação.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Escolha a Pasta de Instalação
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=Ond&e Deseja Instalar?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Escolha a Pasta de Instalação
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=INTRODUZA UM CAMINHO DEFINITIVO, OU PRIMA <ENTER> PARA ACEITAR A PREDEFINIÇÃO\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=INTRODUZA UM CAMINHO DEFINITIVO, DIGITE 'predefinição' PARA RESTAURAR A PASTA PREDEFINIDA \u000A   , OU PRIMA <ENTER> PARA ACEITAR A PASTA ESCOLHIDA
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Pasta de Instalação Predefinida: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Pasta de Instalação Escolhida: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=A PASTA DE INSTALAÇÃO É: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=O caminho fornecido: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=indica um ficheiro que já existe no sistema de destino. \u000AEste programa de instalação não pode substituir um ficheiro existente com uma nova pasta. \u000AEscolha outra localização de instalação.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Não possui permissões escritas para o destino da instalação escolhido. \u000AEscolha uma localização diferente para instalação.
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Onde Deseja Instalar?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Erro!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Não possui permissões escritas para o destino da instalação escolhido. \u000AEscolha uma localização diferente para instalação.
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Escolha a Pasta de Instalação
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=O caminho especificado como destino da instalação tem um ou mais caracteres que são inválidos nesta plataforma.  \u000AEscolha outro local para a instalação.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=Esc&olha...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=&Restaura Pasta Predefinida
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=dentro
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=na pasta
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=no disco
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=instale
+
+# ....................... =Introduction
+Installer.installLabels.00=Introdução
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Escolha a Pasta de Instalação
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Escolha a Pasta $SHORTCUT_NAME$
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Resumo da Pré-Instalação
+
+# ....................... =Installing...
+Installer.installLabels.04=A instalar...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Instalação Concluída
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Não é possível executar o instalador neste sistema.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Não é possível executar o programa de instalação na sua configuração. Irá fechar.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=0 modo de interface de instalador não é suportado
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Não é possível executar o instalador neste modo. Leia a documentação do instalador para saber como executar este instalador.
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Erro no modo de interface de instaldor
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Desinstale $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Parabéns! O $PRODUCT_NAME$ foi instalado com êxito em:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000APrima "Concluído" para sair do programa de instalação.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=A instalação do $PRODUCT_NAME$ está concluída, mas certas advertências ocorreram durante a instalação. Consulte os detalhes no registo de instalação.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=A instalação do $PRODUCT_NAME$ está concluída, mas certos erros ocorreram durante a instalação. Consulte os detalhes no registo de instalação.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=A instalação do $PRODUCT_NAME$ está concluída, mas certos erros sérios ocorreram durante a instalação. Consulte os detalhes no registo de instalação.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=É preciso reiniciar o sistema para concluir a instalação.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=É preciso reiniciar o sistema para concluir a instalação.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Instalação Concluída
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Sim, reiniciar o meu sistema
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Não, eu próprio reiniciarei o sistema
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=A instalar...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=A cancelar a instalação...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=A instalar...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Resumo da Pré-Instalação
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Consulte o Seguinte Antes de Continuar:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Resumo da Pré-Instalação
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=PRIMA <ENTER> PARA CONTINUAR. SE A INFORMAÇÃO NÃO ESTIVER CORRECTA, DIGITE "VOLTAR" PARA EFECTUAR AS ALTERAÇÕES\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Nome do Produto:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Pasta de Instalação:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Pasta do Atalho:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Pasto do Atalho:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Pasta do Atalho:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Parâmetro de instalação personalizado definido pelo utilizador
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Parâmetro de instalação
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Componentes do Produto:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Pasta de Instalação do Java VM:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=MV Java a ser Utilizada pelo Produto Instalado:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Informação sobre o Espaço em Disco (para o Destino da Instalação): 
+
+# ...................... =Required:
+InstallSummaryUI.required=É necessário:
+
+# .................. =bytes
+InstallSummaryUI.byte=bytes
+
+# ....................... =Available:
+InstallSummaryUI.available=Disponível:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Escolha esta opção para personalizar as propriedades a serem instaladas.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Personalizar
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Apenas serão instaladas as propriedades da aplicação necessárias. Esta opção apenas é recomendada para utilizadores com espaço em disco limitado.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Mínimo
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=Serão instaladas as propriedades da aplicação mais comuns. Esta opção é recomendada para a maioria dos utilizadores.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Típico
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=O InstallAnywhere irá guiá-lo pela instalação do $PRODUCT_NAME$. \u000A\u000ARecomenda-se que feche todos os programas antes de continuar com esta instalação. \u000A\u000A Faça clique em 'Seguinte' para passar ao ecrã seguinte. Caso deseje alterar alguma coisa num ecrã anterior, faça clique sobre o botão 'Anterior'. \u000A\u000APode cancelar esta instalação sempre que desejar fazendo clique sobre 'Cancelar'.
+
+# .................. =Introduction
+IntroAction.stepTitle=Introdução
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=O InstallAnywhere irá guiá-lo pela instalação do $PRODUCT_NAME$. \u000A\u000ARecomenda-se que feche todos os programas antes de continuar com esta instalação. \u000A\u000AResponda a cada mensagem para passar ao passo seguinte da instalação. Caso deseje alterar alguma coisa num passo anterior, digite 'voltar'. \u000A\u000APode cancelar esta instalação sempre que desejar digitando 'sair'.
+
+# ..................... =Introduction
+IntroActionConsole.title=Introdução
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Não foi possível abrir a URL no navegador de Web
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=Não foi possível ao InstallAnywhere abrir a URL pedida ($ACTION_URL$) no navegador da Web predefinido do seu sistema. Para ver esta URL, digite o endereço exibido acima no navegador da Web à sua escolha.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Acordo sobre Licenças
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=A Instalação e Utilização do $PRODUCT_NAME$ Necessita da Aceitação do Seguinte Acordo sobre Licenças:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Acordo sobre Licenças
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=A Instalação e Utilização do $PRODUCT_NAME$ Necessita da Aceitação do Seguinte Acordo sobre Licenças:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ACEITA OS TERMOS DESTE ACORDO DE LICENÇAS?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Sair
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Continuar
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Aviso do Acordo sobre Licenças
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Aviso!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Se não aceitar os termos do Acordo de Licenças, não lhe será permitido continuar esta instalação.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=NÃ&O aceito os termos do Acordo de Licenças
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Não foi encontrado nenhum ficheiro para ver antes
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=Ac&eito os termos do Acordo de Licenças
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Nenhum Ficheiro Seleccionado
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=PRIMA <ENTER> PARA ACEITAR O SEGUINTE
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=INTRODUZA O NÚMERO REFERENTE À ESCOLHA DESEJADA OU PRIMA <ENTER> PARA ACEITAR A PREDEFINIÇÃO
+
+# ........................... =OK
+PromptUserConsole.option0Label=OK
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Cancelar
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Detalhes...
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=O InstallAnywhere já está pronto para instalar o $PRODUCT_NAME$ no seu sistema na seguinte localização:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=PRIMA <ENTER> PARA INSTALAR
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Pronto a Instalar
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=O InstallAnywhere está a terminar. Espere...
+
+# ............... =Cleaning up...
+RemoveDialog.title=A limpar...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=É necessário um número de série para continuar a instalação.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=&Introduza o Número de Série:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Introduza o Número de Série
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Erro!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=O número de série que introduziu não está correcto. Tente novamente.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Introduza o Número de Série
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=OK
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=É necessário o Número de Série para continuar.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=É necessário um número de série para continuar a instalação.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=O número de série que introduziu não está correcto. Tente novamente.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Introduza o Número de Série:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=É necessário o Número de Série para continuar.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Introduza o Número de Série
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Atalho
+
+#............... =Link
+ShortcutName.link=Atalho
+
+#................... =Shortcut
+ShortcutName.shortcut=Atalho
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Onde deseja criar atalhos?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Escolha a pasta do atalho
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Escolha a pasta do atalho
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Onde deseja criar atalhos?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Onde deseja criar ícones do produto?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Escolha Localização do Atalho
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Grupos Comuns
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Grupos do Utilizador actuais
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=na pasta
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=no disco
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=Predefinição: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Actual: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Escolha outra localização...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=INTRODUZA O N?MERO DE UMA OPÇÃO ACIMA, OU PRIMA <ENTER> PARA ACEITAR A PREDEFINIÇÃO\u000A   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=INTRODUZA O NÚMERO DE UMA OPÇÃO ACIMA, OU PRIMA <ENTER> PARA ACEITAR A \u000A   SELECÇÃO ACTUAL
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=INTRODUZA O CAMINHO DEFINITIVO PARA A PASTA DE ATALHO\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=A LOCALIZAÇÃO DO ATALHO É: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Escolha Localização do Atalho
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Onde deseja criar atalhos?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Escolha Localização do Atalho
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Onde deseja criar ícones do produto?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Escolha Localização do Atalho
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Onde deseja criar atalhos?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=No Menu Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=Em Ancorar
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=No Ambiente de Trabalho
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Não crie atalhos
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Outro:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Não crie atalhos
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Não crie ícones
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=Na sua pasta principal
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=No Ambiente de Trabalho
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=Num novo Grupo de Programas:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=Num Grupo de Programas existente:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=Na &Barra de Início Rápido
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=No Menu Iniciar
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Crie Ícones para Todos os Utilizadores
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Erro!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Não possui permissões escritas para o destino da instalação escolhido. Escolha uma localização diferente.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=No Menu A&pple
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=E&m Ancorar
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=N&o Ambiente de Trabalho
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=N&o Ambiente de Trabalho
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Escolha...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Não crie atalhos
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=O&utro:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=Não c&rie atalhos
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=Não c&rie ícones
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=&Na sua pasta principal
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=N&o Ambiente de Trabalho
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=Nu&m novo Grupo de Programas:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=Num &Grupo de Programas existente:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=No M&enu Iniciar
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Crie Ícones para &Todos os Utilizadores
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=OK
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Cancelar
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Detalhes...
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Data:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=ID da Licença:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Versão do script:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Versão:
+
+# ............... =Done
+StepMaster.doneStr=C&oncluído
+
+# ............... =Cancel
+StepMaster.exitStr=&Cancelar
+
+# ............... =Help
+StepMaster.helpStr=A&juda
+
+# .................. =Install
+StepMaster.installStr=&instale
+
+# ............... =Next
+StepMaster.nextStr=&Seguinte
+
+# ............... =Previous
+StepMaster.prevStr=&Anterior
+
+# ............... =Close
+StepMaster.closeStr=Fechar
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Todos os itens foram desinstalados com êxito.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Desinstalação Concluída
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Os seguintes itens não puderam ser removidos:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Impossível remover
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=É preciso reiniciar o sistema para concluir a desinstalação.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=É preciso reiniciar o sistema para concluir a desinstalação.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Também é preciso reiniciar o sistema para concluir a desinstalação.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Também é preciso reiniciar o sistema para concluir a desinstalação.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Sim, reiniciar o meu sistema
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Não, eu próprio reiniciarei o sistema
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Todos os itens foram desinstalados com êxito.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Desinstalação Concluída
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Os seguintes itens não puderam ser removidos:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=É preciso reiniciar o sistema para concluir a desinstalação.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=É preciso reiniciar o sistema para concluir a desinstalação.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Desinstalação Concluída
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Todos os itens foram desinstalados com êxito.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Alguns itens não puderam ser removidos.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=A desinstalação não foi concluída devido a um erro.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Desinstale $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=Programa de Desinstalação do InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Introdução
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=A desinstalar...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Desinstalação Concluída
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Prestes a desinstalar... \u000A\u000A$PRODUCT_NAME$\u000A\u000AIsto removerá completamente propriedades instaladas pelo InstallAnywhere. Não removerá ficheiros e pastas criados depois da instalação.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Desinstale $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Prestes a desinstalar... \u000A\u000A$PRODUCT_NAME$\u000A\u000AIsto removerá completamente propriedades instaladas pelo InstallAnywhere. Não removerá ficheiros e pastas criados depois da instalação.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Desinstale $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Cancelar
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Sair
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Ajuda
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Desinstale
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Uma acção não pôde ser anulada porque não estava suportada.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=A limpar...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Pacotes nativos...
+
+# ............... =Files...
+UninstallMgr.Files=Ficheiros...
+
+# ................. =Folders...
+UninstallMgr.Folders=Pastas...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=MV Java...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Atalhos...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Atalhos...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Atalhos...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Não foi possível desinstalar o produto pois já não há mais nenhuma máquina virtual Java adequada no sistema. Instale uma máquina virtual Java e tente novamente.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=1 pasta
+
+# ................... =Preparing...
+UninstallMgr.Preparing=A preparar...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=Base de Dados do Software...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Registo...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=2 pastas
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Impossível limpar
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Impossível remover os pacotes nativos
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Impossível remover ficheiro
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Impossível remover pasta
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Impossível remover a propriedade Java VM
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Impossível remover atalho
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Impossível remover atalhos
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Impossível remover atalho
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Impossível
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Impossível remover 1 ficheiro
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Impossível remover 2 ficheiros
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Impossível remover base de dados do software
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Impossível remover chave de registo
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=É necessário reiniciar o sistema
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Não é recomendável executar o desinstalador antes de reiniciar o sistema. Clique em \"Cancelar\" para sair do desinstalador ou em \"Continuar\" para desinstalar.
+
+# ................ =Continue
+UninstallRestart.continue=Continuar
+
+# ................ =Cancel
+UninstallRestart.exit=Cancelar
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Espere enquanto o programa de desinstalação do InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=remover as seguintes propriedades...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=A executar código personalizado...
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=A executar...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=A executar o script de instalação...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Instalar o módulo de intercalação
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=A instalar o módulo de intercalação
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=A instalar o Pacote Nativo
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=sair
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=PRIMA <ENTER> PARA INICIAR A DESINSTALAÇÃO OU 'SAIR' PARA SAIR DO PROGRAMA DE DESINSTALAÇÃO:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=PRIMA <ENTER> PARA SAIR DO PROGRAMA DE INSTALAÇÃO:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Copiar ficheiro
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Copiar pasta
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Criar atalhos
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Criar atalho
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Criar atalho
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Criar pasta
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Criar LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Eliminar ficheiro
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Eliminar pasta
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Expandir arquivo
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Instalar SpeedFolder
+
+InstallRPMPackage.visualname.self=Instale Linux RPM
+InstallSolarisPackage.visualname.self=Instale o Pacote Solaris
+InstallHPUXPackage.visualname.self=Instale HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Mover ficheiro
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Mover pasta
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Registar serviço do Windows
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Definir variável de ambiente do sistema
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Definir registo do Windows
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Executar script ANT
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Executar comando
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Executar código personalizado
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Executar script
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Executar ficheiro de destino
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Localizar componentes no registo
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Obter entrada de registo do Windows
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Modificar ficheiro de texto
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Executar transformação XSL
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Informações de depuração de saída
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Texto de saída para a consola
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Mostrar caixa de diálogo da mensagem
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Iniciar serviço do Windows Service
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Parar serviço do Windows
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Interromper serviço do Windows
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Procurar Pasta
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Instalar o módulo de intercalação
+Designer.Action.PowerUpdateClient.visualName=Instale PowerUpdate Client
+Designer.Action.PerformXSLTZip.visualName=Executar transformação XSL - No ficheiro
+Designer.Action.PerformXSLT.visualName=Executar transformação XSL
+Designer.Action.PerformXSLT.performingXSLtransform=A executar transformação XSL:
+Designer.Action.MakeExecutable.visualName=Crie LaunchAnywhere para a aplicação Java 
+Designer.Action.InstallZipfile.visualName=Instale arquivo
+Designer.Action.CreateUninstaller.visualName=Crie programa de desinstalação
+Designer.Action.BOMAction.visualName=Instale do Manifest
+Designer.Action.ExpandArchive.visualName=Expand Archive
+Designer.Action.ExecuteScript.visualName=Executar ficheiro de Script/Comandos
+Designer.Action.Exec.visualName=Executar comando
+Designer.Action.visualName=Executar ficheiro de destino
+Designer.Action.AntRunner.visualName=Executar script ANT
+Designer.Actions.ShowDialogAction.visualName=Mostrar caixa de diálogo da mensagem
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Acções pós-desinstalação
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Acções pré-desinstalação
+
+Designer.Action.EvaluateDependenciesAction.visualName=Avaliar as dependências
+
+ActionGroup.visualName.self=Grupo de acções
+Designer.Action.UpdateServiceClient.visualName=Activar notificações de actualizações
+Designer.FolderConstants.programsDir64Name=Pasta de programas (64-bit)
+Designer.FolderConstants.programsDir32Name=Pasta de programas (32-bit)
+Designer.FolderConstants.system64Name=Pasta do sistema (64-bit)
+Designer.FolderConstants.system32Name=Pasta do sistema (32-bit)
+Designer.FolderConstants.variableMagicFolder=Variável do Magic Folder
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# O URL para carregar us.jar está incorrecto.
+Installer.Actions.UpdateServiceClient.badUsJar=A biblioteca #UPDATE_SERVICE# não contém a classe necessária para o registro. O jar fornecido pode estar incorrecto.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=A classe #UPDATE_SERVICE# não contém o método necessário para o registro.
+Installer.installLog.actionNotes=Notas da acção:
+Installer.installLog.installLogDetail=Detalhes do registro da instalação:
+Installer.installLog.installation=Instalação:
+Installer.installLog.unsuccessful=Sem sucesso.
+Installer.installLog.successful=Com sucesso
+Installer.installLog.withErrors=com erros.
+Installer.installLog.withwarnings=com advertências.
+Installer.installLog.cancelled=Cancelada
+Installer.installLog.duringPostInstall=durante a pós-instalação
+Installer.installLog.duringInstall=durante a instalação
+Installer.installLog.duringPreInstall=durante a pré-instalação
+Installer.installLog.cancelledBeforePreInstallation=A INSTALAÇÃO FOI CANCELADA PELO UTILIZADOR ANTES DA PRÉ-INSTALAÇÃO
+Installer.installLog.cancelledDuringPreInstallation=A INSTALAÇÃO FOI CANCELADA PELO UTILIZADOR DURANTE A PRÉ-INSTALAÇÃO
+Installer.installLog.cancelledDuringInstallation=A INSTALAÇÃO FOI CANCELADA PELO UTILIZADOR DURANTE A INSTALAÇÃO
+Installer.InstallLog.cancelledDuringPostInstallation=A INSTALAÇÃO FOI CANCELADA PELO UTILIZADOR DEPOIS DA INSTALAÇÃO OU DURANTE A PÓS-INSTALAÇÃO
+Installer.installLog.successes=Sucessos
+Installer.installLog.warnings=Advertências
+Installer.installLog.nonFatalErrors=NonFatalErrors
+Installer.installLog.fatalErrors=FatalErrors
+Installer.installLog.details=Detalhes
+Installer.installLog.nothingWasInstalled=Nada foi instalado.
+Installer.installLog.none=Nenhum
+Installer.installLog.summary=Resumo
+Installer.installLog.installedBy=Instalado pelo InstallAnywhere #BUILD_INFO#, da Macrovision
+Installer.installLog.status=Estado:
+Installer.installLog.additionalNotes=Notas adicionais:
+Installer.installLog.exceptionClass=Classe de excepção:
+Installer.installLog.exceptionMessage=Mensagem de excepção:
+Installer.installLog.exceptionStackTrace=Rastreio da pilha de excepção:
+Installer.installLog.successLevel.successful=COM SUCESSO
+Installer.installLog.successLevel.warning=ADVERTÊNCIA
+Installer.installLog.successLevel.error=ERRO
+Installer.installLog.successLevel.fatalError=ERRO FATAL
+Installer.installLog.successLevel.unsupported=NÍVEL DE ERRO SEM SUPORTE
+Installer.installLog.successLevel.notice=OBSERVAÇÃO
+Installer.installLog.action.description=Acção de instalação:
+Installer.installLog.antRunner.description=Executar o script ANT:
+Installer.installLog.antRunner.script=Script: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Nenhum alvo seleccionado
+Installer.installLog.asciiFileManipulator.newFile=Novo ficheiro
+Installer.installLog.copyDirectory.description=Copiar directório:
+Installer.installLog.copyFile=Copiar ficheiro:
+Installer.installLog.copyFileAction.destination=Destino:
+Installer.installLog.createShortcut.createShortcut=Criar atalho:
+Installer.installLog.createShortcut.createAlias=Criar alias:
+Installer.installLog.createShortcut.createLink=Criar ligação:
+Installer.installLog.deleteFileAction.source=Fonte:
+Installer.installLog.editEnvironment.description=Definir variável de ambiente:
+Installer.installLog.expandFile.description=Expandir ficheiro:
+Installer.installLog.getRegEntry.description=Obter a entrada de registro:
+Installer.installLog.getRegEntry.key=Chave: 
+Installer.installLog.getRegEntry.value=Nome do valor:
+Installer.installLog.installDirCont.description=Instalar SpeedFolder:
+Installer.installLog.installDirectory.description=Instalar directório:
+Installer.installLog.installFile.description=Instalar ficheiro:
+Installer.installLog.installNTService.description=Registrar o serviço NT:
+Installer.installLog.installUninstaller.description=Instalar o Desinstalador:
+Installer.installLog.installUninstaller.note=(Instalar todos os componentes do Desinstalador)
+Installer.installLog.makeExecutable.description=Criar LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(Instalar todos os componentes dos ficheiros executáveis Java do LaunchAnywhere)
+Installer.installLog.makeRegEntry.description=Criar entrada de registro:
+Installer.installLog.makeRegEntry.key=Chave: 
+Installer.installLog.makeRegEntry.name=Nome do valor:
+Installer.installLog.makeRegEntry.data=Dados do valor:
+Installer.installLog.speedRegistry.description=Entradas do registro:
+Installer.installLog.subinstaller.description=Instalar o módulo de mescla:
+Installer.installLog.subuninstaller.description=Executar o Desinstalador:
+Installer.installLog.customAction.description=Acção personalizada:
+Installer.installLog.userInteractions=Interacções do utilizador
+Installer.installLog.installBegin=Início da instalação:
+Installer.installLog.installEnd=Fim da instalação:
+Installer.installLog.freeMemory=Memória livre:
+Installer.installLog.totalMemory=Memória total:
+Installer.installLog.commandLineArgs=Argumentos da linha de comando:
+Installer.installLog.noArguments=Sem argumentos
+Designer.Action.HTMLPanelAction.visualName=Painel: Mostrar HTML
+HTMLPanelAction.title=Painel HTML
+Designer.Action.UninstallIsmpSoftware.visualName=Desinstalar o software InstallShield universal
+Installer.unexpectedChanges.message=O programa de instalação encontrou alterações inesperadas no script de instalação.
+﻿Installer.unexpectedChanges.title=Erro
+Installer.unexpectedChanges.label=Não foi possível iniciar o programa de instalação.

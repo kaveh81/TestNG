@@ -1,0 +1,18 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="xalan" revision="2.7.1" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="xalan" type="jar"/>
+    <artifact name="serializer" type="jar"/>
+    <artifact name="xalan-j-bin" type="distribution" ext="zip" conf="distribution"/>
+    <artifact name="xalan-j-src" type="distribution" ext="zip" conf="distribution"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.apache" name="xerces" rev="2.10.0" conf="default->default"/>
+  </dependencies>
+</ivy-module>

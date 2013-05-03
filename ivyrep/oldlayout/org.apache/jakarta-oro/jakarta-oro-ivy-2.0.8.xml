@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="jakarta-oro" revision="2.0.8" status="release">
+    <license name="apache1" url="http://www.apache.org/"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="jakarta-oro" type="jar"/>
+    <artifact name="jakarta-oro-bin" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="jakarta-oro-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>

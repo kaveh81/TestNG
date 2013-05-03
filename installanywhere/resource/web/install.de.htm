@@ -1,0 +1,1563 @@
+<!--
+<zgw Condition=zghtml.bool.false>
+
+//
+//	SIE K&Ouml;NNEN HIER EINE E-MAIL-ADRESSE EINSETZEN, AN DIE DAS APPLET BEI AUFTRETEN EINES PROBLEMS EINE MAIL SENDET. ENTFERNEN SIE EINFACH DIE KOMMENTARMARKIERUNG VOR DIESER ZEILE UND ERSETZEN SIE DEN STRING "EMailAdresseHier" DURCH IHRE E-MAIL-ADRESSE.
+//
+//<zgw Assign=zghtml.applet.problem.emailaddress>EMailAdresseHier</zgw>
+
+
+//
+//	BEGR&Uuml;SSUNGSBILDSCHIRM
+//
+
+<zgw Assign=zghtml.splashscreen.imgsrc><IMG SRC="<zgw Sub=zghtml.splashscreen.path>path</zgw>" width="<zgw Sub=zghtml.splashscreen.width>403</zgw>" height="<zgw Sub=zghtml.splashscreen.height>197</zgw>" ALT="Begr&uuml;&szlig;ungsbild"></zgw>
+
+//
+//	HREFS
+//
+
+<zgw Assign=zghtml.win32.vm.path.ahref> <a href="<zgw Sub=zghtml.win32.vm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.win32.novm.path.ahref> <a href="<zgw Sub=zghtml.win32.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.macosx.novm.path.ahref> <a href="<zgw Sub=zghtml.macosx.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.solaris.vm.path.ahref> <a href="<zgw Sub=zghtml.solaris.vm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.solaris.novm.path.ahref> <a href="<zgw Sub=zghtml.solaris.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.linux.vm.path.ahref> <a href="<zgw Sub=zghtml.linux.vm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.linux.novm.path.ahref> <a href="<zgw Sub=zghtml.linux.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.hpux.vm.path.ahref> <a href="<zgw Sub=zghtml.hpux.vm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.hpux.novm.path.ahref> <a href="<zgw Sub=zghtml.hpux.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.aix.vm.path.ahref> <a href="<zgw Sub=zghtml.aix.vm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.aix.novm.path.ahref> <a href="<zgw Sub=zghtml.aix.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.named_unix.vm.path.ahref> <a href="<zgw Sub=zghtml.named_unix.vm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.named_unix.novm.path.ahref> <a href="<zgw Sub=zghtml.named_unix.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.unix.novm.path.ahref> <a href="<zgw Sub=zghtml.unix.novm.path></zgw>"> </zgw>
+<zgw Assign=zghtml.other.novm.path.ahref> <a href="<zgw Sub=zghtml.other.novm.path></zgw>"> </zgw>
+
+//
+//	JavaScript DOC WRITES
+//
+//	(BITTE DIE ZEILENSCHALTUNGEN NICHT &Auml;NDERN!)
+//
+
+<zgw Assign=zghtml.win32.vm.path.docwrite>
+		document.write("<zgw Sub=zghtml.win32.vm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.win32.novm.path.docwrite>
+		document.write("<zgw Sub=zghtml.win32.novm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.macosx.novm.path.docwrite>
+		document.write("<zgw Sub=zghtml.macosx.novm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.solaris.vm.path.docwrite>
+		document.write("<zgw Sub=zghtml.solaris.vm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.linux.vm.path.docwrite>
+		document.write("<zgw Sub=zghtml.linux.vm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.hpux.vm.path.docwrite>
+		document.write("<zgw Sub=zghtml.hpux.vm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.aix.vm.path.docwrite>
+		document.write("<zgw Sub=zghtml.aix.vm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.unix.novm.path.docwrite>
+		document.write("<zgw Sub=zghtml.unix.novm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.named_unix.novm.path.docwrite>
+		document.write("<zgw Sub=zghtml.named_unix.novm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.named_unix.vm.path.docwrite>
+		document.write("<zgw Sub=zghtml.named_unix.vm.path>Pfad</zgw>\">")
+		//</zgw>
+
+<zgw Assign=zghtml.other.novm.path.docwrite>
+		document.write("<zgw Sub=zghtml.other.novm.path>Pfad</zgw>\">")
+		//</zgw>
+
+
+//
+//	JavaScript SCHALTFL&Auml;CHE DOC WRITES
+//
+//	(BITTE DIE ZEILENSCHALTUNGEN NICHT &Auml;NDERN!)
+//
+
+<zgw Assign=zghtml.win32.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.win32.vm.size.readable>0,0 M</zgw>) f&uuml;r Windows (einschlie&szlig;lich Java-VM)\" >")
+		//</zgw>
+
+<zgw Assign=zghtml.win32.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.win32.novm.size.readable>0,0 M</zgw>) f&uuml;r Windows (ohne Java-VM)\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.macosx.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.macosx.novm.size.readable>0,0 M</zgw>) f&uuml;r Max OS X (ohne Java-VM)\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.solaris.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.solaris.vm.size.readable>0,0 M</zgw>) f&uuml;r Solaris (einschlie&szlig;lich Java-VM)\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.linux.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.linux.vm.size.readable>0,0 M</zgw>) f&uuml;r Linux (einschlie&szlig;lich Java-VM)\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.hpux.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.hpux.vm.size.readable>0,0 M</zgw>) f&uuml;r HP-UX (einschlie&szlig;lich Java-VM)\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.aix.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.aix.vm.size.readable>0,0 M</zgw>) f&uuml;r AIX (einschlie&szlig;lich Java-VM)\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.unix.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.unix.novm.size.readable>0,0 M</zgw>) f&uuml;r UNIX\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.named_unix.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.named_unix.vm.size.readable>0,0 M</zgw>) f&uuml;r UNIX (einschlie&szlig;lich Java-VM)\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.named_unix.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.named_unix.novm.size.readable>0,0 M</zgw>) f&uuml;r UNIX\" ><br>")
+		//</zgw>
+
+<zgw Assign=zghtml.other.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (<zgw Sub=zghtml.other.novm.size.readable>0,0 M</zgw>)\" ><br>")
+		//</zgw>
+
+//
+//	APPLET
+//
+
+<zgw Assign=zghtml.applet>
+<script>
+<!--
+setArchiveFile()
+// -->
+
+</script>
+				<param name="lang" value="de">
+				<param name="cabbase"				value="WebInst.cab">
+				<param name="SendTroubleEmailTo"	value="<zgw Sub=zghtml.applet.problem.emailaddress>applet@Macrovision.com</zgw>">
+				<param name="ProductName"			value="<zgw Sub=zghtml.prodname>Mein_Produkt</zgw>">
+				<param name="NumberOfPlatforms"		value="<zgw Sub=zghtml.applet.numberplatforms>0</zgw>">
+				<param name="CustomRecommendedText_en"	value="Empfohlene Installation f&uuml;r Ihre Plattform:">
+				<param name="CustomDownloadButtonText_en" value="Installer herunterladen f&uuml;r">
+				<param name="CustomInstallButtonText_en" value="Installer starten f&uuml;r">
+				<param name="CustomVMCheckboxText_en" value="Download einschlie&szlig;lich VM">
+
+<zgw Condition=zghtml.bool.win32.vm, zghtml.bool.win32.novm>
+				<param name="PlatformName1"			value="Windows">
+				<param name="RunOnPlatformsNamed1"	value="Win"> <zgw Condition=zghtml.bool.win32.vm>
+				<param name="InstallerNameVM1"		value="<zgw Sub=zghtml.applet.win32.vm.path>Pfad</zgw>">
+				<param name="SizeInBytesVM1"		value="<zgw Sub=zghtml.win32.vm.size>0</zgw>"> </zgw> <zgw Condition=zghtml.bool.win32.novm>
+				<param name="InstallerNameNoVM1"	value="<zgw Sub=zghtml.applet.win32.novm.path>Pfad</zgw>">
+				<param name="SizeInBytesNoVM1"		value="<zgw Sub=zghtml.win32.novm.size>0</zgw>"> </zgw> </zgw> <zgw Condition=zghtml.bool.macosx.novm>
+				<param name="PlatformName7"			value="Mac OS X">
+				<param name="RunOnPlatformsNamed7"	value="Mac os x">
+				<param name="InstallerNameNoVM7"	value="<zgw Sub=zghtml.applet.macosx.novm.path>Pfad</zgw>">
+				<param name="SizeInBytesNoVM7"		value="<zgw Sub=zghtml.macosx.novm.size>0</zgw>"> </zgw> <zgw Condition=zghtml.bool.solaris.vm, zghtml.bool.solaris.novm>
+				<param name="PlatformName3"			value="Solaris SPARC">
+				<param name="IsUnix3"				value="Ja">
+				<param name="RunOnPlatformsNamed3"	value="Solaris, Sun"> <zgw Condition=zghtml.bool.solaris.vm>
+				<param name="InstallerNameVM3"		value="<zgw Sub=zghtml.applet.solaris.vm.path>Pfad</zgw>">
+				<param name="SizeInBytesVM3"		value="<zgw Sub=zghtml.solaris.vm.size>0</zgw>"> </zgw> <zgw Condition=zghtml.bool.solaris.novm>
+				<param name="InstallerNameNoVM3"	value="<zgw Sub=zghtml.applet.solaris.novm.path>Pfad</zgw>">
+				<param name="SizeInBytesNoVM3"		value="<zgw Sub=zghtml.solaris.novm.size>0</zgw>"> </zgw> </zgw> <zgw Condition=zghtml.bool.linux.vm, zghtml.bool.linux.novm>
+				<param name="PlatformName4"			value="Linux">
+				<param name="IsUnix4"				value="Ja">
+				<param name="RunOnPlatformsNamed4"	value="linux"> <zgw Condition=zghtml.bool.linux.vm>
+				<param name="InstallerNameVM4"		value="<zgw Sub=zghtml.applet.linux.vm.path>Pfad</zgw>">
+				<param name="SizeInBytesVM4"		value="<zgw Sub=zghtml.linux.vm.size>0</zgw>"> </zgw> <zgw Condition=zghtml.bool.linux.novm>
+				<param name="InstallerNameNoVM4"	value="<zgw Sub=zghtml.applet.linux.novm.path>Pfad</zgw>">
+				<param name="SizeInBytesNoVM4"		value="<zgw Sub=zghtml.linux.novm.size>0</zgw>"> </zgw> </zgw> <zgw Condition=zghtml.bool.hpux.vm, zghtml.bool.hpux.novm>
+				<param name="PlatformName8"			value="HP-UX">
+				<param name="IsUnix8"				value="Ja">
+				<param name="RunOnPlatformsNamed8"	value="hpux,hp-ux,hp"> <zgw Condition=zghtml.bool.hpux.vm>
+				<param name="InstallerNameVM8"		value="<zgw Sub=zghtml.applet.hpux.vm.path>Pfad</zgw>">
+				<param name="SizeInBytesVM8"		value="<zgw Sub=zghtml.hpux.vm.size>0</zgw>"> </zgw> <zgw Condition=zghtml.bool.hpux.novm>
+				<param name="InstallerNameNoVM8"	value="<zgw Sub=zghtml.applet.hpux.novm.path>Pfad</zgw>">
+				<param name="SizeInBytesNoVM8"		value="<zgw Sub=zghtml.hpux.novm.size>0</zgw>"> </zgw> </zgw> <zgw Condition=zghtml.bool.aix.vm, zghtml.bool.aix.novm>
+				<param name="PlatformName9"			value="AIX">
+				<param name="IsUnix9"				value="Ja">
+				<param name="RunOnPlatformsNamed9"	value="aix"> <zgw Condition=zghtml.bool.aix.vm>
+				<param name="InstallerNameVM9"		value="<zgw Sub=zghtml.applet.aix.vm.path>Pfad</zgw>">
+				<param name="SizeInBytesVM9"		value="<zgw Sub=zghtml.aix.vm.size>0</zgw>"> </zgw> <zgw Condition=zghtml.bool.aix.novm>
+				<param name="InstallerNameNoVM9"	value="<zgw Sub=zghtml.applet.aix.novm.path>Pfad</zgw>">
+				<param name="SizeInBytesNoVM9"		value="<zgw Sub=zghtml.aix.novm.size>0</zgw>"> </zgw> </zgw> <zgw Condition=zghtml.bool.other.novm>
+				<param name="PlatformName5"			value="Andere Plattformen">
+				<param name="InstallerName5"		value="<zgw Sub=zghtml.applet.other.novm.path>Pfad</zgw>">
+				<param name="SizeInBytes5"			value="<zgw Sub=zghtml.other.novm.size>0</zgw>">
+				<param name="IsPureJava5"			value="Ja"> </zgw> <zgw Condition=zghtml.bool.unix.novm>
+				<param name="PlatformName6"			value="Unix">
+				<param name="IsUnix6"					value="Ja">
+				
+<param name="RunOnPlatformsNamed6"	value="
+				bsd,
+				bsdi,
+				dec,
+				dgux,
+				dg/ux,
+				osf,
+				osf1,
+				digital,
+				free,
+				freebsd,
+				ibm,
+				irix,
+				machten,
+				net,
+				netbsd,
+				nextstep,
+				open,
+				os/390,
+				reliant,
+				rhapsody,
+				sco,
+				sgi,
+				silicon,
+				solaris
+				sun,
+				sunos,
+				unix,
+				unixware"> <zgw Condition=zghtml.bool.unix.novm>
+				<param name="InstallerNameNoVM6"		value="<zgw Sub=zghtml.applet.unix.novm.path>Pfad</zgw>">
+				<param name="SizeInBytesNoVM6"		value="<zgw Sub=zghtml.unix.novm.size>0</zgw>"> </zgw>
+
+	<zgw Condition=zghtml.bool.named_unix.vm, zghtml.bool.named_unix.novm>
+					<param name="PlatformName10"			value="AIX">
+					<param name="IsUnix10"				value="Ja">
+					<param name="RunOnPlatformsNamed9"	value="aix"> <zgw Condition=zghtml.bool.named_unix.vm>
+					<param name="InstallerNameVM10"		value="<zgw Sub=zghtml.applet.named_unix.vm.path>Pfad</zgw>">
+					<param name="SizeInBytesVM10"		value="<zgw Sub=zghtml.aix.vm.size>0</zgw>"> </zgw> <zgw Condition=zghtml.bool.named_unix.novm>
+					<param name="InstallerNameNoVM10"	value="<zgw Sub=zghtml.applet.named_unix.novm.path>Pfad</zgw>">
+					<param name="SizeInBytesNoVM10"		value="<zgw Sub=zghtml.unix.novm.size>0</zgw>"> </zgw> </zgw> <zgw Condition=zghtml.bool.other.novm>
+					<param name="PlatformName5"			value="Andere Plattformen">
+					<param name="InstallerName5"		value="<zgw Sub=zghtml.applet.other.novm.path>Pfad</zgw>">
+					<param name="SizeInBytes5"			value="<zgw Sub=zghtml.other.novm.size>0</zgw>">
+					<param name="IsPureJava5"			value="Ja"> </zgw>
+
+</zgw>
+
+</zgw>
+
+</zgw>
+
+HTML GENERIERT VON MACROVISION
+
+-->
+<html>
+
+	<head>
+		
+<meta http-equiv="content-type"
+content="text/html;charset=iso-8859-1">
+		
+<meta name="Description" content="InstallAnywhere Web
+Installer von Macrovision">
+		
+<meta name="keywords" content="InstallAnywhere,
+InstallAnywhere Web-Installer, Web-Installer">
+		<meta name="generator" content="InstallAnywhere 6.0">
+		<meta name="creationdatetime" content="<zgw Sub=zghtml.datetime></zgw>">
+
+		<title><zgw Sub=zghtml.prodname>Mein_Produkt</zgw> (InstallAnywhere Web-Installer)</title>
+		
+<script><!--
+function whatPlatform()
+{
+
+	plat="other"
+
+	thisAgent = navigator.userAgent.toLowerCase()
+
+	// the order of the names is important, since these are not nested ifs
+
+	if (thisAgent.indexOf("win") != -1)
+	{
+		plat="win"
+	}
+	if (thisAgent.indexOf("95") != -1)
+	{
+		plat="win"
+	}
+	if (thisAgent.indexOf("98") != -1)
+	{
+		plat="win"
+	}
+	if (thisAgent.indexOf("nt") != -1)
+	{
+		plat="win"
+	}
+
+
+	if (thisAgent.indexOf("mac") != -1)
+	{
+		var MacOSXPlugIn = navigator.plugins["Default Plugin Carbon.cfm"];
+		if (MacOSXPlugIn || thisAgent.indexOf("omniweb") != -1 )
+		{
+			//Change value to true to enable the applet for Mac OS X
+			//This variable has been introduced to this page as the support for
+			//applets on Mac OS X has been questionable.
+			enableAppletForMacOSX = true
+			plat="macosx"
+		}
+		if (thisAgent.indexOf("os x") != -1)
+		{
+			enableAppletForMacOSX = true
+			plat="macosx"
+		}
+	}
+
+	if (thisAgent.indexOf("sun") != -1)
+	{
+		plat="solaris"
+	}
+	if (thisAgent.indexOf("solaris") != -1)
+	{
+		plat="solaris"
+	}
+	if (thisAgent.indexOf("aix") != -1)
+	{
+		plat="aix"
+	}
+	if (thisAgent.indexOf("ibm") != -1)
+	{
+		plat="aix"
+	}
+	if (thisAgent.indexOf("dec") != -1)
+	{
+		plat="digitalunix"
+	}
+	if (thisAgent.indexOf("osf") != -1)
+	{
+		plat="digitalunix"
+	}
+	if (thisAgent.indexOf("windows") == -1 && thisAgent.indexOf("digital") != -1 )
+	{
+		plat="digitalunix"
+	}
+	if (thisAgent.indexOf("hp") != -1)
+	{
+		plat="hpux"
+	}
+	if (thisAgent.indexOf("unix") != -1)
+	{
+		plat="unix"
+	}
+	if (thisAgent.indexOf("sco") != -1)
+	{
+		plat="sco"
+	}
+	if (thisAgent.indexOf("bsd") != -1)
+	{
+		plat="bsd"
+	}
+	if (thisAgent.indexOf("free") != -1)
+	{
+		plat="freebsd"
+	}
+	if (thisAgent.indexOf("open") != -1)
+	{
+		plat="openbsd"
+	}
+	if (thisAgent.indexOf("netbsd") != -1)
+	{
+		plat="netbsd"
+	}
+	if (thisAgent.indexOf("linux") != -1)
+	{
+		plat="linux"
+	}
+	if (thisAgent.indexOf("reliant") != -1)
+	{
+		plat="reliant"
+	}
+
+	if (thisAgent.indexOf("sgi") != -1)
+	{
+		plat="irix"
+	}
+	if (thisAgent.indexOf("silicon") != -1)
+	{
+		plat="irix"
+	}
+	if (thisAgent.indexOf("irix") != -1)
+	{
+		plat="irix"
+	}
+	if (thisAgent.indexOf("os/390") != -1)
+	{
+		plat="os390"
+	}
+
+
+	// now determine what platforms are available, and reset the chosen platform based on whether the platform is available
+	// if you want the user to get a message that the desired platform is NOT available, set the fallback "plat" to "notavailable"
+	// the order is important, as it indicated the fallback order
+	// every platform above, must have a fall back below
+
+	platAvail="notavailable"
+
+<zgw Condition=zghtml.bool.win32.vm,zghtml.bool.win32.novm>
+	platAvail="win"
+</zgw>
+	if ((plat=="win") && (platAvail!="win"))
+	{
+		plat="other"
+	}
+
+<zgw Condition=zghtml.bool.macosx.novm>
+	platAvail="macosx"
+</zgw>
+	if ((plat=="macosx") && (platAvail!="macosx"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.solaris.vm,zghtml.bool.solaris.novm>
+	platAvail="solaris"
+</zgw>
+	if ((plat=="solaris") && (platAvail!="solaris"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.aix.vm,zghtml.bool.aix.novm>
+	platAvail="aix"
+</zgw>
+	if ((plat=="aix") && (platAvail!="aix"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.digitalunix.vm,zghtml.bool.digitalunix.novm>
+	platAvail="digitalunix"
+</zgw>
+	if ((plat=="digitalunix") && (platAvail!="digitalunix"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.hpux.vm,zghtml.bool.hpux.novm>
+	platAvail="hpux"
+</zgw>
+	if ((plat=="hpux") && (platAvail!="hpux"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.sco.vm,zghtml.bool.sco.novm>
+	platAvail="sco"
+</zgw>
+	if ((plat=="sco") && (platAvail!="sco"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.freebsd.vm,zghtml.bool.freebsd.novm>
+	platAvail="freebsd"
+</zgw>
+	if ((plat=="freebsd") && (platAvail!="freebsd"))
+	{
+		plat="bsd"
+	}
+
+<zgw Condition=zghtml.bool.openbsd.vm,zghtml.bool.openbsd.novm>
+	platAvail="openbsd"
+</zgw>
+	if ((plat=="openbsd") && (platAvail!="openbsd"))
+	{
+		plat="bsd"
+	}
+
+<zgw Condition=zghtml.bool.netbsd.vm,zghtml.bool.netbsd.novm>
+	platAvail="netbsd"
+</zgw>
+	if ((plat=="netbsd") && (platAvail!="netbsd"))
+	{
+		plat="bsd"
+	}
+
+<zgw Condition=zghtml.bool.bsd.vm,zghtml.bool.bsd.novm>
+	platAvail="bsd"
+</zgw>
+	if ((plat=="bsd") && (platAvail!="bsd"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.linux.vm,zghtml.bool.linux.novm>
+	platAvail="linux"
+</zgw>
+	if ((plat=="linux") && (platAvail!="linux"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.reliant.vm,zghtml.bool.reliant.novm>
+	platAvail="reliant"
+</zgw>
+	if ((plat=="reliant") && (platAvail!="reliant"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.irix.vm,zghtml.bool.irix.novm>
+	platAvail="irix"
+</zgw>
+	if ((plat=="irix") && (platAvail!="irix"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.os390.vm,zghtml.bool.os390.novm>
+	platAvail="os390"
+</zgw>
+	if ((plat=="os390") && (platAvail!="os390"))
+	{
+		plat="unix"
+	}
+
+<zgw Condition=zghtml.bool.unix.vm,zghtml.bool.unix.novm>
+	platAvail="unix"
+</zgw>
+	if ((plat=="unix") && (platAvail!="unix"))
+	{
+		plat="other"
+	}
+
+<zgw Condition=zghtml.bool.other.novm>
+	platAvail="other"
+</zgw>
+	if ((plat=="other") && (platAvail!="other"))
+	{
+		plat="notavailable"
+	}
+
+}
+
+
+function platformButtons()
+{
+	document.writeln("<font face=\"Arial,Helvetica,Geneva,Swiss,SunSans-Regular\" size=\"3\">")
+	<zgw Condition=zghtml.bool.win32.vm>
+	if (plat=="win")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.win32.vm.path.docwrite>
+		document.write("InstData/Windows/VM/<zgw Sub=zghtml.installername.win32>Install.exe</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.win32.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r Windows (einschlie&szlig;lich Java-VM)\" >")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=!zghtml.bool.win32.vm>
+	<zgw Condition=zghtml.bool.win32.novm>
+	if (plat=="win")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.win32.novm.path.docwrite>
+		document.write("InstData/Windows/NoVM/<zgw Sub=zghtml.installername.win32>Install.exe</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.win32.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r Windows (ohne Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	</zgw>
+	<zgw Condition=zghtml.bool.macosx.novm>
+	if (plat=="macosx")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.macosx.novm.path.docwrite>
+		document.write("InstData/MacOSX/<zgw Sub=zghtml.installername.macosx>Install.sit</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.macosx.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r Max OS X (ohne Java-VM)\" ><br>")
+		</zgw>
+		if( enableAppletForMacOSX )
+		{
+			document.writeln("<br></form>")
+			document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+		}
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.solaris.vm>
+	if (plat=="solaris")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.solaris.vm.path.docwrite>
+		document.write("InstData/Solaris/VM/<zgw Sub=zghtml.installername.solaris>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.solaris.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r Solaris (einschlie&szlig;lich Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.solaris.novm>
+	if (plat=="solaris")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.solaris.novm.path.docwrite>
+		document.write("InstData/Solaris/NoVM/<zgw Sub=zghtml.installername.solaris>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.solaris.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r Solaris (ohne Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.linux.vm>
+	if (plat=="linux")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.linux.vm.path.docwrite>
+		document.write("InstData/Linux/VM/<zgw Sub=zghtml.installername.linux>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.linux.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r Linux (einschlie&szlig;lich Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.linux.novm>
+	if (plat=="linux")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.linux.novm.path.docwrite>
+		document.write("InstData/Linux/NoVM/<zgw Sub=zghtml.installername.linux>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.linux.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r Linux (ohne Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.hpux.vm>
+	if (plat=="hpux")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.hpux.vm.path.docwrite>
+		document.write("InstData/HPUX/VM/<zgw Sub=zghtml.installername.hpux>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.hpux.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r HP-UX (einschlie&szlig;lich Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.hpux.novm>
+	if (plat=="hpux")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.hpux.novm.path.docwrite>
+		document.write("InstData/HPUX/NoVM/<zgw Sub=zghtml.installername.hpux>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.hpux.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r HP-UX (ohne Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.aix.vm>
+	if (plat=="aix")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.aix.vm.path.docwrite>
+		document.write("InstData/AIX/VM/<zgw Sub=zghtml.installername.aix>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.aix.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r AIX (einschlie&szlig;lich Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.aix.novm>
+	if (plat=="aix")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.aix.novm.path.docwrite>
+		document.write("InstData/AIX/NoVM/<zgw Sub=zghtml.installername.aix>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.aix.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r AIX (ohne Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.named_unix.vm>
+	if (plat=="aix")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.named_unix.vm.path.docwrite>
+		document.write("InstData/Named_Unix/VM/<zgw Sub=zghtml.installername.named_unix>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.named_unix.vm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r NamedUnix (einschlie&szlig;lich Java-VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.named_unix.novm>
+	if (plat=="aix")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.named_unix.novm.path.docwrite>
+		document.write("InstData/Named_Unix/NoVM/<zgw Sub=zghtml.installername.named_unix>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.named_unix.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r NamedUnix (ohne Java VM)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	<zgw Condition=zghtml.bool.unix.novm>
+	if (plat=="unix")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.unix.novm.path.docwrite>
+		document.write("InstData/Named_Unix/<zgw Sub=zghtml.installername.unix>Install.bin</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.unix.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M) f&uuml;r beliebiges UNIX\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+		document.writeln("Aktivieren Sie Java in Ihrem Browser, um direkt vom Web zu installieren.<br>")
+	}
+	</zgw>
+	if (plat=="other")
+	{
+		document.writeln("<b>Empfohlener Installer f&uuml;r Ihre Plattform...</b><br>")
+		document.write("<form method=\"get\" action=\"")
+		<zgw Sub=zghtml.other.novm.path.docwrite>
+		document.write("InstData/Java/<zgw Sub=zghtml.installername.other>install.jar</zgw>\">")
+		</zgw>
+		<zgw Sub=zghtml.other.novm.button.docwrite>
+		document.writeln("<input type=\"SUBMIT\" value=\"Download des Installers (0,0 M)\" ><br>")
+		</zgw>
+		document.writeln("<br></form>")
+	}
+	if (plat=="notavailable")
+	{
+		document.writeln("<b>F&uuml;r Ihre Plattform ist kein Installer verf&uuml;gbar.<br>")
+		document.writeln("Bitte w&auml;hlen Sie hier eine andere Plattform.</b><br>")
+	}
+
+	document.writeln("</font>")
+}
+
+function setArchiveFile()
+{
+	if (plat!="macosx" || ( plat=="macosx" && enableAppletForMacOSX ))
+	{
+		if (plat!="mac")
+		{
+			document.writeln("<applet codebase=\"InstData\" archive=\"WebInst.jar\" code=\"com.zerog.ia.download.WebInstallerApplet\" width=\"525\" height=\"85\">")
+		}
+		if (plat=="mac")
+		{
+			document.writeln("<applet codebase=\"InstData\" archive=\"WebInstMac.jar\" code=\"com.zerog.ia.download.WebInstallerApplet\" width=\"525\" height=\"85\">")
+		}
+	}
+}
+
+function displayMarker(whatPlat)
+{
+	if (whatPlat==plat)
+	{
+		document.write("<font face=\"Arial,Helvetica,Geneva,Swiss,SunSans-Regular\" color=\"green\"><b>&gt</b></font>")
+	}
+}
+
+
+function setPlatFont(whatPlat)
+{
+
+	if (whatPlat==plat)
+	{
+		document.write("<font face=\"Arial,Helvetica,Geneva,Swiss,SunSans-Regular\" color=\"green\"><b>")
+	}
+	else
+	{
+		document.write("<font face=\"Arial,Helvetica,Geneva,Swiss,SunSans-Regular\">")
+	}
+}
+
+function endPlatFont(whatPlat)
+{
+	if (whatPlat==plat)
+	{
+		document.write("</b></font>")
+	}
+	else
+	{
+		document.write("</font>")
+	}
+}
+
+whatPlatform()
+// -->
+		</script>
+	</head>
+
+	<body bgcolor="white">
+		<center> <zgw Condition=zghtml.bool.false>
+<H1><B>BEARBEITEN SIE DIESES DOKUMENT NICHT IN EINEM VISUELLEN HTML-EDITOR, DENN DIES BESCH&Auml;DIGT DIE &lt;ZGW&gt;-ERSTELLUNGS-TAGS UND MACHT DIESE SEITE UNBRAUCHBAR!</B></H1> </zgw>
+
+			<a name="top"></a> <zgw Sub=zghtml.splashscreen.imgsrc><img src="InstData/nowSplash.gif" width="403" height="197" alt="Begr&uuml;&szlig;ungsbild"></zgw> <br>
+			<p><font size="5" face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b> <zgw Sub=zghtml.prodname>InstallAnywhere</zgw> </b></font></p>
+			<p> <zgw Sub=zghtml.applet>
+			<applet codebase="InstData" archive="WebInst.jar" code="com.zerog.ia.download.WebInstallerApplet" width="425" height="85">
+				<param name="cabbase"				value="WebInst.cab">
+				<param name="ProductName"			value="Mein_Produkt">
+				<param name="NumberOfPlatforms"		value="5">
+				<param name="PlatformName1"			value="Windows">
+				<param name="RunOnPlatformsNamed1"	value="Win">
+				<param name="InstallerNameVM1"		value="Windows/VM/install.exe">
+				<param name="SizeInBytesVM1"		value="2994055">
+				<param name="InstallerNameNoVM1"	value="Windows/NoVM/install.exe">
+				<param name="SizeInBytesNoVM1"		value="1126748">
+				<param name="PlatformName7"			value="Mac OS X">
+				<param name="IsNotRunnable7"		value="Ja">
+				<param name="RunOnPlatformsNamed7"	value="Macosx">
+				<param name="InstallerNameVM7"		value="MacOSX/install.sit">
+				<param name="SizeInBytesVM7"		value="6973056">
+				<param name="PlatformName3"			value="Solaris">
+				<param name="InstallerNameVM3"		value="Solaris/VM/install.bin">
+				<param name="InstallerNameNoVM3"	value="Solaris/NoVM/install.bin">
+				<param name="SizeInBytesVM3"		value="3391005">
+				<param name="RunOnPlatformsNamed3"	value="Solaris, Sun">
+				<param name="SizeInBytesNoVM3"		value="1535616">
+				<param name="IsUnix3"				value="Ja">
+				<param name="PlatformName4"			value="Linux">
+				<param name="InstallerNameVM4"		value="Linux/VM/install.bin">
+				<param name="SizeInBytesVM4"		value="1535616">
+				<param name="InstallerNameNoVM4"	value="Linux/NoVM/install.bin">
+				<param name="SizeInBytesNoVM4"		value="1535616">
+				<param name="RunOnPlatformsNamed4"	value="linux">
+				<param name="IsUnix4"				value="Ja">
+				<param name="PlatformName8"			value="Hpux">
+				<param name="InstallerNameVM8"		value="HPUX/VM/install.bin">
+				<param name="SizeInBytesVM8"		value="1535616">
+				<param name="InstallerNameNoVM8"	value="HPUX/NoVM/install.bin">
+				<param name="SizeInBytesNoVM8"		value="1535616">
+				<param name="RunOnPlatformsNamed8"	value="hpux">
+				<param name="IsUnix8"				value="Ja">
+				<param name="PlatformName9"			value="Aix">
+				<param name="InstallerNameVM9"		value="AIX/VM/install.bin">
+				<param name="SizeInBytesVM9"		value="1535616">
+				<param name="InstallerNameNoVM9"	value="AIX/NoVM/install.bin">
+				<param name="SizeInBytesNoVM9"		value="1535616">
+				<param name="RunOnPlatformsNamed9"	value="aix">
+				<param name="IsUnix9"				value="Ja">
+				<param name="PlatformName5"			value="Andere Plattformen">
+				<param name="InstallerName5"		value="Other/install.jar">
+				<param name="SizeInBytes5"			value="802689">
+				<param name="IsNotRunnable5"		value="Ja">
+				<param name="IsPureJava5"			value="Ja">
+				<param name="PlatformName6"			value="UNIX">
+				<param name="InstallerNameVM6"		value="Unix/Others/install.bin">
+				<param name="SizeInBytesVM6"		value="1535616">
+				<param name="RunOnPlatformsNamed6"	value="unix, irix, netbsd, freebsd, bsdi, bsd, unixware, aix, dg/ux, dgux, machten, nextstep, rhapsody, hp-ux, hpux, sunos, solaris">
+				<param name="PlatformName10"		value="Named_Unix">
+				<param name="InstallerNameVM10"		value="Named_Unix/VM/install.bin">
+				<param name="SizeInBytesVM10"		value="1535616">
+				<param name="InstallerNameNoVM10"	value="Named_Unix/NoVM/install.bin">
+				<param name="SizeInBytesNoVM10"		value="1535616">
+				<param name="RunOnPlatformsNamed10"	value="">
+				<param name="IsUnix10"				value="Ja"> </zgw>
+				
+<script><!--
+platformButtons()
+// -->
+				</script> <br> <a href="http://www.Macrovision.com"><img src="InstData/images/credit.gif" border="0" width="420" height="28" alt="Installer erstellt mit InstallAnywhere(tm) von Macrovision (c)2006 www.Macrovision.com"></a>
+			</applet></p>
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="4"><b>
+			<hr> </b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="3"><b>Verf&uuml;gbare Installer</b></font><br>
+			</p>
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>
+			<table border="0" cellpadding="0" cellspacing="10">
+				<tr>
+					<td></td>
+					<td></td>
+					<td><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Plattform</b></font> </td>
+					<td>
+						<center> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b> <zgw Condition=zghtml.bool.any.vm>einschlie&szlig;lich Java-VM</zgw> </b></font></center>
+					</td>
+					<td></td>
+					<td>
+						<center> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b> <zgw Condition=zghtml.bool.any.novm>ohne Java-VM</zgw> </b></font></center>
+					</td>
+					<td></td>
+					<td>
+						<center> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></center>
+					</td>
+				</tr> <br>
+
+				<zgw Condition=zghtml.bool.win32.vm,zghtml.bool.win32.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("win")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="26" src="InstData/images/win.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("win")
+							// -->
+							</script> Windows
+							
+<script>
+							<!--
+
+	endPlatFont("win")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.win32.vm>
+						<center> <zgw Sub=zghtml.win32.vm.path.ahref> <a href="InstData/Windows/VM/<zgw Sub=zghtml.installername.win32>Install.exe</zgw>"> </zgw> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.win32.vm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.win32.novm>
+						<center> <zgw Sub=zghtml.win32.novm.path.ahref> <a href="InstData/Windows/NoVM/<zgw Sub=zghtml.installername.win32>Install.exe</zgw>"> </zgw> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.win32.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#windows"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+
+				<zgw Condition=zghtml.bool.macosx.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("macosx")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="26" src="InstData/images/macosx.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("macosx")
+							// -->
+							</script> Mac OS X
+							
+<script>
+							<!--
+
+	endPlatFont("macosx")
+
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom">
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.macosx.novm>
+						<center> <zgw Sub=zghtml.macosx.novm.path.ahref> <a href="InstData/MacOSX/<zgw Sub=zghtml.installername.macosx>Install.sit</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.macosx.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#macosx"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+				<zgw Condition=zghtml.bool.aix.vm,zghtml.bool.aix.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("aix")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="26" src="InstData/images/aix.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("aix")
+							// -->
+							</script> AIX
+							
+<script>
+							<!--
+
+	endPlatFont("aix")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.aix.vm>
+						<center> <zgw Sub=zghtml.aix.vm.path.ahref> <a href="InstData/AIX/VM/<zgw Sub=zghtml.installername.aix>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.aix.vm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.aix.novm>
+						<center> <zgw Sub=zghtml.aix.novm.path.ahref> <a href="InstData/AIX/NoVM/<zgw Sub=zghtml.installername.aix>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.aix.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#aix"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+
+				<zgw Condition=zghtml.bool.solaris.vm,zghtml.bool.solaris.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("solaris")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="26" src="InstData/images/solaris.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("solaris")
+							// -->
+							</script> Solaris
+							
+<script>
+							<!--
+
+	endPlatFont("solaris")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.solaris.vm>
+						<center> <zgw Sub=zghtml.solaris.vm.path.ahref> <a href="InstData/Solaris/VM/<zgw Sub=zghtml.installername.solaris>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.solaris.vm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.solaris.novm>
+						<center> <zgw Sub=zghtml.solaris.novm.path.ahref> <a href="InstData/Solaris/NoVM/<zgw Sub=zghtml.installername.solaris>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.solaris.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#solaris"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+
+				<zgw Condition=zghtml.bool.linux.vm,zghtml.bool.linux.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("linux")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="14" src="InstData/images/linux.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("linux")
+							// -->
+							</script> Linux
+							
+<script>
+							<!--
+
+	endPlatFont("linux")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.linux.vm>
+						<center> <zgw Sub=zghtml.linux.vm.path.ahref> <a href="InstData/Linux/VM/<zgw Sub=zghtml.installername.linux>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.linux.vm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.linux.novm>
+						<center> <zgw Sub=zghtml.linux.novm.path.ahref> <a href="InstData/Linux/NoVM/<zgw Sub=zghtml.installername.linux>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.linux.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#linux"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+				<zgw Condition=zghtml.bool.hpux.vm,zghtml.bool.hpux.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("hpux")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="26" src="InstData/images/hp.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("hpux")
+							// -->
+							</script> HP-UX
+							
+<script>
+							<!--
+
+	endPlatFont("hpux")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.hpux.vm>
+						<center> <zgw Sub=zghtml.hpux.vm.path.ahref> <a href="InstData/HPUX/VM/<zgw Sub=zghtml.installername.hpux>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.hpux.vm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.hpux.novm>
+						<center> <zgw Sub=zghtml.hpux.novm.path.ahref> <a href="InstData/HPUX/NoVM/<zgw Sub=zghtml.installername.hpux>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.hpux.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#hpux"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+				<zgw Condition=zghtml.bool.named_unix.vm,zghtml.bool.named_unix.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("named_unix")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="26" src="InstData/images/named_unix.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("named_unix")
+							// -->
+							</script> <zgw Sub=zghtml.named_unix.name>Named-Unix</zgw>
+							
+<script>
+							<!--
+
+	endPlatFont("named_unix")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.named_unix.vm>
+						<center> <zgw Sub=zghtml.named_unix.vm.path.ahref> <a href="InstData/Named_Unix/VM/<zgw Sub=zghtml.installername.named_unix>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.named_unix.vm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.named_unix.novm>
+						<center> <zgw Sub=zghtml.named_unix.novm.path.ahref> <a href="InstData/Named_Unix/NoVM/<zgw Sub=zghtml.installername.named_unix>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.named_unix.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#named_unix"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+				<zgw Condition=zghtml.bool.unix.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("unix")
+							// -->
+							</script> </div>
+					</td>
+					<td align="center" valign="center"><img height="16" width="26" src="InstData/images/unix.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("unix")
+							// -->
+							</script> Beliebige UNIX-Plattform
+							
+<script>
+							<!--
+
+	endPlatFont("unix")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.unix.novm>
+						<center> <zgw Sub=zghtml.unix.novm.path.ahref> <a href="InstData/GenericUnix/<zgw Sub=zghtml.installername.unix>Install.bin</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.unix.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#unix"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+				<zgw Condition=zghtml.bool.other.vm,zghtml.bool.other.novm>
+				<tr>
+					<td valign="bottom"> <div align="left">
+							
+<script>
+							<!--
+
+	displayMarker("other")
+							// -->
+							</script> </div>
+					</td>
+					<td valign="bottom"><img height="16" width="26" src="InstData/images/other.gif"></td>
+					<td valign="bottom"> <div align="left"> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">
+							
+<script>
+							<!--
+
+	setPlatFont("other")
+							// -->
+							</script> Andere Java-f&auml;hige Plattformen
+							
+<script>
+							<!--
+
+	endPlatFont("other")
+							// -->
+							</script> </font></div>
+					</td>
+					<td valign="bottom">
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom"> <zgw Condition=zghtml.bool.other.novm>
+						<center> <zgw Sub=zghtml.other.novm.path.ahref> <a href="InstData/Other/NoVM/<zgw Sub=zghtml.installername.other>Install.exe</zgw>"> </zgw><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Download (<zgw Sub=zghtml.other.novm.size.readable>0,0 M</zgw>) </font></a></center> </zgw>
+						</td>
+					<td valign="bottom"></td>
+					<td valign="bottom">
+						<center> <a href="#other"><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Anzeigen</font></a></center>
+					</td>
+				</tr> </zgw>
+
+
+			</table></b></font></p>
+		</center>
+
+
+
+
+<zgw Condition=zghtml.bool.win32.vm,zghtml.bool.win32.novm>
+<!--	WINDOWS	-->
+			<p>
+			<hr>
+			</p> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="windows"></a>Windows-Anleitung:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Doppelklicken Sie nach dem Herunterladen auf</font><font size="4"><b><code>&nbsp;<zgw Sub=zghtml.installername.win32>Install.exe</zgw></code></b></font>.
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul> <zgw Condition=zghtml.bool.win32.vm><zgw Condition=!zghtml.bool.win32.novm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen keine weitere Software installieren. In diesem Download ist eine Java Virtual Machine enthalten.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.win32.novm><zgw Condition=!zghtml.bool.win32.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen m&ouml;glicherweise eine Java Virtual Machine Version 1.5 (oder h&ouml;her) installieren. Sie k&ouml;nnen diese von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.win32.novm><zgw Condition=zghtml.bool.win32.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn Sie noch keine Java Virtual Machine installiert haben, laden Sie hier das Paket herunter, das eine solche enth&auml;lt. </font></zgw></zgw>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div> </zgw>
+
+
+
+<zgw Condition=zghtml.bool.macosx.novm>
+<!--	MACOSX	-->
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="macosx"></a>Mac OS X-Anleitung:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Doppelklicken Sie nach dem Herunterladen auf</font><font size="4"><b><code>&nbsp;<zgw Sub=zghtml.installername>Installieren</zgw></code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Erfordert Mac OS X 10.4 oder h&ouml;her</font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen Java 1.5 oder h&ouml;her installiert haben. Sie k&ouml;nnen Java von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Apples-Website</a> herunterladen.</font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Der komprimierte Installer sollte vom Dienstprogramm StuffIt Expander erkannt und nach dem Herunterladen automatisch dekomprimiert werden. Ist dies nicht der Fall, dekomprimieren Sie ihn manuell mit dem Programm <a href="http://www.aladdinsys.com/expander/index.html">StuffIt Expander 6.0 oder h&ouml;her</a>.</font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn Sie Probleme beim Starten des dekomprimierten Installers haben, &uuml;berzeugen Sie sich, dass der komprimierte Installer mit StuffIt Expander dekomprimiert wurde. Wenn weiterhin Probleme auftreten, wenden Sie sich an den technischen Support.</font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div> </zgw>
+
+<zgw Condition=zghtml.bool.aix.vm,zghtml.bool.aix.novm>
+<!--   AIX   -->
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="aix"></a>AIX-Anleitung:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">&Ouml;ffnen Sie nach dem Download eine Shell und wechseln Sie mit </font><font size="4"><b><code>&nbsp;cd&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">in das Verzeichnis, in das Sie den Installer heruntergeladen haben</font>.
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie bei der Eingabeaufforderung Folgendes ein: </font><font size="4"><b><code>&nbsp;sh ./<zgw Sub=zghtml.installername.aix>Install.bin</zgw></code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul>
+					<!-- Cases (possible installs) (1): AIX sans VM alone; (2) AIX with VM; (3) AIX both with and without VM (is the case when a generic UNIX installer is built) --> <zgw Condition=zghtml.bool.aix.novm><zgw Condition=!zghtml.bool.aix.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen eine Java Virtual Machine Version 1.5 (oder h&ouml;her) installieren. Sie k&ouml;nnen diese von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.aix.vm><zgw Condition=!zghtml.bool.aix.novm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In diesem Download ist eine Java Virtual Machine enthalten. Sie wird automatisch ausgef&uuml;hrt, wenn Sie das Shell-Skript starten.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.aix.novm><zgw Condition=zghtml.bool.aix.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn Sie noch keine Java Virtual Machine installiert haben, laden Sie hier das Paket herunter, das eine solche enth&auml;lt. Ansonsten k&ouml;nnen Sie die Java-VM auch von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw></zgw>
+            </ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div>
+
+
+</zgw>
+
+
+<zgw Condition=zghtml.bool.solaris.vm,zghtml.bool.solaris.novm>
+<!--   SOLARIS   -->
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="solaris"></a>Solaris-Anleitung:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">&Ouml;ffnen Sie nach dem Download eine Shell und wechseln Sie mit </font><font size="4"><b><code>&nbsp;cd&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">in das Verzeichnis, in das Sie den Installer heruntergeladen haben</font>.
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie bei der Eingabeaufforderung Folgendes ein: </font><font size="4"><b><code>&nbsp;sh ./<zgw Sub=zghtml.installername.solaris>Install.bin</zgw></code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul>
+					<!-- Cases (possible installs) (1): Solaris sans VM alone; (2) Solaris with VM; (3) Solaris both with and without VM (is the case when a generic UNIX installer is built) --> <zgw Condition=zghtml.bool.solaris.novm><zgw Condition=!zghtml.bool.solaris.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen eine Java Virtual Machine Version 1.5 (oder h&ouml;her) installieren. Sie k&ouml;nnen diese von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.solaris.vm><zgw Condition=!zghtml.bool.solaris.novm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In diesem Download ist eine Java Virtual Machine enthalten. Sie wird automatisch ausgef&uuml;hrt, wenn Sie das Shell-Skript starten.</font></zgw></zgw> <zgw Condition=zghtml.bool.solaris.novm><zgw Condition=zghtml.bool.solaris.vm><li>
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn Sie noch keine Java Virtual Machine installiert haben, laden Sie hier das Paket herunter, das eine solche enth&auml;lt. Ansonsten k&ouml;nnen Sie die Java-VM auch von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw></zgw>
+            </ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div>
+
+
+</zgw>
+
+
+<zgw Condition=zghtml.bool.linux.vm,zghtml.bool.linux.novm>
+<!--	LINUX	-->
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="linux"></a>Linux-Anleitung:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">&Ouml;ffnen Sie nach dem Download eine Shell und wechseln Sie mit </font><font size="4"><b><code>&nbsp;cd&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">in das Verzeichnis, in das Sie den Installer heruntergeladen haben</font>.
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie bei der Eingabeaufforderung Folgendes ein: </font><font size="4"><b><code>&nbsp;sh ./<zgw Sub=zghtml.installername.linux>Install.bin</zgw></code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul>
+					<!-- Cases (possible installs) (1): Linux sans VM alone; (2) Linux with VM\; (3) Linux both with and without VM (is never the case) --> <zgw Condition=zghtml.bool.linux.novm><zgw Condition=!zghtml.bool.linux.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen eine Java Virtual Machine Version 1.5 (oder h&ouml;her) installieren. Sie k&ouml;nnen diese von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.linux.vm><zgw Condition=!zghtml.bool.linux.novm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In diesem Download ist eine Java Virtual Machine enthalten. Sie wird automatisch ausgef&uuml;hrt, wenn Sie das Shell-Skript starten.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.linux.novm><zgw Condition=zghtml.bool.linux.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn Sie noch keine Java Virtual Machine installiert haben, laden Sie hier das Paket herunter, das eine solche enth&auml;lt. Ansonsten k&ouml;nnen Sie sie auch von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw></zgw>
+            </ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div>
+
+
+</zgw>
+
+
+<zgw Condition=zghtml.bool.hpux.vm,zghtml.bool.hpux.novm>
+<!--	HPUX	-->
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="hpux"></a>HP-UX-Anleitung:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">&Ouml;ffnen Sie nach dem Download eine Shell und wechseln Sie mit </font><font size="4"><b><code>&nbsp;cd&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">in das Verzeichnis, in das Sie den Installer heruntergeladen haben</font>.
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie bei der Eingabeaufforderung Folgendes ein: </font><font size="4"><b><code>&nbsp;sh ./<zgw Sub=zghtml.installername.hpux>Install.bin</zgw></code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul>
+					<!-- Cases (possible installs) (1): HP-UX sans VM alone; (2) HP-UX with VM\; (3) HP-UX both with and without VM (is never the case) --> <zgw Condition=zghtml.bool.hpux.novm><zgw Condition=!zghtml.bool.hpux.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen eine Java Virtual Machine Version 1.5 (oder h&ouml;her) installieren. Sie k&ouml;nnen diese von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.hpux.vm><zgw Condition=!zghtml.bool.hpux.novm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In diesem Download ist eine Java Virtual Machine enthalten. Sie wird automatisch ausgef&uuml;hrt, wenn Sie das Shell-Skript starten.</font></zgw></zgw> <zgw Condition=zghtml.bool.hpux.novm><zgw Condition=zghtml.bool.hpux.vm><li>
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn Sie noch keine Java Virtual Machine installiert haben, laden Sie hier das Paket herunter, das eine solche enth&auml;lt. Ansonsten k&ouml;nnen Sie sie auch von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw></zgw>
+            </ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div>
+
+
+</zgw>
+
+
+<zgw Condition=zghtml.bool.named_unix.vm,zghtml.bool.named_unix.novm>
+<!--	Named Unix	-->
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="named_unix"></a><zgw Sub=zghtml.named_unix.name>NamedUnix</zgw> Anleitung:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">&Ouml;ffnen Sie nach dem Download eine Shell und wechseln Sie mit </font><font size="4"><b><code>&nbsp;cd&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">in das Verzeichnis, in das Sie den Installer heruntergeladen haben</font>.
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie bei der Eingabeaufforderung Folgendes ein: </font><font size="4"><b><code>&nbsp;sh ./<zgw Sub=zghtml.installername.named_unix>Install.bin</zgw></code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul>
+					<!-- Cases (possible installs) (1): Named Unix sans VM alone; (2) Named Unix with VM\; (3) Named Unix both with and without VM (is never the case) --> <zgw Condition=zghtml.bool.named_unix.novm><zgw Condition=!zghtml.bool.named_unix.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen eine Java Virtual Machine Version 1.5 (oder h&ouml;her) installieren. Sie k&ouml;nnen diese von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.named_unix.vm><zgw Condition=!zghtml.bool.named_unix.novm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">In diesem Download ist eine Java Virtual Machine enthalten. Sie wird automatisch ausgef&uuml;hrt, wenn Sie das Shell-Skript starten.</font></zgw>
+</zgw> <zgw Condition=zghtml.bool.named_unix.novm><zgw Condition=zghtml.bool.named_unix.vm><li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn Sie noch keine Java Virtual Machine installiert haben, laden Sie hier das Paket herunter, das eine solche enth&auml;lt. Ansonsten k&ouml;nnen Sie sie auch von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font></zgw></zgw>
+            </ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div>
+
+
+</zgw>
+
+
+<zgw Condition=zghtml.bool.unix.novm>
+<!--	UNIX	-->
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="unix"></a>Anleitung f&uuml;r UNIX allgemein:</font><br>
+			</p>
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">&Ouml;ffnen Sie nach dem Download eine Shell und wechseln Sie mit </font><font size="4"><b><code>&nbsp;cd&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">in das Verzeichnis, in das Sie den Installer heruntergeladen haben</font>.
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie bei der Eingabeaufforderung Folgendes ein: </font><font size="4"><b><code>&nbsp;sh ./<zgw Sub=zghtml.installername.unix>Install.bin</zgw></code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Hinweise</b></font></p>
+				<ul>
+					<!-- Cases (possible installs) (1): Unix sans VM alone; (2) Unix with VM (is never the case); (3) Unix both with and without VM (is never the case) -->
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen eine Java Virtual Machine Version 1.5 (oder h&ouml;her) installieren. Sie k&ouml;nnen diese von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Java-Website von Sun</a> herunterladen oder bei dem Hersteller Ihres Betriebssystems anfordern.</font>
+            	</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div>
+
+
+</zgw>
+
+
+<zgw Condition=zghtml.bool.other.vm,zghtml.bool.other.novm>
+<!--	OTHER	-->
+
+		<center>
+			<p>
+			<hr>
+			</p>
+		</center> <div align="left">
+			<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="5"><a name="other"></a>Anleitungen f&uuml;r alle anderen Plattformen:</font><br>
+			</p> </div> <div align="left">
+			<ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b>Anleitung f&uuml;r UNIX oder UNIX-&auml;hnliche Betriebssysteme</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie bei Java 2 nach dem Herunterladen Folgendes ein:<br> </font><font size="4"><b><code>java -jar <zgw Sub=zghtml.installername.other>install.jar</zgw></code></b></font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Geben Sie f&uuml;r Java 1.1 nach dem Herunterladen Folgendes ein:<br> </font><font size="4"><b><code>jre -cp <zgw Sub=zghtml.installername.other>install.jar</zgw> install</code></b></font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn dies nicht funktioniert, versuchen Sie es mit<br> </font><font size="4"><b><code>&nbsp;java -classpath </code></b><code>[Pfad zu]<b>classes.zip:<zgw Sub=zghtml.installername.other>install.jar</zgw> install</b></code></font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wenn dies auch nicht zu dem gew&uuml;nschten Ergebnis f&uuml;hrt, versuchen Sie es bei sh-Shells mit<br> </font><font size="4"><b><code>&nbsp;cd </code></b><code>[zum Verzeichnis, in dem <zgw Sub=zghtml.installername.other>install.jar</zgw> liegt]</code></font><br> 
+<font size="4"><b><code>&nbsp;&nbsp;CLASSPATH=</code></b><code><zgw Sub=zghtml.installername.other>install.jar</zgw></b></code></font><br> <font size="4"><b><code>&nbsp;&nbsp;export CLASSPATH</code></b></font><br> <font size="4"><b><code>&nbsp;&nbsp;java install</code></b></font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Oder versuchen Sie es bei csh-Shells mit<br> </font><font size="4"><b><code>&nbsp;&nbsp;cd </code></b><code>[zum Verzeichnis, in dem <zgw Sub=zghtml.installername.other>install.jar</zgw> liegt]</code></font><br>
+ <font size="4"><b><code>&nbsp;&nbsp;setenv CLASSPATH </code></b><code><zgw Sub=zghtml.installername.other>install.jar</zgw></b></code></font><br> <font size="4"><b><code>&nbsp;&nbsp;java install</code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"><b><br> Anleitung f&uuml;r andere Plattformen</b></font></p>
+				<ul>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Sie m&uuml;ssen Java 1.5 oder h&ouml;her installiert haben. Sie k&ouml;nnen Java von der <a href="http://www.Macrovision.com/redirect/redirectJava.htm">Sun-Website</a> herunterladen.</font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Wechseln Sie in einem Konsolenfenster vor dem Ausf&uuml;hren des Installers in das Verzeichnis, in das Sie </font><font size="4"><b><code>&nbsp;<zgw Sub=zghtml.installername.other>install.jar</zgw>&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">heruntergeladen haben.</font>
+					<li><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">Ihr Betriebssystem ruft Java m&ouml;glicherweise auf andere Weise auf. Um den Installer zu starten, f&uuml;gen Sie </font><font size="4"><b><code>&nbsp;<zgw Sub=zghtml.installername.other>install.jar</zgw>&nbsp;</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular">zu Ihrem</font><font size="4"><b><code>&nbsp;CLASSPATH</code></b></font><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular"> hinzu und starten dann die Hauptklasse des Installers mit dem Namen</font><font size="4"><b><code>&nbsp;install</code></b></font>
+				</ul>
+				<p><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="2"><br> (<a href="#top">Seitenanfang</a>)</font></p>
+			</ul> </div> </zgw>
+
+
+<hr> <font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" size="1"> <a href="http://www.Macrovision.com/goto/installanywhere">InstallAnywhere</a> ist ein eingetragenes Warenzeichen von <a href="http://www.Macrovision.com">Macrovision Corporation</a><br>
+ Mac OS X ist ein eingetragenes Warenzeichen von <a href="http://www.apple.com">Apple Computer, Inc.</a><br>
+ Solaris und Java sind Warenzeichen von <a href="http://www.sun.com">Sun Microsystems, Inc.</a><br>
+ Windows ist ein eingetragenes Warenzeichen der <a href="http://www.microsoft.com">Microsoft Corporation.</a><br>
+ Alle anderen Marken sind das Eigentum ihrer jeweiligen Inhaber.<br> </font>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:44" />
+    <title>Customizing a DIM Reference</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1052754"> </a><h1 class="pHeading1">
+Customizing a DIM Reference
+</h1>
+<a name="wp1072238"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1052585"> </a><p class="pa_Body">
+When you click a DIM reference on the <b class="cUI_Element">DIM References List</b> or on the <b class="cUI_Element">Visual Tree</b>, a customizer appears that allows you to view or configure specific properties that are defined with the DIM.
+</p>
+<img style="margin-top: 16pt;" alt="Note" hspace="8" src="images/A_note.gif" />
+<p class="alert">Note</p>
+<a name="wp1053585"> </a><p class="pno_Note">
+Any changes you make in the DIM Reference customizer are reflected in both the <b class="cUI_Element">DIM References</b> subtask and the <b class="cUI_Element">Install</b> task. 
+</p>
+<a name="wp1053581"> </a><p class="pa_Body">
+The DIM Reference customizer contains the following tabs: 
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1053365"> </a><div class="pSmartList1_Variant"><li value="">General tab </li></div>   <a name="wp1053369"> </a><div class="pSmartList1_Variant"><li value="">Build Variables tab </li></div>   <a name="wp1053370"> </a><div class="pSmartList1_Variant"><li value="">Runtime Variables tab </li></div> </ul></div>
+<img style="margin-top: 10pt;" hspace="16" alt="Task" src="images/A_task.gif" />
+<p class="alert">Task</p>
+<a name="wp1053398"> </a><p class="pp_Procedure_Leading">
+To customize a DIM reference:
+</p>
+<div class="pSmartList1"><ol type="1" class="pSmartList1">
+<a name="wp1053404"> </a><div class="pSmartList1"><li>On either the <b class="cUI_Element">DIM References List</b> or the <b class="cUI_Element">Visual Tree, </b>click the DIM reference you want to customize. The <b class="cUI_Element">DIM Reference</b> customizer appears.</li></div>
+<a name="wp1053443"> </a><div class="pSmartList1"><li>Click the <b class="cUI_Element">General</b> tab. The General tab properties appear.</li></div>
+<a name="wp1053465"> </a><div class="pSmartList1"><li>Click <b class="cUI_Element">Choose DIM Reference</b> to associate the DIM reference with a .dim file. The <b class="cUI_Element">Add DIM Reference to Project</b> dialog box appears.</li></div>
+<a name="wp1053466"> </a><div class="pSmartList1"><li>Browse to the .dim file and click <b class="cUI_Element">Open</b>. All of the General tab properties are updated to reflect the DIM that you selected.</li></div>
+<img style="margin-top: 6pt;" alt="Note" hspace="11" src="images/A_note.gif" />
+<p class="alertrelative">Note</p>
+<a name="wp1053484"> </a><p class="pnor_Note_Relative">
+All of the General tab properties are read-only except for <b class="cUI_Element">Destination Path</b>. This property represents the location that the predefined variable $[INSTALLDIR] is associated with according to the DIM.
+</p>
+<a name="wp1053436"> </a><div class="pSmartList1"><li>To change location associated with $[INSTALLDIR], click the <b class="cUI_Element">Destination Path</b> box and type the desired location.</li></div>
+<a name="wp1053500"> </a><div class="pSmartList1"><li>Click the <b class="cUI_Element">Build Variables</b> tab. The Build Variables tab properties appear.</li></div>
+<a name="wp1053504"> </a><div class="pSmartList1"><li>To change the value associated with the variable, click the <b class="cUI_Element">Value</b> box and either type the desired value or click the ellipses button to browse to a directory location.</li></div>
+<img style="margin-top: 6pt;" alt="Note" hspace="11" src="images/A_note.gif" />
+<p class="alertrelative">Note</p>
+<a name="wp1053543"> </a><p class="pnor_Note_Relative">
+The <b class="cUI_Element">Name</b> and <b class="cUI_Element">Description</b> properties are read-only.
+</p>
+<a name="wp1053538"> </a><div class="pSmartList1"><li>Click the <b class="cUI_Element">Runtime Variables</b> tab. The Runtime Variables tab properties appear.</li></div>
+<a name="wp1053542"> </a><div class="pSmartList1"><li>To change the value associated with the variable, click the <b class="cUI_Element">Value</b> box and type the desired value.</li></div>
+<img style="margin-top: 6pt;" alt="Note" hspace="11" src="images/A_note.gif" />
+<p class="alertrelative">Note</p>
+<a name="wp1053576"> </a><p class="pnor_Note_Relative">
+The <b class="cUI_Element">Name</b> and <b class="cUI_Element">Description</b> properties are read-only.
+</p>
+</ol></div>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

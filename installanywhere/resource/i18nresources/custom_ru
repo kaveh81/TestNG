@@ -1,0 +1,2008 @@
+﻿#Tue Mar 13 3:50:31 PDT 2001
+
+# ALLORFEATUREPANEL
+# ---------
+
+# ...................... =Complete Uninstall
+UninstallAllOrFeaturesAction.allLabel=Деинсталяция завершена
+
+# ...................... =Completely remove all features and components of $PRODUCT_NAME$ that were installed by InstallAnywhere. Files and folders created after the installation will not be affected.
+UninstallAllOrFeaturesAction.allDescription=Полностью удалить все средства и компоненты $PRODUCT_NAME$, установленные InstallAnywhere. Файлы и папки, созданные после установки, останутся не тронутыми.
+
+# ...................... =Uninstall Specific Features
+UninstallAllOrFeaturesAction.someLabel=Деинсталировать специальные средства
+
+# ...................... =Choose specific features of $PRODUCT_NAME$ that were installed by InstallAnywhere to be uninstalled.
+UninstallAllOrFeaturesAction.someDescription=Выберите конкретные средства $PRODUCT_NAME$, установленные InstallAnywhere, которые будут деинсталированы.
+
+# ...................... =Please select one of the following options:
+UninstallAllOrFeaturesAction.instructions=Выберите один из следующих параметров:
+
+# ...................... =Uninstall Options
+UninstallAllOrFeaturesAction.stepTitle=Параметры деинсталяции
+
+# ...................... =Uninstall
+UninstallAllOrFeaturesAction.panelTitle=Деинсталировать
+
+
+# ALLORFEATURESACTIONCONSOLE
+# ---------
+
+# ...................... =Completely remove all features and components. 
+AllOrFeaturesActionConsole.allDescription=Полностью удалить все средства и компоненты.
+
+# ...................... Choose specific features that were installed by InstallAnywhere.
+AllOrFeaturesActionConsole.someDescription=Выберите конкретные средства, установленные InstallAnywhere.
+
+# ...................... =Please choose one of the following options:
+AllOrFeaturesActionConsole.instructions=Выберите один из следующих параметров:
+
+# ...................... =Uninstall Options	
+AllOrFeaturesActionConsole.stepTitle=Параметры деинсталяции
+
+# ...................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+AllOrFeaturesActionConsole.prompt=ВВЕДИТЕ ЦИФРУ, ПРЕДСТАВЛЯЮЩУЮ ВАШ ВЫБОР, ИЛИ НАЖМИТЕ <ENTER>, ЧТОБЫ ПРИНЯТЬ ПРИНЯТЫЙ ПО УМОЛЧАНИЮ ВАРИАНТ.
+
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=
+
+
+# CHECKDISKSPACE
+# --------------
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpace.enoughMegs=Недостаточно места на диске для продолжения установки,
+
+# .................... =but there are only XXX MB available at:
+CheckDiskSpace.megsFree=но только XXX МБ могут быть использованы на:
+
+# ...................... =This installation requires XXX MB of free disk space,
+CheckDiskSpace.megsNeeded=Этот вариант установки требует наличия XXX МБ на диске.
+
+# ..................... =Otherwise, you may choose 'Cancel' to cancel this installation.
+CheckDiskSpace.otherwise=В противном случае, можно выбрать опцию 'Отмена' для прекращения установки.
+
+# ...................... =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpace.pleaseFree=Освободите по крайней мере XXX МБ на диске для выполнения установки.
+
+# ......................... =Please free some disk space to proceed with the installation.
+CheckDiskSpace.pleaseFreeAlt=Освободите некоторый объем памяти на диске для выполнения установки.
+
+# ................... =Please click 'Install' to continue with the installation.
+CheckDiskSpace.proceed=Щелкните кнопку 'Установить' для продолжения установки.
+
+# ................. =Ready To Proceed
+CheckDiskSpace.ready=Система готова к продолжению
+
+# ................. =Not Enough Disk Space
+CheckDiskSpace.title=Недостаточно места на диске
+
+# ................... =Warning!
+CheckDiskSpace.warning=Предупреждение!
+
+
+# CHECKDISKSPACECONSOLE
+# ---------------------
+
+# .............................. =PRESS <ENTER> TO RECALCULATE AVAILABLE DISK SPACE,\n   OR TYPE 'QUIT' TO EXIT THE INSTALLER
+CheckDiskSpaceConsole.errorPrompt=НАЖМИТЕ <ENTER> ДЛЯ ПЕРЕСЧЕТА СВОБОДНОЙ ПАМЯТИ НА ДИСКЕ\u000A   ИЛИ НАБЕРИТЕ 'ЗАКРЫТЬ', ЧТОБЫ ВЫЙТИ ИЗ ПРОГРАММЫ УСТАНОВКИ
+
+# .................................... =There is not enough disk space to perform this installation.\n   Please free some disk space and re-run this installer...
+CheckDiskSpaceConsole.silentExitMessage=Недостаточно места на диске для выполнения установки. \u000A   Освободите некоторый объем памяти на диске и запустите программу установки снова...
+
+# ....................................... =PRESS <ENTER> TO BEGIN INSTALLATION
+CheckDiskSpaceConsole.enterToInstallString=НАЖМИТЕ <ENTER> ДЛЯ НАЧАЛА УСТАНОВКИ
+
+# .......................... =Warning!
+CheckDiskSpaceConsole.warning=Предупреждение!
+
+# ............................. =This installation requires XXX MB of free disk space,
+CheckDiskSpaceConsole.megsNeeded=Этот вариант установки требует наличия XXX МБ на диске,
+
+# ........................... =but there are only XXX MB available at:
+CheckDiskSpaceConsole.megsFree=однако только XXX МБ могут быть использованы на:
+
+# ............................. =Please free at least XXX MB to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFree=Освободите по крайней мере XXX МБ на диске для выполнения установки.
+
+# ................................ =Please free some disk space to proceed with the installation.
+CheckDiskSpaceConsole.pleaseFreeAlt=Освободите некоторый объем памяти на диске для выполнения установки.
+
+# ...................... =There is now enough disk space to proceed with the installation.
+CheckDiskSpaceConsole.enoughMegs=На диске достаточно места для продолжения установки.
+
+# ........................ =Not Enough Disk Space
+CheckDiskSpaceConsole.title=Недостаточно места на диске
+
+
+# CHOOSEFILE (DONE)
+# ----------
+
+# ...................... =Please choose a file.
+ChooseFile.additionalText=Выберите файл.
+
+# ................. =Choose...
+ChooseFile.chooseStr=Вы&берите...
+
+# .............. =Please Choose a File:
+ChooseFile.prompt=В&ыберите файл:
+
+# .................. =Restore Default File
+ChooseFile.restoreStr=В&ернуться к файлу по умолчанию
+
+# ................. =Choose a File
+ChooseFile.stepTitle=Выберите файл
+
+# .................... =in the folder
+ChooseFile.macInsideStr=в папке
+
+# ................ =on the disk
+ChooseFile.macOnStr=на диске
+
+#..................=com/zerog/ia/installer/images/bigFile.gif
+ChooseFile.iconPath=com/zerog/ia/installer/images/bigFile.gif
+
+
+# CHOOSEFOLDER (DONE)
+# ------------
+
+# ........................ =Please choose a folder.
+ChooseFolder.additionalText=Выберите папку.
+
+# ................... =Choose...
+ChooseFolder.chooseStr=Вы&берите...
+
+# ................ =Please Choose a Folder:
+ChooseFolder.prompt=В&ыберите папку:
+
+# .................... =Restore Default Folder
+ChooseFolder.restoreStr=В&ернуться к папке по умолчанию
+
+# ................... =Choose a Folder
+ChooseFolder.stepTitle=Выберите папку
+
+# .................. =on the disk
+ChooseFolder.macOnStr=на диске
+
+#................... =com/zerog/ia/installer/images/bigFolder.gif
+ChooseFolder.iconPath=com/zerog/ia/installer/images/bigFolder.gif
+
+
+# CHOOSEFOLDERINSTALLPANEL (DONE)
+# ------------------------
+
+# ....................................... =Error!
+ChooseFolderInstallPanel.alertDialog.label=Ошибка!
+
+# ........................................... =You do not have write permissions to the chosen folder. Please choose a different folder.
+ChooseFolderInstallPanel.alertDialog.narrative=Вы не имеете права на запись в выбранную папку. Выберите другую папку.
+
+# ....................................... =Choose Folder 
+ChooseFolderInstallPanel.alertDialog.title=Выберите папку
+
+
+# CHOOSEINSTALLSETACTION (DONE)
+# ----------------------
+
+# ................................ =Choose Install Set
+ChooseInstallSetAction.bundlesTitle=Выберите набор установки
+
+# ......................... =Choose Install Set
+ChooseInstallSetAction.title=Выберите набор установки
+
+
+# CHOOSEINSTALLSETACTIONCONSOLE
+# -----------------------------
+
+# ....................................... =Choose Product Features
+ChooseInstallSetActionConsole.bundlesTitle=Выберите свойства продукта
+
+# ...................................... =Please choose the Install Set to be installed by this installer.
+ChooseInstallSetActionConsole.description=Выберите набор установки, устанавливаемый этой программой установки.
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE NUMBER FOR THE INSTALL SET, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ChooseInstallSetActionConsole.prompt=ВВЕДИТЕ ЦИФРУ ДЛЯ НАБОРА УСТАНОВКИ ИЛИ НАЖМИТЕ <ENTER>, ЧТОБЫ ПРИНЯТЬ ВАРИАНТ ПО УМОЛЧАНИЮ.\u000A   
+
+# ............................................ =Please choose the Features to be installed by the installer.
+ChooseInstallSetActionConsole.bundleDescription=Выберите набор средств, устанавливаемый этой программой установки.
+
+# ....................................... =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE COMPONENTS\n   TO BE INSTALLED
+ChooseInstallSetActionConsole.bundlePrompt=ВВЕДИТЕ ЧЕРЕЗ ЗАПЯТУЮ ЦИФРЫ, ПРЕДСТАВЛЯЮЩИЕ УСТАНАВЛИВАЕМЫЙ НАБОР СРЕДСТВ\u000A
+
+# ................................ =Choose Install Set
+ChooseInstallSetActionConsole.title=Выберите набор установки
+
+# .................................... =Customize
+ChooseInstallSetActionConsole.customize=Настроить
+
+
+# CHOOSEINSTALLSETACTIONCONSOLEUI
+# -------------------------------
+
+# ........................................... =Error setting product features for installation.
+ChooseInstallSetActionConsoleUI.bundleErrorStr=Ошибка установки средств продукта при установке.
+
+
+# CHOOSEJAVAVMACTION (DONE)
+# ------------------
+
+# ...................... =Please Choose a Java VM for Use by the Installed Application
+ChooseJavaVMAction.header=Выберите виртуальную машину Java, которая будет использоваться установленным приложением
+
+# ..................... =Choose Java Virtual Machine
+ChooseJavaVMAction.title=Выберите виртуальную машину Java
+
+
+# CHOOSEJAVAVMACTIONCONSOLE
+# -------------------------
+
+# ........................................ =The provided path does not point to a valid Java Virtual Machine. Please choose again.
+ChooseJavaVMActionConsole.invalidVM.message=Заданный путь указывает на недействительную виртуальную машину Java. Выберите другое значение.
+
+# ............................. =Please choose a Java VM for use by the installed application
+ChooseJavaVMActionConsole.header=Выберите виртуальную машину Java, которая будет использоваться установленным приложением
+
+# ............................ =Choose Java Virtual Machine
+ChooseJavaVMActionConsole.title=Выберите виртуальную машину Java
+
+# ................................... =ENTER THE NUMBER FOR THE JAVA VM, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ChooseJavaVMActionConsole.choicePrompt=ВВЕДИТЕ НОМЕР ДЛЯ JAVA VM ИЛИ НАЖМИТЕ <ENTER> ДЛЯ ПОДТВЕРЖДЕНИЯ \u000A   ИСПОЛЬЗУЕМОГО ВАРИАНТА
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................. =ENTER THE ABSOLUTE PATH TO THE JAVA VM EXECUTABLE OF YOUR CHOICE\n   
+ChooseJavaVMActionConsole.pathPrompt=ВВЕДИТЕ ПОЛНЫЙ ПУТЬ К ИСПОЛНЯЕМОМУ ФАЙЛУ JAVA VM ПО ВАШЕМУ ВЫБОРУ\u000A   
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ...................................... =PATH TO THE JAVA EXECUTABLE IS:\n   
+ChooseJavaVMActionConsole.javaExeDirIsStr=ПУТЬ К ИСПОЛНЯЕМОМУ ФАЙЛУ JAVA:\u000A   
+
+# ............................... =Unable to install the Java Virtual Machine included with this installer.
+ChooseJavaVMActionConsole.errorStr=Невозможно установить виртуальную машину Java, поставляемую вместе с этой программой установки.
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionConsole.install=Установить Java VM специально для этого приложения
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionConsole.select=Выберите Java VM, уже установленную в этой системе
+
+
+# CHOOSEJAVAVMACTIONPANEL (DONE)
+# -----------------------
+
+# .............................. =Choose Another...
+ChooseJavaVMActionPanel.chooseStr=В&ыберите другой адрес...
+
+# .................................... =Open
+ChooseJavaVMActionPanel.fileDialog.open=Открыть
+
+# .............................. =Install a Java VM specifically for this application
+ChooseJavaVMActionPanel.installCb=Установить Java VM специально для этого приложения
+
+# ........................... =Java Runtime Environment
+ChooseJavaVMActionPanel.jreStr=Среда выполнения Java
+
+# ....................................... =Searching In: 
+ChooseJavaVMActionPanel.searchingForVMsStr=Поиск в: 
+
+# ............................ =Stop Searching
+ChooseJavaVMActionPanel.stopStr=Останов&ить поиск
+
+# .............................. =Search For Others
+ChooseJavaVMActionPanel.searchStr=По&иск других вариантов
+
+# .......................................... =searching completed.
+ChooseJavaVMActionPanel.searchingCompletedStr=Поиск завершен.
+
+# ............................. =Choose a Java VM already installed on this system
+ChooseJavaVMActionPanel.selectCb=Выберите Java VM, уже установленную в этой системе
+
+# ...................................... =Error!
+ChooseJavaVMActionPanel.badVMDialog.label=Ошибка!
+
+# .......................................... =The selected application is not a valid Java Virtual Machine.
+ChooseJavaVMActionPanel.badVMDialog.narrative=Выбранное приложение не является действительной виртуальной машиной Java.
+
+# ...................................... =Choose Java VM
+ChooseJavaVMActionPanel.badVMDialog.title=Выберите Java VM
+
+# ..................................... =Error: A suitable Java Virtual Machines could not be found.
+ChooseJavaVMActionPanel.noVMDialog.label=Ошибка: Соответствующая виртуальная машина Java не найдена.
+
+# ......................................... =This product requires that a Java Virtual Machine already be installed on your system. Please see <http://java.sun.com> to download a virtual machine for your platform.
+ChooseJavaVMActionPanel.noVMDialog.narrative=Для этого продукта требуется, чтобы виртуальная машина Java была уже установлена в системе. Можно загрузить виртуальную машину для нужной платформы с веб-узла <http://java.sun.com> .
+
+# ..................................... =Choose Java VM
+ChooseJavaVMActionPanel.noVMDialog.title=Выберите Java VM
+
+
+ChooseSCMFeaturesConsole.visualName=Выберите дополнительные свойства SCM 
+ChooseSCMFeaturesConsole.title=Выберите дополнительные свойства SCM 
+ChooseSCMFeaturesConsole.instructions=Выберите инструкции по функциям SCM 
+# CONSOLEUTILS
+# ------------
+
+# ......................... =PRESS <ENTER> TO CONTINUE
+ConsoleUtils.enterToContinue=НАЖМИТЕ <ENTER> ДЛЯ ПРОДОЛЖЕНИЯ
+
+# ................. =Y
+ConsoleUtils.yesChar=Д
+
+# ................ =N
+ConsoleUtils.noChar=Н
+
+# ....................... =IS THIS CORRECT?
+ConsoleUtils.isThisCorrect=ЭТО ПРАВИЛЬНО?
+
+# ...................... =One of the supplied values was not valid. Please choose again.
+ConsoleUtils.invalidInput=Одно из заданных значений недействительно. Выберите другое значение.
+
+#............... =back
+ConsoleUtils.back=назад
+
+# CUSTOMIZEBUNDLES
+# ---------
+
+#......................................... =Description
+CustomizeBundles.uncheckInstructions=Удалите флажок со средств, которые вы хотите деинсталировать. Помеченные флажком средства не будут удалены.
+
+#......................................... =Check features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundles.checkInstructions=Пометьте флажком средства, которые вы хотите деинсталировать. Не помеченные флажком средства не будут удалены.
+
+# ............................ =Choose Product Features
+CustomizeBundles.title=Выберите свойства продукта
+
+
+
+# CUSTOMIZEBUNDLESCONSOLE
+# ---------
+
+
+# ...................... =Please choose the Features to be installed by this installer.
+CustomizeBundlesConsole.instructions=Выберите набор средств, устанавливаемый этой программой установки.
+
+# ...................... =Uncheck the features that you want to uninstall. Checked features will remain installed.
+CustomizeBundlesConsole.uncheckInstructions=Удалите метку со средств, которые вы хотите деинсталировать. Помеченные средства не будут удалены.
+
+# ...................... =Check the features that you want to uninstall. Unchecked features will remain installed.
+CustomizeBundlesConsole.checkInstructions=Пометьте средства, которые вы хотите деинсталировать.. Не помеченные средства не будут удалены.
+
+# ...................... =Choose Product Features
+CustomizeBundlesConsole.title=Выберите свойства продукта
+
+# ...................... =ENTER A COMMA_SEPARATED LIST OF NUMBERS REPRESENTING THE FEATURES YOU WOULD LIKE TO SELECT, OR DESELECT. TO VIEW A FEATURE'S DESCRIPTION, ENTER '?<NUMBER>'. PRESS <RETURN> WHEN YOU ARE DONE:
+CustomizeBundlesConsole.line.message=ВВЕДИТЕ ЧЕРЕЗ ЗАПЯТУЮ ЦИФРЫ, ПРЕДСТАВЛЯЮЩИЕ ФУНКЦИИ, ВЫБОР КОТОРЫХ ВЫ ХОТЕЛИ БЫ ПОДТВЕРДИТЬ ИЛИ ОТМЕНИТЬ. ДЛЯ ПРОСМОТРА ОПИСАНИЯ ФУНКЦИИ ВВЕДИТЕ '?<ЦИФРУ>'. ПОСЛЕ ЗАВЕРШЕНИЯ НАЖМИТЕ <RETURN>:
+
+
+
+
+
+# CUSTOMIZEBUNDLESPANEL (DONE)
+# ---------------------
+
+# ............................... =Install Set:
+CustomizeBundlesPanel.currentISLbl=Набор установки
+
+# ............................ =Choose Product Features
+CustomizeBundlesPanel.title=Выберите свойства продукта
+
+#............................... =Description
+CustomizeBundlesPanel.description=Описание
+
+
+
+# .............................. =kB
+CustomizeBundlesPanel.kiloByteStr=KB
+
+# ............................. =???
+CustomizeBundlesPanel.totalSpace=???
+
+# ................................ =Total Space Required for Install:
+CustomizeBundlesPanel.totalSpaceLbl=Общий объем памяти на диске, требуемой для установки:
+
+
+# DISKNEEDEDDIALOG
+---------------
+
+# .......................... =Insert New Media
+DiskNeededDialog.title=Введите новый носитель
+
+# .......................... =Please insert #NAME# or Select 'Browse...' to locate it manually.
+DiskNeededDialog.instructions=Введите #NAME# или выберите 'Обзор...', чтобы найти носитель вручную.
+
+# ................... =Incorrect Media Volume
+DiskNeededDialog.error=Некорректный объем носителя
+# .................... =Browse
+DiskNeededDialog.locate=Обзор
+
+# .................. =Cancel
+DiskNeededDialog.quit=Отмена
+
+# ...................... =OK
+DiskNeededDialog.continue=ОК
+
+
+
+
+# DISKNEEDEDCONSOLEUI
+# ---------------
+
+# ............................. =Insert New Media
+DiskNeededConsoleUI.title=Введите новый носитель
+
+# ............................. =Please insert #NAME# or choose path to it manually.
+DiskNeededConsoleUI.instructions=Введите #NAME# или выберите путь к нему вручную.
+
+# ............................. =Please insert #NAME#.
+DiskNeededConsoleUI.noBrowse=Введите #NAME#.
+
+# ............................. =Disk is expected at: 
+DiskNeededConsoleUI.diskExpectedAt=Диск должен быть: 
+
+# ............................=Please insert #NAME# or type it's location.
+DiskNeededConsoleUI.insertDisk=Введите #NAME# или наберите путь.
+
+# ............................. =OK, XXX has been inserted.
+DiskNeededConsoleUI.ok=OK, XXX введен.
+ 
+# ............................. =Choose path to installer data.
+DiskNeededConsoleUI.enterPath=Укажите путь для данных программы инсталляции.
+
+# ............................. =Cancel and quit the installation.
+DiskNeededConsoleUI.cancel=Отмена и выход из программы инсталляции.
+
+# ............................. =ENTER CHOICE
+DiskNeededConsoleUI.choicePrompt=ВАРИАНТ
+
+# ............................. =ENTER PATH TO 'INSTALLERDATA' FOLDER ON DISK
+DiskNeededConsoleUI.enterPathPrompt=УКАЖИТЕ ПУТЬ К ПАПКЕ 'INSTALLERDATA' НА ДИСКЕ
+
+
+# EDITENVIRONMENT
+# ---------------
+
+# .......................... =Your system environment has changed. You will need to log out or reboot your system for these changes to take effect.
+EditEnvironment.RebootMessage=Переменные среды системы изменились. Вам следует выйти из системы или перезапустить ее, чтобы привести в действие эти изменения .
+
+# ........................ =System Environment Changed
+EditEnvironment.RebootTitle=Изменены системные переменные среды
+
+
+# EXITDIALOG
+# ----------
+
+# .............. =Quit
+ExitDialog.cancel=Закрыть
+
+# ..................... =Installation Not Complete
+ExitDialog.install.label=Установка не завершена
+
+# ....................... =Uninstall Not Complete
+ExitDialog.uninstall.label=Установка не завершена
+
+# ......................... =If you cancel the installation now, $PRODUCT_NAME$ will not be installed. To continue with the installation, click 'Resume'. To cancel the installation, click 'Quit'.
+ExitDialog.install.narrative=Если отказаться от установки сейчас, $PRODUCT_NAME$ не будет установлен. Для продолжения установки щелкните кнопку 'Возобновить'. Для отмены установки щелкните кнопку 'Закрыть'.
+
+# ........................... =If you cancel the uninstall now, $PRODUCT_NAME$ will not be uninstalled. To continue with the uninstall, click 'Resume'. To cancel the uninstall, click 'Quit'.
+ExitDialog.uninstall.narrative=Если отказаться от установки сейчас, $PRODUCT_NAME$ не будет установлен. Для продолжения установки щелкните кнопку 'Возобновить'. Для отмены установки щелкните кнопку 'Закрыть'.
+
+# .......... =Resume
+ExitDialog.ok=Возобновить
+
+# ............. =Cancel Uninstall
+ExitDialog.uninstall.title=Отмена деинсталяции
+
+# ............. =Cancel Installation
+ExitDialog.install.title=Отменить установку
+
+# FILEALREADYEXISTS
+# ----------------
+
+# ....................... =Yes to All
+FileAlreadyExists.yesAll=Да для всех
+
+# ....................... =No to All
+FileAlreadyExists.noAll=Нет для всех
+
+# ....................... =Yes
+FileAlreadyExists.yes=Да
+
+# ....................... =No
+FileAlreadyExists.no=Нет
+
+# ....................... =Overwrite Existing File?
+FileAlreadyExists.title=Перезаписать существующий файл?
+
+# ....................... =A file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.overwriteMessage=Файл с именем \"XXX\" уже создан в \"XXX\".
+
+# ....................... =A newer file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.newerMessage=Новый файл с именем \"XXX\" уже создан в \"XXX\".
+
+# ....................... =An older file named \"XXX\" already exists at \"XXX\".
+FileAlreadyExists.olderMessage=Старый файл с именем \"XXX\" уже есть в \"XXX\".
+
+# ....................... =Do you want to overwrite the existing file?
+FileAlreadyExists.question=Хотите перезаписать имеющийся файл?
+
+
+
+
+# FINDFILEORFOLDER (DONE)
+# ----------------
+
+# ....................... =Please Choose a File/Folder:
+FindFileOrFolder.askPrompt=В&ыберите файл (папку):
+
+
+# FINDFILEORFOLDERPANEL (DONE)
+# ---------------------
+
+# .............................. =Choose
+FindFileOrFolderPanel.chooseTitle=Выбрать
+
+# .................................. =Files are Being Added to the List Below.
+FindFileOrFolderPanel.filesBeingAdded=Файлы добавляются в приведенный ниже список.
+
+# ................................... =The Files Found are Listed Below.
+FindFileOrFolderPanel.filesFoundListed=Найденные файлы указаны ниже.
+
+# .................................... =Folders are Being Added to The List Below.
+FindFileOrFolderPanel.foldersBeingAdded=Папки добавляются в приведенный ниже список.
+
+# ..................................... =The Folders Found are Listed Below.
+FindFileOrFolderPanel.foldersFoundListed=Найденные папки указаны ниже.
+
+# ............................. =Found Files Matching:
+FindFileOrFolderPanel.foundFiles=Найдены файлы соответствующие:
+
+# ............................... =Found Folders Matching:
+FindFileOrFolderPanel.foundFolders=Найдены папки соответствующие:
+
+# .......................... =Found In:
+FindFileOrFolderPanel.foundIn=Найдены в:
+
+# ............................ =Choose Other...
+FindFileOrFolderPanel.illChoose=Вы&берите другой адрес...
+
+# ............................ =Looking In:
+FindFileOrFolderPanel.lookingIn=Просмотр в:
+
+# ................................ =Please make your own selection.
+FindFileOrFolderPanel.makeSelection=Выберите соответствующий вариант.
+
+# .................................... =Searching for Files Matching:
+FindFileOrFolderPanel.searchingForFiles=Поиск файлов, соответствующих условию:
+
+# ...................................... =Searching for Folders Matching:
+FindFileOrFolderPanel.searchingForFolders=Поиск папок, соответствующих условию:
+
+# .............................. =Searching
+FindFileOrFolderPanel.searchTitle=Поиск
+
+# .............................. =Select
+FindFileOrFolderPanel.selectTitle=Выбрать
+
+# ................................ =The Installer Was Unable to Find a Match for:
+FindFileOrFolderPanel.unableToMatch=Программа установки не нашла соответствующую позицию для:
+
+
+# FOLDERDIALOGLAYER
+# -----------------
+
+# .......................... =Selected:
+FolderDialogLayer.selectedStr=Выбрано:
+
+# .............................. =Select a Folder
+FolderDialogLayer.selectFolderStr=Выберите папку
+
+
+# FOLDERSELECTDIALOG
+# ------------------
+
+# ......................... =Cancel
+FolderSelectDialog.cancelStr=Отмена
+
+# ......................... =Create a New Folder
+FolderSelectDialog.createStr=Создать новую папку
+
+# ......................... =Folder:
+FolderSelectDialog.folderStr=Папка:
+
+# ....................... =Name:
+FolderSelectDialog.nameStr=Имя:
+
+# ..................... =OK
+FolderSelectDialog.okStr=ОК
+
+
+# GENERICCONSOLESTRINGS
+# ---------------------
+
+# ................................ =IS THIS CORRECT?
+GenericConsoleStrings.isThisCorrect=ЭТО ПРАВИЛЬНО?
+
+# .................................. =PRESS <ENTER> TO CONTINUE
+GenericConsoleStrings.enterToContinue=НАЖМИТЕ <ENTER> ДЛЯ ПРОДОЛЖЕНИЯ
+
+# ............................ =Error:
+GenericConsoleStrings.exception=Ошибка:
+
+
+# GENERICINSTALLPANEL (DONE)
+# -------------------
+
+# ........................ =Please wait, $PRODUCT_NAME$ is being configured for your system. This may take a moment...
+GenericInstallPanel.message=Подождите, пока не завершится настройка $PRODUCT_NAME$ для системы. Эта настройка может потребовать некоторого времени ...
+
+# ...................... =Please Wait
+GenericInstallPanel.title=Ждите
+
+
+# GETPASSWORD (DONE)
+# -----------
+
+# ....................... =This installation requires a password to continue.
+GetPassword.additionalText=Для продолжения установки требуется пароль.
+
+# ............... =Please Enter the Password:
+GetPassword.prompt=Вв&едите пароль:
+
+# .................. =Enter Password
+GetPassword.stepTitle=Введите пароль
+
+
+# GETPASSWORDINSTALLPANEL (DONE)
+# -----------------------
+
+# .................................... =Error!
+GetPasswordInstallPanel.errDialog.label=Ошибка!
+
+# ........................................ =The password you entered is incorrect. Please try again.
+GetPasswordInstallPanel.errDialog.narrative=Введен неверный пароль. Введите еще раз.
+
+# .................................... =Enter Password
+GetPasswordInstallPanel.errDialog.title=Введите пароль
+
+# .......................... =OK
+GetPasswordInstallPanel.okStr=ОК
+
+# ..................................... =Password is required to continue.
+GetPasswordInstallPanel.pwdToContinueStr=Для продолжения необходимо ввести пароль.
+
+
+# GETPASSWORDCONSOLE
+# -----------
+
+# .............................. =This installation requires a password to continue.
+GetPasswordConsole.additionalText=Для продолжения установки требуется пароль.
+
+# ................................... =The password you entered is incorrect. Please try again.
+GetPasswordConsole.errDialog.narrative=Введен неверный пароль. Введите еще раз.
+
+# ...................... =Please Enter the Password:
+GetPasswordConsole.prompt=Введите пароль:
+
+# ................................ =Password is required to continue.
+GetPasswordConsole.pwdToContinueStr=Для продолжения необходимо ввести пароль.
+
+# ......................... =Enter Password
+GetPasswordConsole.stepTitle=Введите пароль
+
+
+# GETUSERINPUTCONSOLE 
+# -------------------
+
+# ............................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES
+GetUserInputConsole.multiPrompt=ВВЕДИТЕ ЧЕРЕЗ ЗАПЯТУЮ ЦИФРЫ, ПРЕДСТАВЛЯЮЩИЕ НУЖНЫЕ ВАРИАНТЫ.
+
+# ........................................ =ENTER A COMMA-SEPARATED LIST OF NUMBERS REPRESENTING THE DESIRED CHOICES, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+GetUserInputConsole.multiPromptWithDefaults=ВВЕДИТЕ ЧЕРЕЗ ЗАПЯТУЮ ЦИФРЫ, ПРЕДСТАВЛЯЮЩИЕ НУЖНЫЙ ВАРИАНТ, ИЛИ НАЖМИТЕ <ENTER>, ЧТОБЫ ПРИНЯТЬ ВАРИАНТ ПО УМОЛЧАНИЮ.
+
+# ............................. =ENTER THE NUMBER OF THE DESIRED CHOICE
+GetUserInputConsole.singlePrompt=ВВЕДИТЕ ЦИФРУ, ПРЕДСТАВЛЯЮЩУЮ НУЖНЫЙ ВАРИАНТ
+
+# ......................................... =ENTER THE NUMBER FOR YOUR CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT:
+GetUserInputConsole.singlePromptWithDefaults=ВВЕДИТЕ ЦИФРУ, ПРЕДСТАВЛЯЮЩУЮ ВАШ ВЫБОР, ИЛИ НАЖМИТЕ <ENTER>, ЧТОБЫ ПРИНЯТЬ ВАРИАНТ ПО УМОЛЧАНИЮ.
+
+
+# IASYSREADLINE
+# -------------
+
+# ................. =This step does not allow quitting the installer at this moment.
+IASysReadLine.noQuit=Сейчас нельзя выйти из программы установки.
+
+# ................. =This step does not allow returning to a previous step at the moment.
+IASysReadLine.noBack=Сейчас нельзя вернуться к предыдущему шагу.
+
+
+# IMPORTANTNOTEACTION (DONE)
+# -------------------
+
+# ...................... =Important Information
+ImportantNoteAction.title=Важная информация
+
+# ........................... =Please Read Before Continuing:
+ImportantNoteAction.stepPrompt=Прочтите прежде чем продолжить:
+
+
+# IMPORTANTNOTEACTIONCONSOLE
+# --------------------------
+
+# .............................. =IMPORTANT INFORMATION COMPLETE. PRESS <ENTER> TO CONTINUE
+ImportantNoteActionConsole.prompt=КОНЕЦ ВАЖНОЙ ИНФОРМАЦИИ. НАЖМИТЕ <ENTER> ДЛЯ ПРОДОЛЖЕНИЯ
+
+# ............................. =Important Information
+ImportantNoteActionConsole.title=Важная информация
+
+# .................................. =Please read before continuing:
+ImportantNoteActionConsole.stepPrompt=Прочтите прежде чем продолжить:
+
+
+# INSTALLBUNDLE
+# -------------
+
+# ................................. =Application
+InstallBundle.application.bundleName=Приложение
+
+# .................................. =This installs the application feature.
+InstallBundle.application.description=Устанавливает средства приложения
+
+# .......................... =Help
+InstallBundle.help.bundleName=Справка
+
+# ........................... =This installs the help feature.
+InstallBundle.help.description=Устанавливает средства помощи
+
+
+# INSTALLCOMPLETEACTION (DONE)
+# ---------------------
+
+# .......................... =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallCompleteAction.message=Поздравляем! $PRODUCT_NAME$ успешно установлена на:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AНажмите "Выполнено", чтобы выйти из программы установки.
+
+# ............................ =Install Complete
+InstallFinishAction.windowTitle=Установка завершена
+InstallCompleteAction.stepTitle=Установка завершена
+
+
+# INSTALLFAILEDACTION (DONE)
+# ---------------------
+
+# ........................ =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install.\n\nPlease see the installation log for details. Press "Done" to quit the installer.
+InstallFailedAction.message=Установка $PRODUCT_NAME$ завершена, но во время установки возникли ошибки. \u000A\u000AПодробности см. в регистрационном файле установки. Нажмите "Выполнено" для выхода из программы установки.
+
+# .......................... =Install Complete
+InstallFailedAction.stepTitle=Установка завершена
+
+
+# INSTALLCOMPLETEACTIONCONSOLE
+# ----------------------------
+
+# ............................... =Installation Complete
+InstallCompleteActionConsole.title=Установка завершена
+
+# ................................. =Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.message=Поздравляем! $PRODUCT_NAME$ была успешно установлен в папке:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ................................ =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallCompleteActionConsole.prompt=НАЖМИТЕ <ENTER> ДЛЯ ВЫХОДА ИЗ ПРОГРАММЫ УСТАНОВКИ
+
+# .................................. =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details.
+InstallCompleteActionConsole.errorStr=Установка $PRODUCT_NAME$ завершена, но во время установки возникли ошибки. \u000A   Подробную информацию см. в регистрационном файле установки.
+
+
+# INSTALLFAILEDACTIONCONSOLE
+# ---------------------
+
+# ............................... =The installation of $PRODUCT_NAME$ is complete, but some errors occurred during the install. Please see the installation log for details. Press "Done" to quit the installer.
+InstallFailedActionConsole.message=Установка $PRODUCT_NAME$ завершена, но во время установки возникли ошибки. \u000A   Подробную информацию см. в регистрационном файле установки. Нажмите "Выполнено" для выхода из программы установки.
+
+# .............................. =PRESS <ENTER> TO EXIT THE INSTALLER
+InstallFailedActionConsole.prompt=НАЖМИТЕ <ENTER> ДЛЯ ВЫХОДА ИЗ ПРОГРАММЫ УСТАНОВКИ
+
+# ............................. =Install Complete
+InstallFailedActionConsole.title=Установка завершена
+
+
+# INSTALLDIRACTION (DONE)
+# ----------------
+
+# ............................ =Please choose a destination folder for this installation.
+InstallDirAction.additionalText=Выберите папку, в которую помещаются результаты установки.
+
+# ....................... =Choose Install Folder
+InstallDirAction.stepTitle=Выберите папку для установки
+
+# .................... =Where Would You Like to Install?
+InstallDirAction.prompt=&Куда вы хотите поместить результаты установки?
+
+
+# INSTALLDIRACTIONCONSOLE
+# -----------------------
+
+# .............................. =Choose Install Folder
+InstallDirActionConsole.stepTitle=Выберите папку для установки
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................... =ENTER AN ABSOLUTE PATH, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+InstallDirActionConsole.promptMain=ВВЕДИТЕ ПОЛНЫЙ ПУТЬ ИЛИ НАЖМИТЕ <ENTER> ДЛЯ ПОДТВЕРЖДЕНИЯ ЗНАЧЕНИЯ ПО УМОЛЧАНИЮ\u000A   
+
+# ...................................... =ENTER AN ABSOLUTE PATH, TYPE 'default' TO RESTORE THE DEFAULT FOLDER,\n   OR PRESS <ENTER> TO ACCEPT THE CHOSEN FOLDER
+InstallDirActionConsole.promptWithDefault=ВВЕДИТЕ ПОЛНЫЙ ПУТЬ ИЛИ НАБЕРИТЕ 'по умолчанию' ДЛЯ ВОССТАНОВЛЕНИЯ ПАПКИ ПО УМОЛЧАНИЮ,\u000A   ИЛИ НАЖМИТЕ <ENTER> ДЛЯ ПОДТВЕРЖДЕНИЯ ИМЕНИ ВЫБРАННОЙ ПАПКИ
+
+# .................................. =Default Install Folder: 
+InstallDirActionConsole.defaultDirStr=Папка по умолчанию для установки: 
+
+# ................................. =Chosen Install Folder: 
+InstallDirActionConsole.chosenDirStr=Выбранная папка установки: 
+
+# .................................... =INSTALL FOLDER IS: 
+InstallDirActionConsole.installDirIsStr=ПАПКА ДЛЯ УСТАНОВКИ: 
+
+# .................................... =The supplied path: 
+InstallDirActionConsole.suppliedPathStr=Заданный путь: 
+
+# ....................................... =points to a file that already exists on the target system.\nThis installer cannot over write an existing file with a new folder.\nPlease choose another install location.
+InstallDirActionConsole.cannotOverwriteStr=указывает на файл, который уже существует в выбранной системе. \u000AПрограмма установки не может записать новую папку поверх существующего файла. \u000AВыберите другое место для установки.
+
+# ..................................... =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionConsole.alertDialog.text=Вы не имеете права на запись по выбранному адресу установки. \u000AВыберите для установки другой адрес
+
+# ........................... =Where would you like to install?
+InstallDirActionConsole.prompt=Куда вы хотите поместить результаты установки?
+
+
+# INSTALLDIRACTIONPANEL (DONE)
+# ---------------------
+
+# .................................... =Error! 
+InstallDirActionPanel.alertDialog.label=Ошибка!
+
+# ........................................ =You do not have write permissions to the chosen installation destination. Please choose a different location for installation.
+InstallDirActionPanel.alertDialog.narrative=Вы не имеете права на запись по выбранному адресу установки. \u000AВыберите для установки другой адрес
+
+# .................................... =Choose Install Folder 
+InstallDirActionPanel.alertDialog.title=Выберите папку для установки
+
+# .......................................... =The path specified as the installation destination has one or more characters that are invalid in this platform.  \u000APlease choose a different location for installation.
+InstallDirActionPanel.alertDialog.invalidPath=Указанный для установки путь содержит один или несколько недопустимых в этой платформе знаков. \u000AВыберите для установки другой каталог.
+
+# ................................ =Choose...
+InstallDirActionPanel.chooseDirBttn=В&ыберите...
+
+# .............................. =Restore Default Folder
+InstallDirActionPanel.defaultBttn=В&ернуться к папке по умолчанию
+
+# ............................... =inside
+InstallDirActionPanel.macInsideStr=внутри
+
+# ............................. =in the folder
+InstallDirActionPanel.macIntoLbl=в папке
+
+# ........................... =on the disk
+InstallDirActionPanel.macOnStr=на диске
+
+
+# INSTALLER
+# ---------
+
+# .................... =install
+Installer.installerName=установить
+
+# ....................... =Introduction
+Installer.installLabels.00=Введение
+
+# ....................... =Choose Install Folder
+Installer.installLabels.01=Выберите папку для установки
+
+# ....................... =Choose $SHORTCUT_NAME$ Folder
+Installer.installLabels.02=Выберите папку $SHORTCUT_NAME$ 
+
+# ....................... =Pre-Installation Summary
+Installer.installLabels.03=Сводка предустановки
+
+# ....................... =Installing...
+Installer.installLabels.04=Выполняется установка...
+
+# ....................... =Install Complete
+Installer.installLabels.05=Установка завершена
+
+# ....................... =The Installer Cannot Be Run On this System.
+Installer.rulesFailedLabel=Программа установки не может использоваться в этой системе.
+
+# ......................... =The installer cannot run on your configuration. It will now quit.
+Installer.rulesFailedMessage=Программа установки не может выполняться для конфигурации данной системы. Программа закрывается.
+
+# ................................... =Installer User Interface Mode Not Supported
+Installer.uiSupportError.message.label=Неподдерживаемый режим интерфейса пользователя
+
+# ....................................... =The installer cannot run in this mode. Please review the installer's documentation to determine how to run this installer
+Installer.uiSupportError.message.narrative=Программа установки не может использоваться в этом режиме. Ознакомьтесь с документацией к программе установки
+
+# ................................... =Installer UI Mode Error
+Installer.uiSupportError.message.title=Ошибка режима интерфейса пользователя в программе установки
+
+# ..................... =Splash.png
+Installer.userSplashName=
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=
+# ................................... =Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.uninstallerTitle=Деинсталяция $PRODUCT_NAME$
+
+# INSTALLFINISHPANEL
+# -----------------
+
+# ............................ =Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n    $USER_INSTALL_DIR$\n\nPress "Done" to quit the installer.
+InstallFinishAction.installSuccessMessage=Поздравляем! $PRODUCT_NAME$ успешно установлена на:\u000A\u000A     $USER_INSTALL_DIR$\u000A\u000AНажмите "Выполнено", чтобы выйти из программы установки.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install. Please see the installation log for details.
+InstallFinishAction.installWarningMessage=Установка $PRODUCT_NAME$ завершена, но во время установки появились предупреждения. Подробную информацию см. в регистрационном файле установки.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installErrorMessage=Установка $PRODUCT_NAME$ завершена, но во время установки возникли ошибки. Подробную информацию см. в регистрационном файле установки.
+
+# ............................ =The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install. Please see the installation log for details.
+InstallFinishAction.installFatalMessage=Установка $PRODUCT_NAME$ завершена, но во время установки возникли серьезные ошибки. Подробную информацию см. в регистрационном файле установки.
+
+# ............................ =(no message)
+InstallFinishAction.rebootNotNeededMessage=
+
+# ............................ =You should restart the system to complete the installation
+InstallFinishAction.rebootRecommendedMessage=Для завершения установки необходимо перезапустить систему.
+
+# ............................ =You need to restart the system to complete the installation
+InstallFinishAction.rebootRequiredMessage=Для завершения установки перезапустите систему.
+
+
+# ............................ =Install Complete
+InstallFinishAction.defaultWindowTitle=Установка завершена
+
+# .................. =Yes, restart my system
+InstallFinishAction.restartYesMessage=Да, перезапустить систему
+
+# .................. =No, I will restart my system myself
+InstallFinishAction.restartNoMessage=Нет, перезагрузить систему позднее
+
+
+
+# INSTALLPROGRESSUI
+# -----------------
+
+# ............................ =Installing...
+InstallProgressUI.installingStr=Выполняется установка...
+
+# ............................... =Cancelling installation...
+InstallProgressUI.cancellingString=Выполняется отмена установки...
+
+
+# INSTALLPROGRESSCONSOLE
+# ----------------------
+
+# ................................. =Installing...
+InstallProgressConsole.installingStr=Выполняется установка...
+
+
+# INSTALLSUMMARY (DONE)
+# --------------
+
+# ................. =Pre-Installation Summary
+InstallSummary.title=Сводка предустановки
+
+# ...................... =Please Review the Following Before Continuing:
+InstallSummary.stepPrompt=Просмотрите следующее прежде чем продолжить:
+
+
+# INSTALLSUMMARYCONSOLE 
+# ---------------------
+
+# ........................ =Pre-Installation Summary
+InstallSummaryConsole.title=Сводка предустановки
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ............................. =PRESS <ENTER> TO CONTINUE. IF THE INFORMATION IS INCORRECT, TYPE "BACK" TO MAKE CHANGES\n   
+InstallSummaryConsole.stepPrompt=НАЖМИТЕ <ENTER> ДЛЯ ПРОДОЛЖЕНИЯ. ЕСЛИ В ИНФОРМАЦИИ ОБНАРУЖЕНЫ ОШИБКИ, НАБЕРИТЕ "НАЗАД" И ВНЕСИТЕ ИЗМЕНЕНИЯ\u000A   
+
+
+# INSTALLSUMMARYUI (DONE)
+# ----------------
+
+# ......................... =Product Name:
+InstallSummaryUI.productName=Наименование продукта:
+
+# .............................. =Install Folder:
+InstallSummaryUI.installDirectory=Папка для установки:
+
+# ..................................... =Shortcut Folder:
+InstallSummaryUI.Win32.shortcutDirectory=Папка для ярлыков:
+
+# .................................... =Link Folder:
+InstallSummaryUI.Unix.shortcutDirectory=Папка для ссылок:
+
+# ..................................... =Alias Folder:
+InstallSummaryUI.MacOS.shortcutDirectory=Папка для псевдонимов:
+
+# ......................................... =User defined Custom Install Set
+InstallSummaryUI.userDefinedCustomInstallSet=Определяемый пользователем специальный набор установки
+
+# ....................................... =Install Set
+InstallSummaryUI.chosenInstallationFeature=Набор установки
+
+# .......................................... =Product Components:
+InstallSummaryUI.chosenInstallationComponents=Компоненты продукта:
+
+# ................................. =Java VM Installation Folder:
+InstallSummaryUI.javaVMInstallation1=Папка для установки Java VM:
+
+# ................................. =Java VM to be Used by Installed Product:
+InstallSummaryUI.javaVMInstallation2=Программа Java VM, которая будет использоваться установленной программой:
+
+# ........................=Disk Space Information (for Installation Target): 
+InstallSummaryUI.diskspace=Информация о памяти на диске (местоположение установки): 
+
+# ...................... =Required:
+InstallSummaryUI.required=Требуется:
+
+# .................. =bytes
+InstallSummaryUI.byte=байт
+
+# ....................... =Available:
+InstallSummaryUI.available=Имеется:
+
+
+# INSTALLSET
+# ----------
+
+# .......................... =Choose this option to customize the features to be installed.
+InstallSet.custom.description=Выберите эту опцию, чтобы настроить устанавливаемые средства.
+
+# ............................. =Custom
+InstallSet.custom.installSetName=Специальный
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=
+
+# ........................... =Only required application features will be installed. This option is recommended only for users with limited disk space.
+InstallSet.minimal.description=Будут установлены только необходимые функции приложения. Этот вариант рекомендуется использовать только в случае, если на диске недостаточно места.
+
+# .............................. =Minimal
+InstallSet.minimal.installSetName=Минимальный
+
+# ........................... =The most common application features will be installed. This option is recommended for most users.
+InstallSet.typical.description=Будут установлены наиболее типичные функции приложения. Этот вариант рекомендуeтся для большинства пользователей.
+
+# .............................. =Typical
+InstallSet.typical.installSetName=Типичная
+
+
+# INTROACTION
+# -----------
+
+# ................ =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.message=InstallAnywhere будет направлять ваши действия во время установки $PRODUCT_NAME$. \u000A\u000AНастоятельно рекомендуется закрыть все приложения, прежде чем продолжить установку. \u000A\u000AЩелкните кнопку 'Далее' для перехода к следующему экрану. Если требуется изменить что-либо на предыдущем экране, щелкните кнопку 'Вернуться'. \u000A\u000AУстановку можно отменить в любой момент, щелкнув кнопку 'Отмена'.
+# .................. =Introduction
+IntroAction.stepTitle=Введение
+
+
+# INTROACTIONCONSOLE
+# ------------------
+
+# ........................... =InstallAnywhere will guide you through the installation of $PRODUCT_NAME$.\n\nIt is strongly recommended that you quit all programs before continuing with this installation.\n\nRespond to each prompt to proceed to the next step in the installation. If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.message=InstallAnywhere будет направлять ваши действия во время установки $PRODUCT_NAME$. \u000A\u000AНастоятельно рекомендуется закрыть все приложения, прежде чем продолжить установку. \u000A\u000AОтвечайте на каждый запрос, чтобы перейти к следующему шагу установки. Если требуется изменить что-либо на предыдущем экране, наберите 'назад'. \u000A\u000AУстановку можно прекратить в любой момент, набрав 'закрыть'.
+
+# ..................... =Introduction
+IntroActionConsole.title=Введение
+
+
+# LAUNCHDEFAULTBROWSER
+# --------------------
+
+# ............................. =Unable to open URL in Web Browser
+LaunchDefaultBrowser.error.title=Веб-браузер не может открыть веб-адрес
+
+# ............................... =InstallAnywhere was unable to open the requested URL ($ACTION_URL$) in your system's default web browser. To view this URL, please type the address shown above in the web browser of your choice.
+LaunchDefaultBrowser.error.message=InstallAnywhere не удалось открыть запрашиваемый веб-адрес ($ACTION_URL$) с помощью установленного по умолчанию на системе браузера. Чтобы посмотреть веб-адрес, наберите адрес, показанный выше в выбранном браузере.
+
+
+# LICENSEAGRACTION
+# ----------------
+
+# ................... =License Agreement
+LicenseAgrAction.title=Лицензионное соглашение
+
+# ........................ =Installation and Use of $PRODUCT_NAME$ Requires Acceptance of the Following License Agreement:
+LicenseAgrAction.stepPrompt=Установка и использование $PRODUCT_NAME$ требует принятия условий следующего лицензионного соглашения:
+
+
+# LICENSEAGRACTIONCONSOLE
+# -----------------------
+
+# .......................... =License Agreement
+LicenseAgrActionConsole.title=Лицензионное соглашение
+
+# ............................... =Installation and use of $PRODUCT_NAME$ requires acceptance of the following License Agreement:
+LicenseAgrActionConsole.stepPrompt=Установка и использование $PRODUCT_NAME$ требует принятия условий следующего лицензионного соглашения:
+
+# ................................. =DO YOU ACCEPT THE TERMS OF THIS LICENSE AGREEMENT?
+LicenseAgrActionConsole.choicePrompt=ВЫ ПРИНИМАЕТЕ УСЛОВИЯ ЭТОГО ЛИЦЕНЗИОННОГО СОГЛАШЕНИЯ?
+
+
+# LICENSEAGRUI (DONE)
+# ------------
+
+# ............................. =Quit
+LicenseAgrUI.dialog.cancelButton=Закрыть
+
+# ......................... =Resume
+LicenseAgrUI.dialog.okButton=Возобновить
+
+# ...................... =License Agreement Warning
+LicenseAgrUI.dialog.title=Предупреждение о лицензионном соглашении
+
+# ........................ =Warning!
+LicenseAgrUI.dialog.warnLbl=Предупреждение!
+
+# ........................ =If you do not accept the terms of the License Agreement you will not be allowed to continue with this installation.
+LicenseAgrUI.dialog.warnStr=Если вы не примете условий лицензионного соглашения, вы не сможете продолжить установку.
+
+# .............. =I do NOT accept the terms of the License Agreement
+LicenseAgrUI.noCb=Я Н&Е ПРИНИМАЮ условий лицензионного соглашения
+
+# .................... =No file found to preview
+LicenseAgrUI.noFileText=Не найден файл для предварительного просмотра
+
+# ............... =I accept the terms of the License Agreement
+LicenseAgrUI.yesCb=&Я принимаю условия лицензионного соглашения
+
+# ........................ =No File Selected
+LicenseAgrUI.noFileSelected=Файл не выбран
+
+
+# PROMPTUSERCONSOLE
+# ---------------------
+
+# ................................. =PRESS <ENTER> TO ACCEPT THE FOLLOWING
+PromptUserConsole.singleChoicePrompt=НАЖМИТЕ <ENTER>, ЧТОБЫ ПОДТВЕРДИТЬ СЛЕДУЮЩЕЕ
+
+# ................................... =ENTER THE NUMBER OF THE DESIRED CHOICE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT
+PromptUserConsole.multipleChoicePrompt=ВВЕДИТЕ ЦИФРУ, ПРЕДСТАВЛЯЮЩУЮ НУЖНЫЙ ВАРИАНТ, ИЛИ НАЖМИТЕ <ENTER>, ЧТОБЫ ПРИНЯТЬ ВАРИАНТ ПО УМОЛЧАНИЮ.
+
+# ........................... =OK
+PromptUserConsole.option0Label=ОК
+
+# ........................... =Cancel
+PromptUserConsole.option1Label=Отмена
+
+# ........................... =Details...
+PromptUserConsole.option2Label=Подробная информация
+
+
+# READYTOINSTALLACTIONCONSOLE
+# ---------------------------
+
+# .................................=InstallAnywhere is now ready to install $PRODUCT_NAME$ onto your system at the following location:\n\n   $USER_INSTALL_DIR$
+ReadyToInstallActionConsole.message=Программа ПInstallAnywhere готова установить $PRODUCT_NAME$ в системе в каталоге:\u000A\u000A   $USER_INSTALL_DIR$
+
+# ............................... =PRESS <ENTER> TO INSTALL
+ReadyToInstallActionConsole.prompt=НАЖМИТЕ <ENTER> ДЛЯ УСТАНОВКИ
+
+# .............................. =Ready To Install
+ReadyToInstallActionConsole.title=Система готова к установке
+
+
+# REMOVEDIALOG
+# ------------
+
+# ..................... =InstallAnywhere is finishing up. Please wait...
+RemoveDialog.description=InstallAnywhere завершает работу. Ждите...
+
+# ............... =Cleaning up...
+RemoveDialog.title=Выполняется стирание...
+
+
+# SETSERIALNUMBER (DONE)
+# ---------------
+
+# ........................... =This installation requires a serial number to continue.
+SetSerialNumber.additionalText=Для продолжения установки требуется серийный номер.
+
+# ................... =Please Enter the Serial Number:
+SetSerialNumber.prompt=Вв&едите серийный номер:
+
+# ...................... =Enter Serial Number
+SetSerialNumber.stepTitle=Введите серийный номер
+
+
+# SERIALNUMBERINSTALLPANEL (DONE)
+# ------------------------
+
+# ..................................... =Error!
+SerialNumberInstallPanel.errDialog.label=Ошибка!
+
+# ......................................... =The serial number you entered is incorrect. Please try again.
+SerialNumberInstallPanel.errDialog.narrative=Введен неверный серийный номер. Введите еще раз.
+
+# ..................................... =Enter Serial Number
+SerialNumberInstallPanel.errDialog.title=Введите серийный номер
+
+# ........................... =OK
+SerialNumberInstallPanel.okStr=ОК
+
+# ...................................... =Serial Number is required to continue.
+SerialNumberInstallPanel.sNoToContinueStr=Для продолжения требуется ввести серийный номер.
+
+
+# SETSERIALNUMBERCONSOLE
+# ---------------
+
+# .................................. =This installation requires a serial number to continue.
+SetSerialNumberConsole.additionalText=Для продолжения установки требуется серийный номер.
+
+# .......................................... =The serial number you entered is incorrect. Please try again.
+SetSerialNumberConsole.errMessage.narrative=Введен неверный серийный номер. Введите еще раз.
+
+# .......................... =Please Enter the Serial Number:
+SetSerialNumberConsole.prompt=Введите серийный номер:
+
+# ...................................... =Serial Number is required to continue.
+SetSerialNumberConsole.sNoToContinueStr=Для продолжения требуется ввести серийный номер.
+
+# ............................. =Enter Serial Number
+SetSerialNumberConsole.stepTitle=Введите серийный номер
+
+
+# SHORTCUTNAME
+# ------------
+
+# ............... =Alias
+ShortcutName.alias=Псевдоним
+
+#............... =Link
+ShortcutName.link=Ссылка
+
+#................... =Shortcut
+ShortcutName.shortcut=Ярлык
+
+
+# SHORTCUTLOCACTION (DONE)
+# -----------------
+
+# ........................ =Where would you like to create aliases?
+ShortcutLocAction.macPrompt=Где вы хотите создать псевдонимы?
+
+# ....................... =Choose Alias Folder
+ShortcutLocAction.macTitle=Выберите папку-псевдоним
+
+# ......................... =Choose Link Folder
+ShortcutLocAction.unixTitle=Выберите папку-ссылку
+
+# ......................... =Where would you like to create links?
+ShortcutLocAction.unixPrompt=Где вы хотите создать ссылки?
+
+# ........................ =Where would you like to create product icons?
+ShortcutLocAction.winPrompt=Где вы хотите создать значки продукта?
+
+# ....................... =Choose Shortcut Folder
+ShortcutLocAction.winTitle=Выберите местоположение ярлыка
+
+# ............................. =Common Groups
+ShortcutLocAction.allUsersGroups=Группы с общими свойствами
+
+# ................................ =Current User's Groups
+ShortcutLocAction.currentUserGroups=Текущие группы пользователей
+
+# ........................... =in the folder
+ShortcutLocAction.macInsideStr=в папке
+
+# ....................... =on the disk
+ShortcutLocAction.macOnStr=на диске
+
+
+# SHORTCUTLOCACTIONCONSOLE
+# ------------------------
+
+# ................................ =Default: 
+ShortcutLocActionConsole.defaultLoc=По умолчанию: 
+
+# ................................ =Current: 
+ShortcutLocActionConsole.currentLoc=Текущий: 
+
+# ......................................... =Choose another location...
+ShortcutLocActionConsole.specifyAlternateLoc=Выберите другое местоположение...
+
+# note to localizer: there should be three blank spaces at end of this string.
+# .................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE DEFAULT\n   
+ShortcutLocActionConsole.choicePrompt=ВВЕДИТЕ НОМЕР УКАЗАННОГО ВЫШЕ ВАРИАНТА ИЛИ НАЖМИТЕ <ENTER> ДЛЯ ПОДТВЕРЖДЕНИЯ ЗНАЧЕНИЯ ПО УМОЛЧАНИЮ   
+
+# ............................................. =ENTER THE NUMBER OF AN OPTION ABOVE, OR PRESS <ENTER> TO ACCEPT THE\n   CURRENT SELECTION
+ShortcutLocActionConsole.choicePromptWithCurrent=ВВЕДИТЕ НОМЕР УКАЗАННОГО ВЫШЕ ВАРИАНТА ИЛИ НАЖМИТЕ <ENTER> ДЛЯ ПОДТВЕРЖДЕНИЯ\u000A   ИСПОЛЬЗУЕМОГО ВАРИАНТА
+
+# note to localizer: there should be three blank spaces at end of this string.
+# ................................ =ENTER THE ABSOLUTE PATH TO THE SHORTCUT DIRECTORY\n   
+ShortcutLocActionConsole.pathPrompt=ВВЕДИТЕ ПОЛНЫЙ ПУТЬ К ПАПКЕ ЯРЛЫКОВ\u000A   
+
+# ...................................... =SHORTCUT DIRECTORY IS: 
+ShortcutLocActionConsole.shortcutDirIsStr=МЕСТОНАХОЖДЕНИЕ ЯРЛЫКА: 
+
+# ............................... =Choose Link Location
+ShortcutLocActionConsole.unixTitle=Выберите местоположение ссылки
+
+# ................................ =Where would you like to create links?
+ShortcutLocActionConsole.unixPrompt=Где вы хотите создать ссылки?
+
+# .............................. =Choose Shortcut Location
+ShortcutLocActionConsole.winTitle=Выберите местоположение ярлыка
+
+# ................................ Where would you like to create product icons?: 
+ShortcutLocActionConsole.winPrompt=Где вы хотите создать значки продукта?: 
+
+# .............................. =Choose Alias Location
+ShortcutLocActionConsole.macTitle=Выберите папку для псевдонимов
+
+# ................................ Where would you like to create aliases?
+ShortcutLocActionConsole.macPrompt=Где вы хотите создать псевдонимы?
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionConsole.MacUI.appleMenu=В меню Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionConsole.MacXUI.theDock=На стыковочный узел
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.MacUI.desktop=На рабочий стол
+
+# ........................................... =Don't create aliases
+ShortcutLocActionConsole.PlatformUI.MACOS.none=Не создавать псевдонимы
+
+# ...................................... =Other:
+ShortcutLocActionConsole.PlatformUI.other=Другое:
+
+# .......................................... =Don't create links
+ShortcutLocActionConsole.PlatformUI.UNIX.none=Не создавать ссылки
+
+# ........................................... =Don't create icons
+ShortcutLocActionConsole.PlatformUI.WIN32.none=Не создавать значки
+
+# ................................. =In your home folder
+ShortcutLocActionConsole.UnixUI.home=В домашнюю папку пользователя
+
+# ................................... =On the Desktop
+ShortcutLocActionConsole.WinUI.desktop=На рабочий стол
+
+# .................................... =In a new Program Group:
+ShortcutLocActionConsole.WinUI.newGroup=В новую группу программ:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionConsole.WinUI.progGroup=В существующую группу программ:
+
+# .......................................... =In the Quick Launch Bar:
+ShortcutLocActionPanel.WinUI.quickLaunchBarCb=На панели &быстрого запуска
+
+# ..................................... =In the Start Menu
+ShortcutLocActionConsole.WinUI.startMenu=В меню Пуск
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionConsole.WinUI.allUsers=Создать значки для всех пользователей
+
+
+# SHORTCUTLOCACTIONPANEL (DONE)
+# ----------------------
+
+# .................................... =Error! 
+ShortcutLocActionPanel.alertDialog.label=Ошибка!
+
+# ........................................ =You do not have write permissions to the chosen destination. Please choose a different location for installation.
+ShortcutLocActionPanel.alertDialog.narrative=Вы не имеете права на запись в выбранный каталог. Выберите другой каталог.
+
+# ..................................... =In the Apple Menu
+ShortcutLocActionPanel.MacUI.appleMenuCb=В меню &Apple
+
+# ..................................... =In the Dock
+ShortcutLocActionPanel.MacXUI.theDockCb=&На стыковочный узел
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.MacUI.desktopCb=На &рабочий стол
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.OS2UI.desktopCb=На &рабочий стол
+
+# ............................................ =Choose...
+ShortcutLocActionPanel.PlatformUI.chooseDirBttn=Выберите...
+
+# ........................................... =Don't create aliases
+ShortcutLocActionPanel.PlatformUI.MACOS.noneCb=Не создавать псевдонимы
+
+# ...................................... =Other:
+ShortcutLocActionPanel.PlatformUI.otherCb=&Другое:
+
+# .......................................... =Don't create links
+ShortcutLocActionPanel.PlatformUI.UNIX.noneCb=Не со&здавать ссылки
+
+# ........................................... =Don't create icons
+ShortcutLocActionPanel.PlatformUI.WIN32.noneCb=Не со&здавать значки
+
+# ................................. =In your home folder
+ShortcutLocActionPanel.UnixUI.homeCb=В до&машнюю папку пользователя
+
+# ................................... =On the Desktop
+ShortcutLocActionPanel.WinUI.desktopCb=На &рабочий стол
+
+# .................................... =In a new Program Group:
+ShortcutLocActionPanel.WinUI.newGroupCb=В нов&ую группу программ:
+
+# ..................................... =In an existing Program Group:
+ShortcutLocActionPanel.WinUI.progGroupCb=В с&уществующую группу программ:
+
+# ..................................... =In the Start Menu
+ShortcutLocActionPanel.WinUI.startMenuCb=В &меню Пуск
+
+# .................................... =Create Icons for All Users
+ShortcutLocActionPanel.WinUI.allUsersCb=Созда&ть значки для всех пользователей
+
+
+# SHOWDIALOGACTION
+# ----------------
+
+# .......................... =OK
+ShowDialogAction.button0Label=ОК
+
+# .......................... =Cancel
+ShowDialogAction.button1Label=Отмена
+
+# .......................... =Details...
+ShowDialogAction.button2Label=Подробная информация
+
+
+# STEPMASTER
+# ----------
+
+# ...................... =Date:
+StepMaster.dialog.dateLbl=Дата:
+
+# ......................... =License ID:
+StepMaster.dialog.licenseLbl=Код лицензии:
+
+# ............................... =Script Version:
+StepMaster.dialog.scriptVersionLbl=Версия сценария:
+
+# ......................... =Version:
+StepMaster.dialog.versionLbl=Версия:
+
+# ............... =Done
+StepMaster.doneStr=В&ыполнено
+
+# ............... =Cancel
+StepMaster.exitStr=&Отмена
+
+# ............... =Help
+StepMaster.helpStr=С&правка
+
+# .................. =Install
+StepMaster.installStr=&Установить
+
+# ............... =Next
+StepMaster.nextStr=&Следующий
+
+# ............... =Previous
+StepMaster.prevStr=&Вернуться
+
+# ............... =Close
+StepMaster.closeStr=Закрыть
+
+
+# UFINAL
+# ------
+
+# ............... =All items were successfully uninstalled.
+UFinal.allFilesStr=Все элементы успешно удалены.
+
+# ............... =Uninstall Complete
+UFinal.completeLbl=Деинсталяция завершена
+
+# ................ =The following items could not be removed:
+UFinal.someFilesStr=Следующие компоненты не могут быть удалены:
+
+# .................. =Unable to remove
+UFinal.unableToRemove=Невозможно удалить
+
+# .................. =You need to restart the system to complete the uninstallation.
+UFinal.rebootRequired=Для завершения деинсталяции перезапустите систему.
+
+# .................. =You should restart the system to complete the uninstallation.
+UFinal.rebootRecommended=Для завершения деинсталяции необходимо перезапустить систему.
+
+# .................. =You also need to restart the system to complete the uninstallation.
+UFinal.rebootRequiredWhenSomeUnableToRemove=Для завершения деинсталяции также надо перезапустить систему.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UFinal.rebootRecommendedWhenSomeUnableToRemove=Для завершения деинсталяции также необходимо перезапустить систему.
+
+# .................. =Yes, restart my system
+UFinal.restartYesMessage=Да, перезапустить систему
+
+# .................. =No, I will restart my system myself
+UFinal.restartNoMessage=Нет, перезагрузить систему позднее
+
+
+# UninstallCompleteAction
+# ------
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteAction.uninstallSuccessMessage=Все компоненты успешно удалены.
+
+# ............... =Uninstall Complete
+UninstallCompleteAction.stepTitle=Отмена установки завершена
+
+# ................ =The following items could not be removed:
+UninstallCompleteAction.uninstallIncompleteMessage=Следующие компоненты не могут быть удалены:
+
+# .................. =
+UninstallCompleteAction.rebootNotNeededMessage=
+
+# .................. =You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRequiredMessage=Для завершения деинсталяции перезапустите систему.
+
+# .................. =You also should restart the system to complete the uninstallation.
+UninstallCompleteAction.rebootRecommendedMessage=Для завершения деинсталяции необходимо перезапустить систему.
+
+
+
+
+# UninstallCompleteActionConsole
+# -----------------------------
+
+# ............... =Uninstall Complete
+UninstallCompleteActionConsole.title=Деинсталяция завершена
+
+
+# ............... =All items were successfully uninstalled.
+UninstallCompleteActionConsole.message=Все компоненты успешно удалены.
+
+
+# ............... =Some items could not be removed.
+UninstallCompleteActionConsole.incompleteMessage=Некоторые компоненты не могут быть удалены.
+
+
+
+# UNINSTALLER
+# -----------
+
+# ..................... =The uninstallation could not complete due to an error.
+UnInstaller.exceptionStr=Деинсталяция не может быть выполнена вследствие ошибки.
+
+# ..................... = Uninstall $PRODUCT_NAME$
+UnInstaller.stepTitle=Деинсталяция $PRODUCT_NAME$
+
+
+# UNINSTALLERFRAME
+# ----------------
+
+# ...................... =InstallAnywhere Uninstaller
+UnInstallerFrame.titleStr=Программа удаления InstallAnywhere
+
+# ....................... =Introduction
+UnInstallerFrame.labelStr0=Введение
+
+# ....................... =Uninstalling...
+UnInstallerFrame.labelStr1=Деинсталяция...
+
+# ....................... =Uninstall Complete
+UnInstallerFrame.labelStr2=Деинсталяция завершена
+
+
+
+# UninstallIntroAction
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroAction.message=Начало удаления... \u000A\u000A$PRODUCT_NAME$\u000A\u000AВсе установленные InstallAnywhere средства будут полностью удалены. Файлы и папки, созданные после установки, не будут удалены.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroAction.stepTitle=Деинсталяция $PRODUCT_NAME$
+
+
+# UninstallIntroActionConsole
+# ------
+
+
+# ........... =About to uninstall...\n\n$PRODUCT_NAME$\n\nThis will remove features installed by InstallAnywhere. It will not remove files and folders created after the installation.
+UninstallIntroActionConsole.message=Начало удаления... \u000A\u000A$PRODUCT_NAME$\u000A\u000AВсе установленные InstallAnywhere средства будут полностью удалены. Файлы и папки, созданные после установки, не будут удалены.
+
+# ........... =Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.stepTitle=Деинсталяция $PRODUCT_NAME$
+
+
+
+
+# UNINSTALLERNAVIGATOR
+# --------------------
+
+# ........................... =Cancel
+UnInstallerNavigator.cancelStr=Отмена
+
+# ......................... =Quit
+UnInstallerNavigator.exitStr=Закрыть
+
+# ......................... =Help
+UnInstallerNavigator.helpStr=Справка
+
+# .............................. =Uninstall
+UnInstallerNavigator.uninstallStr=&Удалить
+
+
+# UNINSTALLMGR
+# ------------
+
+# .................................. =An action could not be undone because it wasn't supported.
+UninstallMgr.ActUnableToUninstMessage=Отмена действия не поддерживается и поэтому не может быть выполнена.
+
+# .................... =Cleaning up...
+UninstallMgr.CleaningUp=Выполняется стирание...
+
+# .................... =Cleaning up...
+UninstallMgr.NativePackages=Собственные пакеты...
+
+# ............... =Files...
+UninstallMgr.Files=Файлы...
+
+# ................. =Folders...
+UninstallMgr.Folders=Папки...
+
+# ................ =Java VM...
+UninstallMgr.JavaVM=Java VM...
+
+# ............. =LaunchAnywhere
+UninstallMgr.LAX=LaunchAnywhere
+
+# ............... =Links...
+UninstallMgr.Links=Ссылки...
+
+# ................... =Aliases...
+UninstallMgr.Links.mac=Псевдонимы...
+
+# ................... =Shortcuts...
+UninstallMgr.Links.win=Ярлыки...
+
+# ..................... =The product could not be uninstalled because there is no longer a suitable Java virtual machine on this system. Please install a Java virtual machine and try again.
+UninstallMgr.NoVmMessage=Отменить установку продукта невозможно из-за отсутствия в системе виртуальной машины Java. Установите виртуальную машину Java и повторите попытку.
+
+# ................... =1 folder
+UninstallMgr.OneFolder=Одна папка
+
+# ................... =Preparing...
+UninstallMgr.Preparing=Подготовка...
+
+# .............. =Software Database...
+UninstallMgr.SwDb=База данных программного обеспечения...
+
+# .................. =Registry...
+UninstallMgr.SwDb.win=Реестр...
+
+# .................... =2 folders
+UninstallMgr.TwoFolders=Две папки
+
+# ....................... =Unable to clean up
+UninstallMgr.UnableCleanUp=Невозможно стереть
+
+# ....................... =Unable to remove native packages 
+UninstallMgr.UnableNativePackages=Невозможно удалить собственные пакеты
+
+# .................... =Unable to remove file
+UninstallMgr.UnableFile=Невозможно удалить файл
+
+# ...................... =Unable to remove directory
+UninstallMgr.UnableFolder=Невозможно удалить папку
+
+# ...................... =Unable to remove Java VM feature
+UninstallMgr.UnableJavaVM=Невозможно удалить виртуальную машину Java
+
+# .................... =Unable to remove link
+UninstallMgr.UnableLink=Невозможно удалить ссылку
+
+# ........................ =Unable to remove alias
+UninstallMgr.UnableLink.mac=Невозможно удалить псевдоним
+
+# ........................ =Unable to remove shortcut
+UninstallMgr.UnableLink.win=Невозможно удалить ярлык
+
+# ....................... =Unable to
+UninstallMgr.UnablePrepare=Невозможно
+
+# .......................... =Unable to remove 1 file
+UninstallMgr.UnableRemOneFile=Невозможно удалить один файл
+
+# ........................... =Unable to remove 2 files
+UninstallMgr.UnableRemTwoFiles=Невозможно удалить два файла
+
+# .................... =Unable to remove software database
+UninstallMgr.UnableSwDb=Невозможно удалить базу данных программного обеспечения
+
+# ........................ =Unable to remove registry key
+UninstallMgr.UnableSwDb.win=Невозможно удалить ключ реестра
+
+
+# UNINSTALLRESTART
+# ---------
+
+# ................ =System Restart Required
+UninstallRestart.title=Необходимо перезапустить систему
+
+# ................ =It is not recommended that you run the uninstaller until the system is restarted. Select \"Cancel\" to quit the uninstaller, or \"Continue\" to uninstall anyway.
+UninstallRestart.message=Запускать утилиту деинсталяции до перезапуска системы не рекомендуется. Щелкните \"Отмена\" для отмены деинсталяции, или \"Продолжить\" для ее продолжения.
+
+# ................ =Continue
+UninstallRestart.continue=Продолжить
+
+# ................ =Cancel
+UninstallRestart.exit=Отмена
+
+
+# UPROGRESS
+# ---------
+
+# ................ =Please wait while InstallAnywhere's uninstaller
+UProgress.waitArr.0=Подождите пока программа удаления InstallAnywhere
+
+# ................ =removes the following features...
+UProgress.waitArr.1=удаляет следующие средства...
+
+# VISUAL NAMES
+# ------------
+
+# ...........=Executing Custom Code...
+Indeterminate.custom.code=Исполнение специальной программы
+
+# Indeterminate.executing=Executing...
+Indeterminate.executing=Исполнение...
+
+# Indeterminate.script=Executing Installation Script...
+Indeterminate.script=Исполнение скрипта установки...
+
+# InstallMergeModule.visualname.self=Install Merge Module
+InstallMergeModule.visualname.self=Установить модуль объединения
+
+# Indeterminate.mergemodule=Installing Merge Module
+Indeterminate.mergemodule=Установка модуля объединения
+
+# Indeterminate.nativePackage=Installing Native Package
+Indeterminate.nativePackage=Установка собственного пакета
+
+# Uninstaller.command.quit=quit
+Uninstaller.command.quit=выйти
+
+# Uninstaller.console.begin.text=PRESS <ENTER> TO BEGIN THE UNINSTALL, OR 'QUIT' TO EXIT THE UNINSTALLER:
+Uninstaller.console.begin.text=НАЖМИТЕ <ENTER>, ЧТОБЫ НАЧАТЬ ДЕИНСТАЛЯЦИЮ ИЛИ "ВЫХОД", ЧТОБЫ ВЫЙТИ. ИЗ ПРОГРАММЫ ДЕИНСТАЛЯЦИИ:
+
+# Uninstaller.console.exit.text=PRESS <ENTER> TO EXIT THE UNINSTALLER:
+Uninstaller.console.exit.text=НАЖМИЕТ <ENTER>, ЧТОБЫ ВЫЙТИ. ИЗ ПРОГРАММЫ ДЕИНСТАЛЯЦИИ:
+
+# CopyFileAction.visualname.self=Copy file
+CopyFileAction.visualname.self=Копировать файл
+
+# CopyFolderAction.visualname.self=Copy folder
+CopyFolderAction.visualname.self=Копировать папку
+
+# CreateShortcut.visualname.self.link=Create link
+CreateShortcut.visualname.self.link=Создать ссылку
+
+# CreateShortcut.visualname.self.shortcut=Create shortcut
+CreateShortcut.visualname.self.shortcut=Создать ярлык
+
+# CreateShortcut.visualname.self.alias=Create alias
+CreateShortcut.visualname.self.alias=Создать псевдоним
+
+# CreateFolder.visualname.self=Create folder
+CreateFolder.visualname.self=Создать папку
+
+# CreateLaunchAnywhere.visualname.self=Create LaunchAnywhere
+CreateLaunchAnywhere.visualname.self=Создать LaunchAnywhere
+
+# DeleteFileAction.visualname.self=Delete file
+DeleteFileAction.visualname.self=Удалить файл
+
+# DeleteFolderAction.visualname.self=Delete folder
+DeleteFolderAction.visualname.self=Удалить папку
+
+# ExpandArchive.visualname.self=Expand archive
+ExpandArchive.visualname.self=Развернуть архив
+
+# InstallSpeedFolder.visualname.self=Install SpeedFolder
+InstallSpeedFolder.visualname.self=Установить SpeedFolder
+
+InstallRPMPackage.visualname.self=Установить Linux RPM
+InstallSolarisPackage.visualname.self=Установить Solaris Package
+InstallHPUXPackage.visualname.self=Установить HP-UX Depot
+
+# MoveFileAction.visualname.self=Move file
+MoveFileAction.visualname.self=Переместить файл
+
+# MoveFolderAction.visualname.self=Move folder
+MoveFolderAction.visualname.self=Переместить папку
+
+# RegisterWindowsService.visualname.self=Register Windows Service
+RegisterWindowsService.visualname.self=Обслуживание реестра Windows
+
+# SetSysEnvVar.visualname.self=Set System Environment Variable
+SetSysEnvVar.visualname.self=Установить переменную системного окружения
+
+# SetWindowsRegistry.visualname.self=Set Windows Registry
+SetWindowsRegistry.visualname.self=Установить реестр Windows
+
+# ExecuteAnt.visualname.self=Execute ANT Script
+ExecuteAnt.visualname.self=Исполнение скрипта ANT
+
+# ExecuteCommand.visualname.self=Execute Command
+ExecuteCommand.visualname.self=Исполнить команду
+
+# ExecuteCustomCode.visualname.self=Execute Custom Code
+ExecuteCustomCode.visualname.self=Исполнение специальной программы
+
+# ExecuteScript.visualname.self=Execute Script
+ExecuteScript.visualname.self=Исполнить скрипт
+
+# ExecuteTargetFile.visualname.self=Execute Target File
+ExecuteTargetFile.visualname.self=Исполнение целевого файла
+
+# FindComponent.visualname.self=Find Component in Registry
+FindComponent.visualname.self=Найти компонент в реестре
+
+# GetWindowsRegistry.visualname.self=Get Windows Registry Entry
+GetWindowsRegistry.visualname.self=Получить запись реестра Windows
+
+# ModifyTextFile.visualname.self=Modify Text File
+ModifyTextFile.visualname.self=Изменить текстовый файл
+
+# PerformXSLT.visualname.self=Perform XSL Transform
+PerformXSLT.visualname.self=Выполнить преобразование XSL Transform
+
+# OutputDebug.visualname.self=Output Debug Information
+OutputDebug.visualname.self=Выдать данные отладки
+
+# SetIAVariable.visualname.self=Output Text to Console
+SetIAVariable.visualname.self=Выдать текст на консоль
+
+# ShowDialog.visualname.self=Show Message Dialog
+ShowDialog.visualname.self=Показать диалог сообщений
+
+# StartWindowsService.visualname.self=Start Windows Service
+StartWindowsService.visualname.self=Начать обслуживание Windows
+
+# StopWindowsService.visualname.self=Stop Windows Service
+StopWindowsService.visualname.self=Прекратить обслуживание Windows
+
+# PauseWindowsService.visualname.self=Pause Windows Service
+PauseWindowsService.visualname.self=Приостановить обслуживание Windows
+
+
+# WIN32FOLDERDIALOG
+# -----------------
+
+# ....................... =Browse for Folder
+Win32FolderDialog.titleBar=Поиск папки
+
+
+#These represent the names of the different actions and appear in the add action dialog, the title of the customizer and in the tree.
+Designer.Action.Subinstaller.visualName=Установить модуль объединения
+Designer.Action.PowerUpdateClient.visualName=Установить клиент PowerUpdate Client
+Designer.Action.PerformXSLTZip.visualName=Выполнить преобразование XSL Transform - в архив
+Designer.Action.PerformXSLT.visualName=Выполнить преобразование XSL Transform
+Designer.Action.PerformXSLT.performingXSLtransform=Исполнение преобразования XSL:
+Designer.Action.MakeExecutable.visualName=Создать LaunchAnywhere для приложения Java
+Designer.Action.InstallZipfile.visualName=Установить архив
+Designer.Action.CreateUninstaller.visualName=Создать программу деинсталяции
+Designer.Action.BOMAction.visualName=Установить из манифеста
+Designer.Action.ExpandArchive.visualName=Развернуть Archive
+Designer.Action.ExecuteScript.visualName=Выполнить сценарий/пакетный файл
+Designer.Action.Exec.visualName=Исполнить команду
+Designer.Action.visualName=Исполнение целевого файла
+Designer.Action.AntRunner.visualName=Исполнение скрипта ANT
+Designer.Actions.ShowDialogAction.visualName=Показать диалог сообщений
+Installer.Action.DumpDebugInfo.Modules.postUninstallActions=Действия после деинсталяции
+Installer.Action.DumpDebugInfo.Modules.preUninstallActions=Действия до деинсталяции
+
+Designer.Action.EvaluateDependenciesAction.visualName=Оценка зависимостей
+
+ActionGroup.visualName.self=Группа действий
+
+Designer.Action.UpdateServiceClient.visualName=Включить обновление уведомлений
+Designer.FolderConstants.programsDir64Name=Папка программ (64-разрядные)
+Designer.FolderConstants.programsDir32Name=Папка программ (32-разрядные)
+Designer.FolderConstants.system64Name=Системная папка (64-разрядная)
+Designer.FolderConstants.system32Name=Системная папка (32-разрядная)
+Designer.FolderConstants.variableMagicFolder=Папка переменных магических чисел
+Installer.Actions.UpdateServiceClient.badClasspath=#UPDATE_SERVICE# Неверный URL для загрузки файла us.jar.
+Installer.Actions.UpdateServiceClient.badUsJar=Библиотека #UPDATE_SERVICE# не содержит необходимый для регистрации класс.  Возможно предоставлен неверный файл jar.
+Installer.Actions.UpdateServiceClient.noRegisterOrSethostMethodFound=Класс #UPDATE_SERVICE# не содержит необходимый для регистрации метод.
+Installer.installLog.actionNotes=Заметки к действию:
+Installer.installLog.installLogDetail=Подробный журнал установки:
+Installer.installLog.installation=Установка: 
+Installer.installLog.unsuccessful=завершилась неудачно.
+Installer.installLog.successful=завершилась удачно.
+Installer.installLog.withErrors=завершилась с ошибками.
+Installer.installLog.withwarnings=завершилась с предупреждениями.
+Installer.installLog.cancelled=Отменена
+Installer.installLog.duringPostInstall=после постустановки
+Installer.installLog.duringInstall=во время установки
+Installer.installLog.duringPreInstall=во время предустановки
+Installer.installLog.cancelledBeforePreInstallation=УСТАНОВКА ОТМЕНЕНА ПОЛЬЗОВАТЕЛЕМ ДО ПРЕДУСТАНОВКИ
+Installer.installLog.cancelledDuringPreInstallation=УСТАНОВКА ОТМЕНЕНА ПОЛЬЗОВАТЕЛЕМ ВО ВРЕМЯ ПРЕДУСТАНОВКИ
+Installer.installLog.cancelledDuringInstallation=УСТАНОВКА ОТМЕНЕНА ПОЛЬЗОВАТЕЛЕМ ВО ВРЕМЯ УСТАНОВКИ
+Installer.InstallLog.cancelledDuringPostInstallation=УСТАНОВКА ОТМЕНЕНА ПОЛЬЗОВАТЕЛЕМ ПОСЛЕ УСТАНОВКИ ИЛИ ВО ВРЕМЯ ПОСТСТАНОВКИ
+Installer.installLog.successes=Успешное выполнение
+Installer.installLog.warnings=Предупреждение
+Installer.installLog.nonFatalErrors=НеФатальныеОшибки
+Installer.installLog.fatalErrors=ФатальныеОшибки
+Installer.installLog.details=Подробнее
+Installer.installLog.nothingWasInstalled=Ни один компонент не установлен.
+Installer.installLog.none=Нет
+Installer.installLog.summary=Сводка
+Installer.installLog.installedBy=Установлено с помощью InstallAnywhere #BUILD_INFO#, Macrovision
+Installer.installLog.status=Состояние:
+Installer.installLog.additionalNotes=Дополнительные замечания: 
+Installer.installLog.exceptionClass=Класс исключений: 
+Installer.installLog.exceptionMessage=Сообщение об исключениях: 
+Installer.installLog.exceptionStackTrace=ТРАССИРОВКА СТЭКА ИСКЛЮЧЕНИЙ:
+Installer.installLog.successLevel.successful=УСПЕШНО ВЫПОЛНЕНА
+Installer.installLog.successLevel.warning=ПРЕДУПРЕЖДЕНИЕ
+Installer.installLog.successLevel.error=ОШИБКА
+Installer.installLog.successLevel.fatalError=ФАТАЛЬНАЯ ОШИБКА
+Installer.installLog.successLevel.unsupported=УРОВЕНЬ НЕПОДДЕРЖИВАЕМЫХ ОШИБОК
+Installer.installLog.successLevel.notice=ПРИМЕЧАНИЕ
+Installer.installLog.action.description=Операция установки:
+Installer.installLog.antRunner.description=Исполнение скрипта ANT
+Installer.installLog.antRunner.script=Скрипт: 
+Installer.installLog.asciiFileManipulator.noTargetChosen=Не выбран целевой компонент
+Installer.installLog.asciiFileManipulator.newFile=Новый файл 
+Installer.installLog.copyDirectory.description=Копировать каталог:
+Installer.installLog.copyFile=Копировать файл:
+Installer.installLog.copyFileAction.destination=Место назначения: 
+Installer.installLog.createShortcut.createShortcut=Создать ярлык:
+Installer.installLog.createShortcut.createAlias=Создать псевдоним:
+Installer.installLog.createShortcut.createLink=Создать ссылку:
+Installer.installLog.deleteFileAction.source=Источник:
+Installer.installLog.editEnvironment.description=Задать переменную окружения:
+Installer.installLog.expandFile.description=Развернуть архив:
+Installer.installLog.getRegEntry.description=Получить элемент реестра:
+Installer.installLog.getRegEntry.key=Ключ: 
+Installer.installLog.getRegEntry.value=Имя переменной: 
+Installer.installLog.installDirCont.description=Установить SpeedFolder:
+Installer.installLog.installDirectory.description=Установить каталог:
+Installer.installLog.installFile.description=Установить файл:
+Installer.installLog.installNTService.description=Зарегистрировать службу NT:
+Installer.installLog.installUninstaller.description=Установить программу удаления:
+Installer.installLog.installUninstaller.note=(Установить все компоненты программы удаления)
+Installer.installLog.makeExecutable.description=Создать LaunchAnywhere:
+Installer.installLog.makeExecutable.note=(Установить все исполняемые компоненты LaunchAnywhere Java)
+Installer.installLog.makeRegEntry.description=Создать элемент реестра:
+Installer.installLog.makeRegEntry.key=Ключ:
+Installer.installLog.makeRegEntry.name=Имя переменной:
+Installer.installLog.makeRegEntry.data=Данные переменной:
+Installer.installLog.speedRegistry.description=Элементы реестра:
+Installer.installLog.subinstaller.description=Установить модуль объединения:
+Installer.installLog.subuninstaller.description=Выполнение программы удаления:
+Installer.installLog.customAction.description=Специальная операция:
+Installer.installLog.userInteractions=Взаимодействие пользователя
+Installer.installLog.installBegin=Начало установки:
+Installer.installLog.installEnd=Завершение установки:
+Installer.installLog.freeMemory=Свободно памяти:
+Installer.installLog.totalMemory=Всего памяти:
+Installer.installLog.commandLineArgs=Аргументы командной строки:
+Installer.installLog.noArguments=Нет аргументов
+Designer.Action.HTMLPanelAction.visualName=Панель: отображение HTML
+HTMLPanelAction.title=Панель HTML
+Designer.Action.UninstallIsmpSoftware.visualName=Деинсталяция InstallShield Universal Software
+Installer.unexpectedChanges.message=Инсталлятор обнаружил неожиданные изменения в сценарии установки.
+﻿Installer.unexpectedChanges.title=Ошибка
+Installer.unexpectedChanges.label=Невозможно запустить инсталлятор.

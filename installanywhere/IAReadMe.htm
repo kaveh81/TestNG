@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+
+body { background-color: #FFFFFF font: 10pt/12pt verdana,arial,helvetica,sans-serif; color: #000000 }
+
+ul { font: 10pt/12pt verdana,arial,helvetica,sans-serif; color: #000000 }
+
+
+p
+   { color: #000000; font-size: 10pt; line-height: 12pt; font-family: verdana,arial,helvetica,sans-serif; margin-top: 0pt; margin-bottom: 6pt; font-weight: regular; }
+
+
+A:link { color: #333333 }
+
+A:hover { color: #000000 }
+
+A:active { color: #666666 } 
+
+A:visited { color: #666666 }
+
+.title { font: bold 14pt/18pt arial,helvetica,sans-serif; color: #000000 }
+
+.subTitle
+   { color: #000000; font-size: 12pt; line-height: 14pt; font-family: arial,helvetica,sans-serif; font-weight: bold; margin-top: 12pt; margin-bottom: 6pt }
+
+.sectionTitle
+   { color: #000000; font-size: 11pt; line-height: 12pt; font-family: arial,helvetica,sans-serif; font-weight: bold; margin-top: 12pt; margin-bottom: 0pt }
+
+.listTitle { font: 10pt/14pt verdana, arial, helvetica, sans-serif; color: #000000 } 
+
+.mouseType { font: 8pt/10pt verdana, arial, helvetica, sans-serif; color: #999999 } 
+
+  </style>
+  <title>Macrovision - InstallAnywhere 8 Release Notes</title>
+</head>
+
+<body leftmargin="8" topmargin-"8">
+<p class="sectionTitle">RELEASE NOTES</p>
+<p class="title">InstallAnywhere 8.0.1</p>
+
+<p>April 17, 2007</p>
+
+  <p class="subTitle">Contents</p> 
+  
+  <ul>
+    <li><a href="#one">Introduction</a></li>
+	<li><a href="#two">System Requirements</a></li>
+	<li><a href="#three">New Features</a></li>
+	<li><a href="#four">Bug Fixes</a></li>
+        <li><a href="#five">Informational</a></li>
+	<li><a href="#six">Known Issues</a></li>
+  </ul>
+
+
+<a name="one"></a>
+<p class="subTitle">Introduction</p>
+<p>InstallAnywhere is the solution of choice among multiplatform installation developers worldwide. It delivers the ideal combination of ease-of-use and powerful functionality for creating professional multiplatform installations in minutes. InstallAnywhere is available in Standard and Enterprise editions to meet your specific needs. InstallAnywhere allows you to:
+<ul>
+<li>Create one installer project for multiple platforms and multiple languages</li>
+<li>Deploys software onto any client or server platform</li>
+<li>Allows you to build a multiplatform installer in minutes with the project wizard</li> 
+<li>Includes all of the platform-specific functionality you need to simplify your software deployment</li></ul></p>
+
+<a name="two"></a>
+<p class="subTitle">System Requirements</p>
+
+<p class="sectionTitle">For Systems Running InstallAnywhere (Authoring
+Environment)</p>
+<ul>
+<li>128 MB free RAM </li>
+<li>Minimum of 8-bit color depth (256 colors)</li>
+<li>Minimum 1024 x 768 resolution </li>
+</ul>
+
+<p>InstallAnywhere runs on the latest versions of these operating systems, fully updated with the most recent patches and service packs:
+<ul>
+<li>Windows Server 2003, XP, 2000, NT</li>
+<li>Mac OS X, Mac OS X Server</li> 
+<li>Solaris/SPARC</li> 
+<li>Linux/Intel: Red Hat, SuSE</li> 
+<li>HP-UX</li> 
+<li>AIX 5.2 or higher</li>
+</ul></p>
+<p><b>NOTE: </b>Language-localized versions of InstallAnywhere Enterprise Edition (for English, French, German and Japanese developers) are available on the Windows platform only. Installers can be built on any platform for any other platform or language. Localizations for 29 languages are included.</p>
+
+<p class="sectionTitle"><B>For Target Systems (Installer Environment)</B></p>
+<ul>
+<li>64 MB of free RAM </li>
+<li>Minimum of 8-bit color depth (256 colors)</li> 
+<li>Minimum 640 X 480 screen resolution</li></ul> 
+
+<p>Installers run on any version of these operating systems, as long as the operating system supports Java:
+<ul>
+<li>Windows Server XP, 2003 (Itanium 2, x86, AMD-64)</li> 
+<li>Windows Vista, 2000, NT, Me, 98</li>
+<li>Linux/Intel: Red Hat, Red Hat Enterprise Server, UnitedLinux, TurboLinux, SUSE & others</li>
+<li>Linux for PowerPC, AMD-64, and Itanium 2</li>
+<li>Mac OS X (PPC & Intel) </li>
+<li>Solaris SPARC, AMD-64, Intel</li> 
+<li>HP-UX (Itanium 2 & PA-RISC) </li>
+<li>Tru64, FreeBSD </li>
+<li>AIX </li>
+<li>z/OS</li>
+<li>NetWare</li> 
+<li>Other Unix platforms </li>
+</ul></p>
+
+<p><b>NOTE:</b> InstallAnywhere installers are not supported on beta or on early access releases.</p>
+
+<p class="sectionTitle"><B>Supported Java Virtual Machines</B>
+<ul>
+<li>Sun: 1.3.x, 1.4.x, 1.5.x, 1.6.x</li>
+<li>IBM: 1.3.x, 1.4.x, 1.5.x</li>
+<li>Apple: 1.3.x, 1.4.x, 1.5.x</li>
+<li>HP: 1.3.x, 1.4.x, 1.5.x</li></ul></p>
+
+<p>The InstallAnywhere installer bundles Java 1.5 by default for all platforms. Any Java virtual machine can be bundled with an installer ensuring that the target system
+meets the minimum requirements for both the installers and your applications.
+To download these bundled VM packs, see <a href="http://www.macrovision.com/downloads/flexnet_installshield/installanywhere/VM_packs.shtml">InstallAnywhere Downloads</a>.</p>
+
+<p><b>NOTE:</b> InstallAnywhere installers are not supported on beta or on early access releases of Java.</p>
+
+<a name="three"></a>
+<p class="subTitle">New Features</font></p>
+
+<p>InstallAnywhere continues to deliver the functionality developers need to build successful multiplatform installations. InstallAnywhere 8.0.1 installers are now supported on Windows Vista systems and on Sun 1.6.x JVMs. </p>
+
+<!-- <p class="sectionTitle">Automatically Generate and Record Response Files</p>
+<p>InstallAnywhere 8 allows you to automatically generate response files used during silent installations. By default, these response files are recorded.</p>
+-->
+
+	</UL></p>	
+	<a name="four"></a>
+      <p class="subTitle">Bug Fixes</p>
+	  
+<p>	  The following fixes and improvements have been made since the release of InstallAnywhere 8.0.0.</p>
+
+<p><ul>
+
+<LI>IOA-000030413: The "Set System Environment Variable" action now works on Windows Vista.</LI>
+<LI>IOA-000027560: Projects that build both web-installer and cd-rom distributions for HP-UX no longer fail to build.</LI>
+<LI>IOA-000057176: A flaw in the security of the installation script has been addressed in this hotfix.</LI>
+<LI>IOA-000029919: A GUI issue related to the SetEnvironmentVariable action has been resolved.</LI>
+<LI>IOA-000029119: $WIN_COMMON_DESKTOP$ now resolves correctly for shortcuts on Windows Vista systems.</LI>
+<LI>IOC-000057327: Rules added to MagicFolders now work again at run time.</LI>
+<LI>IOA-000027741: Debug message "Command.run(): process completed before monitors could start" no longer shows up in console.</LI>
+<LI>IOC-000058165: Installers that use a Check Platform rule with Windows Vista as the only platform now install properly on Windows Vista machines.</LI>
+<LI>IOA-000028136: Install debug output is now properly redirected to StdErr instead of the console.</LI>
+<LI>IOA-000027421: Fixed issue that occurred when importing merge modules containing empty Folders or SpeedFolders.</LI>
+<LI>IOC-000056955: Fixed "User Interface Mode Not Supported" error that would periodically occur when using IBM JVM 1.5.</LI>
+
+</ul></P>
+
+
+<a name="five"></a>
+<p class="subTitle">Informational</p>
+
+<p class="sectionTitle"><B>Sending Us Feedback</B></p>
+<p>Your feedback is essential to helping us deliver features in
+InstallAnywhere that meets your needs.  Many of the features for
+InstallAnywhere 8.0.1 come directly from the feedback and suggestions that you,
+the InstallAnywhere developer community, have shared with our engineering and
+support teams. To provide feedback, see <a href="http://www.macrovision.com/feedback/index.shtml">Product Feedback</a>.</p>
+
+<p class="sectionTitle"><b>Opening InstallAnywhere</b></p>
+<p>Use the instructions for the operating system on which you are running InstallAnywhere.
+<ul>
+
+<li><b>To open InstallAnywhere on Windows:</b><br>
+On the Windows start menu, point to <strong>Programs</strong> then <strong>Macrovision</strong> and click <strong>InstallAnywhere 8 Enterprise</strong> or <strong>InstallAnywhere 8 Standard</strong>. You can also double-click <em>InstallAnywhere.exe</em>, located by default in <i>C:\Program Files\Macrovision\InstallAnywhere 8 Enterprise</i> or <i>C:\Program Files\Macrovision\InstallAnywhere 8 Standard.</i></li>
+
+<li><b>To open InstallAnywhere on Mac:</b><br>
+Double-click <em>InstallAnywhere</em> in the <em>Applications/Macrovision/InstallAnywhere 8 Enterprise</em> or <em>Applications/Macrovision/InstallAnywhere 8 Standard</em> folder. You can also double-click the InstallAnywhere alias that is created by default in your dock.</li>
+
+<li><b>To open InstallAnywhere on UNIX, including Solaris, Linux, HP-UX, AIX, and others:</b><br>
+Type <em>InstallAnywhere</em> from your <em>Macrovision/InstallAnywhere_8_Enterprise</em> or <em>Macrovision/InstallAnywhere_8_Standard</em> folder. You can also run the InstallAnywhere symbolic link that is installed by default into your home folder.</li></ul></p>
+
+<p class="sectionTitle"><b>Uninstalling InstallAnywhere</b></p>
+<p>Use the instructions for the operating system on which you are running InstallAnywhere.
+<ul>
+
+<li><b>To uninstall InstallAnywhere from Windows:</b><br>
+Double-click the <em>Uninstall</em> shortcut, located by default in <i>C:\Program Files\Macrovision\InstallAnywhere 8 Enterprise</i> or <i>C:\Program Files\Macrovision\InstallAnywhere 8 Standard</i>.</li>
+
+<li><b>To uninstall InstallAnywhere from Mac:</b><br>
+Double-click <em>Uninstall</em> in the <em>Applications/Macrovision/InstallAnywhere 8 Enterprise</em> or <em>Applications/Macrovision/InstallAnywhere 8 Standard</em> folder.</li>
+
+<li><b>To uninstall InstallAnywhere from UNIX, including Solaris, Linux, HP-UX, AIX, and others:</b><br>
+Type <em>Uninstall</em> from your <em>Macrovision/InstallAnywhere_8_Enterprise</em> or <em>Macrovision/InstallAnywhere_8_Standard</em> folder.</li></ul></p>
+
+
+<a name="six"></a>
+<p class="subTitle">Known Issues</p>
+
+<p>For a complete list of known issues, see Knowledge Base article <a href="http://support.installshield.com/kb/view.asp?articleid=Q112324" target="_blank">Q112324</a>.</p><br>
+
+
+
+<p class="mouseType">Copyright 2002-2007 Macrovision Europe Ltd. and/or
+Macrovision Corporation.</font></p>
+<br>
+</body>
+</html>

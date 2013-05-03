@@ -1,0 +1,833 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:54" />
+    <title>Standard InstallAnywhere Variables</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1052887"> </a><h1 class="pHeading1">
+Standard InstallAnywhere Variables
+</h1>
+<a name="wp1059029"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1052888"> </a><p class="pa_Body">
+InstallAnywhere includes a number of default variables that store information essential to the installation process.
+</p>
+<a name="wp1055038"> </a><p class="pa_Body">
+The following variables are standard InstallAnywhere variables:</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1056277table1055039">
+  <caption><a name="wp1056277"> </a><p class="ptt_Table_Title">
+InstallAnywhere Variables&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1056615"> </a><p class="ptch_Table_Cell_Heading">
+Variable
+</p>
+</th>
+    <th><a name="wp1056617"> </a><p class="ptch_Table_Cell_Heading">
+Definition
+</p>
+</th>
+    <th><a name="wp1056619"> </a><p class="ptch_Table_Cell_Heading">
+Status
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1056289"> </a><p class="ptck_Table_Cell_Key_Column">
+$/$ or $\$
+</p>
+</td>
+    <td><a name="wp1056291"> </a><p class="ptca_Table_Cell_Body">
+These represent platform-specific file separators, most useful to refer to paths in a platform-independent manner. These have the same value as the Java property file separator.
+</p>
+</td>
+    <td><a name="wp1056293"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056295"> </a><p class="ptck_Table_Cell_Key_Column">
+$;$ or $:$
+</p>
+</td>
+    <td><a name="wp1056297"> </a><p class="ptca_Table_Cell_Body">
+These represent platform-specific path separators.
+</p>
+</td>
+    <td><a name="wp1056299"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056301"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_DIALOG_BUTTON$
+</p>
+</td>
+    <td><a name="wp1056303"> </a><p class="ptca_Table_Cell_Body">
+This variable is set to the return value as set by the end-user&#39;s choice in the Show Message Dialog box action. If the end-user chooses button 1, this variable will be set to 1.
+</p>
+</td>
+    <td><a name="wp1056305"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056307"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_INSTALL_FEATURE<br />_&lt;#&gt;$_&lt;#&gt;$
+</p>
+</td>
+    <td><a name="wp1056309"> </a><p class="ptca_Table_Cell_Body">
+If Choose Product Features were enabled, there would be one variable for each feature as given in the variable $CHOSEN_INSTALL_FEATURE_NUM$. This holds the short name of a feature to be installed. For example, if $CHOSEN_INSTALL_FEATURE_NUM$ equals 2, then there will be two variables of the form $CHOSEN_INSTALL_FEATURE_1$ and $CHOSEN_INSTALL_FEATURE_2$
+</p>
+</td>
+    <td><a name="wp1056311"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056313"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_INSTALL_FEATURE_LIST$
+</p>
+<a name="wp1056314"> </a><p class="ptck_Table_Cell_Key_Column">
+&#160;
+</p>
+</td>
+    <td><a name="wp1056316"> </a><p class="ptca_Table_Cell_Body">
+This variable is a comma-separated list of all install features (short name) chosen for the installation.
+</p>
+</td>
+    <td><a name="wp1056318"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056320"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_INSTALL_FEATURE_NUM$
+</p>
+</td>
+    <td><a name="wp1056322"> </a><p class="ptca_Table_Cell_Body">
+If Choose Product Features were enabled, this variable would hold total number of components (as a string) that the end-user had chosen to install.
+</p>
+</td>
+    <td><a name="wp1056324"> </a><p class="ptca_Table_Cell_Body">
+&#160;
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056326"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_INSTALL_BUNDLE<br />_&lt;#&gt;$_&lt;#&gt;$
+</p>
+</td>
+    <td><a name="wp1056328"> </a><p class="ptca_Table_Cell_Body">
+If Choose Product Features were enabled, there would be one variable for each feature as given in the variable $CHOSEN_INSTALL_BUNDLE_NUM$. This holds the short name of a feature to be installed. For example, if $CHOSEN_INSTALL_BUNDLE_NUM$ equals 2, then there will be two variables of the form $CHOSEN_INSTALL_BUNDLE_1$ and $CHOSEN_INSTALL_BUNDLE_2$
+</p>
+</td>
+    <td><a name="wp1056330"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only. This variables is deprecated. Please use $CHOSEN_INSTALL_FEATURE_&lt;#&gt;$_&lt;#&gt;$
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056332"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_INSTALL_BUNDLE_LIST$
+</p>
+<a name="wp1056333"> </a><p class="ptck_Table_Cell_Key_Column">
+&#160;
+</p>
+</td>
+    <td><a name="wp1056335"> </a><p class="ptca_Table_Cell_Body">
+This variable is a comma-separated list of all install features (short name) chosen for the installation.
+</p>
+</td>
+    <td><a name="wp1056337"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only. This variables is deprecated. Please use $CHOSEN_INSTALL_FEATURE_LIST$.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056339"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_INSTALL_BUNDLE_NUM$
+</p>
+</td>
+    <td><a name="wp1056341"> </a><p class="ptca_Table_Cell_Body">
+If Choose Product Features were enabled, this variable would hold total number of components (as a string) that the end-user had chosen to install.
+</p>
+</td>
+    <td><a name="wp1056343"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only. This variables is deprecated. Please use $CHOSEN_INSTALL_FEATURE_NUM$.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056345"> </a><p class="ptck_Table_Cell_Key_Column">
+$CHOSEN_INSTALL_SET$
+</p>
+</td>
+    <td><a name="wp1056347"> </a><p class="ptca_Table_Cell_Body">
+If Choose Product Features were enabled, this variable would hold the short name of the feature chosen by the end-user. If the end-user were to choose to customize the install, this variable would hold the string CUSTOM.
+</p>
+</td>
+    <td><a name="wp1056349"> </a><p class="ptca_Table_Cell_Body">
+This variable is can be set before install time.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056351"> </a><p class="ptck_Table_Cell_Key_Column">
+$CMD_LINE_ARGUMENTS$
+</p>
+</td>
+    <td><a name="wp1056353"> </a><p class="ptca_Table_Cell_Body">
+A special InstallAnywhere variable, which is resolve by the launcher and not by the installer. If this variable is in the LAX property lax.command.line.args, it will resolve to the arguments sent to the LaunchAnywhere executable.
+</p>
+</td>
+    <td><a name="wp1056355"> </a><p class="ptca_Table_Cell_Body">
+This variable is used by LaunchAnywhere.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056358"> </a><p class="ptck_Table_Cell_Key_Column">
+$COMMA$
+</p>
+</td>
+    <td><a name="wp1056360"> </a><p class="ptca_Table_Cell_Body">
+This resolves to a comma (,).
+</p>
+</td>
+    <td><a name="wp1056362"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056364"> </a><p class="ptck_Table_Cell_Key_Column">
+$&lt;componentname&gt; _DEPENDENCY_STATE_VARIABLE$
+</p>
+</td>
+    <td><a name="wp1056366"> </a><p class="ptca_Table_Cell_Body">
+If the dependency check passes this variable will be an empty string. If the dependency check fails the variable will contain the Dependency Failed Message.
+</p>
+</td>
+    <td><a name="wp1056368"> </a><p class="ptca_Table_Cell_Body">
+This variable is set at the beginning of the Install phase or after the Evaluate Dependencies action in Pre-Install.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056370"> </a><p class="ptck_Table_Cell_Key_Column">
+$&lt;componentname&gt; _MATCHED_KEY_FILE$
+</p>
+</td>
+    <td><a name="wp1056372"> </a><p class="ptca_Table_Cell_Body">
+This variable will contain the location of where the key file of the dependency is installed. If the dependency check has failed this variable will be an empty string.
+</p>
+</td>
+    <td><a name="wp1056374"> </a><p class="ptca_Table_Cell_Body">
+This variable is set at the beginning of the Install phase or after the Evaluate Dependencies action in Pre-Install.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056376"> </a><p class="ptck_Table_Cell_Key_Column">
+$DEPENDENCY_FAILURES$
+</p>
+</td>
+    <td><a name="wp1056378"> </a><p class="ptca_Table_Cell_Body">
+This is a comma separated list of Dependencies that have failed and are not installed.
+</p>
+</td>
+    <td><a name="wp1056380"> </a><p class="ptca_Table_Cell_Body">
+This variable is set at the beginning of the Install phase or after the Evaluate Dependencies action in Pre-Install.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056382"> </a><p class="ptck_Table_Cell_Key_Column">
+$DEPENDENCY_SUCCESSES$
+</p>
+</td>
+    <td><a name="wp1056384"> </a><p class="ptca_Table_Cell_Body">
+This is a comma separated list of Dependencies that have passed and are installed.
+</p>
+</td>
+    <td><a name="wp1056386"> </a><p class="ptca_Table_Cell_Body">
+This variable is set at the beginning of the Install phase or after the Evaluate Dependencies action in Pre-Install.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056388"> </a><p class="ptck_Table_Cell_Key_Column">
+$DEPENDENCY_STATUS$
+</p>
+</td>
+    <td><a name="wp1056390"> </a><p class="ptca_Table_Cell_Body">
+Returns &quot;success/failure&quot; depending on the entire dependency evaluation.&#160; If any of the dependencies in the installer fail, this variable will be set to &quot;failure&quot;.
+</p>
+</td>
+    <td><a name="wp1056392"> </a><p class="ptca_Table_Cell_Body">
+This variable is set at the beginning of the Install phase or after the Evaluate Dependencies action in Pre-Install.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056394"> </a><p class="ptck_Table_Cell_Key_Column">
+$DEPENDENCY_REPORT$
+</p>
+</td>
+    <td><a name="wp1056396"> </a><p class="ptca_Table_Cell_Body">
+This variable contains a report of all the dependencies that have failed.
+</p>
+</td>
+    <td><a name="wp1056398"> </a><p class="ptca_Table_Cell_Body">
+This variable is set at the beginning of the Install phase or after the Evaluate Dependencies action in Pre-Install.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056400"> </a><p class="ptck_Table_Cell_Key_Column">
+$DEVELOPER_DISK_SPACE_<br />ADDITIONAL$
+</p>
+</td>
+    <td><a name="wp1056402"> </a><p class="ptca_Table_Cell_Body">
+This variable specifies an arbitrary additional value, as a string representing the additional bytes, that the Check Disk Space action will add to the computed required disk space for the installation. By default this variable has a value of zero.
+</p>
+</td>
+    <td><a name="wp1056404"> </a><p class="ptca_Table_Cell_Body">
+Developers may set this variable.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056406"> </a><p class="ptck_Table_Cell_Key_Column">
+$DOLLAR$
+</p>
+</td>
+    <td><a name="wp1056408"> </a><p class="ptca_Table_Cell_Body">
+This resolves to $.
+</p>
+</td>
+    <td><a name="wp1056410"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056412"> </a><p class="ptck_Table_Cell_Key_Column">
+$EMPTY_STRING$
+</p>
+</td>
+    <td><a name="wp1056414"> </a><p class="ptca_Table_Cell_Body">
+This variable represents a value of null. This is useful to determine whether or not any variables have been initialized. Variables that have not yet been initialized will have this as their value.
+</p>
+</td>
+    <td><a name="wp1056416"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056418"> </a><p class="ptck_Table_Cell_Key_Column">
+$EXTRACTOR_DIR$
+</p>
+</td>
+    <td><a name="wp1056420"> </a><p class="ptca_Table_Cell_Body">
+A full path to the directory containing the self-extractor executable. (From where it was launched.)
+</p>
+</td>
+    <td><a name="wp1056422"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056424"> </a><p class="ptck_Table_Cell_Key_Column">
+$EXTRACTOR_EXECUTABLE$
+</p>
+</td>
+    <td><a name="wp1056426"> </a><p class="ptca_Table_Cell_Body">
+A full path to the self-extractor executable. (From where it was launched.)
+</p>
+</td>
+    <td><a name="wp1056428"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056430"> </a><p class="ptck_Table_Cell_Key_Column">
+$FEATURE_UNINSTALL_LIST$
+</p>
+</td>
+    <td><a name="wp1056432"> </a><p class="ptca_Table_Cell_Body">
+Contains a list of features the user chose to uninstall.
+</p>
+</td>
+    <td><a name="wp1056434"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056436"> </a><p class="ptck_Table_Cell_Key_Column">
+$FREE_DISK_SPACE_BYTES$
+</p>
+</td>
+    <td><a name="wp1056438"> </a><p class="ptca_Table_Cell_Body">
+The free disk space available on the destination install volume, as a string representing the free bytes, as determined by the Check Disk Space action. The variable gains its value immediately before the installation of any files or folder listed in the Install task.
+</p>
+</td>
+    <td><a name="wp1056440"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056442"> </a><p class="ptck_Table_Cell_Key_Column">
+$IA_CLASSPATH$
+</p>
+</td>
+    <td><a name="wp1056444"> </a><p class="ptca_Table_Cell_Body">
+The classpath as specified in the InstallAnywhere Designer environment.
+</p>
+</td>
+    <td><a name="wp1056446"> </a><p class="ptca_Table_Cell_Body">
+Developers may set this variable in the Advanced Designer.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056449"> </a><p class="ptck_Table_Cell_Key_Column">
+$IA_INSTALL_LOG$
+</p>
+</td>
+    <td><a name="wp1056451"> </a><p class="ptca_Table_Cell_Body">
+Setting this variable will generate an XML-formatted installation log to the $USER_INSTALL_DIR$ location. This document will detail the installation along with warnings and errors.
+</p>
+</td>
+    <td><a name="wp1056453"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056455"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALL_LOG_DESTINATION$
+</p>
+</td>
+    <td><a name="wp1056457"> </a><p class="ptca_Table_Cell_Body">
+As the creation of the install log is the last action of an installation, this variable can be set anytime during pre-install, install or post-install. The end-user input can choose the installation log location.
+</p>
+</td>
+    <td><a name="wp1056459"> </a><p class="ptca_Table_Cell_Body">
+Developers may set this variable.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056461"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALL_LOG_NAME$
+</p>
+</td>
+    <td><a name="wp1056463"> </a><p class="ptca_Table_Cell_Body">
+This variable sets the name of the installation log. If not set, the installation log&#39;s name is based on the product name.
+</p>
+</td>
+    <td><a name="wp1056465"> </a><p class="ptca_Table_Cell_Body">
+Developers may set this variable.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056467"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALL_SUCCESS$
+</p>
+</td>
+    <td><a name="wp1056469"> </a><p class="ptca_Table_Cell_Body">
+This variable alerts the end-user if the installation was successfully completed or if it failed. There are four possible values for this variable: SUCCESS, WARNING, NONFATAL_ERROR, and FATAL_ERROR.
+</p>
+</td>
+    <td><a name="wp1056471"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056473"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALLER_LAUNCH_DIR$
+</p>
+</td>
+    <td><a name="wp1056475"> </a><p class="ptca_Table_Cell_Body">
+This is a full path to the installer&#39;s self-extractor.
+</p>
+</td>
+    <td><a name="wp1056477"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056479"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALLER_LOCALE$
+</p>
+</td>
+    <td><a name="wp1056481"> </a><p class="ptca_Table_Cell_Body">
+The locale as a string (see java.util.Locale.toString()) that the end-user selected at the beginning of the installation.
+</p>
+</td>
+    <td><a name="wp1056483"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056485"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALLER_TEMP_DIR$
+</p>
+</td>
+    <td><a name="wp1056487"> </a><p class="ptca_Table_Cell_Body">
+The path to a temp directory for use by an installer. This will be deleted when its use is completed, assuming no items are in use.
+</p>
+</td>
+    <td><a name="wp1056489"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056491"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALLER_TITLE$
+</p>
+</td>
+    <td><a name="wp1056493"> </a><p class="ptca_Table_Cell_Body">
+This is the title of the installer displayed in the title bar.
+</p>
+</td>
+    <td><a name="wp1056495"> </a><p class="ptca_Table_Cell_Body">
+You may set this variable.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056497"> </a><p class="ptck_Table_Cell_Key_Column">
+$INSTALLER_UI$
+</p>
+</td>
+    <td><a name="wp1056499"> </a><p class="ptca_Table_Cell_Body">
+This resolves to the UI mode for the installer.
+</p>
+</td>
+    <td><a name="wp1056501"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only, but developers may set it at the start.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056503"> </a><p class="ptck_Table_Cell_Key_Column">
+$JAVA_DOT_HOME$
+</p>
+</td>
+    <td><a name="wp1056505"> </a><p class="ptca_Table_Cell_Body">
+This is what the Java property java.home will report.
+</p>
+</td>
+    <td><a name="wp1056507"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056509"> </a><p class="ptck_Table_Cell_Key_Column">
+$JAVA_EXECUTABLE$
+</p>
+</td>
+    <td><a name="wp1056511"> </a><p class="ptca_Table_Cell_Body">
+This is the path to the chosen Java executable.
+</p>
+</td>
+    <td><a name="wp1056513"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056515"> </a><p class="ptck_Table_Cell_Key_Column">
+$JAVA_HOME$
+</p>
+</td>
+    <td><a name="wp1056517"> </a><p class="ptca_Table_Cell_Body">
+This is the root of the Java installation.
+</p>
+</td>
+    <td><a name="wp1056519"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056521"> </a><p class="ptck_Table_Cell_Key_Column">
+$JDK_HOME$
+</p>
+</td>
+    <td><a name="wp1056523"> </a><p class="ptca_Table_Cell_Body">
+This is the path to the root of a JDK installation-this is only set if the chosen VM is a JDK. If it is not a JDK, then this variable will have a blank value.
+</p>
+</td>
+    <td><a name="wp1056525"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056527"> </a><p class="ptck_Table_Cell_Key_Column">
+$lax.nl.env.[ENVIRONMENT VARIABLE NAME]$
+</p>
+</td>
+    <td><a name="wp1056529"> </a><p class="ptca_Table_Cell_Body">
+[Windows and UNIX only]: Access any system environment variable (for example, access PATH via $lax.nl.env.PATH$) by specifying the variable name as an all upper case string. These variables are resolved at application runtime, when LaunchAnywhere executes. Developers can also access system environment variables via LaunchAnywhere properties.
+</p>
+</td>
+    <td><a name="wp1056531"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056533"> </a><p class="ptck_Table_Cell_Key_Column">
+$lax.nl.env.exact_case.<br />[Environment_Variable_Name]$
+</p>
+</td>
+    <td><a name="wp1056535"> </a><p class="ptca_Table_Cell_Body">
+[Windows and UNIX only]: Access any system environment variable (for example, access Path via $lax.nl.env.exact_case.Path$) by specifying the variable name as a string of the exact case as it is defined in the environment. Note that these variables are resolved at application runtime, when LaunchAnywhere executes. Developers can also access system environment variables via LaunchAnywhere properties.
+</p>
+</td>
+    <td><a name="wp1056537"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056539"> </a><p class="ptck_Table_Cell_Key_Column">
+$NEVER_UNINSTALLS_VM$
+</p>
+</td>
+    <td><a name="wp1056541"> </a><p class="ptca_Table_Cell_Body">
+Tells the uninstaller to never uninstall a Java Virtual Machine.  This is useful when multiple projects and uninstallers share 1 virtual machine.
+</p>
+</td>
+    <td><a name="wp1056543"> </a><p class="ptca_Table_Cell_Body">
+Set this variable to `true&#39; to never uninstall a JVM.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056545"> </a><p class="ptck_Table_Cell_Key_Column">
+$NULL$
+</p>
+</td>
+    <td><a name="wp1056547"> </a><p class="ptca_Table_Cell_Body">
+Currently, this is the same as $EMPTY_STRING$.
+</p>
+</td>
+    <td><a name="wp1056549"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056551"> </a><p class="ptck_Table_Cell_Key_Column">
+$PRODUCT_ID$
+</p>
+</td>
+    <td><a name="wp1056553"> </a><p class="ptca_Table_Cell_Body">
+Resolves to the value of the Product ID in the Project | Description task
+</p>
+</td>
+    <td><a name="wp1056555"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056557"> </a><p class="ptck_Table_Cell_Key_Column">
+$PRODUCT_NAME$
+</p>
+</td>
+    <td><a name="wp1056559"> </a><p class="ptca_Table_Cell_Body">
+This is the product name.
+</p>
+</td>
+    <td><a name="wp1056561"> </a><p class="ptca_Table_Cell_Body">
+Developers may set this variable.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056563"> </a><p class="ptck_Table_Cell_Key_Column">
+$PRODUCT_VERSION_NUMBER$
+</p>
+</td>
+    <td><a name="wp1056565"> </a><p class="ptca_Table_Cell_Body">
+Resolves to the value of the Product Version in the Project | Description task
+</p>
+</td>
+    <td><a name="wp1056567"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056569"> </a><p class="ptck_Table_Cell_Key_Column">
+$PROMPT_USER_CHOSEN_OPTION$
+</p>
+</td>
+    <td><a name="wp1056571"> </a><p class="ptca_Table_Cell_Body">
+This variable is set to the return value as set by the end-user&#39;s choice in the Show Message Console Dialog box action. If the end-user chooses Option 1, this variable will be set to 1.
+</p>
+</td>
+    <td><a name="wp1056573"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056575"> </a><p class="ptck_Table_Cell_Key_Column">
+$prop.[JAVA PROPERTY]$
+</p>
+</td>
+    <td><a name="wp1056577"> </a><p class="ptca_Table_Cell_Body">
+Access any Java property through InstallAnywhere Variables. An example is $prop.os.name$ which will return the value of the os.name property.
+</p>
+</td>
+    <td><a name="wp1056579"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056581"> </a><p class="ptck_Table_Cell_Key_Column">
+$REGISTER_UNINSTALLER_WINDOWS$
+</p>
+</td>
+    <td><a name="wp1056583"> </a><p class="ptca_Table_Cell_Body">
+This variable tells the uninstaller if it should register itself with Windows Add/Remove Programs.
+</p>
+</td>
+    <td><a name="wp1056585"> </a><p class="ptca_Table_Cell_Body">
+Set this variable to `false&#39; to not have the uninstaller register.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056587"> </a><p class="ptck_Table_Cell_Key_Column">
+$REQUIRED_DISK_SPACE_<br />BYTES$
+</p>
+</td>
+    <td><a name="wp1056589"> </a><p class="ptca_Table_Cell_Body">
+The disk space required by the installer, as a string representing the required bytes, as determined by the Check Disk Space action. The variable gains its value immediately before the installation of any files or folder listed in the Install task.
+</p>
+</td>
+    <td><a name="wp1056591"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056593"> </a><p class="ptck_Table_Cell_Key_Column">
+$RESTART_NEEDED$
+</p>
+</td>
+    <td><a name="wp1056595"> </a><p class="ptca_Table_Cell_Body">
+Tells the installer or uninstaller if the system needs to restart to complete the installation.
+</p>
+</td>
+    <td><a name="wp1056597"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056599"> </a><p class="ptck_Table_Cell_Key_Column">
+$SHORTCUT_NAME$
+</p>
+</td>
+    <td><a name="wp1056601"> </a><p class="ptca_Table_Cell_Body">
+This variable resolves to &quot;Shortcut&quot; on Win32 systems, &quot;Alias&quot; on Mac OS X and Classic systems, and &quot;Link&quot; on all other systems.
+</p>
+</td>
+    <td><a name="wp1056603"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1056605"> </a><p class="ptck_Table_Cell_Key_Column">
+$UNINSTALL_STATUS$
+</p>
+</td>
+    <td><a name="wp1056607"> </a><p class="ptca_Table_Cell_Body">
+The same as $INSTALL_STATUS$, but for the uninstaller.
+</p>
+</td>
+    <td><a name="wp1056609"> </a><p class="ptca_Table_Cell_Body">
+This variable is read-only.
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

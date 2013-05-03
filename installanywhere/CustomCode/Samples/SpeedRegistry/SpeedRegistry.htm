@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Custom Code</title>
+</head>
+<body bgcolor="white" lang="EN-US" link="blue" vlink="blue" style="">
+<p><span style="font-family: Arial;">This code is provided as is, without waranty of any kind. It is provided for use as sample code for our developers</span></p>
+
+<hr size="2" width="100%" align="center">
+<h3><span style="font-family: Arial;">Custom Code Action: SpeedRegistry</span></h3>
+<p><b>Classname:</b>  com.zerog.ia.customcode.win32.registry.SpeedRegistry</p>
+<p><b>Description:</b>This class will add values to the registry.  It reads values from a text file located in the resource file.<o:p></o:p></span></p>
+<p><b>Input InstallAnywhere Variables:</b></p>
+<p>"CC_DEBUG": if this IA Variable is
+set, the action will produce additional debugging information to
+standard out (optional).</p>
+<p><b><span style="font-family: Arial;">General Instructions:</span></b></p>
+<p><span style="font-family: Arial;">This help file explains how to set up
+and take advantage of the <span class="SpellE">SpeedRegistry</span> custom code action.<o:p></o:p></span></p>
+<p><span style="font-family: Arial;">To effectively use this action,
+add an "Execute Custom Code" action to the Install Task in the Advanced Designer. </span><span style="font-family: Helvetica;"><span style="">&nbsp;&nbsp;</span>Adding this action to the Install Task will ensure that the uninstall method is called.<span style="">&nbsp;
+</span></span><span style="font-family: Arial;"><o:p></o:p></span></p>
+<p><span style="font-family: Arial;">Once you have added this action to your project, select the JAR or ZIP file that contains the desired action.  To select the JAR or ZIP file, click the "Choose JAR or ZIP..." button, and select the customcode.jar file in the "Choose Code Archive" dialog that appears.<br>
+<br>
+Next, specify the fully qualified main class in the "Class:" text
+field.<span style="">&nbsp; </span>In this case, you would enter "com.zerog.ia.customcode.win32.registry.SpeedRegistry" (no quotes).<br>
+<span style="">&nbsp;</span><br>
+Win32 registry entries will be made by the <span class="SpellE">SpeedRegistry</span>
+custom code. The registry entries are read from a plain text file
+called "registry.txt" located in the "resource" directory of the "registry" directory of the JAR or ZIP file. <span style="">&nbsp;</span>For
+details on this file and how to create or modify entries included in this file, see the included example file in the "resource" directory of the "registry" directory of the JAR or ZIP file. <br>
+</body>
+</html>

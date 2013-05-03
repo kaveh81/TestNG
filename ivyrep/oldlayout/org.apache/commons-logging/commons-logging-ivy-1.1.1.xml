@@ -1,0 +1,14 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="commons-logging" revision="1.1.1" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="commons-logging" type="jar"/>
+    <artifact name="commons-logging" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="commons-logging" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>

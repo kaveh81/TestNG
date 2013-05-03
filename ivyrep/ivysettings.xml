@@ -1,0 +1,32 @@
+<ivysettings>
+	<settings defaultResolver="chained"/>
+	<resolvers> 
+		<chain name="chained" returnFirst="true">
+			<filesystem name="local" changingPattern=".*99.*">
+				<artifact pattern="${ivy.localrepository.dir}/[organization]/[module]/[artifact]-[revision].[ext]"/>
+				<ivy pattern="${ivy.localrepository.dir}/[organization]/[module]/[module]-ivy-[revision].xml" />
+			</filesystem>
+			<url name="mir3-builds">
+				<ivy pattern="${mir3RepositoryBase}/ivyrep/[organization]/[module]/[module]-ivy-[revision].xml" />
+				<artifact pattern="${mir3RepositoryBase}/ivyrep/[organization]/[module]/[artifact]-[revision].[ext]" />
+			</url>
+			<url name="acadia-builds">
+				<ivy pattern="${mir3RepositoryBase}/ivyrep/[organization]/acadia/[module]-ivy-[revision].xml" />
+				<artifact pattern="${mir3RepositoryBase}/ivyrep/[organization]/acadia/[artifact]-[revision].[ext]" />
+			</url>
+			<filesystem name="third-party">
+				<artifact pattern="${ivy.settings.dir}/third-party/[organization]/[module]/[revision]/[artifact].[ext]" />
+				<ivy pattern="${ivy.settings.dir}/third-party/[organization]/[module]/[revision]/ivy-[module].xml" />
+			</filesystem>
+			<filesystem name="third-party-oldlayout">
+				<artifact pattern="${ivy.settings.dir}/oldlayout/[organization]/[module]/[artifact]-[revision].[ext]" />
+				<ivy pattern="${ivy.settings.dir}/oldlayout/[organization]/[module]/[module]-ivy-[revision].xml" />
+			</filesystem>
+			<filesystem name="from-spring-ebr">
+				<artifact pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/[artifact].[ext]" />
+				<ivy pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/ivy-[module].xml" />
+			</filesystem>
+		</chain>
+	</resolvers>
+	<caches defaultCacheDir="${ivy.defaultCacheDir}"/>
+</ivysettings>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+	<info organisation="org.apache" module="httpclient" revision="4.2.2" status="release"/>
+
+	<configurations>
+		<conf name="compile" visibility="public" description="Compile dependencies"/>
+		<conf name="optional" visibility="public" extends="compile" description="Optional dependencies"/>
+		<conf name="provided" visibility="public" description="Provided dependencies"/>
+		<conf name="runtime" visibility="public" extends="compile" description="Runtime dependencies"/>
+	</configurations>
+
+	<publications>
+		<artifact name="httpclient" ext="jar"/>
+		<artifact name="httpmime" ext="jar"/>
+		<artifact name="httpclient-source" type="src" ext="jar"/>
+		<artifact name="httpmime-source" type="src" ext="jar"/>
+		<artifact name="license" type="license" ext="txt"/>
+	</publications>
+
+	<dependencies>
+		<dependency org="org.apache" name="httpcore" rev="4.2.3" conf="compile->compile; runtime->runtime"/>
+		<dependency org="org.apache" name="commons-codec" rev="1.6" conf="compile->compile; runtime->runtime"/>
+	</dependencies>
+
+</ivy-module>

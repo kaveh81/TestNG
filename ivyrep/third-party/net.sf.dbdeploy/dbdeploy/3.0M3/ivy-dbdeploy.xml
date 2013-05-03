@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+	<info organisation="net.sf.dbdeploy" module="dbdeploy" revision="3.0M3" status="release">
+                <license name="LGPL" url="http://www.gnu.org/licenses/lgpl.html"/>
+        </info>
+	<configurations>
+		<conf name="runtime"/>
+	</configurations>
+
+	<publications>
+		<artifact name="dbdeploy" ext="jar"/>
+		<artifact name="dbdeploy-source" ext="jar" type="src"/>
+		<artifact name="license" type="license" ext="txt"/>
+	</publications>
+</ivy-module>

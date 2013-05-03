@@ -1,0 +1,729 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:26:00" />
+    <title>ANT Build Integration</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1054497"> </a><h1 class="pHeading1">
+ANT Build Integration
+</h1>
+<a name="wp1057982"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1054498"> </a><p class="pa_Body">
+ANT is a powerful, Java based build tool developed by the Apache Foundation&#39;s Jakarta Project. It can be used to control complex build tasks in Java and other development environments. ANT manages specific actions though &quot;tasks&quot; which can either be part of the core ANT distribution or available as extensions.
+</p>
+<a name="wp1054499"> </a><p class="pa_Body">
+InstallAnywhere comes with an ANT task to build installers from ANT. The InstallAnywhere ANT task is located in your InstallAnywhere application folder, inside &quot;resource&quot; and then inside &quot;/build&quot;.. Add &quot;iaant.jar&quot; to your classpath when executing ANT to get access to the InstallAnywhere ANT task.
+</p>
+<a name="wp1054500"> </a><p class="pa_Body">
+ANT uses an XML file to specify the order of tasks for your build process. More information on ANT can be found on the Apache Foundation&#39;s Jakarta Project Web site.
+</p>
+<a name="wp1054501"> </a><h2 class="pHeading2">
+Task Name and Class
+</h2>
+<a name="wp1054502"> </a><p class="pa_Body">
+The InstallAnywhere ANT task is specified as follows:
+</p>
+<a name="wp1054503"> </a><p class="pa_Body">
+&lt;taskdef name=&quot;buildinstaller&quot; classname=&quot;com.zerog.ia.integration.ant.InstallAnywhereAntTask&quot;/&gt;
+</p>
+<a name="wp1054504"> </a><p class="pa_Body">
+This task can be found inside the iaant.jar file, in your InstallAnywhere application folder, inside &quot;resource&quot; and then inside &quot;build&quot;.
+</p>
+<a name="wp1054505"> </a><h2 class="pHeading2">
+Parameters
+</h2>
+<a name="wp1054506"> </a><p class="pa_Body">
+After defining the task, specify any parameter necessary for the build settings:
+</p>
+<a name="wp1054507"> </a><p class="pco_Code">
+&lt;buildinstaller
+
+</p>
+<a name="wp1054508"> </a><p class="pco_Code">
+IAlocation=&quot;C:\Program Files\InstallAnywhere 6 Enterprise&quot;
+
+</p>
+<a name="wp1054509"> </a><p class="pco_Code">
+IAProjectFile=&quot;C:\Projects\myproject.iap_xml&quot;
+
+</p>
+<a name="wp1054510"> </a><p class="pco_Code">
+additionalparameter=value
+
+</p>
+<a name="wp1054511"> </a><p class="pco_Code">
+/&gt;
+
+</p>
+<a name="wp1054512"> </a><p class="pa_Body">
+Replace the IAlocation with the absolute path to your own InstallAnywhere application folder. If InstallAnywhere cannot be found, ANT will search for it in one of the default locations or look in the registry to find where InstallAnywhere was installed to.
+</p>
+<a name="wp1054513"> </a><p class="pa_Body">
+Specify the path and file name of the project to build in the IAProjectFile parameter.
+</p>
+<a name="wp1054514"> </a><p class="pa_Body">
+All other properties are optional. The parameters closely match the properties found in the Build Properties File described above. The following table shows the available parameters.</p>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1054517table1054515">
+  <caption><a name="wp1054517"> </a><p class="ptt_Table_Title">
+Build Parameters&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1055845"> </a><p class="ptch_Table_Cell_Heading">
+Attribute
+</p>
+</th>
+    <th><a name="wp1055847"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+    <th><a name="wp1055849"> </a><p class="ptch_Table_Cell_Heading">
+Required
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1054529"> </a><p class="ptck_Table_Cell_Key_Column">
+IAProjectFile
+</p>
+</td>
+    <td><a name="wp1054531"> </a><p class="ptca_Table_Cell_Body">
+The location of the InstallAnywhere project that you want to build.
+</p>
+</td>
+    <td><a name="wp1054533"> </a><p class="ptca_Table_Cell_Body">
+Yes
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054535"> </a><p class="ptck_Table_Cell_Key_Column">
+IALocation
+</p>
+</td>
+    <td><a name="wp1054537"> </a><p class="ptca_Table_Cell_Body">
+The location where InstallAnywhere is installed.
+</p>
+</td>
+    <td><a name="wp1054539"> </a><p class="ptca_Table_Cell_Body">
+No*
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054541"> </a><p class="ptck_Table_Cell_Key_Column">
+propertiesfile
+</p>
+</td>
+    <td><a name="wp1054543"> </a><p class="ptca_Table_Cell_Body">
+The location of a build.properties you can use (if used, all other attributes are ignored).
+</p>
+</td>
+    <td><a name="wp1054545"> </a><p class="ptca_Table_Cell_Body">
+No
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054547"> </a><p class="ptck_Table_Cell_Key_Column">
+failonerror
+</p>
+</td>
+    <td><a name="wp1054549"> </a><p class="ptca_Table_Cell_Body">
+Stop the build process if the command exits with a return code other than 0. Defaults to false
+</p>
+</td>
+    <td><a name="wp1054551"> </a><p class="ptca_Table_Cell_Body">
+No
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="pa_Body">
+
+</p>
+<a name="wp1055862"> </a><p class="pa_Body">
+If IALocation is not specified, the task will search for a copy of InstallAnywhere to run against. If InstallAnywhere is not installed in one of the default locations, then the task will check the InstallAnywhere product registry for a valid location.
+</p>
+<a name="wp1054560"> </a><p class="pa_Body">
+Remember, to use the InstallAnywhere ANT Task to work, you will need to add iaant.jar to $ANT_HOME/lib/ext.
+</p>
+<a name="wp1054561"> </a><h2 class="pHeading2">
+<b class="cBold">Platform target parameters</b></h2>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1055966table1054562">
+  <caption><a name="wp1055966"> </a><p class="ptt_Table_Title">
+Platform Target Parameters&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1055986"> </a><p class="ptch_Table_Cell_Heading">
+Parameter
+</p>
+</th>
+    <th><a name="wp1055988"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1055970"> </a><p class="ptck_Table_Cell_Key_Column">
+IAProjectFile
+</p>
+</td>
+    <td><a name="wp1055972"> </a><p class="ptca_Table_Cell_Body">
+The location of the InstallAnywhere project that you want to build
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055974"> </a><p class="ptck_Table_Cell_Key_Column">
+IALocation
+</p>
+</td>
+    <td><a name="wp1055976"> </a><p class="ptca_Table_Cell_Body">
+The location where InstallAnywhere is installed to on the target system
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055978"> </a><p class="ptck_Table_Cell_Key_Column">
+Failonerror
+</p>
+</td>
+    <td><a name="wp1055980"> </a><p class="ptca_Table_Cell_Body">
+Stop the build process if the command exits with a returncode other than 0. (Defaults to false)
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1055982"> </a><p class="ptck_Table_Cell_Key_Column">
+Propertiesfile
+</p>
+</td>
+    <td><a name="wp1055984"> </a><p class="ptca_Table_Cell_Body">
+The location of a build.properties you can use (if used, all other attributes are ignored
+</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="pHeading2">
+
+</h2>
+<a name="wp1054584"> </a><h2 class="pHeading2">
+<b class="cBold">Platform Options</b></h2>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1054587table1054585">
+  <caption><a name="wp1054587"> </a><p class="ptt_Table_Title">
+Platform Options&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1055993"> </a><p class="ptch_Table_Cell_Heading">
+Parameter
+</p>
+</th>
+    <th><a name="wp1055995"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1054591"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildLinuxWithVM
+</p>
+</td>
+    <td><a name="wp1054593"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054595"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildLinuxWithoutVM
+</p>
+</td>
+    <td><a name="wp1054597"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054599"> </a><p class="ptck_Table_Cell_Key_Column">
+LinuxVMPackLocation
+</p>
+</td>
+    <td><a name="wp1054601"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054603"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildHPUXWithVM
+</p>
+</td>
+    <td><a name="wp1054605"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054607"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildHPUXWithoutVM
+</p>
+</td>
+    <td><a name="wp1054609"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054611"> </a><p class="ptck_Table_Cell_Key_Column">
+HPUXVMPackLocation
+</p>
+</td>
+    <td><a name="wp1054613"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054615"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildAIXWithVM
+</p>
+</td>
+    <td><a name="wp1054617"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054619"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildAIXWithoutVM
+</p>
+</td>
+    <td><a name="wp1054621"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054623"> </a><p class="ptck_Table_Cell_Key_Column">
+AIXVMPackLocation
+</p>
+</td>
+    <td><a name="wp1054625"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054627"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildSolarisWithVM
+</p>
+</td>
+    <td><a name="wp1054629"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054631"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildSolarisWithoutVM
+</p>
+</td>
+    <td><a name="wp1054633"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054635"> </a><p class="ptck_Table_Cell_Key_Column">
+SolarisVMPackLocation
+</p>
+</td>
+    <td><a name="wp1054637"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054639"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildNamedUNIXWithVM
+</p>
+</td>
+    <td><a name="wp1054641"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054643"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildNamedUNIXWithoutVM
+</p>
+</td>
+    <td><a name="wp1054645"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054647"> </a><p class="ptck_Table_Cell_Key_Column">
+NamedUNIXVMPackLocation
+</p>
+</td>
+    <td><a name="wp1054649"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054651"> </a><p class="ptck_Table_Cell_Key_Column">
+NamedUNIXTitle
+</p>
+</td>
+    <td><a name="wp1054653"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054655"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildWindowsWithVM
+</p>
+</td>
+    <td><a name="wp1054657"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054659"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildWindowsWithoutVM
+</p>
+</td>
+    <td><a name="wp1054661"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054663"> </a><p class="ptck_Table_Cell_Key_Column">
+WindowsVMPackLocation
+</p>
+</td>
+    <td><a name="wp1054665"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054667"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildMacOSX
+</p>
+</td>
+    <td><a name="wp1054669"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054671"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildPureJava
+</p>
+</td>
+    <td><a name="wp1054673"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="pHeading2">
+
+</h2>
+<a name="wp1055905"> </a><h2 class="pHeading2">
+<b class="cBold">Build Options</b></h2>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1054678table1054676">
+  <caption><a name="wp1054678"> </a><p class="ptt_Table_Title">
+Build Options&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1056000"> </a><p class="ptch_Table_Cell_Heading">
+Parameter
+</p>
+</th>
+    <th><a name="wp1056002"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1054682"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildCDROMInstaller
+</p>
+</td>
+    <td><a name="wp1054684"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054686"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildWebInstaller
+</p>
+</td>
+    <td><a name="wp1054688"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054690"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildMergeModule
+</p>
+</td>
+    <td><a name="wp1054692"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054694"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildReadOnlyMergeModule
+</p>
+</td>
+    <td><a name="wp1054696"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054698"> </a><p class="ptck_Table_Cell_Key_Column">
+BuildOutputLocation
+</p>
+</td>
+    <td><a name="wp1054700"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054702"> </a><p class="ptck_Table_Cell_Key_Column">
+OptimizeCDROMInstaller
+</p>
+</td>
+    <td><a name="wp1054704"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054706"> </a><p class="ptck_Table_Cell_Key_Column">
+OptimizeWebInstaller
+</p>
+</td>
+    <td><a name="wp1054708"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054710"> </a><p class="ptck_Table_Cell_Key_Column">
+OptimizeMergeModule
+</p>
+</td>
+    <td><a name="wp1054712"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054714"> </a><p class="ptck_Table_Cell_Key_Column">
+AutoPopulateLabels
+</p>
+</td>
+    <td><a name="wp1054716"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054718"> </a><p class="ptck_Table_Cell_Key_Column">
+AutoCleanComponents
+</p>
+</td>
+    <td><a name="wp1054720"> </a><p class="ptca_Table_Cell_Body">
+true/false
+</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="pHeading2">
+
+</h2>
+<a name="wp1054722"> </a><h2 class="pHeading2">
+<b class="cBold">Installer Options</b></h2>
+<div align="left">
+<table class="propertytable" border="0pt" bordercolor="#0F3063" id="wp1054725table1054723">
+  <caption><a name="wp1054725"> </a><p class="ptt_Table_Title">
+Installer Options&#160;
+</p>
+</caption>
+  <tr bgcolor="#E0E0E0" align="center">    <th><a name="wp1056010"> </a><p class="ptch_Table_Cell_Heading">
+Parameter
+</p>
+</th>
+    <th><a name="wp1056012"> </a><p class="ptch_Table_Cell_Heading">
+Description
+</p>
+</th>
+</tr>
+  <tr align="left">    <td><a name="wp1054729"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallerStdErrRedirect
+</p>
+</td>
+    <td><a name="wp1054731"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054733"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallerStdoutRedirect
+</p>
+</td>
+    <td><a name="wp1054735"> </a><p class="ptca_Table_Cell_Body">
+Path
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054737"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallerValidVMList
+</p>
+</td>
+    <td><a name="wp1054739"> </a><p class="ptca_Table_Cell_Body">
+String
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054741"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallerInitialHeapSize
+</p>
+</td>
+    <td><a name="wp1054743"> </a><p class="ptca_Table_Cell_Body">
+Int
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054745"> </a><p class="ptck_Table_Cell_Key_Column">
+InstallerMaxHeapSize
+</p>
+</td>
+    <td><a name="wp1054747"> </a><p class="ptca_Table_Cell_Body">
+Int
+</p>
+</td>
+</tr>
+  <tr align="left">    <td><a name="wp1054749"> </a><p class="ptck_Table_Cell_Key_Column">
+UNIXDefaultUI
+</p>
+</td>
+    <td><a name="wp1054751"> </a><p class="ptca_Table_Cell_Body">
+silent/console/gui
+</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="pHeading2">
+
+</h2>
+<a name="wp1054753"> </a><h2 class="pHeading2">
+Example
+</h2>
+<a name="wp1054754"> </a><p class="pco_Code">
+&lt;taskdef name=&quot;buildinstaller&quot; 
+classname=&quot;com.zerog.ia.integration.ant.InstallAnywhereAntTask&quot;/&gt; <br />
+&lt;buildinstaller
+
+</p>
+<a name="wp1054755"> </a><p class="pco_Code">
+IAlocation=&quot;C:\Program Files\InstallAnywhere 6 Enterprise&quot;
+
+</p>
+<a name="wp1054756"> </a><p class="pco_Code">
+IAProjectFile=&quot;C:\Projects\myproject.iap_xml&quot;
+
+</p>
+<a name="wp1054757"> </a><p class="pco_Code">
+BuildLinuxWithVM=&quot;true&quot; <br />
+BuildMacOSX=&quot;true&quot; <br />
+BuildWebInstallers=&quot;true&quot;<br />
+OptimizeWebInstallers=&quot;true&quot;<br />
+InstallerStdErrRedirect=&quot;C:\console.txt&quot;<br />
+/&gt;
+
+</p>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

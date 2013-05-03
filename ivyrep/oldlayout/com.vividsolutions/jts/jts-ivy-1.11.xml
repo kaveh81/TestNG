@@ -1,0 +1,13 @@
+<ivy-module version="2.0">
+  <info organisation="com.vividsolutions" module="jts" revision="1.11" status="release">
+    <license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.txt"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="jts" type="jar"/>
+    <artifact name="jts" type="distribution" ext="zip" conf="distribution"/>
+  </publications>
+</ivy-module>

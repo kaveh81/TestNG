@@ -1,0 +1,2 @@
+jsp-2.1 is taken from Glassfish 2.1 and is released under the CDDL license.
+core-3.1.1 is from the Eclipse JDT project and is released under the Eclipse license.

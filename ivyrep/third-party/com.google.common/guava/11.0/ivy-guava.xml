@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+  <info organisation="com.google.common" module="guava" revision="11.0" status="release"/>
+
+  <configurations>
+    <conf name="compile" visibility="public" description="Compile dependencies"/>
+    <conf name="optional" visibility="public" extends="compile" description="Optional dependencies"/>
+    <conf name="provided" visibility="public" description="Provided dependencies"/>
+    <conf name="runtime" visibility="public" extends="compile" description="Runtime dependencies"/>
+  </configurations>
+
+  <publications>
+    <artifact name="guava" ext="jar"/>
+    <artifact name="guava-source" type="src" ext="jar"/>
+  </publications>
+
+</ivy-module>

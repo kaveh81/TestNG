@@ -1,0 +1,38 @@
+<oneStepNotification xmlns="http://www.mir3.com/ws">
+  <apiVersion>2.12</apiVersion>
+  <authorization>
+    <username>systest</username>
+    <password>%systest%</password>
+  </authorization>
+  <notificationDetail>
+    <contactCycleDelay>120</contactCycleDelay>
+    <contactAttemptCycles>1</contactAttemptCycles>
+    <textDeviceDelay>120</textDeviceDelay>
+    <title>Sample Onestep</title>
+    <verbiage>
+      <text locale="en_US">This is a test of the new oneStep notification feature</text>
+    </verbiage>
+    <broadcastInfo>
+      <broadcastDuration>600</broadcastDuration>
+      <recipients>
+        <dynamicRecipient>
+          <firstName>Dude</firstName>
+          <lastName>Number 1</lastName>
+          <devices>
+            <device>
+              <deviceType>Work Phone</deviceType>
+              <address>858-724-1244</address>
+            </device>
+          </devices>
+        </dynamicRecipient>
+      </recipients>
+    </broadcastInfo>
+    <validateRecipient>false</validateRecipient>
+    <stopIfPartialHuman>false</stopIfPartialHuman>
+    <responseOptions>
+      <responseOption>
+        <verbiage><text locale="en_US">I have received the notification</text></verbiage>
+      </responseOption>
+    </responseOptions>
+  </notificationDetail>
+</oneStepNotification>

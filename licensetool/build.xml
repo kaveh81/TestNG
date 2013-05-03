@@ -1,0 +1,37 @@
+<project name="LicenseTool" default="dist" basedir=".">
+	<property name="build.dir" value="build" />
+	<property name="dist.jar" value="license-tool.jar" />
+
+	<path id="compile-classpath">
+		<fileset dir="lib">
+			<include name="**/*.jar"/>
+		</fileset>
+	</path>
+
+	<target name="clean">
+		<delete dir="${build.dir}"/>
+		<delete file="${dist.jar}"/>
+	</target>
+	
+	<target name="compile">
+		<mkdir dir="${build.dir}"/>
+		<javac srcdir="src"
+			destdir="${build.dir}"
+			classpathref="compile-classpath"
+			debug="on"
+			optimize="off"
+			deprecation="off">
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile">
+		<unjar dest="${build.dir}">
+			<fileset dir="lib"/>
+		</unjar>
+		<jar jarfile="${dist.jar}" 
+			basedir="${build.dir}"
+			manifest="MANIFEST.MF"/>
+	</target>
+
+	<target name="dist" depends="clean,jar"/>
+</project>

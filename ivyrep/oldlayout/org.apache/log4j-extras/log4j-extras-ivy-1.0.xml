@@ -1,0 +1,17 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="log4j-extras" revision="1.0" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="log4j-extras" type="jar"/>
+    <artifact name="log4j-extras" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.apache" name="log4j" rev="1.2+" conf="default->default;distribution->distribution"/>
+  </dependencies>
+
+</ivy-module>

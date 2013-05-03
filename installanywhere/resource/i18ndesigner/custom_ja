@@ -1,0 +1,2807 @@
+﻿#Area
+# Customizer
+# -----------------
+# These strings show up in several locations in the designer and are therefore not associated with
+# a specific class or program feature.
+Designer.Twin32.include64Bit=64 ビット システムでの Windows のサポートを含める
+Designer.Twin32.includeWin98=Windows ME/98 のサポートを含める
+Designer.DialogAboutIA.chooseInHelp=([ヘルプ] メニューで [登録] を選択)
+Designer.DialogAboutIA.clickToLicense=(ライセンスを取得するには "#registerStr#" をクリック)
+Designer.AddFileDialog.cancelToolTip=[ファイルを追加] ダイアログをキャンセル
+Designer.DialogChooseInputLanguage.solveLocaleConflict=ロケールの競合を解決
+Designer.DialogChooseInputLanguage.title=ロケールの競合
+Designer.DialogChooseInputLanguage.message=デフォルトのロケールは、アドバンスト デザイナで行われたすべての変更が記述されるロケールです。読み込むプロジェクトのデフォルトのロケールは、#PROJECTLANG#です。デザイナは、#DESIGNERLANG#に設定されています。オプション:
+Designer.DialogChooseInputLanguage.useDesigner=デフォルトのロケールを#DESIGNERLANG#に変更して、カスタマイズされている既存のテキストをすべて#DESIGNERLANG#ロケールで記述する
+Designer.DialogChooseInputLanguage.useDesigner2=代わりにロケール
+Designer.DialogChooseInputLanguage.useProject=デザイナを#DESIGNERLANG#で使用するが、デフォルトのロケールを#PROJECTLANG#のままにしておく
+Designer.DefaultTemplate.description=InstallAnywhere のデフォルト テンプレート
+Designer.Customizer.update=アップデート
+Designer.Customizer.stop=停止
+Designer.Customizer.loadingTemplate=テンプレートを読み込み中
+Designer.Customizer.pleaseWaitLoadingTemplate=テンプレートを読み込んでいます。お待ちください。
+Designer.customizer.noFiles=ファイルがありません
+Designer.customizer.noJumpLabels=ジャンプ ラベルがありません
+Designer.Customizer.add=追加
+Designer.Customizer.addJarOrZip=jar または zip を追加...
+Designer.Customizer.additionalText=追加テキスト:
+Designer.Customizer.all=すべて
+Designer.Customizer.append=追加
+Designer.Customizer.archivePath=アーカイブのパス:
+Designer.Customizer.arguments=引数:
+Designer.Customizer.buttonImage=ボタン イメージ:
+Designer.Customizer.cancel=キャンセル
+Designer.Customizer.cancelToolTip=キャンセル
+Designer.Customizer.cantAddDuplicateEntry=ラベルが重複したエントリは追加できません
+Designer.Customizer.cantAddEntryWithBlankLabel=ラベルが空白のエントリは追加できません
+Designer.Customizer.change=変更...
+Designer.Customizer.choose=選択...
+Designer.Customizer.chooseAFile=ファイルを選択
+Designer.Customizer.chooseCodeArchive=コード アーカイブを選択
+Designer.Customizer.chooseFile=ファイルを選択...
+Designer.Customizer.chooseFile=ファイルを選択...
+Designer.Customizer.chooseFolder=フォルダを選択...
+Designer.Customizer.chooseImage=イメージを選択...
+Designer.Customizer.chooseTarget=ターゲットを選択...
+Designer.Customizer.class=クラス:
+Designer.Customizer.clear=クリア
+Designer.Customizer.close=閉じる
+Designer.Customizer.configure=構成...
+Designer.Customizer.createBackup=バックアップを作成
+Designer.Customizer.day=日
+Designer.Customizer.default=デフォルト
+Designer.Customizer.defaultFile=デフォルトのファイル:
+Designer.Customizer.defaultFolder=デフォルトのフォルダ:
+Designer.Customizer.defaultInstallFolder=デフォルトのインストール フォルダ
+Designer.Customizer.defaultPermissions=デフォルトのアクセス許可
+Designer.Customizer.defaultValues=デフォルト値
+Designer.Customizer.defaults=デフォルト
+Designer.Customizer.delete=削除
+Designer.Customizer.description=説明:
+Designer.Customizer.deselectAll=すべて選択解除
+Designer.Customizer.deselectAll=すべて選択解除
+Designer.Customizer.destination=目的の場所:
+Designer.Customizer.doNotUninstall=アンインストールしない
+Designer.Customizer.doNotUninstall=アンインストールしない
+Designer.Customizer.dosWin=DOS/Windows
+Designer.Customizer.execute=実行
+Designer.Customizer.existing=既存
+Designer.Customizer.existingArchive=既存のアーカイブ:
+Designer.Customizer.existingFile=既存のファイル:
+Designer.Customizer.existingFile=既存のファイル:
+Designer.Customizer.existingFolder=既存のフォルダ:
+Designer.Customizer.file=ファイル
+Designer.Customizer.folder=フォルダ
+Designer.Customizer.folder=フォルダ
+Designer.Customizer.group=グループ:
+Designer.Customizer.horizontal=横
+Designer.Customizer.hours=時間
+Designer.Customizer.html=HTML
+Designer.Customizer.iaAdvancedDesigner=InstallAnywhere アドバンスト デザイナ
+Designer.Customizer.iaDesigner=InstallAnywhere デザイナ
+Designer.Customizer.iaDesigner=InstallAnywhere デザイナ
+Designer.Customizer.ifenduserhasfile=ファイルがすでにエンド ユーザーのシステムに存在する場合
+Designer.Customizer.inClasspath=クラスパス
+Designer.Customizer.inputMethod=入力方法:
+Designer.Customizer.installAnywhere=InstallAnywhere
+Designer.Customizer.installOnlyIf=次の条件を満たした場合にのみ実行:
+Designer.Customizer.installation=インストール
+Designer.Customizer.installed=インストール済み
+Designer.Customizer.installedArchive=インストールされたアーカイブ:
+Designer.Customizer.installedFile=インストールされたファイル:
+Designer.Customizer.installedFile=インストールされたファイル:
+Designer.Customizer.installedFolder=インストールされたフォルダ:
+Designer.Customizer.instructions=操作手順:
+Designer.Customizer.labels=ラベル:
+Designer.Customizer.macOS=Mac OS
+Designer.Customizer.macOSX=Mac OS X
+Designer.Customizer.mainClass=メイン クラス:
+Designer.Customizer.minutes=分
+Designer.Customizer.modify=変更
+Designer.Customizer.month=月
+Designer.Customizer.name=名前:
+Designer.Customizer.newFile=新しいファイル:
+Designer.Customizer.noDependancySpecified=<依存関係が指定されていません>
+Designer.Customizer.noDestinationFileSpecified=<目的のファイルが指定されていません>
+Designer.Customizer.noFileSelected=<ファイルが選択されていません>
+Designer.Customizer.noMessageTextSpecified=<メッセージ テキストが指定されていません>
+Designer.Customizer.noOperandSpecified=<オペランドが指定されていません>
+Designer.Customizer.noPathSelected=<パスが選択されていません>
+Designer.Customizer.noPathSpecified=<パスが指定されていません>
+Designer.Customizer.noTargetFileSpecified=<ターゲット ファイルが指定されていません>
+Designer.Customizer.noTargetFolderSpecified=<ターゲット フォルダが指定されていません>
+Designer.Customizer.noTargetSpecified=<ターゲットが指定されていません>
+Designer.Customizer.none=なし
+Designer.Customizer.noteOperandMayBeVariable=注意:オペランドは、変数 (例、$MY_VARIABLE$) の場合とリテラル (例、someValue) の場合があります。
+Designer.Customizer.ok=OK
+Designer.Customizer.options=オプション:
+Designer.Customizer.original=オリジナル:
+Designer.Customizer.other=その他:
+Designer.Customizer.overrideUNIXPerms=次のデフォルトの UNIX / Mac OS X アクセス許可を無視する:
+Designer.Customizer.owner=所有者:
+Designer.Customizer.parentFolder=親フォルダ:
+Designer.Customizer.parentPath=親パス:
+Designer.Customizer.path=パス:
+Designer.Customizer.plainText=テキスト
+Designer.Customizer.platforms=プラットフォーム
+Designer.Customizer.pleaseWait=お待ちください...
+Designer.Customizer.prepend=前に追加
+Designer.Customizer.preview=プレビュー...
+Designer.Customizer.prompt=プロンプト:
+Designer.Customizer.properties=プロパティ
+Designer.Customizer.quit=終了
+
+Designer.Customizer.recursivelyUninstall=再帰的アンインストール
+Designer.Customizer.read=読み取り
+Designer.Customizer.remove=削除
+Designer.Customizer.remove=削除
+Designer.Customizer.renameTo=変更後の名前:
+Designer.Customizer.replace=置換
+Designer.Customizer.result=結果:
+Designer.Customizer.results=結果
+Designer.Customizer.rule=規則
+Designer.Customizer.rules=規則
+Designer.Customizer.sameAsTarget=ターゲットと同じ
+Designer.Customizer.script=スクリプト:
+Designer.Customizer.seconds=秒
+Designer.Customizer.selectAll=すべて選択
+Designer.Customizer.selectAll=すべて選択
+Designer.Customizer.selected=選択
+Designer.Customizer.selectedFile=選択されたファイル:
+Designer.Customizer.selectedFolder=選択されたフォルダ:
+Designer.Customizer.shortName=短い名前:
+Designer.Customizer.source=ソース:
+Designer.Customizer.target=ターゲット:
+Designer.Customizer.title=タイトル:
+Designer.Customizer.type=タイプ:
+Designer.Customizer.unableToOpenJavaDocsSt=システムのデフォルト ブラウザを使って javadocs を開くことができませんでした。このマニュアルを表示するには、任意の Web ブラウザで <#URL#> にアクセスし、そこにあるドキュメントを開いてください。
+Designer.Customizer.unableToOpenWebpageSt=システムのデフォルト ブラウザを使ってインストーラの Web ページを開くことができませんでした。この Web ページを表示するには、任意の Web ブラウザで <#URL#> にアクセスし、そこにあるドキュメントを開いてください。
+Designer.Customizer.uninstallation=アンインストール
+Designer.Customizer.unix=UNIX
+Designer.Customizer.url=URL
+Designer.Customizer.userPlatform=ユーザーのプラットフォーム
+Designer.Customizer.vertical=縦
+Designer.Customizer.warning=警告
+Designer.Customizer.winOnly=Windows のみ:
+Designer.Customizer.windows=Windows
+Designer.Customizer.write=書き込み
+Designer.Customizer.year=年
+Designer.Customizer.yes=はい
+Designer.Customizer.no=いいえ
+Designer.Customizer.EnablePermissions=UNIX ファイルのアクセス許可設定を有効にする
+Designer.Customizer.EnablePermissions.Warning=この機能を無効にすると、すべてのファイルおよびフォルダがシステムのデフォルト アクセス許可を使って作成されるようになります。この機能は有効にしておくことをお勧めします。
+Designer.Designer.continue=続行
+
+Designer.Wizard.WTryInstaller.installerNotBuiltForThisPlatform=このプラットフォーム用のインストーラはビルドされませんでした。
+
+Designer.Action.AInstallConsoleAction.errorOpeningJavadocs=InstallAnywhere Javadocs を開くときにエラー発生
+
+Designer.Action.CreateShortcut.visualNameMacOSX=エイリアス、リンク、ショートカットを作成
+
+Designer.Action.NTServiceController.visualName=Windows サービスの開始、停止、一時停止
+
+Designer.Action.PlugIn.visualName=プラグイン
+Designer.Action.PlugIn.helpWithPlugin=プラグインに関するヘルプ
+
+Designer.Action.ShortcutLocAction.visualName=パネル: エイリアス、リンク、ショートカット フォルダを選択
+
+# Area
+# BuildInstaller
+# These are strings that appear at various points during the build process. Build a project to view these strings.
+Designer.Build.BuildInstaller.optimizeInstallerActions=インストールのアクションを最適化しています...
+Designer.Build.BuildInstaller.readOnlyTitle=読み込み専用プロジェクト
+Designer.Build.BuildInstaller.readOnlyBuildText=このプロジェクトは変更されていますが、読み込み専用です。
+Designer.Build.BuildInstaller.readOnlyBuildNarrative=このプロジェクトは変更されていますが、このプロジェクト ファイルは読み込み専用です。プロジェクトはビルドされますが、オリジナルのプロジェクトに加えられた変更は保存されません。
+Designer.Build.BuildInstaller.successfullyConverted=このプロジェクトは、InstallAnywhere #VERSIONNUM# 形式に正常に変換されました。
+Designer.Build.BuildInstaller.errorConverting=このプロジェクトを新しい InstallAnywhere #VERSIONNUM# 形式に変換しているときにエラーが発生しました。このプロジェクトの変換問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡し、次のエラーを報告してください。\n\n#ERRORMSG#\n#EXCEPTION#\n\n電子メールに #BACKUP# を添付するように指示される場合があります。
+Designer.Build.BuildInstaller.moreConversion1=このプロジェクトを InstallAnywhere #VERSIONNUM# で開くためには、まずこのプロジェクトを変換する必要があります。このプロジェクトのバックアップ コピーを作成してから <プロジェクト名>#BACKUP# ファイルを読み込むか、または InstallAnywhere を再起動してこのプロジェクトを読み込み直してください。
+Designer.Build.BuildInstaller.newlyConvertedProject=新しく変換されたプロジェクトは、'#PROJNAME#' という名前で保存されます。
+Designer.Build.BuildInstaller.needsConervsionBackedup=プロジェクト ファイル #PROJNAME# は古いバージョンの InstallAnywhere で作成されているため、最新の InstallAnywhere #VERSIONNUM# ファイル形式に変換する必要があります。オリジナルのプロジェクトは、#BASENAME#_old#EXT# という名前でバックアップされます。このプロジェクトを変換しますか?
+Designer.Build.BuildInstaller.needsConversion=このプロジェクトを InstallAnywhere #VERSIONNUM# で開くためには、まずこのプロジェクトを変換する必要があります。もう一度プロジェクトを開いて、それを #VERSIONNUM# 形式に変換してください。
+Designer.Build.BuildInstaller.scriptBadVersion=このプロジェクト ファイルを読み込むことができません。オリジナルのファイルと同じディレクトリにある #BACKUPFILE# プロジェクト ファイルを読み込んでみてください。問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡し、次のエラーを報告してください。\n\n(IAScript.loadScript() に失敗しました)\n\n電子メールに #BACKUPFILE# を添付するように指示される場合があります。
+Designer.Build.BuildInstaller.thisProjectMoreRecent=このプロジェクトは、より新しいバージョン (#SCRIPTVERSION#) の InstallAnywhere で作成されています。現在使用しているバージョンは、#OURVERSION# です。
+Designer.Build.BuildInstaller.badScriptVersion=このプロジェクト ファイルを読み込むことができません。オリジナルのファイルと同じディレクトリにある #BACKUPFILE# プロジェクト ファイルを読み込んでみてください。問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡し、次のエラーを報告してください。\n\n(IAScript.loadScript() に失敗しました [スクリプト バージョン: #SCRIPTVERSION# ; IA バージョン: #IAVERSION# ])\n\n電子メールに #BACKUPFILE# を添付するように指示される場合があります。
+Designer.Build.BuildInstaller.tryLoadingBackup=このプロジェクト ファイルを読み込むことができません。オリジナルのファイルと同じディレクトリにある #BACKUPFILE# プロジェクト ファイルを読み込んでみてください。問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡し、次のエラーを報告してください。\n\nバージョン フィールドを取得できませんでした:\n#ERROR#\n\n電子メールに #BACKUPFILE# を添付するように指示される場合があります。
+Designer.Build.BuildInstaller.resourceMissing=リソース マネージャは、このプロジェクトのすべてのリソースを見つけられませんでした。
+Designer.Build.BuildInstaller.resourceMissingHelp=リソース マネージャは、足りないリソースをチェックし、必要なリソースが足りない場合は操作に\n失敗するように設定されています。\nこれらの設定を変更するには、デザイナのプレファレンスで適切なプロパティを\n変更します。\n\n詳細については、InstallAnywhere のマニュアルを参照してください。
+Designer.Build.BuildInstaller.writeError=書き込みエラー: プロジェクト スクリプト ソースに書き込めません:
+Designer.Build.BuildInstaller.backupCompilationFailure=(バックアップ ファイルのコンパイル エラー) 
+Designer.Build.BuildInstaller.unableLoadProjectFailure=このプロジェクト ファイルを読み込むことができません。このプロジェクトの読み込み問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡し、次のエラーを報告してください。\n\n#ERROR#\n\n電子メールにこのプロジェクトを添付するように指示される場合があります。
+Designer.Build.BuildInstaller.mergeModuleReadOnly=このマージ モジュールは読み取り専用のため、読み込むことができませんでした。
+Designer.Build.BuildInstaller.mergeModuleBuiltOptimized=このマージ モジュールのビルドはプラットフォーム用に最適化されているため、読み込むことができませんでした。最適化せずにビルドし直すか、最適化されていないマージ モジュールを読み込んでください。
+Designer.Build.BuildInstaller.convertProjectVersion=このプロジェクトを #VERSIONNUM# バージョンの形式に変換できませんでした。このプロジェクトの変換問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡し、次のエラーを報告してください。\n\n#ERROR# \n\n電子メールに #FILENAME# を添付するように指示される場合があります。
+Designer.Build.BuildInstaller.unableToLoadProject=このプロジェクト ファイルを読み込むことができません。このプロジェクトの読み込み問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡し、次のエラーを報告してください。\n\n(プロジェクト ファイルの形式が不明です) \n\n電子メールに #FILENAME# を添付するように指示される場合があります。
+Designer.Build.BuildInstaller.convertProject35=このプロジェクト ファイル #PROJECTNAME# は古いバージョンの InstallAnywhere で作成されているため、最新の InstallAnywhere #VERSIONNUM# ファイル形式に変換する必要があります。オリジナルのプロジェクトは、#BACKUP# という名前でバックアップされます。このプロジェクトを変換しますか?
+Designer.Build.BuildInstaller.alwaysConvertProjectFiles=常にプロジェクト ファイルを変換する
+Designer.Build.BuildInstaller.buildFailure=ビルド エラー
+Designer.Build.BuildInstaller.buildSuccessful=ビルドが成功しました
+Designer.Build.BuildInstaller.buildUnsuccessful=ビルドが失敗しました
+Designer.Build.BuildInstaller.building=ビルド中...
+Designer.Build.BuildInstaller.checkDiskSpace=ビルド用ボリュームに十分なディスク領域があることを確認してください。
+Designer.Build.BuildInstaller.checkFilesExist=プロジェクトに記述されているソース ファイルが存在することを確認してください。
+Designer.Build.BuildInstaller.checkInstallerNotInUse=以前にビルドされたインストーラが使用中でないことを確認してください。
+Designer.Build.BuildInstaller.checkProjectWritable=プロジェクト ファイルが読み取り専用ディスク上にないこと、およびその場所に関する読み取り/書き込み/削除権限があることを確認してください。
+Designer.Build.BuildInstaller.checkWritePerms=次のディレクトリに対する書き込みアクセス許可があることを確認してください:
+Designer.Build.BuildInstaller.compilerNotFoundFailure=コンパイラ (GJC) が見つからなかったため、現在のビルドは失敗しました。
+Designer.Build.BuildInstaller.convert=変換
+Designer.Build.BuildInstaller.developerRequestedBuildPause=ビルドの一時停止が要求されました
+Designer.Build.BuildInstaller.iaBuilder=InstallAnywhere ビルダ
+Designer.Build.BuildInstaller.iaCannotBuidTempDir=その一時ディレクトリを作成できませんでした。
+Designer.Build.BuildInstaller.iaProjectLoadString=InstallAnywhere プロジェクト ロード メッセージ
+Designer.Build.BuildInstaller.ifUsingCVSchecout=CVS システムを使用している場合は、プロジェクト ファイルとプロジェクト バックアップ ファイルが両方とも編集用にチェック アウトされていることを確認してください。
+Designer.Build.BuildInstaller.installScriptErrorStatement=インストール スクリプトでエラーが発生したため、現在のビルド (または保存) は失敗しました。<プロジェクト名>#BACKUP_PROJECT_ENDING# ファイルを保存し、Macrovision の開発者テクニカル サポートに問題を報告してください。
+Designer.Build.BuildInstaller.pauseStatement=このビルドは一時停止状態です。ビルド プロセスを続行するには、[OK] をクリックしてください。インストーラ xml スクリプト ファイルは、次の場所にあります:\n\n#PROJECT_FILE_PATH#
+Designer.Build.BuildInstaller.preparingToBuild=ビルドの準備中...
+Designer.Build.BuildInstaller.projectFileResides=プロジェクト ファイルがあるディレクトリ
+Designer.Build.BuildInstaller.projectSaveError=プロジェクトの保存エラー
+Designer.Build.BuildInstaller.qConvertToNewIAformat=プロジェクトを新しい InstallAnywhere のフォーマットに変換しますか?
+Designer.Build.BuildInstaller.quitOpenApps=開いているアプリケーションをすべて終了してください。
+Designer.Build.BuildInstaller.relaunchIA=InstallAnywhere を再起動し、プロジェクトをビルドし直してください。
+Designer.Build.BuildInstaller.resourceDir=デザイナのリソース ディレクトリ内のディレクトリ。
+Designer.Build.BuildInstaller.runToTechSupport=問題が続く場合は、Macrovision の開発者テクニカル サポートに連絡してください。
+Designer.Build.BuildInstaller.saveError=保存エラー
+Designer.Build.BuildInstaller.setupError=セットアップ エラー
+Designer.Build.BuildInstaller.tempDir=一時ビルド ディレクトリがある場所。また、
+Designer.Build.BuildInstaller.tempDirLoc=一時ビルド ディレクトリがあるディレクトリ。
+Designer.Build.BuildInstaller.theBuildHasFailed=ビルドに失敗しました!
+Designer.Build.BuildInstaller.unableToSaveProjectReadonly=プロジェクトを保存できません。このプロジェクト ファイルは読み取り専用です。
+Designer.Build.BuildInstaller.unknownError=このプロジェクトをビルド中または保存中にエラーがありました。この問題に関するその他の情報については、ビルド ログ (console.txt) を参照してください。それでも問題を解決できない場合は、Macrovision の開発者テクニカル サポートまでご連絡ください。
+Designer.Build.BuildInstaller.savingProject=プロジェクトの保存中
+Designer.Build.BuildInstaller.checkFreeDiskSpace=ディスクの空き容量を確認中
+Designer.Build.BuildInstaller.updatingProjectPieces=プロジェクトの要素をアップデートしています
+Designer.Build.BuildInstaller.generatingScript=スクリプトの生成中
+Designer.Build.BuildInstaller.populatingLabels=ラベルの書き込み中
+Designer.Build.BuildInstaller.clnUnassignedFromProject=プロジェクトから割り当てられていないコンポーネントを削除しています
+Designer.Build.BuildInstaller.cleaningUp=クリーンアップ中
+Designer.Build.BuildInstaller.processExternalProps=外部プロパティの処理中
+Designer.Build.BuildInstaller.savingExternalProperties=外部プロパティを保存中
+Designer.Build.BuildInstaller.cleaningUpBuildDirectory=ビルド ディレクトリをクリーンアップしています
+Designer.Build.BuildInstaller.buildCancelledByUser=ユーザーによってビルドがキャンセルされました。
+Designer.Build.BuildInstaller.buildDirectoryHasBeenDeleted=このビルド ディレクトリは削除されました。
+Designer.Build.BuildInstaller.errorStoppingBuild=エラー発生。ビルドを中止します!クリーンアップ中
+Designer.Build.BuildInstaller.copyingCommonFiles=共通ファイルをコピーしています
+Designer.Build.BuildInstaller.assemblingCommonResources=共通リソースを構築中
+Designer.Build.BuildInstaller.buildingWebPageForInstaller=インストーラ アプレットの Web ページをビルド中
+Designer.Build.BuildInstaller.buildingCurInstaller=#OS# #VMStatus# #Type# インストーラをビルド中
+Designer.Build.BuildInstaller.buildWithVM=(VM)
+Designer.Build.BuildInstaller.buildWithoutVM=(VM なし)
+Designer.Build.BuildInstaller.buildWeb=Web
+Designer.Build.BuildInstaller.buildCD=CD-ROM
+Designer.Build.BuildInstaller.javaArchive=Java アーカイブ
+Designer.Build.BuildInstaller.unixArchive=Unix アーカイブ
+
+
+# Build Error Messages
+Designer.Build.Error.openningZipFile=ビルド中に生成された zip ファイルを開くことができません。
+
+# Build Help Messages
+Designer.Build.Help.openningZipFile=非 Unicode バージョンの Windows を実行している場合は、\nプロジェクトのディレクトリへのパスに Unicode 専用の文字が含まれていないかどうかを確認してください。\n含まれている場合は、正常にビルドできるようにそれらの文字を削除してください。\nプロジェクトのディレクトリ:
+
+# Area:
+# Designerr.Customizer
+# --------------------------
+#  These are strings in that are found in the Pre-Install, Install, Post-Install, Pre-Uninstall and Post-Uninstll areas.
+# To see them, add an action to the propject.
+
+#These strings can be found by add the action: Modify Text File- Single File
+Designer.Customizer.AASCIIFileManipulator.changeLineEndingTo=行末を次のように変更:
+Designer.Customizer.AASCIIFileManipulator.chooseTextFile=テキスト ファイルを選択
+Designer.Customizer.AASCIIFileManipulator.configureSearchReplaceStrings=[文字列を検索して置換] を構成
+Designer.Customizer.AASCIIFileManipulator.createBackup=バックアップを作成
+Designer.Customizer.AASCIIFileManipulator.searchReplaceStrings=文字列を検索して置換:
+Designer.Customizer.AASCIIFileManipulator.subIAVariablesInFile=ファイルで InstallAnywhere 変数を代用
+
+#These strings can be found by add the action:  Modify Text File- In Archive
+Designer.Customizer.AASCIIFileManipulatorZip.changeLineEndingsTo=行末を次のように変更:
+Designer.Customizer.AASCIIFileManipulatorZip.chooseArchiveFile=アーカイブ ファイルを選択
+Designer.Customizer.AASCIIFileManipulatorZip.configureSearchReplaceStrings=[文字列を検索して置換] を構成
+Designer.Customizer.AASCIIFileManipulatorZip.searchReplaceStrings=文字列を検索して置換:
+Designer.Customizer.AASCIIFileManipulatorZip.subIAVariablesInFile=ファイルで InstallAnywhere 変数を代用
+
+#These strings can be found by add the action:  Choose Folder Panel
+Designer.Customizer.AAbstractFileChooser.disableManualUserPathEntry=ユーザーによるパス テキストフィールドへの手動入力を無効にする (ファイル参照による選択を必要とする)
+Designer.Customizer.AAbstractFileChooser.leaveBlankToHideText=注意:インストール時にテキスト ボックスを隠す場合は、空白のままにしておきます。
+
+#These strings can be found by add the action:  Copy Folder Action
+Designer.Customizer.AAbstractFileOperations.chooseSomething=#ACTION_TYPE# を選択
+Designer.Customizer.AAbstractFileOperations.copyContentsOnly=内容だけをコピー
+Designer.Customizer.AAbstractFileOperations.copyFolderAndContents=フォルダとその内容をコピー
+Designer.Customizer.AAbstractFileOperations.existingSomething=既存の #ACTION_TYPE#
+Designer.Customizer.AAbstractFileOperations.ifFileAlreadyExists=ファイルがすでにエンド ユーザーのシステムに存在する場合:
+Designer.Customizer.AAbstractFileOperations.installedSomething=インストールされた #ACTION_TYPE#
+Designer.Customizer.AAbstractFileOperations.overrideUNIXMacPerms=次のデフォルトの UNIX / Mac OS X アクセス許可を無視する:
+
+Designer.Customizer.AAllOrFeaturesActionConsole.chooseAllText=すべてのテキストを選択:
+Designer.Customizer.AAllOrFeaturesActionConsole.chooseByFeatureText=機能別にテキストを選択:
+
+#These strings can be found by add the action:  Execute Ant Script
+Designer.Customizer.AAntRunner.aNTBuildScript=ANT ビルド スクリプト:
+Designer.Customizer.AAntRunner.aNTTarget=ANT ターゲット:
+Designer.Customizer.AAntRunner.antBuildScriptPreview=ANT ビルド スクリプトのプレビュー
+Designer.Customizer.AAntRunner.cannotFindScript=<指定したファイルをプレビューできません。指定したファイルが存在しない可能性があります>
+Designer.Customizer.AAntRunner.chooseANTBuildProperties=ANT ビルドのプロパティを選択
+Designer.Customizer.AAntRunner.chooseXMLANTScript=XML ANT スクリプトを選択
+Designer.Customizer.AAntRunner.errorLoadingScript=<指定したファイルをプレビューできません。スクリプト ファイルを読み込むときにエラーがありました。
+Designer.Customizer.AAntRunner.specifyBuildProperties=ビルドのプロパティを指定:
+Designer.Customizer.AAntRunner.specifyBuildScript=ビルド スクリプトを指定:
+Designer.Customizer.AAntRunner.subIAVariables=ビルドのプロパティで IA 変数を代用する
+Designer.Customizer.AAntRunner.useDefaultTarget=デフォルトのターゲットを使用
+Designer.Customizer.AAntRunner.useExistingScript=既存/インストール済みのスクリプトを使用:
+Designer.Customizer.AAntRunner.useSpecifiedTarge=指定したターゲットを使用:
+Designer.Customizer.AAntRunner.viewScriptButton=スクリプトを表示...
+Designer.Customizer.AAntRunner.xmlFiles=XML ファイル
+
+#These strings can be found by add the action:  Install from Manifest
+Designer.Customizer.ABOMAction.chooseManifest=manifest を選択...
+Designer.Customizer.ABOMAction.manifestFile=manifest ファイル:
+Designer.Customizer.ABOMAction.selectLOCfile=manifest ファイルを選択
+
+
+Designer.Customizer.ABlankPanel.noCustomizationRequired=カスタマイズの必要はありません
+
+Designer.Customizer.AChooseFolder.checkWritePermOnFolder=選択されたフォルダの書き込み許可をチェックする
+
+#These strings are for the dynamic merge modules customizer and edit variables customizer.
+Designer.Customizer.ADynamicMM.importPreInstall=インストール前のアクションをインポート
+Designer.Customizer.ADynamicMM.importInstall=インストール アクションをインポート
+Designer.Customizer.ADynamicMM.importPostInstall=インストール後のアクションをインポート
+Designer.Customizer.ADynamicMM.inputVariables=このマージ モジュールには、設定可能な次の入力変数があります。
+Designer.Customizer.ADynamicMM.outputVariables=このマージ モジュールは、次の親変数を設定します。
+Designer.Customizer.ADynamicMM.mmVariableName=マージ モジュール変数名
+Designer.Customizer.ADynamicMM.getValueFrom=値の取得元
+Designer.Customizer.ADynamicMM.setValueTo=親変数を設定
+Designer.Customizer.ADynamicMM.sendStdOutTo=stdout の送信先変数:
+Designer.Customizer.ADynamicMM.sendStdErrTo=stderr の送信先変数:
+
+#These strings can be found by add the action:  Choose Java VM
+Designer.Customizer.AChooseJavaVMAction.findJavaExecutables=\"java\" 実行可能ファイルを検索する
+Designer.Customizer.AChooseJavaVMAction.findJreExecutables=\"jre\" 実行可能ファイルを検索する
+Designer.Customizer.AChooseJavaVMAction.findJviewExecutables=\"jview\" (Microsoft) 実行可能ファイルを検索する
+Designer.Customizer.AChooseJavaVMAction.offerInstallVMoption=インストーラが VM をインストールするためのオプションをユーザーに提供する
+Designer.Customizer.AChooseJavaVMAction.searchForFollowingVMs=インストール先のシステムで次の VM を検索:
+
+#These strings can be found by add the action:  Add Comment
+Designer.Customizer.AComment.enterComment=ここに分かりやすいコメントを記入してください。
+
+#These strings can be found by add the action:  Get User Input- Simple
+Designer.Customizer.ACreateDialog.checkBoxes=チェックボックス
+Designer.Customizer.ACreateDialog.configInputItems=入力項目を構成
+Designer.Customizer.ACreateDialog.getUserInputPreview=[ユーザー入力の取得] ダイアログのプレビュー
+Designer.Customizer.ACreateDialog.labelsforInputItems=入力項目のラベルとデフォルト:
+Designer.Customizer.ACreateDialog.list=一覧
+Designer.Customizer.ACreateDialog.popupMenu=ポップアップ メニュー
+Designer.Customizer.ACreateDialog.radioButtons=ラジオ ボタン
+Designer.Customizer.ACreateDialog.resultsVariable=結果変数:
+Designer.Customizer.ACreateDialog.textfield=テキストフィールド
+
+Designer.Customizer.ACreateShortcut.aliasShortcutIcon=エイリアス、ショートカット アイコン:
+Designer.Customizer.ACreateShortcut.chooseAliasLinkShortcutTarget=エイリアス、リンク、ショートカット ターゲットを選択
+Designer.Customizer.ACreateShortcut.noNameSpecified=名前が指定されていません
+Designer.Customizer.ACreateShortcut.startIn=開始場所:
+
+Designer.Customizer.ACustomAction.installMethod='public void install(InstallerProxy)' メソッド。
+Designer.Customizer.ACustomAction.uninstallNote=注意:インストール前およびインストール後のカスタム コード アクションは、アンインストール時に呼び出される uninstall( ) メソッドを含んでいません。
+
+#These strings can be found by add the action:  Execute CustomCode
+Designer.Customizer.ACustomActionBase.invokeUninstall=uninstall() メソッドの呼び出し:
+Designer.Customizer.ACustomActionBase.afterFileFolderUninstall=ファイル/フォルダのアンインストール後
+Designer.Customizer.ACustomActionBase.beforeFileFolderUninstall=ファイル/フォルダのアンインストール前
+Designer.Customizer.ACustomActionBase.chooseJARorZIP=JAR または ZIP を選択...
+Designer.Customizer.ACustomActionBase.codeAndResources=コードとリソース:
+Designer.Customizer.ACustomActionBase.explanation=完全修飾クラス名 (例、com.acme.MyCustomCodeAction)。このクラスは、com.zerog.ia.api.pub.CustomCodeAction を拡張し、#TO_BE_IMPLEMENTED# を実装しなければなりません。
+Designer.Customizer.ACustomActionBase.noClassSpecified=<クラスが指定されていません>
+Designer.Customizer.ACustomActionBase.noCustomCodeArchiveSelected=<カスタム コード アーカイブが選択されていません>
+Designer.Customizer.ACustomActionBase.noDialogMessageText=<ダイアログ メッセージ テキストがありません>
+Designer.Customizer.ACustomActionBase.noFileSelected=ファイルが選択されていません
+Designer.Customizer.ACustomActionBase.openJavadocs=Javadoc を開く...
+Designer.Customizer.ACustomActionBase.showIntermediateDialog=不定ダイアログを表示:
+Designer.Customizer.ACustomActionBase.showPleaseWaitPanel=\"...お待ちください\" パネルを表示
+
+Designer.Customizer.ACustomizeBundles.allInstalledFeaturesAreShownUnchecked1=インストールされている機能のチェックボックスはすべてオフになっています。 
+Designer.Customizer.ACustomizeBundles.allInstalledFeaturesAreShownUnchecked2=<html>ユーザーは、アンインストールする機能のチェックボックスを<b>オン</b>にします。</html>
+Designer.Customizer.ACustomizeBundles.allInstalledFeaturesAreShownChecked1=インストールされている機能のチェックボックスはすべてオンになっています。
+Designer.Customizer.ACustomizeBundles.allInstalledFeaturesAreShownChecked2=<html>ユーザーは、アンインストールする機能のチェックボックスを<b>オフ</b>にします。</html>
+Designer.Customizer.ACustomizeBundles.meaningOfCheckboxes=GUI でのチェックボックスの意味:
+
+Designer.Customizer.ADeleteFolderAction.removeFolderIfEmpty=フォルダが空の場合、そのフォルダを削除する
+
+#These strings can be found by add the action:  Display Message Panel
+Designer.Customizer.ADisplayMessage.bottom=下
+Designer.Customizer.ADisplayMessage.center=中央
+Designer.Customizer.ADisplayMessage.displayMessage=#INSTALL_TYPE#時に表示するメッセージを入力してください。
+Designer.Customizer.ADisplayMessage.left=左
+Designer.Customizer.ADisplayMessage.right=右
+Designer.Customizer.ADisplayMessage.textAlignment=テキストの配置:
+Designer.Customizer.ADisplayMessage.textJustifaction=テキストの揃え方:
+Designer.Customizer.ADisplayMessage.top=上
+
+#These strings can be found by add the action:  Display Scrolling Message
+Designer.Customizer.ADisplayScrollingMessage.enterMessageToDisplay=インストール時に表示するメッセージを入力してください。
+Designer.Customizer.ADisplayScrollingMessage.messageTextFormatIs=メッセージ テキスト形式:
+Designer.Customizer.ADisplayScrollingMessage.openExternalLinksInBrowser=ユーザーのデフォルト ブラウザで外部リンクを開く (HTML/Swing UI のみ)
+
+#These strings can be found by add the action:  Output Debug Information
+Designer.Customizer.ADumpDebugInfo.example=例、 $USER_INSTALL_DIR$$/$DebugInfo.txt
+Designer.Customizer.ADumpDebugInfo.outputDestination=出力先:
+Designer.Customizer.ADumpDebugInfo.outputToConsole=コンソールに出力 (stderr)
+Designer.Customizer.ADumpDebugInfo.outputToFile=ファイルに出力:
+Designer.Customizer.ADumpDebugInfo.selectDataToOutput=出力するデータを選択してください。
+
+#These strings can be found by add the action:  Set System Environment Variable
+Designer.Customizer.AEditEnvironment.allUsers=すべてのユーザー
+Designer.Customizer.AEditEnvironment.appendToExistingValue=既存の値の後に追加する
+Designer.Customizer.AEditEnvironment.classpathExample=値は、変数 (例、$ENV_VARIABLE_NAME$) の場合とリテラル (例、CLASSPATH) の場合があります。
+Designer.Customizer.AEditEnvironment.currentUser=現在のユーザー
+Designer.Customizer.AEditEnvironment.prependToExistingValue=既存の値の前に追加する
+Designer.Customizer.AEditEnvironment.programFilesExample=値は、変数 (例、$USER_MAGIC_FOLDER_1$) の場合とリテラル (例、C:\\Program Files) の場合があります。
+Designer.Customizer.AEditEnvironment.replaceExistingValue=既存の値を置き換える
+Designer.Customizer.AEditEnvironment.setValueTo=設定値:
+Designer.Customizer.AEditEnvironment.setVariableFor=この値の設定対象:
+Designer.Customizer.AEditEnvironment.usersSjobsExample=値は、変数 (例、$USER_MAGIC_FOLDER_1$) の場合とリテラル (例、/Users/sjobs) の場合があります。
+Designer.Customizer.AEditEnvironment.variableName=変数名:
+Designer.Customizer.AEditEnvironment.whenSettingVariable=この変数を設定するとき:
+
+#These strings can be found by add the action:  Set InstallAnywhere Variable - Multiple Variables
+Designer.Customizer.AEditMultipleVariables.clickEditVariables=変数を編集するには、[変数を編集] ボタンをクリックします。
+Designer.Customizer.AEditMultipleVariables.editMultipleVariables=複数の変数を編集
+Designer.Customizer.AEditMultipleVariables.editVariables=変数を編集...
+Designer.Customizer.AEditMultipleVariables.noVariablesSpecified=<変数が指定されていません>
+Designer.Customizer.AEditMultipleVariables.variableName=変数名
+Designer.Customizer.AEditMultipleVariables.variables=変数:
+
+#These strings can be found by add the action: Set InstallAnywhere Variable - Multiple Variables (And click on the edit variables button).
+Designer.Customizer.AEditVariableTable.exUserName=例、 $USER_NAME_LABEL$
+Designer.Customizer.AEditVariableTable.exValueVariableOrLiteral=例、値は、変数 (例、$prop.user.name$) の場合とリテラル (例、Yamada Yoshiko) の場合があります。
+Designer.Customizer.AEditVariableTable.setValueTo=設定値:
+Designer.Customizer.AEditVariableTable.variableName=変数名:
+
+#These strings can be found by add the action: Execute Command
+Designer.Customizer.AExec.commandLine=コマンド ライン:
+Designer.Customizer.AExec.showIndeterminateDialog=不定ダイアログを表示:
+Designer.Customizer.AExec.showPleaseWait=\"...お待ちください\" パネルを表示
+Designer.Customizer.AExec.suppressFirstWindow=最初のウィンドウを隠す (Windows のみ)
+Designer.Customizer.AExec.suspendInstallationUntilProcessCompletes=プロセスが完了するまでインストールを中断する
+Designer.Customizer.AExec.suspendUninstallationUntilProcessCompletes=プロセスが完了するまでアンインストールを中断する
+Designer.Customizer.AExec.stderrVarL=プロセスの stderr の保存場所:
+Designer.Customizer.AExec.stdoutVarL=プロセスの stdout の保存場所:
+Designer.Customizer.AExec.exitVarL=プロセスの終了コードの保存場所:
+
+#These strings can be found by add the action: Execute Target File
+Designer.Customizer.AExecFile.noDialogMessageText=<ダイアログ メッセージ テキストがありません>
+Designer.Customizer.AExecFile.pleaseChooseTargetBeforeNaming=このアクションの名前を指定する前にターゲットを選択してください。
+Designer.Customizer.AExecFile.useExecCommandAction=注意:目的のインストール システムにすでに存在するターゲット ファイルには、'Execute コマンド' を使用してください。
+Designer.Customizer.AExecFile.variableWillBeReplaced=$#TARGET_VAR#$ は、インストール時にターゲットの完全修飾名に置き換えられます。
+Designer.Customizer.AExecFile.stderrVarL=プロセスの stderr の保存場所:
+Designer.Customizer.AExecFile.stdoutVarL=プロセスの stdout の保存場所:
+Designer.Customizer.AExecFile.exitVarL=プロセスの終了コードの保存場所:
+
+#These strings can be found by add the action: Create LaunchAnywhere
+Designer.Customizer.AExecutableGeneral.allowUserOptionRestart=必要時に再起動オプションをユーザーに提示する
+Designer.Customizer.AExecutableGeneral.autoFindMainClasses=メイン クラスを自動検索...
+Designer.Customizer.AExecutableGeneral.consoleLauncher=コンソール起動プログラム
+Designer.Customizer.AExecutableGeneral.displayOnTitlebar=アンインストーラの各パネルのタイトル バーに表示されます。
+Designer.Customizer.AExecutableGeneral.displayedOnTitelBar=アンインストーラの各パネルのタイトル バーに表示されます。
+Designer.Customizer.AExecutableGeneral.editProperties=プロパティを編集...
+Designer.Customizer.AExecutableGeneral.enableFeatureLevelUninstall=機能レベルのアンインストールを有効にする
+Designer.Customizer.AExecutableGeneral.graphicalLauncher=グラフィカル起動プログラム
+Designer.Customizer.AExecutableGeneral.icon=アイコン:
+Designer.Customizer.AExecutableGeneral.iconStatement=#LAUNCHER_TYPE#のアイコン:
+Designer.Customizer.AExecutableGeneral.laProperties=LaunchAnywhere のプロパティ
+Designer.Customizer.AExecutableGeneral.launcher=起動プログラム
+Designer.Customizer.AExecutableGeneral.noMainClassSpecified=<メイン クラスが指定されていません>
+Designer.Customizer.AExecutableGeneral.noNameSpecified=名前が指定されていません
+Designer.Customizer.AExecutableGeneral.propStatement=#LAUNCHER_TYPE#のプロパティ:
+Designer.Customizer.AExecutableGeneral.properties=プロパティ:
+Designer.Customizer.AExecutableGeneral.typeStatement=#LAUNCHER_TYPE#のタイプ:
+Designer.Customizer.AExecutableGeneral.uninstallInuseFilesAfterRestart=再起動後に使用中のファイルをアンインストールする (Windows のみ)
+Designer.Customizer.AExecutableGeneral.uninstallerProperties=アンインストーラのプロパティ
+Designer.Customizer.AExecutableGeneral.uninstallerTitle=アンインストーラのタイトル:
+Designer.Customizer.AExecutableGeneral.uninstallerTitle=アンインストーラのタイトル:
+Designer.Customizer.AExecutableGeneral.unistaller=アンインストーラ
+
+#These strings can be found by add the action: Execute script/batch file
+Designer.Customizer.AExecuteScript.executeScript=スクリプトを実行
+Designer.Customizer.AExecuteScript.noCommentSpecified=<コメントが指定されていません>
+Designer.Customizer.AExecuteScript.noDialogMessageText=<ダイアログ メッセージ テキストがありません>
+Designer.Customizer.AExecuteScript.noScriptTextSpecified=<スクリプト テキストが指定されていません>
+Designer.Customizer.AExecuteScript.stderrVarL=プロセスの stderr の保存場所:
+Designer.Customizer.AExecuteScript.stdoutVarL=プロセスの stdout の保存場所:
+Designer.Customizer.AExecuteScript.exitVarL=プロセスの終了コードの保存場所:
+
+#These strings can be found by add the action: Expand Archive
+Designer.Customizer.AExpandArchive.chooseAnArchive=アーカイブを選択
+Designer.Customizer.AExpandArchive.chooseArchive=アーカイブを選択...
+Designer.Customizer.AExpandArchive.selectedArchive=選択されたアーカイブ:
+Designer.Customizer.AExpandArchive.supportedArchiveFormats=サポートされているアーカイブ形式
+Designer.Customizer.AExpandArchive.supportedFormats=サポートされている形式: ZIP ファイル (.zip)、Java アーカイブ (.jar)、WAR ファイル (.war)、Enterprise Archives (.ear)
+Designer.Customizer.AExpandArchive.supportedFormatsWithMaxOSX=サポートされている形式: ZIP ファイル (.zip)、Java アーカイブ (.jar)、WAR ファイル (.war)、Enterprise Archives (.ear)
+
+#These strings can be seen on Mac OS X operating systems
+Designer.Customizer.AFileActionGeneral.ifFileAlreadyExists=ファイルがすでにエンド ユーザーのシステムに存在する場合:
+Designer.Customizer.AFileActionGeneral.recursivelyDeleteAllContents=アンインストール中にこのフォルダのすべての内容を再帰的に削除する
+
+#These strings can be found by add the action: Find File or Folder Panel
+Designer.Customizer.AFindFileOrFolder.additionalPath=追加のパス:
+Designer.Customizer.AFindFileOrFolder.allowUserToPreempt=ユーザーがファイルまたはフォルダを手動で選択できるようにする
+Designer.Customizer.AFindFileOrFolder.askUserToFind=ユーザーに検索を促す
+Designer.Customizer.AFindFileOrFolder.askUserToPick=ユーザーに選択を促す
+Designer.Customizer.AFindFileOrFolder.fileFolder=ファイル/フォルダ:
+Designer.Customizer.AFindFileOrFolder.files=ファイル
+Designer.Customizer.AFindFileOrFolder.folders=フォルダ
+Designer.Customizer.AFindFileOrFolder.fullPath=フル パス
+Designer.Customizer.AFindFileOrFolder.handlingSearchResults=検索結果の処理:
+Designer.Customizer.AFindFileOrFolder.match=Match:
+Designer.Customizer.AFindFileOrFolder.matchingThe=、照合
+Designer.Customizer.AFindFileOrFolder.noPromptSpecified=<プロンプトが指定されていません>
+Designer.Customizer.AFindFileOrFolder.onAnyResult=一致項目がある場合:
+Designer.Customizer.AFindFileOrFolder.onNoResults=一致項目がない場合:
+Designer.Customizer.AFindFileOrFolder.parentFolder=親フォルダ
+Designer.Customizer.AFindFileOrFolder.pattern=パターン
+Designer.Customizer.AFindFileOrFolder.regularExpression=正規表現
+Designer.Customizer.AFindFileOrFolder.resultsVariable=結果変数:
+Designer.Customizer.AFindFileOrFolder.returnAllMatches=すべての一致項目を返す
+Designer.Customizer.AFindFileOrFolder.returnEmptyList=空の一覧を返す
+Designer.Customizer.AFindFileOrFolder.returnFirstMatch=最初の一致項目を返す
+Designer.Customizer.AFindFileOrFolder.returnType=リターン タイプ:
+Designer.Customizer.AFindFileOrFolder.searchFor=検索対象:
+Designer.Customizer.AFindFileOrFolder.searchInSubfolders=サブフォルダ内を検索
+Designer.Customizer.AFindFileOrFolder.searchNetworkDrives=ネットワーク ドライブを検索
+Designer.Customizer.AFindFileOrFolder.searchParameters=検索パラメータ:
+Designer.Customizer.AFindFileOrFolder.searchParameters=検索パラメータ:
+Designer.Customizer.AFindFileOrFolder.setUserPromptBelow=(下でユーザー プロンプトを設定)
+Designer.Customizer.AFindFileOrFolder.startLocation=開始場所:
+Designer.Customizer.AFindFileOrFolder.userInteraction=ユーザー インタラクション:
+Designer.Customizer.AFindFileOrFolder.userPrompt=ユーザー プロンプト:
+
+#These strings can be found by add the action: Install Complete
+Designer.Customizer.AFinishAction.askWantRestart=\"今すぐ再起動しますか?\" メッセージを表示する
+Designer.Customizer.AFinishAction.shoUninstallStatusMessage=アンインストール ステータス メッセージを表示する
+Designer.Customizer.AFinishAction.showFilesNotInstalledList=アンインストールされなかったファイルの一覧を表示する
+Designer.Customizer.AFinishAction.showInstallStatusMessage=インストール ステータス メッセージを表示する
+Designer.Customizer.AFinishAction.showRestartNeededMessage=再起動を促すメッセージを表示する (Windows のみ)
+Designer.Customizer.AFinishAction.showThisMessage=このメッセージを表示:
+Designer.Customizer.AFinishAction.whenInstallStatusEquals=$INSTALL_SUCCESS$ が次の場合:
+Designer.Customizer.AFinishAction.whenRestartNeededequals=$RESTART_NEEDED$ が次の場合:
+Designer.Customizer.AFinishAction.whenUninstallStatusEquals=$UNINSTALL_SUCCESS$ が次の場合:
+
+#These strings can be found by add the action: Get Password Panel
+Designer.Customizer.AGetPassword.allowPasswordToBeBlank=パスワードを空白にしておいてもよい
+Designer.Customizer.AGetPassword.choosePasswordFile=パスワード ファイルを選択
+Designer.Customizer.AGetPassword.dontShowAgain=再び表示しない
+Designer.Customizer.AGetPassword.echoCharacter=エコー文字:
+Designer.Customizer.AGetPassword.fileMissing=ファイルがありません
+Designer.Customizer.AGetPassword.indexOfMatchingPassword=照合するパスワードのインデックス:
+Designer.Customizer.AGetPassword.noFileSelected=ファイルが選択されていません。
+Designer.Customizer.AGetPassword.passwordEntered=入力されたパスワード:
+Designer.Customizer.AGetPassword.passwordFild=パスワード ファイル:
+Designer.Customizer.AGetPassword.passwordFileMissing=パスワードファイルがありません
+Designer.Customizer.AGetPassword.passwordFileNotFound=指定されたパスワードが所定の場所にありません。\n新しいパスワード ファイルを選択してください。
+Designer.Customizer.AGetPassword.textFiles=テキスト ファイル
+Designer.Customizer.AGetPassword.validateWithFile=次のファイルで確認:
+Designer.Customizer.AGetPassword.viewPasswords=パスワードを表示...
+Designer.Customizer.AGetPassword.passwords=パスワード
+
+#These strings can be found by add the action: Set windows registry entry
+Designer.Customizer.AGetRegEntry.exCurrentVersion=例、 CurrentVersion
+Designer.Customizer.AGetRegEntry.exHkey=例、 HKEY_LOCAL_MACHINE\\SOFTWARE\\Macrovision\\InstallAnywhere
+Designer.Customizer.AGetRegEntry.exIAcurrentVersion=例、 $IA_CURRENT_VERSION$
+Designer.Customizer.AGetRegEntry.exIAregKeyExists=例、 $IA_REGKEY_EXISTS$
+Designer.Customizer.AGetRegEntry.registryKey=レジストリ キー:
+Designer.Customizer.AGetRegEntry.storeKeyExistenceInVariable=キー存在値を保存する変数:
+Designer.Customizer.AGetRegEntry.storeValueInVariable=値を保存する変数:
+Designer.Customizer.AGetRegEntry.valueName=値の名前:
+
+#These strings can be found by add the action:Get User input Panel- Advanced
+Designer.Customizer.AGetUserInput.addChoiceGroup=選択グループを追加
+Designer.Customizer.AGetUserInput.addFileChooser=ファイル選択機能を追加
+Designer.Customizer.AGetUserInput.addLabel=ラベルを追加
+Designer.Customizer.AGetUserInput.addTextfield=テキストフィールドを追加
+Designer.Customizer.AGetUserInput.captionLabel=キャプション/ラベル
+Designer.Customizer.AGetUserInput.captionOptional=キャプション:(オプション)
+Designer.Customizer.AGetUserInput.checkBox=チェックボックス
+Designer.Customizer.AGetUserInput.clickConfigurationSelection=[選択項目を構成] ボタンをクリックすると、コンポーネント グループを編集できます。
+Designer.Customizer.AGetUserInput.componentMustHaveUniqueName=選択グループの各コンポーネントには、固有の変数名が必要です。
+Designer.Customizer.AGetUserInput.componentType=コンポーネントのタイプ
+Designer.Customizer.AGetUserInput.configureChoiceGroup=選択グループを構成
+Designer.Customizer.AGetUserInput.configureComponents=コンポーネントを構成
+Designer.Customizer.AGetUserInput.configureFileChooserField=ファイル選択機能フィールドを構成
+Designer.Customizer.AGetUserInput.configureLabel=ラベルを構成
+Designer.Customizer.AGetUserInput.configureSelection=選択項目を構成...
+Designer.Customizer.AGetUserInput.configureTextfield=テキストフィールドを構成
+Designer.Customizer.AGetUserInput.defaultLocation=デフォルトの場所:
+Designer.Customizer.AGetUserInput.defaultValueOptional=デフォルト値:(オプション)
+Designer.Customizer.AGetUserInput.directory=ディレクトリ
+Designer.Customizer.AGetUserInput.file=ファイル
+Designer.Customizer.AGetUserInput.fileChooserType=ファイル選択機能のタイプ:
+Designer.Customizer.AGetUserInput.getUserInputDialogPreview=[ユーザー入力の取得] ダイアログのプレビュー
+Designer.Customizer.AGetUserInput.horizontal=横
+Designer.Customizer.AGetUserInput.inputEchoCharacter=エコー文字の入力:
+Designer.Customizer.AGetUserInput.label=ラベル:
+Designer.Customizer.AGetUserInput.labelOptional=ラベル:(オプション)
+Designer.Customizer.AGetUserInput.labelType=ラベルのタイプ:
+Designer.Customizer.AGetUserInput.list=一覧
+Designer.Customizer.AGetUserInput.moveSelectionDown=選択項目を下方向に移動
+Designer.Customizer.AGetUserInput.moveSelectionUp=選択項目を上方向に移動
+Designer.Customizer.AGetUserInput.mustEnterVariableName=変数名を入力する必要があります。
+Designer.Customizer.AGetUserInput.noCaptionOrLabelSpecified=<キャプションまたはラベルが指定されていません>
+Designer.Customizer.AGetUserInput.normal=標準
+Designer.Customizer.AGetUserInput.orientation=方向:
+Designer.Customizer.AGetUserInput.plainLabel=1 行ラベル
+Designer.Customizer.AGetUserInput.popupMenu=ポップアップ メニュー
+Designer.Customizer.AGetUserInput.poundSymbol=#
+Designer.Customizer.AGetUserInput.previewPanel=パネルをプレビュー...
+Designer.Customizer.AGetUserInput.radioButton=ラジオ ボタン
+Designer.Customizer.AGetUserInput.removeSelection=選択項目を削除
+Designer.Customizer.AGetUserInput.resultVariable=結果変数:
+Designer.Customizer.AGetUserInput.shadowed=パスワード非表示
+Designer.Customizer.AGetUserInput.vertical=縦
+Designer.Customizer.AGetUserInput.wrappingLabel=ラベルの折り返し
+
+#These strings can be found by add the action: Get User input- console
+Designer.Customizer.AGetUserInputConsole.clickConfigToEditInput=[構成] ボタンをクリックすると、入力項目を編集できます。
+Designer.Customizer.AGetUserInputConsole.configureInputItems=入力項目を構成
+Designer.Customizer.AGetUserInputConsole.defaultValues=デフォルト値
+Designer.Customizer.AGetUserInputConsole.inputMethod=入力方法:
+Designer.Customizer.AGetUserInputConsole.labelDefaultsForInput=入力項目のラベルとデフォルト:
+Designer.Customizer.AGetUserInputConsole.resultsVariable=結果変数:
+
+#These strings can be found by selecting a purple "magic folder" in the Install Tree
+Designer.Customizer.AGhostDirectory.magicFoldersRepresentSpecialLocations=マジック フォルダは、エンド ユーザーのシステム内にある特別な場所を表します。
+Designer.Customizer.AGhostDirectory.noteItemsNotInstalled=注意:マジック フォルダ内の項目は、このプロジェクトの結果としてビルドされたすべてのインストーラのリソースに追加されますが、エンドユーザーのシステムに永久的にインストールされるわけではありません。\n\nたとえば、このマジック フォルダを使用して、完成したインストーラにローカライズされたリソースを含めることができます。"
+
+#These strings can be found by add the action: Important Note Panel
+Designer.Customizer.AImportantNoteAction.textSourceFile=テキスト ソース ファイル:
+Designer.Customizer.AImportantNoteActionConsole.notTextFileSelected=<テキスト ファイルが選択されていません>
+
+Designer.Customizer.AInstallConsoleAction.fullyQualifiedClassName=完全修飾クラス名 (例、com.acme.MyCustomCodeConsole)。このクラスは、com.zerog.ia.api.pub.CustomCodeConsoleAction を拡張し、'public void executeConsoleAction ( )' メソッドを実装しなければなりません。
+
+#These strings can be found by add the action: 
+Designer.Customizer.AInstallDirAction.allowUserToSetInstallFolderName=ユーザーによるインストール フォルダ名およびパス #PLATFORM_NAMES# の指定を可能にする
+Designer.Customizer.AInstallDirAction.macOSXonly=Mac OS X のみ
+Designer.Customizer.AInstallDirAction.setInstallFolderTask=注意:デフォルトのインストール フォルダは、#TASK_NAME# タスクで設定できます。
+
+#These strings can be found by add the action:Install Directory
+Designer.Customizer.AInstallDirActionConsole.defaultInstallFoldersSetInPlatforms=注意:デフォルトのインストール フォルダは、プラットフォーム タスクで設定できます。
+Designer.Customizer.AInstallDirActionConsole.leaveBlankToNotShowText=注意:インストール時に追加のテキストを表示しない場合は、空白のままにしておきます。
+
+#These strings can be found by add the action: Install Speed Folder
+Designer.Customizer.AInstallDirCont.configureFilter=フィルタを構成...
+Designer.Customizer.AInstallDirCont.filterFiles=ファイルのフィルタリング
+Designer.Customizer.AInstallDirCont.filterFilesC=ファイルのフィルタリング:
+Designer.Customizer.AInstallDirCont.installFolderAndContents=フォルダとその内容をインストールする
+Designer.Customizer.AInstallDirCont.installOnlyFolderContents=フォルダの内容だけをインストールする
+Designer.Customizer.AInstallDirCont.noDirSelected=ディレクトリが選択されていません
+Designer.Customizer.AInstallDirCont.selectSpeedFolderDir=SpeedFolder のディレクトリを選択
+
+#These strings can be found by add the action:
+Designer.Customizer.AInstallNTService.allowShowGUI=サービスの GUI 表示を可能にする
+Designer.Customizer.AInstallNTService.executableToRegister=Windows サービスとして登録する実行可能ファイル:
+Designer.Customizer.AInstallNTService.existingExecutable=既存の実行可能ファイル:
+Designer.Customizer.AInstallNTService.installedExecutable=インストールされた実行可能ファイル:
+Designer.Customizer.AInstallNTService.noServiceShortName=<短いサービス名が指定されていません>
+Designer.Customizer.AInstallNTService.noTargetExecSpecified=<ターゲットの実行可能ファイルが指定されていません>
+Designer.Customizer.AInstallNTService.serviceName=サービス名:
+Designer.Customizer.AInstallNTService.serviceNameShort=サービス名 (短い名前):
+Designer.Customizer.AInstallNTService.startServiceAuto=システムの起動時にサービスを自動的に起動する
+
+#These strings can be found by add the action:Install Native Package (Used by both all)
+Designer.Customizer.AInstallNativePackage.buildTime=インストーラにバンドル:
+Designer.Customizer.AInstallNativePackage.choose=#TYPENAME#を選択...
+Designer.Customizer.AInstallNativePackage.chooseBttn=選択
+Designer.Customizer.AInstallNativePackage.installTime=エンド ユーザーのシステム上: 
+Designer.Customizer.AInstallNativePackage.showIndeterminate=不定ダイアログを表示:
+Designer.Customizer.AInstallNativePackage.doNotUninstall=アンインストールしない
+Designer.Customizer.AInstallNativePackage.noBundledFileSelected=<バンドル#TYPENAME#が選択されていません>
+Designer.Customizer.AInstallNativePackage.noPathSpecified=<パスが指定されていません>
+
+#These strings can be found by add the action:
+Designer.Customizer.AInstallPanelAction.chooseCodeArchive=コード アーカイブを選択
+Designer.Customizer.AInstallPanelAction.errorStatement=InstallAnywhere Javadocs を開くときにエラー発生。システムのデフォルト ブラウザを使って javadocs を開くことができませんでした。このマニュアルを表示するには、任意の Web ブラウザで #URL# にアクセスし、そこにあるドキュメントを開いてください。
+Designer.Customizer.AInstallPanelAction.iaAdvancedDesigner=InstallAnywhere アドバンスト デザイナ
+Designer.Customizer.AInstallPanelAction.qualifiedClassName=完全修飾クラス名 (例、com.acme.MyCustomCodePanel)。このクラスは、com.zerog.ia.api.pub.CustomCodePanel を拡張し、'public boolean setupUI (CustomCodePanelProxy)' メソッドを実装しなければなりません。
+
+#These strings can be found by add the action: Install Native Package (RPM)
+Designer.Customizer.AInstallRPMPackage.doNotUninstall=アンインストールしない
+Designer.Customizer.AInstallRPMPackage.force=インストールを強制する
+Designer.Customizer.AInstallRPMPackage.ignoreDependencies=依存関係を無視する
+Designer.Customizer.AInstallRPMPackage.relocateable=移動可能
+Designer.Customizer.AInstallRPMPackage.visualName=Linux RPM をインストール
+
+#These strings can be found by add the action: Install Native Package (Solaris)
+Designer.Customizer.AInstallSolarisPackage.adminFile=管理ファイル:
+Designer.Customizer.AInstallSolarisPackage.choose=ファイルを選択...
+Designer.Customizer.AInstallSolarisPackage.packageName=パッケージ名:
+Designer.Customizer.AInstallSolarisPackage.responseFile=応答ファイル:
+Designer.Customizer.AInstallSolarisPackage.noPackageName=<パッケージ名を指定してください>
+Designer.Customizer.AInstallSolarisPackage.visualName=Solaris パッケージをインストール
+
+#These strings can be found by add the action: Install Native Package (HP-UX)
+Designer.Customizer.AInstallHPUXPackage.packageName=パッケージ名:
+Designer.Customizer.AInstallHPUXPackage.noPackageName=<パッケージ名を指定してください>
+Designer.Customizer.AInstallHPUXPackage.visualName=HP-UX Depot をインストール
+
+#These strings can be found by add the action:Pre-Install Summary
+Designer.Customizer.AInstallSummary.aliasFolder=エイリアス フォルダ
+Designer.Customizer.AInstallSummary.aliasLinkShortcutFolder=エイリアス、リンク、ショートカット フォルダ
+Designer.Customizer.AInstallSummary.clickEditCustomFields=[カスタム フィールドを編集] ボタンをクリックすると、このパネルのカスタム フィールドを編集できます。
+Designer.Customizer.AInstallSummary.customFields=カスタム フィールド:
+Designer.Customizer.AInstallSummary.diskSpaceInfo=ディスク領域情報
+Designer.Customizer.AInstallSummary.editCustomFields=カスタム フィールドを編集
+Designer.Customizer.AInstallSummary.editCustomFieldsForButton=カスタム フィールドを編集...
+Designer.Customizer.AInstallSummary.fieldHeading=フィールドの見出し
+Designer.Customizer.AInstallSummary.fieldValue=フィールドの値
+Designer.Customizer.AInstallSummary.infcludeFollowingInfo=[インストール前の要約] パネルに含める情報:
+Designer.Customizer.AInstallSummary.installFolder=インストール フォルダ
+Designer.Customizer.AInstallSummary.productName=製品名
+Designer.Customizer.AInstallSummary.selectedInstallSets=選択されたインストール セット
+Designer.Customizer.AInstallSummary.selectedProductFeatures=選択された製品機能
+Designer.Customizer.AInstallSummary.vmInstallFolder=VM インストール フォルダ/システム VM
+
+#These strings can be found by add the action:Pre-Install Summary console
+Designer.Customizer.AInstallSummaryConsole.linkFolder=リンク フォルダ
+
+#These strings can be found by add the action:Add Jump Label
+Designer.Customizer.AJumpLabel.chooseJumpLabel=ジャンプ ラベルを選択...
+Designer.Customizer.AJumpLabel.chooseJumpLabel=ジャンプ ラベルを選択...
+Designer.Customizer.AJumpLabel.enterDescriptiveComment=ここに分かりやすいコメントを記入してください。
+Designer.Customizer.AJumpLabel.jumpAction=ジャンプ アクション
+Designer.Customizer.AJumpLabel.jumpLabel=ジャンプ ラベル
+Designer.Customizer.AJumpLabel.jumpToTarget=ジャンプ ターゲット:
+Designer.Customizer.AJumpLabel.nextJumpAction=次のジャンプ アクション
+Designer.Customizer.AJumpLabel.noJumpTargetSelected=<ジャンプ ターゲットが選択されていません>
+Designer.Customizer.AJumpLabel.previousJumpAction=前のジャンプ アクション
+
+#These strings can be found by add the action:Launch default browser
+Designer.Customizer.ALaunchDefaultBrowser.otherURL=その他の URL:
+Designer.Customizer.ALaunchDefaultBrowser.showPleaseWait=\"...お待ちください\" パネルを表示
+
+#These strings can be found by add the action:License Agreement
+Designer.Customizer.ALicenseAgrAction.agree=同意する
+Designer.Customizer.ALicenseAgrAction.commonLicenseFormants=一般的なライセンス形式
+Designer.Customizer.ALicenseAgrAction.consoleSupportsHTMLandTXT=注意:このコンソールは、HTML ファイルとテキスト ファイルの両方の表示をサポートします。
+Designer.Customizer.ALicenseAgrAction.defaultAcceptanceForLicense=使用許諾契約受諾のデフォルト設定:
+Designer.Customizer.ALicenseAgrAction.disagree=同意しない
+Designer.Customizer.ALicenseAgrAction.importantNotePreview=重要事項メッセージ テキストのプレビュー
+Designer.Customizer.ALicenseAgrAction.licensePreview=使用許諾契約メッセージ テキストのプレビュー
+Designer.Customizer.ALicenseAgrAction.licenseTextSource=使用許諾契約テキストのソース ファイル:
+Designer.Customizer.ALicenseAgrAction.noLicenseAgreementFileSelected=<使用許諾契約テキスト ファイルが選択されていません>
+Designer.Customizer.ALicenseAgrAction.openHTMLlinksInBrowser=ユーザーのデフォルト ブラウザで外部リンクを開く (HTML ソースのみ)
+Designer.Customizer.ALicenseAgrAction.openHTMLswingLinksInBrowser=ユーザーのデフォルト ブラウザで外部リンクを開く (HTML ソース/Swing UI のみ)
+Designer.Customizer.ALicenseAgrAction.panelSupportsHTMLandTXT=注意:このパネルは、HTML ファイルとテキスト ファイルの両方の表示をサポートします。
+Designer.Customizer.ALicenseAgrAction.selectLicense=使用許諾契約ファイルを選択
+Designer.Customizer.ALicenseAgrAction.forceScroll=強制的に使用許諾契約をスクロールする
+
+#These strings can be found by add the action:Set Windows Registry entry
+Designer.Customizer.AMakeRegEntry.data=データ:
+Designer.Customizer.AMakeRegEntry.dataType=データの型:
+Designer.Customizer.AMakeRegEntry.dontRemoveIfChanged=値が変更されていない場合は削除
+Designer.Customizer.AMakeRegEntry.exHKEY=例、 HKEY_LOCAL_MACHINE\\SOFTWARE\\MySoftware
+Designer.Customizer.AMakeRegEntry.exMySoftwwareLocation=例、MySoftwareLocation
+Designer.Customizer.AMakeRegEntry.exUserInstallDir=例、 $USER_INSTALL_DIR$
+Designer.Customizer.AMakeRegEntry.forceRemoval=値が変更されている場合でも強制的に削除
+Designer.Customizer.AMakeRegEntry.registryKey=レジストリ キー:
+Designer.Customizer.AMakeRegEntry.rollbackToPrevious=エントリを前の値に復元
+Designer.Customizer.AMakeRegEntry.uninstallOptions=アンインストールのオプション:
+Designer.Customizer.AMakeRegEntry.valueName=値の名前:
+
+#These strings can be found by add the action: Move Folder
+Designer.Customizer.AMoveFolderAction.moveContentsOnly=内容だけを移動
+Designer.Customizer.AMoveFolderAction.moveFolderAndContents=フォルダとその内容を移動
+
+#These strings can be found by add the action:
+Designer.Customizer.ANTServiceController.operation=操作:
+Designer.Customizer.ANTServiceController.pauseService=サービスを一時停止する
+Designer.Customizer.ANTServiceController.serviceName=サービス名:
+Designer.Customizer.ANTServiceController.showPleaseWait=\"...お待ちください\" パネルを表示
+Designer.Customizer.ANTServiceController.startService=サービスを開始する
+Designer.Customizer.ANTServiceController.stopService=サービスを停止する
+Designer.Customizer.ANTServiceController.suspendInstallation=プロセスが完了するまでインストールを中断する
+
+Designer.Customizer.ANoModules=マージ モジュールがありません
+Designer.Customizer.ANone.visualName=アクションがありません
+
+#These strings can be found by add the action:Perform XSL Transform
+Designer.Customizer.APerformXSLT.iaVariable=InstallAnywhere 変数
+Designer.Customizer.APerformXSLT.input=入力
+Designer.Customizer.APerformXSLT.noPresetsFound=<プリセットが見つかりませんでした>
+Designer.Customizer.APerformXSLT.noXSLTstylesheetSpecified=<XSL スタイルシートが指定されていません>
+Designer.Customizer.APerformXSLT.originalFile=オリジナルのファイル (バックアップが作成されます)
+Designer.Customizer.APerformXSLT.output=出力
+Designer.Customizer.APerformXSLT.predefinedTransform=設定済みの変換:
+Designer.Customizer.APerformXSLT.targetInInstaller=インストーラ内のターゲット:
+Designer.Customizer.APerformXSLT.targetOnLocalSystem=ローカル システム上のターゲット:
+Designer.Customizer.APerformXSLT.transformation=変換
+
+#These strings can be found by add the action:Install Power Update Client
+Designer.Customizer.APowerUpdateClient.warningNotSupported=警告:この PowerUpdate クライアント アクションは適切でないため、今後のバージョンでは削除されます。Macrovision の FLEXnet Conect への移行計画を立ててください。
+Designer.Customizer.APowerUpdateClient.choosePowUpdateClient=PowerUpdate クライアント ZIP ファイルを選択
+Designer.Customizer.APowerUpdateClient.chooseZip=ZIP を選択...
+Designer.Customizer.APowerUpdateClient.errorOpeningPowUpdate=PowerUpdate.com を開くときにエラー発生
+Designer.Customizer.APowerUpdateClient.iaAdvancedDesigner=InstallAnywhere アドバンスト デザイナ
+Designer.Customizer.APowerUpdateClient.maxOSXclientZip=Mac OS X クライアント ZIP:
+Designer.Customizer.APowerUpdateClient.noMacOSXpowUpdateClient=<Mac OS X PowerUpdate クライアント ZIP ファイルが選択されていません>
+Designer.Customizer.APowerUpdateClient.noUnixPowUpdateClient=<Unix PowerUpdate クライアント ZIP ファイルが選択されていません>
+Designer.Customizer.APowerUpdateClient.noWindowsPowUpdateClient=<Windows PowerUpdate クライアント ZIP ファイルが選択されていません>
+Designer.Customizer.APowerUpdateClient.openPowUpdateWebsite=www.PowerUpdate.com を開く...
+Designer.Customizer.APowerUpdateClient.powUpdateClientZIPFiles=PowerUpdate クライアント ZIP ファイル
+Designer.Customizer.APowerUpdateClient.sources=ソース:
+Designer.Customizer.APowerUpdateClient.unableToOpenPowUpdateWebpage=システムのデフォルト ブラウザを使って PowerUpdate Web ページを開くことができませんでした。この Web ページを表示するには、Macrovision PowerUpdate の Web サイト () をご覧ください。 #URL#
+Designer.Customizer.APowerUpdateClient.unixClientZip=Unix クライアント ZIP:
+Designer.Customizer.APowerUpdateClient.windowsClientZip=Windows クライアント ZIP:
+
+
+#These strings can be found by add the action:  Output Text to Console
+Designer.Customizer.APrintToConsole.enterTextToPrint=インストーラの実行時にコンソールに出力するテキストを入力してください。
+
+#These strings can be found by add the action:
+Designer.Customizer.APromptUserConsole.cancelAndExit=キャンセルして終了する
+Designer.Customizer.APromptUserConsole.continueToNext=次へ進む
+Designer.Customizer.APromptUserConsole.ifChosen=、選択された場合:
+Designer.Customizer.APromptUserConsole.message=メッセージ:
+Designer.Customizer.APromptUserConsole.option0=オプション 0:
+Designer.Customizer.APromptUserConsole.option1=オプション 1:
+Designer.Customizer.APromptUserConsole.option2=オプション 2:
+Designer.Customizer.APromptUserConsole.returnToPrevious=前の手順に戻る
+
+#These strings can be found by add the action:Restart Windows
+Designer.Customizer.ARebootAction.bestUsedWithInstallComplete=このアクションにより、Windows システムが再起動します。このアクションは、[パネル: インストール完了] と併せてよく使用されます。
+Designer.Customizer.ARebootAction.bestUsedWithUninstallComplete=このアクションにより、Windows システムが再起動します。このアクションは、[パネル: アンインストール完了] パネルと併せてよく使用されます。
+Designer.Customizer.ARebootAction.ruleUsageRecommended=このアクションには、InstallAnywhere 変数 $RESTART_NEEDED$ および $USER_REQUESTED_RESTART$ をチェックするための規則を設定することが推奨されています。
+
+Designer.Customizer.ASCMAction.featureInstructions=機能: 
+Designer.Customizer.ASCMAction.packageName=Solution Installation パッケージ
+Designer.Action.ASCMAction.visualName=Solution Installation パッケージをインストール
+Designer.Customizer.ASCMAction.variableNameLabel=結果変数名
+
+#These strings can be found by add the action:Get Serial Number Panel
+
+Designer.Customizer.ASetSerialNumber.serialNumberGeneration=シリアル番号の生成
+Designer.Customizer.ASetSerialNumber.allowLeaveBlank=シリアル番号を空白にしておいてもよい
+Designer.Customizer.ASetSerialNumber.configureSerialNumbers=シリアル番号を構成...
+Designer.Customizer.ASetSerialNumber.errBlank=#ITEM# を入力してください
+Designer.Customizer.ASetSerialNumber.errFewerSerialNumThanProducts=シリアル番号の数は、製品の数より多くなければなりません。
+Designer.Customizer.ASetSerialNumber.errInvalid=有効な #ITEM# を入力してください
+Designer.Customizer.ASetSerialNumber.errNegative=正の #ITEM# を入力してください
+Designer.Customizer.ASetSerialNumber.errNoEnoughDigitsForCount=お使いの構成で生成できる固有のシリアル番号は #COUNT# 個だけです。
+Designer.Customizer.ASetSerialNumber.errNumDigitsTooBig=桁数は #NUM_PRODUCTS# 以下でなければなりません。
+Designer.Customizer.ASetSerialNumber.errNumProductsToSmall=#NUM_PRODUCTS# 個の製品を表すのに、#NUM_DIGITS# 個の桁数では不十分です。
+Designer.Customizer.ASetSerialNumber.errOneDigitTooSmall=#NUM_PRODUCTS# 個の製品を表すのに、1 個の桁数では不十分です。
+Designer.Customizer.ASetSerialNumber.errZero=#ITEM# は、ゼロ (0) より大きくなければなりません。
+Designer.Customizer.ASetSerialNumber.file=ファイル
+Designer.Customizer.ASetSerialNumber.fileName=ファイル名:
+Designer.Customizer.ASetSerialNumber.fixedString=固定文字列
+Designer.Customizer.ASetSerialNumber.generateRandomSeed=ランダム シードを生成
+Designer.Customizer.ASetSerialNumber.generateSerialNumbers=シリアル番号を生成:
+Designer.Customizer.ASetSerialNumber.matchingProduct=一致する製品:
+Designer.Customizer.ASetSerialNumber.mutuallExclusiveProducts=同時使用できない製品
+Designer.Customizer.ASetSerialNumber.noMustBeGreaterThanProducts=シリアル番号の数は、製品の数より多くなければなりません。
+Designer.Customizer.ASetSerialNumber.noOfDigits=桁数
+Designer.Customizer.ASetSerialNumber.noProducts=製品の数
+Designer.Customizer.ASetSerialNumber.noSerialNumMustBeGreaterThan=シリアル番号の数は #NUM_SERIAL_NUMBERS# より多くなければなりません
+Designer.Customizer.ASetSerialNumber.noSerialNumbers=シリアル番号の数
+Designer.Customizer.ASetSerialNumber.numberOfDigitsTooBig=桁数は 24 以下でなければなりません。
+Designer.Customizer.ASetSerialNumber.pleaseEnterValidThing=有効な #THING# を入力してください
+Designer.Customizer.ASetSerialNumber.prefix=プレフィックス
+Designer.Customizer.ASetSerialNumber.saveSerialNumersToFile=シリアル番号をファイルに保存する
+Designer.Customizer.ASetSerialNumber.saveToFile=ファイルに保存...
+Designer.Customizer.ASetSerialNumber.seed=シード
+Designer.Customizer.ASetSerialNumber.serialNumberConfig=シリアル番号の構成
+Designer.Customizer.ASetSerialNumber.serialNumberConfigError=シリアル番号の構成エラー
+Designer.Customizer.ASetSerialNumber.serialNumberEntered=入力されたシリアル番号:
+Designer.Customizer.ASetSerialNumber.suffix=接尾辞
+
+#These strings can be found by add the action: Choose Alias, Shortcut, Link Location
+Designer.Customizer.AShortcutLocAction.platformsTask=プラットフォーム タスク
+Designer.Customizer.AShortcutLocAction.noteDefault=注意:デフォルトの #shortcutLbl#  フォルダは、プラットフォーム タスクで設定できます。
+Designer.Customizer.AShortcutLocAction.macOSaliases=Mac OS エイリアス:
+Designer.Customizer.AShortcutLocAction.noteSetShortcutLabel=注意:デフォルトの #SHORTCUT_LABEL# フォルダは、#TASK_NAME# タスクで設定できます。
+Designer.Customizer.AShortcutLocAction.unixLinks=Unix リンク
+Designer.Customizer.AShortcutLocAction.windowsShortcuts=Windows ショートカット:
+
+#These strings can be found by add the action: Show message dialog
+Designer.Customizer.AShowDialogAction.button0=ボタン 0:
+Designer.Customizer.AShowDialogAction.button1=ボタン 1:
+Designer.Customizer.AShowDialogAction.button2=ボタン 2:
+Designer.Customizer.AShowDialogAction.cancelAndExit=キャンセルして終了する
+Designer.Customizer.AShowDialogAction.continueToNext=次へ進む
+Designer.Customizer.AShowDialogAction.dialogType=ダイアログのタイプ:
+Designer.Customizer.AShowDialogAction.error=エラー
+Designer.Customizer.AShowDialogAction.ifChosen=、選択された場合:
+Designer.Customizer.AShowDialogAction.information=情報
+Designer.Customizer.AShowDialogAction.label=ラベル:
+Designer.Customizer.AShowDialogAction.message=メッセージ:
+Designer.Customizer.AShowDialogAction.previewDialog=ダイアログをプレビュー...
+Designer.Customizer.AShowDialogAction.query=クエリ
+Designer.Customizer.AShowDialogAction.resultsVariable=結果変数:
+Designer.Customizer.AShowDialogAction.returnToPrevious=前のパネルに戻る
+
+#These strings can be found by add the action: Modify Text File= 複数のファイル
+Designer.Customizer.ASpeedASCIIFileManipulator.changeLineEndingsTo=行末を次のように変更:
+Designer.Customizer.ASpeedASCIIFileManipulator.chooseFolder=フォルダを選択
+Designer.Customizer.ASpeedASCIIFileManipulator.chooseTargetFolder=ターゲット フォルダを選択...
+Designer.Customizer.ASpeedASCIIFileManipulator.configureFilter=フィルタを構成...
+Designer.Customizer.ASpeedASCIIFileManipulator.fileWontModified=以下の条件に一致するファイルには、変更が加えられません。これらの条件は、包含条件より優先されます。
+Designer.Customizer.ASpeedASCIIFileManipulator.filesWillBeModified=以下の条件に一致するファイルには、変更が加えられます。
+Designer.Customizer.ASpeedASCIIFileManipulator.filterFile=ファイルのフィルタリング
+Designer.Customizer.ASpeedASCIIFileManipulator.filterFiles=ファイルのフィルタリング:
+Designer.Customizer.ASpeedASCIIFileManipulator.searchReplaceStrings=文字列を検索して置換
+Designer.Customizer.ASpeedASCIIFileManipulator.subIAvariablesInFile=ファイルで InstallAnywhere 変数を代用
+Designer.Customizer.ASpeedASCIIFileManipulator.willModifyAtInstall=条件に一致するファイルは、インストール時に変更が加えられます。以下のタブを使用して、ファイルの照合条件を定義してください。
+
+#These strings can be found by add the action:Set Windows Entry multiple entries
+Designer.Customizer.ASpeedRegistryEntry.chooseRegisrtyFile=レジストリ ファイルを選択
+Designer.Customizer.ASpeedRegistryEntry.choseRegEditFormat=RegEdit 形式のファイル (.reg) または Macrovision レジストリ形式のファイル (.zgr) を選択してください。
+Designer.Customizer.ASpeedRegistryEntry.clickToEdit=エントリを編集するには、[エントリを編集] ボタンをクリックします。
+Designer.Customizer.ASpeedRegistryEntry.editEntries=エントリを編集...
+Designer.Customizer.ASpeedRegistryEntry.errDuplicateKeys=1 つのレジストリ キー内に 2 つの同じ値名を設定することはできません。
+Designer.Customizer.ASpeedRegistryEntry.fileNotSupported=選択したファイルは、サポートされている InstallAnywhere Windows レジストリ形式のファイルではありません。
+Designer.Customizer.ASpeedRegistryEntry.forceRemoval=値が変更されている場合でも強制的に削除
+Designer.Customizer.ASpeedRegistryEntry.iaWindowsRegistryFiles=InstallAnywhere Windows レジストリ ファイル
+Designer.Customizer.ASpeedRegistryEntry.importFile=ファイルをインポート...
+Designer.Customizer.ASpeedRegistryEntry.invalidFormat=形式が無効です
+Designer.Customizer.ASpeedRegistryEntry.mustEnterKey=レジストリ キーを入力する必要があります。
+Designer.Customizer.ASpeedRegistryEntry.removeIfNotChanged=値が変更されていない場合は削除
+Designer.Customizer.ASpeedRegistryEntry.rollbackToPrevious=エントリを前の値に復元
+Designer.Customizer.ASpeedRegistryEntry.supportedRegistryFiles=サポートされているレジストリ ファイル
+Designer.Customizer.ASpeedRegistryEntry.uninstallOptions=アンインストールのオプション:
+Designer.Customizer.ASpeedRegistryEntry.windowsRegistryFiles=Windows レジストリ ファイル
+
+#These strings can be found by add the action:
+Designer.Customizer.AStubInstallerAction.allowUserToCacheData=ユーザーによるインストーラ データのローカル キャッシュを可能にする
+Designer.Customizer.AStubInstallerAction.chooseProperties=プロパティを選択...
+Designer.Customizer.AStubInstallerAction.choosePropertiesFile=プロパティ ファイルを選択
+Designer.Customizer.AStubInstallerAction.clientCode=クライアント コード:
+Designer.Customizer.AStubInstallerAction.downloalPropertiesFile=プロパティ ファイルをダウンロード
+Designer.Customizer.AStubInstallerAction.noPropertiesFileSelected=<プロパティ ファイルが選択されていません>
+Designer.Customizer.AStubInstallerAction.productName=製品名:
+Designer.Customizer.AStubInstallerAction.propertyFile=プロパティ ファイル:
+Designer.Customizer.AStubInstallerAction.serverURL=サーバー URL:
+Designer.Customizer.AStubInstallerAction.stubInstallConfig=スタブ インストーラの構成情報:
+
+#These strings can be found by add the action:Install Merge Module
+Designer.Customizer.ASubinstaller.bundleAtBuildTime=ビルド時に#packageKind#をバンドルする
+Designer.Customizer.ASubinstaller.chooseMergeModule= #packageKind#を選択...
+Designer.Customizer.ASubinstaller.clickEditVariables=変数を編集するには、[変数を編集] ボタンをクリックします。
+
+Designer.Customizer.ASubinstaller.comment=コメント
+Designer.Customizer.ASubinstaller.editOutboundIAvariables=出力方向の InstallAnywhere 変数を編集
+Designer.Customizer.ASubinstaller.editVariables=変数を編集...
+Designer.Customizer.ASubinstaller.iaVariablesToPass=インストールするマージ モジュールに渡す InstallAnywhere 変数:
+Designer.Customizer.ASubinstaller.inheritsParentInstallDir=インストールされたマージ モジュールが親インストール ディレクトリを継承する
+Designer.Customizer.ASubinstaller.locateAtInstallTime=インストール時に #packageKind#を検索する
+Designer.Customizer.ASubinstaller.location=場所:
+Designer.Customizer.ASubinstaller.mergeModuleType= #packageKind#のタイプ:
+Designer.Customizer.ASubinstaller.noInstallTimeMergeModuleLocation=<インストール時の #packageKind#の場所が指定されていません>
+Designer.Customizer.ASubinstaller.noMergeModuleSelected=< #packageKind#が選択されていません>
+Designer.Customizer.ASubinstaller.packageName=マージ モジュール
+Designer.Customizer.ASubinstaller.showIndeterminateDialog=不定ダイアログを表示
+Designer.Customizer.ASubinstaller.value=値
+Designer.Customizer.ASubinstaller.variableName=変数名
+
+Designer.Customizer.ASubinstaller.type=タイプ
+Designer.Customizer.ASubinstaller.runPre=インストール前のアクションを実行
+Designer.Customizer.ASubinstaller.runPost=インストール後のアクションを実行
+SubInstallerVariableAtom.input=マージ モジュールに送信
+SubInstallerVariableAtom.output=マージ モジュールから取得
+SubInstallerVariableAtom.stdout=stdout から取得
+SubInstallerVariableAtom.stderr=stderr から取得
+SubInstallerVariableAtom.name=変数名
+SubInstallerVariableAtom.value=値
+SubInstallerVariableAtom.type=タイプ
+SubInstallerVariableAtom.comment=コメント
+SubInstallerVariableAtom.mmVarName=MM 変数名
+SubInstallerVariableAtom.parentVarName=親変数名
+SubInstallerVariableAtom.defValue=デフォルト値
+SubInstallerVariableAtom.setsVar=親変数を設定
+SubInstallerVariableAtom.getVal=値の取得元
+
+Designer.Customizer.ASubuninstaller.commandExplanation=アンインストーラがあるフォルダへのフル パスを入力してください 
+Designer.Customizer.ASubuninstaller.commandExplanation2=(例、 "$USER_INSTALL_DIR$$/$Uninstall $PRODUCT_NAME$")
+Designer.Customizer.ASubuninstaller.uninstallerFolder=アンインストーラ フォルダ:
+Designer.Customizer.ASubinstaller.visualName=アンインストーラを実行
+Execute.uninstaller.uimode=アンインストーラ UI モード:
+Execute.uninstaller.uimode.1=親と同じ 
+Execute.uninstaller.uimode.2=常に GUI を表示する 
+Execute.uninstaller.uimode.3=常にサイレントで実行する
+
+#These strings can be found by add the action:Custom Code
+Designer.Customizer.AUCustomAction.noteMethodToCall=注意:uninstall() メソッドが呼び出されます。このカスタム コード アクションでは、インストール時にその install() メソッドは呼び出されません。
+
+#These strings can be found by add the action:Uninstall Complete
+Designer.Customizer.AUninstallCompleteActionConsole.enterCompleteMessage=アンインストールが成功したときに表示するメッセージを入力してください。
+Designer.Customizer.AUninstallCompleteActionConsole.enterIncompleteMessage=アンインストールが不完全に終わったときに表示するメッセージを入力してください。
+
+#These strings can be found by add the action: Choose Uninstall Type
+Designer.Customizer.AUninstallFeaturesAction.buttonImage=ボタン イメージ:
+Designer.Customizer.AUninstallFeaturesAction.chooseAnImageFile=イメージ ファイルを選択
+Designer.Customizer.AUninstallFeaturesAction.uninstallAll=すべての機能をアンインストール:
+Designer.Customizer.AUninstallFeaturesAction.uninstallSome=特定の機能をアンインストール:
+
+Designer.Customizer.AbstractActionsContainer.chooseAnAction=アクションを選択
+
+#These strings can be found by add the action:Choose File
+Designer.Customizer.AbstractFileChooser.chooseFileOrFolder=ファイル/フォルダを選択
+Designer.Customizer.AbstractFileChooser.installerRequiresFileFolder=このインストーラには、ファイル/フォルダを選択する必要があります
+Designer.Customizer.AbstractFileChooser.pleaseChooseFileOrFolder=ファイル/フォルダを選択してください。
+
+
+# Area
+# InstallerUI designer tab
+# ----------------------------------
+Designer.Customizer.BillboardCust.previewBillboard=ビルボードをプレビュー
+Designer.Customizer.BillboardCust.awtPreferred=優先 GUI モードが AWT で、インストール中にサイド パネルを表示しないように選択してある場合は、最大サイズが 587 x 312 となります。
+Designer.Customizer.BillboardCust.billBoard=ビルボード
+Designer.Customizer.BillboardCust.billboardImagePreview=ビルボード イメージのプレビュー
+Designer.Customizer.BillboardCust.noteMaxPreferSize=注意:ビルボードの最大サイズ (優先サイズ) は 380 x 270 です。  
+Designer.Customizer.BillboardCust.selectAnImageFile=イメージ ファイルを選択
+
+# Area
+# Organization designer tab
+# -----------------------------------
+Designer.Customizer.Bundle.productFeature=製品機能
+Designer.Customizer.Bundle.shortName=短い名前:
+
+Designer.Customizer.ChooseInstallSetAction.allowEndUserCustomization=エンドユーザーが \"製品機能を選択\" パネルを使用してインストーラをカスタマイズできるようにする
+Designer.Customizer.ChooseInstallSetAction.configureCustomInstallset=カスタム インストール セットを構成...
+Designer.Customizer.ChooseInstallSetAction.customInstallset=カスタム インストール セット
+Designer.Customizer.ChooseInstallSetAction.productFeaturesPanelTitle=製品機能パネルのタイトル:
+Designer.Customizer.ChooseInstallSetAction.productFeaturesPanelTitle=製品機能パネルのタイトル:
+Designer.Customizer.ChooseInstallSetAction.showChooseProductFeaturesWithoutChooseInstallSets=\"インストール セットを選択\" パネルを使用せずに \"製品機能を選択\" パネルを表示する
+
+Designer.Customizer.ChooseInstallSetActionConsole.allowEndUserCustomization=エンドユーザーが \"製品機能を選択\" コンソールを使用してインストーラをカスタマイズできるようにする
+Designer.Customizer.ChooseInstallSetActionConsole.showChooseProductFeaturesWithoutChooseInstallSets=\"インストール セットを選択\" コンソールを使用せずに \"製品機能を選択\" パネルを表示する
+#These strings can be found Organization->依存関係
+Designer.Customizer.ComponentDependencyCustomizer.guid=GUID:
+Designer.Customizer.ComponentDependencyCustomizer.matchesKeyFile=照合するキー ファイルの場所:
+Designer.Customizer.ComponentDependencyCustomizer.matchAny=任意照合
+Designer.Customizer.ComponentDependencyCustomizer.returnVariableName=一致したキー ファイルの場所:
+Designer.Customizer.ComponentDependencyCustomizer.keyFile=照合の制限\:
+Designer.Customizer.ComponentDependencyCustomizer.componentDependency=コンポーネントの依存関係
+Designer.Customizer.ComponentDependencyCustomizer.versionMatch=バージョンの一致
+Designer.Customizer.ComponentDependencyCustomizer.versionAtLeast=最低バージョン:
+Designer.Customizer.ComponentDependencyCustomizer.versionAtMost=最高バージョン:
+Designer.Customizer.ComponentDependencyCustomizer.dependencyStateVariable=依存関係状態変数:
+Designer.Customizer.ComponentDependencyCustomizer.dependencyFailedMessage=依存関係エラー メッセージ:
+
+# Area
+# Menu items
+# -----------------
+Designer.Customizer.DesignerGUI.aboutInstallAnywhere=InstallAnywhere のバージョン情報...
+Designer.Customizer.DesignerGUI.all=すべて
+Designer.Customizer.DesignerGUI.append=追加
+Designer.Customizer.DesignerGUI.build=ビルド
+Designer.Customizer.DesignerGUI.checkForUpdates=アップデートをチェック...
+Designer.Customizer.DesignerGUI.clearAction=アクションをクリア
+Designer.Customizer.DesignerGUI.clearRules=規則をクリア
+Designer.Customizer.DesignerGUI.copyAction=アクションをコピー
+Designer.Customizer.DesignerGUI.copyRules=規則をコピー
+Designer.Customizer.DesignerGUI.cutAction=アクションを切り取る
+Designer.Customizer.DesignerGUI.cutRules=規則を切り取る
+Designer.Customizer.DesignerGUI.doNotWarnAgain=次回この警告を表示しない
+Designer.Customizer.DesignerGUI.dontSave=保存しない
+Designer.Customizer.DesignerGUI.edit=編集
+Designer.Customizer.DesignerGUI.errorOpeningIAmanual=InstallAnywhere マニュアルを開くときにエラー発生
+Designer.Customizer.DesignerGUI.exit=終了
+Designer.Customizer.DesignerGUI.file=ファイル
+Designer.Customizer.DesignerGUI.help=ヘルプ
+Designer.Customizer.DesignerGUI.iaAdvancedDesigner=InstallAnywhere アドバンスト デザイナ
+Designer.Customizer.DesignerGUI.iaHelp=InstallAnywhere ヘルプ...
+Designer.Customizer.DesignerGUI.iaPreferences=InstallAnywhere のプレファレンス
+Designer.Customizer.DesignerGUI.importMergeModule=静的マージ モジュールをインポート
+Designer.Customizer.DesignerGUI.files=ファイル
+Designer.Customizer.DesignerGUI.installerUI=インストーラ UI
+Designer.Customizer.DesignerGUI.longerReveryChangesStatement='#PROJECT_FILENAME#' プロジェクトを最後の保存状態に戻すと、それ以降にプロジェクトに加えられた変更はすべて破棄されます。このプロジェクトに加えられた変更をすべて破棄しますか?
+Designer.Customizer.DesignerGUI.new=新規...
+Designer.Customizer.DesignerGUI.noRulesPasted=一部の規則はこの規則に添付できません。\n規則は貼り付けられません。
+Designer.Customizer.DesignerGUI.notSet=設定されていません
+Designer.Customizer.DesignerGUI.oneRulePasted=一部の規則はこの規則に添付できません。\n残りの規則は貼り付けられます。
+Designer.Customizer.DesignerGUI.open=開く...
+Designer.Customizer.DesignerGUI.openProjectFile=プロジェクト ファイルを開く
+Designer.Customizer.DesignerGUI.openRecent=最近使ったファイルを開く
+Designer.Customizer.DesignerGUI.organization=構造
+Designer.Customizer.DesignerGUI.pastAction=アクションを貼り付ける
+Designer.Customizer.DesignerGUI.pasteRules=規則を貼り付ける
+Designer.Customizer.DesignerGUI.postInstall=インストール後
+Designer.Customizer.DesignerGUI.postuninstall=アンインストール後
+Designer.Customizer.DesignerGUI.preferences=プレファレンス...
+Designer.Customizer.DesignerGUI.preinstall=インストール前
+Designer.Customizer.DesignerGUI.preuninstall=アンインストール前
+Designer.Customizer.DesignerGUI.project=プロジェクト
+Designer.Customizer.DesignerGUI.qRevertChangesStatement='#PROJECT_FILENAME#' プロジェクトへの変更を元に戻しますか?
+Designer.Customizer.DesignerGUI.qWantToSave=操作を行う前に現在の InstallAnywhere プロジェクトを保存しますか?
+Designer.Customizer.DesignerGUI.register=登録...
+Designer.Customizer.DesignerGUI.replace=置換
+Designer.Customizer.DesignerGUI.revertToSaved=最後の保存状態に戻す...
+Designer.Customizer.DesignerGUI.save=保存
+Designer.Customizer.DesignerGUI.saveAs=名前を付けて保存...
+Designer.Customizer.DesignerGUI.saveCopyAs=コピーに名前を付けて保存...
+Designer.Customizer.DesignerGUI.saveProjectAs=プロジェクトに名前を付けて保存...
+Designer.Customizer.DesignerGUI.saveProjectAs=新規プロジェクトに名前を付けて保存
+Designer.Customizer.DesignerGUI.saveProjectCopyAs=プロジェクトのコピーに名前を付けて保存...
+Designer.Customizer.DesignerGUI.exportToIANET=InstallAnywhere.NET にエクスポート...
+Designer.Customizer.DesignerGUI.selected=選択
+Designer.Customizer.DesignerGUI.showHelp=ヘルプを表示
+Designer.Customizer.DesignerGUI.someRulesCannotBePasted=一部の規則は貼り付けることができません。
+Designer.Customizer.DesignerGUI.someRulesPasted=一部の規則はこの規則に添付できません。\n残りの規則は貼り付けられます。
+Designer.Customizer.DesignerGUI.startWizard=ウィザードを起動...
+Designer.Customizer.DesignerGUI.unableToLoadStatement=要求されたプロジェクト '' を読み込むことができません。'#PROJECT_FILENAME#'。  このプロジェクトは開発システム内で見つからなかったため、読み込むことができませんでした。
+Designer.Customizer.DesignerGUI.uninstall=アンインストール
+Designer.Customizer.DesignerGUI.wantToSaveStatement='#PROJECT_FILENAME#' プロジェクトを保存しますか?
+Designer.Customizer.DesignerGUI.warningErrorLoadingProjectFile=警告: プロジェクト ファイルを読み込み中にエラー発生
+Designer.Customizer.DesignerGUI.wizard=ウィザード
+
+#These strings can be found by going to the pre-install task and clicking on add action
+Designer.Customizer.DialogAddDynamic.actions=アクション
+Designer.Customizer.DialogAddDynamic.consoles=コンソール
+Designer.Customizer.DialogAddDynamic.general=全般
+Designer.Customizer.DialogAddDynamic.install=インストール
+Designer.Customizer.DialogAddDynamic.panels=パネル
+Designer.Customizer.DialogAddDynamic.plugins=プラグイン
+
+#These strings can be found by clicking on a customizer it should be the rules tab
+Designer.Customizer.DialogAddRules.add=追加
+Designer.Customizer.DialogAddRules.rules=規則
+
+#These strings can be found by going to Project->Modules->Import Merge Module once a module has been loaded then this dialog will appear
+Designer.Customizer.DialogCustomizeMerge.fromContainedTasks=マージ モジュールに含まれているタスクのうち
+Designer.Customizer.DialogCustomizeMerge.iaMergeModuleImportAssistant=InstallAnywhere マージ モジュールのインポート アシスタント
+Designer.Customizer.DialogCustomizeMerge.importFeaturesAsChildren=各機能を新しい機能の下位にインポートする
+Designer.Customizer.DialogCustomizeMerge.importFeaturesAtTopLevel=各機能を最上位レベルの機能としてインポートする
+Designer.Customizer.DialogCustomizeMerge.importSettings=インポート設定
+Designer.Customizer.DialogCustomizeMerge.importingMergeModuleAddComponents=マージ モジュールをプロジェクト内にインポートすると、別のプロジェクトの一部として作成された機能やコンポーネントを既存のプロジェクトにすばやく統合できるようになります。下のオプションを使用すると、選択したマージ モジュールについて、現在開いているプロジェクトに直接インポートおよび統合するアスペクトをカスタマイズできます。詳細については、InstallAnywhere のマニュアルを参照してください。
+Designer.Customizer.DialogCustomizeMerge.installTask=ファイル タスク
+Designer.Customizer.DialogCustomizeMerge.postInstallTask=インストール後タスク （パネル、コンソール、およびアクション）
+Designer.Customizer.DialogCustomizeMerge.preInstallTasks=インストール前タスク （パネル、コンソール、およびアクション）
+Designer.Customizer.DialogCustomizeMerge.qFromWhatTasksShouldActionsBeImported=マージ モジュールに含まれているタスクのうち、どのタスクからアクションをインポートしますか?
+Designer.Customizer.DialogCustomizeMerge.qHowShouldFeaturesBeIntegrated=マージ モジュールに含まれている製品機能をどのようにして現在のプロジェクトに統合しますか?
+
+Designer.Customizer.GhostDirectory.magicFolder=マジック フォルダ
+
+#These strings can be found by going to Organization.Components
+Designer.Customizer.InstallComponentCust.billboardCustHasNoBillboard=このインストーラに使用するビルボードが BillboardCust にありません\!\!
+Designer.Customizer.InstallComponentCust.chooseAKeyFile=キー ファイルを選択
+Designer.Customizer.InstallComponentCust.chooseKeyFile=キー ファイルを選択...
+Designer.Customizer.InstallComponentCust.component=コンポーネント
+Designer.Customizer.InstallComponentCust.generateIdentifier=識別子を生成
+Designer.Customizer.InstallComponentCust.keyFile=キー ファイル:
+Designer.Customizer.InstallComponentCust.noKeyFileSelected=<キー ファイルが選択されていません>
+Designer.Customizer.InstallComponentCust.shortName=短い名前:
+Designer.Customizer.InstallComponentCust.uniqueID=固有 ID:
+Designer.Customizer.InstallComponentCust.versionID=バージョン:
+Designer.Customizer.InstallComponentCust.componentOnly=標準コンポーネント – このコンポーネントは常にインストールされます。
+Designer.Customizer.InstallComponentCust.dependencyAndComponent=共有コンポーネント – このコンポーネントは、まだインストールされていない場合にのみインストールされます。
+Designer.Customizer.InstallComponentCust.dependencyOnly=依存関係 – このコンポーネントは、すでにインストールされていなければなりません。
+Designer.Customizer.InstallComponentCust.compType=コンポーネントのタイプ:
+Designer.Customizer.InstallComponentCust.dependency=依存関係
+
+
+
+Designer.Customizer.InstallDirectory.newFolder=新規フォルダ
+
+#These strings can be found by going to the any install panel action and by hovering over disabled tabs (Help Tab and label settings)
+Designer.Customizer.InstallPanelActionDashboard.chooseImage=イメージを選択...
+Designer.Customizer.InstallPanelActionDashboard.chooseLabelFromList=インストール手順ラベルの一覧からラベルを選択する:
+Designer.Customizer.InstallPanelActionDashboard.disableBecauseAdditionsDisabled=[インストーラ パネルへの追加オブジェクト] が無効になっているため、無効です。
+Designer.Customizer.InstallPanelActionDashboard.disabledBecauseAdditionsDisabled=[インストーラ パネルへの追加オブジェクト] が無効になっているため、無効です。
+Designer.Customizer.InstallPanelActionDashboard.disabledBecauseAdditionsIsImages=[インストーラ パネルへの追加オブジェクトのタイプ] がイメージに設定されているため、無効です。
+Designer.Customizer.InstallPanelActionDashboard.disabledBecauseAdditionsNotEnabled=現在どの GUI ベースのインストーラ モードも有効でないため、無効です。
+Designer.Customizer.InstallPanelActionDashboard.disabledBecauseAdditionsTypeIsLabels=[インストーラ パネルへの追加オブジェクトのタイプ] がラベルに設定されているため、無効です。
+Designer.Customizer.InstallPanelActionDashboard.disabledBecauseInstallHelpNotEnabled=インストーラ ヘルプが有効になっていないため、無効です。
+Designer.Customizer.InstallPanelActionDashboard.disabledbecauseInstallerHelpNotContextual=インストーラ ヘルプは文脈対応型でないため、無効です。
+Designer.Customizer.InstallPanelActionDashboard.doNotDisplayImage=イメージを表示しない
+Designer.Customizer.InstallPanelActionDashboard.enableHelp=このパネルのヘルプを有効にする
+Designer.Customizer.InstallPanelActionDashboard.generalSettings=全般設定
+Designer.Customizer.InstallPanelActionDashboard.helpSettings=ヘルプ設定
+Designer.Customizer.InstallPanelActionDashboard.helpText=ヘルプ テキスト:
+Designer.Customizer.InstallPanelActionDashboard.highlightSameLabelAsPrevious=前のパネルと同じラベルをハイライトする
+Designer.Customizer.InstallPanelActionDashboard.imageSettings=イメージ設定
+Designer.Customizer.InstallPanelActionDashboard.imageSettings=イメージ設定
+Designer.Customizer.InstallPanelActionDashboard.installStepLabelSettings=インストール手順ラベルの設定
+Designer.Customizer.InstallPanelActionDashboard.labelSettings=ラベル設定
+Designer.Customizer.InstallPanelActionDashboard.noImageFileSelected=<イメージ ファイルが選択されていません>
+Designer.Customizer.InstallPanelActionDashboard.privatePanelImagePreview=プライベート パネル イメージのプレビュー
+Designer.Customizer.InstallPanelActionDashboard.privatePanelLabelPreview=プライベート パネル ラベルのプレビュー
+Designer.Customizer.InstallPanelActionDashboard.selectImageFile=イメージ ファイルを選択
+Designer.Customizer.InstallPanelActionDashboard.specifyImage=イメージを指定する (170 x 305)
+Designer.Customizer.InstallPanelActionDashboard.useInstallersDefaultImage=インストーラのデフォルト イメージを使用する ([プロジェクト] の [インストーラ UI] タスクを参照)
+Designer.Customizer.InstallPanelActionDashboard.useSameImageAsPrevious=前のパネルと同じイメージを使用する
+
+#These strings can be found after building and importing a merge module
+Designer.Customizer.InstallProductCust.areaForComment=この領域は、現在のプロジェクトにおけるこのマージ モジュールの使用または保守に関連するコメントや注記を記録するために使用します。
+Designer.Customizer.InstallProductCust.commentsNotes=コメント/注記:
+Designer.Customizer.InstallProductCust.creationDateTime=作成日時:
+Designer.Customizer.InstallProductCust.earlyAccessProject=Early Access プロジェクト。マージ データ情報はありません。
+Designer.Customizer.InstallProductCust.mergeModule=マージ モジュール
+Designer.Customizer.InstallProductCust.moduleName=モジュール名:
+Designer.Customizer.InstallProductCust.modulePath=モジュールのパス:
+Designer.Customizer.InstallProductCust.vendor=ベンダ:
+Designer.Customizer.InstallProductCust.version=バージョン:
+Designer.Customizer.InstallProductCust.select=マージ モジュールを選択...
+
+#These strings can be found going to Organization->Install Set
+Designer.Customizer.InstallSetCust.=
+Designer.Customizer.InstallSetCust.chooseImageFile=イメージ ファイルを選択
+Designer.Customizer.InstallSetCust.installSet=インストール セット
+Designer.Customizer.InstallSetCust.reallyUseDefaultImage=このデフォルト イメージを使用してもよろしいですか?
+Designer.Customizer.InstallSetCust.useDefaultImage=デフォルトのイメージを使用しますか?
+
+#These strings can be found by going the Install task these are the buttons under the table and also can be found as part of the menu items under Edit
+Designer.Customizer.InstallTreeCustomizer.addAction=アクションを追加...
+Designer.Customizer.InstallTreeCustomizer.addFiles=ファイルを追加...
+Designer.Customizer.InstallTreeCustomizer.clearAction=アクションをクリア
+Designer.Customizer.InstallTreeCustomizer.clearRule=規則をクリア
+Designer.Customizer.InstallTreeCustomizer.copyAction=アクションをコピー
+Designer.Customizer.InstallTreeCustomizer.copyRule=規則をコピー
+Designer.Customizer.InstallTreeCustomizer.cutAction=アクションを切り取る
+Designer.Customizer.InstallTreeCustomizer.cutRule=規則を切り取る
+Designer.Customizer.InstallTreeCustomizer.duplicateAction=アクションを複製
+Designer.Customizer.InstallTreeCustomizer.moveToMagicFolder=マジックフォルダに移動
+Designer.Customizer.InstallTreeCustomizer.pasteAction=アクションを貼り付ける
+Designer.Customizer.InstallTreeCustomizer.pasteRule=規則を貼り付ける
+
+
+Designer.Customizer.JZGMagicFolderPopupMenu.developerDefined=開発者定義
+Designer.Customizer.JZGMagicFolderPopupMenu.general=全般
+Designer.Customizer.JZGMagicFolderPopupMenu.other=その他
+Designer.Customizer.JZGMagicFolderPopupMenu.unixAndMac=Unix (および Mac OS X)
+
+#These strings can be found adding a Speed Folder action then selecting a folder and hitting the configure filter button.
+Designer.Customizer.PatternAtom.condition=条件
+Designer.Customizer.PatternAtom.ignoreCase=大文字と小文字を区別しない
+Designer.Customizer.PatternAtom.matchTo=照合内容
+
+
+Designer.Customizer.Project.currentProject=現在のプロジェクト:
+Designer.Customizer.Project.mergedModule=マージ モジュール:
+
+# Area
+# Rules
+# ---------
+# Add an action to the project, and add some rules to view these strings.
+
+# Compare Regular Expression Rule
+Designer.Customizer.RCompareRegExpression.doesNotMatch=が次の値に一致しない
+Designer.Customizer.RCompareRegExpression.matchRegExpression=正規表現の照合
+Designer.Customizer.RCompareRegExpression.matches=が次の値に一致する
+Designer.Customizer.RCompareRegExpression.noRegExpressionSpecified=<正規表現が指定されていません>
+Designer.Customizer.RCompareRegExpression.operand=オペランド:
+Designer.Customizer.RCompareRegExpression.regExpression=正規表現:
+
+# Compare InstallAnywhere Variable Rule
+Designer.Customizer.RCompareVariable.beginsWith=が次の値で始まる
+Designer.Customizer.RCompareVariable.compareIAvariables=InstallAnywhere 変数の比較
+Designer.Customizer.RCompareVariable.contains=が次の値を含む
+Designer.Customizer.RCompareVariable.doesNotContain=が次の値を含まない
+Designer.Customizer.RCompareVariable.doesNotEqual=が次の値と等しくない
+Designer.Customizer.RCompareVariable.endsWith=が次の値で終わる
+Designer.Customizer.RCompareVariable.equals=が次の値に等しい
+Designer.Customizer.RCompareVariable.operand1=オペランド 1:
+Designer.Customizer.RCompareVariable.operand2=オペランド 2:
+
+Designer.Customizer.RCustomRule.chooseCodeArchive=コード アーカイブを選択
+Designer.Customizer.RCustomRule.configDependancies=依存関係を構成...
+Designer.Customizer.RCustomRule.customRuleDependancies=カスタム規則の依存関係
+Designer.Customizer.RCustomRule.errorOpeningIAjavadocs=InstallAnywhere Javadocs を開くときにエラー発生
+Designer.Customizer.RCustomRule.fullyQualifiedClassName=完全修飾クラス名 (例、com.acme.MyCustomCodeRule)。このクラスは、com.zerog.ia.api.pub.CustomCodeRule を拡張し、'public boolean evaluateRule()' メソッドを実装しなければなりません。
+Designer.Customizer.RCustomRule.iaAnywhereAdvancedDesigner=InstallAnywhere アドバンスト デザイナ
+
+Designer.Customizer.RFileChk.alreadyOnUsersSystem=ユーザーのシステムにすでに存在する場合
+Designer.Customizer.RFileChk.notAlreadyOnUsersSystem=ユーザーのシステムに存在しない場合
+Designer.Customizer.RFileChk.installFileFolderOnlyIf=次の場合にのみこのファイルまたはフォルダをインストールする:
+Designer.Customizer.RFileFolderPathChk.a;readtExists=すでに存在する
+Designer.Customizer.RFileFolderPathChk.doesntAlreadyExist=存在しない
+Designer.Customizer.RFileFolderPathChk.fileFolderPath=ファイル/フォルダのパス:
+Designer.Customizer.RFileFolderPathChk.inUse=使用中
+Designer.Customizer.RFileFolderPathChk.installOnlyIfFileFoldIsA=ファイル/フォルダが次の場合にのみ実行:
+Designer.Customizer.RFileFolderPathChk.installOnlyIfTheFFis2=ファイル/フォルダが次の場合にのみ実行:
+Designer.Customizer.RFileFolderPathChk.installOnlyIfTheFFis=ファイル/フォルダが次の場合にのみ実行:
+Designer.Customizer.RFileFolderPathChk.installOnlyIfTheFileFolder=ファイル/フォルダが次の場合にのみ実行:
+Designer.Customizer.RFileFolderPathChk.noFilePathIndicated=<ファイルのパスが示されていません>
+Designer.Customizer.RFileFolderPathChk.notInUse=使用中でない
+Designer.Customizer.RFileFolderPathChk.readable=読み取り可能
+Designer.Customizer.RFileFolderPathChk.thisInstallPath=このインストール パス...
+Designer.Customizer.RFileFolderPathChk.writeable=書き込み可能
+
+Designer.Customizer.RFileModificationCheck.comparison=比較
+Designer.Customizer.RFileModificationCheck.installFileOnlyIf=ターゲットが存在し、かつターゲットの変更タイムスタンプが次の場合にのみこのファイルをインストール:
+Designer.Customizer.RFileModificationCheck.installOnlyIfLanguage=ユーザーによって選択された言語がハイライトされている項目の 1 つである場合にのみ実行:
+Designer.Customizer.RFileModificationCheck.theTargetFilesTimeStamp=ターゲット ファイルのタイムスタンプ
+Designer.Customizer.RFileModificationCheck.theTimeStampSpecified=タイムスタンプが
+Designer.Customizer.RFileModificationCheck.equals=次の日時に等しい
+Designer.Customizer.RFileModificationCheck.isNewerThan=次の日時より新しい
+Designer.Customizer.RFileModificationCheck.isOlderThan=次の日時より古い
+Designer.Customizer.RFileModificationCheck.isNewerThanOrEquals=次の日時より新しいか、等しい
+Designer.Customizer.RFileModificationCheck.isOlderThanOrEquals=次の日時より古いか、等しい
+
+Designer.Customizer.RNone.noRule=規則がありません
+
+Designer.Customizer.RPMSpecCustomizer.copyright=著作権:
+Designer.Customizer.RPMSpecCustomizer.distribution=配布:
+Designer.Customizer.RPMSpecCustomizer.exACME2=例、Acme, Inc
+Designer.Customizer.RPMSpecCustomizer.exACME3=例、Acme, Inc
+Designer.Customizer.RPMSpecCustomizer.exACME=例、Acme, Inc
+Designer.Customizer.RPMSpecCustomizer.group=グループ:
+Designer.Customizer.RPMSpecCustomizer.packager=パッケージ作成者:
+Designer.Customizer.RPMSpecCustomizer.release=リリース:
+Designer.Customizer.RPMSpecCustomizer.summary=要約
+Designer.Customizer.RPMSpecCustomizer.vendor=ベンダ:
+Designer.Customizer.RPMSpecCustomizer.version=バージョン:
+Designer.Customizer.RPMSpecCustomizer.wwwACMEcom=例、http://www.acme.com
+
+Designer.Customizer.RPlatformChk.addPlatforms=プラットフォームを追加
+Designer.Customizer.RPlatformChk.doNotInstallOn=実行しないプラットフォーム:
+Designer.Customizer.RPlatformChk.enterPlatformToAdd=[実行するプラットフォーム] に追加するプラットフォーム名を入力。
+Designer.Customizer.RPlatformChk.installOn=実行するプラットフォーム:
+Designer.Customizer.RPlatformChk.morePlatforms=その他のプラットフォーム...
+Designer.Customizer.RPlatformChk.removePlatforms=プラットフォームを削除
+Designer.Customizer.RPlatformChk.thisPlatform=このプラットフォーム
+
+Designer.Customizer.RegistrationResponse.iaDoesNotRecognizeSerialNumber=入力したシリアル番号が適正な値として認識されません。入力したシリアル番号が正しいかどうかを確認してから、操作をやり直してください。それでも登録に問題がある場合は、<support@Macrovision.com> または +1-415-512-7771 で Macrovision までご連絡ください。
+Designer.Customizer.RegistrationResponse.invalidSerialNumber=シリアル番号が無効か、または互換性がありません
+Designer.Customizer.RegistrationResponse.maxUsersForSerialNumberExceeded=シリアル番号に対するユーザーの最大数を超えています
+Designer.Customizer.RegistrationResponse.registrationComplete=登録が完了しました
+Designer.Customizer.RegistrationResponse.registrationSuccessfulButLicenseMaxed=登録プロセスは正常に行われましたが、入力されたシリアル番号はすでに InstallAnywhere 開発者の許容最大数に達しています。<sales@Macrovision.com> または +1-415-512-7771 で Macrovision に連絡し、新しいシリアル番号を取得してください。完全なライセンスが与えられたインストーラをビルドするためには、今すぐ InstallAnywhere を再起動する必要があります。終了する場合は [OK] をクリックします。現在インストーラ プロジェクトを開いている場合は、InstallAnywhere を終了する前にプロジェクトを保存するためのオプションが表示されます。
+Designer.Customizer.RegistrationResponse.registrationSuccessfulUsingLastLicense=登録が完了しました。このシリアル番号に対して許可されている最後のユーザーを登録しました。これ以上登録することはできません。完全なライセンスが与えられたインストーラをビルドするためには、今すぐ InstallAnywhere を再起動する必要があります。終了する場合は [OK] をクリックします。現在インストーラ プロジェクトを開いている場合は、InstallAnywhere を終了する前にプロジェクトを保存するためのオプションが表示されます。
+Designer.Customizer.RegistrationResponse.serialNumberAlreadyRegisteredToMaxUsers=入力したシリアル番号は、すでに最大許容数の InstallAnywhere 開発者の登録に使用されています。<sales@Macrovision.com> または +1-415-512-7771 で Macrovision に連絡し、新しいシリアル番号を取得してください。
+Designer.Customizer.RegistrationResponse.successMustRestart=この InstallAnywhere コピーの登録が完了しました完全なライセンスが与えられたインストーラをビルドするためには、今すぐ InstallAnywhere を再起動する必要があります。終了する場合は [OK] をクリックします。現在インストーラ プロジェクトを開いている場合は、InstallAnywhere を終了する前にプロジェクトを保存するためのオプションが表示されます。
+Designer.Customizer.RegistrationResponse.successSimple=この InstallAnywhere コピーの登録が完了しました。
+
+Designer.Customizer.RegistryFindAction.compareVersion=バージョン比較:
+Designer.Customizer.RegistryFindAction.componentsFoundCount=見つかったコンポーネントの数:
+Designer.Customizer.RegistryFindAction.componentsFoundLocations=見つかったコンポーネントの場所:
+Designer.Customizer.RegistryFindAction.componentsFoundVersions=見つかったコンポーネントのバージョン:
+Designer.Customizer.RegistryFindAction.equalTo=次のバージョン
+Designer.Customizer.RegistryFindAction.findComponent=検索するコンポーネント:
+Designer.Customizer.RegistryFindAction.higherOrEqualTo=次のバージョンまたはそれ以降
+Designer.Customizer.RegistryFindAction.higherThan=次のバージョンより後
+Designer.Customizer.RegistryFindAction.highestVersionOnly=最新バージョンのみ
+Designer.Customizer.RegistryFindAction.keyFileLocation=キー ファイルの場所:
+Designer.Customizer.RegistryFindAction.lowerOrEqualTo=次のバージョンまたはそれ以前
+Designer.Customizer.RegistryFindAction.lowerThan=次のバージョンより前
+Designer.Customizer.RegistryFindAction.noIAvariableSpecified=<IA 変数が指定されていません>
+Designer.Customizer.RegistryFindAction.noLocationSpecified=<場所が指定されていません>
+Designer.Customizer.RegistryFindAction.noUUIDspecified=<UUID が指定されていません>
+Designer.Customizer.RegistryFindAction.noVersionSpecified=<バージョンが指定されていません>
+Designer.Customizer.RegistryFindAction.setVariables=変数の設定:
+
+Designer.Customizer.RulesContainer.addRule=規則を追加...
+Designer.Customizer.RulesContainer.and=および
+Designer.Customizer.RulesContainer.chooseRule=規則を選択
+Designer.Customizer.RulesContainer.or=または
+Designer.Customizer.RulesContainer.removeRule=規則を削除
+Designer.Customizer.RulesContainer.rulesLogicBack=（複数の規則を評価するとき）
+Designer.Customizer.RulesContainer.rulesLogicFront=規則一覧:論理的
+
+Designer.Customizer.SearchAndReplacePropertyData.replaceWith=置換後の文字列
+Designer.Customizer.SearchAndReplacePropertyData.searchFor=検索対象
+
+Designer.Customizer.SpeedRegistryData.data=データ
+Designer.Customizer.SpeedRegistryData.dataType=データの型
+Designer.Customizer.SpeedRegistryData.registryKey=レジストリ キー
+Designer.Customizer.SpeedRegistryData.valueName=値の名前
+
+Designer.Customizer.TAbstractPrePostActionCust.addAction=アクションを追加...
+Designer.Customizer.TAbstractPrePostActionCust.moveActionDown=アクションを下方向に移動
+Designer.Customizer.TAbstractPrePostActionCust.moveActionUp=アクションを上方向に移動
+Designer.Customizer.TAbstractPrePostActionCust.remove=削除
+
+Designer.Customizer.TAction.enterpriseCapability=複数の LaunchAnywhere アプリケーションを作成およびインストールできるのは、Standard Edition および Enterprise Edition のみです。
+
+#These strings can be found by going to the install task, these represent both the buttons and the dialogs that appear once you hit those buttons
+Designer.Customizer.TActions.addFeatures=アクションを追加...
+Designer.Customizer.TActions.addFiles=ファイルを追加...
+Designer.Customizer.TActions.addLauncher=起動プログラムを追加...
+Designer.Customizer.TActions.assignActionsToComponents=コンポーネントへのアクションの割り当て
+Designer.Customizer.TActions.assignActionsToFeatures=製品機能へのアクションの割り当て
+Designer.Customizer.TActions.autoFindMainClasses=メイン クラスを自動検索?
+Designer.Customizer.TActions.autoSetClasspath=クラスパスを自動的に設定?
+Designer.Customizer.TActions.components=コンポーネント
+Designer.Customizer.TActions.determiningClasspath=クラスパスを判別中
+Designer.Customizer.TActions.doYouWantIA=クラスパスが自動的に設定されるように
+Designer.Customizer.TActions.findMainClassesNow=今すぐメイン メソッドのあるクラスを自動検索しますか?
+Designer.Customizer.TActions.hierarchy=階層
+Designer.Customizer.TActions.installSetsNotInThisEdition=インストール セット、製品機能、およびコンポーネントを使用できるのは、Standard Edition および Enterprise Edition の InstallAnywhere のみです。
+Designer.Customizer.TActions.moveActionDown=アクションを下方向に移動
+Designer.Customizer.TActions.moveActionLeft=アクションを左方向に移動
+Designer.Customizer.TActions.moveActionRight=アクションを右方向に移動
+Designer.Customizer.TActions.moveActionUp=アクションを上方向に移動
+Designer.Customizer.TActions.pleaseWait=お待ちください...
+Designer.Customizer.TActions.productFeatures=製品機能
+Designer.Customizer.TActions.qAutoSetClasspath=java クラスパス、またはこのインストーラによって作成される LaunchAnywhere 起動プログラムが自動的に判別されるようにしますか?これにより、このプロジェクト用に定義されている既存のクラスパス設定が置き換えられます。
+Designer.Customizer.TActions.setClasspath=クラスパスを設定
+Designer.Customizer.TActions.timeForUpgrade=アップグレードしますか?
+Designer.Customizer.TActions.toSetClasspath=しますか。
+Designer.Customizer.TActions.visualTree=ビジュアル ツリー
+
+#These strings can be found Installer UI -> Billboards
+Designer.Customizer.TBillboards.addBillboard=ビルボードを追加...
+Designer.Customizer.TBillboards.assignBillboardsToFeatures=製品機能へのビルボードの割り当て
+Designer.Customizer.TBillboards.billboardsList=ビルボード一覧
+Designer.Customizer.TBillboards.chooseAnImageFile=イメージ ファイルを選択
+Designer.Customizer.TBillboards.imageSource=イメージ ソース:
+Designer.Customizer.TBillboards.moveBillboardDown=ビルボードを下方向に移動
+Designer.Customizer.TBillboards.moveBillboardUp=ビルボードを上方向に移動
+Designer.Customizer.TBillboards.productFeatures=製品機能
+
+#These strings can be found by going to the BUILD task
+Designer.Customizer.TBuild.aix=AIX
+Designer.Customizer.TBuild.buildCDROMinstallers=CD-ROM インストーラをビルドする (リムーバブル メディアでの配布に適切)
+Designer.Customizer.TBuild.buildLog=ビルド ログ
+Designer.Customizer.TBuild.buildMergeModule=マージ モジュールをビルドする (インポートおよび 'マージ モジュールをインストール' アクションでの使用に適切)
+Designer.Customizer.TBuild.buildModuleFor=インストーラ/マージ モジュールのビルド対象:
+Designer.Customizer.TBuild.buildProductsLocatedAt=ビルド製品の場所:
+Designer.Customizer.TBuild.buildProject=プロジェクトをビルド
+Designer.Customizer.TBuild.buildSettings=配布
+Designer.Customizer.TBuild.buildTargets=ビルド ターゲット
+Designer.Customizer.TBuild.buildWebInstallers=Web インストーラをビルドする (自己解凍インストーラ、Web ベースの配布に適切)
+Designer.Customizer.TBuild.cdromInstallerOptions=\ CD-ROM インストーラ オプション
+Designer.Customizer.TBuild.clearLog=ログをクリア...
+Designer.Customizer.TBuild.deleteExistingLog=既存のビルド ログを削除しますか?
+Designer.Customizer.TBuild.distributionOptionsError=配布オプション エラー
+Designer.Customizer.TBuild.downloadAdditonalVMpacks=追加の VM パックをダウンロード...
+Designer.Customizer.TBuild.editAdvertisedVariables=アドバタイズド変数を編集
+Designer.Customizer.TBuild.editAdvertisedVariablesButton=アドバタイズド変数を編集...
+Designer.Customizer.TBuild.editMedia=ディスク領域と名前を変更...
+Designer.Customizer.TBuild.splitToFit=インストーラは
+Designer.Customizer.TBuild.media= のメディアに収まるように分割されます。
+Designer.Customizer.TBuild.errorOpeningInstallWebPage=インストール Web ページを開くときにエラー発生
+Designer.Customizer.TBuild.errorOpeningVMwebPage=VM パック Web ページを開くときにエラー発生
+Designer.Customizer.TBuild.hpux=HP-UX
+Designer.Customizer.TBuild.iaBuildWarning=InstallAnywhere ビルダ の警告
+Designer.Customizer.TBuild.linux=Linux
+Designer.Customizer.TBuild.logDoesNotYetExist=ビルドログはまだ存在しません
+Designer.Customizer.TBuild.mergeModuleOptions=マージ モジュール/テンプレート オプション
+Designer.Customizer.TBuild.mustSelectBuildOption=このプロジェクト用に少なくとも 1 つのビルド オプションを選択する必要があります。
+Designer.Customizer.TBuild.mustSelectPlatform=インストーラをビルドする前に、少なくとも 1 つのプラットフォームを選択する必要があります。
+Designer.Customizer.TBuild.mustSpecifyUnixPlatformName=インストーラをビルドする前に、一般的な Unix プラットフォームの名前を指定する必要があります。
+Designer.Customizer.TBuild.noVMpacksInstalled=このプラットフォーム用にインストールされた VM はありません
+Designer.Customizer.TBuild.openInExplorer=エクスプローラで開く
+Designer.Customizer.TBuild.openInFinder=Finder で開く
+Designer.Customizer.TBuild.optimizeInstallerSize=プラットフォーム別にインストーラのサイズを最適化する
+Designer.Customizer.TBuild.optimizeInstallerSizeRecommended=プラットフォーム別にインストーラのサイズを最適化する (出荷版のインストーラに推奨)
+Designer.Customizer.TBuild.optimizeModuleSize=プラットフォーム別にマージ モジュール/テンプレートのサイズを最適化する
+Designer.Customizer.TBuild.otherJavaPlatforms=その他の Java 対応プラットフォーム
+Designer.Customizer.TBuild.outputLocation=ビルドの出力場所
+Designer.Customizer.TBuild.platforms=プラットフォーム
+Designer.Customizer.TBuild.qReallyReplaceLog=既存の ビルドログを削除し、それを新しい空のログに置き換えてもよろしいですか?
+Designer.Customizer.TBuild.readOnlyModule=読み取り専用 (インポートはできないが、'マージ モジュールをインストール' アクションで使用することは可能)
+Designer.Customizer.TBuild.refreshLog=ログを更新...
+Designer.Customizer.TBuild.selectPlatform=プラットフォームを選択
+Designer.Customizer.TBuild.solaris=Solaris
+Designer.Customizer.TBuild.temp=一時
+Designer.Customizer.TBuild.tryInstaller=インストーラを試す
+Designer.Customizer.TBuild.tryWebInstaller=Web インストールを試す
+Designer.Customizer.TBuild.unixAll=Unix (すべて)
+Designer.Customizer.TBuild.unixPlatformName=Unix プラットフォーム名
+Designer.Customizer.TBuild.unixWithVM=UNIX_with_VM
+Designer.Customizer.TBuild.vmResourcesNotFound=VM パック リソースが見つかりません
+Designer.Customizer.TBuild.vmSt=次のプラットフォームの VM パックが見つかりませんでした:\n\n#VM_PACKS#\nこのプロジェクトのビルド設定が、足りない VM パックを反映するように変更されました -- [VM 付き] オプションは、これらの各プラットフォームに対して無効になりました。このプロジェクトを保存またはビルドすると、新しいビルド設定が永久的に保存されます。元の設定を維持するには、足りない VM パックを置き換え、InstallAnywhere を再起動します (プロンプトされたときに保存しないでください)。
+Designer.Customizer.TBuild.vmToBundleWithInstaller=インストーラにバンドルする VM
+Designer.Customizer.TBuild.webInstallerOptions=\ Web インストーラ オプション
+Designer.Customizer.TBuild.withVM=VM 付き
+Designer.Customizer.TBuild.withoutVM=VM なし
+Designer.Customizer.TBuild.buildTemplateModule=マージ モジュール/テンプレートをビルド
+Designer.Customizer.TBuild.webPageDisplayedIn=Web ページの表示言語:
+
+#These strings can be found Organization->Features
+Designer.Customizer.TBundles.addProductFeature=製品機能を追加
+Designer.Customizer.TBundles.assignerProductFeatures=インストール セットへの製品機能の割り当て
+Designer.Customizer.TBundles.featureTree=機能ツリー
+Designer.Customizer.TBundles.installSets=インストール セット
+Designer.Customizer.TBundles.moveFeatureDown=機能を下方向に移動
+Designer.Customizer.TBundles.moveFeatureLeft=機能を左方向に移動
+Designer.Customizer.TBundles.moveFeatureRight=機能を右方向に移動
+Designer.Customizer.TBundles.moveFeatureUp=機能を上方向に移動
+
+#These strings can be found Organization->依存関係
+Designer.Customizer.TDependency.addDependency=依存関係を追加
+Designer.Customizer.TDependency.dependencies=依存関係
+Designer.Customizer.TDependency.componentDependencyList=コンポーネントの依存関係リスト
+
+#These strings can be found Project->FileSettings
+Designer.Customizer.TFileSettings.defaultFileOverwriteBehavior=デフォルトのファイル上書き動作
+Designer.Customizer.TFileSettings.fileModificationBehavior=ファイル変更タイムスタンプの動作
+Designer.Customizer.TFileSettings.ifFileAlreadyExists=インストールするファイルがすでにエンド ユーザーのシステムに存在する場合:
+Designer.Customizer.TFileSettings.inUseFileBehavior=使用中のファイルの動作
+Designer.Customizer.TFileSettings.inUseFileBehavior=\ 使用中のファイルの動作
+Designer.Customizer.TFileSettings.installTimeTimestamp=インストール時タイムスタンプ
+Designer.Customizer.TFileSettings.preserveTimestamp=タイムスタンプを維持する
+Designer.Customizer.TFileSettings.replaceInuseFilesAfterRestart=再起動後に使用中のファイルを置き換える (Windows のみ)
+Designer.Customizer.TFileSettings.specifyTimestamp=タイムスタンプを指定する:
+
+#These strings can be found Organization->Install Sets
+Designer.Customizer.TInstallSets.addInstallSet=インストール セットを追加
+Designer.Customizer.TInstallSets.createInstallSets=インストール セットを作成
+Designer.Customizer.TInstallSets.installSetList=インストール セット一覧
+Designer.Customizer.TInstallSets.moveInstallSetDown=インストール セットを下方向に移動
+Designer.Customizer.TInstallSets.moveInstallSetUp=インストール セットを上方向に移動
+Designer.Customizer.TInstallSets.selectDefault=デフォルトを選択
+
+#These strings can be found 
+Designer.Customizer.TInstallTree.addComponent=コンポーネントを追加
+Designer.Customizer.TInstallTree.assignComponentsToFeatures=製品機能へのコンポーネントの割り当て
+Designer.Customizer.TInstallTree.autoCleanWhenBuilding=ビルド中に自動削除する
+Designer.Customizer.TInstallTree.cleanComponents=コンポーネントを削除...
+Designer.Customizer.TInstallTree.clickToRemoveComponents=現在アクションが割り当てられていないすべてのコンポーネントをクリアするには、[OK] をクリックします。それ以外の場合は、[キャンセル] をクリックします。
+Designer.Customizer.TInstallTree.componentList=コンポーネント一覧
+Designer.Customizer.TInstallTree.components=コンポーネント
+Designer.Customizer.TInstallTree.dependencies=依存関係
+Designer.Customizer.TInstallTree.features=機能
+Designer.Customizer.TInstallTree.installSets=インストール セット
+Designer.Customizer.TInstallTree.moveComponentDown=コンポーネントを下方向に移動
+Designer.Customizer.TInstallTree.moveComponentUp=コンポーネントを上方向に移動
+Designer.Customizer.TInstallTree.productFeatureNotAvailableInVersion=製品機能とコンポーネントを使用できるのは、Standard Edition および Enterprise Edition のみです。
+Designer.Customizer.TInstallTree.productFeatures=製品機能
+Designer.Customizer.TInstallTree.qTimeForUpgrade=アップグレードしますか?
+Designer.Customizer.TInstallTree.removeUnusedComponents=未使用のコンポーネントをすべて削除しますか?
+
+#These strings can be found by going to the project tab, these are the tasks that show up on the left
+Designer.Customizer.TInstaller.config=構成
+Designer.Customizer.TInstaller.defaults=デフォルト
+Designer.Customizer.TInstaller.description=説明
+Designer.Customizer.TInstaller.fileSettings=ファイル設定
+Designer.Customizer.TInstaller.info=情報
+Designer.Customizer.TInstaller.java=Java
+Designer.Customizer.TInstaller.locales=ロケール
+Designer.Customizer.TInstaller.modules=モジュール
+Designer.Customizer.TInstaller.platforms=プラットフォーム
+
+#These strings can be found by going to project->description
+Designer.Customizer.TInstallerInfo.compatibilityWarning=互換性に関する警告
+Designer.Customizer.TInstallerInfo.copyright=著作権:
+Designer.Customizer.TInstallerInfo.generateProdctID=製品 ID を生成
+Designer.Customizer.TInstallerInfo.generateVendorID=ベンダ ID を生成
+Designer.Customizer.TInstallerInfo.idShouldRemainUnchanged=製品 ID は、この製品のすべてのバージョンに対して同じでなければなりません
+Designer.Customizer.TInstallerInfo.incompatibleProductName=製品名に互換性がありません
+Designer.Customizer.TInstallerInfo.infoToIDproduct=以下の情報は、製品登録内で製品を固有に識別するために使用されます。
+Designer.Customizer.TInstallerInfo.mightHaveProblems=一部のプラットフォームに問題がある可能性があります
+Designer.Customizer.TInstallerInfo.noProductNameSpecified=<製品名が指定されていません>
+Designer.Customizer.TInstallerInfo.productDescription=製品の説明:
+Designer.Customizer.TInstallerInfo.productID=製品 ID:
+Designer.Customizer.TInstallerInfo.productIden=製品の識別情報
+Designer.Customizer.TInstallerInfo.productInfoURL=製品情報 URL:
+Designer.Customizer.TInstallerInfo.productName=製品名:
+Designer.Customizer.TInstallerInfo.saveAsDefaults=新しいプロジェクトのデフォルトとして保存
+Designer.Customizer.TInstallerInfo.supportURL=サポート URL:
+Designer.Customizer.TInstallerInfo.vendorEmail=ベンダの電子メール:
+Designer.Customizer.TInstallerInfo.vendorHomepage=ベンダのホームページ:
+Designer.Customizer.TInstallerInfo.vendorID=ベンダ ID:
+Designer.Customizer.TInstallerInfo.vendorIDshouldRemainUnchanged=ベンダ ID は、あなたの組織で作成したすべてのインストーラに対して同じでなければなりません。
+Designer.Customizer.TInstallerInfo.vendorIden=ベンダの識別情報
+Designer.Customizer.TInstallerInfo.vendorName=ベンダ名:
+Designer.Customizer.TInstallerInfo.vendorNameShouldRemainUnchanged=ベンダ名は、あなたの組織で作成したすべてのインストーラに対して同じでなければなりません。
+Designer.Customizer.TInstallerInfo.version=バージョン:
+
+#These strings can be found project->config
+Designer.Customizer.TInstallerSettings.additionalArguments=追加の引数:
+Designer.Customizer.TInstallerSettings.installerDebugOutput=インストーラのデバッグ出力
+Designer.Customizer.TInstallerSettings.installerDebugOutput=インストーラのデバッグ出力
+Designer.Customizer.TInstallerSettings.installerVMheapSize=インストーラが使用する VM のヒープ サイズ
+Designer.Customizer.TInstallerSettings.installerValidVMlist=インストーラの有効な VM 一覧
+Designer.Customizer.TInstallerSettings.installersCanOutputDebugInfo=インストーラから、組み込みのアクションおよびカスタム コード アクションに対するデバッグ情報を得ることができます。これらの情報は、インストーラで発生する問題の原因を突きとめる際に役に立ちます。これらの情報の出力先を指定してください。出力を破棄する場合は空白のままにし、コンソール ウィンドウに出力内容を表示する場合は「console」と入力します。それ以外の場合は、出力内容を書き込むファイルの名前を指定してください。
+Designer.Customizer.TInstallerSettings.location=場所:
+Designer.Customizer.TInstallerSettings.maximumHeapSize=最大ヒープ サイズ:
+Designer.Customizer.TInstallerSettings.minimumHeapSize=最小ヒープ サイズ:
+Designer.Customizer.TInstallerSettings.optionalInstallerArguments=オプションのインストーラ引数
+Designer.Customizer.TInstallerSettings.remoteInstallerDebugging=リモート インストーラ デバッグ処理
+Designer.Customizer.TInstallerSettings.sendStderrTo=stderr の出力先:
+Designer.Customizer.TInstallerSettings.sendStderrTo=stderr の出力先:
+Designer.Customizer.TInstallerSettings.sendStdoutTo=stdout の出力先:
+Designer.Customizer.TInstallerSettings.sendStdoutTo=stdout の出力先:
+Designer.Customizer.TInstallerSettings.validVMlist=有効な VM 一覧:
+Designer.Customizer.TInstallerSettings.youCanDoIt=インストーラが使用する Java VM の最小ヒープ サイズと最大ヒープ サイズを指定できます。
+Designer.Customizer.TInstallerSettings.youCanSetAdditionCommandLineArguments=インストーラの Java VM に渡す追加のコマンドライン引数を設定できます。\n(例、-Dproperty=true)
+Designer.Customizer.TInstallerSettings.youCanSpecifyDebugger=リモード デバッガの場所を指定できます。この機能は、十分にテストされていません! 各自の責任において使用してください!:P \n-Michael
+Designer.Customizer.TInstallerSettings.youCanSpecifyJVM=インストーラの実行に使用する Java VM の一覧を指定できます。
+Designer.Customizer.TInstallerSettings.youCanSpecifyJavaVM=インストーラの実行に使用する Java VM の一覧を指定できます。
+
+#These strings can be found by going to Installer UI, these are the tasks on the left
+Designer.Customizer.TInstallerUI.billboards=ビルボード
+Designer.Customizer.TInstallerUI.help=ヘルプ
+Designer.Customizer.TInstallerUI.lookAndFeel=ルック アンド フィール
+
+#These strings can be found by going under project -> locales
+Designer.Customizer.TLanguageKit.configureLanguages=言語を構成
+Designer.Customizer.TLanguageKit.localeList=ロケール一覧
+
+#These strings can be found 
+Designer.Customizer.TMac.defaultAliasFolder=デフォルトのエイリアス フォルダ
+Designer.Customizer.TMac.defaultInstallFolder=デフォルトのインストール フォルダ
+
+Designer.Customizer.TMacOSX.alwaysShowGUI=常に GUI を表示する
+Designer.Customizer.TMacOSX.autentication=認証
+Designer.Customizer.TMacOSX.installerVMheapSize=インストーラが使用する VM のヒープ サイズ
+Designer.Customizer.TMacOSX.maxHeapSize=最大ヒープ サイズ:
+Designer.Customizer.TMacOSX.minHeapSize=最小ヒープ サイズ:
+Designer.Customizer.TMacOSX.requiresAdminLogin=インストールするために管理者の名前とパスワードを必要とする
+Designer.Customizer.TMacOSX.selectJavaVM=LaunchAnywhere 用の Java VM を選択
+Designer.Customizer.TMacOSX.specifyHeadSize=インストーラが使用する Java VM の最小ヒープ サイズと最大ヒープ サイズを指定できます。
+
+#These strings can be found by going to project -> java
+Designer.Customizer.TOperation.always=常に
+Designer.Customizer.TOperation.bundleVirtualMachine=VM のバンドル
+Designer.Customizer.TOperation.bundledVirtualMachine=バンドルされている VM
+Designer.Customizer.TOperation.classpathList=クラスパス一覧
+Designer.Customizer.TOperation.classpathSettings=クラスパス設定
+Designer.Customizer.TOperation.doNotRemoveBundledVM=アンインストール時にバンドルされている VM を削除しない
+Designer.Customizer.TOperation.down=下へ
+Designer.Customizer.TOperation.addServiceSupport=カスタム コードのサービス サポートを追加
+Designer.Customizer.TOperation.finetuneClasspathSettings=LaunchAnywhere アプリケーションのクラスパス設定を微調整します。
+Designer.Customizer.TOperation.installBundledVirtualMachine=バンドルされている VM をインストール:
+Designer.Customizer.TOperation.never=確認しない
+Designer.Customizer.TOperation.onlyWhenInstallingLaunchAnywhere=LaunchAnywhere をインストールするときのみ
+Designer.Customizer.TOperation.up=上へ
+Designer.Customizer.TOperation.vmInstallFolder=VM インストール フォルダ:
+
+#These strings can be found Installer UI -> Help
+Designer.Customizer.TPanelHelp.allPanelsUseSameHelp=すべてのパネルに同じヘルプ テキストを使用する
+Designer.Customizer.TPanelHelp.enableInstallerHelp=インストーラ ヘルプを有効にする
+Designer.Customizer.TPanelHelp.formatOfHelp=インストーラ ヘルプの形式:
+Designer.Customizer.TPanelHelp.helpContext=ヘルプ コンテキスト
+Designer.Customizer.TPanelHelp.helpText=ヘルプ テキスト:
+Designer.Customizer.TPanelHelp.helpTextFormat=ヘルプ テキストの形式
+Designer.Customizer.TPanelHelp.html=HTML
+Designer.Customizer.TPanelHelp.installHelp=インストーラ ヘルプ
+Designer.Customizer.TPanelHelp.panelsUseDifferentHelp=各パネルに異なるヘルプ テキストを使用する (パネルのカスタマイザを参照)
+Designer.Customizer.TPanelHelp.text=テキスト
+
+#These strings can be found Installer - UI -> Look and Feel
+Designer.Customizer.TPanelLF.FileuseBackgroundImageOnInstaller=インストーラに背景イメージを使用する
+Designer.Customizer.TPanelLF.addLabel=ラベルを追加...
+Designer.Customizer.TPanelLF.addStepsImagesToPanels=インストーラ パネルの左側にイメージまたはインストーラ手順の一覧を追加する
+Designer.Customizer.TPanelLF.additionType=追加オブジェクトのタイプ:
+Designer.Customizer.TPanelLF.additionsBorder=追加オブジェクトの枠
+Designer.Customizer.TPanelLF.additonsToGUIinstallerPanels=\ GUI インストーラ パネルへの追加オブジェクト
+Designer.Customizer.TPanelLF.allowInstallerToSupportUImodes=このインストーラでサポートする UI モード:
+Designer.Customizer.TPanelLF.allowableUImodes=\ サポート可能な UI モード
+Designer.Customizer.TPanelLF.autoPopulate=自動記入...
+Designer.Customizer.TPanelLF.autoPopulateLabels=保存時にラベルを自動的に記入する
+Designer.Customizer.TPanelLF.autoPopulateLabelsMessage=インストーラ手順ラベルの一覧を自動記入すると、現在のラベルがすべて削除され、現在のプロジェクト内のインストール パネルのタイトルに置き換わります。また、自動記入を使用すると、プロジェクト内の各インストール パネルが対応する新しいラベルに割り当てられます。そのため、自動記入後に、その結果を微調整した方がよい場合もあります。自動記入を開始するには、[OK] をクリックしてください。
+Designer.Customizer.TPanelLF.awt=AWT
+Designer.Customizer.TPanelLF.blackNonbeveledText=黒の非彫りこみテキスト
+Designer.Customizer.TPanelLF.chooseIcons=アイコンを選択...
+Designer.Customizer.TPanelLF.chooseLabelFRomList=インストール手順ラベルの一覧からラベルを選択する:
+Designer.Customizer.TPanelLF.choosePreferredGUImode=このインストーラの優先 GUI モード:
+Designer.Customizer.TPanelLF.confirmAutoPopulation=インストーラ ラベル一覧の自動記入を確認
+Designer.Customizer.TPanelLF.console=コンソール
+Designer.Customizer.TPanelLF.createBeveledBorder=イメージまたはインストーラ手順の一覧の周りに彫りこみ枠を作成する
+Designer.Customizer.TPanelLF.defaultPanelImage=インストーラ/アンインストーラ パネルのデフォルト イメージ
+Designer.Customizer.TPanelLF.defaultPanelImagePreview=デフォルト パネル イメージのプレビュー
+Designer.Customizer.TPanelLF.defaultUnixUIChanged=デフォルトの Unix インストーラ UI モードが変更されました
+Designer.Customizer.TPanelLF.defaultWindowsUIChanged=デフォルトの Windows Installer UI モードが変更されました。
+Designer.Customizer.TPanelLF.disabledBecauseNoGUIinstallerEnabled=現在どの GUI ベースのインストーラ モードも有効でないため、無効です。
+Designer.Customizer.TPanelLF.displayLogoTextUsing=ロゴ テキストの表示方法:
+Designer.Customizer.TPanelLF.doNoWarnAgain=次回この警告を表示しない
+Designer.Customizer.TPanelLF.doNotDisplayImage=イメージを表示しない
+Designer.Customizer.TPanelLF.doubleClickToEdit=編集するにはラベルをダブルクリック
+Designer.Customizer.TPanelLF.dsiabledBecausePaelDecorationsNotEnabled=パネルの装飾が有効でないため、無効です。
+Designer.Customizer.TPanelLF.editExistingInstallLabel=既存のインストール ラベルを編集
+Designer.Customizer.TPanelLF.editLabel=ラベルを編集...
+Designer.Customizer.TPanelLF.file=ファイル:
+Designer.Customizer.TPanelLF.generalUIsettings=UI の全般設定
+Designer.Customizer.TPanelLF.grayBeveledText=灰色の彫りこみテキスト
+Designer.Customizer.TPanelLF.gui=GUI
+Designer.Customizer.TPanelLF.highlightSameLabelAsPrevious=前のパネルと同じラベルをハイライトする
+Designer.Customizer.TPanelLF.iaLogoDisplay=\ "InstallAnywhere by Macrovision" ロゴの表示
+Designer.Customizer.TPanelLF.iaWarning=InstallAnywhere に関する警告
+Designer.Customizer.TPanelLF.imageSettings=イメージ設定
+Designer.Customizer.TPanelLF.images=イメージ
+Designer.Customizer.TPanelLF.installLabelBackgroundImagePreview=インストーラ ラベルの背景イメージのプレビュー
+Designer.Customizer.TPanelLF.installProgressLabel=インストール進行状況のラベル
+Designer.Customizer.TPanelLF.installProgressLabelPreview=インストール進行状況のラベルのプレビュー
+Designer.Customizer.TPanelLF.installProgressPanel=インストール進行状況パネル
+Designer.Customizer.TPanelLF.installProgressPanelImage=インストール進行状況パネルのイメージ
+Designer.Customizer.TPanelLF.installProgressPanelImagePreview=インストール進行状況パネルのイメージのプレビュー
+Designer.Customizer.TPanelLF.installStepLabelSettings=インストール手順ラベルの設定
+Designer.Customizer.TPanelLF.installerBackgroundImage=\ インストーラの背景イメージ
+Designer.Customizer.TPanelLF.installerBackgroundImagePreview=インストーラの背景イメージのプレビュー
+Designer.Customizer.TPanelLF.installerBackgroundImageSwing=\ インストーラの背景イメージ (Swing UI のみ)
+Designer.Customizer.TPanelLF.installerPanelAdditions=インストーラ パネルへの追加オブジェクト
+Designer.Customizer.TPanelLF.installerStepLabelPreview=インストール手順ラベルのプレビュー
+Designer.Customizer.TPanelLF.installerStepsBackgroundImage=インストーラ手順の背景イメージ
+Designer.Customizer.TPanelLF.installerUIerror=インストーラ UI エラー
+Designer.Customizer.TPanelLF.installersHeight=インストーラの高さに合わせる
+Designer.Customizer.TPanelLF.installersWidth=インストーラの幅に合わせる
+Designer.Customizer.TPanelLF.listInstallerSteps=インストーラ手順の一覧
+Designer.Customizer.TPanelLF.listOfLabelsForInstallSteps=インストーラ手順ラベルの一覧
+Designer.Customizer.TPanelLF.modifyInstallLabel=下のテキスト フィールドに表示されているインストール ラベルを、実際にインストーラで表示する目的の値に変更してください。
+Designer.Customizer.TPanelLF.modigyInstallLabel=下のテキスト フィールドに表示されているインストール ラベルを、実際にインストーラで表示する目的の値に変更してください。
+Designer.Customizer.TPanelLF.moveLabelDown=ラベルを下方向に移動
+Designer.Customizer.TPanelLF.moveLabelUp=ラベルを上方向に移動
+Designer.Customizer.TPanelLF.mustSelectUI=作成中のインストーラに許容される UI を少なくとも 1 つ選択する必要があります。
+Designer.Customizer.TPanelLF.noImageFileSelected=イメージ ファイルが選択されていません
+Designer.Customizer.TPanelLF.noeLabelToHighlight=注意:ハイライトするラベルは、各パネルの個々のカスタマイザで選択できます。インストール前またはインストール後のタスクを参照してください。
+Designer.Customizer.TPanelLF.preferredGUImode=優先 GUI モード
+Designer.Customizer.TPanelLF.qUseDefaultImage=デフォルトのイメージを使用しますか?
+Designer.Customizer.TPanelLF.qWantToUseDefaultImage=このデフォルト イメージを使用してもよろしいですか?
+Designer.Customizer.TPanelLF.removeLabel=ラベルを削除
+Designer.Customizer.TPanelLF.scaleImageToFit=イメージの拡大/縮小:
+Designer.Customizer.TPanelLF.selectAnImageFile=イメージ ファイルを選択
+Designer.Customizer.TPanelLF.settingUsedOnProgressPanel=これらの設定は、インストール進行状況パネルで使用されます。他のすべてのパネルの設定は、それぞれのパネルの個々のカスタマイザで設定されています。
+Designer.Customizer.TPanelLF.silent=サイレント
+Designer.Customizer.TPanelLF.specifiyInstallLabel=インストーラに表示するインストール ラベルを指定してください。
+Designer.Customizer.TPanelLF.specifyImage=イメージを指定する (170 x 305)
+Designer.Customizer.TPanelLF.specifyNewInstallLabel=新しいインストール ラベルを指定
+Designer.Customizer.TPanelLF.startupSplashScreenImage=\ 起動画面のイメージ
+Designer.Customizer.TPanelLF.swing=Swing
+Designer.Customizer.TPanelLF.temp=一時
+Designer.Customizer.TPanelLF.typeOfAdditionsToPanels=インストーラ パネルへの追加オブジェクトのタイプ
+Designer.Customizer.TPanelLF.uiDlgStatement=現在の UI 設定に合わせるために、デフォルトの Unix インストーラ UI モード (プラットフォーム:Unix タスクを参照) が #ORIGINAL_UI# から #NEW_UI# に自動的に変更されました。
+Designer.Customizer.TPanelLF.uiWindowsDlgStatement=現在の UI 設定に合わせるために、デフォルトの Windows installer UI モード (プラットフォーム:Windows タスクを参照) が #ORIGINAL_UI# から #NEW_UI# に自動的に変更されました。
+Designer.Customizer.TPanelLF.useBackgroundImagOnSwingInstallers=Swing インストーラに背景イメージを使用する
+Designer.Customizer.TPanelLF.useInstallersDefaultImage=インストーラのデフォルト イメージを使用する ([インストーラ パネルへの追加オブジェクト] を参照)
+Designer.Customizer.TPanelLF.useSaneImageAsPreviousPanel=前のパネルと同じイメージを使用する
+Designer.Customizer.TPanelLF.useThisImageForBackground=このイメージをインストーラ手順の一覧の背景として使用する
+Designer.Customizer.TPanelLF.useThisImageWhenNoneOther=インストーラ手順に代替イメージが指定されていない場合、このイメージを使用する
+
+Designer.Customizer.TPanelLF.installerPanelBorder=インストーラ パネルの枠
+Designer.Customizer.TPanelLF.installerTitleLabelColors=タイトル、ラベル、および InstallAnywhere ロゴの色
+Designer.Customizer.TPanelLF.installerTitleLabelColorsExample=(Hex RGB 例: F0A154)
+Designer.Customizer.TPanelLF.installerPanelBorder=インストーラ パネルの枠
+Designer.Customizer.TPanelLF.borderedPanel=枠付きパネル
+Designer.Customizer.TPanelLF.noPanelBorder=パネルの枠なし
+Designer.Customizer.TPanelLF.panelBackgroundColor=内側パネルの背景色
+Designer.Customizer.TPanelLF.frameSizeLabel=インストーラ フレーム サイズ
+Designer.Customizer.TPanelLF.frameHeightLabel=高
+Designer.Customizer.TPanelLF.frameWidthLabel=幅
+Designer.Customizer.TPanelLF.frameSizePixelsLabel=(ピクセル)
+
+#These strings can be found Post-Install Task
+Designer.Customizer.TPostActions.postInstallActionList=インストール後のアクション一覧
+Designer.Customizer.TPostActions.postInstallActions=インストール後のアクション
+
+Designer.Customizer.TPowerUpdateLink.erroOpeningWebpage=www.PowerUpdate.com を開くときにエラー発生
+
+#These strings can be found Pre-Install Task
+Designer.Customizer.TPreActions.preInstallActionList=インストール前のアクション一覧
+Designer.Customizer.TPreActions.preInstallActions=インストール前のアクション
+
+Designer.Customizer.TPostUninstaller.postUninstallActionList=アンインストール後のアクション一覧
+Designer.Customizer.TPostUninstaller.postUninstallActions=アンインストール後のアクション
+
+
+Designer.Customizer.TPreUninstaller.preUninstallActionList=アンインストール前のアクション一覧
+Designer.Customizer.TPreUninstaller.preUninstallActions=アンインストール前のアクション
+
+
+#These strings can be found project->modules
+Designer.Customizer.TProduct.importMergeModule=マージ モジュールをインポート...
+Designer.Customizer.TProduct.importDynamicMergeModule=ダイナミック マージ モジュールをインポート
+Designer.Customizer.TProduct.importedMergeModulesList=インポート済みマージ モジュール一覧
+Designer.Customizer.TProduct.modules=モジュール
+
+#These strings can be found project -> info
+Designer.Customizer.TProjInfo.buildLocation=ビルド場所:
+Designer.Customizer.TProjInfo.chooseOutputFolder=出力フォルダを選択
+Designer.Customizer.TProjInfo.compatibilityWarning=互換性に関する警告
+Designer.Customizer.TProjInfo.displayedOnTitleBar=インストーラの各パネルのタイトル バーに表示されます。
+Designer.Customizer.TProjInfo.dontShowAgain=再び表示しない
+Designer.Customizer.TProjInfo.generateInstallLog=インストール時にインストール ログを生成する:
+Designer.Customizer.TProjInfo.incompatibleInstallerName=インストーラ名に互換性がありません
+Designer.Customizer.TProjInfo.incompatibleInstallerTitle=インストーラのタイトルに互換性がありません
+Designer.Customizer.TProjInfo.incompatibleProductName=製品名に互換性がありません
+Designer.Customizer.TProjInfo.installationLog=インストール ログ
+Designer.Customizer.TProjInfo.installerName=インストーラ名:
+Designer.Customizer.TProjInfo.installerTitle=インストーラのタイトル:
+Designer.Customizer.TProjInfo.lastBuilt=最終ビルド日:
+Designer.Customizer.TProjInfo.lastSaved=最終保存日:
+Designer.Customizer.TProjInfo.mightHaveProblems=一部のプラットフォームに問題がある可能性があります
+Designer.Customizer.TProjInfo.plaintTextFormat=テキスト形式
+Designer.Customizer.TProjInfo.platformsMessage=一部のプラットフォームでは、ISO-9660 CD-ROM から読み込みするとき 8.3 形式のファイル名のみがサポートされています。   インストーラを CD-ROM に収録して配布する場合は、インストーラの名前を 8 文字に制限します。\n\nまた、[インストーラ名] フィールドにスペースを入力した可能性もあります。  インストーラの名前にスペースを含めると、’Web インストーラ’ をビルドするときに InstallAnywhere によって自動生成される HTML ページやアプレットに問題が発生する可能性があります。
+Designer.Customizer.TProjInfo.productName=製品名:
+Designer.Customizer.TProjInfo.projectInfo=プロジェクト情報
+Designer.Customizer.TProjInfo.projectLocations=プロジェクトの場所
+Designer.Customizer.TProjInfo.projectNotBuilt=このプロジェクトはビルドされていません
+Designer.Customizer.TProjInfo.projectNotSaved=このプロジェクトは保存されていません
+Designer.Customizer.TProjInfo.qReallyRestore=デフォルトのビルド出力場所を復元してもよろしいですか?
+Designer.Customizer.TProjInfo.qRestoreDefaultBuildLocation=デフォルトのビルド場所を復元しますか?
+Designer.Customizer.TProjInfo.saveLocation=保存場所:
+Designer.Customizer.TProjInfo.uninstallInstallLog=インストール ログをアンインストールする
+Designer.Customizer.TProjInfo.uniqeID=固有 ID:
+Designer.Customizer.TProjInfo.xmlFormat=XML 形式
+
+#These strings can be found project -> rules 
+Designer.Customizer.TRules.configureLanguages=言語を構成
+Designer.Customizer.TRules.followingRulesBeforeInstallation=以下の規則は、すべてのインストール タスクが実行される前に評価されます。
+Designer.Customizer.TRules.installerRules=インストーラ規則
+Designer.Customizer.TRules.localeList=ロケール一覧
+Designer.Customizer.TRules.messageForInstallerRuleFail=インストーラ規則が失敗したときに表示するメッセージ:
+
+#These strings can be found project -> platforms ->Unix
+Designer.Customizer.TSolaris.applications/System=アプリケーション/システム
+Designer.Customizer.TSolaris.defaultLinkFolder=デフォルトのリンク フォルダ
+Designer.Customizer.TSolaris.defaultUnixInstallerUI=デフォルトの Unix インストーラ UI モード
+Designer.Customizer.TSolaris.enableRPMregistration=RPM 登録を有効にする (Linux のみ):
+Designer.Customizer.TSolaris.installerUIMode=インストーラ UI モード:
+Designer.Customizer.TSolaris.none=<なし>
+Designer.Customizer.TSolaris.rpmSpecification=RPM 仕様
+Designer.Customizer.TSolaris.rpmSpecificationSettings=RPM 仕様設定
+
+Designer.Customizer.TUninstaller.uninstallActionList=アンインストールのアクション一覧
+Designer.Customizer.TUninstaller.uninstallActions=アンインストールのアクション
+
+Designer.Customizer.TWin32.defaultShortcutFolder=デフォルトのショートカット フォルダ
+Designer.Customizer.TWin32.installLauncherType=インストール起動プログラムのタイプ
+
+#These strings can be found by adding an Install from Manifest action, this is the text that is in the drop down list.
+
+Designer.Customizer.TWin32.installerUIMode=インストーラ UI モード
+Designer.Customizer.TWin32.defaultWindowsInstallerUI=デフォルト Windows Installer UI モード
+Designer.Customizer.TargetCheckChooser.askForTargetNewer=古い場合は上書き、新しい場合はプロンプトを表示する
+Designer.Customizer.TargetCheckChooser.askUser=常にユーザーに確認を求める
+Designer.Customizer.TargetCheckChooser.dontCheck=常に上書きする
+Designer.Customizer.TargetCheckChooser.neverOverwrite=上書きしない
+Designer.Customizer.TargetCheckChooser.overwriteIfTargeOlder=古い場合は上書き、新しい場合はインストールしない
+Designer.Customizer.TargetCheckChooser.promptIfTargetOlderOrSameDontOverwriteTargetNewer=古い場合はプロンプトを表示、新しい場合はインストールしない
+Designer.Customizer.TargetCheckChooser.respectInstaller=プロジェクトのデフォルトを使用
+
+
+#These strings can be found by using the Project Wizard
+Designer.Customizer.WizardNavigation.back=< 戻る
+Designer.Customizer.WizardNavigation.exit=終了
+Designer.Customizer.WizardNavigation.next=次へ >
+
+Designer.Customizer.ZGFileChooserUI.createEnclosingFolder=プロジェクトの格納フォルダを作成
+
+#These strings can be found by going to the Build task -> build settings
+Designer.Gui.ChooseTemplateComponenet.pleaseSelectReadable=読み取り専用でないマージ モジュール/テンプレートを選択してください。
+Designer.Gui.ChooseTemplateComponenet.readOnlyModule=読み取り専用のマージ モジュール/テンプレート!
+
+Designer.Gui.DFolderSelectDialog.chooseSelectedFolder=選択されたフォルダを選択:
+Designer.Gui.DFolderSelectDialog.folders=フォルダ
+Designer.Gui.DFolderSelectDialog.select=選択
+
+#These strings can be found by creating a custom code action and looking at its customizer
+Designer.Gui.DependanciesPanel.addJarOrZip=jar または zip を追加...
+Designer.Gui.DependanciesPanel.chooseCodeArchive=コード アーカイブを選択
+Designer.Gui.DependanciesPanel.dependancies=依存関係:
+
+#These strings can be found by adding a launcher under the install task and then changing the icon (its that dialog that is created).
+Designer.Gui.DialgChooseIcon.chooseGIFfile=GIF ファイルを選択...
+Designer.Gui.DialgChooseIcon.chooseGIFimage=GIF イメージを選択
+Designer.Gui.DialgChooseIcon.chooseICNSfile=ICNS ファイルを選択
+Designer.Gui.DialgChooseIcon.chooseICNSfileButton=ICNS ファイルを選択...
+Designer.Gui.DialgChooseIcon.chooseIcon=アイコンを選択
+Designer.Gui.DialgChooseIcon.gifImageFiles=GIF イメージ ファイル
+Designer.Gui.DialgChooseIcon.icon16=16x16 アイコン
+Designer.Gui.DialgChooseIcon.icon32=32x32 アイコン
+Designer.Gui.DialgChooseIcon.macOSXicon=Mac OS X アイコン ファイル (.icns)
+Designer.Gui.DialgChooseIcon.macOSXiconResources=Mac OS X アイコン リソース
+
+#These strings can be found by going to the about button when you first start up the program
+Designer.Gui.DialogAbout.about=バージョン情報...
+Designer.Gui.DialogAbout.aboutIA=InstallAnywhere のバージョン情報
+Designer.Gui.DialogAbout.credits=開発者情報...
+Designer.Gui.DialogAbout.newInstaller=新しいインストーラ...
+Designer.Gui.DialogAbout.openExisting=既存のファイルを開く...
+Designer.Gui.DialogAbout.preferences=プレファレンス...
+Designer.Gui.DialogAbout.reregister=再登録...
+
+Designer.Gui.DialogAddFiles.addFilesToProject=プロジェクトにファイルを追加
+Designer.Gui.DialogAddFiles.done=完了
+#These strings can be found by building a project, cancelling it will produce the first line
+Designer.Gui.DialogBuildStatus.cancellingBuild=ビルドをキャンセルします...削除中
+Designer.Gui.DialogBuildStatus.clickArrowToDiscloseDetails=矢印をクリックしてビルドの詳細を表示...
+Designer.Gui.DialogBuildStatus.clickArrowToHideDetails=矢印をクリックしてビルドの詳細を隠す...
+
+Designer.Gui.DialogChooseAction.chooseAnAction=アクションを選択
+
+#These strings can be found by going to Installer UI -> look and feel and then clicking on the choose icons button
+Designer.Gui.DialogChooseLabelIcon.activeStepLabelIcon=アクティブな手順のラベル アイコン
+Designer.Gui.DialogChooseLabelIcon.chooseAnImageFile=イメージ ファイルを選択
+Designer.Gui.DialogChooseLabelIcon.chooseIcon=アイコンを選択
+Designer.Gui.DialogChooseLabelIcon.chooseLabelIcons=ラベル アイコンを選択
+Designer.Gui.DialogChooseLabelIcon.completedStepLabelIcon=完了した手順のラベル アイコン
+Designer.Gui.DialogChooseLabelIcon.defaultIcon=デフォルト アイコン
+Designer.Gui.DialogChooseLabelIcon.sampleActiveStep=アクティブな手順のサンプル
+Designer.Gui.DialogChooseLabelIcon.sampleCompetedStep=完了した手順のサンプル
+Designer.Gui.DialogChooseLabelIcon.sampleUpcomingStep=未処理手順のサンプル
+Designer.Gui.DialogChooseLabelIcon.upcomingStepLabelIcon=未処理手順のラベル アイコン
+
+#These strings can be found by adding a Speed Folder install action then then clicking on the filter button
+Designer.Gui.FileSearchEditorPane.exclude=除外
+Designer.Gui.FileSearchEditorPane.filesWillBeExcluded=以下の条件に一致するファイルは、SpeedFolder から除外されます。これらの条件は、包含条件より優先されます。
+Designer.Gui.FileSearchEditorPane.filesWillBeIncluded=以下の条件に一致するファイルは、SpeedFolder に含められます。これらの条件は、除外条件によって無効になることがあります。
+Designer.Gui.FileSearchEditorPane.include=包含
+Designer.Gui.FileSearchEditorPane.preview=プレビュー
+Designer.Gui.FileSearchEditorPane.speedFolderDef=SpeedFolder は、インストールするファイルを 1 つにまとめたものです。プロジェクトに追加されるファイルは、インストーラのビルド時に "動的に" 判別されます。下の各タブを使用して、インストーラ プロジェクトに含めるファイル、またはインストーラから除外するファイルを判別するための条件を定義してください。[プレビュー] タブを使用すると、インストーラをビルドしたときに含まれるファイルを確認できます。
+Designer.Gui.FileSearchEditorPane.treeview=ツリービュー
+Designer.Gui.FileSearchEditorPane.visualRepresentation=現時点でビルドした場合にプロジェクトに含まれるファイルのビジュアル表示:
+Designer.Gui.FileSearchEditorPane.willBeIncluded=現時点でインストーラをビルドした場合に、プロジェクトに含まれるファイルは次のとおりです:
+
+#These strings can be found by importing a merge module and then looking at the files types drop down list
+Designer.Gui.JZGFileChooser.iaMergeModules=マージ モジュールとテンプレート
+Designer.Gui.JZGFileChooser.iaProjectFiles=InstallAnywhere プロジェクト ファイル
+Designer.Gui.JZGFileChooser.ianetProjectFiles=InstallAnywhere.NET プロジェクト ファイル
+Designer.Gui.JZGFileChooser.images=イメージ
+Designer.Gui.JZGFileChooser.javaClassArchives=Java クラス アーカイブ
+
+Designer.Gui.JZGMagicFolderComboBox.developerDefined=開発者定義
+Designer.Gui.JZGMagicFolderComboBox.general=全般
+Designer.Gui.JZGMagicFolderComboBox.unixAndMacOSX=Unix (および Mac OS X)
+
+Designer.Gui.KeyValueEditorTableModel.deleteInvalidRow=無効な行を削除
+Designer.Gui.KeyValueEditorTableModel.keepEditing=編集を続行
+
+Designer.Gui.TableCellEditorFolderChooser.chooseFolder=フォルダを選択
+
+Designer.Gui.TextAreaTableCellEditor.modifyText=テキストを変更
+
+Designer.Gui.TreeHeader.assignTo=割り当て先:
+
+#These strings can be found by going to the install task and click on the add files button
+Designer.Gui.ZGAddFilesChooserUI.addAll=すべて追加
+Designer.Gui.ZGAddFilesChooserUI.addAllFilesToList=すべてのファイルをファイル一覧に追加
+Designer.Gui.ZGAddFilesChooserUI.addFolderToFavorites=フォルダをお気に入りに追加
+Designer.Gui.ZGAddFilesChooserUI.addSelectedFileToList=選択したファイルをファイル一覧に追加
+Designer.Gui.ZGAddFilesChooserUI.desktop=デスクトップ
+Designer.Gui.ZGAddFilesChooserUI.filesToAdd=追加するファイル:
+Designer.Gui.ZGAddFilesChooserUI.go=進む
+Designer.Gui.ZGAddFilesChooserUI.goBack=戻る
+Designer.Gui.ZGAddFilesChooserUI.goForward=先へ進む
+Designer.Gui.ZGAddFilesChooserUI.goToSpecifiedDirectory=指定したディレクトリに移動
+Designer.Gui.ZGAddFilesChooserUI.home=ホーム
+Designer.Gui.ZGAddFilesChooserUI.home=ホーム
+Designer.Gui.ZGAddFilesChooserUI.localFilesystemView=ローカル ファイルシステム ビュー
+Designer.Gui.ZGAddFilesChooserUI.noFavoritesSpecified=お気に入りが指定されていません
+Designer.Gui.ZGAddFilesChooserUI.openSelectedFolder=選択したフォルダを開く
+Designer.Gui.ZGAddFilesChooserUI.removeSelectedFileFromList=選択したファイルをファイル一覧から削除
+Designer.Gui.ZGAddFilesChooserUI.upOneFolder=1 つ上のフォルダ
+
+#These strings can be found by going to the add files button under the install task
+Designer.Gui.ZGFileChooser.addToFavorites=フォルダをお気に入りに追加...
+Designer.Gui.ZGFileChooser.badFolderAlreadyExists=指定したファイルに対する格納フォルダを自動的に作成するように要求しました。しかし、この場所には、目的の格納フォルダと同じ名前のファイルがすでに存在します。この新しいファイルに別の名前を付けてください。
+Designer.Gui.ZGFileChooser.badFolderNoPerm=指定したファイルに対する格納フォルダを自動的に作成するように要求しました。しかし、InstallAnywhere は、要求されたフォルダを作成できませんでした。要求したフォルダ パスを作成するのに適切なアクセス許可がない可能性があります。この新しいファイル用に別の場所を選択してください。
+Designer.Gui.ZGFileChooser.cannotCreateFolderPath=目的のフォルダ パスを作成できません
+Designer.Gui.ZGFileChooser.cannotDuplicateFolderName=この場所にある既存フォルダと同じ名前のファイルを保存することはできません。この新しいファイルに別の名前を付けてください。
+Designer.Gui.ZGFileChooser.cannotReplaceFolderWithFileSameName=フォルダを同じ名前のファイルに置き換えることはできません
+Designer.Gui.ZGFileChooser.computer=コンピュータ
+Designer.Gui.ZGFileChooser.createNewFolder=新規フォルダを作成
+Designer.Gui.ZGFileChooser.createNewFolder=新規フォルダを作成
+Designer.Gui.ZGFileChooser.enterFolderName=作成する新規フォルダの名前を入力
+Designer.Gui.ZGFileChooser.favorites=お気に入り
+Designer.Gui.ZGFileChooser.fileAlreadyExists="#FILENAME#" という名前のファイルは、この場所にすでに存在します
+Designer.Gui.ZGFileChooser.fileAlreadyExistsInDir="#FILENAME#" という名前のファイルは、"#DIRECTORY#" にすでに存在します。
+Designer.Gui.ZGFileChooser.folder=フォルダ:
+Designer.Gui.ZGFileChooser.folderNameAlreadyExistsSt="#FOLDER_NAME#" フォルダは、この場所にすでに存在します。別のフォルダ名を使用してください。
+Designer.Gui.ZGFileChooser.folderNamePermSt=この場所に "FOLDER_NAME" フォルダを作成できませんでした。ここに新しいフォルダを作成するためのアクセス許可がない可能性があります。
+Designer.Gui.ZGFileChooser.go=進む
+Designer.Gui.ZGFileChooser.goBack=戻る
+Designer.Gui.ZGFileChooser.goForward=先へ進む
+Designer.Gui.ZGFileChooser.goToSpecifiedDirectory=指定したディレクトリに移動
+Designer.Gui.ZGFileChooser.home=ホーム
+Designer.Gui.ZGFileChooser.inputLanguage=入力言語:
+Designer.Gui.ZGFileChooser.new=新規
+Designer.Gui.ZGFileChooser.newFolder=新規フォルダ
+Designer.Gui.ZGFileChooser.noFavoritesSpecified=お気に入りが指定されていません
+Designer.Gui.ZGFileChooser.openSelectedFolder=選択したフォルダを開く
+Designer.Gui.ZGFileChooser.qShouldIAReplaceExistingFile=既存のファイルを置き換えますか?
+Designer.Gui.ZGFileChooser.unableToCreateDesiredFolder=この場所に目的の名前のフォルダを作成できません
+Designer.Gui.ZGFileChooser.upOneFolder=1 つ上のフォルダ
+Designer.Gui.ZGFileChooser.zgVolumeLabel=ZG ボリューム ラベル
+
+Designer.InstallAnywhere.iaEditionInfo=InstallAnywhere のエディション
+Designer.InstallAnywhere.macOSXonly=このエディションの InstallAnywhere は、Mac OS X 上でのみ実行できるように設計されているため、他のプラットフォーム上では実行できません。デザイナを終了します。
+Designer.InstallAnywhere.cmdBuildOnly=InstallAnywhere のこのエディションは、コマンドライン ビルダとしてのみ実行されるように登録されています。 したがって、インストール プロジェクトを編集することはできません。
+Designer.InstallAnywhere.collaborationOnly=InstallAnywhere のこのエディションは、DIM ユニット テスト インストーラのビルド用に登録されています。 したがって、インストール プロジェクトの編集/ビルドには使用できません。
+Designer.InstallAnywhere.registerForDesigner=インストール プロジェクトの編集ができる新しいシリアル番号を使って InstallAnywhere を登録しますか?
+Designer.InstallAnywhere.unsupportedJVM=サポートされていない Java VM
+Designer.InstallAnywhere.vmStatement=このシステムに現在インストールされているバージョンの Mac OS X (バージョン #OS_VERSION) はサポートされていません。InstallAnywhereとバージョン10.1 より前の Mac OS X の組み合わせで、既知の問題があります。そのため、このシステムでは InstallAnywhere を実行しないことを強くお勧めします。最良の結果を得るためには、最新バージョンの Mac OS X にアップグレードしてください (http://www.apple.com/macosx)。
+
+#These strings can be found by add a speed folder action and adding click on the configure filter button
+Designer.Installer.SimplePatternMatcher.include=包含
+Designer.Installer.SimplePatternMatcher.exclude=除外
+Designer.Installer.SimplePatternMatcher.folders=個のフォルダ
+Designer.Installer.SimplePatternMatcher.files=個のファイル
+Designer.Installer.SimplePatternMatcher.begins.with=次の文字列で始まる
+Designer.Installer.SimplePatternMatcher.ends.with=次の文字列で終わる
+Designer.Installer.SimplePatternMatcher.contains=次の文字列を含む
+Designer.Installer.SimplePatternMatcher.regular.expression=次の正規表現に一致:
+Designer.Installer.SimplePatternMatcher.or=または
+Designer.Installer.SimplePatternMatcher.and=および
+Designer.Installer.SimplePatternMatcher.include.all=すべてのファイルを含める
+
+# Area
+# Preferences
+# -----------------
+# Go the menu and select preferences to check out these preferences.
+Designer.Preferences.AccessPathPanel.changesEnabledOnRestart=変更は、再起動するまで反映されません
+Designer.Preferences.AccessPathPanel.defaultSourcePaths=デフォルトのソース パス
+Designer.Preferences.AccessPathPanel.enableSourcePaths=ソース パスを有効にする
+Designer.Preferences.AccessPathPanel.mustEnterSourcePathName=ソース パス名を入力する必要があります。\nIA_PROJECT_DIR、USER_HOME、IA_HOME などのデフォルトのソース パスと同じ名前にすることはできません。
+Designer.Preferences.AccessPathPanel.pathDoesNotResolveUntilProjectOpened=<このパスは、プロジェクトが開かれるまで解決されません>
+Designer.Preferences.AccessPathPanel.sourcePathAndFolderOneToOne=同じ名前の 2 つのソース パス、または同じフォルダを参照する 2 つのソース パスを持つことはできません
+Designer.Preferences.AccessPathPanel.sourcePathsAreVariables=ソース パスは、プロジェクトのファイルへの共通パスを表す特殊な変数です。ファイルを追加したときに、そのファイルへのパスがここに一覧されている "値" のいずれかに一致すると、そのパスの代わりにソース パス変数 "Name" が使用されます。プロジェクトおよびソース ファイルを別のフォルダやコンピュータに移動した場合は、これらのソース パスをアップデートするだけで、それらのすべてのファイルを見つけ出すことができます。
+
+Designer.Preferences.DesignerColorPickerPanel.forest=フォレスト
+Designer.Preferences.DesignerColorPickerPanel.grape=グレープ
+Designer.Preferences.DesignerColorPickerPanel.graphite=グラファイト
+Designer.Preferences.DesignerColorPickerPanel.iaClassic=InstallAnywhere クラシック
+Designer.Preferences.DesignerColorPickerPanel.iaModern=InstallAnywhere モダン
+Designer.Preferences.DesignerColorPickerPanel.randomColor=ランダム カラー
+Designer.Preferences.DesignerColorPickerPanel.randomFade=ランダム フェード
+Designer.Preferences.DesignerColorPickerPanel.systemAdaptive=システム アダプティブ
+Designer.Preferences.DesignerColorPickerPanel.tangerine=タンジェリン
+
+Designer.Preferences.GeneralPreferencesPanel.systemDefault=システム デフォルト
+Designer.Preferences.GeneralPreferencesPanel.advancedDesigner=アドバンスト デザイナ
+Designer.Preferences.GeneralPreferencesPanel.alwaysRecommended=常に (推奨)
+Designer.Preferences.GeneralPreferencesPanel.chooseDesiredLanguage=プロジェクト ウィザードとアドバンスト デザイナの言語を選択してください:
+Designer.Preferences.GeneralPreferencesPanel.commandLineBuilds=コマンド ライン ビルド
+Designer.Preferences.GeneralPreferencesPanel.components=コンポーネント
+Designer.Preferences.GeneralPreferencesPanel.continueWithoutFiles=足りないファイルを含めずに続行する
+Designer.Preferences.GeneralPreferencesPanel.defaultInstallTaskView=インストール タスクのデフォルト ビュー
+Designer.Preferences.GeneralPreferencesPanel.designerLanguage=デザイナ言語
+Designer.Preferences.GeneralPreferencesPanel.encodeFiles=ファイルをエンコードする
+Designer.Preferences.GeneralPreferencesPanel.failRecommended=中止する (推奨)
+Designer.Preferences.GeneralPreferencesPanel.iaShouldStartInFollowingMode=InstallAnywhere の起動モード:
+Designer.Preferences.GeneralPreferencesPanel.iaStartup=InstallAnywhere の起動
+Designer.Preferences.GeneralPreferencesPanel.manifestFiles=manifest ファイル
+Designer.Preferences.GeneralPreferencesPanel.never=確認しない
+Designer.Preferences.GeneralPreferencesPanel.notEncodeFiles=ファイルをエンコードしない
+Designer.Preferences.GeneralPreferencesPanel.productFeatures=製品機能
+Designer.Preferences.GeneralPreferencesPanel.projectLoading=プロジェクトの読み込み
+Designer.Preferences.GeneralPreferencesPanel.projectWizard=プロジェクト ウィザード
+Designer.Preferences.GeneralPreferencesPanel.verifyFileReferencesOnOpen=プロジェクトを開くときに、参照ファイルの場所を確認する:
+Designer.Preferences.GeneralPreferencesPanel.viewShouldShowAssignmentTo=インストール タスクのデフォルト ビューに表示するアクションの割り当て対象:
+Designer.Preferences.GeneralPreferencesPanel.whenBuildinFromManifestAndMissingFile=manifest ファイルを使用したプロジェクトをビルドするときに、参照ファイルが見つからない場合のビルドの処理:
+Designer.Preferences.GeneralPreferencesPanel.whenBuildingAndMissingFile=コマンド ラインからプロジェクトをビルドするときに、参照ファイルが見つからない場合のビルドの処理:
+
+Designer.Preferences.PreferencesDialog.generalSettings=全般設定
+Designer.Preferences.PreferencesDialog.register=登録
+Designer.Preferences.PreferencesDialog.registration=登録
+Designer.Preferences.PreferencesDialog.sourcePaths=ソース パス
+Designer.Preferences.PreferencesDialog.update=アップデート
+
+Designer.Preferences.PrefererencesDialog.designerColors=デザイナの色
+
+Designer.Preferences.RegistrationPanel.address=番地:
+Designer.Preferences.RegistrationPanel.city=市町村:
+Designer.Preferences.RegistrationPanel.companyName=会社名:
+Designer.Preferences.RegistrationPanel.country=国:
+Designer.Preferences.RegistrationPanel.email=電子メール:
+Designer.Preferences.RegistrationPanel.emailToZeroG=そのファイルを電子メールで register@Macrovision.com 宛に送ってください。
+Designer.Preferences.RegistrationPanel.fileToZeroG=ファイルを register@Macrovision.com 宛にお送りください:
+Designer.Preferences.RegistrationPanel.firstName=名:
+Designer.Preferences.RegistrationPanel.iaCouldNotConnect=接続を確立できませんでした。
+Designer.Preferences.RegistrationPanel.iaDetectedSerialNumberIssue=入力したシリアル番号に関する問題が検出されました。<support@Macrovision.com> または +1-415-512-7771 で Macrovision に連絡し、新しいシリアル番号を取得してください。
+Designer.Preferences.RegistrationPanel.iaRegistrationManager=InstallAnywhere 登録マネージャ
+Designer.Preferences.RegistrationPanel.iaUnableToCompleteProcessError2=今回、登録プロセスを完了することはできません (エラー #2)。お持ちの InstallAnywhere コピーを登録できない場合は、Macrovision の開発者テクニカル サポートまでご連絡ください。よろしくお願い申し上げます。
+Designer.Preferences.RegistrationPanel.invalidSerialNumber=シリアル番号が無効か、または互換性がありません
+Designer.Preferences.RegistrationPanel.lastName=姓:
+Designer.Preferences.RegistrationPanel.licensed=使用許諾済み
+Designer.Preferences.RegistrationPanel.phone=電話:
+Designer.Preferences.RegistrationPanel.pleaseBeConnected=インターネットに接続していることを確認してから
+Designer.Preferences.RegistrationPanel.pleaseFilOutFieldsAccurately=下のすべてのフィールドに、できるだけ正確な情報を記入してください。この情報を提供することで、サポートを受けたり、重要なアップグレード情報を入手したりできるようになります。
+Designer.Preferences.RegistrationPanel.pleaseMaleSureYouAreConnected=[登録] をクリックする前にインターネットに接続していることを確認してください。インターネットに接続していない場合は、タイムアウトするまで数分かかるかもしれません。
+Designer.Preferences.RegistrationPanel.registerIA=InstallAnywhere を登録
+Designer.Preferences.RegistrationPanel.registering=登録中
+Designer.Preferences.RegistrationPanel.registering=登録中
+Designer.Preferences.RegistrationPanel.registeringIA=InstallAnywhere を登録中
+Designer.Preferences.RegistrationPanel.registrationError=登録エラー
+Designer.Preferences.RegistrationPanel.saveRegistragionInfo=登録情報を保存
+Designer.Preferences.RegistrationPanel.saveToFile=ファイルに保存...
+Designer.Preferences.RegistrationPanel.sendToRegisterEmail=register@Macrovision.com に送信
+Designer.Preferences.RegistrationPanel.serailNumber=シリアル番号:
+Designer.Preferences.RegistrationPanel.serialNumberAlreadyInUse=このシリアル番号はすでに使用中です
+Designer.Preferences.RegistrationPanel.serialNumberAlreadyRegistered=入力したシリアル番号は、別の InstallAnywhere 開発者によってすでに登録されています。<sales@Macrovision.com> または +1-415-512-7771 で Macrovision に連絡し、新しいシリアル番号を取得してください。
+Designer.Preferences.RegistrationPanel.serialNumberForWrongEdition=入力したシリアル番号は、このエディションの InstallAnywhere 用ではありません。正しいエディションの InstallAnywhere をインストールし、もう一度登録してください。
+Designer.Preferences.RegistrationPanel.state=都道府県:
+Designer.Preferences.RegistrationPanel.suiteApt=ビルの階/アパート #:
+Designer.Preferences.RegistrationPanel.thanksForRegistering=この度はご登録いただき、ありがとうございます。サポートを受けるためには、次の
+Designer.Preferences.RegistrationPanel.tryAgain=やり直してください
+Designer.Preferences.RegistrationPanel.tryAgainOrSave=操作をやり直すか、または登録情報をファイルに保存し、
+Designer.Preferences.RegistrationPanel.zip=郵便番号:
+
+# These are the names of rules as they will show up in rule lists.
+Designer.Rule.CompareRegExpression.visualName=正規表現の照合
+Designer.Rule.CompareVariable.visualName=InstallAnywhere 変数の比較
+Designer.Rule.CustomRule.visualName=カスタム規則の評価
+Designer.Rule.FileFolderPathCheck.visualName=ファイル/フォルダ属性のチェック
+Designer.Rule.FileFolderPathChk.visualName=ファイル/フォルダ属性のチェック
+Designer.Rule.FileModificationCheck.nameStatement=#FILE_NAME# ファイル変更タイムスタンプの比較
+Designer.Rule.LocaleChk.visualName=ユーザー選択言語のチェック
+Designer.Rule.PlatformChk.visualName=プラットフォームのチェック
+Designer.Rule.ArchitectureChk.visualName=システム アーキテクチャをチェック
+
+# These are strings that happen when the XML script fails to write
+Designer.Script.XMLScriptWriter.badInstallObjects=現在のプロジェクトに含まれている 1 つまたは複数のインストール オブジェクトに、依存関係が見つかりました。これらのオブジェクトは、コンパイル エラーの発生を防ぐために、インストール スクリプトには含まれていませんでした。この問題が解決されない場合は、Macrovision の開発者テクニカル サポートに連絡してください。
+Designer.Script.XMLScriptWriter.iaExperiencedErrorsWritingScript=インストール スクリプトへの書き込み中にエラーが発生しました。
+Designer.Script.XMLScriptWriter.scriptErrors=スクリプト エラー
+
+# These are strings that appear when the product is checking for updates.
+Designer.Update.noInetConnect=アップデート サーバー #HOST# に接続できません。 接続のネットワーク設定を確認してください。
+Designer.Update.UpdateFacade.checkingForIAupdates=InstallAnywhere のアップデートをチェック
+Designer.Update.UpdateFacade.checkingForUpdates=アップデートをチェックしています。
+Designer.Update.UpdateFacade.iaCheckingForUpdates=現在 PowerUpdate を使用してアップデートをチェックしています。
+Designer.Update.UpdateFacade.noUpdatesAvailable=入手可能なアップデートはありません
+Designer.Update.UpdateFacade.youGotCurrent=現在お使いの InstallAnywhere は最新バージョンです。入手可能なアップデートはありません。
+
+# These are String that appear when an update is needed.
+Designer.Update.UpdateFoundDialog.updateAvailable=入手可能なアップデート
+Designer.Update.UpdateFoundDialog.installAnywhereUpdateIsAvailable=InstallAnywhere のアップデートが入手可能です。
+Designer.Update.UpdateFoundDialog.narrative=InstallAnywhere のアップデートが入手可能です。このアップデートは、いくつかの強化機能と既知の問題に対する修正を提供するものです。\n\n次の方法で、InstallAnywhere をアップデートできます。\n今すぐ: InstallAnywhere を終了し、アップデートを開始します。\n終了時: InstallAnywhere を終了したときにアップデートが開始されます。\n後で: InstallAnywhere はアップデートされません。次回アップデートのチェックが行われたときに、もう一度尋ねられます。\n 
+Designer.Update.UpdateFoundDialog.now=今すぐ
+Designer.Update.UpdateFoundDialog.later=後で
+Designer.Update.UpdateFoundDialog.onExit=終了時
+Designer.Update.UpdateFoundDialog.checkAutomatically=自動的にアップデートをチェック
+
+Designer.Util.AccessPathData.accessPathName=アクセス パス名
+
+Designer.Util.DesignerUtil.noFeaturesComponent=機能コンポーネントがありません
+Designer.Util.DesignerUtil.actionNotAssigned=このコンポーネントは、現在機能に割り当てられていないすべてのアクションを表しています。
+Designer.Util.DesignerUtil.assignedActionsToFeatures=このコンポーネントは、開発者が機能にアクションを割り当てたときに自動的に作成されたものです。
+Designer.Util.DesignerUtil.projectConversion=プロジェクト変換
+Designer.Util.DesignerUtil.generatedProjectConversion=このコンポーネントは、プロジェクト変換中に生成されたものです。
+Designer.Util.DesignerUtil.common=共通
+Designer.Util.DesignerUtil.commonComment=このコンポーネントは、すべての製品機能に共通なリソース (例、ファイル、フォルダ、アクション) を保持しています。
+Designer.Util.DesignerUtil.installAnywhereUninstallComponent=InstallAnywhere アンインストール コンポーネント
+Designer.Util.DesignerUtil.installAnywhereUninstallComponentComment=このコンポーネントは、このプロジェクトのアンインストーラ、およびこのプロジェクトによってインストールされた製品のアンインストールに固有なリソースを保持するためのものです。
+Designer.Util.DesignerUtil.nonUninstallerResources=重要: プロジェクトに新しいアクションを追加したりそれらを変更したりするときに、アンインストールに特有でないリソースを InstallAnywhere のアンインストール コンポーネント (アンインストール) に直接追加することは避けてください。\n\n アンインストール コンポーネントは、このプロジェクトのアンインストーラ、およびこのプロジェクトによってインストールされた製品のアンインストール固有リソースを保持するためのものです。\n\n このコメントは削除しないことをお勧めします。
+Designer.Util.DesignerUtil.conversionAlert=プロジェクトの変換に関する警告
+Designer.Util.DesignerUtil.conversionMessage=InstallAnywhere 5.5 には、Windows で使用中のファイルの上にインストールするための拡張機能が含まれています。インストールを完了するためには、システムを再起動する必要があります。プロジェクトをアップデートしてこの機能を有効にしますか?
+
+Designer.Util.IA35ProjectConverter.iaConverter=InstallAnywhere プロジェクト コンバータ
+Designer.Util.IA35ProjectConverter.qConvertProjectToNewFormat=プロジェクトを新しい形式に変換しますか?
+
+Designer.Util.LAXPopertyData.comment=コメント
+
+Designer.Util.MECreator.chooseMainClass=メイン クラスを選択
+Designer.Util.MECreator.findingMainClasses=メイン クラスを検索中
+Designer.Util.MECreator.noFilesContainMainClasses=このプロジェクトには、メイン メソッドを含んでいるファイルがありません。
+Designer.Util.MECreator.unableToFindMainClasses=メイン クラスが見つかりません
+
+# These are strings that appear when a project is improperly loaded.
+Designer.Util.ResourceManager.gifImageFiles=GIF イメージ ファイル
+Designer.Util.ResourceManager.incorrectFileType=ファイルの種類が不正です
+Designer.Util.ResourceManager.locate=検索
+Designer.Util.ResourceManager.locateMissingResourceStatement=\u000A\u000A[検索] をクリックして足りないリソースを検索するか、または [キャンセル] をクリックして #PROJECT_NAME# の読み込みをキャンセルしてください。[削除] をクリックすると、このリソースを使用しているアクションがプロジェクトから削除されます。
+Designer.Util.ResourceManager.macOSXIconResourceFiles=Mac OS X アイコン リソース ファイル
+Designer.Util.ResourceManager.missingResource=足りないリソース
+Designer.Util.ResourceManager.resourceManager=リソース マネージャ
+Designer.Util.ResourceManager.resourceStatement1=リソース マネージャで "#ACTION_TYPE#" の "#FILE_PATH#" ファイルを見つけることはできません。
+Designer.Util.ResourceManager.resourceStatement2=リソース マネージャで "#ACTION_TYPE#" の "#FILE_PATH#" ファイルを見つけることはできません。
+Designer.Util.ResourceManager.resourceStatement3=リソース マネージャで "#ACTION_TYPE#" の "#FILE_PATH#" ディレクトリを見つけることはできません。
+Designer.Util.ResourceManager.resourceStatement4=リソース マネージャで "#ACTION_TYPE#" の "#FILE_PATH#" ディレクトリを見つけることはできません。
+Designer.Util.ResourceManager.wrongFiletypeStatement=選択したファイル \"#FILE#" は、足りないリソース \"#FILENAME#" の代わりとして適切なファイルではありません。\n\n別のファイルを選択してください。
+
+Designer.Util.VariablePropertyDataIP.variableName=変数名
+
+Designer.Util.ZGDesignTimePathManager.badPathSt=ソース パス #KEY# は、存在しないフォルダ #PATH# を参照しています。このソース パスを削除するか、または新しいフォルダを選択してこのソース パスを定義してください。
+Designer.Util.ZGDesignTimePathManager.pathBad=パス マネージャ:ソース パスが不正です
+Designer.Util.ZGDesignTimePathManager.pathBadInfoSt=このプロジェクトにはソース パス #KEY# がありますが、プロジェクトのリソースを検索するための正しいパスを参照していません。今すぐこのアクセス パスを定義し直すか、またはこのダイアログをキャンセルし、リソース マネージャを使って手動で足りないリソースを検索できます。\n\n足りないリソースに定義されていたパスは次のとおりです:\n #MISSING_PATH#
+Designer.Util.ZGDesignTimePathManager.pathBadSt=ソース パス #KEY# が不正です
+Designer.Util.ZGDesignTimePathManager.pathNotFound=パス マネージャ:ソース パスが見つかりません
+Designer.Util.ZGDesignTimePathManager.pathNotFoundInfoSt=このプロジェクトにはソース パス #KEY# がありますが、お使いの InstallAnywhere 用に定義されていません。今すぐこのソース パスを定義するか、またはこのダイアログをキャンセルし、リソース マネージャを使って手動で足りないリソースを検索できます。\n\n足りないリソースに定義されていたパスは次のとおりです:\n #MISSING_PATH#
+Designer.Util.ZGDesignTimePathManager.pathNotFoundSt=ソース パス #KEY# が見つかりません
+Designer.Util.ZGDesignTimePathManager.pathSt=#PATH# は読み取り専用のようです。ソース パス パネルのデータは保存されません。
+
+
+# Area:
+# Designer.Wizard
+# ------------------------
+# Find these strings by progressing through the wizard.
+
+Designer.Wizard.IAWizard.clickToFindOutMore=InstallAnywhere の詳細については、ここをクリックしてください。
+Designer.Wizard.IAWizard.doNotShowAgain=再表示しない
+Designer.Wizard.IAWizard.dontSave=保存しない
+Designer.Wizard.IAWizard.exitIA=InstallAnywhere を終了するには、ここをクリックします。
+Designer.Wizard.IAWizard.iaWorksBetterWithOtherScreenRes=InstallAnywhere アドバンスト デザイナは、1024 x 768 以上の画面解像度で最適に動作します。このままアドバンスト デザイナを起動することは可能ですが、一部の要素やコントロールが正しく表示されなかったり、または使用できない可能性があります。アドバンスト デザイナを起動する前に画面解像度を上げることをお勧めします。\n\nアドバンスト デザイナに切り替えてもよろしいですか?
+Designer.Wizard.IAWizard.invalidProjectFile=プロジェクト ファイルが無効です
+Designer.Wizard.IAWizard.launchingAdvancedDesigner=アドバンスト デザイナを起動中
+Designer.Wizard.IAWizard.loadingProject=プロジェクトを読み込み中
+Designer.Wizard.IAWizard.noMainClassSpecified=インストールするアプリケーションのメイン クラスが指定されていません。今すぐメイン クラスを選択しますか?
+Designer.Wizard.IAWizard.openModuleStatement="#MODULE_EXTENSION#" (マージ モジュール) ファイルを選択する必要があります。
+Designer.Wizard.IAWizard.openProjectFile=プロジェクト ファイルを開く
+Designer.Wizard.IAWizard.openStatement="#CLASS_EXTENSION#" (InstallAnywhere レガシ プロジェクト) または "#XML_EXTENSION#" (InstallAnywhere XML プロジェクト) を選択する必要があります。
+Designer.Wizard.IAWizard.pleaseWait=お待ちください...
+Designer.Wizard.IAWizard.qSaveProject=操作を行う前に現在の InstallAnywhere プロジェクトを保存しますか?
+Designer.Wizard.IAWizard.resolutionRecommendation=アドバンスト デザイナの画面解像度に関する推奨事項
+Designer.Wizard.IAWizard.save=保存
+Designer.Wizard.IAWizard.saveNewProjectAs=新規プロジェクトに名前を付けて保存...
+Designer.Wizard.IAWizard.saveStatement='#INSTALLER_NAME#' プロジェクトを保存しますか?
+Designer.Wizard.IAWizard.specifyMainClass=メイン クラスを指定
+Designer.Wizard.IAWizard.switchToIAadvancedDesigner=InstallAnywhere のアドバンスト デザイナに切り替えるには、ここをクリックします。
+
+Designer.Wizard.IAWizardNavigator.about=バージョン情報...
+Designer.Wizard.IAWizardNavigator.advancedDesigner=アドバンスト デザイナ...
+Designer.Wizard.IAWizardNavigator.build=ビルド
+Designer.Wizard.IAWizardNavigator.tryIt=試行
+
+#  Add file panel of Wizard
+Designer.Wizard.WAddFiles.addFiles=ファイルを追加...
+Designer.Wizard.WAddFiles.clickButtonToAddFiles=[ファイルを追加] をクリックすると、プロジェクトにファイルを追加できます。ファイルを削除する場合は、ツリーでファイルを選択し、[削除] を選択します。
+Designer.Wizard.WAddFiles.clickToAddFiles=インストール プロジェクトにファイルを追加するには、ここをクリックします。
+Designer.Wizard.WAddFiles.clickToGoBackToSetInfo=[情報を設定] 手順に戻るには、ここをクリックします。
+Designer.Wizard.WAddFiles.clickToGoForwardToChooseMain=[メイン クラスを選択] 手順へ進むには、ここをクリックします。
+Designer.Wizard.WAddFiles.clickToRemove=現在ハイライトされている項目をインストール プロジェクトから削除するには、ここをクリックします。
+Designer.Wizard.WAddFiles.displaysFilesAsWillBeInstalled=目的のシステムにインストールされるとおりにファイルを表示します。
+Designer.Wizard.WAddFiles.fileFolderHierarchy=ファイル/フォルダ階層
+Designer.Wizard.WAddFiles.mustSelectItemToRemove=まずツリー内で削除する項目を選択する必要があります。
+Designer.Wizard.WAddFiles.otherJavaPlatforms=その他の Java 対応プラットフォーム
+Designer.Wizard.WAddFiles.remove=削除
+
+#  Build panel of Wizard
+Designer.Wizard.WBuild.buildInstallerFor=インストーラの対象プラットフォーム
+Designer.Wizard.WBuild.buildSettingsAlterred=\nこのプロジェクトのビルド設定が、足りない VM パックを反映するように変更されました -- [VM 付き] オプションは、これらの各プラットフォームに対して無効になりました。このプロジェクトを保存またはビルドすると、新しいビルド設定が永久的に保存されます。元の設定を維持するには、足りない VM パックを置き換え、InstallAnywhere を再起動します (プロンプトされたときに保存しないでください)。
+Designer.Wizard.WBuild.buildToCreateInstaller=インストーラを作成するには、目的のプラットフォームをすべて選択し、[ビルド] をクリックします。インストーラにバンドルする特定の Java VM を選択するには、アドバンスト デザイナを使用してください。
+Designer.Wizard.WBuild.clickToBuildInstallers=選択したプラットフォームのインストーラをビルドするには、ここをクリックします。
+Designer.Wizard.WBuild.clickToGoBackToChooseMain=[メイン クラスを選択] 手順に戻るには、ここをクリックします。
+Designer.Wizard.WBuild.clickToGoBackToSetClasspath=[クラスパスを設定] 手順に戻るには、ここをクリックします。
+Designer.Wizard.WBuild.mustSelectAtLeastOnePlatform=インストーラをビルドする前に、少なくとも 1 つのプラットフォームを選択する必要があります。
+Designer.Wizard.WBuild.selectToBuildAIXnoVM=AIX システム用のインストーラ (VM なし) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildAIXwithVM=AIX システム用のインストーラ (Java VM 付き) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildHPUSwithVM=HP-UX システム用のインストーラ (Java VM 付き) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildHPUXnoVM=HP-UX システム用のインストーラ (VM なし) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildLinuxNoVM=Linux システム用のインストーラ (VM なし) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildLinuxWithVM=Linux システム用のインストーラ (Java VM 付き) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildMacNoVM=Mac OS システム用のインストーラ (VM なし) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildMacOSX=Mac OS X システム用のインストーラをビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildOther=他の Java 対応プラットフォーム用のインストーラをビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildSolarisNoVM=Solaris システム用のインストーラ (VM なし) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildSolarisWithVM=Solaris システム用のインストーラ (Java VM 付き) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildUNIXnoVM=すべての UNIX システム用のインストーラ (VM なし) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildWinNoVM=Windows システム用のインストーラ (VM なし) をビルドする場合に選択します。
+Designer.Wizard.WBuild.selectToBuildWindowsNoVM=Windows システム用のインストーラ (Java VM 付き) をビルドする場合に選択します。
+Designer.Wizard.WBuild.vmPackResourcesNotFound=VM パック リソースが見つかりません
+Designer.Wizard.WBuild.vmPacksNotFound=次のプラットフォームの VM パックが見つかりませんでした:
+Designer.Wizard.WBuild.withVM=VM 付き
+Designer.Wizard.WBuild.withoutVM=VM なし
+
+# find main classes panel of the InstallAnywhere Project Wizard
+Designer.Wizard.WChooseMain.autoFindMainClasses=メイン クラスを自動検索
+Designer.Wizard.WChooseMain.chickToGoToBuildInstaller=[インストーラをビルド] 手順へ進むには、ここをクリックします。
+Designer.Wizard.WChooseMain.chooseMainClass=メイン クラスを選択
+Designer.Wizard.WChooseMain.clickToAutoFiind=プロジェクト内のすべてのメイン クラスを自動検索するには、ここをクリックします。
+Designer.Wizard.WChooseMain.clickToAutoFindMainClasses=[メイン クラスを自動検索] をクリックしてすべてのメイン クラスを表示するか、またはテキストボックスにメイン クラスの名前を入力してください。[変更] をクリックすると、LaunchAnywhere 起動プログラムのアイコンを選択できます。
+Designer.Wizard.WChooseMain.clickToChangeIcon=LaunchAnywhere 実行可能アイコンを変更するには、ここをクリックします。
+Designer.Wizard.WChooseMain.clickToGoToAddFile=[ファイルを追加] 手順に戻るには、ここをクリックします。
+Designer.Wizard.WChooseMain.clickToGoToSetClasspath=[クラスパスを設定] 手順へ進むには、ここをクリックします。
+Designer.Wizard.WChooseMain.clickToResetIconToDefault=LaunchAnywhere 実行可能アイコンをデフォルトにリセットするには、ここをクリックします。
+Designer.Wizard.WChooseMain.displaysAutoFoundMainClasses=プロジェクト内で見つかったすべてのメイン クラスを表示します。
+Designer.Wizard.WChooseMain.findinfMainClasses=メイン クラスを検索中
+Designer.Wizard.WChooseMain.findingMainClasses=メイン クラスを検索中
+Designer.Wizard.WChooseMain.launchAnywhereIcon=LaunchAnywhere アイコン
+Designer.Wizard.WChooseMain.launchIcon16=16x16 "LaunchAnywhere" アプリケーション起動プログラム アイコン。
+Designer.Wizard.WChooseMain.launchIcon32=32x32 "LaunchAnywhere" アプリケーション起動プログラム アイコン。
+Designer.Wizard.WChooseMain.listHintLine0=メイン クラスを検索するには、
+Designer.Wizard.WChooseMain.listHintLine1=下の [メイン クラスを自動検索] を
+Designer.Wizard.WChooseMain.listHintLine2=クリックします。
+Designer.Wizard.WChooseMain.mainClass=メイン クラス (フルパッケージ名):
+Designer.Wizard.WChooseMain.noMainClassesFound=メイン クラスは見つかりませんでした。
+Designer.Wizard.WChooseMain.pleaseSelectPlatform=プラットフォームを選択してください
+Designer.Wizard.WChooseMain.pleaseWait=お待ちください...
+Designer.Wizard.WChooseMain.topeNameOfProject=プロジェクトのメイン クラスの名前を入力するか、または一覧からメイン クラスを選択します。
+
+# Set Classpath panel of the InstallAnywhere Project Wizard
+Designer.Wizard.WClasspath.autoSetClasspath=クラスパスを自動的に設定
+Designer.Wizard.WClasspath.classpathHasBeenSet=クラスパス設定済み
+Designer.Wizard.WClasspath.clickButtonToAutoSetClasspath=[クラスパスを自動的に設定] をクリックしてこのタスクを自動的に行うか、または一覧内の任意の項目を選択し、[クラスパス] チェックボックスをオンにして、それらの項目をクラスパスに追加します。
+Designer.Wizard.WClasspath.clickToDetermineFolderClasspath=クラスパスに含まれるはずのフォルダ/アーカイブを自動判別するには、ここをクリックします。
+Designer.Wizard.WClasspath.clickToGoBackToChooseMain=[メイン クラスを選択] 手順に戻るには、ここをクリックします。
+Designer.Wizard.WClasspath.clickToGoToBuildInstaller=[インストーラをビルド] 手順へ進むには、ここをクリックします。
+Designer.Wizard.WClasspath.displaysFoldersArchivesInProject=プロジェクト内のすべてのフォルダ/アーカイブの一覧を表示します。
+Designer.Wizard.WClasspath.indicatesItemIs=は、項目がクラスパス上に
+Designer.Wizard.WClasspath.indicatesItemLine0=は、項目がクラスパス上に
+Designer.Wizard.WClasspath.indicatesItemLine1=あることを示します。
+Designer.Wizard.WClasspath.mustFirstSelectItemInTree=まずツリー内の項目を選択する必要があります。
+Designer.Wizard.WClasspath.pleaseWait=お待ちください...
+Designer.Wizard.WClasspath.selectToAdd=ハイライトされているフォルダ/アーカイブをクラスパスに追加する場合に選択します。
+Designer.Wizard.WClasspath.setClasspath=クラスパスを設定
+Designer.Wizard.WClasspath.settingClasspath=クラスパスを設定中
+
+# Open New Project Wizard Panel
+Designer.Wizard.WNewOpenProj.clickSaveAs=[名前を付けて保存] をクリック
+Designer.Wizard.WNewOpenProj.clickSaveAsAndSpecifyName=[名前を付けて保存] ボタンをクリックし、InstallAnywhere プロジェクトのファイル名を指定してください。
+Designer.Wizard.WNewOpenProj.clickToFindOutMore=InstallAnywhere の詳細については、ここをクリックしてください。
+Designer.Wizard.WNewOpenProj.clickToGoToSetInfo=[情報を設定] 手順へ進むには、ここをクリックします。
+Designer.Wizard.WNewOpenProj.clickToOpenDifferent=別の InstallAnywhere プロジェクトを開くには、ここをクリックします。
+Designer.Wizard.WNewOpenProj.createNewProject=新しいプロジェクトを作成する
+Designer.Wizard.WNewOpenProj.newProject.ent=テンプレートを選択/プロジェクトを作成
+Designer.Wizard.WNewOpenProj.newProject=プロジェクトを作成
+Designer.Wizard.WNewOpenProj.openExistingProject=既存のプロジェクトを開く
+Designer.Wizard.WNewOpenProj.openOther=その他のプロジェクト...
+Designer.Wizard.WNewOpenProj.otherTemplate=その他のテンプレート...
+Designer.Wizard.WNewOpenProj.openRecentProject=最近使ったプロジェクトを開く
+Designer.Wizard.WNewOpenProj.pleaseCreateNewProject=最初に、新規プロジェクトを作成するか、または既存の InstallAnywhere プロジェクトを開いてください。
+Designer.Wizard.WNewOpenProj.projectFileName=プロジェクトファイル名:
+Designer.Wizard.WNewOpenProj.saveAs=名前を付けて保存...
+Designer.Wizard.WNewOpenProj.selectProjectFromList=最近使用したプロジェクトの一覧からプロジェクトを選択するか、または [その他のプロジェクト] をクリックして他のプロジェクトを参照します。
+Designer.Wizard.WNewOpenProj.selectToCreateNewProject=新規の InstallAnywhere プロジェクトを作成する場合に選択します。
+Designer.Wizard.WNewOpenProj.selectToOpenExisting=既存の InstallAnywhere プロジェクトを開く場合に選択します。
+Designer.Wizard.WNewOpenProj.specifyFileNameByClicking=インストーラ プロジェクトのファイル名を指定するには、ここをクリックします。
+Designer.Wizard.WNewOpenProj.unlistedTemplate=一覧されていないテンプレートを選択するには、ここをクリックします。
+Designer.Wizard.WNewOpenProj.chooseTemplate=テンプレートを選択してください。
+
+#Create a new project in the Advanced designer (and wizard)
+Designer.Gui.DialogCreateNewProject.chooseTemplate=テンプレートを選択
+Designer.Gui.DialogCreateNewProject.projectFileName=プロジェクトファイル名:
+Designer.Gui.DialogCreateNewProject.saveAs=名前を付けて保存...
+Designer.Gui.DialogCreateNewProject.clickSaveAs=[名前を付けて保存...] をクリック
+Designer.Gui.DialogCreateNewProject.createProject=プロジェクトを作成
+
+#Create a new project in the wizard
+Designer.Gui.ChooseTemplateComponent.templateFinder=テンプレート ファインダ
+Designer.Gui.ChooseTemplateComponent.chooseTemplate=テンプレートを選択
+Designer.Gui.ChooseTemplateComponent.default=基本プロジェクト
+
+
+# Project Info Wizard Panel
+Designer.Wizard.WProjInfo.27CharLimit=27 文字制限。
+Designer.Wizard.WProjInfo.alias=エイリアス
+Designer.Wizard.WProjInfo.apppShortcutStatement=アプリケーション #SHORTCUT# 名:
+Designer.Wizard.WProjInfo.clickToGoBackToOpenProject=[新規プロジェクト]/[プロジェクトを開く] 手順に戻るには、ここをクリックします。
+Designer.Wizard.WProjInfo.clickToGoToAddFiles=[ファイルを追加] 手順へ進むには、ここをクリックします。
+Designer.Wizard.WProjInfo.compatibilityWarning=互換性に関する警告
+Designer.Wizard.WProjInfo.displayedOnTitleBarDuringInstall=(インストール手順のタイトル バーに表示されます。)
+Designer.Wizard.WProjInfo.dontShowAgain=再び表示しない
+Designer.Wizard.WProjInfo.enterProductInfo=製品に関する情報を各フィールドに入力してください。
+Designer.Wizard.WProjInfo.incompatibleInstallerName=インストーラ名に互換性がありません
+Designer.Wizard.WProjInfo.installFolderName=インストール フォルダ名:
+Designer.Wizard.WProjInfo.installerName=インストーラ名:
+Designer.Wizard.WProjInfo.link=リンク
+Designer.Wizard.WProjInfo.macOSclassicLengthConstraint=Mac OS Classic では、32 文字以上のファイル名がサポートされません。また、InstallAnywhere には、専用の 4 文字が必要です。\nMac OS Classic 用のインストーラをビルドする場合は、インストーラの名前を 27 文字以内に制限してください。
+Designer.Wizard.WProjInfo.productName=製品名:
+Designer.Wizard.WProjInfo.projectInfo=製品情報
+Designer.Wizard.WProjInfo.shadow=Shadow
+Designer.Wizard.WProjInfo.shortcut=ショートカット
+Designer.Wizard.WProjInfo.somePlatformsCDROMfilenameIssue=一部のプラットフォームでは、ISO-9660 CD-ROM から読み込みするとき 8.3 形式のファイル名のみサポートされています。   インストーラを CD-ROM に収録して配布する場合は、インストーラの名前を 8 文字に制限します。\n\nまた、[インストーラ名] フィールドにスペースを入力した可能性もあります。  インストーラの名前にスペースを含めると、’Web インストーラ’ をビルドするときに InstallAnywhere によって自動生成される HTML ページやアプレットに問題が発生する可能性があります。
+Designer.Wizard.WProjInfo.specifyFileNameAndShortcut=アプリケーションのファイル名とそれに対応する #SHORTCUT# を指定します。
+Designer.Wizard.WProjInfo.specifyInstallToFolder=アプリケーションがインストールされるフォルダの名前を指定します。
+Designer.Wizard.WProjInfo.specifyInstallerName=ビルドするインストーラの名前を指定します。
+Designer.Wizard.WProjInfo.specifyProductName=製品の名前を指定します。
+
+#  Try Installer Project Wizard Panel
+Designer.Wizard.WTryInstaller.buildComplete=ビルド完了\!
+Designer.Wizard.WTryInstaller.clickToGoBackToBuildInstaller=[インストーラをビルド] 手順に戻るには、ここをクリックします。
+Designer.Wizard.WTryInstaller.clickToTryInstaller=新しいインストーラを試すには、ここをクリックします。
+Designer.Wizard.WTryInstaller.installerLocation=インストーラの場所
+Designer.Wizard.WTryInstaller.locationsOfInstallersAndProject=ビルドしたインストーラと InstallAnywhere プロジェクトの場所は、以下のとおりです。
+Designer.Wizard.WTryInstaller.projectAt=プロジェクトの保存場所:
+Designer.Wizard.WTryInstaller.thisFeatureNotAvaiable=現在、この機能は使用できません。
+Designer.Wizard.WTryInstaller.thisFeatureNotAvailableThisPlatform=現在、このプラットフォームでは、この機能を使用できません。
+Designer.Wizard.WTryInstaller.webInstallerAt=Web インストーラの場所:
+
+Designer.ZGLocales.english=英語
+Designer.ZGLocales.japanese=日本語
+Designer.ZGLocales.french=フランス語
+Designer.ZGLocales.frenchCanada=フランス語 (カナダ)
+Designer.ZGLocales.german=ドイツ語
+Designer.ZGLocales.thai=タイ語
+Designer.ZGLocales.chineseSimplified=中国語 (簡体)
+Designer.ZGLocales.korean=韓国語
+Designer.ZGLocales.chineseTraditional=中国語 (繁体)
+Designer.ZGLocales.czech=チェコ語
+Designer.ZGLocales.hungarian=ハンガリー語
+Designer.ZGLocales.polish=ポーランド語
+Designer.ZGLocales.slovak=スロバキア語
+Designer.ZGLocales.slovenian=スロベニア語
+Designer.ZGLocales.russian=ロシア語
+Designer.ZGLocales.catalan=カタロニア語
+Designer.ZGLocales.danish=デンマーク語
+Designer.ZGLocales.spanish=スペイン語
+Designer.ZGLocales.basque=バスク語
+Designer.ZGLocales.finnish=フィンランド語
+Designer.ZGLocales.indonesian=インドネシア語
+Designer.ZGLocales.icelandic=アイスランド語
+Designer.ZGLocales.italian=イタリア語
+Designer.ZGLocales.dutch=オランダ語
+Designer.ZGLocales.norwegian=ノルウェー語
+Designer.ZGLocales.portuguese=ポルトガル語
+Designer.ZGLocales.portugueseBrazil=ポルトガル語 (ブラジル)
+Designer.ZGLocales.swedish=スウェーデン語
+Designer.ZGLocales.greek=ギリシャ語
+Designer.ZGLocales.turkish=トルコ語
+Designer.Resources.Media.mediaNumber=メディア番号
+Designer.Resources.Media.mediaName=メディア名
+Designer.Resources.Media.mediaSize=メディア サイズ
+Designer.Resources.Media.explanation=この表は、CD-ROM/DVD インストーラの分割方法を示すものです。各エントリは、別個のメディアのボリューム (CD など) を表しています。インストーラの合計サイズがここで指定した合計サイズより大きい場合は、デフォルトの CD サイズ (650 MB) を使用して、新しいボリュームが自動的に作成されます。このメディア名は、インストーラによって新しいメディア ボリュームが要求されるときに、ユーザーに対して表示されます。Unix システムとの互換性を保つには、スペースを入れずに 8 文字の名前を使用してください。
+Designer.Resources.Media.title=説明
+
+Wizard.WizardHelp.imagePath=com/zerog/ia/designer/wizard/images/en/
+#  String used in Install File action
+designer.customizer.overWriteLabel=ファイルがすでにエンド ユーザーのシステムに存在する場合:
+
+# BILLBOARD
+# ---------
+
+# ................ =billboardImage.gif
+Billboard.imageName=billboardImage.gif
+
+# ................ =com/zerog/ia/installer/images/
+Billboard.imagePath=com/zerog/ia/installer/images/
+
+# ..................... =Splash.png
+Installer.userSplashName=Splash.png
+
+# ..................... =com/zerog/ia/installer/images/
+Installer.userSplashPath=com/zerog/ia/installer/images/
+
+# ........................ =com/zerog/ia/installer/images/
+InstallSet.custom.imagePath=com/zerog/ia/installer/images/
+
+# ........................ =customIcon.png
+InstallSet.custom.imageName=customIcon.png
+Designer.Customizer.AActionGroup.groupName=アクション グループ名
+
+Designer.Customizer.BTMM.visualName=マージ モジュールをインポート
+Designer.Customizer.BTMM.mergeModule=マージ モジュール
+Designer.Customizer.BTMM.noMergeModule=<マージ モジュールが選択されていません>
+
+Designer.ReadOnly.Customizer.isReadOnly=このアクションはマージ モジュールからインポートされたため、編集または移動することはできません。\nマージ モジュール内でこのアクションを編集することはできます。
+
+# Export To IA.NET
+#-----------------
+Designer.ExportToIANET.Output.Label=出力
+Designer.ExportToIANET.Output.End=終端:
+Designer.ExportToIANET.Output.Standard=標準
+Designer.ExportToIANET.Output.Error=エラー
+Designer.ExportToIANET.ErrorDialog.Title=InstallAnywhere.NET へのエクスポート エラー
+Designer.ExportToIANET.ErrorDialog.Label=次のエラーが発生したため、このプロジェクトを InstallAnywhere.NET にエクスポートできません。
+Designer.ExportToIANET.MissingZGUFile=ZGU ファイルが次の場所で見つかりませんでした:
+Designer.ExportToIANET.MissingIAXTemplate=IAX テンプレート ファイルが次の場所で見つかりませんでした:
+Designer.ExportToIANET.MissingIANETExport=エクスポート ユーティリティが次の場所で見つかりませんでした:
+
+Designer.AEvaluateDependenciesAction.text.1=このアクションは、このインストーラが依存する可能性のある依存関係状態を評価します。  
+Designer.AEvaluateDependenciesAction.text.2=$DEPENDENCY_SUCCESSES$ - 合格したすべての依存関係のカンマ区切りリスト。
+Designer.AEvaluateDependenciesAction.text.3=$DEPENDENCY_FAILURES$ - 合格しなかったすべての依存関係のカンマ区切りリスト。
+Designer.AEvaluateDependenciesAction.text.4=$DEPENDENCY_REPORT$ - この変数には、合格しなかったすべての依存関係のレポートが含まれています。
+Designer.AEvaluateDependenciesAction.text.5=$DEPENDENCY_STATUS$ -  依存関係の全体的な評価に応じて "success" または "failure” を返します。インストーラ内の依存関係が 1 つでも失敗すると、この変数は "failure" に設定されます。
+
+Designer.DynamicMergeModule.VisualName=ダイナミック マージ モジュール
+Designer.DynamicMergeModule.invalid.title=無効なダイナミック マージ モジュール
+Designer.DynamicMergeModule.invalid.reason=このマージ モジュールはすでにこのインストーラの一部です。 別のマージ モジュール ファイルを選択してください。
+Designer.EvaluationNotice.Title=評価版のお知らせ
+Designer.EvaluationNotice.Americas=南北アメリカ、アジア、および太平洋諸国
+Designer.EvaluationNotice.Europe=ヨーロッパ、中東、アフリカ
+Designer.EvaluationNotice.MonThruFri=月-金
+Designer.EvaluationNotice.EmailUs=次の宛先に電子メールにてご連絡いただくことも可能です :
+Designer.EvaluationNotice.VisitUs=または、こちらをご覧になってください 
+Designer.EvaluationNotice.WebSite=Web サイト
+Designer.EvaluationNotice.IncompleteInstall=不完全インストールです 
+Designer.EvaluationNotice.Evaluation=評価版
+Designer.EvaluationNotice.Button.OK=OK
+Designer.EvaluationNotice.Button.Register=登録
+Designer.EvaluationNotice.Button.Continue=次へ
+Designer.EvaluationNotice.Button.Cancel=キャンセル
+Designer.EvaluationNotice.EvaluationCopy=この評価版を利用して、製品の全機能をお試しただくことができます。
+Designer.EvaluationNotice.EvaluationPeriod=トライアル期間残日数 
+Designer.EvaluationNotice.DaySingular=日
+Designer.EvaluationNotice.DayPlural=日数
+Designer.EvaluationNotice.Expired=評価期間は終了しました。
+Designer.EvaluationNotice.Assistance=評価版のご利用中にサポートがご必要になった場合、また、製品をご注文される際は、弊社までお電話でご連絡ください。
+Designer.EvaluationNotice.InvalidPassword=無効なパスワードが入力されました。
+Designer.EvaluationNotice.PasswordField=パスワード
+
+Designer.Customizer.RNotSupported.notSupported=サポートされていない規則です
+Designer.Customizer.RNotSupported.desc=規則をこのオブジェクトに関連付けることはできません。
+Designer.Preferences.PreferencesDialog.update=アップデート
+Designer.Preferences.UpdatePanel.address=アドレス
+Designer.Preferences.UpdatePanel.iaAutoChecksForUpdates=アップデートを自動的にチェックする
+Designer.Preferences.UpdatePanel.iaUsesUpdateService=InstallAnywhere は、自動的にアップデートを通知するために FLEXnet Connect テクノロジを使用します。  このチェックを自動的に実行するように指定することも、[アップデートをチェック] メニュー項目を使用して手動でチェックを実行することもできます。
+Designer.Preferences.UpdatePanel.port=ポート
+Designer.Preferences.UpdatePanel.useHTTPsetting=使用する HTTP プロキシ設定
+Designer.Preferences.UpdatePanel.ceipOptIn=使用状況レポートをマクロヴィジョンへ送信して、InstallAnywhere の品質向上に協力する。
+Designer.Preferences.UpdatePanel.ceipTitle=カスタマ エクスペリエンス向上プログラム
+Designer.Preferences.UpdatePanel.ceipLinkText=カスタマ エクスペリエンス向上プログラムの詳細を表示
+Designer.Update.UpdateFacade.iaCheckingForUpdates=InstallAnywhere は�FLEXnet Connect を使って利用可能なアップデートをチェックしています。
+Designer.Update.UpdateFacade.chkUpdateErr.title=アップデート エラー
+Designer.Update.UpdateFacade.chkUpdateErr.desc=アップデートのチェック中にエラーが発生しました:
+Designer.Update.InstrumentationNagDialog.title=カスタマ エクスペリエンス向上プログラム
+Designer.Update.InstrumentationNagDialog.label=製品の品質向上にご協力をお願いします。
+Designer.Update.Instrumentation.ceipText=マクロヴィジョン ソフトウェアおよびサービスの品質、信頼性、および性能を高めるため、カスタマ エクスペリエンス向上プログラムへのご協力をお願いします。プログラムへ参加すると、お客様が最もよく使用される機能など、ソフトウェアおよびサービスの利用状況に関する匿名情報が収集されます。 お客様の連絡先情報は収集されません。 アンケートに回答する必要はなく、販売担当者からの連絡、またお客様の作業を中断することもありません。
+Designer.Update.InstrumentationNagDialog.optOutText=参加はいつでも取り消すことができます。[プリファレンス] パネルを開いて [アップデート] タブにある適切なチェックボックスを選択解除してください。
+Designer.Update.InstrumentationNagDialog.dontAskAgain=今後、このメッセージを表示しない
+Designer.Update.UpdateProgressDialog.narrative=#UPDATE_TITLE# のダウンロードおよびインストールが完了するまで、しばらくお待ちください。
+Designer.Update.UpdateProgressDialog.title=アップデート ステータス
+Designer.Update.UpdateProgressDialog.cancel=キャンセル
+Designer.Update.UpdateProgressDialog.finish=完了
+Designer.Update.UpdateProgressDialog.downloadStart=アップデートされたファイルをダウンロードしています...
+Designer.Update.UpdateProgressDialog.downloadEnd=ダウンロードが完了しました。
+Designer.Update.UpdateProgressDialog.installStart=アップデートされたファイルをインストールしています...
+Designer.Update.UpdateProgressDialog.installEnd=インストールが完了しました。
+Desginer.Update.UpdateProgressDialog.updateRegistry=ローカル レジストリを更新しています...
+Designer.Update.UpdateProgressDialog.updateComplete=更新が正常に完了しました。
+Designer.Update.UpdateProgressDialog.updateCanceled=更新がキャンセルされました。
+Designer.Update.UpdateProgressDialog.disclose=矢印をクリックして更新の詳細を表示します...
+Designer.Update.UpdateProgressDialog.hide=矢印をクリックして更新の詳細を隠します...
+Designer.Update.UpdateProgressDialog.copying=インストール中
+Designer.Update.UpdateProgressDialog.registering=登録中
+Designer.Update.UpdateProgressDialog.noIAComp=警告: ローカル レジストリ内で IA アプリケーション コンポーネントが見つかりません。  新しく追加されたファイルがアンインストール用にログに記録されていない可能性があります。
+Designer.Update.UpdateProgressDialog.registryNoExist=警告: #FILEPATH# でローカル レジストリが存在しません。  新しく追加されたファイルがアンインストール用にログに記録されていない可能性があります。
+Desginer.Update.UpdateProgressDialog.downloadErr=エラー: ダウンロード中にエラーが発生しました。
+Designer.Update.UpdateProgressDialog.error=更新中にエラーが発生しました。
+Designer.Update.UpdateProgressDialog.updateWithWarning=更新は完了しましたが、いくつかの警告が発生しました｡
+Designer.Update.UpdateProgressDialog.cleanup=クリーンアップしています...
+Designer.Update.UpdateProgressDialog.cancelUpdate=更新をキャンセルしますか?
+Designer.Update.UpdateProgressDialog.clickYesToCancel=キャンセルする場合は [はい] を、続行する場合は [いいえ] をクリックしてください。
+Designer.Update.UpdateProgressDialog.cancelingUpdate=更新をキャンセルしています...
+Designer.Update.UpdateProgressDialog.errorCopy=エラー: #FILENAME# をインストールできません。
+Designer.Update.UpdateFoundDialog.checkAutomatically=自動的にアップデートをチェックする
+Designer.ScriptMonitor.MacBinary.Project.Title=MacBinary ファイルはサポートされていません
+Designer.ScriptMonitor.MacBinary.Project.Explanation=プロジェクトに 1 つまたは複数の MacBinary ファイルが含まれています。 このバージョンの InstallAnywhere は MacBinary ファイルをサポートしません。
+Designer.ScriptMonitor.MacBinary.Project.Question=[OK] をクリックすると、InstallAnywhere はこのバージョンを使ってプロジェクトを開くため、これらのファイルは今後 MacBinary として認識されません。 [OK] をクリックするとプロジェクトが開きます。\n\n[キャンセル] をクリックすると、InstallAnywhere はプロジェクトを開きません。 その場合、MacBinary ファイルをサポートする以前のバージョンを使ってプロジェクトを開いてください。 プロジェクトを開かない場合は、[キャンセル] をクリックしてください。
+Designer.ScriptMonitor.MacBinary.MergeModule.Title=MacBinary ファイルはサポートされていません
+Designer.ScriptMonitor.MacBinary.MergeModule.Explanation=マージ モジュールには 1 つまたは複数の MacBinary ファイルが含まれています。 このバージョンの InstallAnywhere は MacBinary ファイルをサポートしません。
+Designer.ScriptMonitor.MacBinary.MergeModule.Question=[OK] をクリックすると、InstallAnywhere はこのバージョンを使ってマージ モジュールをインポートするため、インポートされたファイルは今後 MacBinary として認識されません。 [OK] をクリックすると、マージ モジュールのインポートが続行します。\n\n[キャンセル] をクリックすると、InstallAnywhere はマージ モジュールのインポートを行いません。 その場合、MacBinary ファイルをサポートする以前のバージョンを使ってマージ モジュールをインポートしてください。 マージ モジュールのインポートを中止する場合は、[キャンセル] をクリックしてください。
+
+Designer.ScriptMonitor.MsiExport.Title=MSI のエクスポートはサポートされていません
+Designer.ScriptMonitor.MsiExport.Explanation=プロジェクトは InstallAnywhere .NET を使用して MSI インストーラをビルドするように構成されています。  この機能は現在 InstallAnywhere でサポートされていません。
+Designer.ScriptMonitor.MsiExport.Question=[OK] をクリックすると、プロジェクト ファイルが開き、この設定が無効にされます。  [OK] をクリックするとプロジェクトが開きます。\n\n[キャンセル] をクリックすると、InstallAnywhere はプロジェクトを開きません。 その場合、この機能をサポートする以前のバージョンを使ってプロジェクトを開いてください。  プロジェクトを開くのを中止する場合、[キャンセル] をクリックしてください。
+
+# Following block needs to be translated
+Designer.Action.CreateDIMShortcut.visualName=DIM ファイルへのエイリアス、リンク、ショートカットを作成
+Designer.Action.AUpdateServiceClient.visualName=#UPDATE_SERVICE# がある #ACTION_NAME#
+Designer.Build.BuildInstaller.creatingBuildDirectories=ビルドのディレクトリを作成中
+Designer.Build.BuildInstaller.tempDirIs=#INSTALLANYWHERE# の一時ディレクトリは次の場所にあります:
+Designer.Build.BuildInstaller.finishCopyingCommonFiles=共通ファイルのコピーが完了しました
+Designer.Build.BuildInstaller.finishOptimizingByAction=アクションによる最適化が完了しました
+Designer.Build.BuildInstaller.assemblingInstallerComponents=インストーラ コンポーネントの構築が完了しました
+Designer.Build.BuildInstaller.finishAssemblingInstallerComponents=インストーラ コンポーネントの構築が完了しました
+Designer.Build.BuildInstaller.curInstallerIsLocatedAt=#OS# #VMStatus# #Type# インストーラの保存場所:
+Designer.Build.BuildInstaller.buildingMergeModule=マージ モジュールのビルド中
+Designer.Build.BuildInstaller.finishBuildingMergeModule=マージ モジュールのビルドが完了しました。
+Designer.Build.BuildInstaller.finishBuildingWebApplet=Webapplet のビルドが完了しました。
+Designer.Build.BuildInstaller.buildProcessFinished=ビルドが完了しました。
+Designer.Build.BuildInstaller.buildTimeBreakdown=ビルド時間のブレークダウン
+Designer.Build.BuildInstaller.compileAndCopy=コンパイルとコピー
+Designer.Build.BuildInstaller.writingProjectToFile=プロジェクトをファイルに書き込み中
+Designer.Build.BuildInstaller.optimizeByPlatform=プラットフォームごとの最適化
+Designer.Build.BuildInstaller.copyingPlatformSpecificFiles=プラットフォーム固有のファイルをコピー中
+Designer.Build.BuildInstaller.buildingCommonZip=共通 ZIP をビルド中
+Designer.Build.BuildInstaller.zippingCustomCode=カスタム コードを圧縮中
+Designer.Build.BuildInstaller.zippingInstaller=インストーラを圧縮中
+Designer.Build.BuildInstaller.addingOtherResources=他のリソースを追加中
+Designer.Build.BuildInstaller.addingi18nResources=i18n リソースを追加中
+Designer.Build.BuildInstaller.mergeOptimizations=マージの最適化
+Designer.Build.BuildInstaller.webApplet=Web アプレット
+Designer.Build.BuildInstaller.totalBuildTime=ビルドの合計時間
+Designer.Build.BuildInstaller.buildInstaller=インストーラをビルド
+Designer.Build.BuildInstaller.closingInstance=インスタンスを閉じています
+Designer.Build.BuildInstaller.closed=閉じました。
+Designer.Build.BuildInstaller.couldNotDeleteOldTempDirAndCreateNewOne=古い一時ディレクトリを削除できませんでした。一意の一時ディレクトリを作成しています。
+Designer.Build.BuildInstaller.couldNotCreateTempDir=一時ディレクトリを作成できませんでした。
+Designer.Build.BuildInstaller.couldNotCloseExecuteResourceStreamBuilder=実行またはリソース ストリーム ビルダを閉じることができませんでした。
+Designer.Build.BuildInstaller.savingACopyOfProjectTo=#FILE_LOCATION# にプロジェクトのコピーを保存中
+Designer.Build.BuildInstaller.localesDir=ロケール ディレクトリ
+Designer.Build.BuildInstaller.usingExistingExternalProperties=既存の外部プロパティを使用中
+Designer.Build.BuildInstaller.alreadyBuilding=ビルドは既に行われています。
+Designer.Build.BuildInstaller.cancelBuild=Build がキャンセルされました。
+Designer.Build.BuildInstaller.deleting=#FILE# を削除中
+Designer.Build.BuildInstaller.theFollowingBuildUnhandledError=ビルド中に、次の未処理のエラーが発生しました
+Designer.Build.BuildInstaller.pureJava=純粋 Java
+Designer.Build.BuildInstaller.buildError=ビルド エラー
+Designer.Build.BuildInstaller.htmlGenFailed=HTML の生成に失敗しました。
+Designer.Build.BuildInstaller.reason=理由
+Designer.Build.BuildInstaller.suggestionOrDetails=提案/詳細
+Designer.Build.BuildInstaller.errorCreatingManifestFile=#FILE# manifest ファイルの作成中に問題が発生しました
+Designer.Build.BuildInstaller.errorAddingManifestToJar=MANIFEST.MF を jar に追加中にエラーが発生しました
+Designer.Build.BuildInstaller.optimizingForOS=#OS# のための最適化を実行中
+Designer.Build.BuildInstaller.problemClosingInstallerZipForMergeModule=マージ モジュールのインストーラ ZIP ファイルを閉じる際に問題が発生しました。
+Designer.Build.BuildInstaller.mergeModuleIapNotExist=マージ モジュール ファイルが存在しません。
+Designer.Build.BuildInstaller.codeNotSupportedByJVM=#SOME_JAVA_CODE# が現在の JVM によってサポートされていません。
+Designer.Build.BuildInstaller.buildHasStopped=ビルドが停止されました。
+Designer.Build.BuildInstaller.cannotCreateTempDirErrMsg=ビルド プロセスに必要な一時ディレクトリが作成できなかったか、またはビルドが既に始まっています。
+Designer.Build.BuildInstaller.optimizations=最適化
+Designer.Build.BuildInstaller.failOptimization=最適化に失敗しました
+Designer.Build.BuildInstaller.installerPropertyFileWriteError=Win32 インストーラのプロパティ ファイルを書き込みする際にエラーが発生しました。
+Designer.Build.BuildInstaller.createZipFileForMergeModuleError=マージ モジュールの既存の ZIP ファイルから ZIP ファイルを作成する際に問題が発生しました。
+Designer.Build.BuildInstaller.createOptimizedByActionFileFailure=アクションによって最適化された IAClasses.zip ファイル の作成に失敗しました。
+Designer.Build.BuildInstaller.fileCopyErrorToInstallDir=#FILE# をインストーラのディレクトリにコピー.する際にエラーが発生しました。
+Designer.Build.BuildInstaller.fileCopyError=#FILE# のコピー中にエラーが発生しました
+Designer.Build.BuildInstaller.fileCopyFailure=ファイルのコピー エラー
+Designer.Build.BuildInstaller.createOptimizedIAClassesFailure=最適化された IAClasses の作成に失敗しました。
+Designer.Build.BuildInstaller.copyIAClassesFailure=IAClasses のコピーに失敗しました
+Designer.Build.BuildInstaller.createWebAppletFailure=Web アプレットの作成に失敗しました
+Designer.Build.BuildInstaller.useFileWithCaution=このファイルは注意して使用してください。
+Designer.Build.BuildInstaller.couldNotDelete=#FILE_OR_FOLDER# を削除できませんでした。
+Designer.Build.BuildInstaller.buildUsing=#FILEPATH# (#NAME#) を使用してビルドします。
+Designer.Build.BuildInstaller.vmPackMissingBailingOut=#PLATFORM# VM パックがありません。ベイルアウトします。
+Designer.Build.BuildInstaller.copyPlatformSpecificFileError=プラットフォーム固有のファイルをコピー中にエラーが発生しました
+Designer.Build.BuildInstaller.htmlGenForWebInstallerError=Web インストーラの HTML を生成中にエラーが発生しました。
+Designer.Build.BuildInstaller.macosxInstallerIOError=Mac OS X #INSTALLTYPE# インストーラを作成中に I/O 関連のエラーが発生しました。
+Designer.Build.BuildInstaller.createCustomZipError=カスタム コード ZIP ファイルを作成中にエラーが発生しました。
+Designer.Build.BuildInstaller.gerExeZipFileError=実行 ZIP ファイルを生成中にエラーが発生しました。
+Designer.Build.BuildInstaller.buildInstallerZipFileError=インストーラの ZIP ファイルをビルド中にエラーが発生しました。
+Designer.Build.BuildInstaller.buildInstallerOutOfMemoryError=メモリーが足りないためにインストーラ ビルドが失敗しました。
+Designer.Build.BuildInstaller.unableToResolveProjectPath=パスをプロジェクト ファイルに解決できませんでした。
+Designer.Build.BuildInstaller.iaClassesListFileWriteError=IAClasses リスト ファイルを書き込み中にエラーが発生しました。
+Designer.Build.BuildInstaller.platformVmPackFindError=#PLATFORM# VM パックを検索中にエラーが発生しました。
+Designer.Build.BuildInstaller.vmPackFileFindError=#FILE_LOCATION# で VM パックを検索中にエラーが発生しました。
+Designer.Build.BuildInstaller.mergeFileError=#SOURCEFILE# のファイルを #TARGETFILE# へマージ中にエラーが発生しました。
+Designer.Build.BuildInstaller.exeStubCopyError=Win32 実行可能スタブをコピー中にエラーが発生しました。
+Designer.Build.BuildInstaller.msLibCopyError=Win32 MS ライブラリをコピー中にエラーが発生しました。
+Designer.Build.BuildInstaller.genPlatformVMInstallerError=VM インストーラで #PLATFORM# を生成中にエラーが発生しました。
+Designer.Build.BuildInstaller.createWin32InstallerExeError=Win32 インストーラ実行可能ファイルを作成中にエラーが発生しました。
+Designer.Build.BuildInstaller.findSelfExtractorForWin32InstallerError=Win32 インストーラの自己解凍プログラムを検索中にエラーが発生しました。
+Designer.Build.BuildInstaller.propertyFileWriteError=#PROPERTY_DESC# プロパティ フィルを書き込み中にエラーが発生しました。
+Designer.Build.BuildInstaller.advertisedVariables=アドバタイズ変数
+Designer.Build.BuildInstaller.metaData=メタ データ
+Designer.Build.BuildInstaller.designerResourceDirectory=デザイナ リソース ディレクトリ
+Designer.Build.BuildInstaller.fileIsPresentInResDir=#FILE# ファイルが #DIRECTORY# にあります。
+Designer.Build.BuildInstaller.errorShouldNotAffectFuncOfInstaller=このエラーによって、各インストーラの機能に影響が出ることはありません。
+Designer.Build.BuildInstaller.tryReplaceProjectFileWithBackup=バックアップのコピーを使って、プロジェクト ファイルを正しいディレクトリに置き換えてください。
+Designer.Build.BuildInstaller.ensurePlatformVMPackIsInstalled=#PLATFORM# VM パックがインストールされていることを確認してください。 
+Designer.Build.BuildInstaller.unableToRetrieveVMPackFrom=VM パック実行可能ファイルのパスを次の場所から取得できませんでした:
+Designer.Build.BuildInstaller.zippingOfInstallerResourceFailed=インストーラ リソースの圧縮に失敗しました:
+Designer.Build.BuildInstaller.projectFileIsReadOnlyUnableToBuild=プロジェクト ファイルは読み取り専用です。 ビルドできません。ベイルアウトします。
+Designer.Build.BuildInstaller.unlicensedDesignerCannotBuildReadOnlyProject=ライセンスがないデザイナは読み取り専用のプロジェクトをビルドできません。
+Designer.Build.BuildInstaller.ifUsingCVSMakeSureToCheckOut=CVS システムを使用している場合、プロジェクト ファイルが編集用にチェック アウトされていることを確認してください。
+Designer.Build.BuildInstaller.noPlatformOptionsSelected=プラットフォーム/配布のオプションが選択されていません。 ベイルアウトします。
+Designer.Build.BuildInstaller.vmPackMissing=VM パックがありません。
+Designer.Build.ZipToUtility.noScriptSpecifiedForAntAction=[ANTの実行] アクションに指定されたスクリプトがありません。
+Designer.Build.ZipToUtility.noRegistryFileSpecifiedForActionPanel=アクション パネルに指定されたレジストリ ファイルがありません。
+Designer.Build.ZipToUtility.noTextHtmlFileSpecifiedForActionPanel=アクション パネルに指定されたテキスト/html ファイルがありません。
+Designer.Build.ZipToUtility.unableToAddSpecifiedFileToInstaller=指定されたファイルをインストーラに追加できません。
+Designer.Build.ZipToUtility.noSourceArchiveSelected=コード アーカイブが選択されていません。
+Designer.Build.ZipToUtility.noImageFileSpecififedForActionPanel=アクション パネルに指定されたイメージ ファイルがありません
+Designer.Build.Builders.Buildtools.InstallerLaxPropertiesFile.couldNotCreateDirectoryForLaxPropFile=インストーラの LAX プロパティ ファイルを格納するディレクトリを作成できません。
+Designer.Customizer.AUpdateServiceClient.destLbl=#UPDATE_SERVICE# ファイルのインストール先:
+Designer.Customizer.AUpdateServiceClient.advancedSettingTab=詳細設定
+Designer.Customizer.AUpdateServiceClient.serverSettingLabel=#UPDATE_SERVICE# サーバーの設定:
+Designer.Customizer.AUpdateServiceClient.libraryPathSettingLabel=#UPDATE_SERVICE# ライブラリ:
+Designer.Customizer.AUpdateServiceClient.defaultUSLibraryRb=InstallAnywhere によって提供されている #UPDATE_SERVICE# を使用
+Designer.Customizer.AUpdateServiceClient.customUSLibraryRb=カスタム ロケーション: 
+Designer.Customizer.AUpdateServiceClient.defaultUSServerRb=マクロヴィジョンがホストする #UPDATE_SERVICE# サーバーを使用する。
+Designer.Customizer.AUpdateServiceClient.customUSServerRb=セルフホスト URL: 
+Designer.Customizer.AUpdateServiceClient.updateServiceRegBttn=ここをクリック
+Designer.Customizer.AUpdateServiceClient.updateServiceRegLbl=製品は #UPDATE_SERVICE# に登録済みですか? 登録がまだの場合
+Designer.Customizer.AUpdateServiceClient.customVersionLabel=#UPDATE_SERVICE# によって使用されている製品のバージョン:
+Designer.Customizer.AUpdateServiceClient.useLauncherCheckbox=アップデートのチェックを行うLaunchAnywhere を作成
+Designer.Customizer.AUpdateServiceClient.laucnherName=起動プログラム名:
+Designer.Customizer.AUpdateServiceClient.launcherIconLbl=起動プログラム アイコン:
+Designer.Customizer.AUpdateServiceClient.laxTypeLbl=起動プログラムのタイプ:
+Designer.Customizer.AUpdateServiceClient.guiLauncherRb=グラフィカル起動プログラム
+Designer.Customizer.AUpdateServiceClient.cuiLauncherRb=コンソール起動プログラム
+Designer.Customizer.AUpdateServiceClient.shortcutLabel=ショートカットを作成
+Designer.Customizer.AUpdateServiceClient.languageLbl=#UPDATE_SERVICE# エージェントの言語: 
+Designer.Customizer.AUpdateServiceClient.runtimeLangRb=インストーラのランタイム言語を使用
+Designer.Customizer.AUpdateServiceClient.customRb=カスタム: 
+Designer.Customizer.AUpdateServiceClient.usLibChooser=#UPDATE_SERVICE# ライブラリ jar ファイルを選択
+Designer.Customizer.AUpdateServiceClient.chooseLibBttn=ファイルを選択
+Designer.Customizer.AUpdateServiceClient.jarFiles=Java アーカイブ (.jar)
+Designer.Customizer.AUpdateServiceClient.noTextSpecified=テキストが指定されていません
+Designer.Customizer.AUpdateServiceClient.errorOpeningISUpdate=ブラウザを開く際にエラーが発生しました
+Designer.Customizer.AUpdateServiceClient.errorOpeningISUrl=登録は #URL# をクリックしてください。
+Designer.Customizer.AUpdateServiceClient.defaultShortcutLabel=アップデートをチェック
+Designer.Customizer.AUpdateServiceClient.defaultVersionRb=製品のデフォルトを使用
+Designer.Customizer.AUpdateServiceClient.errorState=アクションをチェックしてすべての必須フィールドが入力済みであることを確認してください。
+Designer.Customizer.TDIMReferences=DIM リファレンス
+Designer.Customizer.TDIMReferences.addDIMReference=DIM リファレンスを追加中...
+Designer.Customizer.ADIMReferences.chooseDIMReference=DIM リファレンスを選択中...
+Designer.Customizer.TDIMReferences.addDIMs=DIM リファレンスを作成
+Designer.Action.CreateDIMReference.visualName=DIM リファレンスを作成
+Designer.Customizer.TDIMReferences.DIMReferenceList=DIM リファレンス一覧
+Designer.Customizer.TDIMReferences.noDIMRef=DIM リファレンスがありません
+Designer.DIMReference.VisualName=DIM リファレンス
+Designer.Customizer.ADIMReference.general=全般
+Designer.Customizer.ADIMReference.buildVariables=ビルド変数
+Designer.Customizer.ADIMReference.runtimeVariables=ランタイム変数
+Designer.Customizer.ADIMReference.dependencies=依存関係
+Designer.Customizer.TDIMReferences.addDIMRefTitle=DIM リファレンスをプロジェクトに追加
+Designer.Customizer.TDIMReferences.dimExtFilter=デベロッパ インストール マニフェスト
+Designer.Customizer.ADIMReference.general.name=名前:
+Designer.Customizer.ADIMReference.general.srcPath=ソース パス:
+Designer.Customizer.ADIMReference.general.destPath=インストール先パス:
+Designer.Customizer.ADIMReference.general.uniqueID=一意の ID:
+Designer.Customizer.ADIMReference.general.version=バージョン:
+Designer.Customizer.ADIMReference.general.metaInfo=メタ情報:
+Designer.Customizer.ADIMReference.variables.noValSpecified=<ビルド変数の値が指定されていません>
+Designer.Customizer.ADIMReference.dimName.noValSpecified=<.dim ファイルが指定されていません>
+Designer.DIMMetaInfo.colName=メタ タグの名前
+Designer.DIMMetaInfo.colValue=メタ タグの値
+Designer.DIMMetaInfo.colDesc=説明
+Designer.DIMBuildVariables.desc=このDIM には設定可能な次のビルド変数が含まれています:
+Designer.DIMRuntimeVariables.desc=この DIM には設定可能な次のランタイム変数が含まれています:
+Designer.DIMVariable.colName=名前
+Designer.DIMVariable.colDesc=説明
+Designer.DIMVariable.colValue=値
+Designer.DIMDependency.colName=必須DIM の名前
+Designer.DIMDependency.colVersion=必須 DIM のバージョン
+Designer.DIMDependency.colSrcPath=ソース パス
+Designer.DIMDependencies.desc=この DIM が適切に機能するためには、次の追加の DIM が必要です。  各要件を満たす DIM のパスを指定してください。
+Designer.Customizer.Dependency.browseDIMTitle=DIM ファイルを選択
+Designer.Customizer.BuildVariable.browseTitle=ソース パスを選択
+Designer.Customizer.TDIMReferences.dimParseErrDlg.title=DIM 解析エラー
+Designer.Customizer.TDIMReferences.dimParseErrDlg.desc=次の DIM ファイルを解析中にエラーが発生しました:\n#DIM_FILE#\n\nException:\n#ERR_MESSAGE#
+Designer.DIMReference.DimParseException=DIM 解析の例外
+Designer.DIMReference.ConsumingDim=DIM を使用中
+Designer.DIMReference.UnsupportedElementException=DIM の使用中にサポートされていない要素が見つかりました
+Designer.DIMReference.DimException=DIM 例外
+Designer.DIMReference.WarningsLogged=DIM の使用中に警告がログに記録されました
+Designer.DIMReference.BuildWarning=ビルド警告
+Designer.Customizer.TSIPackages.ButtonText=SI パッケージ
+Designer.Customizer.TSIPackages.ProjectFile.LabelText=SolutionArchitect プロジェクト ファイル:
+Designer.Customizer.TSIPackages.ProjectFile.DialogTitle=SolutionArchitect プロジェクト ファイルを選択
+Designer.SolutionInstallPackage.VisualName=SolutionInstall パッケージ
+Designer.SolutionInstallPackage.Building=SI パッケージのビルド中
+Designer.SolutionInstallPackage.BuildError=SI パッケージのビルド中にエラーが発生しました
+Designer.DIMProcessor.unsupportedElement=#ELEMENT_NAME# 要素は現在 InstallAnywhere でサポートされていません。  これらの要素を削除してから再ビルドしてください。
+Designer.DIMProcessor.asciiFileUpdate.uninstallPhase=アンインストール中のテキスト ファイルの変更は現在サポートされていません。
+Designer.DIMProcessor.asciiFileUpdate.searchBeforeAdd=ポジションの属性が atLastSearchPosition のとき、searchText 要素を addText 要素の前に指定しなければなりません。
+Designer.DIMProcessor.unsupportedAttr=#ELEMENT_NAME# の #ATTR_NAME# の値は現在 InstallAnywhere でサポートされていません。  受け入れられた値: #GOOD_VALS#
+Designer.DIMProcessor.asciiFileUpdate.searchIgnored=replaceText アクションと deleteText アクションが組み合わせて使用されたとき searchText 要素は無視されます。  テキスト ファイルのすべてのトークンは置換または削除されます。
+Designer.DIMProcessor.asciiFileUpdate.replaceFirst=テキストを置換するとき、指定された newTextItems コレクションの最初の要素のみが使用されます。
+Designer.DIMProcessor.dotNetInstallerCls=.NET インストーラ クラスの引数は InstallAnywhere でサポートされていません。  これらの要素を削除してから再ビルドしてください。
+Designer.DIMProcessor.envVarSetPermanent=パーマネント設定は InstallAnywhere の環境変数セットにサポートされていません。  各環境変数はアンインストールで削除されます。
+Designer.DIMProcessor.fileSourceNotFound=ソース パス #BAD_PATH# が見つかりませんでした。
+Designer.DIMBuilderStringResolver.buildVarUndefined=DIM Build 変数 #BUILD_VARNAME# が定義されていません。
+Designer.DIMBuilderStringResolver.unsupportedPreDefVar=#VAR_NAME# は InstallAnywhere でサポートされていない定義済みランタイム変数です。  代わりに、これは $#VAR_NAME#$ に解決されます。
+Designer.Action.UninstallIsmpSoftware.visualName=InstallShield Universal ソフトウェアをアンインストール
+Designer.Action.IsmpSoftwareInfo.visualName=InstallShield Universal ソフトウェア情報をクエリ
+Designer.Customizer.UninstallIsmpSoftware.executeScript=InstallShield Universal ソフトウェアをアンインストール
+Designer.Customizer.UninstallIsmpSoftware.ismpSoftware=InstallShield Universal ソフトウェア:
+Designer.Customizer.UninstallIsmpSoftware.uninstallOptions=アンインストール オプション:
+Designer.Customizer.UninstallIsmpSoftware.uninstallerArguements=アンインストーラの引数:
+Designer.Customizer.IsmpSoftwareInfo.executeScript=InstallShield Universal ソフトウェア情報を取得
+Designer.Customizer.IsmpGeneral.vpdLocation=VPD の場所: 
+Designer.Customizer.IsmpGeneral.installlocation=インストールの場所:
+Designer.Customizer.IsmpGeneral.uuid=UUID: 
+Designer.Customizer.IsmpGeneral.version=バージョン: 
+Designer.Customizer.IsmpGeneral.missingUuidWarning=<InstallShield Universal ソフトウェアの UUID を入力してください>
+Designer.Customizer.IsmpGeneral.missingInstallLocationWarning=<InstallShield Universal ソフトウェアのインストール場所を入力してください>
+Designer.Customizer.IsmpGeneral.missingVersionWarning=<InstallShield Universal ソフトウェアのバージョンを入力してください>
+Designer.Customizer.TProjInfo.recordResponseFile=常に応答ファイルを生成する
+Designer.Customizer.TProjInfo.excludeVariables=変数を除外
+Designer.Customizer.TProjInfo.responseFile=応答ファイル
+Designer.Customizer.TProjInfo.variableName=変数名
+Designer.Customizer.TProjInfo.excludeOptions=除外オプション
+Designer.Customizer.TProjInfo.excludeAll=変数全体を除外
+Designer.Customizer.TProjInfo.excludeValue=値のみを除外
+Designer.Customizer.AUpdateServiceClient.updateCheckInterval=アップデートをチェックする間隔 (日):
+Designer.Update.UpdateProgressDialog.downloadErr=エラー: ダウンロード中にエラーが発生しました。
+DIMUnitTestBuilder.install.wizard.title=コラボレーション ユニット テスト インストーラ
+Designer.DimUtils.fileNotFound=DIM からの １ つまたは複数のファイルが見つかりませんでした。
+Designer.Customizer.RArchitectureChk.enterArchToAdd='Perform On' 一覧に追加するアーキテクチャ名を入力してください
+Designer.Customizer.TBuild.64bitFolders=64 ビット フォルダ
+Designer.ProjectManifest.creatingMergeModules=アセンブリからマージ モジュールをビルドしています
+Designer.ProjectManifest.parsing=プロジェクト マニフェストを解析中
+DIMUnitTestBuilder.warning.title=InstallAnywhere Wizard
+Designer.Customizer.AHTMLPanelAction.previewTitle=HTML パネル プレビュー
+Designer.Customizer.AHTMLPanelAction.noArchiveSelected=<HTML アーカイブが選択されていません>
+Designer.ProjectManifest.Finished=インポートが完了しました。
+Designer.Customizer.RArchitectureChk.moreArchs=他のアーキテクチャ...
+Designer.Customizer.AHTMLPanelAction.selectInitialPage=<初回で表示されるページを入力してください>
+Designer.Customizer.AHTMLPanelAction.noURLSelected=<URL が選択されていません>
+DIMUnitTestBuilder.uninstall.panel.intro.title=$PRODUCT_NAME$ をアンインストール
+Designer.Customizer.TPanelLF.useSystemDefault=デフォルト システム カラーを使用
+Designer.Customizer.AHTMLPanelAction.selectArchive=アーカイブを選択
+Desinger.ProjectManifest.cancel=プロジェクト マニフェストのマージを中止しています
+Designer.ProjectManfiest.addingLaunchers=起動プログラムを作成中。
+Designer.ProjectManfiest.projectInfo=プロジェクト情報の追加中...
+Designer.ProjectManifest.addingFeature=機能を追加中:
+Designer.Customizer.RArchitectureChk.removeArchs=アーキテクチャを削除
+Designer.Customizer.RegModePanel.use32BitReg=32 ビット [レジストリ] ビュー
+Designer.ProjectManifest.addingDIMReference=DIM リファレンスを追加中
+Designer.Customizer.AHTMLPanelAction.existingURL=Existing URL:
+Designer.ProjectManifest.mergeModuleSuccess=マージ モジュールが正常に作成されました。
+Designer.ProjectManifest.FailedDIM=DIM の追加に失敗しました
+Designer.Action.Installer.warning=InstallAnywhere 警告
+Designer.Customizer.AHTMLPanelAction.readForm=フォーム要素を InstallAnywhere 変数として読み込む
+Designer.Customizer.TBuild.64bitfoldersPureJavaBuildWarning=純粋 Java インストーラでは32 ビット jvm から 64 ビット フォルダへのアクセスはできません。
+Designer.Wizard.IAWizard.projectExistsDesc=プロジェクトはこのインポートのデフォルトの場所に既に存在します。  別の場所を選択してください。
+DIMUnitTestBuilder.warning.message=このユニット テスト インストールは、InstallAnywhere コラボレーションで作成されています。
+Designer.Customizer.RArchitectureChk.thisArch=このアーキテクチャ
+DIMUnitTestBuilder.uninstall.wizard.title=コラボレーション ユニット テスト インストーラ
+Designer.Wizard.IAWizard.projectAlreadyExists=プロジェクトは既に存在します
+DIMUnitTestBuilder.uninstall.panel.intro.message=<b>InstallAnywhere コラボレーション</b>は今から、次のデベロッパ インストール マニフェスト (DIM) で記述されているプログラム要素をアンインストールします:<br><br>$DIM_LIST$<b>ユニット テスト インストーラ ビルドの日付: </b>$BUILD_DATE$<br><br><b>注意:</b> インストール ユニットのテストは、DIM が最後のインストール プロジェクトで使用される時、これらのファイルが適切にインストールされ構成されることを確認するために非常に重要です。<br><br><i>インストールの使用はエンドユーザー使用許諾契約に記述されている条件に基づきます。</i>
+Designer.ProjectManfiest.addingFeatures=機能の作成中
+Designer.Customizer.RArchitectureChk.addArchitectures=アーキテクチャを追加
+Designer.ProjectManfiest.addingProductInfo=製品情報を追加中
+Designer.ProjectManfiest.projectInfoSuccess=プロジェクト情報が正常に追加されました。
+Designer.Customzier.AHTMLPanelAction.initialPage=初期ページ:
+Designer.Action.Installer.64bitFolder=64 ビット フォルダ
+Designer.Update.UpdateProgressDialog.updateRegistry=ローカル レジストリを更新中...
+Designer.Customizer.RegModePanel.accessRegView=特定の [レジストリ] ビューにアクセス (64 ビット システム) 
+DIMUnitTestBuilder.install.panel.intro.message=<b>InstallAnywhere コラボレーション</b>は次のデベロッパ インストール マニフェスト (DIM) で記述されているプログラム要素のインストールおよび構成を行います:<br><br>$DIM_LIST$<b>ユニット テスト インストーラ ビルドの日付: </b>$BUILD_DATE$<br><br><b>注意:</b> インストール ユニットのテストは、DIM が最後のインストール プロジェクトで使用される時、これらのファイルが適切にインストールされ構成されることを確認するために非常に重要です。<br><br><i>インストールの使用はエンドユーザー使用許諾契約に記述されている条件に基づきます。</i>
+Designer.Action.Installer.64bitfoldersPureJavaBuildWarning=純粋 Java インストーラでは32 ビット jvm から 64 ビット フォルダへのアクセスはできません。
+Designer.Action.UpdateServiceClient.visualName=Update Service との統合
+Designer.ProjectManfiest.addingShortCuts=ショートカットを作成中
+Designer.ProjectManifest.addingMergeModules=マージ モジュールを作成中
+DIMUnitTestBuilder.install.panel.intro.title=はじめに
+Designer.Customizer.AHTMLPanelAction.sourceFile=ソースを選択
+Designer.ProjectManifest.FailedAssembly=マージ モジュールのビルドに失敗しました
+Designer.Customizer.RegModePanel.use64BitReg=64 ビット [レジストリ] ビュー
+Designer.ProjectManifest.title=プロジェクト マニフェストをインポート
+Designer.Customizer.IsmpGeneral.pleaseFillAllRequiredFields=アクションの必須フィールドをすべて入力してください。
+﻿Designer.Customizer.TPanelLF.useSystemDefault=デフォルト システム カラーを使用
+Designer.Build.BuildInstaller.scriptNewer=このプロジェクトは、より新しいバージョンの InstallAnywhere で作成されています。  このままプロジェクトの読み込みを続けると、不明なデータが破棄される可能性があります。  続行しますか?

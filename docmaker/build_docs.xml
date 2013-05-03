@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="documentation" basedir=".">
+
+	<description> Create various documentation sets from source files. </description>
+
+	<!-- put overrides in this file -->
+	<property file="${user.home}/${ant.project.name}.properties" />
+	<property file="${user.home}/build-tools.properties" />
+	<property file="${build-tools}/versions.properties" />
+
+	<!-- If build-tools was not set in one of those files, put in a reasonable guess -->
+	<property name="build-tools" location="${ant.file.documentation}/.." />
+
+	<!-- required properties, may be overriden above -->
+	<dirname property="working.dir"			file="${ant.file.documentation}"/>
+	<property name="conf"					location="${working.dir}/conf" />
+	<property name="xsl"					location="${working.dir}/xsl" />
+	<property name="java.max.heapsize"		value="800m" />
+
+	<!-- where to find required build tools -->
+	<property name="xsltproc"				value="/usr/bin/xsltproc" />
+	
+	<!-- ================================================================ -->
+	<!-- DocBook stylesheet settings and location -->
+	<!-- ================================================================ -->
+	<property name="docbook-xsl.version"	value="1.75.2" />
+	<property name="docbook-xsl.ns.version"	value="ns-1.75.2" />
+	<property name="docbook.stylesheet.dir"	location="${build-tools}/docbook/docbook-xsl-${docbook-xsl.version}" />
+	
+	<!-- location of local XML catalog file, using default name used by Java parsers -->
+	
+	<property name="xml.catalog.dir"		location="${conf}" />
+	<property name="xml.catalog"			location="${xml.catalog.dir}/CatalogManager.properties" />
+	
+	<!-- ================================================================ -->
+	<!-- saxon XSLT / XQuery processor settings and location -->
+	<!-- ================================================================ -->
+
+	<property name="saxon9.home"			location="${build-tools}/saxon" />
+	<property name="saxon9.classname"		value="net.sf.saxon.Transform" />
+	
+	<patternset id="saxon9.libs">
+		<include name="saxon*.jar" />
+	</patternset>
+	
+	<path id="saxon9.classpath">
+		<fileset dir="${saxon9.home}">
+			<patternset refid="saxon9.libs" />
+		</fileset>
+	</path>
+	
+	<property name="saxon6.version"			value="6-5-5" />
+	<property name="saxon6.home"			location="${build-tools}/saxon${saxon6.version}" />
+	<property name="saxon6.classname"		value="com.icl.saxon.StyleSheet" />
+	
+	<patternset id="saxon6.libs">
+		<include name="saxon.jar" />
+		<include name="saxon-xml-apis.jar" />
+	</patternset>
+	
+	<path id="saxon6.classpath">
+		<fileset dir="${saxon6.home}">
+			<patternset refid="saxon6.libs" />
+		</fileset>
+		<fileset dir="${docbook.stylesheet.dir}/extensions">
+			<include name="saxon65.jar" />
+		</fileset>
+	</path>
+	
+	<!-- ================================================================ -->
+	<!-- Xerces advanced XML parser settings and location -->
+	<!-- ================================================================ -->
+
+	<property name="xerces.version"			value="2_9_1" />
+	<property name="xerces.home"			location="${build-tools}/apache/xerces-${xerces.version}" />
+
+	<patternset id="xerces.libs">
+		<include name="xml-apis.jar" />
+		<include name="xercesImpl.jar" />
+		<include name="resolver.jar" />
+	</patternset>
+
+	<path id="xerces.classpath">
+		<fileset dir="${xerces.home}">
+			<patternset refid="xerces.libs" />
+		</fileset>
+	</path>
+
+	<!-- ================================================================ -->
+	<!-- Apache FOP processor settings and location -->
+	<!-- ================================================================ -->
+
+	<property name="fop.version" 			value="0.95" />
+	<property name="fop.home" 				location="${build-tools}/apache/fop-${fop.version}" />
+	<property name="fop.classname"			value="org.apache.fop.cli.Main" />
+	
+	<!-- classpath for FOP (FO to PDF) processing -->
+
+	<path id="fop.classpath">
+		<pathelement location="${xml.catalog.dir}" />
+		<fileset dir="${fop.home}/build">
+			<include name="fop.jar" />
+		</fileset>
+		<fileset dir="${fop.home}/lib">
+			<!--
+			<include name="**/*.jar" />
+			<include name="xercesImpl-2.7.1.jar" />
+			<include name="xml-apis-1.3.04.jar" />
+			<include name="xalan-2.7.0.jar" />
+			-->
+			<include name="avalon-framework-4.2.0.jar" />
+			<include name="batik-all-1.7.jar" />
+			<include name="commons-io-1.3.1.jar" />
+			<include name="commons-logging-1.0.4.jar" />
+			<include name="serializer-2.7.0.jar" />
+			<include name="xmlgraphics-commons-1.3.1.jar" />
+			<include name="xml-apis-ext-1.3.04.jar" />
+		</fileset>
+		<path refid="saxon6.classpath" />
+		<path refid="xerces.classpath" />
+	</path>
+
+	<!-- the following task is not used in this build file, but could be later -->
+
+	<taskdef name="fop" classname="org.apache.fop.tools.anttasks.Fop">
+		<classpath refid="fop.classpath" />
+	</taskdef>
+
+	<!-- ================================================================ -->
+	<!-- classpaths used for XSLT processing -->
+	<!-- ================================================================ -->
+	
+	<property name="xslt-v1.0.classname"	value="${saxon6.classname}" />
+
+	<path id="xslt-v1.0.classpath">
+		<pathelement location="${xml.catalog.dir}" />
+		<path refid="xerces.classpath" />
+		<path refid="saxon6.classpath" />
+	</path>
+
+	<property name="xslt-v2.0.classname"	value="${saxon9.classname}" />
+
+	<path id="xslt-v2.0.classpath">
+		<pathelement location="${xml.catalog.dir}" />
+		<path refid="saxon9.classpath" />
+		<path refid="xerces.classpath" />
+	</path>
+	
+	<!-- DocBook customixation layer stylesheet -->
+	<property name="mir3.xslt.fo.stylesheet"		value="${xsl}/mir3_docbook5_styles.xsl" />
+
+	<!-- ================================================================ -->
+	<!-- Macro (ant subroutine) definitions                               -->
+	<!-- ================================================================ -->
+
+	<macrodef name="create-docs">
+		<attribute name="input-dir"/>
+		<attribute name="output-dir"/>
+		<sequential>
+			<taskdef resource="net/sf/antcontrib/antcontrib.properties">
+				<classpath>
+					<pathelement location="${build-tools}/${ant-contrib.jar}"/>
+				</classpath>
+			</taskdef>
+			<foreach target="-create-one-doc" param="input-docbook-file">
+				<path>
+					<fileset dir="@{input-dir}">
+						<include name="*.xml"/>
+					</fileset>
+				</path>
+				<param name="output-dir" value="@{output-dir}"/>
+				<param name="input-dir" value="@{input-dir}"/>
+			</foreach>
+		</sequential>
+	</macrodef>
+
+	<target name="-check-one-doc" description="Helper to bridge between create-docs and create-doc, with uptodate check">
+		<propertyregex property="base-name" input="${input-docbook-file}" regexp=".*[/\\]([^/\\]*)\.xml" select="\1"/>
+		<uptodate property="src-doc-uptodate"
+			targetfile="${output-dir}/${base-name}.pdf"
+			srcfile="${input-docbook-file}"/>
+	</target>
+
+	<target name="-create-one-doc" 
+		description="Helper to bridge between create-docs and create-doc" 
+		depends="-check-one-doc"
+		unless="src-doc-uptodate">
+		<echo message="Processing document ${base-name}"/>
+		<create-doc 
+			input-docbook-file="${input-docbook-file}"
+			output-base="${output-dir}/${base-name}"
+			input-dir="${input-dir}"
+		/>
+	</target>
+
+	<macrodef name="create-doc">
+		<attribute name="input-docbook-file"/>
+		<attribute name="output-base"/>
+		<attribute name="input-dir"/>
+		<attribute name="input-xslt-file" default="${mir3.xslt.fo.stylesheet}"/>
+		<attribute name="output-fo-file" default="@{output-base}.fo"/>
+		<attribute name="output-fo-errors-file" default="@{output-base}.fo-errors"/>
+		<attribute name="output-xsl-errors-file" default="@{output-base}.xsl-errors"/>
+		<sequential>
+			<create-fo
+				input-docbook-file="@{input-docbook-file}"
+				input-xslt-file="@{input-xslt-file}"
+				output-fo-file="@{output-fo-file}"
+				output-errors-file="@{output-xsl-errors-file}"
+				input-dir="@{input-dir}"
+			/>
+			<create-pdf
+				input-file="@{output-fo-file}"
+				output-file="@{output-base}.pdf"
+				output-errors-file="@{output-fo-errors-file}"
+				input-dir="@{input-dir}"
+			/>
+			<!-- if everything succeeded to this point, delete the temporary files -->
+			<!-- <delete file="@{output-fo-file}"/> -->
+			<!--<delete file="@{output-errors-file}"/>-->
+		</sequential>
+	</macrodef>
+
+	<macrodef name="create-fo-xsltproc">
+		<attribute name="input-docbook-file" />
+		<attribute name="input-xslt-file" />
+		<attribute name="output-fo-file" />
+		<attribute name="output-errors-file" />
+		<attribute name="orientation" default="portrait" />
+		<attribute name="input-dir" default="." />
+		<sequential>
+			<exec dir="@{input-dir}"
+				executable="${xsltproc}"
+				output="@{output-fo-file}"
+				error="@{output-errors-file}"
+				failonerror="true"
+			>
+				<env key="XML_CATALOG_FILES" value="${xml.catalog}" />
+				<env key="XML_DEBUG_CATALOG" value="4" />
+				<arg value="--nonet" />
+				
+				<arg value="--path" />
+				<arg value="@{input-dir}" />
+				
+				<arg value="--stringparam" />
+				<arg value="page.orientation" />
+				<arg value="@{orientation}" />
+
+				<arg value="--stringparam" />
+				<arg value="section.autolabel" />
+				<arg value="1" />
+				
+				<arg value="--stringparam" />
+				<arg value="section.label.includes.component.label" />
+				<arg value="1" />
+				
+				<arg value="--xinclude" />
+				<arg value="@{input-xslt-file}" />
+				<arg value="@{input-docbook-file}" />
+			</exec>
+		</sequential>
+	</macrodef>
+	
+	<macrodef name="create-fo">
+		<attribute name="input-docbook-file" />
+		<attribute name="input-xslt-file" />
+		<attribute name="output-fo-file" />
+		<attribute name="output-errors-file" />
+		<attribute name="orientation" default="portrait" />
+		<attribute name="input-dir" default="." />
+		<sequential>
+			<java dir="@{input-dir}"
+				output="@{output-errors-file}"
+				fork="true"
+				failonerror="true"
+				classname="com.icl.saxon.StyleSheet"
+				maxmemory="${java.max.heapsize}"
+			>
+				<classpath refid="xslt-v1.0.classpath" />
+				<jvmarg value="-Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.apache.xerces.parsers.XIncludeParserConfiguration"/>
+				<arg value="-o"/>
+				<arg value="@{output-fo-file}"/>
+				<arg value="@{input-docbook-file}"/>
+				<arg value="@{input-xslt-file}"/>
+			</java>
+		</sequential>
+	</macrodef>
+	
+	<macrodef name="create-pdf">
+		<attribute name="input-file" />
+		<attribute name="output-file" />
+		<attribute name="output-errors-file" />
+		<attribute name="input-dir"		default="."/>
+		<sequential>
+			<java 
+				dir="@{input-dir}"
+				classname="${fop.classname}"
+				failonerror="true"
+				output="@{output-errors-file}"
+				fork="true"
+				maxmemory="${java.max.heapsize}"
+			>
+				<classpath refid="fop.classpath" />
+				<arg value="-c" />
+				<arg value="${conf}/fop.xconf" />
+				<arg value="@{input-file}" />
+				<arg value="-pdf" />
+				<arg value="@{output-file}" />
+			</java>
+		</sequential>
+	</macrodef>
+</project>

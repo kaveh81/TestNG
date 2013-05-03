@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry install_date="2010-04-21 16:18:15" version="1.1" last_modified="2010-04-21 16:18:24">
+	<products>
+		<product name="Macrovision InstallAnywhere 8 Enterprise" id="1f131b75-1ed8-11b2-bf3e-f87e86adb9e4" version="8.0.0.0" copyright="2005" info_url="http://www.Macrovision.com" support_url="http://www.Macrovision.com/support" location="/home/tony/programs/installanywhere" last_modified="2010-04-21 16:18:15">
+			<vendor name="Macrovision Corporation" id="a818d0ad-1ebf-11b2-94e0-bd6ecdbe1d21" home_page="http://www.Macrovision.com" email="sales@Macrovision.com"/>
+			<feature name="Application" last_modified="2010-04-21 16:18:16">
+			<![CDATA[]]>
+				<component ref_id="1f13b2a3-1ed8-11b2-bf3e-f87e86adb9e4" version="8.0.0.0" location="/home/tony/programs/installanywhere/UninstallerData/Uninstall"/>
+				<component ref_id="1f13f26b-1ed8-11b2-bf3e-f87e86adb9e4" version="8.0.0.0" location="/home/tony/programs/installanywhere/jre"/>
+				<component ref_id="1f139383-1ed8-11b2-bf3e-f87e86adb9e4" version="8.0.0.0" location="/home/tony/programs/installanywhere/IAReadMe.htm"/>
+			</feature>
+		</product>
+	</products>
+	<components>
+		<component id="1f139383-1ed8-11b2-bf3e-f87e86adb9e4" version="8.0.0.0" name="InstallAnywhere Application Component" location="/home/tony/programs/installanywhere/IAReadMe.htm" vendor="Macrovision Corporation">
+			<resource keyfile="false" name="lax.jar" location="/home/tony/programs/installanywhere/lax.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere" location="/home/tony/programs/installanywhere/InstallAnywhere" type="executable" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere.lax" location="/home/tony/programs/installanywhere/InstallAnywhere.lax" type="file" uninstall="true"/>
+			<resource keyfile="false" name="lax.jar" location="/home/tony/programs/installanywhere/lax.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="build" location="/home/tony/programs/installanywhere/build" type="executable" uninstall="true"/>
+			<resource keyfile="false" name="build.lax" location="/home/tony/programs/installanywhere/build.lax" type="file" uninstall="true"/>
+			<resource keyfile="false" name="graphics" location="/home/tony/programs/installanywhere/graphics" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="CustomCode" location="/home/tony/programs/installanywhere/CustomCode" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="licenses" location="/home/tony/programs/installanywhere/licenses" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="javadoc" location="/home/tony/programs/installanywhere/javadoc" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="OfficeSuiteSourceFiles" location="/home/tony/programs/installanywhere/OfficeSuiteSourceFiles" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="iatemplates" location="/home/tony/programs/installanywhere/iatemplates" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="Typical_Project_Template.iam.zip" location="/home/tony/programs/installanywhere/iatemplates/Typical_Project_Template.iam.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Console_Project_Template.iam.zip" location="/home/tony/programs/installanywhere/iatemplates/Console_Project_Template.iam.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Sample_Dependency_Template.iam.zip" location="/home/tony/programs/installanywhere/iatemplates/Sample_Dependency_Template.iam.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="plugins" location="/home/tony/programs/installanywhere/plugins" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="manual" location="/home/tony/programs/installanywhere/manual" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="z_OS_and_OS_390.htm" location="/home/tony/programs/installanywhere/manual/z_OS_and_OS_390.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="images" location="/home/tony/programs/installanywhere/manual/images" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="A_AdvNote.gif" location="/home/tony/programs/installanywhere/manual/images/A_AdvNote.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_AS_enterprise.gif" location="/home/tony/programs/installanywhere/manual/images/A_AS_enterprise.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_AS_pro.gif" location="/home/tony/programs/installanywhere/manual/images/A_AS_pro.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_AS_standard.gif" location="/home/tony/programs/installanywhere/manual/images/A_AS_standard.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_bestpractice.gif" location="/home/tony/programs/installanywhere/manual/images/A_bestpractice.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_editionnote.gif" location="/home/tony/programs/installanywhere/manual/images/A_editionnote.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_editionnoteAMS.gif" location="/home/tony/programs/installanywhere/manual/images/A_editionnoteAMS.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_importantnote.gif" location="/home/tony/programs/installanywhere/manual/images/A_importantnote.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_lab.gif" location="/home/tony/programs/installanywhere/manual/images/A_lab.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_note.gif" location="/home/tony/programs/installanywhere/manual/images/A_note.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_projectspecific.gif" location="/home/tony/programs/installanywhere/manual/images/A_projectspecific.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_security.gif" location="/home/tony/programs/installanywhere/manual/images/A_security.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_task.gif" location="/home/tony/programs/installanywhere/manual/images/A_task.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_tip.gif" location="/home/tony/programs/installanywhere/manual/images/A_tip.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_Tutorial.gif" location="/home/tony/programs/installanywhere/manual/images/A_Tutorial.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_versionnote.gif" location="/home/tony/programs/installanywhere/manual/images/A_versionnote.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_warning.gif" location="/home/tony/programs/installanywhere/manual/images/A_warning.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="A_windowslogo.gif" location="/home/tony/programs/installanywhere/manual/images/A_windowslogo.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="collapse.gif" location="/home/tony/programs/installanywhere/manual/images/collapse.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Copy of logo.gif" location="/home/tony/programs/installanywhere/manual/images/Copy of logo.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="expanded.gif" location="/home/tony/programs/installanywhere/manual/images/expanded.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="FLEXnet-140x43.gif" location="/home/tony/programs/installanywhere/manual/images/FLEXnet-140x43.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="FLEXnet-40h.gif" location="/home/tony/programs/installanywhere/manual/images/FLEXnet-40h.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="HelpLibrary.gif" location="/home/tony/programs/installanywhere/manual/images/HelpLibrary.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-02-4-1.jpg" location="/home/tony/programs/installanywhere/manual/images/InstallAnywhere 8.0-02-4-1.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-02-4-2.jpg" location="/home/tony/programs/installanywhere/manual/images/InstallAnywhere 8.0-02-4-2.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-02-4-3.jpg" location="/home/tony/programs/installanywhere/manual/images/InstallAnywhere 8.0-02-4-3.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-02-4-4.jpg" location="/home/tony/programs/installanywhere/manual/images/InstallAnywhere 8.0-02-4-4.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-02-4-5.jpg" location="/home/tony/programs/installanywhere/manual/images/InstallAnywhere 8.0-02-4-5.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-02-4-6.jpg" location="/home/tony/programs/installanywhere/manual/images/InstallAnywhere 8.0-02-4-6.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-02-4-7.jpg" location="/home/tony/programs/installanywhere/manual/images/InstallAnywhere 8.0-02-4-7.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="logo.gif" location="/home/tony/programs/installanywhere/manual/images/logo.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Logo.jpg" location="/home/tony/programs/installanywhere/manual/images/Logo.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="seebttm.gif" location="/home/tony/programs/installanywhere/manual/images/seebttm.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="seelflow.gif" location="/home/tony/programs/installanywhere/manual/images/seelflow.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="seeright.gif" location="/home/tony/programs/installanywhere/manual/images/seeright.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="seertlow.gif" location="/home/tony/programs/installanywhere/manual/images/seertlow.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="seertup.gif" location="/home/tony/programs/installanywhere/manual/images/seertup.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="scripts" location="/home/tony/programs/installanywhere/manual/scripts" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="expand.js" location="/home/tony/programs/installanywhere/manual/scripts/expand.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="mvsnfooter.js" location="/home/tony/programs/installanywhere/manual/scripts/mvsnfooter.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhdata" location="/home/tony/programs/installanywhere/manual/wwhdata" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="common" location="/home/tony/programs/installanywhere/manual/wwhdata/common" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="alinks.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/alinks.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="context.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/context.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="files.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/files.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="popups.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/popups.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="synonyms.xml" location="/home/tony/programs/installanywhere/manual/wwhdata/common/synonyms.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="title.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/title.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="topics.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/topics.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="towwhdir.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/towwhdir.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhpagef.js" location="/home/tony/programs/installanywhere/manual/wwhdata/common/wwhpagef.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="info.txt" location="/home/tony/programs/installanywhere/manual/wwhdata/info.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="java" location="/home/tony/programs/installanywhere/manual/wwhdata/java" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="files.xml" location="/home/tony/programs/installanywhere/manual/wwhdata/java/files.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ix.xml" location="/home/tony/programs/installanywhere/manual/wwhdata/java/ix.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search.xml" location="/home/tony/programs/installanywhere/manual/wwhdata/java/search.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="toc.xml" location="/home/tony/programs/installanywhere/manual/wwhdata/java/toc.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="js" location="/home/tony/programs/installanywhere/manual/wwhdata/js" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="index.js" location="/home/tony/programs/installanywhere/manual/wwhdata/js/index.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search.js" location="/home/tony/programs/installanywhere/manual/wwhdata/js/search.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search" location="/home/tony/programs/installanywhere/manual/wwhdata/js/search" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="search0.js" location="/home/tony/programs/installanywhere/manual/wwhdata/js/search/search0.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search1.js" location="/home/tony/programs/installanywhere/manual/wwhdata/js/search/search1.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search2.js" location="/home/tony/programs/installanywhere/manual/wwhdata/js/search/search2.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="toc.js" location="/home/tony/programs/installanywhere/manual/wwhdata/js/toc.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhelp" location="/home/tony/programs/installanywhere/manual/wwhelp" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="books.xml" location="/home/tony/programs/installanywhere/manual/wwhelp/books.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="images" location="/home/tony/programs/installanywhere/manual/wwhelp/images" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="altclose.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/images/altclose.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="altopen.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/images/altopen.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="help-splash.jpg" location="/home/tony/programs/installanywhere/manual/wwhelp/images/help-splash.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="help-splash-long.jpg" location="/home/tony/programs/installanywhere/manual/wwhelp/images/help-splash-long.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="splash.jpg" location="/home/tony/programs/installanywhere/manual/wwhelp/images/splash.jpg" type="file" uninstall="true"/>
+			<resource keyfile="false" name="messages.xml" location="/home/tony/programs/installanywhere/manual/wwhelp/messages.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="settings.xml" location="/home/tony/programs/installanywhere/manual/wwhelp/settings.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhimpl" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="api.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/api.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="common" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="html" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="alinks.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/alinks.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="blank.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/blank.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="bookmark.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/bookmark.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="content.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/content.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="controll.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/controll.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="controlr.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/controlr.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="default.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/default.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="document.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/document.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="first.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/first.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="frameset.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/frameset.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="init0.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/init0.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="init1.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/init1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="init2.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/init2.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="init3.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/init3.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="pagenav.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/pagenav.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="popup.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/popup.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="reset.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/reset.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="switch.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/switch.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="title.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/title.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhelp.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/html/wwhelp.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="images" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="bkmark.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/bkmark.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="bkmarkx.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/bkmarkx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="close.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/close.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="divider.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/divider.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="doc.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/doc.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="email.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/email.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="emailx.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/emailx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="fc.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/fc.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="fo.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/fo.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="frameset.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/frameset.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="next.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/next.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="nextx.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/nextx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="prev.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/prev.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="prevx.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/prevx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="print.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/print.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="printx.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/printx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="related.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/related.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="relatedi.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/relatedi.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="relatedx.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/relatedx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="spacer4.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/spacer4.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="spc1w2h.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/spc1w2h.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="spc1w7h.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/spc1w7h.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="spc2w1h.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/spc2w1h.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="spc5w1h.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/spc5w1h.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="sync.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/sync.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="syncx.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/images/syncx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="private" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/private" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="books.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/private/books.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="locale.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/private/locale.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="options.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/private/options.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="popupf.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/private/popupf.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="title.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/private/title.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="scripts" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="bklist1s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/bklist1s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="bookgrps.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/bookgrps.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="booklist.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/booklist.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="browser.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/browser.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="controls.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/controls.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="documt1s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/documt1s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="filelist.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/filelist.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="handler.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/handler.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="help.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/help.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="highlt.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/highlt.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="pophash.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/pophash.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="popup.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/popup.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="related.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/related.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="strutils.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/strutils.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="switch.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/common/scripts/switch.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="java" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="html" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="explore6.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/explore6.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="explorer.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/explorer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="javainfo.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/javainfo.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="javainfo.jar" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/javainfo.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="mozilla.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/mozilla.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="mozillau.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/mozillau.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="netscape.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/netscape.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhelp.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/html/wwhelp.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="private" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/private" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="books.xml" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/private/books.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="locale.xml" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/private/locale.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="options.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/private/options.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="options.xml" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/private/options.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="scripts" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/scripts" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="handler.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/scripts/handler.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="java.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/scripts/java.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="javainfo.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/java/scripts/javainfo.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="html" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="indexsel.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/indexsel.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="navigate.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/navigate.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelfni.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelfni.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelfns.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelfns.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelfsi.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelfsi.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelfss.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelfss.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelini.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelini.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelmsg.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelmsg.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelnav.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelnav.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panelvie.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/panelvie.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tabs.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/tabs.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhelp.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/html/wwhelp.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="images" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/images" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="tabsbg.gif" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/images/tabsbg.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="private" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/private" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="locale.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/private/locale.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="options.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/private/options.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="scripts" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="handler.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/handler.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="index.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/index.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="index1s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/index1s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="javascpt.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/javascpt.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="outlfast.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/outlfast.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="outlin1s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/outlin1s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="outline.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/outline.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="outlsafe.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/outlsafe.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="panels.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/panels.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/search.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search1s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/search1s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search2s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/search2s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search3s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/search3s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="search4s.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/search4s.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="tabs.js" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/js/scripts/tabs.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="version.htm" location="/home/tony/programs/installanywhere/manual/wwhelp/wwhimpl/version.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Action_Groups.htm" location="/home/tony/programs/installanywhere/manual/Action_Groups.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Actions.htm" location="/home/tony/programs/installanywhere/manual/Actions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="actions_rules.htm" location="/home/tony/programs/installanywhere/manual/actions_rules.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Add_Files.htm" location="/home/tony/programs/installanywhere/manual/Add_Files.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Add_Launcher.htm" location="/home/tony/programs/installanywhere/manual/Add_Launcher.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Adding_Components.htm" location="/home/tony/programs/installanywhere/manual/Adding_Components.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="adding_DIM.htm" location="/home/tony/programs/installanywhere/manual/adding_DIM.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Adding_Features.htm" location="/home/tony/programs/installanywhere/manual/Adding_Features.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Adding_Source_Paths.htm" location="/home/tony/programs/installanywhere/manual/Adding_Source_Paths.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="adding_usaction.htm" location="/home/tony/programs/installanywhere/manual/adding_usaction.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Additional_Action_Information.htm" location="/home/tony/programs/installanywhere/manual/Additional_Action_Information.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Advanced_Designer.htm" location="/home/tony/programs/installanywhere/manual/Advanced_Designer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="advanced_designerao.htm" location="/home/tony/programs/installanywhere/manual/advanced_designerao.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="advanced_tutorial.htm" location="/home/tony/programs/installanywhere/manual/advanced_tutorial.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ANT_Build_Integration.htm" location="/home/tony/programs/installanywhere/manual/ANT_Build_Integration.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Assign_to_Components.htm" location="/home/tony/programs/installanywhere/manual/Assign_to_Components.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Assign_to_Product_Features.htm" location="/home/tony/programs/installanywhere/manual/Assign_to_Product_Features.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Assigning_Components_to_Features.htm" location="/home/tony/programs/installanywhere/manual/Assigning_Components_to_Features.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Assigning_Files.htm" location="/home/tony/programs/installanywhere/manual/Assigning_Files.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Assigning_Files_to_Components.htm" location="/home/tony/programs/installanywhere/manual/Assigning_Files_to_Components.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Authoring_Environments.htm" location="/home/tony/programs/installanywhere/manual/Authoring_Environments.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Best_Practices_for_Components.htm" location="/home/tony/programs/installanywhere/manual/Best_Practices_for_Components.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Best_Practices_for_Localizing.htm" location="/home/tony/programs/installanywhere/manual/Best_Practices_for_Localizing.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Billboards1.htm" location="/home/tony/programs/installanywhere/manual/Billboards1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Build.htm" location="/home/tony/programs/installanywhere/manual/Build.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Build_Installer.htm" location="/home/tony/programs/installanywhere/manual/Build_Installer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Build_Targets.htm" location="/home/tony/programs/installanywhere/manual/Build_Targets.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="build_tools.htm" location="/home/tony/programs/installanywhere/manual/build_tools.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Bundling_Java_Runtime_Environments.htm" location="/home/tony/programs/installanywhere/manual/Bundling_Java_Runtime_Environments.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="catalog.css" location="/home/tony/programs/installanywhere/manual/catalog.css" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Checking_the_Value_of_an_InstallAnywhere_Variable.htm" location="/home/tony/programs/installanywhere/manual/Checking_the_Value_of_an_InstallAnywhere_Variable.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="checking_updates.htm" location="/home/tony/programs/installanywhere/manual/checking_updates.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Choose_Main.htm" location="/home/tony/programs/installanywhere/manual/Choose_Main.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Common_Properties.htm" location="/home/tony/programs/installanywhere/manual/Common_Properties.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="common_solutions.htm" location="/home/tony/programs/installanywhere/manual/common_solutions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Components1.htm" location="/home/tony/programs/installanywhere/manual/Components1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Config.htm" location="/home/tony/programs/installanywhere/manual/Config.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Console_Actions.htm" location="/home/tony/programs/installanywhere/manual/Console_Actions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Console_Installers.htm" location="/home/tony/programs/installanywhere/manual/Console_Installers.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="contacting_macrovision_corporation.htm" location="/home/tony/programs/installanywhere/manual/contacting_macrovision_corporation.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Creating_Launchers_for_Java_Applications.htm" location="/home/tony/programs/installanywhere/manual/Creating_Launchers_for_Java_Applications.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="creating_shortcut_DIM.htm" location="/home/tony/programs/installanywhere/manual/creating_shortcut_DIM.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Custom_Code1.htm" location="/home/tony/programs/installanywhere/manual/Custom_Code1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_code.htm" location="/home/tony/programs/installanywhere/manual/custom_code.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Custom_Code_and_InstallAnywhere_Variables.htm" location="/home/tony/programs/installanywhere/manual/Custom_Code_and_InstallAnywhere_Variables.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="customizing_DIM.htm" location="/home/tony/programs/installanywhere/manual/customizing_DIM.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="customizing_usaction.htm" location="/home/tony/programs/installanywhere/manual/customizing_usaction.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Debugging_a_Mac_OS_X_Installer_.htm" location="/home/tony/programs/installanywhere/manual/Debugging_a_Mac_OS_X_Installer_.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Debugging_a_Pure_Java_Installer.htm" location="/home/tony/programs/installanywhere/manual/Debugging_a_Pure_Java_Installer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Debugging_a_Unix_Linux_installer.htm" location="/home/tony/programs/installanywhere/manual/Debugging_a_Unix_Linux_installer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Debugging_a_Win32_installer.htm" location="/home/tony/programs/installanywhere/manual/Debugging_a_Win32_installer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Debugging_LaunchAnywhere_Launched_Executables_.htm" location="/home/tony/programs/installanywhere/manual/Debugging_LaunchAnywhere_Launched_Executables_.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Description.htm" location="/home/tony/programs/installanywhere/manual/Description.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Designer_Colors.htm" location="/home/tony/programs/installanywhere/manual/Designer_Colors.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Determining_a_Successful_Installation.htm" location="/home/tony/programs/installanywhere/manual/Determining_a_Successful_Installation.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Digitally_Signing_Installers.htm" location="/home/tony/programs/installanywhere/manual/Digitally_Signing_Installers.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DIM_references.htm" location="/home/tony/programs/installanywhere/manual/DIM_references.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="document.css" location="/home/tony/programs/installanywhere/manual/document.css" type="file" uninstall="true"/>
+			<resource keyfile="false" name="During_Installer_Development.htm" location="/home/tony/programs/installanywhere/manual/During_Installer_Development.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Dynamic_and_Static_Text.htm" location="/home/tony/programs/installanywhere/manual/Dynamic_and_Static_Text.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Edit.htm" location="/home/tony/programs/installanywhere/manual/Edit.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="editions.htm" location="/home/tony/programs/installanywhere/manual/editions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Examples.htm" location="/home/tony/programs/installanywhere/manual/Examples.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Feature_Uninstall.htm" location="/home/tony/programs/installanywhere/manual/Feature_Uninstall.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Features1.htm" location="/home/tony/programs/installanywhere/manual/Features1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Features.htm" location="/home/tony/programs/installanywhere/manual/Features.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="File.htm" location="/home/tony/programs/installanywhere/manual/File.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="File_Settings.htm" location="/home/tony/programs/installanywhere/manual/File_Settings.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="General_Actions.htm" location="/home/tony/programs/installanywhere/manual/General_Actions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="General_Settings.htm" location="/home/tony/programs/installanywhere/manual/General_Settings.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Get_User_Input_Panels.htm" location="/home/tony/programs/installanywhere/manual/Get_User_Input_Panels.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="getting_started.htm" location="/home/tony/programs/installanywhere/manual/getting_started.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Help1.htm" location="/home/tony/programs/installanywhere/manual/Help1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Help3.htm" location="/home/tony/programs/installanywhere/manual/Help3.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Help.htm" location="/home/tony/programs/installanywhere/manual/Help.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="helpinfo.js" location="/home/tony/programs/installanywhere/manual/helpinfo.js" type="file" uninstall="true"/>
+			<resource keyfile="false" name="How_Source_Paths_Work.htm" location="/home/tony/programs/installanywhere/manual/How_Source_Paths_Work.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="How_to_Package_and_Execute_Custom_Code_with_an_Installer.htm" location="/home/tony/programs/installanywhere/manual/How_to_Package_and_Execute_Custom_Code_with_an_Installer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Image_Settings.htm" location="/home/tony/programs/installanywhere/manual/Image_Settings.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Improving_Installation_Performance.htm" location="/home/tony/programs/installanywhere/manual/Improving_Installation_Performance.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Info.htm" location="/home/tony/programs/installanywhere/manual/Info.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Install.htm" location="/home/tony/programs/installanywhere/manual/Install.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Install_Actions.htm" location="/home/tony/programs/installanywhere/manual/Install_Actions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Install_Set_Feature_and_Components_.htm" location="/home/tony/programs/installanywhere/manual/Install_Set_Feature_and_Components_.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Install_Sets1.htm" location="/home/tony/programs/installanywhere/manual/Install_Sets1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Install_Sets.htm" location="/home/tony/programs/installanywhere/manual/Install_Sets.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere 8.0-07-44.htm" location="/home/tony/programs/installanywhere/manual/InstallAnywhere 8.0-07-44.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere_Variables1.htm" location="/home/tony/programs/installanywhere/manual/InstallAnywhere_Variables1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere_Variables.htm" location="/home/tony/programs/installanywhere/manual/InstallAnywhere_Variables.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="installer look and feel.htm" location="/home/tony/programs/installanywhere/manual/installer look and feel.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Installer_Interface_GUI.htm" location="/home/tony/programs/installanywhere/manual/Installer_Interface_GUI.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Installer_Modes.htm" location="/home/tony/programs/installanywhere/manual/Installer_Modes.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Installer_Sub_Projects_Merge_Modules.htm" location="/home/tony/programs/installanywhere/manual/Installer_Sub_Projects_Merge_Modules.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Installer_Types.htm" location="/home/tony/programs/installanywhere/manual/Installer_Types.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Installer_UI.htm" location="/home/tony/programs/installanywhere/manual/Installer_UI.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="installing_updates.htm" location="/home/tony/programs/installanywhere/manual/installing_updates.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Installing_Updatesbs.htm" location="/home/tony/programs/installanywhere/manual/Installing_Updatesbs.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Integrating_Components_Already_Installed_on_Target_System.htm" location="/home/tony/programs/installanywhere/manual/Integrating_Components_Already_Installed_on_Target_System.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="integrating_update_service.htm" location="/home/tony/programs/installanywhere/manual/integrating_update_service.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Internationalizing_Custom_Code.htm" location="/home/tony/programs/installanywhere/manual/Internationalizing_Custom_Code.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="intro_tutorial.htm" location="/home/tony/programs/installanywhere/manual/intro_tutorial.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="introduction.htm" location="/home/tony/programs/installanywhere/manual/introduction.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Java.htm" location="/home/tony/programs/installanywhere/manual/Java.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="key_concepts.htm" location="/home/tony/programs/installanywhere/manual/key_concepts.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Label_Settings.htm" location="/home/tony/programs/installanywhere/manual/Label_Settings.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Language_Codes.htm" location="/home/tony/programs/installanywhere/manual/Language_Codes.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="LaunchAnywhere1.htm" location="/home/tony/programs/installanywhere/manual/LaunchAnywhere1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="LaunchAnywhere.htm" location="/home/tony/programs/installanywhere/manual/LaunchAnywhere.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Launching_Additional_Installers.htm" location="/home/tony/programs/installanywhere/manual/Launching_Additional_Installers.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="LAX_Properties.htm" location="/home/tony/programs/installanywhere/manual/LAX_Properties.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="legal_info.htm" location="/home/tony/programs/installanywhere/manual/legal_info.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Locales.htm" location="/home/tony/programs/installanywhere/manual/Locales.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Localizable_Elements.htm" location="/home/tony/programs/installanywhere/manual/Localizable_Elements.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Localization.htm" location="/home/tony/programs/installanywhere/manual/Localization.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Localization_and_the_Internationalized_Designer.htm" location="/home/tony/programs/installanywhere/manual/Localization_and_the_Internationalized_Designer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="localizationdq.htm" location="/home/tony/programs/installanywhere/manual/localizationdq.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="localizing items.htm" location="/home/tony/programs/installanywhere/manual/localizing items.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Localizing_Custom_Code.htm" location="/home/tony/programs/installanywhere/manual/Localizing_Custom_Code.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Localizing_Custom_installer_Labels.htm" location="/home/tony/programs/installanywhere/manual/Localizing_Custom_installer_Labels.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Localizing_Resources.htm" location="/home/tony/programs/installanywhere/manual/Localizing_Resources.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Localizing_the_Get_User_Input_Panels.htm" location="/home/tony/programs/installanywhere/manual/Localizing_the_Get_User_Input_Panels.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Look_and_Feel.htm" location="/home/tony/programs/installanywhere/manual/Look_and_Feel.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="macrovision_products.htm" location="/home/tony/programs/installanywhere/manual/macrovision_products.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="macrovision_professional_services.htm" location="/home/tony/programs/installanywhere/manual/macrovision_professional_services.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Magic_Folder_Matrix_for_Mac_OS_X.htm" location="/home/tony/programs/installanywhere/manual/Magic_Folder_Matrix_for_Mac_OS_X.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Magic_Folders.htm" location="/home/tony/programs/installanywhere/manual/Magic_Folders.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Magic_Folders_and_InstallAnywhere_Variables.htm" location="/home/tony/programs/installanywhere/manual/Magic_Folders_and_InstallAnywhere_Variables.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Manifest_Files.htm" location="/home/tony/programs/installanywhere/manual/Manifest_Files.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="menus.htm" location="/home/tony/programs/installanywhere/manual/menus.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Merge_Modules1.htm" location="/home/tony/programs/installanywhere/manual/Merge_Modules1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Merge_Modules.htm" location="/home/tony/programs/installanywhere/manual/Merge_Modules.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="merge_modules_templates.htm" location="/home/tony/programs/installanywhere/manual/merge_modules_templates.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Modules.htm" location="/home/tony/programs/installanywhere/manual/Modules.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="MSI_Export.htm" location="/home/tony/programs/installanywhere/manual/MSI_Export.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="New_Project.htm" location="/home/tony/programs/installanywhere/manual/New_Project.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Organization.htm" location="/home/tony/programs/installanywhere/manual/Organization.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Organizing_Features_and_Components.htm" location="/home/tony/programs/installanywhere/manual/Organizing_Features_and_Components.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Packaging_Custom_Code_as_a_Plug_in_.htm" location="/home/tony/programs/installanywhere/manual/Packaging_Custom_Code_as_a_Plug_in_.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Panel_Action_Settings.htm" location="/home/tony/programs/installanywhere/manual/Panel_Action_Settings.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Panel_Actions.htm" location="/home/tony/programs/installanywhere/manual/Panel_Actions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Platforms.htm" location="/home/tony/programs/installanywhere/manual/Platforms.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Post_Development.htm" location="/home/tony/programs/installanywhere/manual/Post_Development.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Pre_and_Post_Install_and_Uninstall_Tasks.htm" location="/home/tony/programs/installanywhere/manual/Pre_and_Post_Install_and_Uninstall_Tasks.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Preferences.htm" location="/home/tony/programs/installanywhere/manual/Preferences.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Project.htm" location="/home/tony/programs/installanywhere/manual/Project.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="project_conversion.htm" location="/home/tony/programs/installanywhere/manual/project_conversion.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Project_File.htm" location="/home/tony/programs/installanywhere/manual/Project_File.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Project_Wizard.htm" location="/home/tony/programs/installanywhere/manual/Project_Wizard.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="project_wizardbw.htm" location="/home/tony/programs/installanywhere/manual/project_wizardbw.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="referencing_DIMs.htm" location="/home/tony/programs/installanywhere/manual/referencing_DIMs.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Registration1.htm" location="/home/tony/programs/installanywhere/manual/Registration1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="registration.htm" location="/home/tony/programs/installanywhere/manual/registration.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="removing_DIM.htm" location="/home/tony/programs/installanywhere/manual/removing_DIM.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Removing_Empty_Components.htm" location="/home/tony/programs/installanywhere/manual/Removing_Empty_Components.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="removing_usaction.htm" location="/home/tony/programs/installanywhere/manual/removing_usaction.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Reviewing_Debug_Information.htm" location="/home/tony/programs/installanywhere/manual/Reviewing_Debug_Information.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="roottopic.htm" location="/home/tony/programs/installanywhere/manual/roottopic.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Rules1.htm" location="/home/tony/programs/installanywhere/manual/Rules1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Rules.htm" location="/home/tony/programs/installanywhere/manual/Rules.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Rules_.htm" location="/home/tony/programs/installanywhere/manual/Rules_.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Set_Classpath1.htm" location="/home/tony/programs/installanywhere/manual/Set_Classpath1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Set_Classpath.htm" location="/home/tony/programs/installanywhere/manual/Set_Classpath.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Set_Info.htm" location="/home/tony/programs/installanywhere/manual/Set_Info.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Setting_InstallAnywhere_Variables.htm" location="/home/tony/programs/installanywhere/manual/Setting_InstallAnywhere_Variables.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Shared_Components.htm" location="/home/tony/programs/installanywhere/manual/Shared_Components.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="silent_console_installers.htm" location="/home/tony/programs/installanywhere/manual/silent_console_installers.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Silent_Installers.htm" location="/home/tony/programs/installanywhere/manual/Silent_Installers.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Source_Paths.htm" location="/home/tony/programs/installanywhere/manual/Source_Paths.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Specific_Localization_Concerns.htm" location="/home/tony/programs/installanywhere/manual/Specific_Localization_Concerns.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="SpeedFolders.htm" location="/home/tony/programs/installanywhere/manual/SpeedFolders.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Standard_InstallAnywhere_Variables.htm" location="/home/tony/programs/installanywhere/manual/Standard_InstallAnywhere_Variables.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Start_Wizard.htm" location="/home/tony/programs/installanywhere/manual/Start_Wizard.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Team_Development.htm" location="/home/tony/programs/installanywhere/manual/Team_Development.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="technical_support_resources.htm" location="/home/tony/programs/installanywhere/manual/technical_support_resources.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Templates1.htm" location="/home/tony/programs/installanywhere/manual/Templates1.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Templates.htm" location="/home/tony/programs/installanywhere/manual/Templates.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="troubleshooting.htm" location="/home/tony/programs/installanywhere/manual/troubleshooting.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Troubleshooting_Installers.htm" location="/home/tony/programs/installanywhere/manual/Troubleshooting_Installers.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Try_Installer.htm" location="/home/tony/programs/installanywhere/manual/Try_Installer.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Uninstaller.htm" location="/home/tony/programs/installanywhere/manual/Uninstaller.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Uninstaller_for_Merge_Modules_and_Multiple_Products.htm" location="/home/tony/programs/installanywhere/manual/Uninstaller_for_Merge_Modules_and_Multiple_Products.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="uninstallercs.htm" location="/home/tony/programs/installanywhere/manual/uninstallercs.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Unix.htm" location="/home/tony/programs/installanywhere/manual/Unix.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Update.htm" location="/home/tony/programs/installanywhere/manual/Update.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Updating_the_Location_of_Files_and_Resources.htm" location="/home/tony/programs/installanywhere/manual/Updating_the_Location_of_Files_and_Resources.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="using_help.htm" location="/home/tony/programs/installanywhere/manual/using_help.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="using_helpi.htm" location="/home/tony/programs/installanywhere/manual/using_helpi.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Using_Output_Debug_Information_Actions.htm" location="/home/tony/programs/installanywhere/manual/Using_Output_Debug_Information_Actions.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="using_update_service.htm" location="/home/tony/programs/installanywhere/manual/using_update_service.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="variables.htm" location="/home/tony/programs/installanywhere/manual/variables.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Visual_Tree.htm" location="/home/tony/programs/installanywhere/manual/Visual_Tree.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="welcome.htm" location="/home/tony/programs/installanywhere/manual/welcome.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Working_with_Source_Control_Management_Software.htm" location="/home/tony/programs/installanywhere/manual/Working_with_Source_Control_Management_Software.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="wwhelp4.jar" location="/home/tony/programs/installanywhere/manual/wwhelp4.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="StartHere.htm" location="/home/tony/programs/installanywhere/manual/StartHere.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="resource" location="/home/tony/programs/installanywhere/resource" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="extras" location="/home/tony/programs/installanywhere/resource/extras" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="uuid" location="/home/tony/programs/installanywhere/resource/extras/uuid" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="persistent_state" location="/home/tony/programs/installanywhere/resource/extras/uuid/persistent_state" type="file" uninstall="true"/>
+			<resource keyfile="false" name="presets" location="/home/tony/programs/installanywhere/resource/extras/presets" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="article1.xsl" location="/home/tony/programs/installanywhere/resource/extras/presets/article1.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="attributes2elements.xsl" location="/home/tony/programs/installanywhere/resource/extras/presets/attributes2elements.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="example2Schema.xsl" location="/home/tony/programs/installanywhere/resource/extras/presets/example2Schema.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="queryOnSubElement.xsl" location="/home/tony/programs/installanywhere/resource/extras/presets/queryOnSubElement.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="selectHREF.xsl" location="/home/tony/programs/installanywhere/resource/extras/presets/selectHREF.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="selectTagName.xsl" location="/home/tony/programs/installanywhere/resource/extras/presets/selectTagName.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="substituteEltName.xsl" location="/home/tony/programs/installanywhere/resource/extras/presets/substituteEltName.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="i18nresources" location="/home/tony/programs/installanywhere/resource/i18nresources" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="custom_ca" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_ca" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_cs" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_cs" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_da" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_da" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_de" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_de" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_el" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_el" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_en" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_en" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_es" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_es" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_eu" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_eu" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_fi" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_fi" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_fr" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_fr" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_fr_CA" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_fr_CA" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_hu" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_hu" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_in" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_in" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_it" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_it" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_ja" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_ja" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_ko" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_ko" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_nl" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_nl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_no" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_no" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_pl" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_pl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_pt" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_pt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_pt_BR" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_pt_BR" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_ru" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_ru" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_sk" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_sk" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_sl" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_sl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_sv" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_sv" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_th" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_th" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_tr" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_tr" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_zh_TW" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_zh_TW" type="file" uninstall="true"/>
+			<resource keyfile="false" name="custom_zh_CN" location="/home/tony/programs/installanywhere/resource/i18nresources/custom_zh_CN" type="file" uninstall="true"/>
+			<resource keyfile="false" name="dbclients" location="/home/tony/programs/installanywhere/resource/dbclients" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="hsqldb.jar" location="/home/tony/programs/installanywhere/resource/dbclients/hsqldb.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="i18ndesigner" location="/home/tony/programs/installanywhere/resource/i18ndesigner" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="update" location="/home/tony/programs/installanywhere/resource/update" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="update.jar" location="/home/tony/programs/installanywhere/resource/update/update.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="product.app.pu.properties" location="/home/tony/programs/installanywhere/resource/update/product.app.pu.properties" type="file" uninstall="true"/>
+			<resource keyfile="false" name="powerupdate.app.pu.properties" location="/home/tony/programs/installanywhere/resource/update/powerupdate.app.pu.properties" type="file" uninstall="true"/>
+			<resource keyfile="false" name="web" location="/home/tony/programs/installanywhere/resource/web" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="images" location="/home/tony/programs/installanywhere/resource/web/images" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="credit.gif" location="/home/tony/programs/installanywhere/resource/web/images/credit.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="aix.gif" location="/home/tony/programs/installanywhere/resource/web/images/aix.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="hp.gif" location="/home/tony/programs/installanywhere/resource/web/images/hp.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="linux.gif" location="/home/tony/programs/installanywhere/resource/web/images/linux.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="mac.gif" location="/home/tony/programs/installanywhere/resource/web/images/mac.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="macosx.gif" location="/home/tony/programs/installanywhere/resource/web/images/macosx.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="named_unix.gif" location="/home/tony/programs/installanywhere/resource/web/images/named_unix.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="other.gif" location="/home/tony/programs/installanywhere/resource/web/images/other.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="solaris.gif" location="/home/tony/programs/installanywhere/resource/web/images/solaris.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="unix.gif" location="/home/tony/programs/installanywhere/resource/web/images/unix.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="win.gif" location="/home/tony/programs/installanywhere/resource/web/images/win.gif" type="file" uninstall="true"/>
+			<resource keyfile="false" name="install.ja.htm" location="/home/tony/programs/installanywhere/resource/web/install.ja.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="install.fr.htm" location="/home/tony/programs/installanywhere/resource/web/install.fr.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="install.en.htm" location="/home/tony/programs/installanywhere/resource/web/install.en.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="install.de.htm" location="/home/tony/programs/installanywhere/resource/web/install.de.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="WebInst.cab" location="/home/tony/programs/installanywhere/resource/web/WebInst.cab" type="file" uninstall="true"/>
+			<resource keyfile="false" name="WebInst.jar" location="/home/tony/programs/installanywhere/resource/web/WebInst.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="installer_vms" location="/home/tony/programs/installanywhere/resource/installer_vms" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="SunJRE150_03LinuxINTEL.vm" location="/home/tony/programs/installanywhere/resource/installer_vms/SunJRE150_03LinuxINTEL.vm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="image_defaults" location="/home/tony/programs/installanywhere/resource/image_defaults" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="launchanywheres" location="/home/tony/programs/installanywhere/resource/launchanywheres" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="manifests" location="/home/tony/programs/installanywhere/resource/manifests" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="nativetools" location="/home/tony/programs/installanywhere/resource/nativetools" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="self_extractors" location="/home/tony/programs/installanywhere/resource/self_extractors" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="compiler.zip" location="/home/tony/programs/installanywhere/resource/compiler.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="IAClasses.zip" location="/home/tony/programs/installanywhere/resource/IAClasses.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="jdglue.zip" location="/home/tony/programs/installanywhere/resource/jdglue.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="linking.zip" location="/home/tony/programs/installanywhere/resource/linking.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="support3.zip" location="/home/tony/programs/installanywhere/resource/support3.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="jreLicense.txt" location="/home/tony/programs/installanywhere/resource/jreLicense.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="BuildVersion" location="/home/tony/programs/installanywhere/resource/BuildVersion" type="file" uninstall="true"/>
+			<resource keyfile="false" name="saxon" location="/home/tony/programs/installanywhere/resource/saxon" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="saxon.jar" location="/home/tony/programs/installanywhere/resource/saxon/saxon.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant" location="/home/tony/programs/installanywhere/resource/ant" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ant.jar" location="/home/tony/programs/installanywhere/resource/ant/ant.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-xslp.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-xslp.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-xalan1.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-xalan1.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-weblogic.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-weblogic.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-vaj.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-vaj.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-trax.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-trax.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-swing.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-swing.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-stylebook.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-stylebook.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-starteam.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-starteam.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-nodeps.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-nodeps.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-netrexx.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-netrexx.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-launcher.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-launcher.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-junit.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-junit.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-jsch.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-jsch.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-jmf.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-jmf.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-jdepend.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-jdepend.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-javamail.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-javamail.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-jai.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-jai.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-icontract.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-icontract.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-commons-net.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-commons-net.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-commons-logging.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-commons-logging.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-apache-resolver.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-apache-resolver.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-apache-regexp.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-apache-regexp.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-apache-oro.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-apache-oro.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-apache-log4j.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-apache-log4j.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-apache-bsf.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-apache-bsf.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-apache-bcel.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-apache-bcel.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ant-antlr.jar" location="/home/tony/programs/installanywhere/resource/ant/ant-antlr.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="xml-apis.jar" location="/home/tony/programs/installanywhere/resource/ant/xml-apis.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="xercesImpl.jar" location="/home/tony/programs/installanywhere/resource/ant/xercesImpl.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="required" location="/home/tony/programs/installanywhere/resource/ant/required" type="file" uninstall="true"/>
+			<resource keyfile="false" name="build" location="/home/tony/programs/installanywhere/resource/build" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Build.properties" location="/home/tony/programs/installanywhere/resource/build/Build.properties" type="file" uninstall="true"/>
+			<resource keyfile="false" name="iaant.jar" location="/home/tony/programs/installanywhere/resource/build/iaant.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Unsigned WebInstall" location="/home/tony/programs/installanywhere/resource/Unsigned WebInstall" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="WebInst.cab" location="/home/tony/programs/installanywhere/resource/Unsigned WebInstall/WebInst.cab" type="file" uninstall="true"/>
+			<resource keyfile="false" name="WebInst.jar" location="/home/tony/programs/installanywhere/resource/Unsigned WebInstall/WebInst.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="IANET" location="/home/tony/programs/installanywhere/resource/IANET" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="parsers" location="/home/tony/programs/installanywhere/resource/parsers" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="zgu" location="/home/tony/programs/installanywhere/resource/zgu" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="java" location="/home/tony/programs/installanywhere/resource/zgu/java" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="resources" location="/home/tony/programs/installanywhere/resource/zgu/java/resources" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="common.jar" location="/home/tony/programs/installanywhere/resource/zgu/java/resources/common.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ecore.jar" location="/home/tony/programs/installanywhere/resource/zgu/java/resources/ecore.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ecore.xmi.jar" location="/home/tony/programs/installanywhere/resource/zgu/java/resources/ecore.xmi.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="resources.jar" location="/home/tony/programs/installanywhere/resource/zgu/java/resources/resources.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="runtime.jar" location="/home/tony/programs/installanywhere/resource/zgu/java/resources/runtime.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="xercesImpl.jar" location="/home/tony/programs/installanywhere/resource/zgu/java/resources/xercesImpl.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="xmlParserAPIs.jar" location="/home/tony/programs/installanywhere/resource/zgu/java/resources/xmlParserAPIs.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="designerTemp" location="/home/tony/programs/installanywhere/resource/designerTemp" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="dim" location="/home/tony/programs/installanywhere/resource/dim" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="dim.jar" location="/home/tony/programs/installanywhere/resource/dim/dim.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="DimPredefVars.properties" location="/home/tony/programs/installanywhere/resource/dim/DimPredefVars.properties" type="file" uninstall="true"/>
+			<resource keyfile="false" name="services" location="/home/tony/programs/installanywhere/resource/services" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="ppk" location="/home/tony/programs/installanywhere/resource/services/ppk" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="aixppk.jar" location="/home/tony/programs/installanywhere/resource/services/ppk/aixppk.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="genericunixppk.jar" location="/home/tony/programs/installanywhere/resource/services/ppk/genericunixppk.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="hpuxppk.jar" location="/home/tony/programs/installanywhere/resource/services/ppk/hpuxppk.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="linuxppk.jar" location="/home/tony/programs/installanywhere/resource/services/ppk/linuxppk.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="macosxppk.jar" location="/home/tony/programs/installanywhere/resource/services/ppk/macosxppk.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="solarisppk.jar" location="/home/tony/programs/installanywhere/resource/services/ppk/solarisppk.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="windowsppk.jar" location="/home/tony/programs/installanywhere/resource/services/ppk/windowsppk.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="services.jar" location="/home/tony/programs/installanywhere/resource/services/services.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ice" location="/home/tony/programs/installanywhere/resource/ice" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="ib6access.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6access.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6core.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6core.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6extra.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6extra.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6http.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6http.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6https.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6https.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6js.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6js.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6ntlm.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6ntlm.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6swing.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6swing.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6util.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6util.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ib6xalan.jar" location="/home/tony/programs/installanywhere/resource/ice/ib6xalan.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="icessl.jar" location="/home/tony/programs/installanywhere/resource/ice/icessl.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ui.jar" location="/home/tony/programs/installanywhere/resource/ice/ui.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="isus" location="/home/tony/programs/installanywhere/isus" type="directory" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+			<resource keyfile="false" name="1F131B751ED811B2BF3EF87E86ADB9E4.properties" location="/home/tony/programs/installanywhere/isus/1F131B751ED811B2BF3EF87E86ADB9E4.properties" type="file" uninstall="true"/>
+			<resource keyfile="false" name="updatewizard.exe" location="/home/tony/programs/installanywhere/isus/updatewizard.exe" type="file" uninstall="true"/>
+			<resource keyfile="false" name="us.jar" location="/home/tony/programs/installanywhere/isus/us.jar" type="file" uninstall="true"/>
+			<resource keyfile="false" name="usagent.exe" location="/home/tony/programs/installanywhere/isus/usagent.exe" type="file" uninstall="true"/>
+			<resource keyfile="false" name="XML Project File Tools" location="/home/tony/programs/installanywhere/XML Project File Tools" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="default.css" location="/home/tony/programs/installanywhere/XML Project File Tools/default.css" type="file" uninstall="true"/>
+			<resource keyfile="false" name="iaproject.xsd" location="/home/tony/programs/installanywhere/XML Project File Tools/iaproject.xsd" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ia_chg_prop.xsl" location="/home/tony/programs/installanywhere/XML Project File Tools/ia_chg_prop.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="ia_project_info.xsl" location="/home/tony/programs/installanywhere/XML Project File Tools/ia_project_info.xsl" type="file" uninstall="true"/>
+			<resource keyfile="false" name="README.html" location="/home/tony/programs/installanywhere/XML Project File Tools/README.html" type="file" uninstall="true"/>
+			<resource keyfile="false" name="IAClasses.zip" location="/home/tony/programs/installanywhere/IAClasses.zip" type="file" uninstall="true"/>
+			<resource keyfile="false" name="Uninstall" location="/home/tony/programs/installanywhere/Uninstall" type="shortcut" uninstall="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="true" name="IAReadMe.htm" location="/home/tony/programs/installanywhere/IAReadMe.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="IAReadMe.fr.htm" location="/home/tony/programs/installanywhere/IAReadMe.fr.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="IAReadMe.ja.htm" location="/home/tony/programs/installanywhere/IAReadMe.ja.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="IAReadMe.de.htm" location="/home/tony/programs/installanywhere/IAReadMe.de.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="PULog.txt" location="/home/tony/programs/installanywhere/PULog.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="console.txt" location="/home/tony/programs/installanywhere/console.txt" type="file" uninstall="true"/>
+			<resource keyfile="false" name="IALicense.htm" location="/home/tony/programs/installanywhere/IALicense.htm" type="file" uninstall="true"/>
+			<resource keyfile="false" name="buildlog.xml" location="/home/tony/programs/installanywhere/buildlog.xml" type="file" uninstall="true"/>
+			<resource keyfile="false" name="InstallAnywhere_8_Enterprise" location="/home/tony/InstallAnywhere_8_Enterprise" type="shortcut" uninstall="true">
+			<![CDATA[]]>
+			</resource>
+		</component>
+		<component id="1f13f26b-1ed8-11b2-bf3e-f87e86adb9e4" version="8.0.0.0" name="InstallAnywhere VM Component" location="/home/tony/programs/installanywhere/jre" vendor="Macrovision Corporation">
+			<resource keyfile="true" name="jre" location="/home/tony/programs/installanywhere/jre" type="post_processed_dir" uninstall="true">
+			<![CDATA[true]]>
+			</resource>
+		</component>
+		<component id="1f13b2a3-1ed8-11b2-bf3e-f87e86adb9e4" version="8.0.0.0" name="InstallAnywhere Uninstall Component" location="/home/tony/programs/installanywhere/UninstallerData/Uninstall" vendor="Macrovision Corporation">
+			<resource keyfile="false" name="Macrovision_InstallAnywhere_8_Enterprise_InstallLog.log" location="/home/tony/programs/installanywhere/Macrovision_InstallAnywhere_8_Enterprise_InstallLog.log" type="file" uninstall="true"/>
+			<resource keyfile="false" name="installanywhere" location="/home/tony/programs/installanywhere" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="jre" location="/home/tony/programs/installanywhere/jre" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="UninstallerData" location="/home/tony/programs/installanywhere/UninstallerData" type="directory" uninstall="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="uninstaller.jar" location="/home/tony/programs/installanywhere/UninstallerData/uninstaller.jar" type="file" uninstall="true"/>
+			<resource keyfile="true" name="Uninstall" location="/home/tony/programs/installanywhere/UninstallerData/Uninstall" type="executable" uninstall="true"/>
+			<resource keyfile="false" name="Uninstall.lax" location="/home/tony/programs/installanywhere/UninstallerData/Uninstall.lax" type="file" uninstall="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="/home/tony/programs/installanywhere/UninstallerData/.com.zerog.registry.xml" type="file" uninstall="true"/>
+		</component>
+	</components>
+</registry>

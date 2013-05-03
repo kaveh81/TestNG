@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="Quadralay WebWorks Publisher 2003 for FrameMaker 8.0.8.2296" />
+    <meta name="TEMPLATEBASE" content="MVSN WWH Template 30-Sep-2005" />
+    <meta name="LASTUPDATED" content="07/27/06 10:25:58" />
+    <title>Merge Modules</title>
+    <link rel="StyleSheet" href="document.css" type="text/css" />
+    <link rel="StyleSheet" href="catalog.css" type="text/css" />
+<script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/context.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/towwhdir.js"></script>
+  <script type="text/javascript" language="JavaScript1.2" src="wwhdata/common/wwhpagef.js"></script>
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Set reference to top level help frame
+    //
+    var  WWHFrame = WWHGetWWHFrame("");
+   // -->
+  </script>
+
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/mvsnfooter.js"></script>
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+  </head>
+
+  <body onLoad="WWHUpdate();" onUnload="WWHUnload();" onKeyDown="WWHHandleKeyDown((document.all||document.getElementById||document.layers)?event:null);" onKeyPress="WWHHandleKeyPress((document.all||document.getElementById||document.layers)?event:null);" onKeyUp="WWHHandleKeyUp((document.all||document.getElementById||document.layers)?event:null);">
+
+
+<!--<a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq1" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>-->
+    <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq2" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a>
+
+
+    <hr align="left" size="1" color="#C2C2C2"/>
+
+    <!--<blockquote>-->
+<a name="wp1053983"> </a><h1 class="pHeading1">
+Merge Modules
+</h1>
+<a name="wp1056198"> </a><p class="pps_Product_Subheading">
+InstallAnywhere 8.0
+</p>
+<a name="wp1053985"> </a><p class="pa_Body">
+Merge Modules are essentially Installer sub-projects that can be created independently of one another and later merged together. Like an installer a Merge Module is a reusable collection of installation functionality, complete with features, components, panels, actions, and files. However, a Merge Module cannot be installed on its own; instead, developers use Merge Modules when they want to include the functionality of one installer within another installer.
+</p>
+<a name="wp1053987"> </a><p class="pa_Body">
+Merge Modules provide many benefits and provide solutions to complex installation requirements. For instance:
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1053988"> </a><div class="pSmartList1_Variant"><li value="">Combine several Merge Modules from different products to create a &quot;Suite Installer.&quot; </li></div>   <a name="wp1053989"> </a><div class="pSmartList1_Variant"><li value="">Independent development teams in different locations can create Merge Modules for different software components. A release engineer can combine those Merge Modules into a single product installer. </li></div>   <a name="wp1053990"> </a><div class="pSmartList1_Variant"><li value="">Create self-contained units of installer functionality for reuse in future installer projects. For instance, if the same software component needs to be in several different installers, build it into a Merge Module and make it available for all of the installer developers. </li></div>   <a name="wp1053991"> </a><div class="pSmartList1_Variant"><li value="">Save common installer functionality, such as License Agreement panels and Custom User Input panels, into Merge Modules to simplify future installer project creation. </li></div>   <a name="wp1053992"> </a><div class="pSmartList1_Variant"><li value="">Combine Merge Modules from 3rd party software packages to build complex software &quot;Solutions,&quot; without having to figure out how to install each individual package.  </li></div> </ul></div>
+<a name="wp1053993"> </a><p class="pa_Body">
+Macrovision provides many 3rd party Merge Modules on its Web site. 
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1053994"> </a><div class="pSmartList1_Variant"><li value="">Use a Merge Module as the starting point for a new installer project. These Merge Modules are referred to as Templates, and are covered in another section. </li></div>   <a name="wp1053995"> </a><div class="pSmartList1_Variant"><li value="">Any installer project can be built into a Merge Module. And any Merge Module can be used within any other installer project. </li></div>   <a name="wp1053996"> </a><div class="pSmartList1_Variant"><li value="">Merge Modules are created as an option through the installer build process. Since a Merge Module contains all of the resources for a project, it is just like building an installer. They can be built automatically when the installer is built, or they can be explicitly built from the Advanced Designer (check the Build Merge Module option on the Build task, under the Distribution tab) or from the command line (use the +merge option). </li></div> </ul></div>
+<a name="wp1053997"> </a><p class="pa_Body">
+Merge Modules can be merged into an existing installer in one of three ways:
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1053998"> </a><div class="pSmartList1_Variant"><li value="">In the Organization | Modules task, click Import Dynamic Merge Module to merge a merge module into the current installer. All of the merge module&#39;s files, actions, and panels (optionally) will be combined into current project. The actions will appear as in an action group in Pre-Install and Post-install. Dynamic Merge Modules are recommended if you have merge modules whose contents constantly change. A parent project will automatically refresh dynamic merge modules when the parent project is loaded and built. </li></div>   <a name="wp1053999"> </a><div class="pSmartList1_Variant"><li value="">In the Organization | Modules task, click Import Static Merge Module to merge a merge module into the current installer. All of the merge module&#39;s features, components, files, actions, and panels (optionally) will be combined into the current project, allowing developers to further customize any settings. Static Merge Modules are recommended if you have merge modules if you want import features and components and if you want more freedom in the place actions. Changes made to a static merge module will not be noted in the parent project. </li></div>   <a name="wp1054000"> </a><div class="pSmartList1_Variant"><li value="">Merge Modules can also be installed as self-contained sub-installer units, without merging them into the current project. This is useful if developers do not know what will be in a Merge Module, or they will not be modifying any settings. Merge Modules added in this manner are run as silent sub-installers. </li></div> </ul></div>
+<a name="wp1054001"> </a><p class="pa_Body">
+Merge modules can be integrated with a project in one of two ways:
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1054002"> </a><div class="pSmartList1_Variant"><li value="">Use the <b class="cBold">Install Merge Module</b> action and select <b class="cBold">Bundle Merge Module</b> at Build Time, if the merge module is available when ready to build the installer. These Merge Modules will be included in the actual generated installer. </li></div>   <a name="wp1054003"> </a><div class="pSmartList1_Variant"><li value="">Use the Install Merge Module action and select Locate Merge Module at Install Time to have the installer install a Merge Module that is available at install time, but external to the installer. The Merge Module can be either on the end-user&#39;s system or stored on a CD. If the location is a folder that contains several Merge Modules, they will all be installed. </li></div> </ul></div>
+<a name="wp1054005"> </a><h2 class="pHeading2">
+Advertised Variables
+</h2>
+<a name="wp1054006"> </a><p class="pa_Body">
+These are InstallAnywhere variables that the merge module needs from the parent installer or will be passed back from the merge module to a parent installer. On the Build task, under the Distribution tab, click Edit Advertised Variables to add variables, set default values, and add comments. They are used by Dynamic Merge Modules and the Install Merge Module action.
+</p>
+<a name="wp1054008"> </a><p class="pa_Body">
+Advertised Variables are defined by task. Variables set as advertised as Pre-Install will only affect the Dynamic Merge Module in Pre-Install. The Install Merge Module action only pays attention to Advertised Variables set in the Install task. Use Advertised Variables to inform master installers of settings required for a Merge Modules configuration, and to return information like status back to the parent installer.
+</p>
+<a name="wp1054009"> </a><p class="pa_Body">
+Other important things to know about Merge Modules:
+</p>
+<div class="pSmartList1_Variant"><ul class="pSmartList1_Variant">
+  <a name="wp1054010"> </a><div class="pSmartList1_Variant"><li value="">Read Only option: Merge Modules can be locked, preventing them from being opened, used as templates, or being merged into an installer. Read Only Merge Modules can only be installed as a self-contained installer unit. </li></div>   <a name="wp1054011"> </a><div class="pSmartList1_Variant"><li value="">Optimize Merge Module Size by Platform option: Separate merge modules will be created for each platform. Each will only contain the resources needed for that specific platform. Do not use this option if merge modules will be imported into another installer. Importing a merge module requires a non-optimized merge module. </li></div>   <a name="wp1054012"> </a><div class="pSmartList1_Variant"><li value="">You can set the stderr and stdout of a merge module to InstallAnywhere variables. This is useful if you want to debug a merge module. </li></div> </ul></div>
+
+
+
+  <script type="text/javascript" language="JavaScript1.2">
+   <!--
+    // Clear related topics
+    //
+    WWHClearRelatedTopics();
+
+   // -->
+  </script>
+    <!--</blockquote>-->
+
+    <hr />
+
+
+    <table id="SummaryNotReq1" width="97%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top">
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(doctitle);</script><br />
+
+	  </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    <script language="JavaScript1.2" type="text/javascript">document.write(releasedate);</script><br />
+          </span>
+
+	</td>
+	<td align="right">
+ 
+          <span style="font-size: 8pt ; font-decoration: underline; font-family: Verdana, Helvetica, Arial">
+            <a href="legal_info.htm">Copyright Information</a> | <a href="contacting_macrovision_corporation.htm">Contact Macrovision</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--
+    <table id="SummaryNotReq2" align="right" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="right">
+      <a href="http://www.macrovision.com/" target="_blank"><img id="LongDescNotReq3" src="images/logo.gif" width="125" height="22" border="0" alt="Macrovision Corporation" /></a><br />
+          <span style="font-size: 8pt ; font-weight: bold; font-family: Verdana, Helvetica, Arial">
+            Macrovision Corporation<br />
+          </span>
+          <span style="font-size: 8pt ; font-family: Verdana, Helvetica, Arial">
+	    2830 De La Cruz Blvd.<br />
+            Santa Clara, CA 95050<br />
+            <a href="http://www.macrovision.com/" target="_blank">www.macrovision.com</a><br />
+            Voice: (408) 743-8600<br />
+            FAX: (408) 743-8610<br />
+            <a href="mailto:support@macrovision.com">support@macrovision.com</a><br />
+          </span>
+        </td>
+      </tr>
+    </table>-->
+
+<script type="text/javascript" language="JavaScript1.2">
+   <!--
+    document.write(WWHRelatedTopicsDivTag() + WWHPopupDivTag() + WWHALinksDivTag());
+   // -->
+  </script>
+
+  </body>
+</html>

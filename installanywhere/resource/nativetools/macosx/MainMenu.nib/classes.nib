@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {toggleAuthorization = id; }; 
+            CLASS = AuthController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                backgroundImageView = id; 
+                cancelButton = id; 
+                extraTextArea = id; 
+                lockButton = id; 
+                lockText = id; 
+                mainLabel = id; 
+                mainMenu = id; 
+                mainMenuItem = id; 
+                mainTextArea = id; 
+                menuAbout = id; 
+                menuHide = id; 
+                menuQuit = id; 
+                menuShow = id; 
+                panelImageView = id; 
+                theWindow = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

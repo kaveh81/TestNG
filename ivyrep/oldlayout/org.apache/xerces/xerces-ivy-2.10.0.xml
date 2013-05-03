@@ -1,0 +1,15 @@
+<ivy-module version="2.0">
+  <info organisation="org.apache" module="xerces" revision="2.10.0" status="release">
+    <license name="apache2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+  </info>
+  <configurations>
+    <conf name="default"/>
+    <conf name="distribution"/>
+  </configurations>
+  <publications>
+    <artifact name="xercesImpl" type="jar"/>
+    <artifact name="xml-apis" type="jar"/>
+    <artifact name="Xerces-J-bin" type="distribution" ext="tar.gz" conf="distribution"/>
+    <artifact name="Xerces-J-src" type="distribution" ext="tar.gz" conf="distribution"/>
+  </publications>
+</ivy-module>
