@@ -26,10 +26,6 @@
 				<artifact pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/[artifact].[ext]" />
 				<ivy pattern="${ivy.settings.dir}/from-spring-ebr/[organization]/[module]/[revision]/ivy-[module].xml" />
 			</filesystem>
-			<filesystem name="from-maven">
-				<artifact pattern="${ivy.settings.dir}/from-maven/[organization]/[module]/[revision]/[artifact]-[type].[ext]" />
-				<ivy pattern="${ivy.settings.dir}/from-maven/[organization]/[module]/[revision]/ivy-[module].xml" />
-			</filesystem>
 		</chain>
 	</resolvers>
 	<caches defaultCacheDir="${ivy.defaultCacheDir}"/>
