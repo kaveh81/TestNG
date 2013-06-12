@@ -6,6 +6,10 @@
 				<artifact pattern="${ivy.localrepository.dir}/[organization]/[module]/[artifact]-[revision].[ext]"/>
 				<ivy pattern="${ivy.localrepository.dir}/[organization]/[module]/[module]-ivy-[revision].xml" />
 			</filesystem>
+			<url name="old-mir3-builds">
+				<ivy pattern="${mir3OldRepositoryBase}/ivyrep/[organization]/[module]/[module]-ivy-[revision].xml" />
+				<artifact pattern="${mir3OldRepositoryBase}/ivyrep/[organization]/[module]/[artifact]-[revision].[ext]" />
+			</url>
 			<url name="mir3-builds">
 				<ivy pattern="${mir3RepositoryBase}/ivyrep/[organization]/[module]/[module]-ivy-[revision].xml" />
 				<artifact pattern="${mir3RepositoryBase}/ivyrep/[organization]/[module]/[artifact]-[revision].[ext]" />
