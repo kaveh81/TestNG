@@ -12,6 +12,7 @@
 	<publications>
 		<artifact name="iText" ext="jar"/>
 		<artifact name="iText-src" type="src" ext="jar"/>
+		<artifact name="iTextAsian" ext="jar"/>
 		<artifact name="license" type="license" ext="txt"/>
 	</publications>
 
