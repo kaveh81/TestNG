@@ -1,0 +1,17 @@
+<project name="ivy-module-copy" default="copy" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+
+        <!-- put overrides in this file -->
+        <property file="${user.home}/${ant.project.name}.properties" />
+        <property file="${user.home}/build-tools.properties" />
+	<property name="ivy.repository.dir" value="${build-tools}/ivyrep"/>
+	<property file="${ivy.repository.dir}/ivy.properties"/>
+
+	<target name="copy" description="Copy a module from Maven to the MIR3 3rd-party repository">
+		<fail unless="organisation" message="The ${organisation} variable must be set with the organization to copy from"/>
+		<fail unless="module" message="The ${module} variable must be set with the name of the module to copy"/>
+		<fail unless="revision" message="The ${revision} variable must be set with the revision to copy from the source"/>
+		<fail unless="recursive" message="The ${recursive} variable must be set to either true or false, to recursively install dependencies"/>
+		<ivy:settings file="${ivy.repository.dir}/ivysettings-copy-from-maven.xml"/>
+		<ivy:install from="maven" to="from-maven" organisation="${organisation}" module="${module}" revision="${revision}" transitive="${recursive}" overwrite="${recursive}"/>
+	</target>
+</project>
