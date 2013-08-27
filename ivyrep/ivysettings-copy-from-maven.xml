@@ -9,7 +9,7 @@
 			<ibiblio name="maven-main" m2compatible="true"/>
 		</chain>
 		<filesystem name="from-maven">
-			<artifact pattern="${ivy.settings.dir}/from-maven/[organization]/[module]/[revision]/[artifact].[ext]" />
+			<artifact pattern="${ivy.settings.dir}/from-maven/[organization]/[module]/[revision]/[artifact]-[type].[ext]" />
 			<ivy pattern="${ivy.settings.dir}/from-maven/[organization]/[module]/[revision]/ivy-[module].xml" />
 		</filesystem>
 	</resolvers>
