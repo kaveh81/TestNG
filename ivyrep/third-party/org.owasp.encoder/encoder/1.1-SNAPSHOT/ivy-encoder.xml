@@ -12,7 +12,8 @@
 	</configurations>
 
 	<publications>
-		<artifact name="encoder" ext="jar"/>
+		<artifact name="encoder"/>
+		<artifact name="encoder-sources" type="src" ext="jar"/>
 		<artifact name="license" type="license" ext="txt"/>
 	</publications>
 
