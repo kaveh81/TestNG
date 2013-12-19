@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivyrep.jayasoft.org/ivy-doc.xsl"?>
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://incubator.apache.org/ivy/schemas/ivy.xsd" version="1.3">
+
+	<info organisation="jsr275" module="javaxmeasure" revision="1.0.0" status="release"/>
+
+	<configurations>
+		<conf name="default" visibility="public"/>
+	</configurations>
+
+	<publications>
+		<artifact name="javaxmeasure" ext="jar"/>
+		<artifact name="javaxmeasure-src" type="src" ext="jar"/>
+		<!-- <artifact name="license" type="license" ext="txt"/> -->
+	</publications>
+</ivy-module>
