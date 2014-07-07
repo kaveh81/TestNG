@@ -38,7 +38,7 @@
 		<artifact name="metrics-core" type="javadoc" ext="jar" conf="javadoc" m:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.5" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
+		<dependency org="org.slf4j" name="com.springsource.slf4j.api" rev="1.6.1" force="true" conf="compile->compile(*),master(*);runtime->runtime(*)"/>
 		<dependency org="junit" name="junit" rev="4.11" force="true" conf="test->runtime(*),master(*)"/>
 		<dependency org="org.easytesting" name="fest-assert-core" rev="2.0M10" force="true" conf="test->runtime(*),master(*)"/>
 		<dependency org="org.mockito" name="mockito-all" rev="1.9.5" force="true" conf="test->runtime(*),master(*)"/>

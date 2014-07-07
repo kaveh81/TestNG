@@ -49,7 +49,7 @@
 			<exclude org="org.apache.felix" module="javax.servlet" name="*" type="*" ext="*" conf="" matcher="exact"/>
 			<exclude org="org.apache.felix" module="org.osgi.foundation" name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
-		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.4" force="true" conf="optional->compile(*),master(*)"/>
+		<dependency org="org.slf4j" name="com.springsource.slf4j.api" rev="1.6.1" force="true" conf="optional->compile(*),master(*)"/>
 		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" force="true" conf="optional->compile(*),master(*)"/>
 		<dependency org="org.jboss.logging" name="jboss-logging-spi" rev="2.1.2.GA" force="true" conf="optional->compile(*),master(*)"/>
 		<dependency org="log4j" name="log4j" rev="1.2.16" force="true" conf="optional->compile(*),master(*)">
